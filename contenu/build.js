@@ -35,6 +35,7 @@ const sql = ["-- Généré par contenu/build.js : ne pas modifier à la main.",
 fs.mkdirSync(path.join(racine, "modules"), { recursive: true });
 
 let ordre = 0, nbV2 = 0;
+const modRows = [], cleRows = [];
 const index = anciens.map((n, ni) => ({
   id: n.id, nom: n.nom, sousTitre: n.sousTitre, verset: n.verset, description: n.description,
   modules: n.modules.map(ancien => {
@@ -43,9 +44,11 @@ const index = anciens.map((n, ni) => ({
     if (m.version === 2) nbV2++;
     ordre++;
     sql.push(`insert into public.modules (id, niveau, ordre, nb_lecons) values (${q(m.id)}, ${ni + 1}, ${ordre}, ${m.lecons.length});`);
+    modRows.push(`(${q(m.id)}, ${ni + 1}, ${ordre}, ${m.lecons.length})`);
     m.examen.forEach((x, i) => {
       if (!(x.bonne >= 0 && x.bonne < x.choix.length)) throw new Error(`Réponse invalide : ${m.id} question ${i}`);
       sql.push(`insert into public.cles_examen (module_id, question, reponse, explication) values (${q(m.id)}, ${i}, ${q(x.choix[x.bonne])}, ${q(x.explication || "")});`);
+      cleRows.push(`(${q(m.id)}, ${i}, ${q(x.choix[x.bonne])}, ${q(x.explication || "")})`);
     });
     const publicModule = { ...m, examen: m.examen.map(x => ({ q: x.q, choix: x.choix })) };
     fs.writeFileSync(path.join(racine, "modules", m.id + ".json"), JSON.stringify(publicModule));
@@ -63,4 +66,21 @@ for (const nom of ["schema", "cles_examen"]) {
   execFileSync("python3", [path.join(__dirname, "une_commande.py"),
     path.join(racine, "supabase", nom + ".sql"), path.join(racine, "supabase", nom + "_une_commande.sql")], { stdio: "inherit" });
 }
+// Version en plusieurs parties : chaque fichier = UNE commande de moins de 60 000 caractères
+// (l'éditeur SQL refuse plusieurs commandes et les requêtes de plus de 100 000 caractères).
+// Chaque partie peut être relancée sans risque (mise à jour si la ligne existe déjà).
+const dossier = path.join(racine, "supabase", "parties");
+fs.rmSync(dossier, { recursive: true, force: true }); fs.mkdirSync(dossier, { recursive: true });
+const parties = [`insert into public.modules (id, niveau, ordre, nb_lecons) values\n${modRows.join(",\n")}\non conflict (id) do update set niveau = excluded.niveau, ordre = excluded.ordre, nb_lecons = excluded.nb_lecons;`];
+const fin = "\non conflict (module_id, question) do update set reponse = excluded.reponse, explication = excluded.explication;";
+let lot = [];
+const vider = () => { if (lot.length) parties.push(`insert into public.cles_examen (module_id, question, reponse, explication) values\n${lot.join(",\n")}${fin}`); lot = []; };
+for (const r of cleRows) { if ((lot.join(",\n") + r).length > 55000) vider(); lot.push(r); }
+vider();
+parties.forEach((c, i) => {
+  const nom = `cles_partie_${String(i + 1).padStart(2, "0")}_sur_${String(parties.length).padStart(2, "0")}.sql`;
+  if (c.length > 60000) throw new Error(nom + " trop long");
+  fs.writeFileSync(path.join(dossier, nom), c + "\n");
+});
+console.log(`supabase/parties : ${parties.length} fichiers`);
 console.log(`programme.json, modules/ (${ordre} modules dont ${nbV2} approfondis) et SQL régénérés`);

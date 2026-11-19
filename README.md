@@ -34,7 +34,7 @@ Hébergement : **Vercel** (le site) + **Supabase** (comptes et base de données)
 ### 1. Supabase
 1. Créez un projet sur [supabase.com](https://supabase.com).
 2. **SQL Editor** : collez et exécutez `supabase/schema.sql`, puis `supabase/cles_examen.sql`.
-   Si votre outil affiche « impossible d'insérer plusieurs commandes dans une instruction préparée », utilisez plutôt `supabase/schema_une_commande.sql` puis `supabase/cles_examen_une_commande.sql` (mêmes commandes, regroupées en une seule ; régénérées par `python3 contenu/une_commande.py`).
+   Si votre outil refuse plusieurs commandes ou les requêtes de plus de 100 000 caractères, exécutez plutôt `supabase/schema_une_commande.sql`, puis chaque fichier de `supabase/parties/` dans l'ordre (une commande de moins de 60 000 caractères chacun, relançable sans risque).
 3. **Authentication → URL Configuration** : mettez l'adresse Vercel du site dans *Site URL* et dans *Redirect URLs* (pour les liens de confirmation et de mot de passe oublié).
 4. **Project Settings → API** : notez la *Project URL* et la clé **anon public**. N'utilisez jamais la clé `service_role` dans le site.
 
