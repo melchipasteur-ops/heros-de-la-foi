@@ -3,14 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
-</head>
-<body>
 <title>Héro de la Foi</title>
-<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Programme de formation biblique en 4 niveaux : cours, examens en ligne, attestations.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>:root{padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 <style>
 /* Layout : en-tête sticky, colonne de lecture 960px ; niveaux codés par couleur, laiton = réussite / attestation */
 :root{
@@ -72,7 +69,7 @@ main{padding-block:28px 64px;display:grid;gap:28px}
 .mods button{width:100%;text-align:left;display:flex;gap:10px;align-items:center;background:var(--surface2);border:1px solid transparent;border-radius:10px;padding:8px 10px;cursor:pointer}
 .mods button:hover{border-color:var(--lc)}
 .mods .t{flex:1;min-width:0}
-.pill{font-size:.75rem;font-weight:700;padding:2px 8px;border-radius:99px;white-space:nowrap;background:var(--surface);color:var(--muted);border:1px solid var(--line)}
+.pill{align-self:center;font-size:.75rem;font-weight:700;padding:2px 8px;border-radius:99px;white-space:nowrap;background:var(--surface);color:var(--muted);border:1px solid var(--line)}
 .pill.ok{background:var(--ok-soft);color:var(--ok);border-color:transparent}
 .pill.cert{background:var(--brass-soft);color:var(--brass);border-color:transparent}
 .pill.bad{background:var(--bad-soft);color:var(--bad);border-color:transparent}
@@ -127,49 +124,60 @@ tr:last-child td{border-bottom:0}
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--navy);color:var(--bg);padding:10px 16px;border-radius:10px;font-weight:600;z-index:20;max-width:calc(100% - 32px)}
 .prog-table td:first-child{min-width:220px}
 @media (prefers-reduced-motion:no-preference){.bar>i{transition:width .4s ease}}
+.auth{display:grid;gap:14px;max-width:520px}
+.seg{display:flex;gap:4px;background:var(--surface2);padding:4px;border-radius:10px}
+.seg button{flex:1;border:0;background:none;padding:8px;border-radius:8px;cursor:pointer;font-weight:600;color:var(--muted)}
+.seg button[aria-selected="true"]{background:var(--surface);color:var(--ink)}
+input[type=email],input[type=password]{width:100%;border:1px solid var(--line);border-radius:10px;padding:9px 12px;background:var(--bg)}
 </style>
-
+</head>
+<body>
 <header class="top"><div class="wrap">
   <button class="brand" id="brand" type="button" aria-label="Accueil">
     <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3 L28 8 V16 C28 23 22.5 27.5 16 29 C9.5 27.5 4 23 4 16 V8 Z" fill="var(--navy)"/><path d="M16 9 V23 M11 14 H21" stroke="var(--brass)" stroke-width="2.6" stroke-linecap="round"/></svg>
     Héro de la Foi
   </button>
-  <nav class="tabs" aria-label="Navigation">
+  <nav class="tabs" aria-label="Navigation" id="nav" hidden>
     <button type="button" data-view="parcours" id="tab-parcours">Mon parcours</button>
     <button type="button" data-view="programme" id="tab-programme">Programme</button>
     <button type="button" data-view="enseignant" id="tab-enseignant" hidden>Espace enseignant</button>
+    <button type="button" id="logout">Se déconnecter</button>
   </nav>
 </div></header>
 
-<div class="wrap"><main id="app"><div class="empty">Chargement du programme…</div></main></div>
+<div class="wrap"><main id="app"><div class="empty">Chargement…</div></main></div>
 <div class="toast" id="toast" hidden></div>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script>
 (function(){
 "use strict";
-const SEUIL = 0.8;          // 4 bonnes réponses sur 5
-const MIN_PRATIQUE = 80;    // caractères minimum pour le témoignage de foi agissante
-const LS_KEY = "hdf-progression-v1";
+const SEUIL = 0.8;
+const MIN_PRATIQUE = 80;
 const $app = document.getElementById("app");
 const S = {
   prog:null, view:"parcours", moduleId:null, exam:null,
+  sb:null, session:null, profil:null, recovery:false, authMode:"connexion",
   etu:{nom:"", eglise:"", modules:{}, lecons:{}, evaluations:{}},
-  mode:"local", db:null, user:null, uid:null, docRef:null, canEdit:false,
-  etudiants:[], selEtu:null, downloads:null
+  etudiants:[], selEtu:null
 };
 
 // ---------- utilitaires ----------
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const pct = (a,b) => b ? Math.round(a*100/b) : 0;
 const fmtDate = iso => { try{ return new Date(iso).toLocaleDateString("fr-FR",{day:"numeric",month:"long",year:"numeric"}); }catch(e){ return ""; } };
-function toast(msg){ const t=document.getElementById("toast"); t.textContent=msg; t.hidden=false; clearTimeout(toast._t); toast._t=setTimeout(()=>t.hidden=true,3200); }
+function toast(msg){ const t=document.getElementById("toast"); t.textContent=msg; t.hidden=false; clearTimeout(toast._t); toast._t=setTimeout(()=>t.hidden=true,3800); }
 function shuffle(a){ a=a.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]];} return a; }
-function hash(s){ let h=2166136261; for(const c of s){ h^=c.charCodeAt(0); h=Math.imul(h,16777619);} return (h>>>0).toString(36).toUpperCase().padStart(6,"0").slice(0,6); }
 function allModules(){ return S.prog.niveaux.flatMap(n=>n.modules.map(m=>({...m, niveau:n}))); }
 function findModule(id){ return allModules().find(m=>m.id===id); }
 function niveauIndex(n){ return S.prog.niveaux.indexOf(n)+1; }
+function erreur(e){
+  const m = (e && (e.message||e.error_description)) || "Erreur inconnue";
+  const fr = {"Invalid login credentials":"Adresse ou mot de passe incorrect.","Email not confirmed":"Confirmez d'abord votre adresse en cliquant sur le lien reçu par e-mail.","User already registered":"Un compte existe déjà avec cette adresse. Connectez-vous.","Password should be at least 6 characters.":"Le mot de passe doit contenir au moins 6 caractères."};
+  return fr[m] || m;
+}
 
-// statut d'un module pour l'étudiant courant
 function statut(m, etu){
   etu = etu || S.etu;
   const r = (etu.modules||{})[m.id] || {};
@@ -180,58 +188,38 @@ function statut(m, etu){
 }
 function niveauFini(n, etu){ return n.modules.every(m=>statut(m,etu).certifie); }
 
-// ---------- stockage ----------
-function loadLocal(){ try{ const v=JSON.parse(localStorage.getItem(LS_KEY)||"null"); if(v) S.etu={...S.etu,...v}; }catch(e){} }
-function saveLocal(){ try{ localStorage.setItem(LS_KEY, JSON.stringify(S.etu)); }catch(e){} }
-let saveQueue = Promise.resolve();
-function save(fields){
-  Object.assign(S.etu, fields);
-  saveLocal();
-  if(S.mode!=="db" || !S.docRef) return;
-  const payload = {...fields, maj:new Date().toISOString()};
-  saveQueue = saveQueue.then(async ()=>{
-    try{
-      const snap = await S.docRef.get();
-      if(!snap.exists) await S.docRef.set({nom:S.etu.nom||"", eglise:S.etu.eglise||"", modules:S.etu.modules||{}, lecons:S.etu.lecons||{}, inscrit:new Date().toISOString(), ...payload});
-      else await S.docRef.update(payload);
-    }catch(e){
-      S.mode="local"; render();
-      toast("Enregistrement en ligne impossible : votre progression est gardée sur cet appareil.");
-    }
-  });
+// ---------- données Supabase ----------
+function etuDepuis(p, rows){
+  const e = {id:p.id, nom:p.nom||"", eglise:p.eglise||"", inscrit:p.inscrit, role:p.role, modules:{}, lecons:{}, evaluations:{}, maj:null};
+  for(const r of rows){
+    e.modules[r.module_id] = {meilleur: r.tentatives ? Number(r.meilleur) : null, dernier:r.dernier, tentatives:r.tentatives, pratique:r.pratique, certNo:r.cert_no, certDate:r.cert_date};
+    (r.lecons||[]).forEach(i=>{ e.lecons[r.module_id+"-"+i]=true; });
+    if(r.note!=null || r.commentaire) e.evaluations[r.module_id] = {note:r.note, commentaire:r.commentaire};
+    if(!e.maj || r.maj>e.maj) e.maj = r.maj;
+  }
+  return e;
 }
-
-async function initCapabilities(){
-  if(!window.claude || typeof window.claude.use!=="function") return;
-  try{
-    const [db,user,dl] = await Promise.all([claude.use("db"), claude.use("user"), claude.use("downloads")]);
-    S.downloads = dl;
-    if(user){ S.user=user; S.canEdit = await user.canEdit().catch(()=>false); S.uid = await user.id().catch(()=>null); }
-    if(db && S.uid){
-      S.db=db; S.docRef=db.doc("resultats/"+S.uid);
-      const timer=setTimeout(()=>{ if(S.mode!=="db"){ render(); } },10000);
-      S.docRef.onSnapshot(snap=>{
-        clearTimeout(timer);
-        S.mode="db";
-        if(snap.exists){
-          const d=snap.data()||{};
-          S.etu={nom:d.nom||"", eglise:d.eglise||"", modules:d.modules||{}, lecons:d.lecons||{}, evaluations:d.evaluations||{}};
-          saveLocal();
-        }else if(Object.keys(S.etu.modules||{}).length || S.etu.nom){
-          save({}); // reprend la progression locale
-        }
-        if(!(S.view==="examen" && S.exam && !S.exam.fini)) render();
-      }, ()=>{ clearTimeout(timer); S.mode="local"; render(); });
-      if(S.canEdit){
-        db.collection("resultats").onSnapshot(qs=>{
-          S.etudiants = qs.docs.map(d=>({id:d.id, ...(d.data()||{})}));
-          if(S.view==="enseignant") render();
-        }, ()=>{});
-      }
-    }
-  }catch(e){}
-  document.getElementById("tab-enseignant").hidden = !S.canEdit;
-  render();
+async function chargerEtu(){
+  const uid = S.session.user.id;
+  const [p, g] = await Promise.all([
+    S.sb.from("profils").select("*").eq("id",uid).maybeSingle(),
+    S.sb.from("progression").select("*").eq("user_id",uid)
+  ]);
+  if(p.error) throw p.error; if(g.error) throw g.error;
+  S.profil = p.data || {id:uid, nom:"", eglise:"", role:"etudiant"};
+  S.etu = etuDepuis(S.profil, g.data||[]);
+  document.getElementById("tab-enseignant").hidden = S.profil.role!=="enseignant";
+}
+async function chargerEnseignant(){
+  const [p, g] = await Promise.all([S.sb.from("profils").select("*"), S.sb.from("progression").select("*")]);
+  if(p.error||g.error){ toast(erreur(p.error||g.error)); return; }
+  const rows = g.data||[];
+  S.etudiants = (p.data||[]).map(x=>etuDepuis(x, rows.filter(r=>r.user_id===x.id)));
+}
+async function rpc(fn, args){
+  const {data, error} = await S.sb.rpc(fn, args);
+  if(error){ toast(erreur(error)); throw error; }
+  return data;
 }
 
 // ---------- navigation ----------
@@ -239,40 +227,72 @@ function go(view, moduleId){
   S.view=view; if(moduleId!==undefined) S.moduleId=moduleId;
   if(view!=="examen") S.exam=null;
   const h = view==="module"||view==="examen" ? "m-"+S.moduleId : view;
-  if(location.hash!=="#"+h){ try{ history.replaceState(null,"","#"+h); }catch(e){ location.hash=h; } }
+  if(location.hash!=="#"+h){ try{ history.replaceState(null,"","#"+h); }catch(e){} }
+  if(view==="enseignant") chargerEnseignant().then(render);
   render(); window.scrollTo({top:0});
 }
 function fromHash(){
   const h=(location.hash||"").slice(1);
   if(h.startsWith("m-") && findModule(h.slice(2))){ S.view="module"; S.moduleId=h.slice(2); }
-  else if(["parcours","programme","enseignant"].includes(h)) S.view=h;
+  else if(["parcours","programme","enseignant","verifier"].includes(h)) S.view=h;
 }
-document.getElementById("brand").onclick=()=>go("parcours");
-document.querySelectorAll("nav.tabs button").forEach(b=>b.onclick=()=>go(b.dataset.view));
-window.addEventListener("hashchange",()=>{ if(!S.prog) return; fromHash(); render(); });
+document.getElementById("brand").onclick=()=>go(S.session?"parcours":"connexion");
+document.querySelectorAll("nav.tabs button[data-view]").forEach(b=>b.onclick=()=>go(b.dataset.view));
+document.getElementById("logout").onclick=async()=>{ await S.sb.auth.signOut(); };
 
 // ---------- rendu ----------
 function render(){
   if(!S.prog) return;
-  document.querySelectorAll("nav.tabs button").forEach(b=>b.setAttribute("aria-current", b.dataset.view===S.view || (b.dataset.view==="parcours" && (S.view==="module"||S.view==="examen")) ? "page":"false"));
-  const v = {parcours:vParcours, programme:vProgramme, module:vModule, examen:vExamen, enseignant:vEnseignant}[S.view] || vParcours;
-  $app.innerHTML = v();
+  document.getElementById("nav").hidden = !S.session || S.recovery;
+  document.querySelectorAll("nav.tabs button[data-view]").forEach(b=>b.setAttribute("aria-current", b.dataset.view===S.view || (b.dataset.view==="parcours" && (S.view==="module"||S.view==="examen")) ? "page":"false"));
+  let html;
+  if(S.view==="verifier") html=vVerifier();
+  else if(S.recovery) html=vNouveauMdp();
+  else if(!S.session) html=vAuth();
+  else html = ({parcours:vParcours, programme:vProgramme, module:vModule, examen:vExamen, enseignant:vEnseignant}[S.view] || vParcours)();
+  $app.innerHTML = html;
   bind();
 }
 
-function banner(){
-  if(S.mode==="db") return "";
-  return `<div class="banner">Votre progression est enregistrée sur cet appareil seulement. Pour qu'elle soit visible par votre enseignant, ouvrez la plateforme connecté à votre compte avec un accès « contributeur ».</div>`;
+function vAuth(){
+  const m=S.authMode;
+  return `<section class="hero"><p class="eyebrow">Programme de formation biblique</p><h1>De la conversion à la maturité&nbsp;: devenir un héros de la foi</h1>
+    <p class="lead">Quatre niveaux, vingt-quatre modules, des examens en ligne et une attestation pour chaque module réussi. Créez votre compte pour commencer, ou connectez-vous pour reprendre votre parcours.</p></section>
+  <form class="panel auth" id="auth-form" novalidate>
+    <div class="seg" role="tablist">
+      <button type="button" role="tab" data-mode="connexion" aria-selected="${m==="connexion"}">Se connecter</button>
+      <button type="button" role="tab" data-mode="inscription" aria-selected="${m==="inscription"}">Créer un compte</button>
+    </div>
+    ${m==="inscription" ? `<label class="f" for="a-nom">Nom complet <span class="hint">(il figurera sur vos attestations)</span><input type="text" id="a-nom" autocomplete="name" maxlength="80" required></label>
+      <label class="f" for="a-eglise">Église ou assemblée <span class="hint">(facultatif)</span><input type="text" id="a-eglise" maxlength="80"></label>` : ""}
+    <label class="f" for="a-email">Adresse e-mail<input type="email" id="a-email" autocomplete="email" required></label>
+    ${m!=="oubli" ? `<label class="f" for="a-mdp">Mot de passe<input type="password" id="a-mdp" autocomplete="${m==="inscription"?"new-password":"current-password"}" minlength="6" required></label>` : `<p class="hint">Nous vous enverrons un lien pour choisir un nouveau mot de passe.</p>`}
+    <div class="row"><button class="btn primary" type="submit">${m==="connexion"?"Se connecter":m==="inscription"?"Créer mon compte":"Envoyer le lien"}</button>
+      ${m==="connexion" ? `<button class="btn small" type="button" data-mode="oubli">Mot de passe oublié ?</button>` : ""}
+      ${m==="oubli" ? `<button class="btn small" type="button" data-mode="connexion">Retour</button>` : ""}</div>
+    <p class="hint" id="a-msg" role="status"></p>
+  </form>
+  <p class="hint">Vous avez reçu une attestation et voulez la vérifier ? <a href="#verifier">Vérifier une attestation</a></p>`;
+}
+function vNouveauMdp(){
+  return `<form class="panel auth" id="mdp-form"><h2>Choisir un nouveau mot de passe</h2>
+    <label class="f" for="n-mdp">Nouveau mot de passe<input type="password" id="n-mdp" autocomplete="new-password" minlength="6" required></label>
+    <div class="row"><button class="btn primary" type="submit">Enregistrer</button></div><p class="hint" id="n-msg" role="status"></p></form>`;
+}
+function vVerifier(){
+  return `<section class="hero"><p class="eyebrow">Vérification</p><h1>Vérifier une attestation</h1><p class="lead">Saisissez le numéro inscrit en bas de l'attestation, par exemple HDF-N1M1-1A2B3C.</p></section>
+  <form class="panel auth" id="verif-form"><label class="f" for="v-no">Numéro d'attestation<input type="text" id="v-no" maxlength="40" required></label>
+  <div class="row"><button class="btn primary" type="submit">Vérifier</button><a class="btn small" href="#parcours">Retour</a></div><div id="v-res"></div></form>`;
 }
 
 function profilForm(){
   return `<section class="panel" style="display:grid;gap:14px">
     <div><p class="eyebrow">Votre fiche d'étudiant</p><h2>Le nom qui figurera sur vos attestations</h2></div>
     <div class="grid2">
-      <label class="f" for="p-nom">Nom complet<input type="text" id="p-nom" value="${esc(S.etu.nom)}" placeholder="Ex. : Jean-Baptiste Mukendi" maxlength="80"></label>
+      <label class="f" for="p-nom">Nom complet<input type="text" id="p-nom" value="${esc(S.etu.nom)}" maxlength="80"></label>
       <label class="f" for="p-eglise">Église ou assemblée <span class="hint">(facultatif)</span><input type="text" id="p-eglise" value="${esc(S.etu.eglise)}" maxlength="80"></label>
     </div>
-    <div class="row"><button class="btn primary" id="p-save" type="button">Enregistrer ma fiche</button></div>
+    <div class="row"><button class="btn primary" id="p-save" type="button">Enregistrer ma fiche</button><span class="hint">Connecté : ${esc(S.session.user.email)}</span></div>
   </section>`;
 }
 
@@ -282,10 +302,9 @@ function vParcours(){
   const scores = mods.map(m=>statut(m).r.meilleur).filter(x=>x!=null);
   const moy = scores.length ? Math.round(scores.reduce((a,b)=>a+b,0)/scores.length*100) : null;
   const next = mods.find(m=>!statut(m).certifie);
-  return `${banner()}
-  <section class="hero">
+  return `<section class="hero">
     <p class="eyebrow">${S.etu.nom ? "Bienvenue, "+esc(S.etu.nom) : "Programme de formation biblique"}</p>
-    <h1>De la conversion à la maturité : devenir un héros de la foi</h1>
+    <h1>De la conversion à la maturité&nbsp;: devenir un héros de la foi</h1>
     <p class="lead">Quatre niveaux, vingt-quatre modules. Chaque module se termine par un examen en ligne et une mise en pratique. Réussir les deux vous donne une attestation ; terminer un niveau vous donne un diplôme.</p>
     <p class="verse">« Ainsi en est-il de la foi : si elle n'a pas les œuvres, elle est morte en elle-même. » Jacques 2.17</p>
   </section>
@@ -336,9 +355,8 @@ function vProgramme(){
 function vModule(){
   const m = findModule(S.moduleId); if(!m) return vParcours();
   const n=m.niveau, i=niveauIndex(n), s=statut(m), ev=(S.etu.evaluations||{})[m.id];
-  return `${banner()}
-  <nav class="crumbs" aria-label="Fil d'Ariane"><button type="button" data-go="parcours">Mon parcours</button><span>›</span><span>Niveau ${i} · ${esc(n.nom)}</span></nav>
-  <section class="hero" style="--lc:var(--n${i})"><p class="eyebrow" style="color:var(--n${i})">Module ${n.modules.indexOf(m)+1} sur ${n.modules.length}</p><h1>${esc(m.titre)}</h1><p class="lead"><b>Objectif :</b> ${esc(m.objectif)}</p></section>
+  return `<nav class="crumbs" aria-label="Fil d'Ariane"><button type="button" data-go="parcours">Mon parcours</button><span>›</span><span>Niveau ${i} · ${esc(n.nom)}</span></nav>
+  <section class="hero"><p class="eyebrow" style="color:var(--n${i})">Module ${n.modules.indexOf(m)+1} sur ${n.modules.length}</p><h1>${esc(m.titre)}</h1><p class="lead"><b>Objectif :</b> ${esc(m.objectif)}</p></section>
   <section class="steps" aria-label="Avancement">
     <div class="step ${s.lus===3?"on":""}"><b>Leçons</b>${s.lus} / 3 lues</div>
     <div class="step ${s.pratique?"on":""}"><b>Foi agissante</b>${s.pratique?"Témoignage déposé":"À faire"}</div>
@@ -360,11 +378,11 @@ function vModule(){
     <label class="f" for="pratique">Votre témoignage <span class="hint">(au moins ${MIN_PRATIQUE} caractères ; votre enseignant pourra le lire et le noter)</span>
       <textarea id="pratique" maxlength="4000">${esc(s.r.pratique||"")}</textarea></label>
     <div class="row"><button class="btn" id="save-pratique" type="button">Enregistrer mon témoignage</button><span class="hint" id="pr-count"></span></div>
-    ${ev ? `<div class="keep" style="background:var(--surface2);border-color:var(--navy)">Appréciation de l'enseignant${ev.note!=null&&ev.note!==""?` : <b>${esc(ev.note)}/20</b>`:""}${ev.commentaire?`<br><span style="font-weight:400">${esc(ev.commentaire)}</span>`:""}</div>`:""}
+    ${ev ? `<div class="keep" style="background:var(--surface2);border-color:var(--navy)">Appréciation de l'enseignant${ev.note!=null?` : <b>${esc(ev.note)}/20</b>`:""}${ev.commentaire?`<br><span style="font-weight:400">${esc(ev.commentaire)}</span>`:""}</div>`:""}
   </section>
   <section class="panel" style="display:grid;gap:12px">
     <div><p class="eyebrow">Évaluation</p><h2>Examen du module</h2></div>
-    <p class="hint">5 questions, ordre des réponses mélangé à chaque tentative. Il faut au moins 4 bonnes réponses. Vous pouvez repasser l'examen autant de fois que nécessaire ; la meilleure note est conservée.${s.tentatives?` Tentatives : ${s.tentatives}.`:""}</p>
+    <p class="hint">5 questions corrigées en ligne. Il faut au moins 4 bonnes réponses. Vous pouvez repasser l'examen autant de fois que nécessaire ; la meilleure note est conservée.${s.tentatives?` Tentatives : ${s.tentatives}.`:""}</p>
     <div class="row"><button class="btn primary" type="button" data-go="examen">${s.tentatives?"Repasser l'examen":"Commencer l'examen"}</button></div>
   </section>
   ${certSection(m,s)}`;
@@ -384,49 +402,52 @@ function certSection(m,s){
 function vExamen(){
   const m = findModule(S.moduleId);
   if(!S.exam){
-    S.exam = { questions: shuffle(m.examen.map((q,qi)=>({qi, q:q[0], choix: shuffle(q[1].map((c,ci)=>({c, ok: ci===q[2]})))}))), rep:{}, fini:false };
+    S.exam = { questions: shuffle(m.examen.map((q,qi)=>({qi, q:q[0], choix: shuffle(q[1])}))), rep:{}, fini:false, res:null, envoi:false };
   }
   const E=S.exam;
   let res="";
-  if(E.fini){
-    const ok=E.questions.filter((q,i)=>q.choix[E.rep[i]]?.ok).length, tot=E.questions.length, pass=ok/tot>=SEUIL;
-    res = `<section class="panel score" style="border-color:${pass?"var(--ok)":"var(--bad)"}"><div class="big" style="color:${pass?"var(--ok)":"var(--bad)"}">${ok}/${tot}</div><div style="flex:1;min-width:200px"><h3>${pass?"Examen réussi !":"Pas encore : il faut 4 bonnes réponses."}</h3><p class="hint">${pass?"Votre note est enregistrée. Retournez au module pour recevoir votre attestation.":"Relisez les leçons puis réessayez. Les corrections sont affichées ci-dessous."}</p></div>
+  if(E.fini && E.res){
+    const ok=E.res.score, tot=E.res.total, pass=ok/tot>=SEUIL;
+    res = `<section class="panel score" style="border-color:${pass?"var(--ok)":"var(--bad)"}"><div class="big" style="color:${pass?"var(--ok)":"var(--bad)"}">${ok}/${tot}</div><div style="flex:1;min-width:200px"><h3>${pass?"Examen réussi !":"Pas encore : il faut 4 bonnes réponses."}</h3><p class="hint">${pass?"Votre note est enregistrée. Retournez au module pour recevoir votre attestation.":"Les questions manquées sont marquées en rouge. Relisez les leçons puis réessayez."}</p></div>
     <div class="row"><button class="btn primary" type="button" data-go="module">Retour au module</button>${pass?"":`<button class="btn" type="button" id="retry">Réessayer</button>`}</div></section>`;
   }
+  const justes = new Set((E.res&&E.res.justes)||[]);
   return `<nav class="crumbs"><button type="button" data-go="parcours">Mon parcours</button><span>›</span><button type="button" data-go="module">${esc(m.titre)}</button><span>›</span><span>Examen</span></nav>
   <section class="hero"><p class="eyebrow">Examen en ligne</p><h1>${esc(m.titre)}</h1></section>
   ${res}
   <form class="panel" id="exam-form">
-    ${E.questions.map((q,i)=>`<fieldset class="q"><legend>${i+1}. ${esc(q.q)}</legend>
-      ${q.choix.map((c,ci)=>{ let cls=""; if(E.fini){ if(c.ok) cls="right"; else if(E.rep[i]===ci) cls="wrong"; }
-        return `<label class="opt ${cls}" for="q${i}-${ci}"><input type="radio" name="q${i}" id="q${i}-${ci}" value="${ci}" ${E.rep[i]===ci?"checked":""} ${E.fini?"disabled":""}><span>${esc(c.c)}</span></label>`; }).join("")}
+    ${E.questions.map((q,i)=>`<fieldset class="q"><legend>${i+1}. ${esc(q.q)}${E.fini?(justes.has(q.qi)?` <span class="pill ok">Juste</span>`:` <span class="pill bad">Faux</span>`):""}</legend>
+      ${q.choix.map((c,ci)=>{ let cls="";
+        if(E.fini){ const bonne=E.res.bonnes && E.res.bonnes[q.qi];
+          if(bonne!=null && c===bonne) cls="right";
+          else if(E.rep[i]===ci) cls = justes.has(q.qi) ? "right" : "wrong"; }
+        return `<label class="opt ${cls}" for="q${i}-${ci}"><input type="radio" name="q${i}" id="q${i}-${ci}" value="${ci}" ${E.rep[i]===ci?"checked":""} ${E.fini?"disabled":""}><span>${esc(c)}</span></label>`; }).join("")}
     </fieldset>`).join("")}
-    ${E.fini?"":`<div class="row" style="padding-top:12px"><button class="btn primary" type="submit">Valider mes réponses</button><span class="hint" id="ex-hint"></span></div>`}
+    ${E.fini?"":`<div class="row" style="padding-top:12px"><button class="btn primary" type="submit" ${E.envoi?"disabled":""}>${E.envoi?"Correction…":"Valider mes réponses"}</button><span class="hint" id="ex-hint"></span></div>`}
   </form>`;
 }
 
 function vEnseignant(){
-  if(!S.canEdit) return `<div class="empty">Cet espace est réservé aux enseignants de la formation.</div>`;
+  if(!S.profil || S.profil.role!=="enseignant") return `<div class="empty">Cet espace est réservé aux enseignants de la formation.</div>`;
   const mods = allModules();
-  const list = S.etudiants.slice().sort((a,b)=>(b.maj||"").localeCompare(a.maj||""));
+  const list = S.etudiants.filter(e=>e.role!=="enseignant" || Object.keys(e.modules).length).slice().sort((a,b)=>(b.maj||"").localeCompare(a.maj||""));
   const nbCert = e => mods.filter(m=>statut(m,e).certifie).length;
   const moyE = e => { const v=mods.map(m=>statut(m,e).r.meilleur).filter(x=>x!=null); return v.length?Math.round(v.reduce((a,b)=>a+b,0)/v.length*100):null; };
   const totalCert = list.reduce((a,e)=>a+nbCert(e),0);
-  const aNoter = list.reduce((a,e)=>a+mods.filter(m=>{const s=statut(m,e); return s.pratique && !((e.evaluations||{})[m.id]);}).length,0);
+  const aNoter = list.reduce((a,e)=>a+mods.filter(m=>statut(m,e).pratique && !e.evaluations[m.id]).length,0);
   const sel = list.find(e=>e.id===S.selEtu);
-  return `<section class="hero"><p class="eyebrow">Espace enseignant</p><h1>Suivi et notation des étudiants</h1><p class="lead">Les résultats d'examens arrivent ici en direct. Ouvrez la fiche d'un étudiant pour lire ses témoignages de foi agissante et lui donner une note sur 20 avec une appréciation.</p></section>
+  return `<section class="hero"><p class="eyebrow">Espace enseignant</p><h1>Suivi et notation des étudiants</h1><p class="lead">Ouvrez la fiche d'un étudiant pour lire ses témoignages de foi agissante et lui donner une note sur 20 avec une appréciation.</p><div class="row"><button class="btn small" type="button" id="refresh">Actualiser</button></div></section>
   <section class="stats"><div class="stat"><div class="v">${list.length}</div><div class="l">étudiants inscrits</div></div><div class="stat"><div class="v">${totalCert}</div><div class="l">attestations délivrées</div></div><div class="stat"><div class="v">${aNoter}</div><div class="l">témoignages à noter</div></div></section>
   ${list.length ? `<div class="tbl"><table><thead><tr><th>Étudiant</th><th>Église</th><th>Attestations</th><th>Moyenne examens</th><th>Dernière activité</th><th></th></tr></thead><tbody>
     ${list.map(e=>{const m=moyE(e); return `<tr><td><b>${esc(e.nom||"Sans nom")}</b></td><td>${esc(e.eglise||"–")}</td><td>${nbCert(e)} / ${mods.length}</td><td>${m==null?"–":m+" %"}</td><td>${e.maj?fmtDate(e.maj):"–"}</td><td><button class="btn small" type="button" data-etu="${esc(e.id)}">${S.selEtu===e.id?"Fermer":"Ouvrir"}</button></td></tr>`;}).join("")}
-  </tbody></table></div>` : `<div class="panel empty">Aucun étudiant pour l'instant. Partagez le lien de la plateforme avec vos étudiants (accès « contributeur ») : leurs résultats apparaîtront ici dès leur premier examen.</div>`}
+  </tbody></table></div>` : `<div class="panel empty">Aucun étudiant pour l'instant. Partagez l'adresse de la plateforme : chaque étudiant crée son compte et apparaît ici.</div>`}
   ${sel ? ficheEtu(sel) : ""}`;
 }
 
 function ficheEtu(e){
-  const ev = e.evaluations||{};
   const touched = allModules().filter(m=>{const s=statut(m,e); return s.tentatives||s.r.pratique;});
-  return `<section class="panel" style="display:grid;gap:14px"><div><p class="eyebrow">Fiche étudiant</p><h2>${esc(e.nom||"Sans nom")}</h2><p class="hint">${esc(e.eglise||"")}${e.inscrit?" · inscrit le "+fmtDate(e.inscrit):""}</p></div>
-  ${touched.length ? touched.map(m=>{const s=statut(m,e), x=ev[m.id]||{}; return `<div class="panel" style="background:var(--surface2);display:grid;gap:8px">
+  return `<section class="panel" style="display:grid;gap:14px"><div><p class="eyebrow">Fiche étudiant</p><h2>${esc(e.nom||"Sans nom")}</h2><p class="hint">${[e.eglise, e.inscrit?"inscrit le "+fmtDate(e.inscrit):""].filter(Boolean).map(esc).join(" · ")}</p></div>
+  ${touched.length ? touched.map(m=>{const s=statut(m,e), x=e.evaluations[m.id]||{}; return `<div class="panel" style="background:var(--surface2);display:grid;gap:8px">
     <div class="row" style="justify-content:space-between"><b>${esc(m.titre)}</b><span class="row" style="gap:6px">${s.r.meilleur!=null?`<span class="pill ${s.reussi?"ok":"bad"}">Examen ${Math.round(s.r.meilleur*100)} % · ${s.tentatives} essai(s)</span>`:""}${s.certifie?`<span class="pill cert">N° ${esc(s.r.certNo)}</span>`:""}</span></div>
     <p class="hint">Niveau ${niveauIndex(m.niveau)} · ${esc(m.niveau.nom)}</p>
     ${s.r.pratique?`<div><b>Témoignage de foi agissante</b><p style="white-space:pre-wrap">${esc(s.r.pratique)}</p></div>`:`<p class="hint">Pas encore de témoignage.</p>`}
@@ -434,49 +455,91 @@ function ficheEtu(e){
       <label class="f" for="note-${m.id}" style="width:110px">Note /20<input type="text" inputmode="decimal" id="note-${m.id}" value="${esc(x.note??"")}"></label>
       <label class="f" for="com-${m.id}" style="flex:1;min-width:200px">Appréciation<input type="text" id="com-${m.id}" value="${esc(x.commentaire||"")}" maxlength="500"></label>
       <button class="btn small primary" type="button" data-noter="${m.id}">Enregistrer</button>
-    </div></div>`;}).join("") : `<p class="hint">Cet étudiant n'a encore passé aucun examen.</p>`}
+    </div></div>`;}).join("") : `<p class="hint">Cet étudiant n'a encore commencé aucun module.</p>`}
   </section>`;
 }
 
 // ---------- interactions ----------
+async function apres(promesse, message){
+  try{ await promesse; await chargerEtu(); if(message) toast(message); }catch(e){}
+  render();
+}
 function bind(){
   $app.querySelectorAll("[data-open]").forEach(b=>b.onclick=()=>go("module",b.dataset.open));
   $app.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>go(b.dataset.go));
-  $app.querySelectorAll("[data-lu]").forEach(b=>b.onclick=()=>{ const l={...(S.etu.lecons||{})}; l[S.moduleId+"-"+b.dataset.lu]=true; save({lecons:l}); render(); });
+  $app.querySelectorAll("[data-mode]").forEach(b=>b.onclick=()=>{ S.authMode=b.dataset.mode; render(); });
+  $app.querySelectorAll("[data-lu]").forEach(b=>b.onclick=()=>{ b.disabled=true; apres(rpc("marquer_lecon",{p_module:S.moduleId, p_lecon:+b.dataset.lu})); });
   $app.querySelectorAll("[data-pdf]").forEach(b=>b.onclick=()=>pdfModule(findModule(b.dataset.pdf)));
   $app.querySelectorAll("[data-diplome]").forEach(b=>b.onclick=()=>pdfNiveau(S.prog.niveaux.find(n=>n.id===b.dataset.diplome)));
   $app.querySelectorAll("[data-etu]").forEach(b=>b.onclick=()=>{ S.selEtu = S.selEtu===b.dataset.etu?null:b.dataset.etu; render(); });
   $app.querySelectorAll("[data-noter]").forEach(b=>b.onclick=()=>noter(b.dataset.noter));
+  const rf=document.getElementById("refresh"); if(rf) rf.onclick=()=>chargerEnseignant().then(()=>{ render(); toast("Données actualisées."); });
+
+  const af=document.getElementById("auth-form"); if(af) af.onsubmit=auth;
+  const mf=document.getElementById("mdp-form"); if(mf) mf.onsubmit=async e=>{ e.preventDefault();
+    const {error}=await S.sb.auth.updateUser({password:document.getElementById("n-mdp").value});
+    if(error){ document.getElementById("n-msg").textContent=erreur(error); return; }
+    S.recovery=false; toast("Mot de passe modifié."); go("parcours"); };
+  const vf=document.getElementById("verif-form"); if(vf) vf.onsubmit=async e=>{ e.preventDefault();
+    const out=document.getElementById("v-res");
+    const {data,error}=await S.sb.rpc("verifier_attestation",{p_no:document.getElementById("v-no").value});
+    if(error){ out.innerHTML=`<p class="hint">${esc(erreur(error))}</p>`; return; }
+    if(!data){ out.innerHTML=`<div class="keep" style="background:var(--bad-soft);border-color:var(--bad)">Aucune attestation ne correspond à ce numéro.</div>`; return; }
+    const m=findModule(data.module);
+    out.innerHTML=`<div class="keep" style="background:var(--ok-soft);border-color:var(--ok)">Attestation authentique : <b>${esc(data.nom)}</b> a réussi le module « ${esc(m?m.titre:data.module)} » (${Math.round(data.score*100)} %) le ${fmtDate(data.date)}.</div>`; };
+
   const ps=document.getElementById("p-save");
-  if(ps) ps.onclick=()=>{ const nom=document.getElementById("p-nom").value.trim(); if(nom.length<3){ toast("Indiquez votre nom complet."); return; } save({nom, eglise:document.getElementById("p-eglise").value.trim()}); toast("Fiche enregistrée."); render(); };
+  if(ps) ps.onclick=async()=>{ const nom=document.getElementById("p-nom").value.trim(); if(nom.length<3){ toast("Indiquez votre nom complet."); return; }
+    const {error}=await S.sb.from("profils").update({nom, eglise:document.getElementById("p-eglise").value.trim()}).eq("id",S.session.user.id);
+    if(error){ toast(erreur(error)); return; } apres(Promise.resolve(),"Fiche enregistrée."); };
   const ta=document.getElementById("pratique");
   if(ta){ const c=document.getElementById("pr-count"); const upd=()=>{ const n=ta.value.trim().length; c.textContent = n<MIN_PRATIQUE ? `${n} / ${MIN_PRATIQUE} caractères minimum` : `${n} caractères`; }; ta.oninput=upd; upd();
-    document.getElementById("save-pratique").onclick=()=>{ const mods={...(S.etu.modules||{})}; mods[S.moduleId]={...(mods[S.moduleId]||{}), pratique:ta.value.trim()}; save({modules:mods}); toast("Témoignage enregistré."); render(); }; }
+    document.getElementById("save-pratique").onclick=()=>apres(rpc("enregistrer_pratique",{p_module:S.moduleId, p_texte:ta.value}),"Témoignage enregistré."); }
   const dv=document.getElementById("delivrer");
-  if(dv) dv.onclick=()=>{ const m=findModule(S.moduleId), mods={...(S.etu.modules||{})}, r={...(mods[m.id]||{})}; const d=new Date().toISOString();
-    r.certNo="HDF-"+m.id.toUpperCase()+"-"+hash((S.uid||S.etu.nom)+m.id+d); r.certDate=d; mods[m.id]=r; save({modules:mods}); render(); toast("Attestation délivrée. Vous pouvez la télécharger."); };
+  if(dv) dv.onclick=()=>{ dv.disabled=true; apres(rpc("delivrer_attestation",{p_module:S.moduleId}),"Attestation délivrée. Vous pouvez la télécharger."); };
   const f=document.getElementById("exam-form");
-  if(f && !S.exam.fini){
+  if(f && S.exam && !S.exam.fini){
     f.onchange=e=>{ const t=e.target; if(t.name&&t.name.startsWith("q")) S.exam.rep[+t.name.slice(1)]=+t.value; };
-    f.onsubmit=e=>{ e.preventDefault(); const E=S.exam;
+    f.onsubmit=async e=>{ e.preventDefault(); const E=S.exam;
       if(Object.keys(E.rep).length<E.questions.length){ document.getElementById("ex-hint").textContent="Répondez à toutes les questions avant de valider."; return; }
-      E.fini=true;
-      const ok=E.questions.filter((q,i)=>q.choix[E.rep[i]]?.ok).length, sc=ok/E.questions.length;
-      const mods={...(S.etu.modules||{})}, r={...(mods[S.moduleId]||{})};
-      r.tentatives=(r.tentatives||0)+1; r.dernier=sc; r.dateExamen=new Date().toISOString(); r.meilleur=Math.max(r.meilleur||0, sc);
-      mods[S.moduleId]=r; save({modules:mods}); render(); window.scrollTo({top:0}); };
+      const reponses={}; E.questions.forEach((q,i)=>{ reponses[q.qi]=q.choix[E.rep[i]]; });
+      E.envoi=true; render();
+      try{ E.res=await rpc("soumettre_examen",{p_module:S.moduleId, p_reponses:reponses}); E.fini=true; await chargerEtu(); }
+      catch(err){ E.envoi=false; }
+      render(); window.scrollTo({top:0}); };
   }
   const rt=document.getElementById("retry"); if(rt) rt.onclick=()=>{ S.exam=null; render(); window.scrollTo({top:0}); };
 }
 
+async function auth(e){
+  e.preventDefault();
+  const msg=document.getElementById("a-msg"), email=document.getElementById("a-email").value.trim();
+  const mdp=document.getElementById("a-mdp")?.value||"";
+  msg.textContent="Un instant…";
+  try{
+    if(S.authMode==="connexion"){
+      const {error}=await S.sb.auth.signInWithPassword({email, password:mdp}); if(error) throw error; msg.textContent="";
+    }else if(S.authMode==="inscription"){
+      const nom=document.getElementById("a-nom").value.trim(), eglise=document.getElementById("a-eglise").value.trim();
+      if(nom.length<3){ msg.textContent="Indiquez votre nom complet."; return; }
+      const {data,error}=await S.sb.auth.signUp({email, password:mdp, options:{data:{nom, eglise}, emailRedirectTo:location.origin}});
+      if(error) throw error;
+      if(!data.session) msg.textContent="Compte créé. Ouvrez l'e-mail que nous venons de vous envoyer et cliquez sur le lien pour l'activer.";
+    }else{
+      const {error}=await S.sb.auth.resetPasswordForEmail(email,{redirectTo:location.origin}); if(error) throw error;
+      msg.textContent="Si un compte existe pour cette adresse, un lien vient d'être envoyé.";
+    }
+  }catch(err){ msg.textContent=erreur(err); }
+}
+
 async function noter(mid){
-  const e=S.etudiants.find(x=>x.id===S.selEtu); if(!e||!S.db) return;
+  const e=S.etudiants.find(x=>x.id===S.selEtu); if(!e) return;
   const raw=document.getElementById("note-"+mid).value.trim().replace(",",".");
-  const note = raw==="" ? "" : Number(raw);
+  const note = raw==="" ? null : Number(raw);
   if(raw!=="" && (isNaN(note)||note<0||note>20)){ toast("La note doit être comprise entre 0 et 20."); return; }
-  const evals={...(e.evaluations||{})}; evals[mid]={note, commentaire:document.getElementById("com-"+mid).value.trim(), date:new Date().toISOString()};
-  try{ await S.db.doc("resultats/"+e.id).update({evaluations:evals}); toast("Appréciation enregistrée."); }
-  catch(err){ toast("Enregistrement impossible : "+(err&&err.message||"erreur")); }
+  const {error}=await S.sb.from("progression").update({note, commentaire:document.getElementById("com-"+mid).value.trim()||null, date_eval:new Date().toISOString()}).eq("user_id",e.id).eq("module_id",mid);
+  if(error){ toast(erreur(error)); return; }
+  await chargerEnseignant(); render(); toast("Appréciation enregistrée.");
 }
 
 // ---------- PDF ----------
@@ -485,7 +548,6 @@ function cadre(doc, couleur){
   const W=297,H=210; doc.setFillColor(252,250,244); doc.rect(0,0,W,H,"F");
   doc.setDrawColor(...couleur); doc.setLineWidth(2.2); doc.rect(10,10,W-20,H-20);
   doc.setLineWidth(0.5); doc.rect(14,14,W-28,H-28);
-  // écusson
   doc.setFillColor(27,42,78); doc.circle(W/2,33,10,"F");
   doc.setDrawColor(...couleur); doc.setLineWidth(1.6); doc.line(W/2,27,W/2,40); doc.line(W/2-4.5,31,W/2+4.5,31);
 }
@@ -494,17 +556,9 @@ function piedPdf(doc, no, date){
   doc.text(pdfTxt("Délivrée le "+fmtDate(date)),40,178); doc.text(pdfTxt("N° "+no),40,184);
   doc.setDrawColor(150,150,150); doc.setLineWidth(0.3); doc.line(W-110,176,W-40,176);
   doc.text("Le responsable de la formation",W-75,182,{align:"center"});
-  doc.setFontSize(8.5); doc.text(pdfTxt("Programme Héro de la Foi - de la conversion à la maturité"),297/2,193,{align:"center"});
+  doc.setFontSize(8.5); doc.text(pdfTxt("Programme Héro de la Foi - vérification : "+location.host+"/#verifier"),W/2,193,{align:"center"});
 }
-async function livrer(doc, filename){
-  const blob = doc.output("blob");
-  if(S.downloads){
-    try{ await S.downloads.save({filename, data:blob}); toast("Attestation enregistrée."); return; }
-    catch(e){ if(e&&e.code==="declined") return; }
-  }
-  try{ doc.save(filename); toast("Attestation téléchargée."); }
-  catch(e){ toast("Le téléchargement n'est pas disponible ici."); }
-}
+function nomFichier(s){ return pdfTxt(s).normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^A-Za-z0-9]+/g,"-"); }
 async function pdfModule(m){
   if(!window.jspdf){ toast("Le module PDF n'a pas pu se charger. Rechargez la page."); return; }
   const s=statut(m), i=niveauIndex(m.niveau), W=297;
@@ -516,19 +570,18 @@ async function pdfModule(m){
   doc.setFontSize(13); doc.text("est décernée à",W/2,88,{align:"center"});
   doc.setFont("times","bold"); doc.setFontSize(28); doc.setTextColor(20,27,46); doc.text(pdfTxt(S.etu.nom),W/2,103,{align:"center"});
   doc.setFont("helvetica","normal"); doc.setFontSize(12.5); doc.setTextColor(40,44,60);
-  const t=pdfTxt(`pour avoir suivi avec succès le module « ${m.titre} », réussi l'examen avec la note de ${Math.round(s.r.meilleur*100)} % et mis sa foi en pratique.`);
-  doc.text(doc.splitTextToSize(t,200),W/2,118,{align:"center"});
+  doc.text(doc.splitTextToSize(pdfTxt(`pour avoir suivi avec succès le module « ${m.titre} », réussi l'examen avec la note de ${Math.round(s.r.meilleur*100)} % et mis sa foi en pratique.`),200),W/2,118,{align:"center"});
   if(S.etu.eglise){ doc.setFontSize(11); doc.setTextColor(90,96,120); doc.text(pdfTxt(S.etu.eglise),W/2,138,{align:"center"}); }
   doc.setFont("times","italic"); doc.setFontSize(11.5); doc.setTextColor(120,90,30);
   doc.text(pdfTxt("« Ainsi en est-il de la foi : si elle n'a pas les oeuvres, elle est morte en elle-même. » Jacques 2.17"),W/2,155,{align:"center"});
   piedPdf(doc, s.r.certNo, s.r.certDate);
-  await livrer(doc, `Attestation-${m.id.toUpperCase()}-${pdfTxt(S.etu.nom).replace(/[^A-Za-z0-9]+/g,"-")}.pdf`);
+  doc.save(`Attestation-${m.id.toUpperCase()}-${nomFichier(S.etu.nom)}.pdf`);
 }
 async function pdfNiveau(n){
   if(!window.jspdf){ toast("Le module PDF n'a pas pu se charger. Rechargez la page."); return; }
   const i=niveauIndex(n), W=297;
   const sc=n.modules.map(m=>statut(m).r.meilleur||0), moy=Math.round(sc.reduce((a,b)=>a+b,0)/sc.length*100);
-  const last=n.modules.map(m=>statut(m).r.certDate).sort().pop();
+  const certs=n.modules.map(m=>statut(m).r), last=certs.map(r=>r.certDate).sort().pop();
   const doc=new jspdf.jsPDF({orientation:"landscape",unit:"mm",format:"a4"});
   cadre(doc,[168,123,31]);
   doc.setTextColor(27,42,78); doc.setFont("times","bold"); doc.setFontSize(32); doc.text("DIPLÔME",W/2,60,{align:"center"});
@@ -542,16 +595,44 @@ async function pdfNiveau(n){
   doc.text(doc.splitTextToSize(pdfTxt(n.modules.map(m=>m.titre).join(" · ")),230),W/2,132,{align:"center"});
   doc.setFont("times","italic"); doc.setFontSize(11); doc.setTextColor(120,90,30);
   doc.text(doc.splitTextToSize(pdfTxt(n.verset),230),W/2,152,{align:"center"});
-  piedPdf(doc, "HDF-"+n.id.toUpperCase()+"-DIP-"+hash((S.uid||S.etu.nom)+n.id), last);
-  await livrer(doc, `Diplome-Niveau${i}-${pdfTxt(S.etu.nom).replace(/[^A-Za-z0-9]+/g,"-")}.pdf`);
+  piedPdf(doc, "Attestations " + certs.map(r=>r.certNo).join(", ").slice(0,90), last);
+  doc.save(`Diplome-Niveau${i}-${nomFichier(S.etu.nom)}.pdf`);
 }
 
 // ---------- démarrage ----------
-loadLocal();
-fetch("programme.json").then(r=>r.json()).then(p=>{ S.prog=p; fromHash(); render(); initCapabilities(); })
-  .catch(()=>{ $app.innerHTML='<div class="empty">Le programme n\'a pas pu être chargé. Rechargez la page.</div>'; });
+async function demarrer(){
+  try{
+    const [prog, cfg] = await Promise.all([fetch("programme.json").then(r=>r.json()), fetch("/api/config").then(r=>r.ok?r.json():{}).catch(()=>({}))]);
+    S.prog = prog;
+    if(!cfg.url || !cfg.anonKey || !window.supabase){
+      $app.innerHTML = `<div class="panel" style="display:grid;gap:8px"><h2>Configuration incomplète</h2><p>La plateforme ne trouve pas la connexion à la base de données. Dans Vercel, ajoutez les variables <b>SUPABASE_URL</b> et <b>SUPABASE_ANON_KEY</b>, puis redéployez.</p></div>`;
+      return;
+    }
+    S.sb = supabase.createClient(cfg.url, cfg.anonKey);
+    S.sb.auth.onAuthStateChange((event, session)=>{ setTimeout(()=>surSession(event, session), 0); });
+    async function surSession(event, session){
+      if(event==="PASSWORD_RECOVERY") S.recovery=true;
+      const avant = S.session && S.session.user.id;
+      S.session = session;
+      if(session && session.user.id!==avant){
+        try{ await chargerEtu(); }catch(e){ toast(erreur(e)); }
+        if(S.view==="enseignant") await chargerEnseignant();
+      }
+      if(!session){ S.etu={nom:"",eglise:"",modules:{},lecons:{},evaluations:{}}; S.profil=null; S.etudiants=[]; S.selEtu=null; S.exam=null; if(S.view!=="verifier") S.view="parcours"; try{ history.replaceState(null,"",location.pathname); }catch(e){} }
+      render();
+    }
+    const {data} = await S.sb.auth.getSession();
+    S.session = data.session;
+    fromHash();
+    if(S.session){ await chargerEtu(); if(S.view==="enseignant") await chargerEnseignant(); }
+    render();
+  }catch(e){
+    $app.innerHTML = '<div class="empty">La plateforme n\'a pas pu démarrer. Rechargez la page.</div>';
+  }
+}
+window.addEventListener("hashchange",()=>{ if(!S.prog) return; fromHash(); if(S.view==="enseignant") chargerEnseignant().then(render); render(); });
+demarrer();
 })();
 </script>
-
 </body>
 </html>
