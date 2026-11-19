@@ -205,3 +205,9 @@ select{width:100%;border:1px solid var(--line);border-radius:10px;padding:9px 12
 .lecons-suivi{list-style:none;margin:0;padding:0;display:grid;gap:6px}
 .lecons-suivi li{display:flex;gap:10px;align-items:center}
 .bar.mini{height:5px;margin-top:4px;max-width:200px}
+/* application installable */
+#installer{padding-top:16px}
+.install{display:flex;gap:14px;align-items:center;flex-wrap:wrap;background:var(--surface);border:1px solid var(--brass);border-left:5px solid var(--brass);border-radius:14px;padding:12px 16px}
+.install img{border-radius:12px;flex:none}
+.install-txt{flex:1;min-width:200px;display:grid;gap:2px}
+@media (display-mode: standalone){.pied #aide-install,.pied #sep-install{display:none}}

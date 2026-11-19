@@ -14,6 +14,8 @@ Programme de formation biblique en ligne, de la conversion à la maturité.
 - **Attestations PDF** numérotées par module, un diplôme par niveau, et une page publique de vérification (`/#verifier`)
 - **Comptes étudiants** et **espace enseignant séparé** (`/enseignant.html`) : tableau de bord des responsabilités (témoignages à lire, étudiants en difficulté, inactifs, sans enseignant), enseignant attitré par étudiant, suivi leçon par leçon et étape par étape, validation ou demande de reprise des témoignages, journal de suivi et messages à l'étudiant, note sur 20 et appréciation
 
+- **Application installable** (PWA) sur Android, iPhone et ordinateur, directement depuis le site : bouton « Installer l'application » (instructions affichées sur iPhone) ; l'espace enseignant s'installe comme une application à part
+
 Hébergement : **Vercel** (le site) + **Supabase** (comptes et base de données).
 
 ## Fichiers
@@ -23,6 +25,7 @@ Hébergement : **Vercel** (le site) + **Supabase** (comptes et base de données)
 | `index.html`, `app.js` | Le site des étudiants |
 | `enseignant.html`, `enseignant.js` | L'espace enseignant (page séparée) |
 | `commun.js`, `styles.css` | Code et styles partagés par les deux pages |
+| `manifest.webmanifest`, `manifest-enseignant.webmanifest`, `sw.js`, `icones/`, `vercel.json` | Application installable : description, icônes, service worker (pages et cours gardés en copie locale ; comptes et examens toujours en ligne) |
 | `images/` | Illustrations (régénérées par `python3 contenu/images.py`) |
 | `contenu/ordre.json` | Ordre des modules dans chaque niveau |
 | `programme.json` | Liste des niveaux et modules |

@@ -249,9 +249,9 @@ function bind(){
 // ---------- démarrage ----------
 async function demarrer(){
   try{
-    const {prog, sb} = await HDF.connecter();
+    const {prog, sb, horsLigne} = await HDF.connecter();
     S.prog=prog; R=HDF.regles(prog);
-    if(!sb){ $app.innerHTML = HDF.CONFIG_MANQUANTE; return; }
+    if(!sb){ $app.innerHTML = horsLigne ? HDF.HORS_LIGNE : HDF.CONFIG_MANQUANTE; return; }
     S.sb=sb; fromHash();
     const ouvrir = async session => {
       S.session=session; S.profil=null; S.charge=false; render();
@@ -271,4 +271,5 @@ async function demarrer(){
 }
 window.addEventListener("hashchange",()=>{ fromHash(); render(); });
 demarrer();
+HDF.installation("enseignant");
 })();

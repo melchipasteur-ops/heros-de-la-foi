@@ -704,9 +704,9 @@ async function pdfNiveau(n){
 // ---------- démarrage ----------
 async function demarrer(){
   try{
-    const {prog, sb} = await HDF.connecter();
+    const {prog, sb, horsLigne} = await HDF.connecter();
     S.prog = prog; R = HDF.regles(prog);
-    if(!sb){ $app.innerHTML = HDF.CONFIG_MANQUANTE; return; }
+    if(!sb){ $app.innerHTML = horsLigne ? HDF.HORS_LIGNE : HDF.CONFIG_MANQUANTE; return; }
     S.sb = sb;
     S.sb.auth.onAuthStateChange((event, session)=>{ setTimeout(()=>surSession(event, session), 0); });
     async function surSession(event, session){
@@ -727,4 +727,5 @@ async function demarrer(){
 }
 window.addEventListener("hashchange",()=>{ if(!S.prog) return; if(!S.session){ if(location.hash==="#verifier"){ S.view="verifier"; render(); } return; } fromHash(); allerDepuisHash(); });
 demarrer();
+HDF.installation("etudiant");
 })();

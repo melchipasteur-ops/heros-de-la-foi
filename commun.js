@@ -60,8 +60,9 @@ function regles(prog){
 
 // Charge programme.json et la configuration, puis crée le client Supabase
 async function connecter(){
-  const [prog, cfg] = await Promise.all([fetch("programme.json").then(r=>r.json()), fetch("/api/config").then(r=>r.ok?r.json():{}).catch(()=>({}))]);
-  if(!cfg.url || !cfg.anonKey || !window.supabase) return {prog, sb:null};
+  let horsLigne = !navigator.onLine;
+  const [prog, cfg] = await Promise.all([fetch("programme.json").then(r=>r.json()), fetch("/api/config", {cache:"no-store"}).then(r=>r.ok?r.json():{}).catch(()=>{ horsLigne=true; return {}; })]);
+  if(!cfg.url || !cfg.anonKey || !window.supabase) return {prog, sb:null, horsLigne: horsLigne || !window.supabase};
   return {prog, sb: supabase.createClient(cfg.url, cfg.anonKey)};
 }
 const CONFIG_MANQUANTE = `<div class="panel" style="display:grid;gap:8px"><h2>Configuration incomplète</h2><p>La plateforme ne trouve pas la connexion à la base de données. Dans Vercel, ajoutez les variables <b>SUPABASE_URL</b> et <b>SUPABASE_ANON_KEY</b>, puis redéployez.</p></div>`;
@@ -72,5 +73,38 @@ function lierMotsDePasse(racine){
     i.type = voir ? "text" : "password"; b.textContent = voir ? "Masquer" : "Afficher"; b.setAttribute("aria-pressed", String(voir)); i.focus(); });
 }
 
-window.HDF = {SEUIL, MIN_PRATIQUE, esc, pct, note20, fmtDate, depuis, toast, shuffle, erreur, etuDepuis, regles, connecter, CONFIG_MANQUANTE, lierMotsDePasse};
+// ---------- Application installable (PWA) ----------
+function installation(nomApp){
+  if("serviceWorker" in navigator && window.isSecureContext) navigator.serviceWorker.register("/sw.js").catch(()=>{});
+  const boite=document.getElementById("installer"), aide=document.getElementById("aide-install"), sep=document.getElementById("sep-install");
+  if(!boite) return;
+  const installee = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+  if(installee) return;
+  const ua=navigator.userAgent, ios=/iPhone|iPad|iPod/i.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints>1);
+  let invite=null;
+  const plusTard = () => { try{ return Date.now() < +(localStorage.getItem("hdf-install-plus-tard")||0); }catch(e){ return false; } };
+  const fermer = () => { boite.hidden=true; try{ localStorage.setItem("hdf-install-plus-tard", String(Date.now()+7*864e5)); }catch(e){} };
+  const PARTAGER = `<svg viewBox="0 0 24 24" width="18" height="18" aria-label="Partager" role="img" style="vertical-align:-3px"><path d="M12 3v12M7 8l5-5 5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`;
+  function afficher(detail){
+    boite.hidden=false;
+    boite.innerHTML = `<section class="install" aria-label="Installer l'application">
+      <img src="${nomApp==="enseignant"?"icones/enseignant-192.png":"icones/etudiant-192.png"}" alt="" width="48" height="48">
+      <div class="install-txt"><b>Installez l'application ${nomApp==="enseignant"?"enseignant":"Héro de la Foi"}</b>
+        ${invite ? `<span class="hint">Une icône sur votre écran d'accueil, ouverture en plein écran, sans passer par le navigateur.</span>`
+        : ios ? `<span class="hint">Sur iPhone ou iPad, dans Safari : touchez ${PARTAGER} <b>Partager</b>, puis <b>Sur l'écran d'accueil</b>, puis <b>Ajouter</b>.</span>`
+        : `<span class="hint">Android (Chrome) : menu <b>⋮</b> puis <b>Installer l'application</b> ou <b>Ajouter à l'écran d'accueil</b>. Ordinateur (Chrome ou Edge) : icône d'installation à droite de la barre d'adresse. iPhone : dans Safari, <b>Partager</b> puis <b>Sur l'écran d'accueil</b>.</span>`}</div>
+      <div class="row">${invite?`<button class="btn primary" type="button" id="install-ok">Installer</button>`:""}<button class="btn small" type="button" id="install-non">${detail?"Fermer":"Plus tard"}</button></div></section>`;
+    const ok=document.getElementById("install-ok"); if(ok) ok.onclick=async()=>{ invite.prompt(); const r=await invite.userChoice; invite=null; if(r.outcome==="accepted"){ boite.hidden=true; toast("Application installée. Retrouvez-la sur votre écran d'accueil."); } else afficher(detail); };
+    document.getElementById("install-non").onclick=fermer;
+  }
+  if(aide){ aide.hidden=false; if(sep) sep.hidden=false; aide.onclick=()=>{ afficher(true); window.scrollTo({top:0,behavior:"smooth"}); }; }
+  window.addEventListener("beforeinstallprompt", e=>{ e.preventDefault(); invite=e; if(!plusTard()) afficher(false); });
+  window.addEventListener("appinstalled", ()=>{ boite.hidden=true; if(aide) aide.hidden=true; if(sep) sep.hidden=true; });
+  if(ios && !plusTard()) afficher(false);
+}
+
+const HORS_LIGNE = `<div class="panel" style="display:grid;gap:8px"><h2>Vous êtes hors ligne</h2><p>L'application a besoin d'Internet pour vous connecter, enregistrer vos progrès et corriger les examens. Vérifiez votre connexion, puis touchez « Réessayer ».</p><div class="row"><button class="btn primary" type="button" onclick="location.reload()">Réessayer</button></div></div>`;
+window.addEventListener("online", ()=>{ if(document.querySelector("#app h2") && /hors ligne/.test(document.querySelector("#app h2").textContent)) location.reload(); });
+
+window.HDF = {installation, HORS_LIGNE, SEUIL, MIN_PRATIQUE, esc, pct, note20, fmtDate, depuis, toast, shuffle, erreur, etuDepuis, regles, connecter, CONFIG_MANQUANTE, lierMotsDePasse};
 })();

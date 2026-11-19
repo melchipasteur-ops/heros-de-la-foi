@@ -10,6 +10,14 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap">
 <style>:root{padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 <link rel="stylesheet" href="styles.css">
+<link rel="manifest" href="manifest-enseignant.webmanifest">
+<meta name="theme-color" content="#a87b1f">
+<link rel="icon" type="image/png" sizes="192x192" href="icones/enseignant-192.png">
+<link rel="apple-touch-icon" href="icones/enseignant-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="HDF Enseignant">
 </head>
 <body>
 <header class="top"><div class="wrap">
@@ -26,8 +34,9 @@
   </nav>
 </div></header>
 
+<div class="wrap"><div id="installer" hidden></div></div>
 <div class="wrap"><main id="app"><div class="empty">Chargement…</div></main></div>
-<footer class="wrap pied"><a href="index.html">Site des étudiants</a></footer>
+<footer class="wrap pied"><button type="button" class="lien" id="aide-install" hidden>Installer l'application</button><span id="sep-install" hidden> · </span><a href="index.html">Site des étudiants</a></footer>
 <div class="toast" id="toast" hidden></div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
