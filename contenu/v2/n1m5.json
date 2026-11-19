@@ -1,0 +1,891 @@
+{
+  "id": "n1m5",
+  "titre": "L'Église, le baptême et la sainte cène",
+  "objectif": "Comprendre pourquoi je fais partie d'une famille spirituelle et le sens des ordonnances.",
+  "introduction": [
+    "Quand tu as reçu Jésus-Christ, tu n'es pas seulement entré dans une relation personnelle avec Dieu : tu es aussi entré dans une famille. Dieu n'a pas sauvé des individus isolés, chacun dans son coin ; il a formé un peuple, l'Église, qu'il appelle son corps, son temple, sa famille et l'épouse de son Fils. Beaucoup de personnes disent aujourd'hui : « Je crois en Dieu, mais je n'ai pas besoin de l'Église. » D'autres ont été blessées par des responsables ou des frères et sœurs, et préfèrent suivre des prédications en ligne, seules chez elles. Ce module veut te montrer, Bible en main, pourquoi l'Église n'est pas une option dans la vie chrétienne, mais un don de Dieu.",
+    "Nous étudierons aussi les deux ordonnances que Jésus a confiées à son Église : le baptême d'eau et la sainte cène (appelée aussi le repas du Seigneur ou la communion). Ce sont des actes visibles qui expriment des réalités invisibles. Le baptême marque l'entrée publique dans la vie de disciple ; la cène nourrit la mémoire de la croix et la communion fraternelle tout au long du chemin. Ces pratiques ont parfois été mal comprises : certains les considèrent comme des rites magiques qui sauvent automatiquement, d'autres comme des traditions sans importance. La Bible nous montre un chemin plus riche.",
+    "Sur certains points, les chrétiens évangéliques n'ont pas tous la même pratique, par exemple sur l'âge du baptême ou la manière de comprendre la présence du Christ dans la cène. Nous présenterons ces positions avec respect, en restant centrés sur ce que l'Écriture affirme clairement. Notre but n'est pas de nourrir des disputes, mais de t'aider à vivre ces réalités avec foi, reconnaissance et engagement.",
+    "Chaque leçon s'appuie sur un récit biblique : la naissance de l'Église à la Pentecôte, le baptême de l'eunuque éthiopien, et le dernier repas de Jésus avec ses disciples. Tu feras aussi une pratique concrète : t'engager pendant un mois dans la vie d'une église locale et y servir."
+  ],
+  "lecturesObligatoires": [
+    {
+      "ref": "Actes 2.1-47",
+      "consigne": "Relevez les étapes de la naissance de l'Église et les quatre activités auxquelles les premiers croyants persévéraient."
+    },
+    {
+      "ref": "1 Corinthiens 12.1-31",
+      "consigne": "Notez les images du corps et ce que Paul dit des membres qui paraissent les plus faibles."
+    },
+    {
+      "ref": "Éphésiens 4.1-16",
+      "consigne": "Relevez ce qui fait l'unité de l'Église et le rôle des ministères pour la croissance du corps."
+    },
+    {
+      "ref": "Hébreux 10.19-25",
+      "consigne": "Notez les trois exhortations « approchons-nous », « retenons », « veillons » et l'appel à ne pas abandonner l'assemblée."
+    },
+    {
+      "ref": "Matthieu 28.16-20",
+      "consigne": "Relevez les éléments du dernier ordre de Jésus et la place du baptême dans la formation des disciples."
+    },
+    {
+      "ref": "Actes 8.26-40",
+      "consigne": "Décrivez le parcours de l'eunuque éthiopien, de la lecture d'Ésaïe jusqu'au baptême."
+    },
+    {
+      "ref": "Romains 6.1-14",
+      "consigne": "Notez ce que le baptême signifie selon Paul et les conséquences pour la vie quotidienne."
+    },
+    {
+      "ref": "Exode 12.1-28",
+      "consigne": "Relevez les éléments du repas de la Pâque et le rôle du sang de l'agneau."
+    },
+    {
+      "ref": "Luc 22.7-23",
+      "consigne": "Notez ce que Jésus dit et fait avec le pain et la coupe lors de son dernier repas."
+    },
+    {
+      "ref": "1 Corinthiens 11.17-34",
+      "consigne": "Relevez les problèmes de l'église de Corinthe pendant le repas et les instructions de Paul."
+    }
+  ],
+  "lecons": [
+    {
+      "titre": "L'Église, corps du Christ",
+      "lectures": [
+        {
+          "ref": "Actes 2.1-47",
+          "resume": "À la Pentecôte, le Saint-Esprit descend sur les disciples ; Pierre prêche, environ trois mille personnes se convertissent, et la première communauté chrétienne prend forme."
+        },
+        {
+          "ref": "1 Corinthiens 12.12-27",
+          "resume": "Paul compare l'Église à un corps : un seul corps, plusieurs membres, chacun nécessaire, tous solidaires."
+        },
+        {
+          "ref": "Hébreux 10.24-25",
+          "resume": "Les croyants doivent veiller les uns sur les autres et ne pas abandonner leur assemblée."
+        }
+      ],
+      "recit": {
+        "titre": "La naissance de l'Église à la Pentecôte",
+        "ref": "Actes 2.1-47",
+        "paragraphes": [
+          "Cinquante jours après la Pâque où Jésus avait été crucifié, Jérusalem était remplie de pèlerins. On célébrait la Pentecôte, la fête des moissons. Des Juifs et des prosélytes étaient venus de tout le monde connu : Parthes, Mèdes, Élamites, habitants de la Mésopotamie, de l'Asie, de l'Égypte, de la Libye, de Rome, de Crète et d'Arabie. Les disciples de Jésus étaient tous ensemble dans le même lieu. Avant de monter au ciel, Jésus leur avait commandé d'attendre à Jérusalem la promesse du Père : ils seraient baptisés du Saint-Esprit et deviendraient ses témoins jusqu'aux extrémités de la terre (Actes 1.4-8).",
+          "Tout à coup, il vint du ciel un bruit comme celui d'un vent impétueux, qui remplit toute la maison. Des langues, semblables à des langues de feu, se posèrent sur chacun d'eux. Ils furent tous remplis du Saint-Esprit et se mirent à parler en d'autres langues. Attirée par le bruit, la foule se rassembla, stupéfaite : chacun entendait ces Galiléens parler dans sa propre langue des merveilles de Dieu. Certains étaient dans l'étonnement et se demandaient : « Que veut dire ceci ? » D'autres se moquaient : « Ils sont pleins de vin doux. »",
+          "Alors Pierre se leva avec les onze. Celui qui, quelques semaines plus tôt, avait renié Jésus devant une servante, parla maintenant avec assurance devant des milliers de personnes. Il expliqua qu'ils n'étaient pas ivres, puisque c'était la troisième heure du jour, mais que s'accomplissait la prophétie de Joël : Dieu répandait son Esprit sur toute chair. Puis il annonça Jésus de Nazareth, crucifié par la main des impies, mais ressuscité par Dieu, élevé à sa droite, fait Seigneur et Christ. Les auditeurs eurent le cœur vivement touché et demandèrent : « Hommes frères, que ferons-nous ? » Pierre répondit : « Repentez-vous, et que chacun de vous soit baptisé au nom de Jésus-Christ, pour le pardon de vos péchés ; et vous recevrez le don du Saint-Esprit. » Ce jour-là, environ trois mille personnes furent ajoutées.",
+          "Luc décrit ensuite la vie de cette communauté naissante. Ils persévéraient dans l'enseignement des apôtres, dans la communion fraternelle, dans la fraction du pain et dans les prières. La crainte s'emparait de chacun, et beaucoup de prodiges se faisaient par les apôtres. Tous ceux qui croyaient étaient dans le même lieu et mettaient leurs biens en commun : ils vendaient leurs propriétés et en partageaient le produit selon les besoins de chacun. Chaque jour, ils se retrouvaient au temple, rompaient le pain dans les maisons et prenaient leur nourriture avec joie et simplicité de cœur, louant Dieu et trouvant grâce auprès de tout le peuple. Et le Seigneur ajoutait chaque jour à l'Église ceux qui étaient sauvés.",
+          "Ce récit montre que l'Église n'est pas née d'une organisation humaine, d'un plan marketing ou d'un bâtiment. Elle est née de l'Esprit de Dieu, de la prédication de Jésus crucifié et ressuscité, et de la réponse de foi de ceux qui l'ont entendue. Et dès le premier jour, ceux qui croient ne restent pas seuls : ils sont « ajoutés », ils deviennent une famille."
+        ],
+        "lecons": [
+          "L'Église est l'œuvre du Saint-Esprit, fondée sur la prédication de Jésus mort et ressuscité.",
+          "La conversion conduit naturellement au baptême et à l'intégration dans une communauté : les nouveaux croyants sont « ajoutés ».",
+          "Dès l'origine, l'Église est multiculturelle et multilingue : l'Évangile rassemble des peuples différents.",
+          "La vie d'Église repose sur quatre piliers : l'enseignement, la communion fraternelle, la fraction du pain et la prière."
+        ]
+      },
+      "exegese": [
+        {
+          "titre": "Corinthe : une église brillante mais divisée",
+          "paragraphes": [
+            "Corinthe était une grande ville portuaire de Grèce, riche, cosmopolite, réputée pour son commerce et son immoralité. Paul y a fondé l'église vers l'an 50, lors de son deuxième voyage missionnaire, en y restant un an et demi (Actes 18.1-11). Quelques années plus tard, il écrit cette lettre depuis Éphèse pour répondre à de graves problèmes : des divisions autour de leaders (« moi, je suis de Paul ! et moi, d'Apollos ! », 1 Corinthiens 1.12), de l'immoralité, des procès entre frères, des désordres pendant le repas du Seigneur et un usage orgueilleux des dons spirituels.",
+            "Les chapitres 12 à 14 traitent des dons spirituels. Certains Corinthiens considéraient le parler en langues comme le signe d'une spiritualité supérieure et méprisaient ceux qui ne l'avaient pas. Paul répond en rappelant que tous les dons viennent du même Esprit (12.4-11), puis il développe l'image du corps (12.12-27), avant de montrer que le plus grand chemin est l'amour (chapitre 13). L'image du corps était connue dans le monde gréco-romain : des orateurs l'utilisaient pour demander aux classes inférieures de rester à leur place au service des puissants. Paul la renverse : dans le corps du Christ, ce sont les membres qui paraissent les plus faibles qui sont nécessaires, et Dieu donne plus d'honneur à ceux qui en manquaient."
+          ]
+        },
+        {
+          "titre": "1 Corinthiens 12.12-27 verset par verset",
+          "paragraphes": [
+            "Versets 12-13 : « Car, comme le corps est un et a plusieurs membres… ainsi en est-il de Christ. » Paul ne dit pas « ainsi en est-il de l'Église », mais « de Christ » : l'Église est tellement unie à son Seigneur qu'elle est son corps. L'unité vient de l'Esprit : « Nous avons tous, en effet, été baptisés dans un seul Esprit, pour former un seul corps, soit Juifs, soit Grecs, soit esclaves, soit libres. » Les différences ethniques et sociales, très fortes à Corinthe, ne disparaissent pas, mais elles ne divisent plus.",
+            "Versets 14-20 : Paul imagine un pied qui dirait : « Parce que je ne suis pas une main, je ne suis pas du corps », ou une oreille qui se plaindrait de ne pas être un œil. C'est le problème du complexe d'infériorité : se croire inutile parce qu'on n'a pas le don spectaculaire des autres. « Si tout le corps était œil, où serait l'ouïe ? » La diversité est voulue par Dieu : « Dieu a placé chacun des membres dans le corps comme il a voulu » (verset 18).",
+            "Versets 21-25 : l'œil ne peut pas dire à la main : « Je n'ai pas besoin de toi. » C'est le problème inverse : le complexe de supériorité, mépriser les autres. Paul affirme que les membres qui paraissent les plus faibles sont nécessaires, et que Dieu a disposé le corps de manière à honorer ce qui en manquait, « afin qu'il n'y ait pas de division dans le corps, mais que les membres aient également soin les uns des autres ».",
+            "Versets 26-27 : « Et si un membre souffre, tous les membres souffrent avec lui ; si un membre est honoré, tous les membres se réjouissent avec lui. Vous êtes le corps de Christ, et vous êtes ses membres, chacun pour sa part. » Le mot grec melos (membre) désigne un organe vivant du corps, pas un nom sur une liste. Être « membre » de l'Église, ce n'est pas d'abord avoir une carte, c'est être relié organiquement aux autres et au Christ, la tête (Éphésiens 4.15-16)."
+          ]
+        },
+        {
+          "titre": "Hébreux 10.24-25 : ne pas abandonner l'assemblée",
+          "paragraphes": [
+            "L'épître aux Hébreux s'adresse à des chrétiens, probablement d'origine juive, qui traversent la persécution et la fatigue. Certains sont tentés de revenir en arrière ou de se mettre à l'écart. Après avoir longuement montré que Jésus est le grand prêtre parfait qui nous ouvre l'accès à Dieu, l'auteur tire trois conséquences : « approchons-nous » de Dieu (verset 22), « retenons fermement la profession de notre espérance » (verset 23), et « veillons les uns sur les autres » (verset 24).",
+            "Le verbe traduit « veiller » (katanoeô) signifie « observer attentivement, considérer avec soin ». Il s'agit de faire attention aux autres pour les « exciter » (le mot grec paroxusmos évoque une stimulation vive) à l'amour et aux bonnes œuvres. Le verset 25 précise : « N'abandonnons pas notre assemblée, comme c'est la coutume de quelques-uns ». Le mot « assemblée » traduit episunagôgê, le fait de se rassembler. Déjà au premier siècle, certains prenaient l'habitude de ne plus venir. L'auteur rappelle que la communion est un moyen de persévérer, surtout lorsque « le jour » du retour du Seigneur approche."
+          ]
+        }
+      ],
+      "motsCles": [
+        {
+          "mot": "Église",
+          "langue": "grec",
+          "original": "ekklêsia",
+          "sens": "assemblée de personnes convoquées ; dans le Nouveau Testament, le peuple de ceux que Dieu a appelés en Christ, localement et universellement."
+        },
+        {
+          "mot": "communion",
+          "langue": "grec",
+          "original": "koinônia",
+          "sens": "participation commune, partage ; la vie partagée des croyants dans la foi, les biens, la prière et la souffrance."
+        },
+        {
+          "mot": "corps",
+          "langue": "grec",
+          "original": "sôma",
+          "sens": "le corps d'une personne ; image de l'Église unie au Christ, sa tête, et dont les membres dépendent les uns des autres."
+        },
+        {
+          "mot": "membre",
+          "langue": "grec",
+          "original": "melos",
+          "sens": "organe vivant d'un corps ; chaque croyant a une place et une fonction dans le corps du Christ."
+        }
+      ],
+      "enseignement": [
+        {
+          "titre": "Qu'est-ce que l'Église ?",
+          "paragraphes": [
+            "Le mot ekklêsia désignait dans le monde grec l'assemblée des citoyens convoqués pour délibérer ; la traduction grecque de l'Ancien Testament l'utilise pour l'assemblée d'Israël réunie devant Dieu. Dans le Nouveau Testament, l'Église est le peuple de ceux que Dieu a appelés hors des ténèbres pour appartenir à Christ (1 Pierre 2.9). Ce n'est donc ni un bâtiment, ni une dénomination, ni un pasteur, ni un club religieux. C'est une communauté de personnes rachetées par le sang de Jésus.",
+            "Le Nouveau Testament parle de l'Église en deux sens. Il y a l'Église universelle, composée de tous les croyants de tous les temps et de tous les lieux, que Jésus bâtit et contre laquelle « les portes du séjour des morts ne prévaudront point » (Matthieu 16.18). Et il y a l'église locale, l'assemblée concrète des croyants d'une ville ou d'un quartier : « l'Église de Dieu qui est à Corinthe » (1 Corinthiens 1.2). On appartient à l'Église universelle par la foi ; on vit cette appartenance dans une église locale, avec des visages, des noms, des responsables et des frères et sœurs réels."
+          ]
+        },
+        {
+          "titre": "Les images bibliques de l'Église",
+          "paragraphes": [
+            "Le Nouveau Testament utilise plusieurs images complémentaires. Le corps (1 Corinthiens 12) souligne l'unité, la diversité des dons et la dépendance mutuelle. La famille ou la maison de Dieu (Éphésiens 2.19 ; 1 Timothée 3.15) souligne l'amour fraternel : Dieu est notre Père, nous sommes frères et sœurs. Le temple (Éphésiens 2.20-22 ; 1 Pierre 2.5) souligne la présence de Dieu : nous sommes des pierres vivantes, et Dieu habite au milieu de nous par l'Esprit. L'épouse (Éphésiens 5.25-27 ; Apocalypse 19.7) souligne l'amour de Christ, qui s'est livré pour elle, et l'espérance des noces à venir. Le troupeau (Jean 10 ; Actes 20.28) souligne le soin pastoral.",
+            "Aucune de ces images ne permet d'être chrétien seul. Un membre détaché du corps meurt ; une pierre isolée ne forme pas un temple ; un enfant qui refuse sa famille se prive de son amour ; une brebis seule est la proie du loup."
+          ]
+        },
+        {
+          "titre": "Les quatre piliers d'Actes 2.42",
+          "paragraphes": [
+            "Actes 2.42 décrit ce que fait une église en bonne santé. Premièrement, l'enseignement des apôtres : la communauté se nourrit de la Parole, transmise aujourd'hui dans le Nouveau Testament. Une église qui ne nourrit pas ses membres de la Bible s'affaiblit, même si ses réunions sont animées. Deuxièmement, la communion fraternelle (koinônia) : partager la vie, les joies, les peines et les biens (Actes 2.44-45 ; 4.32-35). Troisièmement, la fraction du pain : très probablement la cène, souvent prise avec un repas commun. Quatrièmement, les prières : la communauté prie ensemble, et elle prie longuement, comme on le voit en Actes 4.24-31 et 12.5.",
+            "Le verbe « persévérer » (proskartereô) signifie s'attacher avec constance, s'y consacrer avec régularité. Ces quatre activités n'étaient pas des événements occasionnels, mais le rythme normal de la vie des croyants. Le résultat était la joie, la simplicité de cœur, le témoignage auprès de tout le peuple et la croissance : « le Seigneur ajoutait chaque jour à l'Église ceux qui étaient sauvés »."
+          ]
+        },
+        {
+          "titre": "Une famille imparfaite mais voulue par Dieu",
+          "paragraphes": [
+            "L'Église est sainte dans sa vocation, mais elle est composée de pécheurs pardonnés qui grandissent encore. Corinthe avait des divisions et des scandales, et pourtant Paul l'appelle « l'Église de Dieu » et ses membres des « sanctifiés en Jésus-Christ » (1 Corinthiens 1.2). Il ne faut pas chercher une église parfaite : si tu la trouves, elle cessera de l'être le jour où tu y entreras. Cela ne veut pas dire tout accepter : l'Écriture appelle à corriger les erreurs, à protéger les faibles et à écarter les faux enseignants (Actes 20.28-31 ; Tite 1.9).",
+            "Comment reconnaître une église saine ? Elle annonce fidèlement l'Évangile de Jésus-Christ et enseigne la Bible ; elle pratique le baptême et la cène selon l'Écriture ; ses responsables sont accessibles, irréprochables et rendent des comptes ; l'amour fraternel s'y vit concrètement ; elle ne manipule ni la conscience ni le portefeuille de ses membres. Une église n'a pas besoin d'être grande ni riche pour être fidèle."
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "ref": "1 Corinthiens 12.12-13",
+          "texte": "Car, comme le corps est un et a plusieurs membres, et comme tous les membres du corps, malgré leur nombre, ne forment qu'un seul corps, ainsi en est-il de Christ. Nous avons tous, en effet, été baptisés dans un seul Esprit, pour former un seul corps, soit Juifs, soit Grecs, soit esclaves, soit libres, et nous avons tous été abreuvés d'un seul Esprit."
+        },
+        {
+          "ref": "1 Corinthiens 12.26-27",
+          "texte": "Et si un membre souffre, tous les membres souffrent avec lui ; si un membre est honoré, tous les membres se réjouissent avec lui. Vous êtes le corps de Christ, et vous êtes ses membres, chacun pour sa part."
+        },
+        {
+          "ref": "Actes 2.42",
+          "texte": "Ils persévéraient dans l'enseignement des apôtres, dans la communion fraternelle, dans la fraction du pain, et dans les prières."
+        },
+        {
+          "ref": "Hébreux 10.24-25",
+          "texte": "Veillons les uns sur les autres, pour nous exciter à la charité et aux bonnes œuvres. N'abandonnons pas notre assemblée, comme c'est la coutume de quelques-uns ; mais exhortons-nous réciproquement, et cela d'autant plus que vous voyez s'approcher le jour."
+        },
+        {
+          "ref": "Matthieu 16.18",
+          "texte": "Et moi, je te dis que tu es Pierre, et que sur cette pierre je bâtirai mon Église, et que les portes du séjour des morts ne prévaudront point contre elle."
+        }
+      ],
+      "application": [
+        {
+          "titre": "Le chrétien « en ligne » seulement",
+          "paragraphes": [
+            "Les prédications en ligne et les cultes diffusés sur internet sont une bénédiction pour les malades, les personnes isolées ou ceux qui voyagent. Mais ils ne remplacent pas le corps. Sur un écran, personne ne remarque ton absence, personne ne te serre la main, personne ne voit que tu traverses une épreuve, et tu ne peux servir personne. Si tu suis surtout des cultes en ligne, fais un pas concret : choisis une église locale saine près de chez toi, et engage-toi à y être présent régulièrement, même si ce n'est pas la plus impressionnante."
+          ]
+        },
+        {
+          "titre": "Après une blessure dans l'Église",
+          "paragraphes": [
+            "Certains ont quitté l'Église après avoir été blessés : un abus d'autorité, une injustice, une trahison, une rumeur. Ces blessures sont réelles et Dieu les prend au sérieux ; dans les cas d'abus, il faut chercher de l'aide et ne pas rester sous une autorité qui détruit. Mais la réponse à une église malade n'est pas l'isolement, c'est la recherche d'une communauté plus saine et un chemin de guérison. Demande à Dieu de t'aider à pardonner, sans nier le mal subi, et ose faire de nouveau confiance, prudemment, à des frères et sœurs dignes de confiance."
+          ]
+        },
+        {
+          "titre": "Migrants et diasporas : l'Église comme famille",
+          "paragraphes": [
+            "Pour celui qui vit loin de son pays, l'église locale peut devenir une vraie famille : on y trouve de l'accueil, des conseils, un soutien dans les démarches et la solitude. La Pentecôte montre un peuple rassemblé de nations diverses. Si tu es accueilli, laisse-toi aimer et sers à ton tour. Si tu es bien établi, ouvre les yeux sur l'étranger qui arrive dans ton assemblée. Et résiste à la tentation de ne fréquenter que ceux de ta langue ou de ton origine : le corps de Christ dépasse nos frontières culturelles."
+          ]
+        },
+        {
+          "titre": "Trouver ta place dans le corps",
+          "paragraphes": [
+            "Chaque membre a une fonction. Tu n'as peut-être pas un don de prédication, mais tu peux accueillir, nettoyer, visiter les malades, aider les enfants, gérer les finances avec intégrité, prier, encourager, mettre ton métier au service de l'église. Demande à un responsable : « Où puis-je servir ? » Ne te compare pas aux autres, ni avec envie ni avec mépris. Le pied n'est pas moins utile que l'œil."
+          ]
+        },
+        {
+          "titre": "Dans un monde individualiste et pressé",
+          "paragraphes": [
+            "Notre époque valorise l'indépendance : chacun son emploi du temps, ses écouteurs, son fil d'actualité. Beaucoup vivent dans des villes immenses sans connaître leurs voisins. L'Église est un contre-modèle : un lieu où l'on porte les fardeaux les uns des autres (Galates 6.2). Concrètement, cela veut dire prendre des nouvelles d'un frère absent, partager un repas avec une famille de l'église, aider un étudiant à déménager, contribuer à la caisse de solidarité, visiter une sœur à l'hôpital. Cela prend du temps, et le temps est précieux. Mais c'est justement en donnant de son temps que l'on montre ce que l'on aime. Pose-toi la question : si je disparaissais de mon église pendant un mois, quelqu'un le remarquerait-il ? Et si quelqu'un d'autre disparaissait, est-ce que je le remarquerais ?"
+          ]
+        }
+      ],
+      "etudeDeCas": {
+        "situation": "David, 30 ans, informaticien, s'est converti il y a six mois en regardant des prédications sur internet. Il écoute chaque dimanche un culte en direct depuis son canapé et lit sa Bible seul. Il dit : « Je n'ai pas besoin d'une église, j'ai Dieu, et les églises sont pleines d'hypocrites ; en plus, mon oncle a été escroqué par un pasteur. » Un collègue chrétien l'invite à un petit groupe de maison, mais David hésite. Il commence pourtant à se sentir seul et ses bonnes résolutions faiblissent.",
+        "questions": [
+          "Quelles images bibliques de l'Église pourraient aider David à comprendre qu'un chrétien n'est pas fait pour vivre seul ?",
+          "Comment répondre à son objection sur les hypocrites et sur l'escroquerie subie par son oncle ?",
+          "Que lui apprendraient les quatre piliers d'Actes 2.42 sur ce qui lui manque ?",
+          "Quels critères lui proposerais-tu pour reconnaître une église saine ?"
+        ]
+      },
+      "reflexion": [
+        "Est-ce que je considère l'église locale comme un service que je consomme ou comme une famille dont je suis membre ?",
+        "Ai-je tendance à me sentir inutile dans le corps, ou au contraire à penser que je n'ai pas besoin des autres ?",
+        "Lequel des quatre piliers d'Actes 2.42 est le plus faible dans ma vie actuellement ?",
+        "Qui, dans mon église, souffre en ce moment, et comment puis-je souffrir avec lui ?"
+      ],
+      "retenir": [
+        "L'Église n'est pas un bâtiment : c'est le peuple de ceux que Dieu a appelés en Christ, son corps dont il est la tête.",
+        "L'Église est née de l'Esprit à la Pentecôte, par la prédication de Jésus mort et ressuscité.",
+        "Chaque membre est nécessaire ; il n'y a de place ni pour le complexe d'infériorité ni pour le mépris.",
+        "Une église saine persévère dans l'enseignement, la communion fraternelle, la fraction du pain et les prières.",
+        "Un chrétien isolé s'affaiblit : il ne faut pas abandonner l'assemblée."
+      ],
+      "memoriser": {
+        "ref": "1 Corinthiens 12.27",
+        "texte": "Vous êtes le corps de Christ, et vous êtes ses membres, chacun pour sa part."
+      },
+      "priere": "Seigneur Jésus, merci de ne pas m'avoir laissé seul, mais de m'avoir fait membre de ton corps. Pardonne-moi quand j'ai méprisé ton Église ou quand je me suis cru inutile. Guéris les blessures que j'ai reçues. Aide-moi à trouver ma place, à aimer mes frères et sœurs, à persévérer avec eux dans ta Parole, la communion, la cène et la prière. Amen."
+    },
+    {
+      "titre": "Le baptême d'eau",
+      "lectures": [
+        {
+          "ref": "Matthieu 28.16-20",
+          "resume": "Jésus ressuscité envoie ses disciples faire des disciples de toutes les nations, les baptiser et les enseigner."
+        },
+        {
+          "ref": "Romains 6.1-11",
+          "resume": "Paul explique que le baptême nous unit à la mort et à la résurrection de Christ pour marcher en nouveauté de vie."
+        },
+        {
+          "ref": "Actes 8.26-40",
+          "resume": "Philippe annonce Jésus à un haut fonctionnaire éthiopien à partir d'Ésaïe 53 ; celui-ci croit et est baptisé."
+        },
+        {
+          "ref": "Actes 16.25-34",
+          "resume": "Le geôlier de Philippes croit au Seigneur et est baptisé la même nuit avec sa maison."
+        }
+      ],
+      "recit": {
+        "titre": "« Voici de l'eau ; qu'est-ce qui empêche que je sois baptisé ? »",
+        "ref": "Actes 8.26-40",
+        "paragraphes": [
+          "Philippe était l'un des sept hommes choisis pour servir les veuves de l'église de Jérusalem (Actes 6.5). Lorsque la persécution dispersa les croyants, il alla en Samarie, où il annonça le Christ ; beaucoup crurent et furent baptisés, hommes et femmes. En plein milieu de ce réveil, un ange du Seigneur lui donna un ordre surprenant : « Lève-toi, et va du côté du midi, sur le chemin qui descend de Jérusalem à Gaza, celui qui est désert. » Quitter une ville en réveil pour une route déserte ! Philippe se leva et partit.",
+          "Sur cette route passait un char. À l'intérieur se trouvait un eunuque éthiopien, ministre de Candace, reine des Éthiopiens, et surintendant de tous ses trésors. C'était un homme puissant, venu de très loin (de la région du Haut-Nil, au sud de l'Égypte) pour adorer à Jérusalem. Mais en tant qu'étranger, et en tant qu'eunuque, il ne pouvait pas entrer dans toutes les parties du temple (voir Deutéronome 23.1). Il rentrait chez lui, assis dans son char, et lisait à haute voix le prophète Ésaïe, comme on le faisait à l'époque.",
+          "L'Esprit dit à Philippe : « Avance, et approche-toi de ce char. » Philippe courut et entendit l'homme lire. Il lui demanda : « Comprends-tu ce que tu lis ? » L'homme répondit avec humilité : « Comment le pourrais-je, si quelqu'un ne me guide ? » Et il invita Philippe à monter s'asseoir avec lui. Le passage qu'il lisait était Ésaïe 53 : « Il a été mené comme une brebis à la boucherie ; et, comme un agneau muet devant celui qui le tond, il n'a point ouvert la bouche. » L'eunuque demanda : « De qui le prophète parle-t-il ainsi ? Est-ce de lui-même, ou de quelque autre ? » Alors Philippe ouvrit la bouche, et, commençant par ce passage, il lui annonça la bonne nouvelle de Jésus.",
+          "Comme ils continuaient leur chemin, ils rencontrèrent de l'eau. L'eunuque s'écria : « Voici de l'eau ; qu'est-ce qui empêche que je sois baptisé ? » Ce haut fonctionnaire, exclu de certaines parties du temple, découvrait qu'en Jésus plus rien ne l'empêchait d'appartenir pleinement au peuple de Dieu. Il fit arrêter le char ; Philippe et l'eunuque descendirent tous deux dans l'eau, et Philippe le baptisa. Quand ils furent sortis de l'eau, l'Esprit du Seigneur enleva Philippe, et l'eunuque ne le vit plus. Mais il ne fut pas triste : il poursuivit sa route tout joyeux. Une ancienne tradition chrétienne affirme qu'il annonça l'Évangile dans son pays ; le texte biblique, lui, s'arrête sur sa joie.",
+          "Remarque : le verset 37 (« Philippe dit : Si tu crois de tout ton cœur, cela est possible. L'eunuque répondit : Je crois que Jésus-Christ est le Fils de Dieu ») figure dans la version Louis Segond, mais il est absent des manuscrits grecs les plus anciens. Quoi qu'il en soit, le récit montre clairement l'ordre des choses : la Parole est annoncée, l'homme croit en Jésus, puis il est baptisé."
+        ],
+        "lecons": [
+          "Dieu va chercher les personnes là où elles sont, même sur une route déserte, et l'Évangile franchit toutes les barrières ethniques et sociales.",
+          "Le baptême suit l'annonce de Jésus et la foi : il est la réponse de celui qui a cru.",
+          "Le baptême ne devrait pas être retardé sans raison : dans les Actes, il suit généralement de près la conversion.",
+          "Le baptême s'accompagne de joie : il marque le début d'une vie nouvelle."
+        ]
+      },
+      "exegese": [
+        {
+          "titre": "Matthieu 28.19-20 : le baptême dans la mission de Jésus",
+          "paragraphes": [
+            "Les derniers versets de l'Évangile de Matthieu se situent sur une montagne de Galilée, après la résurrection. Jésus déclare d'abord : « Tout pouvoir m'a été donné dans le ciel et sur la terre » (verset 18). Le commandement qui suit repose sur cette autorité. En grec, le verbe principal est « faites des disciples » (mathêteusate) ; il est entouré de trois participes : « allez », « baptisant » et « enseignant ». Le baptême n'est donc pas une fin en soi : il fait partie du processus par lequel on devient disciple de Jésus, avec l'enseignement à observer tout ce qu'il a prescrit.",
+            "Jésus dit de baptiser « au nom du Père, du Fils et du Saint-Esprit ». Le mot « nom » est au singulier : un seul nom pour trois personnes, ce qui exprime l'unité de Dieu en trois personnes. L'expression grecque eis to onoma (« dans le nom ») était utilisée pour un transfert de propriété : être baptisé dans le nom de quelqu'un, c'est lui appartenir désormais. Le baptisé déclare publiquement : j'appartiens au Dieu trinitaire. Quand le livre des Actes parle de baptême « au nom de Jésus-Christ » (Actes 2.38), il souligne que c'est sur l'autorité de Jésus et en le confessant comme Seigneur que l'on est baptisé ; ce n'est pas une contradiction avec Matthieu 28."
+          ]
+        },
+        {
+          "titre": "Romains 6.3-4 : ensevelis et ressuscités avec Christ",
+          "paragraphes": [
+            "Dans les chapitres 3 à 5 de Romains, Paul a montré que nous sommes justifiés par la foi seule, par grâce. Il anticipe alors une objection : « Que dirons-nous donc ? Demeurerions-nous dans le péché, afin que la grâce abonde ? » (6.1). Si Dieu pardonne tout, pourquoi ne pas continuer à pécher ? Paul répond par un « Loin de là ! » vigoureux, et il s'appuie sur le baptême.",
+            "« Ignorez-vous que nous tous qui avons été baptisés en Jésus-Christ, c'est en sa mort que nous avons été baptisés ? » (6.3). Le verbe baptizô signifie « plonger, immerger ». Il était utilisé par exemple pour un tissu plongé dans la teinture. Être baptisé en Christ, c'est être plongé dans sa personne et dans son œuvre, uni à lui. Paul poursuit : « Nous avons donc été ensevelis avec lui par le baptême en sa mort » (6.4). Le verbe sunthaptô, « ensevelir avec », évoque une tombe. Dans le baptême par immersion, l'image est très parlante : le croyant descend dans l'eau comme dans un tombeau, et en ressort comme d'une résurrection.",
+            "Le but est clair : « afin que, comme Christ est ressuscité des morts par la gloire du Père, de même nous aussi nous marchions en nouveauté de vie ». Le baptême proclame que l'ancienne vie, dominée par le péché, est morte avec Christ, et qu'une vie nouvelle a commencé. Paul en tire la conséquence pratique au verset 11 : « Ainsi vous-mêmes, regardez-vous comme morts au péché, et comme vivants pour Dieu en Jésus-Christ. » Le baptême n'est pas un rite à oublier ensuite : c'est une identité à vivre chaque jour."
+          ]
+        },
+        {
+          "titre": "Le baptême sauve-t-il ?",
+          "paragraphes": [
+            "Le Nouveau Testament lie étroitement le baptême à la conversion. Pierre dit : « Repentez-vous, et que chacun de vous soit baptisé » (Actes 2.38), et Paul affirme que ceux qui ont été baptisés en Christ « ont revêtu Christ » (Galates 3.27). Mais la Bible enseigne aussi clairement que nous sommes sauvés par grâce, par le moyen de la foi, et non par les œuvres (Éphésiens 2.8-9). Le brigand sur la croix n'a pas été baptisé, et Jésus lui a dit : « aujourd'hui tu seras avec moi dans le paradis » (Luc 23.43). Pierre précise lui-même que ce n'est pas l'eau qui purifie la chair, mais l'engagement d'une bonne conscience envers Dieu (1 Pierre 3.21).",
+            "On peut donc dire : le baptême ne sauve pas par lui-même, comme un acte magique ; c'est Christ qui sauve, par la foi. Mais le baptême est le signe visible que Jésus a établi pour accompagner cette foi. Refuser volontairement le baptême, alors qu'on le comprend et qu'on en a la possibilité, serait désobéir au Seigneur. Le baptême est à la foi ce que l'alliance est au mariage : il ne crée pas l'amour, mais il le déclare publiquement et engage pour la vie."
+          ]
+        },
+        {
+          "titre": "Actes 8.26-40 : l'Évangile jusqu'aux extrémités de la terre",
+          "paragraphes": [
+            "En Actes 1.8, Jésus avait annoncé le programme de la mission : « vous serez mes témoins à Jérusalem, dans toute la Judée, dans la Samarie, et jusqu'aux extrémités de la terre ». Le chapitre 8 marque le passage de Jérusalem à la Samarie, puis, avec l'eunuque, un premier pas vers les « extrémités de la terre » : pour les lecteurs de l'époque, l'Éthiopie (le royaume de Méroé, au sud de l'Égypte) représentait les confins du monde connu.",
+            "Le choix du passage d'Ésaïe 53 n'est pas un hasard : c'est la prophétie du Serviteur souffrant qui porte les péchés de beaucoup. Philippe montre que ce Serviteur est Jésus. Quelques chapitres plus loin, Ésaïe 56.3-5 promet que l'eunuque et l'étranger qui s'attachent à l'Éternel recevront dans sa maison « une place et un nom ». La question de l'eunuque, « qu'est-ce qui empêche ? », reçoit ainsi sa réponse dans l'Évangile : en Christ, plus rien ne l'empêche d'appartenir au peuple de Dieu. Le verbe grec kôluô (« empêcher ») revient d'ailleurs en Actes 10.47, quand Pierre demande si l'on peut refuser l'eau du baptême à Corneille et aux siens, des païens qui ont reçu l'Esprit."
+          ]
+        }
+      ],
+      "motsCles": [
+        {
+          "mot": "baptiser",
+          "langue": "grec",
+          "original": "baptizô",
+          "sens": "plonger, immerger ; signe de l'union du croyant avec Christ dans sa mort et sa résurrection."
+        },
+        {
+          "mot": "faire des disciples",
+          "langue": "grec",
+          "original": "mathêteuô",
+          "sens": "former quelqu'un comme apprenti et suiveur d'un maître ; verbe principal de Matthieu 28.19."
+        },
+        {
+          "mot": "ensevelir avec",
+          "langue": "grec",
+          "original": "sunthaptô",
+          "sens": "être mis au tombeau avec quelqu'un ; le baptême représente notre ancienne vie ensevelie avec Christ (Romains 6.4)."
+        },
+        {
+          "mot": "dans le nom de",
+          "langue": "grec",
+          "original": "eis to onoma",
+          "sens": "expression d'appartenance : être baptisé dans le nom du Père, du Fils et du Saint-Esprit, c'est appartenir désormais à Dieu."
+        }
+      ],
+      "enseignement": [
+        {
+          "titre": "Les origines du baptême",
+          "paragraphes": [
+            "Avant Jésus, Jean-Baptiste baptisait dans le Jourdain ceux qui confessaient leurs péchés, en signe de repentance, pour préparer la venue du Messie (Marc 1.4-5). Jésus lui-même s'est fait baptiser par Jean, non parce qu'il avait des péchés à confesser, mais pour accomplir « tout ce qui est juste » (Matthieu 3.15), en s'identifiant aux pécheurs qu'il venait sauver. À ce moment-là, le Père a déclaré : « Celui-ci est mon Fils bien-aimé », et l'Esprit est descendu sur lui (Matthieu 3.16-17).",
+            "Après sa résurrection, Jésus a fait du baptême l'ordonnance d'entrée dans la communauté de ses disciples (Matthieu 28.19). Dans le livre des Actes, partout où l'Évangile est reçu, le baptême suit : à la Pentecôte (Actes 2.41), en Samarie (8.12), pour l'eunuque (8.38), pour Paul (9.18), chez Corneille (10.47-48), pour Lydie et le geôlier à Philippes (16.15, 33)."
+          ]
+        },
+        {
+          "titre": "Ce que signifie le baptême",
+          "paragraphes": [
+            "Le baptême exprime plusieurs vérités à la fois. C'est d'abord un acte d'obéissance : Jésus l'a commandé. C'est un témoignage public : le croyant déclare devant l'Église et le monde qu'il appartient à Jésus. C'est un signe d'union avec Christ dans sa mort et sa résurrection (Romains 6.3-4). C'est un signe de purification : « lave tes péchés, en invoquant le nom du Seigneur » (Actes 22.16), non que l'eau lave l'âme, mais elle représente le pardon reçu par la foi. Enfin, c'est un signe d'entrée dans le corps du Christ : « nous avons tous… été baptisés dans un seul Esprit, pour former un seul corps » (1 Corinthiens 12.13).",
+            "C'est pourquoi le baptême est un moment de fête et d'engagement. Dans beaucoup de cultures, et en particulier là où le christianisme est minoritaire ou persécuté, le baptême est un acte courageux, car il rend visible une foi qui pourrait coûter cher. Il dit : « Je ne cache plus que je suis disciple de Jésus. »"
+          ]
+        },
+        {
+          "titre": "Questions pratiques et positions des évangéliques",
+          "paragraphes": [
+            "Qui baptiser ? La majorité des églises évangéliques (baptistes, pentecôtistes, églises libres) baptisent les personnes qui confessent personnellement leur foi : c'est le « baptême des croyants », qui suit l'ordre observé dans les Actes (croire, puis être baptisé). D'autres évangéliques, notamment dans les traditions réformées, presbytériennes ou anglicanes, baptisent aussi les enfants de parents croyants, en voyant dans le baptême un signe de l'alliance comparable à la circoncision (Colossiens 2.11-12) et en citant les baptêmes de « maisons » (Actes 16.15, 33). Ces frères et sœurs sont aussi attachés à la Bible et à la grâce : il convient d'en parler avec respect. Le programme de cette formation suit la pratique du baptême des croyants, tout en reconnaissant la foi de ceux qui pensent autrement.",
+            "Comment baptiser ? Le sens du mot baptizô (immerger) et l'image de l'ensevelissement en Romains 6 expliquent que beaucoup d'églises pratiquent l'immersion complète. D'autres pratiquent l'aspersion ou l'effusion. L'essentiel est la foi au Christ et l'obéissance à son commandement. Faut-il être rebaptisé ? Si une personne a été baptisée enfant et se convertit plus tard, chaque église a sa pratique ; le mieux est d'en parler avec ses responsables, sans esprit de dispute. Faut-il attendre d'être « parfait » pour être baptisé ? Non : le baptême est pour les pécheurs pardonnés qui commencent à suivre Jésus, pas pour ceux qui seraient arrivés. Une préparation sérieuse est cependant sage, pour comprendre ce que l'on fait."
+          ]
+        },
+        {
+          "titre": "Le baptême, porte d'entrée dans une vie de disciple",
+          "paragraphes": [
+            "Dans Matthieu 28, baptiser et enseigner vont ensemble. Le baptême n'est donc pas une ligne d'arrivée, mais une ligne de départ. Après le baptême, le croyant continue d'apprendre, de servir, de se laisser corriger et de grandir dans la communauté. Une église qui baptise beaucoup mais n'accompagne personne ensuite ne fait pas tout à fait ce que Jésus a demandé.",
+            "Le baptême est aussi lié à la promesse du Saint-Esprit (Actes 2.38). Les évangéliques ne décrivent pas tous de la même façon le rapport entre la conversion, le baptême d'eau et l'expérience de l'Esprit ; ce sujet sera approfondi dans un autre module. Mais tous s'accordent sur l'essentiel : celui qui appartient à Christ a reçu l'Esprit (Romains 8.9), et le baptême déclare publiquement cette appartenance."
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "ref": "Matthieu 28.19-20",
+          "texte": "Allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit, et enseignez-leur à observer tout ce que je vous ai prescrit. Et voici, je suis avec vous tous les jours, jusqu'à la fin du monde."
+        },
+        {
+          "ref": "Romains 6.3-4",
+          "texte": "Ignorez-vous que nous tous qui avons été baptisés en Jésus-Christ, c'est en sa mort que nous avons été baptisés ? Nous avons donc été ensevelis avec lui par le baptême en sa mort, afin que, comme Christ est ressuscité des morts par la gloire du Père, de même nous aussi nous marchions en nouveauté de vie."
+        },
+        {
+          "ref": "Actes 2.38",
+          "texte": "Pierre leur dit : Repentez-vous, et que chacun de vous soit baptisé au nom de Jésus-Christ, pour le pardon de vos péchés ; et vous recevrez le don du Saint-Esprit."
+        },
+        {
+          "ref": "Actes 8.36",
+          "texte": "Comme ils continuaient leur chemin, ils rencontrèrent de l'eau. Et l'eunuque dit : Voici de l'eau ; qu'est-ce qui empêche que je sois baptisé ?"
+        },
+        {
+          "ref": "Galates 3.27",
+          "texte": "vous tous, qui avez été baptisés en Christ, vous avez revêtu Christ."
+        }
+      ],
+      "application": [
+        {
+          "titre": "Si tu n'es pas encore baptisé",
+          "paragraphes": [
+            "Demande-toi honnêtement ce qui t'empêche d'être baptisé. La peur du regard de la famille ? Le sentiment de ne pas être « assez bon » ? Le manque d'information ? Ou simplement la négligence ? L'eunuque disait : « qu'est-ce qui empêche ? » Prends rendez-vous avec un responsable de ton église, suis la préparation au baptême, et fixe une date. Prépare ton témoignage : ta vie avant Christ, ta rencontre avec lui, ce qui a changé. Invite des amis et des membres de ta famille : le baptême est une excellente occasion de témoigner."
+          ]
+        },
+        {
+          "titre": "Quand le baptême coûte cher",
+          "paragraphes": [
+            "Dans certains milieux familiaux, religieux ou culturels, se faire baptiser peut entraîner des moqueries, le rejet de la famille, la perte d'un soutien financier, voire des dangers réels. Le Seigneur ne demande pas d'être imprudent, et les responsables d'église peuvent aider à discerner le bon moment et la bonne manière, parfois avec discrétion. Mais il ne faut pas non plus laisser la peur décider à la place de la foi. Jésus a dit : « quiconque me confessera devant les hommes, je le confesserai aussi devant mon Père qui est dans les cieux » (Matthieu 10.32). Et rappelle-toi que l'Église devient ta famille, surtout lorsque la tienne te rejette."
+          ]
+        },
+        {
+          "titre": "Si tu es déjà baptisé : vivre ton baptême",
+          "paragraphes": [
+            "Le baptême n'est pas un souvenir à ranger dans un album. Romains 6.11 nous invite à nous « regarder comme morts au péché ». Quand une tentation vient (colère, mensonge, impureté, corruption au travail), rappelle-toi : « Cette ancienne vie a été ensevelie dans l'eau du baptême. Je ne lui appartiens plus. » Certains croyants gardent la date de leur baptême comme un anniversaire spirituel, pour remercier Dieu et renouveler leur engagement chaque année."
+          ]
+        },
+        {
+          "titre": "Ni rite magique ni simple tradition",
+          "paragraphes": [
+            "Dans plusieurs cultures, on attribue à l'eau, aux bains rituels ou à certains gestes un pouvoir magique de protection ou de purification. Le baptême chrétien n'est pas de cet ordre : il ne protège pas automatiquement contre le malheur, il ne « lave » pas une malédiction, et il ne doit pas être répété chaque fois qu'on se sent sale. Il a de la valeur parce qu'il est relié à Christ et reçu par la foi. À l'inverse, ne le réduis pas à une simple tradition familiale ou à une formalité administrative pour devenir membre d'église : c'est un acte d'obéissance et d'engagement personnel envers le Seigneur."
+          ]
+        }
+      ],
+      "etudeDeCas": {
+        "situation": "Aïcha s'est convertie il y a un an. Elle lit la Bible, prie et vient à l'église chaque dimanche, mais elle n'est pas baptisée. Sa famille ne sait pas encore qu'elle est devenue chrétienne, et elle craint d'être rejetée si elle se fait baptiser publiquement. Une amie lui dit : « Le baptême ne sauve pas, donc ce n'est pas important ; reste discrète. » Une autre lui dit : « Si tu n'es pas baptisée, tu n'es pas vraiment sauvée. » Aïcha est troublée et ne sait plus quoi penser.",
+        "questions": [
+          "Que répondrais-tu à chacune des deux amies à la lumière d'Éphésiens 2.8-9, de Matthieu 28.19 et de 1 Pierre 3.21 ?",
+          "Quelle leçon Aïcha peut-elle tirer de la question de l'eunuque : « qu'est-ce qui empêche que je sois baptisé ? »",
+          "Comment son église pourrait-elle l'accompagner avec sagesse face à la réaction possible de sa famille ?",
+          "Comment Aïcha pourrait-elle préparer son témoignage pour le jour de son baptême ?"
+        ]
+      },
+      "reflexion": [
+        "Suis-je baptisé ? Si non, qu'est-ce qui m'en empêche réellement ?",
+        "Est-ce que je vis selon le sens de mon baptême : mort au péché et vivant pour Dieu ?",
+        "Ai-je tendance à voir le baptême comme un rite magique, ou au contraire comme une simple formalité ?",
+        "Quelle partie de mon « ancienne vie » essaie encore de sortir du tombeau ?"
+      ],
+      "retenir": [
+        "Jésus a commandé de baptiser ceux qui deviennent ses disciples, au nom du Père, du Fils et du Saint-Esprit.",
+        "Le baptême ne sauve pas par lui-même : nous sommes sauvés par grâce, par la foi ; mais il est l'obéissance et le témoignage public de cette foi.",
+        "Le baptême représente notre union avec Christ : ensevelis avec lui, ressuscités pour marcher en nouveauté de vie (Romains 6.4).",
+        "Dans les Actes, le baptême suit l'annonce de Jésus et la foi, souvent sans long délai.",
+        "Les évangéliques diffèrent sur l'âge et le mode du baptême ; on en parle avec respect, en restant fidèle à l'Écriture."
+      ],
+      "memoriser": {
+        "ref": "Romains 6.4",
+        "texte": "Nous avons donc été ensevelis avec lui par le baptême en sa mort, afin que, comme Christ est ressuscité des morts par la gloire du Père, de même nous aussi nous marchions en nouveauté de vie."
+      },
+      "priere": "Seigneur Jésus, merci d'être mort et ressuscité pour moi. Je veux t'obéir et te confesser devant les hommes. Ôte de moi la peur qui m'empêche de te suivre. Aide-moi à vivre chaque jour comme quelqu'un dont l'ancienne vie est ensevelie avec toi et qui marche en nouveauté de vie. Amen."
+    },
+    {
+      "titre": "La sainte cène",
+      "lectures": [
+        {
+          "ref": "Exode 12.1-14",
+          "resume": "Dieu institue la Pâque : un agneau immolé, son sang sur les portes, un repas pris en hâte, pour se souvenir de la délivrance d'Égypte."
+        },
+        {
+          "ref": "Luc 22.7-20",
+          "resume": "Pendant le repas de la Pâque, Jésus donne le pain et la coupe comme signes de son corps donné et de la nouvelle alliance en son sang."
+        },
+        {
+          "ref": "1 Corinthiens 11.17-34",
+          "resume": "Paul corrige les abus de Corinthe pendant le repas du Seigneur et appelle chacun à s'éprouver soi-même."
+        },
+        {
+          "ref": "1 Corinthiens 10.16-17",
+          "resume": "La coupe et le pain sont une communion au sang et au corps de Christ ; un seul pain, un seul corps."
+        }
+      ],
+      "recit": {
+        "titre": "Le dernier repas de Jésus",
+        "ref": "Luc 22.7-23 ; Exode 12.1-14",
+        "paragraphes": [
+          "Pour comprendre la cène, il faut remonter quinze siècles plus tôt, en Égypte. Le peuple d'Israël était esclave, et Pharaon refusait de le laisser partir. Avant la dernière plaie, Dieu donna à Moïse un ordre précis : chaque famille devait prendre un agneau sans défaut, l'immoler au crépuscule, mettre de son sang sur les deux poteaux et le linteau de la porte, puis manger la viande rôtie avec des pains sans levain et des herbes amères, la ceinture aux reins, les sandales aux pieds, le bâton à la main, en toute hâte. Dieu déclara : « Le sang vous servira de signe sur les maisons où vous serez ; je verrai le sang, et je passerai par-dessus vous. » Cette nuit-là, l'ange destructeur épargna les maisons marquées du sang, et Israël sortit d'Égypte. Dieu ordonna de célébrer ce repas chaque année pour s'en souvenir.",
+          "Au temps de Jésus, des milliers de pèlerins montaient à Jérusalem pour la Pâque. Le jour des pains sans levain, où l'on devait immoler la Pâque, Jésus envoya Pierre et Jean préparer le repas. Il leur dit qu'en entrant dans la ville, ils rencontreraient un homme portant une cruche d'eau ; ils devaient le suivre et demander au maître de la maison la salle où le Maître mangerait la Pâque avec ses disciples. Ils trouvèrent les choses comme Jésus l'avait dit : une grande chambre haute, meublée. Le soir venu, Jésus se mit à table avec les apôtres.",
+          "Il leur dit : « J'ai désiré vivement manger cette Pâque avec vous, avant de souffrir. » Il savait que le lendemain il serait crucifié. Au cours du repas, il prit du pain, rendit grâces, le rompit et le leur donna en disant : « Ceci est mon corps, qui est donné pour vous ; faites ceci en mémoire de moi. » Après le souper, il prit de même la coupe et dit : « Cette coupe est la nouvelle alliance en mon sang, qui est répandu pour vous. » Les disciples connaissaient par cœur le rituel de la Pâque, mais ils entendaient maintenant quelque chose de nouveau : Jésus se présentait lui-même comme l'Agneau dont le sang allait délivrer son peuple, non de l'esclavage d'Égypte, mais de l'esclavage du péché et de la mort.",
+          "Le récit de Luc contient aussi des ombres. Jésus annonce que la main de celui qui le livre est avec lui à table. Puis les disciples se disputent pour savoir lequel d'entre eux est le plus grand (Luc 22.24). Pierre affirme qu'il est prêt à mourir pour Jésus, mais Jésus lui annonce qu'il le reniera trois fois. Le premier repas du Seigneur a donc été partagé avec des disciples faibles, orgueilleux, bientôt infidèles. Et pourtant, Jésus leur a donné le pain et la coupe. La cène n'est pas un repas pour les parfaits, mais pour des pécheurs que Jésus aime jusqu'au bout et qu'il appelle à se repentir.",
+          "Quelques heures plus tard, Jésus était arrêté, jugé, crucifié. Il mourut au moment où, selon le calendrier de la fête, on immolait les agneaux de la Pâque. Paul pourra écrire : « Christ, notre Pâque, a été immolé » (1 Corinthiens 5.7)."
+        ],
+        "lecons": [
+          "La cène s'enracine dans la Pâque : comme le sang de l'agneau protégeait Israël, le sang de Jésus nous délivre du jugement et du péché.",
+          "Jésus lui-même a institué la cène et a demandé de la répéter « en mémoire de moi ».",
+          "La cène annonce une nouvelle alliance, scellée par le sang de Christ, qui donne le pardon des péchés.",
+          "Jésus a partagé ce repas avec des disciples imparfaits : la cène est pour des pécheurs repentants, non pour des gens qui se croient parfaits."
+        ]
+      },
+      "exegese": [
+        {
+          "titre": "Les paroles de l'institution (Luc 22.19-20)",
+          "paragraphes": [
+            "Jésus « rendit grâces » : le verbe eucharisteô a donné le mot « eucharistie », utilisé dans plusieurs traditions pour désigner la cène. Le premier geste de Jésus est donc la reconnaissance envers le Père, à la veille de sa souffrance. Il « rompit » le pain : ce geste évoque le corps qui va être brisé sur la croix. « Ceci est mon corps, qui est donné pour vous » : le « pour vous » (huper humôn) exprime la substitution ; Jésus meurt à notre place et en notre faveur.",
+            "« Faites ceci en mémoire de moi » : le mot anamnêsis (mémoire, souvenir) a dans la Bible un sens fort. Se souvenir, ce n'est pas seulement penser au passé, c'est rendre présent l'événement passé dans sa portée pour aujourd'hui. Lors de la Pâque, chaque génération d'Israël disait : « C'est en mémoire de ce que l'Éternel a fait pour moi, lorsque je suis sorti d'Égypte » (Exode 13.8). Lors de la cène, chaque croyant peut dire : c'est pour moi que Christ a donné son corps.",
+            "« Cette coupe est la nouvelle alliance en mon sang » : Jésus fait allusion à Jérémie 31.31-34, où Dieu promettait une nouvelle alliance dans laquelle il écrirait sa loi dans les cœurs et pardonnerait les péchés. Il rappelle aussi Exode 24.8, où Moïse aspergeait le peuple du « sang de l'alliance ». Toute alliance biblique est scellée par un sacrifice. La nouvelle alliance est scellée par le sang de Jésus lui-même. Matthieu précise : « répandu pour plusieurs, pour la rémission des péchés » (Matthieu 26.28)."
+          ]
+        },
+        {
+          "titre": "Corinthe : un repas du Seigneur qui humiliait les pauvres",
+          "paragraphes": [
+            "Dans les premières églises, la cène était souvent prise au cours d'un vrai repas communautaire, dans la maison d'un membre aisé. À Corinthe, cela avait tourné au scandale. Les riches, qui ne travaillaient pas tard, arrivaient tôt et mangeaient leur propre repas ; les pauvres et les esclaves, qui arrivaient après le travail, ne trouvaient plus rien. « L'un a faim, tandis que l'autre est ivre » (1 Corinthiens 11.21). Paul est sévère : « Méprisez-vous l'Église de Dieu, et faites-vous honte à ceux qui n'ont rien ? » (11.22). Ce n'était plus le repas du Seigneur, mais le repas de chacun.",
+            "C'est dans ce contexte que Paul rappelle les paroles de l'institution, qu'il dit avoir reçues du Seigneur et transmises (11.23-25). C'est le plus ancien texte écrit sur la cène, antérieur aux Évangiles. Puis il ajoute : « Car toutes les fois que vous mangez ce pain et que vous buvez cette coupe, vous annoncez la mort du Seigneur, jusqu'à ce qu'il vienne » (11.26). La cène est donc une prédication en actes : elle proclame la croix, et elle regarde vers le retour du Christ."
+          ]
+        },
+        {
+          "titre": "Prendre la cène « indignement » et « s'éprouver soi-même »",
+          "paragraphes": [
+            "Le verset 27 a souvent effrayé les croyants : « celui qui mangera le pain ou boira la coupe du Seigneur indignement, sera coupable envers le corps et le sang du Seigneur. » Le mot grec anaxiôs est un adverbe : il porte sur la manière de prendre la cène, pas sur la valeur de la personne. Personne n'est « digne » de la cène par ses mérites ; c'est justement pour des indignes que Christ est mort. Prendre la cène indignement, à Corinthe, c'était la prendre en méprisant ses frères pauvres, dans l'égoïsme et l'ivresse, sans discerner le sens de ce repas.",
+            "Paul demande : « Que chacun donc s'éprouve soi-même » (11.28). Le verbe dokimazô signifie examiner, mettre à l'épreuve, comme on teste un métal. Il ne s'agit pas de se torturer pour savoir si l'on est assez saint, mais de vérifier sa relation avec Dieu et avec les autres : y a-t-il un péché que je refuse d'abandonner ? Y a-t-il un frère que je méprise ou avec qui je refuse de me réconcilier ? Le verset 29 parle de « discerner le corps » : beaucoup de commentateurs y voient à la fois le corps du Christ donné sur la croix et le corps de Christ qu'est l'Église, présent autour de la table. Le but de l'examen n'est pas de s'exclure, mais de venir à la table après avoir réglé ce qui doit l'être : « et qu'ainsi il mange du pain et boive de la coupe »."
+          ]
+        },
+        {
+          "titre": "De la Pâque à la cène : continuité et nouveauté",
+          "paragraphes": [
+            "Les Évangiles synoptiques présentent le dernier repas comme un repas de Pâque (Luc 22.15), tandis que Jean situe la mort de Jésus au moment où l'on immolait les agneaux (Jean 19.14, 31). Les spécialistes proposent plusieurs explications pour harmoniser ces données, notamment l'usage de calendriers différents ; quoi qu'il en soit, tous les évangélistes relient la mort de Jésus à la Pâque.",
+            "Le repas pascal juif suivait un déroulement précis, avec plusieurs coupes de vin, le pain sans levain, les herbes amères et le récit de la sortie d'Égypte. C'est pourquoi Luc mentionne une coupe avant le pain (22.17) et une autre « après le souper » (22.20). Jésus prend ces éléments familiers et leur donne un sens nouveau : le pain n'évoque plus seulement la hâte du départ d'Égypte, mais son corps donné ; la coupe n'évoque plus seulement la délivrance d'autrefois, mais la nouvelle alliance en son sang. Jean-Baptiste l'avait annoncé : « Voici l'Agneau de Dieu, qui ôte le péché du monde » (Jean 1.29). La cène est le repas pascal de la nouvelle alliance, où le peuple de Dieu célèbre une délivrance plus grande que celle de l'Égypte."
+          ]
+        }
+      ],
+      "motsCles": [
+        {
+          "mot": "mémoire",
+          "langue": "grec",
+          "original": "anamnêsis",
+          "sens": "souvenir actif qui rend présente la portée d'un événement passé ; « faites ceci en mémoire de moi »."
+        },
+        {
+          "mot": "rendre grâces",
+          "langue": "grec",
+          "original": "eucharisteô",
+          "sens": "remercier ; geste de Jésus avant de rompre le pain, qui a donné le mot « eucharistie »."
+        },
+        {
+          "mot": "s'éprouver",
+          "langue": "grec",
+          "original": "dokimazô",
+          "sens": "examiner, mettre à l'épreuve comme un métal ; s'examiner devant Dieu avant de prendre la cène."
+        },
+        {
+          "mot": "Pâque",
+          "langue": "hébreu",
+          "original": "pesah",
+          "sens": "« passage par-dessus » ; fête de la délivrance d'Égypte, quand Dieu épargna les maisons marquées du sang de l'agneau."
+        },
+        {
+          "mot": "indignement",
+          "langue": "grec",
+          "original": "anaxiôs",
+          "sens": "d'une manière indigne ; porte sur la façon de prendre la cène (mépris, égoïsme), non sur le mérite de la personne."
+        }
+      ],
+      "enseignement": [
+        {
+          "titre": "Les noms et le sens de la cène",
+          "paragraphes": [
+            "La Bible et la tradition chrétienne donnent plusieurs noms à ce repas, chacun soulignant un aspect. « Le repas du Seigneur » (1 Corinthiens 11.20) rappelle que c'est sa table, non la nôtre. « La fraction du pain » (Actes 2.42) évoque le geste de Jésus. « La communion » rappelle 1 Corinthiens 10.16 : une participation au corps et au sang de Christ. « La cène » vient du latin cena, le repas du soir. « L'eucharistie » vient du verbe « rendre grâces ».",
+            "On peut résumer le sens de la cène en quatre regards. Un regard vers le passé : nous nous souvenons de la croix (« en mémoire de moi »). Un regard vers le haut : nous communions avec le Christ vivant, qui nourrit notre foi. Un regard autour de nous : nous formons un seul corps, car « puisqu'il y a un seul pain, nous qui sommes plusieurs, nous formons un seul corps » (1 Corinthiens 10.17). Un regard vers l'avenir : nous annonçons la mort du Seigneur « jusqu'à ce qu'il vienne », et nous attendons le festin des noces de l'Agneau (Apocalypse 19.9)."
+          ]
+        },
+        {
+          "titre": "La présence du Christ : des positions différentes",
+          "paragraphes": [
+            "Les chrétiens ont débattu au cours des siècles de la manière dont Christ est présent dans la cène. Parmi les évangéliques, deux grandes compréhensions coexistent. Beaucoup d'églises (baptistes, pentecôtistes, églises libres) insistent sur le mémorial : le pain et la coupe sont des signes qui nous rappellent l'œuvre de Christ, et Christ est présent par son Esprit au milieu de son peuple rassemblé. D'autres, dans la tradition réformée, parlent d'une « présence spirituelle » : par la foi et par l'Esprit, le croyant est réellement nourri du Christ lorsqu'il reçoit le pain et la coupe. La tradition luthérienne a encore une autre manière de l'exprimer.",
+            "Ces différences sont réelles, mais elles ne doivent pas faire oublier ce que tous reconnaissent : la cène a été instituée par Jésus, elle proclame sa mort pour nos péchés, elle se reçoit par la foi, elle unit les croyants entre eux et elle annonce son retour. Le pain et la coupe ne sont pas des objets magiques ; ils tirent leur valeur de la parole de Christ et de la foi de ceux qui les reçoivent."
+          ]
+        },
+        {
+          "titre": "Qui peut prendre la cène, et à quelle fréquence ?",
+          "paragraphes": [
+            "La cène est le repas de la famille de Dieu : elle est destinée à ceux qui ont mis leur foi en Jésus-Christ. La plupart des églises évangéliques demandent que l'on soit converti, et beaucoup demandent aussi que l'on soit baptisé, puisque le baptême est l'entrée publique dans la vie de disciple. Chaque église a ses règles ; il est sage de les respecter et d'en parler avec ses responsables.",
+            "Quant à la fréquence, le Nouveau Testament ne fixe pas de calendrier précis. Les premiers croyants rompaient le pain fréquemment, peut-être chaque jour au début (Actes 2.46), puis le premier jour de la semaine (Actes 20.7). Aujourd'hui, certaines églises la célèbrent chaque dimanche, d'autres une fois par mois ou moins. L'essentiel n'est pas la fréquence, mais que la cène ne devienne ni une routine vide, ni un rite si rare qu'on en oublie le sens."
+          ]
+        },
+        {
+          "titre": "Une table de réconciliation",
+          "paragraphes": [
+            "Jésus a enseigné : « Si donc tu présentes ton offrande à l'autel, et que là tu te souviennes que ton frère a quelque chose contre toi, laisse là ton offrande devant l'autel, et va d'abord te réconcilier avec ton frère ; puis, viens présenter ton offrande » (Matthieu 5.23-24). La cène est le lieu où cette parole devient très concrète. On ne peut pas célébrer le corps de Christ en méprisant ou en haïssant un membre de ce corps. Avant la cène, l'examen de soi conduit souvent à un appel téléphonique, à une demande de pardon, à un remboursement, à une réconciliation. Et si l'autre refuse, nous avons fait ce qui dépendait de nous (Romains 12.18)."
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "ref": "Luc 22.19-20",
+          "texte": "Ensuite il prit du pain ; et, après avoir rendu grâces, il le rompit, et le leur donna, en disant : Ceci est mon corps, qui est donné pour vous ; faites ceci en mémoire de moi. Il prit de même la coupe, après le souper, et la leur donna, en disant : Cette coupe est la nouvelle alliance en mon sang, qui est répandu pour vous."
+        },
+        {
+          "ref": "1 Corinthiens 11.26",
+          "texte": "Car toutes les fois que vous mangez ce pain et que vous buvez cette coupe, vous annoncez la mort du Seigneur, jusqu'à ce qu'il vienne."
+        },
+        {
+          "ref": "1 Corinthiens 11.28",
+          "texte": "Que chacun donc s'éprouve soi-même, et qu'ainsi il mange du pain et boive de la coupe ;"
+        },
+        {
+          "ref": "1 Corinthiens 10.16-17",
+          "texte": "La coupe de bénédiction que nous bénissons, n'est-elle pas la communion au sang de Christ ? Le pain que nous rompons, n'est-il pas la communion au corps de Christ ? Puisqu'il y a un seul pain, nous qui sommes plusieurs, nous formons un seul corps ; car nous participons tous à un même pain."
+        },
+        {
+          "ref": "Exode 12.13",
+          "texte": "Le sang vous servira de signe sur les maisons où vous serez ; je verrai le sang, et je passerai par-dessus vous, et il n'y aura point de plaie qui vous détruise, quand je frapperai le pays d'Égypte."
+        }
+      ],
+      "application": [
+        {
+          "titre": "Avant la cène : un examen qui libère",
+          "paragraphes": [
+            "La veille ou le matin d'un dimanche de cène, prends quinze minutes pour t'examiner devant Dieu. Lis 1 Corinthiens 11.23-29 ou le Psaume 139.23-24. Demande au Saint-Esprit de te montrer ce qui doit être réglé : une parole blessante, un mensonge, une habitude cachée, une rancune. Confesse-le à Dieu, reçois son pardon (1 Jean 1.9), et si c'est nécessaire, prends contact avec la personne concernée. Puis viens à la table non pas écrasé, mais reconnaissant : tu viens parce que tu as besoin de grâce, pas parce que tu la mérites."
+          ]
+        },
+        {
+          "titre": "Quand on ne se sent « pas digne »",
+          "paragraphes": [
+            "Certains croyants s'abstiennent de la cène pendant des mois parce qu'ils se sentent sales ou indignes. Il est juste de s'abstenir si l'on refuse délibérément d'abandonner un péché ou de se réconcilier. Mais si tu te repens sincèrement, ne t'exclus pas de la table que Jésus a préparée pour toi. Souviens-toi qu'il a donné le pain à Pierre, qui allait le renier, et aux disciples qui se disputaient. La cène n'est pas une récompense pour les forts, c'est une nourriture pour les faibles qui se confient en Christ."
+          ]
+        },
+        {
+          "titre": "Une table sans classes sociales",
+          "paragraphes": [
+            "À Corinthe, les riches mangeaient sans attendre les pauvres. Aujourd'hui encore, nos églises peuvent reproduire les divisions du monde : riches et pauvres, diplômés et non diplômés, nationaux et étrangers, ethnies différentes. La cène rappelle que nous mangeons tous le même pain. Concrètement, cela peut signifier : ne pas réserver les premières places aux notables, accueillir l'étranger et le pauvre avec le même honneur (Jacques 2.1-4), organiser des repas fraternels où chacun partage ce qu'il a, et veiller à ce que personne ne reparte le ventre vide quand l'église se réunit autour d'un repas."
+          ]
+        },
+        {
+          "titre": "Ne pas banaliser, ne pas sacraliser à l'excès",
+          "paragraphes": [
+            "Deux excès sont possibles. Le premier est la banalisation : prendre la cène distraitement, en regardant son téléphone, comme un geste automatique. Le second est la superstition : garder un morceau de pain consacré comme porte-bonheur, croire que la cène guérit automatiquement ou protège contre la sorcellerie sans foi ni repentance. La cène nous unit au Christ par la foi ; elle n'est pas un talisman. Vis-la avec recueillement, joie et simplicité, en fixant tes yeux sur Jésus."
+          ]
+        },
+        {
+          "titre": "La cène en famille et dans l'épreuve",
+          "paragraphes": [
+            "La cène peut aussi fortifier ceux qui traversent l'épreuve : le deuil, la maladie, le chômage, la persécution. Le pain rompu rappelle que Jésus connaît la souffrance et qu'il l'a traversée pour nous. Si un membre de ton église est malade ou âgé et ne peut plus venir, renseigne-toi : beaucoup d'églises organisent la cène à domicile avec un responsable. Et lorsque tu prends la cène, pense à ceux qui la prennent en cachette dans des pays où la foi est persécutée : nous formons avec eux un seul corps."
+          ]
+        }
+      ],
+      "etudeDeCas": {
+        "situation": "Marc et Samuel sont membres de la même église. Il y a six mois, Samuel a prêté de l'argent à Marc, qui ne l'a pas remboursé et évite maintenant de lui parler. Samuel en a parlé à plusieurs personnes de l'église, et la rumeur s'est répandue. Dimanche prochain, l'église célèbre la cène. Marc pense qu'il vaut mieux ne pas la prendre « pour ne pas être condamné », et Samuel pense qu'il peut la prendre puisque c'est lui la victime.",
+        "questions": [
+          "Que signifie prendre la cène « indignement » selon le contexte de 1 Corinthiens 11.17-34 ?",
+          "Que devraient faire Marc et Samuel, chacun de son côté, à la lumière de Matthieu 5.23-24 et de 1 Corinthiens 11.28 ?",
+          "La solution de Marc (s'abstenir sans rien changer) est-elle la bonne ? Pourquoi ?",
+          "Comment la cène peut-elle devenir l'occasion d'une vraie réconciliation entre eux ?"
+        ]
+      },
+      "reflexion": [
+        "Quand je prends la cène, à quoi est-ce que je pense : à la croix, à mes frères, au retour de Jésus, ou à rien de particulier ?",
+        "Y a-t-il une personne avec qui je dois me réconcilier avant la prochaine cène ?",
+        "Ai-je tendance à banaliser la cène ou à m'en exclure par sentiment d'indignité ?",
+        "Comment la cène peut-elle changer ma manière de traiter les frères et sœurs plus pauvres ou différents de moi ?"
+      ],
+      "retenir": [
+        "La cène, instituée par Jésus pendant la Pâque, rappelle son corps donné et son sang répandu pour nous.",
+        "Elle se vit en regardant vers le passé (la croix), vers le haut (la communion avec Christ), autour de nous (un seul corps) et vers l'avenir (son retour).",
+        "« Indignement » porte sur la manière de prendre la cène, non sur le mérite de la personne : personne n'est digne par lui-même.",
+        "Avant la cène, chacun doit s'éprouver soi-même et se réconcilier avec ses frères.",
+        "Les évangéliques comprennent différemment la présence du Christ dans la cène, mais tous la reçoivent par la foi, sans magie."
+      ],
+      "memoriser": {
+        "ref": "1 Corinthiens 11.26",
+        "texte": "Car toutes les fois que vous mangez ce pain et que vous buvez cette coupe, vous annoncez la mort du Seigneur, jusqu'à ce qu'il vienne."
+      },
+      "priere": "Seigneur Jésus, Agneau de Dieu, merci pour ton corps donné et ton sang répandu pour moi. Quand je viens à ta table, apprends-moi à me souvenir, à m'examiner, à me réconcilier et à attendre ton retour. Garde-moi de la routine comme de la superstition. Fais de notre église un seul corps autour d'un seul pain. Amen."
+    }
+  ],
+  "pratique": {
+    "consigne": "Pendant un mois, participe fidèlement à la vie d'une église locale (culte et petit groupe), propose ton aide dans un service et prépare-toi au baptême ou à la prochaine cène. Raconte ensuite par écrit ton expérience : ce que tu as reçu, ce que tu as donné et ce que tu as appris sur le corps de Christ.",
+    "etapes": [
+      "Choisis une église locale saine près de chez toi (Actes 2.42 comme critère) et engage-toi à y être présent chaque semaine pendant quatre semaines.",
+      "Rejoins un petit groupe (cellule, groupe de maison, groupe biblique) et apprends le prénom d'au moins cinq frères et sœurs.",
+      "Demande à un responsable où tu peux servir, et sers au moins deux fois (accueil, nettoyage, enfants, visites, technique, louange…).",
+      "Si tu n'es pas baptisé, prends rendez-vous avec un responsable pour en parler et commencer la préparation ; si tu l'es, écris ton témoignage de baptême en dix lignes.",
+      "Avant la prochaine cène, prends un temps d'examen personnel et, si nécessaire, une démarche de réconciliation.",
+      "Rédige ton bilan (une demi-page) : ce que ce mois t'a appris sur l'Église, le baptême et la cène."
+    ]
+  },
+  "examen": [
+    {
+      "q": "Selon Actes 2.42, dans quelles quatre choses persévéraient les premiers croyants ?",
+      "choix": [
+        "Les miracles, les voyages, les jeûnes et les offrandes",
+        "L'enseignement des apôtres, la communion fraternelle, la fraction du pain et les prières",
+        "Le temple, la synagogue, la loi et le sabbat",
+        "Les chants, les danses, les fêtes et les repas"
+      ],
+      "bonne": 1,
+      "explication": "« Ils persévéraient dans l'enseignement des apôtres, dans la communion fraternelle, dans la fraction du pain, et dans les prières » (Actes 2.42)."
+    },
+    {
+      "q": "Le mot grec ekklêsia, traduit par « Église », désigne d'abord :",
+      "choix": [
+        "Un bâtiment de culte",
+        "Un clergé",
+        "Une assemblée de personnes convoquées",
+        "Une dénomination"
+      ],
+      "bonne": 2,
+      "explication": "L'ekklêsia est l'assemblée de ceux que Dieu a appelés en Christ ; l'Église n'est pas un bâtiment mais un peuple (1 Pierre 2.9)."
+    },
+    {
+      "q": "Le jour de la Pentecôte, environ combien de personnes furent ajoutées à l'Église après la prédication de Pierre ?",
+      "choix": [
+        "Cent vingt",
+        "Cinq cents",
+        "Douze",
+        "Trois mille"
+      ],
+      "bonne": 3,
+      "explication": "« Ceux qui acceptèrent sa parole furent baptisés ; et, en ce jour-là, furent ajoutées environ trois mille âmes » (Actes 2.41)."
+    },
+    {
+      "q": "Dans 1 Corinthiens 12, que répond Paul au pied qui dit : « Parce que je ne suis pas une main, je ne suis pas du corps » ?",
+      "choix": [
+        "Il n'en est pas moins du corps",
+        "Il a raison de se retirer",
+        "Il doit devenir une main",
+        "Il doit se contenter d'observer"
+      ],
+      "bonne": 0,
+      "explication": "Paul demande : « ne serait-il pas du corps pour cela ? » (1 Corinthiens 12.15) : chaque membre est nécessaire, même s'il n'a pas le don des autres."
+    },
+    {
+      "q": "Selon 1 Corinthiens 12.26, que se passe-t-il quand un membre du corps souffre ?",
+      "choix": [
+        "Les autres l'ignorent",
+        "Il doit quitter le corps",
+        "Tous les membres souffrent avec lui",
+        "Seuls les responsables sont concernés"
+      ],
+      "bonne": 2,
+      "explication": "« Si un membre souffre, tous les membres souffrent avec lui ; si un membre est honoré, tous les membres se réjouissent avec lui » (1 Corinthiens 12.26)."
+    },
+    {
+      "q": "Que demande Hébreux 10.25 au sujet de l'assemblée des croyants ?",
+      "choix": [
+        "De ne s'y rendre que pour les grandes fêtes",
+        "De ne pas l'abandonner, comme c'est la coutume de quelques-uns",
+        "De la remplacer par la prière personnelle",
+        "De n'y venir que si l'on a un ministère"
+      ],
+      "bonne": 1,
+      "explication": "« N'abandonnons pas notre assemblée, comme c'est la coutume de quelques-uns ; mais exhortons-nous réciproquement » (Hébreux 10.25)."
+    },
+    {
+      "q": "Vrai ou faux : selon la Bible, un chrétien peut grandir normalement dans la foi en restant volontairement isolé de toute église.",
+      "choix": [
+        "Vrai",
+        "Faux"
+      ],
+      "bonne": 1,
+      "explication": "Le croyant est membre d'un corps (1 Corinthiens 12.27) et appelé à ne pas abandonner l'assemblée (Hébreux 10.25) ; l'isolement volontaire l'affaiblit."
+    },
+    {
+      "q": "Dans Matthieu 28.19-20, quel est le verbe principal de l'ordre de Jésus ?",
+      "choix": [
+        "Faites des disciples",
+        "Construisez des églises",
+        "Chassez les démons",
+        "Jeûnez"
+      ],
+      "bonne": 0,
+      "explication": "En grec, le verbe principal est « faites des disciples » (mathêteuô), accompagné de « allez », « baptisant » et « enseignant »."
+    },
+    {
+      "q": "Que signifie le verbe grec baptizô ?",
+      "choix": [
+        "Bénir",
+        "Oindre d'huile",
+        "Plonger, immerger",
+        "Promettre"
+      ],
+      "bonne": 2,
+      "explication": "Baptizô signifie plonger, immerger ; Paul y voit l'image de l'ensevelissement et de la résurrection avec Christ (Romains 6.4)."
+    },
+    {
+      "q": "Selon Romains 6.3-4, que représente le baptême ?",
+      "choix": [
+        "Une purification du corps physique",
+        "L'entrée dans une famille humaine",
+        "Une protection contre la maladie",
+        "Notre union avec Christ dans sa mort et sa résurrection pour une vie nouvelle"
+      ],
+      "bonne": 3,
+      "explication": "« Nous avons donc été ensevelis avec lui par le baptême en sa mort, afin que… nous aussi nous marchions en nouveauté de vie » (Romains 6.4)."
+    },
+    {
+      "q": "Quel passage de l'Écriture l'eunuque éthiopien lisait-il quand Philippe s'approcha de son char ?",
+      "choix": [
+        "Genèse 1",
+        "Ésaïe 53",
+        "Psaume 23",
+        "Jonas 2"
+      ],
+      "bonne": 1,
+      "explication": "Il lisait : « Il a été mené comme une brebis à la boucherie… » (Ésaïe 53.7-8, cité en Actes 8.32-33), et Philippe lui annonça Jésus à partir de ce passage."
+    },
+    {
+      "q": "Quelle question l'eunuque pose-t-il en voyant de l'eau (Actes 8.36) ?",
+      "choix": [
+        "« Qu'est-ce qui empêche que je sois baptisé ? »",
+        "« Combien dois-je payer ? »",
+        "« Faut-il attendre un an ? »",
+        "« Qui est le plus grand ? »"
+      ],
+      "bonne": 0,
+      "explication": "« Voici de l'eau ; qu'est-ce qui empêche que je sois baptisé ? » (Actes 8.36) : le baptême suit de près la foi en Jésus."
+    },
+    {
+      "q": "Quelle affirmation résume le mieux l'enseignement biblique sur le baptême et le salut ?",
+      "choix": [
+        "Le baptême sauve automatiquement, même sans foi",
+        "Le baptême est sans importance",
+        "Nous sommes sauvés par grâce par la foi, et le baptême est l'obéissance et le témoignage public de cette foi",
+        "On est sauvé seulement après plusieurs baptêmes"
+      ],
+      "bonne": 2,
+      "explication": "Le salut est par grâce, par la foi (Éphésiens 2.8-9) ; le baptême, commandé par Jésus (Matthieu 28.19), est « l'engagement d'une bonne conscience envers Dieu » (1 Pierre 3.21)."
+    },
+    {
+      "q": "Vrai ou faux : tous les chrétiens évangéliques ont exactement la même pratique sur l'âge du baptême.",
+      "choix": [
+        "Vrai",
+        "Faux"
+      ],
+      "bonne": 1,
+      "explication": "La majorité pratique le baptême des croyants, mais d'autres évangéliques (réformés, presbytériens, anglicans) baptisent aussi les enfants de croyants ; on en parle avec respect."
+    },
+    {
+      "q": "Au cours de quelle fête juive Jésus a-t-il institué la cène ?",
+      "choix": [
+        "La fête des Tabernacles",
+        "La Pentecôte",
+        "Le jour des Expiations",
+        "La Pâque"
+      ],
+      "bonne": 3,
+      "explication": "Jésus dit : « J'ai désiré vivement manger cette Pâque avec vous, avant de souffrir » (Luc 22.15) ; « Christ, notre Pâque, a été immolé » (1 Corinthiens 5.7)."
+    },
+    {
+      "q": "Selon Exode 12.13, qu'est-ce qui servait de signe pour que l'Éternel passe par-dessus les maisons des Israélites ?",
+      "choix": [
+        "Le sang de l'agneau sur les portes",
+        "Une lampe allumée",
+        "Un pain sans levain suspendu",
+        "Le nom de Moïse écrit sur la porte"
+      ],
+      "bonne": 0,
+      "explication": "« Le sang vous servira de signe sur les maisons où vous serez ; je verrai le sang, et je passerai par-dessus vous » (Exode 12.13)."
+    },
+    {
+      "q": "Selon Luc 22.20, que représente la coupe ?",
+      "choix": [
+        "La joie de la fête",
+        "La nouvelle alliance dans le sang de Jésus, répandu pour nous",
+        "Le vin des noces de Cana",
+        "La colère de Dieu contre Israël"
+      ],
+      "bonne": 1,
+      "explication": "« Cette coupe est la nouvelle alliance en mon sang, qui est répandu pour vous » (Luc 22.20), selon la promesse de Jérémie 31.31-34."
+    },
+    {
+      "q": "D'après 1 Corinthiens 11.26, que faisons-nous chaque fois que nous prenons la cène ?",
+      "choix": [
+        "Nous gagnons des mérites",
+        "Nous recommençons le sacrifice de Jésus",
+        "Nous annonçons la mort du Seigneur jusqu'à ce qu'il vienne",
+        "Nous chassons les mauvais esprits"
+      ],
+      "bonne": 2,
+      "explication": "« Toutes les fois que vous mangez ce pain et que vous buvez cette coupe, vous annoncez la mort du Seigneur, jusqu'à ce qu'il vienne » (1 Corinthiens 11.26)."
+    },
+    {
+      "q": "À Corinthe, qu'est-ce qui rendait le repas du Seigneur « indigne » ?",
+      "choix": [
+        "On utilisait du pain levé",
+        "On le prenait le soir",
+        "Les femmes y participaient",
+        "Les riches mangeaient sans attendre les pauvres, et certains s'enivraient"
+      ],
+      "bonne": 3,
+      "explication": "« L'un a faim, tandis que l'autre est ivre… faites-vous honte à ceux qui n'ont rien ? » (1 Corinthiens 11.21-22) : le mépris des frères rendait le repas indigne."
+    },
+    {
+      "q": "Un frère a une rancune contre toi et la cène est dimanche. Selon Matthieu 5.23-24 et 1 Corinthiens 11.28, que faut-il faire ?",
+      "choix": [
+        "S'éprouver soi-même et chercher d'abord à se réconcilier",
+        "Prendre la cène sans y penser",
+        "Ne plus jamais prendre la cène",
+        "Changer d'église"
+      ],
+      "bonne": 0,
+      "explication": "Jésus dit : « va d'abord te réconcilier avec ton frère » (Matthieu 5.24), et Paul : « Que chacun donc s'éprouve soi-même » (1 Corinthiens 11.28)."
+    }
+  ]
+}

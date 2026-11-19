@@ -1,0 +1,931 @@
+{
+ "id": "n1m2",
+ "titre": "Connaître Dieu : Père, Fils et Saint-Esprit",
+ "objectif": "Découvrir qui est le Dieu que je sers et la relation qu’il m’offre.",
+ "introduction": [
+  "Être chrétien, ce n'est pas d'abord adhérer à une religion, c'est connaître une personne. Jésus l'a dit dans sa prière : « Or, la vie éternelle, c'est qu'ils te connaissent, toi, le seul vrai Dieu, et celui que tu as envoyé, Jésus-Christ » (Jean 17.3). Ce module t'invite à découvrir qui est le Dieu que tu sers désormais.",
+  "Il n'y a qu'un seul Dieu, mais la Bible nous le révèle comme Père, Fils et Saint-Esprit. Dans la première leçon, nous découvrirons le Père à travers sa révélation à Moïse, le Psaume 103 et la parabole du père qui avait deux fils. Dans la deuxième, nous contemplerons le Fils, vrai Dieu et vrai homme, à travers le récit de la tempête apaisée et les grands textes de Jean 1, Philippiens 2 et Colossiens 1. Dans la troisième, nous apprendrons à connaître le Saint-Esprit, sa personne et son œuvre, à travers le récit de la Pentecôte.",
+  "Ces vérités ont des conséquences très concrètes : notre manière de prier, de vaincre l'inquiétude, de guérir de nos blessures familiales, de résister aux pressions religieuses et occultes, et de discerner les faux enseignements. Ce que nous croyons sur Dieu façonne toute notre vie.",
+  "Pendant ce module, tu dois lire en entier l'Évangile de Marc (16 chapitres, environ un chapitre par jour). C'est le plus court des quatre Évangiles, et il te fera rencontrer Jésus en action. Prends des notes sur ce que chaque chapitre te montre de lui."
+ ],
+ "lecturesObligatoires": [
+  {
+   "ref": "Exode 33.12 à 34.9",
+   "consigne": "Note ce que Moïse demande à Dieu et chaque qualité que Dieu proclame de lui-même."
+  },
+  {
+   "ref": "Psaume 103",
+   "consigne": "Fais la liste des bienfaits de Dieu cités dans ce psaume et des trois images des versets 11 à 14."
+  },
+  {
+   "ref": "Matthieu 6.1-34",
+   "consigne": "Relève toutes les fois où Jésus parle de « votre Père » et ce qu'il dit de lui."
+  },
+  {
+   "ref": "Luc 15",
+   "consigne": "Compare les trois paraboles : qu'est-ce qui est perdu, qui cherche, et comment se termine chaque histoire ?"
+  },
+  {
+   "ref": "Jean 1.1-18",
+   "consigne": "Relève tout ce que Jean affirme de la Parole (le logos)."
+  },
+  {
+   "ref": "Philippiens 2.1-11",
+   "consigne": "Dessine une flèche qui descend puis remonte et place chaque étape de l'abaissement et de l'élévation de Christ."
+  },
+  {
+   "ref": "Colossiens 1.13-23",
+   "consigne": "Note tous les titres et toutes les actions attribués à Christ."
+  },
+  {
+   "ref": "Marc 1 à 16",
+   "consigne": "Lis l'Évangile de Marc en entier pendant le module ; pour chaque chapitre, écris une phrase sur ce qu'il révèle de Jésus."
+  },
+  {
+   "ref": "Jean 14 à 16",
+   "consigne": "Relève toutes les promesses de Jésus concernant le Saint-Esprit."
+  },
+  {
+   "ref": "Actes 2",
+   "consigne": "Résume le discours de Pierre en cinq phrases et note la réponse des auditeurs."
+  },
+  {
+   "ref": "Romains 8.1-17",
+   "consigne": "Relève ce que l'Esprit fait dans la vie du croyant."
+  },
+  {
+   "ref": "Galates 5.13-26",
+   "consigne": "Compare les œuvres de la chair et le fruit de l'Esprit."
+  }
+ ],
+ "lecons": [
+  {
+   "titre": "Dieu le Père",
+   "lectures": [
+    {
+     "ref": "Exode 34.1-9",
+     "resume": "Dieu se révèle à Moïse en proclamant son nom : miséricordieux, compatissant, lent à la colère, riche en bonté et en fidélité, mais juste."
+    },
+    {
+     "ref": "Psaume 103",
+     "resume": "David bénit l'Éternel qui pardonne, guérit, rachète et a compassion de ses enfants comme un père."
+    },
+    {
+     "ref": "Matthieu 6.5-15 ; 6.25-34",
+     "resume": "Jésus apprend à ses disciples à prier « Notre Père » et à ne pas s'inquiéter, car le Père céleste connaît leurs besoins."
+    },
+    {
+     "ref": "Luc 15.11-32",
+     "resume": "La parabole du père et de ses deux fils : un père qui court vers le fils perdu et qui supplie le fils aîné d'entrer dans la fête."
+    }
+   ],
+   "recit": {
+    "titre": "Le père qui courait : la parabole des deux fils",
+    "ref": "Luc 15.11-32",
+    "paragraphes": [
+     "Des collecteurs d'impôts et des gens de mauvaise vie s'approchent de Jésus pour l'écouter, et les pharisiens murmurent : « Cet homme accueille des gens de mauvaise vie, et il mange avec eux. » Jésus répond par trois histoires : une brebis perdue, une pièce d'argent perdue, et un fils perdu. Un homme avait deux fils. Le plus jeune lui dit : « Mon père, donne-moi la part de bien qui doit me revenir. » Dans la culture de l'époque, réclamer son héritage du vivant de son père, c'était presque lui dire : « J'aimerais que tu sois mort. » Le père, pourtant, partage son bien. Quelques jours plus tard, le fils rassemble tout, part dans un pays éloigné et dissipe sa fortune en vivant dans la débauche.",
+     "Quand il a tout dépensé, une grande famine survient. Il se met au service d'un habitant du pays qui l'envoie garder les pourceaux, des animaux impurs pour un Juif. Il aurait voulu se rassasier des carouges que mangeaient les porcs, mais personne ne lui en donnait. Alors il « rentre en lui-même ». Il se souvient que chez son père, même les ouvriers ont du pain en abondance. Il prépare un discours : « Mon père, j'ai péché contre le ciel et contre toi, je ne suis plus digne d'être appelé ton fils ; traite-moi comme l'un de tes mercenaires. » Et il se met en route.",
+     "Voici le cœur du récit : « Comme il était encore loin, son père le vit et fut ému de compassion, il courut se jeter à son cou et le baisa. » Ce père guettait l'horizon. Dans l'Orient ancien, un homme âgé et respecté ne courait pas en public : il fallait relever sa robe, ce qui était humiliant. Ce père accepte la honte pour atteindre son fils avant que le village ne le rejette. Le fils commence son discours, mais le père ne le laisse pas finir la phrase sur les mercenaires. Il donne des ordres : la plus belle robe, signe d'honneur ; un anneau, signe d'autorité dans la famille ; des souliers, car les esclaves allaient pieds nus ; et le veau gras pour une fête. « Mon fils que voici était mort, et il est revenu à la vie ; il était perdu, et il est retrouvé. »",
+     "Mais l'histoire n'est pas finie. Le fils aîné revient des champs, entend la musique et apprend la nouvelle. Il se met en colère et refuse d'entrer. Alors, une deuxième fois, le père sort. Il ne court pas vers le fils rebelle seulement, il sort aussi vers le fils obéissant mais amer, et il le supplie. Le fils aîné éclate : « Voici, il y a tant d'années que je te sers, sans avoir jamais transgressé tes ordres, et jamais tu ne m'as donné un chevreau pour que je me réjouisse avec mes amis. » Le père répond avec tendresse : « Mon enfant, tu es toujours avec moi, et tout ce que j'ai est à toi ; mais il fallait bien s'égayer et se réjouir. » Jésus s'arrête là, sans dire si l'aîné est entré. La question reste ouverte pour les pharisiens… et pour nous."
+    ],
+    "lecons": [
+     "Le Père céleste n'attend pas que nous soyons dignes pour nous accueillir : il voit de loin, il est ému de compassion et il court vers nous.",
+     "Dieu ne nous reprend pas comme des employés, mais comme des enfants : robe, anneau, souliers, fête.",
+     "On peut être loin du Père en vivant dans la débauche, mais aussi en restant à la maison avec un cœur dur, fier de son obéissance.",
+     "Le cœur du Père se réjouit du retour des perdus, et il nous invite à partager sa joie plutôt qu'à murmurer."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Exode 34.6-7 : Dieu se présente lui-même",
+     "paragraphes": [
+      "Le contexte est dramatique. Au pied du mont Sinaï, juste après avoir reçu l'alliance, Israël a fabriqué un veau d'or (Exode 32). Moïse a intercédé, puis il a demandé à Dieu : « Fais-moi voir ta gloire ! » (33.18). Dieu répond en faisant passer devant lui sa bonté et en proclamant son nom. C'est l'une des descriptions de Dieu les plus citées dans l'Ancien Testament (Nombres 14.18 ; Néhémie 9.17 ; Psaume 86.15 ; Joël 2.13 ; Jonas 4.2).",
+      "Dieu se nomme d'abord « l'Éternel », traduction traditionnelle du nom YHWH, que Dieu avait révélé à Moïse au buisson ardent : « Je suis celui qui suis » (Exode 3.14). Ce nom dit que Dieu existe par lui-même, qu'il est fidèle et présent. Puis viennent cinq traits. « Miséricordieux » (rachoum) vient d'un mot proche de rechem, le sein maternel : c'est une tendresse viscérale. « Compatissant » (channoun) dit la grâce qui donne gratuitement. « Lent à la colère » signifie littéralement « long de narines » : Dieu ne s'emporte pas vite. « Riche en bonté » traduit chesed, l'amour fidèle de l'alliance, loyal et durable. « Et en fidélité » ('emet) évoque la solidité, la vérité sur laquelle on peut s'appuyer.",
+      "Mais le texte ajoute : Dieu « ne tient point le coupable pour innocent ». Son amour n'est pas une indulgence aveugle. Il pardonne l'iniquité, la rébellion et le péché, mais il ne fait pas comme si le mal n'existait pas. Cette tension entre miséricorde et justice ne trouvera sa pleine résolution qu'à la croix, où Dieu pardonne le pécheur en condamnant le péché en son Fils."
+     ]
+    },
+    {
+     "titre": "Psaume 103 : la compassion d'un père",
+     "paragraphes": [
+      "Le Psaume 103 est attribué à David. Il commence par un dialogue intérieur : « Mon âme, bénis l'Éternel ! … et n'oublie aucun de ses bienfaits ! » Suit une liste : il pardonne, il guérit, il délivre de la fosse, il couronne de bonté et de miséricorde, il rassasie de biens (v. 3-5). Au verset 8, David cite presque mot pour mot Exode 34.6, montrant que la révélation donnée à Moïse est devenue la foi vivante d'Israël.",
+      "Les versets 11 à 14 utilisent trois images. La hauteur : autant les cieux sont élevés au-dessus de la terre, autant sa bonté est grande. La distance : autant l'orient est éloigné de l'occident, autant il éloigne de nous nos transgressions. La paternité : « Comme un père a compassion de ses enfants, l'Éternel a compassion de ceux qui le craignent. Car il sait de quoi nous sommes formés, il se souvient que nous sommes poussière. » Le verbe « avoir compassion » (racham) est de la même famille que « miséricordieux » en Exode 34. Le Père connaît notre fragilité et ne nous écrase pas."
+     ]
+    },
+    {
+     "titre": "Luc 15 : le contexte des trois paraboles",
+     "paragraphes": [
+      "On lit souvent la parabole du « fils prodigue » isolément, mais Luc la place dans un contexte précis. Les versets 1 et 2 décrivent deux publics : d'un côté, « tous les publicains et les gens de mauvaise vie » qui s'approchent pour écouter Jésus ; de l'autre, les pharisiens et les scribes qui murmurent. Les publicains collectaient l'impôt pour Rome et s'enrichissaient souvent en volant leurs compatriotes ; ils étaient considérés comme des traîtres. Partager un repas avec eux, c'était les accepter dans sa communion.",
+      "Jésus répond par trois paraboles construites sur le même schéma : quelque chose est perdu (une brebis sur cent, une drachme sur dix, un fils sur deux), on le cherche ou on l'attend, on le retrouve, et l'on se réjouit avec d'autres. Le refrain revient : « il y aura plus de joie dans le ciel pour un seul pécheur qui se repent » (v. 7, 10). Mais la troisième parabole ajoute un personnage absent des deux autres : le fils aîné qui refuse de se réjouir. Ce personnage représente directement les pharisiens qui murmuraient. La parabole parle donc autant du cœur du Père que de notre réaction face à sa grâce. Elle devrait peut-être s'appeler « la parabole du père qui avait deux fils »."
+     ]
+    },
+    {
+     "titre": "Matthieu 6.9 : « Notre Père qui es aux cieux »",
+     "paragraphes": [
+      "Dans le Sermon sur la montagne (Matthieu 5 à 7), Jésus enseigne ses disciples sur la prière, le jeûne et l'aumône. Il les met en garde contre deux dérives : prier pour être vu des hommes, comme les hypocrites, et multiplier les paroles comme les païens, qui pensent être exaucés à force de répétitions (6.5-8). La raison donnée est simple : « votre Père sait de quoi vous avez besoin, avant que vous le lui demandiez ».",
+      "L'Ancien Testament appelle parfois Dieu « Père » d'Israël (Deutéronome 32.6 ; Ésaïe 63.16 ; Malachie 1.6), mais rarement, et presque jamais dans une prière personnelle. Jésus, lui, s'adresse constamment à Dieu comme à son Père, et à Gethsémané il emploie le mot araméen Abba (Marc 14.36), le mot de l'intimité familiale. Il invite ses disciples à entrer dans cette relation. Le mot « notre » rappelle qu'on ne prie jamais seul : nous faisons partie d'une famille. Et « qui es aux cieux » équilibre l'intimité par le respect : ce Père est le Dieu souverain, au-dessus de tout. La première demande en découle : « que ton nom soit sanctifié », c'est-à-dire reconnu comme saint."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "l'Éternel",
+     "langue": "hébreu",
+     "original": "YHWH",
+     "sens": "Le nom personnel de Dieu révélé à Moïse (Exode 3.14-15) : celui qui est, qui existe par lui-même et demeure fidèle."
+    },
+    {
+     "mot": "bonté, amour fidèle",
+     "langue": "hébreu",
+     "original": "chesed",
+     "sens": "L'amour loyal de l'alliance, qui ne lâche pas l'autre. Un des mots les plus importants pour décrire le cœur de Dieu."
+    },
+    {
+     "mot": "compassion",
+     "langue": "hébreu",
+     "original": "racham",
+     "sens": "Avoir une tendresse profonde ; mot de la même famille que rechem, le sein maternel (Psaume 103.13)."
+    },
+    {
+     "mot": "saint",
+     "langue": "hébreu",
+     "original": "qadosh",
+     "sens": "Mis à part, différent, pur. Dieu est « saint, saint, saint » (Ésaïe 6.3) : totalement autre que sa création et sans aucun mal."
+    },
+    {
+     "mot": "Abba",
+     "langue": "araméen",
+     "original": "abba",
+     "sens": "« Père », mot de l'intimité familiale employé par Jésus (Marc 14.36) et par l'Esprit dans le croyant (Romains 8.15)."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Un seul Dieu, Créateur et souverain",
+     "paragraphes": [
+      "La confession de foi d'Israël, que Jésus a appelée le premier commandement, commence ainsi : « Écoute, Israël ! l'Éternel, notre Dieu, est le seul Éternel » (Deutéronome 6.4 ; Marc 12.29). Dans un monde où chaque peuple avait ses dieux, chaque fleuve et chaque montagne ses esprits, la Bible affirme qu'il n'y a qu'un seul vrai Dieu, Créateur du ciel et de la terre. Tout ce qui existe dépend de lui, mais lui ne dépend de rien.",
+      "Les théologiens distinguent deux sortes d'attributs de Dieu. Certains n'appartiennent qu'à lui : il est éternel (sans commencement ni fin, Psaume 90.2), tout-puissant (rien ne lui est impossible, Jérémie 32.17), présent partout (« Où irais-je loin de ton esprit ? », Psaume 139.7), il connaît tout (Psaume 139.1-4) et il ne change pas (« je suis l'Éternel, je ne change pas », Malachie 3.6). D'autres attributs se reflètent en nous parce que nous sommes créés à son image : la sainteté, la justice, l'amour, la bonté, la vérité, la fidélité, la patience. Dieu veut les reproduire dans ses enfants.",
+      "Ces vérités ne sont pas abstraites. Puisque Dieu est présent partout, tu n'es jamais seul, même en exil, à l'hôpital ou en prison. Puisqu'il connaît tout, rien ne lui échappe de ta situation. Puisqu'il est tout-puissant, aucun problème ne le dépasse. Puisqu'il ne change pas, ses promesses d'hier sont valables aujourd'hui."
+     ]
+    },
+    {
+     "titre": "Saint et amour",
+     "paragraphes": [
+      "Deux affirmations de la Bible doivent être tenues ensemble. « Saint, saint, saint est l'Éternel des armées » (Ésaïe 6.3) : la répétition triple, en hébreu, exprime le plus haut degré. Et « Dieu est amour » (1 Jean 4.8). Si l'on garde seulement la sainteté, Dieu devient un juge lointain et effrayant. Si l'on garde seulement l'amour, il devient un grand-père indulgent qui ne prend pas le mal au sérieux. Le Dieu de la Bible est un Père saint qui aime, et un Père aimant qui est saint. C'est pourquoi le père de la parabole court vers son fils, mais c'est aussi pourquoi le fils devait revenir en reconnaissant : « j'ai péché contre le ciel et contre toi »."
+     ]
+    },
+    {
+     "titre": "Comment Dieu est-il notre Père ?",
+     "paragraphes": [
+      "La Bible présente la paternité de Dieu de plusieurs manières. Il est Père de toute l'humanité au sens où il l'a créée (Actes 17.28-29). Il est Père d'Israël, qu'il a choisi et délivré d'Égypte (Exode 4.22). Il est, de façon unique et éternelle, le Père de Jésus-Christ, son Fils unique. Et il devient notre Père de manière personnelle par la foi en Christ : « Voyez quel amour le Père nous a témoigné, pour que nous soyons appelés enfants de Dieu ! Et nous le sommes » (1 Jean 3.1). Paul parle d'adoption (Romains 8.15 ; Galates 4.4-7) : dans le monde romain, un fils adoptif recevait le nom, les droits et l'héritage de la famille. Ainsi, le croyant est à la fois né de Dieu (nouvelle naissance) et adopté par lui (nouveau statut).",
+      "Ce Père prend soin de ses enfants. Jésus dit : « Votre Père céleste sait que vous en avez besoin. Cherchez premièrement le royaume et la justice de Dieu ; et toutes ces choses vous seront données par-dessus » (Matthieu 6.32-33). Cela ne signifie pas que le croyant ne connaîtra jamais le manque, mais qu'il n'est jamais abandonné. Ce Père corrige aussi : « le Seigneur châtie celui qu'il aime » (Hébreux 12.6). Sa discipline n'est pas de la vengeance, c'est l'éducation d'un enfant qu'il veut voir grandir."
+     ]
+    },
+    {
+     "titre": "Quand le mot « père » fait mal",
+     "paragraphes": [
+      "Pour beaucoup, le mot « père » réveille des blessures : un père absent, violent, alcoolique, polygame qui délaissait certains enfants, un père mort trop tôt, un père qui n'a jamais dit « je t'aime ». Il est fréquent qu'on projette sur Dieu l'image de son père terrestre. Il faut alors laisser la Bible corriger cette image. Le Psaume 27.10 dit : « Car mon père et ma mère m'abandonnent, mais l'Éternel me recueillera. » Dieu n'est pas le reflet de nos pères ; il est le modèle parfait dont tous les pères ne sont que des reflets imparfaits (Éphésiens 3.14-15).",
+      "Ce chemin de guérison prend souvent du temps. Il passe par la lecture des textes qui révèlent le cœur du Père (Luc 15, Psaume 103), par la prière honnête, parfois par le pardon accordé au père terrestre, et par l'accompagnement de frères et sœurs mûrs dans l'Église, qui peuvent devenir pour nous une famille spirituelle."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Matthieu 6.9",
+     "texte": "Voici donc comment vous devez prier : Notre Père qui es aux cieux ! Que ton nom soit sanctifié ;"
+    },
+    {
+     "ref": "Psaume 103.13",
+     "texte": "Comme un père a compassion de ses enfants, L'Éternel a compassion de ceux qui le craignent."
+    },
+    {
+     "ref": "1 Jean 3.1",
+     "texte": "Voyez quel amour le Père nous a témoigné, pour que nous soyons appelés enfants de Dieu ! Et nous le sommes. Si le monde ne nous connaît pas, c'est qu'il ne l'a pas connu."
+    },
+    {
+     "ref": "Exode 34.6",
+     "texte": "Et l'Éternel passa devant lui, et s'écria : L'Éternel, l'Éternel, Dieu miséricordieux et compatissant, lent à la colère, riche en bonté et en fidélité,"
+    },
+    {
+     "ref": "Luc 15.20",
+     "texte": "Et il se leva, et alla vers son père. Comme il était encore loin, son père le vit et fut ému de compassion, il courut se jeter à son cou et le baisa."
+    }
+   ],
+   "application": [
+    {
+     "titre": "Face à l'inquiétude pour l'argent et l'avenir",
+     "paragraphes": [
+      "Loyers, frais de scolarité, factures médicales, chômage, papiers de séjour : l'inquiétude peut envahir chaque nuit. Jésus ne dit pas que ces besoins sont imaginaires ; il dit : « Votre Père céleste sait que vous en avez besoin. » Chaque matin, présente tes besoins précis à ton Père, puis fais ta part avec sérieux (chercher du travail, gérer avec sagesse, demander conseil). La foi n'est pas la passivité, c'est le travail fait sans angoisse, sous le regard d'un Père qui pourvoit."
+     ]
+    },
+    {
+     "titre": "Si tu as été blessé par ton père",
+     "paragraphes": [
+      "Écris sur une feuille ce que ton père t'a donné de bon et ce qui t'a blessé. Puis lis Luc 15.20 et le Psaume 103.13 et note ce que Dieu le Père fait différemment. Parle à Dieu honnêtement de tes blessures. Le pardon n'efface pas le mal subi et ne t'oblige pas à te remettre en danger, mais il te libère de la prison de l'amertume. Si les blessures sont profondes, demande à un responsable de l'Église de t'accompagner."
+     ]
+    },
+    {
+     "titre": "Si tu es toi-même parent",
+     "paragraphes": [
+      "Les enfants se font souvent leur première image de Dieu à travers leurs parents. Le père de la parabole donne un modèle : il laisse de la liberté, il attend avec espérance, il accueille sans humilier, il célèbre, et il va aussi chercher l'enfant boudeur. Demande-toi : mes enfants me voient-ils plutôt comme un juge, comme un absent, ou comme un père ou une mère qui court vers eux ? Prends un moment cette semaine pour bénir chacun d'eux à voix haute."
+     ]
+    },
+    {
+     "titre": "Pour ceux qui vivent loin de leur famille",
+     "paragraphes": [
+      "Étudiants à l'étranger, travailleurs migrants, personnes rejetées par leur famille à cause de leur foi : beaucoup vivent une solitude profonde. Le Père céleste « donne une famille à ceux qui étaient abandonnés » (Psaume 68.7). Ne reste pas isolé : rejoins un groupe de maison, accepte une invitation à manger, propose toi aussi ton aide. L'Église est la maison du Père, où l'on apprend à vivre comme frères et sœurs."
+     ]
+    },
+    {
+     "titre": "Dans l'Église : ne pas devenir le fils aîné",
+     "paragraphes": [
+      "Les anciens dans la foi courent un danger particulier : servir Dieu depuis des années, mais avec un cœur de salarié, comptant ce qu'on a fait et jaloux de la grâce accordée aux autres. Quand un ancien bandit, une personne au passé sulfureux ou un jeune très bruyant se convertit et reçoit de l'attention, quelle est ta réaction ? Le Père t'invite à entrer dans la fête : « tout ce que j'ai est à toi »."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Grâce, 24 ans, a grandi avec un père très dur qui la frappait et lui répétait qu'elle ne ferait jamais rien de bon. Depuis sa conversion, elle sert beaucoup à l'Église, mais elle a peur de Dieu. Quand elle commet une erreur, elle s'attend à être punie, et elle n'arrive pas à prier en disant « Père ». Lors d'une réunion, un responsable lui dit sèchement : « Il faut juste croire, ce n'est pas compliqué. »",
+    "questions": [
+     "Comment l'histoire de Grâce influence-t-elle son image de Dieu ?",
+     "Quels textes de cette leçon pourrais-tu méditer avec elle, et dans quel ordre ?",
+     "Pourquoi la réponse du responsable n'est-elle pas suffisante ? Comment l'Église peut-elle l'accompagner ?",
+     "En quoi Grâce ressemble-t-elle peut-être au fils aîné qui servait sans connaître la joie du Père ?"
+    ]
+   },
+   "reflexion": [
+    "Quels mots utiliserais-tu spontanément pour décrire Dieu ? Correspondent-ils à Exode 34.6-7 ?",
+    "Te reconnais-tu davantage dans le fils cadet ou dans le fils aîné ? Pourquoi ?",
+    "Quelle inquiétude dois-tu remettre aujourd'hui à ton Père céleste ?",
+    "Y a-t-il une blessure liée à ton père terrestre que tu n'as jamais présentée à Dieu ?"
+   ],
+   "retenir": [
+    "Il n'y a qu'un seul vrai Dieu, éternel, tout-puissant, présent partout, qui connaît tout et ne change pas.",
+    "Dieu s'est révélé miséricordieux, compatissant, lent à la colère, riche en bonté et en fidélité, mais juste.",
+    "Par la foi en Christ, nous sommes nés de Dieu et adoptés : nous pouvons l'appeler « Abba, Père ».",
+    "Le Père court vers le perdu et invite aussi le fils aîné à partager sa joie.",
+    "Dieu est le Père parfait qui guérit nos images blessées de la paternité."
+   ],
+   "memoriser": {
+    "ref": "1 Jean 3.1",
+    "texte": "Voyez quel amour le Père nous a témoigné, pour que nous soyons appelés enfants de Dieu ! Et nous le sommes. Si le monde ne nous connaît pas, c'est qu'il ne l'a pas connu."
+   },
+   "priere": "Notre Père qui es aux cieux, que ton nom soit sanctifié. Merci de m'avoir vu de loin et d'avoir couru vers moi. Guéris en moi les images fausses que j'ai de toi. Apprends-moi à te faire confiance pour mes besoins, à accepter ta correction, et à me réjouir quand d'autres reviennent à toi. Au nom de Jésus, amen."
+  },
+  {
+   "titre": "Dieu le Fils",
+   "lectures": [
+    {
+     "ref": "Jean 1.1-18",
+     "resume": "La Parole éternelle, qui était Dieu et par qui tout a été fait, a été faite chair et a habité parmi nous, pleine de grâce et de vérité."
+    },
+    {
+     "ref": "Philippiens 2.5-11",
+     "resume": "Le Christ, existant en forme de Dieu, s'est dépouillé et abaissé jusqu'à la croix ; Dieu l'a souverainement élevé et tout genou fléchira devant lui."
+    },
+    {
+     "ref": "Colossiens 1.15-20",
+     "resume": "Christ est l'image du Dieu invisible, le Créateur et le soutien de toutes choses, la tête de l'Église, en qui Dieu a tout réconcilié par le sang de sa croix."
+    },
+    {
+     "ref": "Marc 4.35-41",
+     "resume": "Jésus, endormi dans la barque, se lève, menace le vent et la mer, et ses disciples se demandent : « Quel est donc celui-ci ? »"
+    }
+   ],
+   "recit": {
+    "titre": "La tempête apaisée : « Quel est donc celui-ci ? »",
+    "ref": "Marc 4.35-41 ; Jean 20.24-29",
+    "paragraphes": [
+     "La journée avait été longue. Depuis une barque au bord du lac de Galilée, Jésus avait enseigné une foule immense en paraboles : la semence répandue sur quatre terrains, la lampe, la graine qui pousse toute seule, le grain de sénevé. Le soir venu, il dit à ses disciples : « Passons à l'autre bord. » Ils renvoient la foule et l'emmènent dans la barque où il se trouvait. Plusieurs de ces disciples étaient des pêcheurs expérimentés ; ils connaissaient ce lac par cœur. Mais le lac de Galilée, entouré de collines, est connu pour ses vents violents qui se lèvent soudain.",
+     "Ce soir-là, un grand tourbillon s'élève. Les vagues se jettent dans la barque, au point qu'elle se remplit déjà. Les rames ne suffisent plus, l'eau monte, la mort semble proche. Et Jésus ? « Il dormait à la poupe sur le coussin. » Ce détail, que seul Marc rapporte, est très humain : Jésus était épuisé par la journée. Les disciples le réveillent et lui lancent un reproche plein de peur : « Maître, ne t'inquiètes-tu pas de ce que nous périssons ? »",
+     "Jésus se réveille, menace le vent et dit à la mer : « Silence ! tais-toi ! » Il parle aux éléments comme à des serviteurs. Et aussitôt, le vent cesse et il se fait un grand calme. Pas un calme progressif, comme après une tempête ordinaire où les vagues mettent des heures à s'apaiser, mais un calme immédiat. Puis Jésus se tourne vers ses disciples : « Pourquoi avez-vous ainsi peur ? Comment n'avez-vous point de foi ? »",
+     "La réaction des disciples est surprenante : « Ils furent saisis d'une grande frayeur. » Pendant la tempête, ils avaient peur de mourir ; maintenant, ils ont peur d'une autre manière, une crainte sacrée devant ce qu'ils viennent de voir. « Ils se dirent les uns aux autres : Quel est donc celui-ci, à qui obéissent même le vent et la mer ? » Ces hommes pieux connaissaient leurs Psaumes : c'est l'Éternel qui « dompte l'orgueil de la mer » et qui « arrêta la tempête, ramena le calme » (Psaume 89.10 ; 107.29). Celui qui dormait d'un vrai sommeil d'homme fatigué venait de faire ce que seul Dieu fait. Bien plus tard, après la résurrection, le disciple Thomas, qui doutait, verra les mains percées de Jésus et donnera la réponse complète à la question de la barque : « Mon Seigneur et mon Dieu ! » (Jean 20.28)."
+    ],
+    "lecons": [
+     "Dans la même scène, Jésus dort comme un vrai homme et commande aux éléments comme le vrai Dieu.",
+     "Avoir Jésus dans sa barque ne supprime pas toutes les tempêtes, mais garantit que la tempête n'aura pas le dernier mot.",
+     "La foi n'est pas l'absence d'émotion, mais la confiance en la personne de Jésus au milieu du danger.",
+     "La grande question de la vie est celle des disciples : « Qui est donc celui-ci ? » ; la réponse de Thomas est celle de la foi : « Mon Seigneur et mon Dieu ! »"
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Jean 1.1-14 : la Parole faite chair",
+     "paragraphes": [
+      "L'apôtre Jean commence son Évangile par les mêmes mots que la Genèse : « Au commencement ». Mais il ne dit pas « au commencement Dieu créa », il dit : « Au commencement était la Parole. » Avant que quoi que ce soit ne commence, la Parole existait déjà. Le mot grec logos parlait à la fois aux Juifs, pour qui la Parole de Dieu crée le monde (« Dieu dit : Que la lumière soit ! ») et révèle sa volonté, et aux Grecs, pour qui le logos était la raison qui ordonne l'univers. Jean affirme que ce logos est une personne.",
+      "Le verset 1 contient trois affirmations. « Au commencement était la Parole » : son éternité. « La Parole était avec Dieu » : elle est distincte du Père, en relation face à face avec lui. « La Parole était Dieu » : elle partage pleinement la nature divine. Le verset 3 ajoute : « Toutes choses ont été faites par elle, et rien de ce qui a été fait n'a été fait sans elle. » La Parole n'est donc pas une créature : elle est le Créateur.",
+      "Puis vient le verset 14, l'un des plus étonnants de la Bible : « Et la parole a été faite chair, et elle a habité parmi nous. » Le mot « chair » (sarx) désigne l'humanité dans sa faiblesse : un corps qui a faim, qui se fatigue, qui souffre et qui meurt. Le verbe « habiter » (skênoô) signifie littéralement « dresser sa tente ». Il rappelle le tabernacle du désert, la tente où la gloire de Dieu habitait au milieu d'Israël (Exode 40.34). En Jésus, Dieu a dressé sa tente au milieu de nous. « Nous avons contemplé sa gloire », dit Jean, témoin oculaire, « une gloire comme la gloire du Fils unique venu du Père ». Et le verset 18 conclut : « Personne n'a jamais vu Dieu ; le Fils unique, qui est dans le sein du Père, est celui qui l'a fait connaître » (plusieurs manuscrits grecs anciens portent même « Dieu, Fils unique »). Si tu veux savoir à quoi ressemble Dieu, regarde Jésus."
+     ]
+    },
+    {
+     "titre": "Philippiens 2.5-11 : l'abaissement et l'élévation",
+     "paragraphes": [
+      "Paul écrit aux Philippiens depuis la prison, et il les exhorte à l'humilité et à l'unité. Pour cela, il leur présente l'exemple suprême : « Ayez en vous les sentiments qui étaient en Jésus-Christ. » Beaucoup de spécialistes pensent que les versets 6 à 11 reprennent un hymne chanté par les premiers chrétiens. Il se divise en deux mouvements : la descente (v. 6-8) et la montée (v. 9-11).",
+      "Christ existait « en forme de Dieu » : le mot morphê désigne la réalité essentielle, pas une simple apparence. Il « n'a point regardé comme une proie à arracher d'être égal avec Dieu » : il était égal à Dieu, mais il ne s'est pas accroché à ses privilèges. Il « s'est dépouillé lui-même » (verbe kenoô, « vider ») : non pas en cessant d'être Dieu, mais en prenant en plus « une forme de serviteur », en renonçant à l'usage de sa gloire. Puis il descend encore : il devient homme, il s'abaisse, il obéit « jusqu'à la mort, même jusqu'à la mort de la croix », la mort la plus honteuse.",
+      "« C'est pourquoi aussi Dieu l'a souverainement élevé, et lui a donné le nom qui est au-dessus de tout nom. » Ce nom, c'est « Seigneur » (kurios), le mot par lequel la traduction grecque de l'Ancien Testament rendait le nom divin YHWH. Les versets 10-11 reprennent Ésaïe 45.23, où Dieu déclare : « tout genou fléchira devant moi ». Paul applique à Jésus ce que Dieu disait de lui-même : au nom de Jésus tout genou fléchira, et toute langue confessera que Jésus-Christ est Seigneur, à la gloire de Dieu le Père."
+     ]
+    },
+    {
+     "titre": "Colossiens 1.15-20 : la suprématie de Christ",
+     "paragraphes": [
+      "À Colosses, de faux enseignants mêlaient la foi chrétienne à des spéculations sur des puissances spirituelles et à des pratiques ascétiques. Paul répond en exaltant la grandeur de Christ. Il est « l'image du Dieu invisible » (eikôn) : il rend visible le Dieu que personne ne peut voir. Il est « le premier-né de toute la création » : dans la Bible, le premier-né est l'héritier qui a le rang suprême (le Psaume 89.28 appelle ainsi le roi messianique), ce qui ne veut pas dire qu'il a été créé, puisque le verset suivant dit que « tout a été créé par lui et pour lui ». « Toutes choses subsistent en lui » : il tient l'univers ensemble. Il est la tête de l'Église, le premier-né d'entre les morts, et Dieu a voulu « réconcilier tout avec lui-même, en faisant la paix par lui, par le sang de sa croix » (v. 20). Il n'y a donc aucune puissance spirituelle à craindre ou à servir à côté de Christ."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "Parole",
+     "langue": "grec",
+     "original": "logos",
+     "sens": "Parole, raison, révélation. Jean désigne ainsi le Fils éternel par qui Dieu crée et se révèle (Jean 1.1)."
+    },
+    {
+     "mot": "habiter",
+     "langue": "grec",
+     "original": "skênoô",
+     "sens": "Dresser sa tente. Rappelle le tabernacle où la gloire de Dieu habitait : en Jésus, Dieu vient habiter parmi nous (Jean 1.14)."
+    },
+    {
+     "mot": "se dépouiller",
+     "langue": "grec",
+     "original": "kenoô",
+     "sens": "Vider, se défaire. Christ a renoncé à l'usage de sa gloire pour prendre la condition de serviteur, sans cesser d'être Dieu (Philippiens 2.7)."
+    },
+    {
+     "mot": "Seigneur",
+     "langue": "grec",
+     "original": "kurios",
+     "sens": "Maître, Seigneur ; dans la Bible grecque, rend aussi le nom divin. Confesser « Jésus est Seigneur », c'est reconnaître sa divinité et son autorité."
+    },
+    {
+     "mot": "Christ",
+     "langue": "grec",
+     "original": "christos",
+     "sens": "Oint, traduction de l'hébreu mashiach (Messie) : celui que Dieu a oint pour être prophète, sacrificateur et roi."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Vrai Dieu",
+     "paragraphes": [
+      "Beaucoup de gens respectent Jésus comme un prophète, un sage ou un grand maître de morale. Mais le Nouveau Testament affirme beaucoup plus. Jésus fait ce que seul Dieu fait : il pardonne les péchés (Marc 2.5-7, où les scribes protestent justement : « Qui peut pardonner les péchés, si ce n'est Dieu seul ? »), il commande à la nature, il ressuscite les morts, il accepte l'adoration (Matthieu 14.33 ; Jean 20.28). Il revendique ce que seul Dieu peut revendiquer : « Avant qu'Abraham fût, je suis » (Jean 8.58), reprenant le nom divin d'Exode 3.14 ; « Moi et le Père nous sommes un » (Jean 10.30). Les apôtres l'appellent Dieu : « en lui habite corporellement toute la plénitude de la divinité » (Colossiens 2.9).",
+      "Pourquoi est-ce important ? Parce qu'un simple homme, même parfait, n'aurait pu porter le péché du monde. Seul Dieu peut sauver (Ésaïe 43.11). Si Jésus n'était pas Dieu, la croix ne serait qu'une injustice de plus ; parce qu'il est Dieu, elle est le lieu où Dieu lui-même paie le prix de notre réconciliation."
+     ]
+    },
+    {
+     "titre": "Vrai homme",
+     "paragraphes": [
+      "Jésus n'a pas fait semblant d'être homme. Il est né d'une femme, la vierge Marie, par l'œuvre du Saint-Esprit (Luc 1.35). Il a grandi « en sagesse, en stature, et en grâce » (Luc 2.52). Il a eu faim, soif, sommeil ; il a pleuré devant la tombe de Lazare ; il a été angoissé à Gethsémané ; il est réellement mort. Il « a été tenté comme nous en toutes choses, sans commettre de péché » (Hébreux 4.15).",
+      "Pourquoi est-ce important ? Parce que c'est un homme qui devait réparer ce qu'un homme, Adam, avait détruit (Romains 5.19). Parce qu'il pouvait ainsi mourir à notre place. Et parce qu'il peut compatir à nos faiblesses : il sait ce qu'est la fatigue, le rejet, la pauvreté, la trahison d'un ami, l'injustice d'un tribunal. Au concile de Chalcédoine, en 451, les Églises ont résumé l'enseignement biblique ainsi : Jésus est une seule personne, vrai Dieu et vrai homme, en deux natures, sans confusion ni séparation. C'est un mystère, mais c'est le mystère qui nous sauve."
+     ]
+    },
+    {
+     "titre": "Ce que Jésus a fait et fait encore",
+     "paragraphes": [
+      "Le titre « Christ » signifie « oint ». Dans l'Ancien Testament, on oignait d'huile les prophètes, les sacrificateurs et les rois. Jésus accomplit ces trois fonctions. Il est le Prophète qui révèle parfaitement Dieu (Hébreux 1.1-2). Il est le Souverain Sacrificateur qui s'est offert lui-même une fois pour toutes (Hébreux 9.12). Il est le Roi qui règne et règnera pour toujours (Luc 1.33).",
+      "Après sa résurrection, Jésus est apparu à ses disciples pendant quarante jours, puis il est monté au ciel (Actes 1.3, 9). Aujourd'hui, il est assis à la droite du Père, la place d'honneur et d'autorité. Il « intercède » pour nous : « il peut sauver parfaitement ceux qui s'approchent de Dieu par lui, étant toujours vivant pour intercéder en leur faveur » (Hébreux 7.25). Et il reviendra : « Ce Jésus, qui a été enlevé au ciel du milieu de vous, viendra de la même manière que vous l'avez vu allant au ciel » (Actes 1.11)."
+     ]
+    },
+    {
+     "titre": "Jésus annoncé dans l'Ancien Testament",
+     "paragraphes": [
+      "La venue de Jésus n'était pas une improvisation. Dès Genèse 3.15, Dieu annonce qu'un descendant de la femme écrasera la tête du serpent. À Abraham, il promet qu'en sa descendance toutes les nations seront bénies (Genèse 22.18 ; Galates 3.16). À David, il promet un descendant dont le règne n'aura pas de fin (2 Samuel 7.12-16). Michée annonce que le chef d'Israël naîtra à Bethléhem (Michée 5.1). Ésaïe parle d'un enfant qui sera appelé « Dieu puissant, Père éternel, Prince de la paix » (Ésaïe 9.5), et d'un Serviteur souffrant (Ésaïe 53). Daniel voit « quelqu'un de semblable à un fils de l'homme » qui reçoit un règne éternel (Daniel 7.13-14), et c'est précisément le titre que Jésus aimait se donner.",
+      "Ces promesses, écrites des siècles avant sa naissance, montrent que Dieu conduit l'histoire vers un but : son Fils. Elles nous aident aussi à lire l'Ancien Testament comme un livre qui prépare et annonce le Christ, ce que nous approfondirons dans le module sur la Bible."
+     ]
+    },
+    {
+     "titre": "Sauveur et Seigneur",
+     "paragraphes": [
+      "La première confession de foi chrétienne était très courte : « Jésus est Seigneur. » Paul écrit : « Si tu confesses de ta bouche le Seigneur Jésus, et si tu crois dans ton cœur que Dieu l'a ressuscité des morts, tu seras sauvé » (Romains 10.9). On ne peut pas recevoir Jésus en morceaux : prendre le Sauveur qui pardonne, mais refuser le Seigneur qui dirige. Dans l'Empire romain, dire « Jésus est Seigneur » pouvait coûter la vie, car on attendait des citoyens qu'ils honorent César comme seigneur. Aujourd'hui encore, reconnaître Jésus comme Seigneur signifie que ni l'argent, ni la famille, ni la tradition, ni le parti politique, ni l'opinion publique n'ont le dernier mot sur ma vie."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Jean 1.1",
+     "texte": "Au commencement était la Parole, et la Parole était avec Dieu, et la Parole était Dieu."
+    },
+    {
+     "ref": "Jean 1.14",
+     "texte": "Et la parole a été faite chair, et elle a habité parmi nous, pleine de grâce et de vérité ; et nous avons contemplé sa gloire, une gloire comme la gloire du Fils unique venu du Père."
+    },
+    {
+     "ref": "Philippiens 2.9-11",
+     "texte": "C'est pourquoi aussi Dieu l'a souverainement élevé, et lui a donné le nom qui est au-dessus de tout nom, afin qu'au nom de Jésus tout genou fléchisse dans les cieux, sur la terre et sous la terre, et que toute langue confesse que Jésus-Christ est Seigneur, à la gloire de Dieu le Père."
+    },
+    {
+     "ref": "Colossiens 2.9",
+     "texte": "Car en lui habite corporellement toute la plénitude de la divinité."
+    },
+    {
+     "ref": "Hébreux 7.25",
+     "texte": "C'est aussi pour cela qu'il peut sauver parfaitement ceux qui s'approchent de Dieu par lui, étant toujours vivant pour intercéder en leur faveur."
+    }
+   ],
+   "application": [
+    {
+     "titre": "Quand on te dit que Jésus n'est qu'un prophète",
+     "paragraphes": [
+      "Tu rencontreras des personnes, parfois dans ta propre famille, qui respectent Jésus mais refusent sa divinité. Ne te lance pas dans la dispute. Invite-les plutôt à lire avec toi un Évangile, par exemple Marc, et à se poser la question des disciples : « Qui est donc celui-ci ? » Montre-leur les textes où Jésus pardonne les péchés ou accepte l'adoration. Ton respect et ta douceur seront aussi un témoignage (1 Pierre 3.15)."
+     ]
+    },
+    {
+     "titre": "Dans les tempêtes de ta vie",
+     "paragraphes": [
+      "Maladie, perte d'emploi, conflit familial, voyage dangereux, insécurité dans ton quartier : il y a des nuits où l'on crie comme les disciples : « Ne t'inquiètes-tu pas de ce que nous périssons ? » Le récit de Marc ne promet pas que la tempête ne viendra jamais, mais que celui qui est dans ta barque est Seigneur sur le vent. Apprends à prier honnêtement, puis à te reposer sur sa présence. Note dans un carnet les tempêtes que Dieu t'a fait traverser : ce sera ta mémoire de foi."
+     ]
+    },
+    {
+     "titre": "Face aux puissances spirituelles",
+     "paragraphes": [
+      "Dans beaucoup de cultures, on craint les esprits, les malédictions familiales, la sorcellerie, les « mauvais sorts ». Colossiens 1 et 2 répondent : tout a été créé par Christ et pour lui, et à la croix il a « dépouillé les dominations et les autorités » (Colossiens 2.15). Le croyant n'a pas besoin de protections supplémentaires ni de rituels de peur. Il est « en Christ ». Si tu gardes encore chez toi des objets liés à l'occultisme, débarrasse-t'en, comme les croyants d'Éphèse (Actes 19.19), et demande à des frères et sœurs de prier avec toi."
+     ]
+    },
+    {
+     "titre": "Suivre l'exemple de l'humilité de Christ",
+     "paragraphes": [
+      "Philippiens 2 n'a pas été écrit d'abord pour un cours de théologie, mais pour une Église où l'on se disputait. Le Fils de Dieu s'est abaissé ; qu'en est-il de nous ? Au travail, accepter une tâche que personne ne veut ; en famille, céder dans une dispute sans importance ; dans l'Église, servir sans réclamer de titre. L'humilité n'est pas se mépriser, c'est se mettre au service des autres comme Jésus."
+     ]
+    },
+    {
+     "titre": "Reconnaître Jésus comme Seigneur dans les choix concrets",
+     "paragraphes": [
+      "Fais la liste des grandes décisions de ta vie : études, travail, mariage, argent, lieu de vie, loisirs. Pour chacune, demande-toi : est-ce Jésus qui a le dernier mot, ou bien la pression sociale, l'argent, ou mes désirs ? Dire « Jésus est Seigneur » le dimanche et lui refuser l'accès à mon portefeuille ou à ma vie sentimentale le lundi, c'est une contradiction."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Ibrahim, 30 ans, s'est converti il y a quelques mois. Son oncle, très respecté dans la famille, lui dit : « Nous aussi, nous respectons Jésus. C'est un grand prophète. Mais dire qu'il est Dieu, c'est un blasphème. Comment Dieu pourrait-il dormir dans une barque ou mourir sur une croix ? » Ibrahim ne veut pas manquer de respect à son oncle, qui l'a aidé à payer ses études, mais il ne sait pas comment répondre. Il a peur de dire une erreur, et il se demande s'il doit simplement se taire pour garder la paix dans la famille.",
+    "questions": [
+     "Comment Ibrahim peut-il expliquer simplement que Jésus est à la fois vrai homme et vrai Dieu, en utilisant le récit de la tempête apaisée ?",
+     "Quels textes de Jean 1, Philippiens 2 et Colossiens 1 pourrait-il partager ?",
+     "Pourquoi est-il important pour notre salut que Jésus soit à la fois Dieu et homme ?",
+     "Quelle attitude Ibrahim doit-il garder envers son oncle pendant cette discussion (voir 1 Pierre 3.15) ?"
+    ]
+   },
+   "reflexion": [
+    "Si quelqu'un te demandait aujourd'hui : « Qui est Jésus pour toi ? », que répondrais-tu en deux phrases ?",
+    "Quelle tempête traverses-tu actuellement ? Que signifie pour toi que Jésus soit dans ta barque ?",
+    "Y a-t-il un domaine de ta vie où Jésus est ton Sauveur mais pas encore ton Seigneur ?",
+    "Qu'est-ce qui te touche dans le fait que Jésus a été tenté comme nous, sans pécher ?"
+   ],
+   "retenir": [
+    "Jésus est la Parole éternelle, qui était avec Dieu et qui était Dieu, devenue chair.",
+    "Jésus est vrai Dieu et vrai homme, une seule personne : c'est ce qui lui permet de nous sauver et de nous comprendre.",
+    "Il s'est abaissé jusqu'à la mort de la croix, et Dieu l'a élevé : tout genou fléchira devant lui.",
+    "Aujourd'hui il est à la droite du Père, il intercède pour nous, et il reviendra.",
+    "Jésus est à la fois Sauveur et Seigneur : on ne peut pas recevoir l'un sans l'autre."
+   ],
+   "memoriser": {
+    "ref": "Jean 1.14",
+    "texte": "Et la parole a été faite chair, et elle a habité parmi nous, pleine de grâce et de vérité ; et nous avons contemplé sa gloire, une gloire comme la gloire du Fils unique venu du Père."
+   },
+   "priere": "Seigneur Jésus, tu es la Parole éternelle, vrai Dieu et vrai homme. Merci d'avoir dressé ta tente parmi nous, de t'être abaissé jusqu'à la croix pour moi. Je te reconnais comme mon Sauveur et mon Seigneur. Prends la première place dans chaque domaine de ma vie, et quand viennent les tempêtes, apprends-moi à te faire confiance. Amen."
+  },
+  {
+   "titre": "Dieu le Saint-Esprit",
+   "lectures": [
+    {
+     "ref": "Jean 14.15-26 ; 16.7-15",
+     "resume": "Jésus promet un autre consolateur, l'Esprit de vérité, qui demeurera dans les disciples, les enseignera, convaincra le monde et glorifiera le Christ."
+    },
+    {
+     "ref": "Actes 2.1-41",
+     "resume": "À la Pentecôte, l'Esprit est répandu sur les disciples ; Pierre prêche Christ crucifié et ressuscité, et environ trois mille personnes se convertissent."
+    },
+    {
+     "ref": "Romains 8.1-17",
+     "resume": "L'Esprit de vie libère, habite dans le croyant, le conduit et rend témoignage qu'il est enfant de Dieu."
+    },
+    {
+     "ref": "Galates 5.16-25",
+     "resume": "Marcher selon l'Esprit plutôt que selon la chair ; le fruit de l'Esprit est amour, joie, paix, patience, bonté, bénignité, fidélité, douceur, tempérance."
+    }
+   ],
+   "recit": {
+    "titre": "La Pentecôte : le jour où l'Esprit fut répandu",
+    "ref": "Actes 1.4-14 ; 2.1-41",
+    "paragraphes": [
+     "Quarante jours après sa résurrection, juste avant de monter au ciel, Jésus avait donné une consigne étrange à ses disciples : ne pas quitter Jérusalem, mais attendre « ce que le Père avait promis ». « Vous recevrez une puissance, le Saint-Esprit survenant sur vous, et vous serez mes témoins à Jérusalem, dans toute la Judée, dans la Samarie, et jusqu'aux extrémités de la terre » (Actes 1.8). Alors ils ont attendu. Environ cent vingt personnes, les apôtres, quelques femmes, Marie la mère de Jésus et ses frères, persévéraient ensemble dans la prière.",
+     "Dix jours plus tard arrive la fête de la Pentecôte, cinquante jours après la Pâque. C'était une fête de la moisson, et Jérusalem était pleine de pèlerins juifs venus de tout l'Empire. Soudain, un bruit vient du ciel, comme celui d'un vent impétueux, et remplit toute la maison où les disciples sont assis. Des langues, semblables à des langues de feu, apparaissent et se posent sur chacun d'eux. « Et ils furent tous remplis du Saint-Esprit, et se mirent à parler en d'autres langues, selon que l'Esprit leur donnait de s'exprimer. »",
+     "La foule accourt, stupéfaite. Des Parthes, des Mèdes, des Élamites, des habitants de Mésopotamie, de Judée, de Cappadoce, du Pont, d'Asie, de Phrygie, de Pamphylie, d'Égypte, de Libye, de Rome, des Crétois et des Arabes : chacun entend ces Galiléens sans instruction raconter dans sa propre langue les merveilles de Dieu. Certains sont émerveillés : « Que veut dire ceci ? » D'autres se moquent : « Ils sont pleins de vin doux. »",
+     "Alors Pierre se lève. Ce même Pierre qui, cinquante jours plus tôt, avait renié Jésus trois fois devant une servante, prend maintenant la parole devant des milliers de personnes, sans peur. Il explique : ces hommes ne sont pas ivres, il n'est que neuf heures du matin ! C'est l'accomplissement de la prophétie de Joël : « Je répandrai de mon Esprit sur toute chair. » Puis il annonce Jésus : approuvé de Dieu par des miracles, livré et crucifié, mais ressuscité, élevé à la droite de Dieu, et c'est lui qui a répandu l'Esprit. « Que toute la maison d'Israël sache donc avec certitude que Dieu a fait Seigneur et Christ ce Jésus que vous avez crucifié. »",
+     "Les auditeurs ont « le cœur vivement touché ». Ils demandent : « Hommes frères, que ferons-nous ? » Pierre répond : « Repentez-vous, et que chacun de vous soit baptisé au nom de Jésus-Christ, pour le pardon de vos péchés ; et vous recevrez le don du Saint-Esprit. » Ce jour-là, environ trois mille personnes sont ajoutées à l'Église. L'Esprit venu sur cent vingt disciples atteint désormais des milliers de vies, et l'histoire de l'Église commence."
+    ],
+    "lecons": [
+     "L'Esprit est le don promis par le Père et envoyé par Jésus ressuscité ; il est donné à tous ceux qui se repentent et croient.",
+     "Le Saint-Esprit transforme des disciples craintifs, comme Pierre, en témoins courageux.",
+     "Le premier effet de la venue de l'Esprit n'est pas d'attirer l'attention sur lui-même, mais de faire proclamer Jésus.",
+     "La Pentecôte renverse Babel (Genèse 11) : là, les langues divisaient ; ici, les nations entendent ensemble les merveilles de Dieu."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Jean 14.16-17 : un autre consolateur",
+     "paragraphes": [
+      "Les chapitres 13 à 17 de Jean rapportent les dernières paroles de Jésus à ses disciples, le soir de son arrestation. Les disciples sont troublés : leur maître annonce qu'il va partir. Jésus les rassure par une promesse : « je prierai le Père, et il vous donnera un autre consolateur, afin qu'il demeure éternellement avec vous ».",
+      "Deux mots sont essentiels. « Autre » traduit le grec allos, qui signifie « un autre de même nature ». L'Esprit n'est pas un substitut inférieur : il sera pour les disciples ce que Jésus était pour eux. « Consolateur » traduit paraklêtos, littéralement « celui qu'on appelle à côté ». Le mot désignait un avocat, un défenseur, un conseiller, celui qui vient au secours. On peut le rendre par Consolateur, Défenseur ou Aide. Il est appelé « l'Esprit de vérité », car il conduit à la vérité qui est en Jésus.",
+      "Jésus précise ensuite : « il demeure avec vous, et il sera en vous » (v. 17). Dans l'Ancien Testament, l'Esprit venait sur certaines personnes pour une mission particulière (Juges, rois, prophètes). Désormais, il habitera en chaque croyant. Au verset 23, Jésus ajoute que le Père et lui viendront faire leur demeure chez celui qui l'aime : par l'Esprit, Dieu lui-même habite dans le croyant."
+     ]
+    },
+    {
+     "titre": "Jean 16.7-15 : l'œuvre de l'Esprit dans le monde et dans l'Église",
+     "paragraphes": [
+      "Jésus dit quelque chose d'étonnant : « il vous est avantageux que je m'en aille, car si je ne m'en vais pas, le consolateur ne viendra pas vers vous » (v. 7). Pendant sa vie terrestre, Jésus ne pouvait être qu'en un seul lieu à la fois ; par l'Esprit, sa présence accompagne chaque croyant partout.",
+      "Envers le monde, l'Esprit « convaincra le monde en ce qui concerne le péché, la justice, et le jugement » (v. 8). Le verbe elegchô signifie démontrer une culpabilité, mettre en lumière. Le péché, « parce qu'ils ne croient pas en moi » : le péché le plus profond est de refuser Jésus. La justice, « parce que je m'en vais au Père » : la résurrection et l'ascension prouvent que Jésus était le Juste. Le jugement, « parce que le prince de ce monde est jugé » : à la croix, Satan a été vaincu. C'est pourquoi, quand tu partages l'Évangile, ce n'est pas ton éloquence qui convainc, mais l'Esprit.",
+      "Envers les disciples, l'Esprit « vous conduira dans toute la vérité » (v. 13). Cette promesse concernait d'abord les apôtres, qui allaient rédiger le Nouveau Testament ; elle s'applique aussi à chaque croyant qui lit la Bible en s'appuyant sur l'Esprit. Le verset 14 donne le critère de toute œuvre authentique de l'Esprit : « Il me glorifiera. » Là où le Saint-Esprit agit vraiment, Jésus est mis en avant, et non pas un homme, un prophète ou une manifestation spectaculaire."
+     ]
+    },
+    {
+     "titre": "Actes 2.14-21 : Pierre explique la Pentecôte par Joël",
+     "paragraphes": [
+      "Luc, l'auteur des Actes, est aussi l'auteur du troisième Évangile ; il écrit à un certain Théophile pour lui montrer comment l'Évangile s'est répandu de Jérusalem jusqu'à Rome. Le chapitre 2 est le point de départ de cette expansion. Pour expliquer ce que la foule voit, Pierre cite le prophète Joël (Joël 2.28-32) : « Dans les derniers jours, dit Dieu, je répandrai de mon Esprit sur toute chair ; vos fils et vos filles prophétiseront, vos jeunes gens auront des visions, et vos vieillards auront des songes. »",
+      "Trois éléments ressortent. D'abord, le temps : « dans les derniers jours ». Pour Pierre, la venue de l'Esprit montre que la période finale de l'histoire du salut a commencé avec Jésus. Ensuite, l'étendue : « sur toute chair », c'est-à-dire sans distinction d'âge (jeunes et vieillards), de sexe (fils et filles) ou de condition sociale (« même sur mes serviteurs et sur mes servantes »). Autrefois l'Esprit était donné à quelques-uns ; désormais il est promis à tout le peuple de Dieu, comme Moïse l'avait souhaité (Nombres 11.29). Enfin, le but : la citation se termine par « quiconque invoquera le nom du Seigneur sera sauvé » (Actes 2.21). Le don de l'Esprit est tourné vers le salut. C'est pourquoi Pierre enchaîne immédiatement en annonçant Jésus, et il montre que le « Seigneur » qu'il faut invoquer, c'est Jésus lui-même (v. 36)."
+     ]
+    },
+    {
+     "titre": "Romains 8.9-16 : l'Esprit qui habite et qui conduit",
+     "paragraphes": [
+      "Romains 8 est le chapitre de la Bible qui parle le plus du Saint-Esprit. Paul y affirme : « Si quelqu'un n'a pas l'Esprit de Christ, il ne lui appartient pas » (v. 9). Tout vrai chrétien a donc l'Esprit ; ce n'est pas un privilège réservé à une élite. Remarquons que Paul parle indifféremment de « l'Esprit de Dieu » et de « l'Esprit de Christ » : l'Esprit est lié au Père et au Fils.",
+      "Le verset 14 dit : « tous ceux qui sont conduits par l'Esprit de Dieu sont fils de Dieu ». Dans le contexte, être conduit par l'Esprit, c'est d'abord « faire mourir les actions du corps » (v. 13), c'est-à-dire combattre le péché. L'Esprit n'est pas d'abord un guide pour les décisions spectaculaires, mais pour la sainteté quotidienne. Enfin, l'Esprit nous fait crier « Abba ! Père ! » et « rend témoignage à notre esprit que nous sommes enfants de Dieu » (v. 15-16) : il est l'Esprit d'adoption qui chasse la crainte d'esclave."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "Esprit / souffle",
+     "langue": "hébreu",
+     "original": "rouach",
+     "sens": "Souffle, vent, esprit. L'Esprit de Dieu planait sur les eaux à la création (Genèse 1.2) ; il est le souffle de vie de Dieu."
+    },
+    {
+     "mot": "Consolateur",
+     "langue": "grec",
+     "original": "paraklêtos",
+     "sens": "« Appelé à côté » : avocat, défenseur, aide. Le Saint-Esprit vient à nos côtés comme Jésus l'était pour ses disciples (Jean 14.16)."
+    },
+    {
+     "mot": "autre",
+     "langue": "grec",
+     "original": "allos",
+     "sens": "Un autre de même nature. L'Esprit n'est pas inférieur au Fils : il est « un autre consolateur » comme lui."
+    },
+    {
+     "mot": "convaincre",
+     "langue": "grec",
+     "original": "elegchô",
+     "sens": "Mettre en lumière, démontrer une faute. L'Esprit convainc le monde de péché, de justice et de jugement (Jean 16.8)."
+    },
+    {
+     "mot": "fruit",
+     "langue": "grec",
+     "original": "karpos",
+     "sens": "Fruit au singulier en Galates 5.22 : un seul fruit aux neuf saveurs, produit par l'Esprit dans le caractère du croyant."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Le Saint-Esprit est une personne",
+     "paragraphes": [
+      "Beaucoup imaginent le Saint-Esprit comme une énergie, une force ou une ambiance. La Bible le présente comme une personne. Il parle : « le Saint-Esprit dit : Mettez-moi à part Barnabas et Saul » (Actes 13.2). Il enseigne et rappelle (Jean 14.26). Il intercède (Romains 8.26). Il décide et distribue les dons « comme il veut » (1 Corinthiens 12.11). Il peut être attristé (Éphésiens 4.30), on peut lui mentir (Actes 5.3) et lui résister (Actes 7.51). On n'attriste pas une électricité, on ne ment pas à une force : on attriste et on trompe une personne.",
+      "Cela change notre manière de lui parler et de vivre avec lui. On ne « manipule » pas le Saint-Esprit, on ne le « commande » pas ; on lui obéit, on l'écoute, on lui demande son aide, on évite de l'attrister par le péché, l'amertume ou la colère (Éphésiens 4.30-32)."
+     ]
+    },
+    {
+     "titre": "Le Saint-Esprit est Dieu",
+     "paragraphes": [
+      "Quand Ananias ment au sujet de l'argent de sa propriété, Pierre lui dit : « pourquoi Satan a-t-il rempli ton cœur, au point que tu mentes au Saint-Esprit ? … Ce n'est pas à des hommes que tu as menti, mais à Dieu » (Actes 5.3-4). Mentir au Saint-Esprit, c'est mentir à Dieu. L'Esprit possède les attributs divins : il est éternel (Hébreux 9.14), présent partout (Psaume 139.7), il sonde « même les profondeurs de Dieu » (1 Corinthiens 2.10). Il participe à la création (Genèse 1.2), à l'inspiration de l'Écriture (2 Pierre 1.21) et à la résurrection de Jésus (Romains 8.11)."
+     ]
+    },
+    {
+     "titre": "Un seul Dieu en trois personnes",
+     "paragraphes": [
+      "Nous arrivons à l'une des vérités les plus profondes de la foi chrétienne : la Trinité. Le mot ne se trouve pas dans la Bible (il a été utilisé à partir de la fin du deuxième siècle), mais il résume ce que la Bible enseigne. Trois affirmations bibliques doivent être tenues ensemble. Il y a un seul Dieu (Deutéronome 6.4). Le Père est Dieu, le Fils est Dieu, le Saint-Esprit est Dieu. Et le Père, le Fils et l'Esprit sont distincts l'un de l'autre : le Père envoie le Fils, le Fils prie le Père, le Père et le Fils envoient l'Esprit.",
+      "Plusieurs textes montrent les trois ensemble. Au baptême de Jésus, le Fils est dans l'eau, l'Esprit de Dieu descend sur lui, et la voix du Père dit : « Celui-ci est mon Fils bien-aimé » (Matthieu 3.16-17). Jésus envoie ses disciples baptiser « au nom du Père, du Fils et du Saint-Esprit » (Matthieu 28.19) : un seul nom, trois personnes. Paul bénit les Corinthiens : « Que la grâce du Seigneur Jésus-Christ, l'amour de Dieu, et la communication du Saint-Esprit, soient avec vous tous ! » (2 Corinthiens 13.13).",
+      "Toutes les comparaisons humaines (l'eau qui est glace, liquide ou vapeur ; l'œuf avec sa coquille, son blanc et son jaune) sont imparfaites et risquent d'induire en erreur : la première suggère qu'un seul Dieu changerait de forme, la seconde qu'il serait composé de trois morceaux. Mieux vaut accepter humblement le mystère. Ce mystère est pourtant très beau : Dieu n'a pas eu besoin de créer le monde pour aimer, car de toute éternité le Père, le Fils et l'Esprit vivent une relation d'amour parfait. Et Dieu nous invite dans cette communion."
+     ]
+    },
+    {
+     "titre": "Ce que l'Esprit fait dans le croyant",
+     "paragraphes": [
+      "Le Saint-Esprit est à l'œuvre du début à la fin de la vie chrétienne. Il convainc de péché et fait naître de nouveau (Jean 3.5 ; 16.8). Il vient habiter dans le croyant, dont le corps devient « le temple du Saint-Esprit » (1 Corinthiens 6.19). Il est le sceau qui marque que nous appartenons à Dieu, et le gage de notre héritage (Éphésiens 1.13-14). Il nous aide à prier (Romains 8.26), éclaire les Écritures (1 Corinthiens 2.12), produit son fruit (Galates 5.22-23), distribue des dons pour servir l'Église (1 Corinthiens 12) et donne la puissance pour témoigner (Actes 1.8).",
+      "Paul ordonne : « Soyez remplis de l'Esprit » (Éphésiens 5.18). Le verbe est au présent continu : il s'agit d'une réalité à rechercher chaque jour, en se laissant diriger par lui. Les chrétiens évangéliques ne comprennent pas tous de la même façon le « baptême du Saint-Esprit » et la place du parler en langues aujourd'hui : certains y voient une expérience distincte après la conversion, d'autres considèrent que tout croyant reçoit le baptême de l'Esprit à la conversion et qu'il est ensuite appelé à être rempli de l'Esprit de façon répétée. Ces différences méritent un dialogue respectueux. Mais tous s'accordent : chaque croyant a l'Esprit, chacun doit rechercher sa plénitude, et le signe le plus sûr de sa présence est un caractère qui ressemble de plus en plus à Jésus."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Jean 14.16-17",
+     "texte": "Et moi, je prierai le Père, et il vous donnera un autre consolateur, afin qu'il demeure éternellement avec vous, l'Esprit de vérité, que le monde ne peut recevoir, parce qu'il ne le voit point et ne le connaît point ; mais vous, vous le connaissez, car il demeure avec vous, et il sera en vous."
+    },
+    {
+     "ref": "Jean 16.13",
+     "texte": "Quand le consolateur sera venu, l'Esprit de vérité, il vous conduira dans toute la vérité ; car il ne parlera pas de lui-même, mais il dira tout ce qu'il aura entendu, et il vous annoncera les choses à venir."
+    },
+    {
+     "ref": "Romains 8.14",
+     "texte": "car tous ceux qui sont conduits par l'Esprit de Dieu sont fils de Dieu."
+    },
+    {
+     "ref": "Actes 1.8",
+     "texte": "Mais vous recevrez une puissance, le Saint-Esprit survenant sur vous, et vous serez mes témoins à Jérusalem, dans toute la Judée, dans la Samarie, et jusqu'aux extrémités de la terre."
+    },
+    {
+     "ref": "Galates 5.22-23",
+     "texte": "Mais le fruit de l'Esprit, c'est l'amour, la joie, la paix, la patience, la bonté, la bénignité, la fidélité, la douceur, la tempérance ; la loi n'est pas contre ces choses."
+    },
+    {
+     "ref": "Matthieu 28.19",
+     "texte": "Allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit,"
+    }
+   ],
+   "application": [
+    {
+     "titre": "Commencer chaque journée avec l'Esprit",
+     "paragraphes": [
+      "Avant de prendre ton téléphone le matin, prends une minute pour dire : « Saint-Esprit, je veux être conduit par toi aujourd'hui. Remplis-moi. Rends-moi attentif aux personnes que je vais rencontrer. » Pendant la journée, apprends à lui parler simplement : avant une réunion difficile, un examen, un appel tendu, une tentation. La vie dans l'Esprit se construit dans ces petits réflexes."
+     ]
+    },
+    {
+     "titre": "Discerner les fausses manifestations",
+     "paragraphes": [
+      "Dans certains milieux, on attribue au Saint-Esprit des choses qui ne viennent pas de lui : des « prophéties » qui réclament de l'argent, des révélations qui accusent des membres de la famille de sorcellerie, des spectacles qui mettent en avant un homme. Rappelle-toi le critère de Jésus : « Il me glorifiera » (Jean 16.14), et celui de Paul : « éprouvez toutes choses ; retenez ce qui est bon » (1 Thessaloniciens 5.21). L'Esprit ne contredit jamais l'Écriture qu'il a inspirée, et son fruit est l'amour, la paix, la douceur."
+     ]
+    },
+    {
+     "titre": "Le fruit de l'Esprit au quotidien",
+     "paragraphes": [
+      "Le fruit de l'Esprit se voit dans les embouteillages, à la file d'attente de l'administration, quand un enfant renverse son assiette, quand un collègue te critique en public, quand quelqu'un t'insulte sur les réseaux sociaux. Choisis une qualité du fruit de l'Esprit (par exemple la patience ou la douceur) et demande à Dieu de la faire grandir en toi cette semaine. Note chaque soir une situation où tu l'as vue à l'œuvre, ou où elle t'a manqué."
+     ]
+    },
+    {
+     "titre": "Témoigner avec la puissance de l'Esprit",
+     "paragraphes": [
+      "Tu as peut-être peur de parler de Jésus, comme Pierre avait peur devant la servante. L'Esprit t'est donné précisément pour cela (Actes 1.8). Tu n'as pas besoin d'être un grand orateur. Prie pour une personne précise, demande à l'Esprit une occasion, puis partage simplement ce que Jésus a fait pour toi. C'est l'Esprit qui convainc ; toi, tu témoignes."
+     ]
+    },
+    {
+     "titre": "Ne pas attrister l'Esprit",
+     "paragraphes": [
+      "Éphésiens 4.30 est entouré de conseils très concrets : renoncer au mensonge, ne pas laisser le soleil se coucher sur sa colère, ne plus voler mais travailler, ne laisser sortir de sa bouche aucune parole mauvaise, ôter l'amertume et la calomnie, être bons et compatissants, se pardonner réciproquement. Attrister l'Esprit, ce n'est pas d'abord manquer un culte, c'est vivre ces péchés du quotidien sans les combattre."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Nadia, 26 ans, fréquente depuis peu une Église. Lors d'une réunion de prière, un homme qui se présente comme prophète lui annonce que sa tante l'a ensorcelée, qu'elle ne trouvera pas de mari tant qu'elle n'aura pas rompu avec sa famille, et qu'il peut la délivrer si elle verse une somme importante pour une « semence spéciale ». Il affirme : « C'est le Saint-Esprit qui me l'a révélé. » Nadia est troublée et ne sait pas quoi penser.",
+    "questions": [
+     "Quels critères bibliques sur l'œuvre du Saint-Esprit (Jean 16.13-14 ; Galates 5.22-23) aident Nadia à discerner ce message ?",
+     "Que dit la Bible sur la puissance de Christ face aux puissances spirituelles (Colossiens 2.15), et en quoi cela peut-il la rassurer ?",
+     "Pourquoi le fait de demander de l'argent contre une délivrance est-il un signal d'alarme (voir Actes 8.18-23) ?",
+     "Vers qui Nadia devrait-elle se tourner pour être conseillée et accompagnée ?"
+    ]
+   },
+   "reflexion": [
+    "Avant cette leçon, comment imaginais-tu le Saint-Esprit ? Qu'est-ce qui a changé ?",
+    "Dans quel domaine de ta vie as-tu le plus besoin de la conduite de l'Esprit en ce moment ?",
+    "Quelle qualité du fruit de l'Esprit manque le plus dans ta vie ?",
+    "Y a-t-il une attitude ou une habitude par laquelle tu attristes le Saint-Esprit ?"
+   ],
+   "retenir": [
+    "Le Saint-Esprit est une personne divine : il parle, enseigne, intercède, et peut être attristé.",
+    "Le Père, le Fils et le Saint-Esprit sont un seul Dieu en trois personnes : la Trinité.",
+    "L'Esprit convainc de péché, fait naître de nouveau, habite dans le croyant et le conduit dans la vérité.",
+    "Le signe de son œuvre est que Jésus est glorifié et que le fruit de l'Esprit grandit en nous.",
+    "L'Esprit nous donne la puissance pour être témoins de Jésus."
+   ],
+   "memoriser": {
+    "ref": "Jean 14.16-17",
+    "texte": "Et moi, je prierai le Père, et il vous donnera un autre consolateur, afin qu'il demeure éternellement avec vous, l'Esprit de vérité, que le monde ne peut recevoir, parce qu'il ne le voit point et ne le connaît point ; mais vous, vous le connaissez, car il demeure avec vous, et il sera en vous."
+   },
+   "priere": "Saint-Esprit, merci de demeurer en moi. Pardonne-moi pour les fois où je t'ai ignoré ou attristé. Remplis-moi aujourd'hui, conduis-moi dans la vérité de la Parole, fais grandir ton fruit dans mon caractère et donne-moi le courage d'être témoin de Jésus. Que ma vie le glorifie. Amen."
+  }
+ ],
+ "pratique": {
+  "consigne": "Pendant 7 jours, vis consciemment ta relation avec le Père, le Fils et le Saint-Esprit, et note chaque soir ce que Dieu t'a montré de lui-même. Résume ensuite par écrit ce que tu as découvert.",
+  "etapes": [
+   "Chaque matin, commence ta prière par « Père » et présente-lui une inquiétude précise (Matthieu 6.32).",
+   "Lis chaque jour au moins deux chapitres de l'Évangile de Marc et note ce qu'ils te montrent de Jésus.",
+   "Avant de sortir de chez toi, demande au Saint-Esprit de te conduire et de te donner une occasion de témoigner.",
+   "Choisis une qualité du fruit de l'Esprit et note chaque soir une situation où elle s'est manifestée ou t'a manqué.",
+   "À la fin de la semaine, écris une page : ce que j'ai découvert du Père, du Fils et du Saint-Esprit, et ce que cela change dans ma vie."
+  ]
+ },
+ "examen": [
+  {
+   "q": "Combien de dieux y a-t-il selon la Bible ?",
+   "choix": [
+    "Trois dieux différents",
+    "Un seul Dieu en trois personnes : Père, Fils et Saint-Esprit",
+    "Deux, un bon et un mauvais",
+    "Autant que de peuples"
+   ],
+   "bonne": 1,
+   "explication": "« L'Éternel, notre Dieu, est le seul Éternel » (Deutéronome 6.4), et ce Dieu unique se révèle comme Père, Fils et Saint-Esprit (Matthieu 28.19)."
+  },
+  {
+   "q": "Selon Exode 34.6, comment l'Éternel se présente-t-il à Moïse ?",
+   "choix": [
+    "Comme un Dieu colérique et imprévisible",
+    "Comme un Dieu indifférent aux hommes",
+    "Comme un Dieu miséricordieux et compatissant, lent à la colère, riche en bonté et en fidélité",
+    "Comme un Dieu parmi d'autres"
+   ],
+   "bonne": 2,
+   "explication": "« L'Éternel, l'Éternel, Dieu miséricordieux et compatissant, lent à la colère, riche en bonté et en fidélité » (Exode 34.6)."
+  },
+  {
+   "q": "Que signifie le mot hébreu chesed, souvent traduit par « bonté » ?",
+   "choix": [
+    "La colère de Dieu",
+    "L'amour fidèle et loyal de l'alliance",
+    "Un sacrifice d'animal",
+    "La sagesse humaine"
+   ],
+   "bonne": 1,
+   "explication": "Chesed désigne l'amour loyal de l'alliance, un amour qui ne lâche pas l'autre (Exode 34.6 ; Psaume 103.8)."
+  },
+  {
+   "q": "Selon le Psaume 103.13, comment l'Éternel traite-t-il ceux qui le craignent ?",
+   "choix": [
+    "Comme un maître traite ses esclaves",
+    "Comme un juge sévère",
+    "Comme un étranger",
+    "Comme un père a compassion de ses enfants"
+   ],
+   "bonne": 3,
+   "explication": "« Comme un père a compassion de ses enfants, l'Éternel a compassion de ceux qui le craignent » (Psaume 103.13)."
+  },
+  {
+   "q": "Dans la parabole de Luc 15, que fait le père quand il voit son fils revenir de loin ?",
+   "choix": [
+    "Il attend qu'il s'agenouille devant lui",
+    "Il est ému de compassion, il court se jeter à son cou et le baise",
+    "Il l'envoie travailler avec les ouvriers",
+    "Il lui demande de rembourser l'héritage"
+   ],
+   "bonne": 1,
+   "explication": "« Comme il était encore loin, son père le vit et fut ému de compassion, il courut se jeter à son cou et le baisa » (Luc 15.20)."
+  },
+  {
+   "q": "À qui Jésus répond-il en racontant les paraboles de Luc 15 ?",
+   "choix": [
+    "Aux pharisiens et aux scribes qui murmuraient parce qu'il accueillait les pécheurs",
+    "Aux soldats romains",
+    "À ses frères de Nazareth",
+    "À Pilate"
+   ],
+   "bonne": 0,
+   "explication": "Les pharisiens murmuraient : « Cet homme accueille des gens de mauvaise vie, et il mange avec eux » ; le fils aîné de la parabole les représente (Luc 15.1-2, 25-32)."
+  },
+  {
+   "q": "Que signifie le mot araméen Abba employé par Jésus ?",
+   "choix": [
+    "Maître",
+    "Roi",
+    "Père, avec une nuance d'intimité familiale",
+    "Prophète"
+   ],
+   "bonne": 2,
+   "explication": "Abba est le mot de l'intimité familiale pour « Père » (Marc 14.36) ; l'Esprit nous fait crier « Abba ! Père ! » (Romains 8.15)."
+  },
+  {
+   "q": "Qui est Jésus selon Jean 1.1-14 ?",
+   "choix": [
+    "Un ange",
+    "Un prophète seulement",
+    "Un sage parmi d'autres",
+    "La Parole éternelle, qui était Dieu, faite chair"
+   ],
+   "bonne": 3,
+   "explication": "« La Parole était Dieu… Et la parole a été faite chair, et elle a habité parmi nous » (Jean 1.1, 14)."
+  },
+  {
+   "q": "Le verbe grec skênoô, utilisé en Jean 1.14 (« elle a habité parmi nous »), signifie littéralement :",
+   "choix": [
+    "Dresser sa tente",
+    "Construire un palais",
+    "Voyager rapidement",
+    "Se cacher"
+   ],
+   "bonne": 0,
+   "explication": "Skênoô signifie « dresser sa tente » et rappelle le tabernacle où habitait la gloire de Dieu : en Jésus, Dieu est venu habiter parmi nous."
+  },
+  {
+   "q": "Après la tempête apaisée (Marc 4.41), quelle question se posent les disciples ?",
+   "choix": [
+    "« Où allons-nous dormir ? »",
+    "« Quel est donc celui-ci, à qui obéissent même le vent et la mer ? »",
+    "« Pourquoi avons-nous pris la barque ? »",
+    "« Qui a provoqué la tempête ? »"
+   ],
+   "bonne": 1,
+   "explication": "Ils furent saisis d'une grande frayeur et se dirent : « Quel est donc celui-ci, à qui obéissent même le vent et la mer ? » (Marc 4.41)."
+  },
+  {
+   "q": "Que déclare Thomas lorsqu'il voit Jésus ressuscité (Jean 20.28) ?",
+   "choix": [
+    "« Tu es un grand prophète »",
+    "« Je ne crois toujours pas »",
+    "« Mon Seigneur et mon Dieu ! »",
+    "« Tu es Élie revenu »"
+   ],
+   "bonne": 2,
+   "explication": "Thomas confesse : « Mon Seigneur et mon Dieu ! » (Jean 20.28), et Jésus accepte cette adoration."
+  },
+  {
+   "q": "Selon Philippiens 2.6-8, comment Christ s'est-il abaissé ?",
+   "choix": [
+    "En cessant d'être Dieu",
+    "En devenant un ange",
+    "En refusant de mourir",
+    "En se dépouillant, prenant une forme de serviteur et obéissant jusqu'à la mort de la croix"
+   ],
+   "bonne": 3,
+   "explication": "Existant en forme de Dieu, il s'est dépouillé, a pris une forme de serviteur, et s'est rendu obéissant jusqu'à la mort de la croix (Philippiens 2.6-8)."
+  },
+  {
+   "q": "Pourquoi est-il important pour notre salut que Jésus soit à la fois vrai Dieu et vrai homme ?",
+   "choix": [
+    "Seul Dieu peut sauver, et il fallait un homme pour mourir à la place des hommes",
+    "Ce n'est pas important",
+    "Pour qu'il puisse faire des miracles spectaculaires",
+    "Pour qu'il soit admiré par les philosophes"
+   ],
+   "bonne": 0,
+   "explication": "Seul Dieu peut sauver (Ésaïe 43.11), et c'est un homme qui devait réparer ce qu'Adam avait détruit et mourir à notre place (Romains 5.19 ; Hébreux 2.17)."
+  },
+  {
+   "q": "Que fait Jésus aujourd'hui selon Hébreux 7.25 ?",
+   "choix": [
+    "Il se repose et ne s'occupe plus du monde",
+    "Il attend d'être réincarné",
+    "Il est toujours vivant pour intercéder en faveur de ceux qui s'approchent de Dieu par lui",
+    "Il juge déjà tous les hommes"
+   ],
+   "bonne": 2,
+   "explication": "« Il peut sauver parfaitement ceux qui s'approchent de Dieu par lui, étant toujours vivant pour intercéder en leur faveur » (Hébreux 7.25)."
+  },
+  {
+   "q": "Vrai ou faux : on peut accepter Jésus comme Sauveur tout en refusant qu'il soit Seigneur de sa vie.",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "bonne": 1,
+   "explication": "Faux : « Si tu confesses de ta bouche le Seigneur Jésus… tu seras sauvé » (Romains 10.9). Jésus est à la fois Sauveur et Seigneur."
+  },
+  {
+   "q": "Le Saint-Esprit est :",
+   "choix": [
+    "Une énergie impersonnelle",
+    "Une émotion religieuse",
+    "Un ange supérieur",
+    "Une personne divine qui parle, enseigne et peut être attristée"
+   ],
+   "bonne": 3,
+   "explication": "L'Esprit parle (Actes 13.2), enseigne (Jean 14.26), peut être attristé (Éphésiens 4.30) et mentir au Saint-Esprit, c'est mentir à Dieu (Actes 5.3-4)."
+  },
+  {
+   "q": "Que signifie le mot grec paraklêtos, traduit par « consolateur » en Jean 14.16 ?",
+   "choix": [
+    "Celui qui est appelé à côté : avocat, défenseur, aide",
+    "Celui qui punit",
+    "Un prêtre du temple",
+    "Un messager céleste"
+   ],
+   "bonne": 0,
+   "explication": "Paraklêtos signifie « appelé à côté » : l'Esprit vient à nos côtés comme avocat, défenseur et aide (Jean 14.16-17)."
+  },
+  {
+   "q": "Selon Jean 16.8, de quoi le Saint-Esprit convainc-t-il le monde ?",
+   "choix": [
+    "De la richesse, du succès et du pouvoir",
+    "Du péché, de la justice et du jugement",
+    "De la nécessité des sacrifices",
+    "De l'importance des traditions"
+   ],
+   "bonne": 1,
+   "explication": "« Il convaincra le monde en ce qui concerne le péché, la justice, et le jugement » (Jean 16.8)."
+  },
+  {
+   "q": "Le jour de la Pentecôte, quelle prophétie de l'Ancien Testament Pierre cite-t-il pour expliquer la venue de l'Esprit ?",
+   "choix": [
+    "Une prophétie de Jonas",
+    "Une prophétie d'Ézéchiel sur le temple",
+    "La prophétie de Joël : « Je répandrai de mon Esprit sur toute chair »",
+    "Une prophétie de Malachie sur la dîme"
+   ],
+   "bonne": 2,
+   "explication": "Pierre cite Joël 2.28-32 : « Dans les derniers jours, dit Dieu, je répandrai de mon Esprit sur toute chair » (Actes 2.16-17)."
+  },
+  {
+   "q": "Un « prophète » affirme qu'une révélation du Saint-Esprit exige que tu lui verses une grosse somme pour être délivré. Quel critère biblique t'aide à discerner ?",
+   "choix": [
+    "Tout ce qui est spectaculaire vient de Dieu",
+    "Il faut toujours obéir à celui qui se dit prophète",
+    "Plus on paie, plus la délivrance est efficace",
+    "L'Esprit glorifie Jésus, ne contredit pas l'Écriture, et le don de Dieu ne s'achète pas"
+   ],
+   "bonne": 3,
+   "explication": "L'Esprit glorifie Christ (Jean 16.14) ; il faut tout éprouver (1 Thessaloniciens 5.21), et Pierre condamne Simon qui pensait acquérir le don de Dieu à prix d'argent (Actes 8.20)."
+  }
+ ]
+}

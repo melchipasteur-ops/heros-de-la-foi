@@ -1,0 +1,923 @@
+{
+ "id": "n1m1",
+ "titre": "Le salut et la nouvelle naissance",
+ "objectif": "Comprendre ce que Dieu a fait pour moi et avoir l’assurance de mon salut.",
+ "introduction": [
+  "Bienvenue dans le premier module de la formation Héro de la Foi. Si tu viens de donner ta vie à Jésus, quelque chose d'immense s'est produit, même si tu ne sais pas encore bien l'expliquer. Ce module a pour but de t'aider à comprendre ce que Dieu a fait pour toi, pourquoi tu en avais besoin, comment tu l'as reçu, et pourquoi tu peux en être certain.",
+  "Nous avancerons en trois étapes. D'abord le problème : le péché, sa nature et ses conséquences, avec l'histoire de la chute du roi David. Ensuite la solution : la grâce de Dieu en Jésus-Christ, sa mort et sa résurrection, avec l'histoire du brigand sauvé sur la croix. Enfin la certitude : la nouvelle naissance et l'assurance du salut, avec la rencontre nocturne entre Jésus et Nicodème.",
+  "Chaque leçon contient un récit biblique, une étude approfondie des textes (exégèse), un enseignement doctrinal, des applications concrètes pour la vie d'aujourd'hui, une étude de cas, des questions de réflexion, un verset à mémoriser et une prière. Les lectures obligatoires ne sont pas facultatives : l'examen porte aussi sur elles. Prends le temps de lire chaque passage dans ta Bible, un carnet à la main.",
+  "Même si tu es chrétien depuis longtemps, ne saute pas ce module. Beaucoup de croyants anciens vivent sans assurance, ou retombent dans l'idée qu'ils doivent mériter l'amour de Dieu. Revenir au fondement de l'Évangile est le meilleur moyen de bâtir une foi solide et agissante."
+ ],
+ "lecturesObligatoires": [
+  {
+   "ref": "Genèse 3",
+   "consigne": "Relève les étapes de la tentation et les conséquences du péché sur les relations (avec Dieu, l'autre, la création). Note aussi ce que Dieu fait pour l'homme."
+  },
+  {
+   "ref": "2 Samuel 11-12",
+   "consigne": "Note chaque étape par laquelle David s'enfonce, puis la manière dont Nathan l'amène à reconnaître sa faute."
+  },
+  {
+   "ref": "Psaume 51",
+   "consigne": "Souligne les mots que David utilise pour parler de son péché et ce qu'il demande à Dieu."
+  },
+  {
+   "ref": "Romains 3.9-26",
+   "consigne": "Distingue le verdict (v. 9-20) et la bonne nouvelle (v. 21-26). Recopie le verset qui t'a le plus marqué."
+  },
+  {
+   "ref": "Ésaïe 53",
+   "consigne": "Relève toutes les expressions qui montrent que le Serviteur souffre à notre place."
+  },
+  {
+   "ref": "Luc 23.32-49",
+   "consigne": "Compare l'attitude des deux malfaiteurs et note les paroles de Jésus sur la croix."
+  },
+  {
+   "ref": "Éphésiens 2.1-10",
+   "consigne": "Fais deux colonnes : ce que nous étions sans Christ, et ce que Dieu a fait pour nous."
+  },
+  {
+   "ref": "Romains 5.1-11",
+   "consigne": "Relève les bienfaits que nous recevons parce que nous sommes justifiés par la foi."
+  },
+  {
+   "ref": "Jean 3.1-21",
+   "consigne": "Résume en tes propres mots ce que Jésus dit à Nicodème sur la nouvelle naissance et sur la foi."
+  },
+  {
+   "ref": "1 Jean 5.9-13",
+   "consigne": "Explique pourquoi Jean veut que les croyants « sachent » qu'ils ont la vie éternelle."
+  },
+  {
+   "ref": "Romains 8.28-39",
+   "consigne": "Fais la liste de tout ce qui ne peut pas te séparer de l'amour de Dieu."
+  }
+ ],
+ "lecons": [
+  {
+   "titre": "Le problème du péché",
+   "lectures": [
+    {
+     "ref": "Genèse 3.1-24",
+     "resume": "La tentation et la chute d'Adam et Ève : la confiance en Dieu est remplacée par le soupçon, et la relation avec Dieu, avec l'autre et avec la création se brise."
+    },
+    {
+     "ref": "Romains 3.9-26",
+     "resume": "Paul conclut que Juifs et non-Juifs sont tous sous le péché, puis annonce la justice de Dieu offerte par la foi en Jésus-Christ."
+    },
+    {
+     "ref": "Ésaïe 59.1-2",
+     "resume": "Le problème n'est pas la faiblesse de Dieu, mais nos péchés qui mettent une séparation entre nous et lui."
+    },
+    {
+     "ref": "Psaume 51",
+     "resume": "La prière de David après son péché avec Bath-Schéba : un modèle de confession honnête et d'espérance en la miséricorde de Dieu."
+    }
+   ],
+   "recit": {
+    "titre": "David et Bath-Schéba : quand un homme selon le cœur de Dieu tombe",
+    "ref": "2 Samuel 11-12 ; Psaume 51",
+    "paragraphes": [
+     "C'était le printemps, « au temps où les rois se mettaient en campagne ». Mais cette année-là, David, roi d'Israël, n'est pas parti à la guerre. Il a envoyé Joab et l'armée, et lui est resté à Jérusalem. Un soir, en se levant de sa couche, il se promène sur le toit de son palais et aperçoit une femme qui se baigne, très belle. Il s'informe : c'est Bath-Schéba, la femme d'Urie le Héthien, l'un de ses soldats les plus fidèles. David sait donc qu'elle est mariée. Il la fait pourtant venir, couche avec elle, puis la renvoie chez elle. Quelque temps plus tard, un message arrive au palais : « Je suis enceinte. »",
+     "Au lieu de reconnaître sa faute, David essaie de la cacher. Il fait revenir Urie du front, l'invite à rentrer chez lui pour qu'il passe la nuit avec sa femme : ainsi, l'enfant passerait pour le sien. Mais Urie, homme intègre, refuse de jouir du confort de sa maison pendant que l'arche et ses compagnons dorment sous la tente. David l'enivre ; Urie ne rentre toujours pas chez lui. Alors le roi écrit une lettre à Joab et la fait porter… par Urie lui-même : « Placez Urie au plus fort du combat, et retirez-vous de lui, afin qu'il soit frappé et qu'il meure. » L'ordre est exécuté. Urie tombe. Après le deuil, David épouse Bath-Schéba, et un fils naît. Tout semble réglé. Mais le texte ajoute une phrase qui change tout : « Ce que David avait fait déplut à l'Éternel » (2 Samuel 11.27).",
+     "Dieu envoie le prophète Nathan. Celui-ci raconte au roi l'histoire d'un riche qui possédait de nombreux troupeaux et d'un pauvre qui n'avait qu'une petite brebis, élevée avec ses enfants, qui mangeait de son pain et dormait sur son sein. Pour recevoir un voyageur, le riche a pris la brebis du pauvre au lieu de prendre dans son propre troupeau. David s'enflamme de colère : « L'homme qui a fait cela mérite la mort ! » Nathan le regarde et dit : « Tu es cet homme-là ! » Puis il rappelle tout ce que Dieu avait donné à David, et annonce les conséquences : l'épée ne s'éloignera pas de sa maison.",
+     "À ce moment, David aurait pu se défendre, accuser Bath-Schéba, faire taire le prophète. Il dit simplement : « J'ai péché contre l'Éternel ! » Nathan répond : « L'Éternel pardonne ton péché, tu ne mourras point. » Le pardon est réel, mais les conséquences demeurent : l'enfant tombe malade et meurt, et la famille de David connaîtra la violence et la division. De cette nuit de brisement est né le Psaume 51, où David crie : « Ô Dieu ! crée en moi un cœur pur, renouvelle en moi un esprit bien disposé. » Le plus grand roi d'Israël, l'auteur de tant de psaumes, avait besoin de la même grâce que le plus misérable des pécheurs."
+    ],
+    "lecons": [
+     "Le péché commence souvent par un regard et un désir qu'on ne soumet pas à Dieu, puis il s'enchaîne : l'adultère conduit au mensonge, et le mensonge au meurtre.",
+     "Le péché n'est pas d'abord une affaire de réputation mais de relation : David dit « j'ai péché contre l'Éternel », car toute faute contre le prochain est d'abord une offense faite à Dieu.",
+     "Personne n'est trop « spirituel » pour tomber : même un homme selon le cœur de Dieu a besoin de vigilance et de grâce.",
+     "Cacher son péché ne le règle jamais ; le reconnaître ouvre la porte au pardon, même si certaines conséquences demeurent."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Le contexte de l'épître aux Romains",
+     "paragraphes": [
+      "L'apôtre Paul écrit aux chrétiens de Rome vers l'an 57, probablement depuis Corinthe, à la fin de son troisième voyage missionnaire. Il ne connaît pas encore personnellement cette Église, composée de croyants d'origine juive et d'origine païenne. Les tensions entre ces deux groupes étaient réelles : les uns se sentaient privilégiés parce qu'ils avaient la Loi de Moïse, les autres méprisaient parfois l'héritage juif. Paul veut présenter clairement l'Évangile qu'il prêche, afin d'unir l'Église autour de lui et de préparer une mission vers l'Espagne (Romains 15.24).",
+      "La première grande partie de la lettre (Romains 1.18 à 3.20) est comme un procès. Paul montre d'abord que les païens sont coupables : ils ont connu quelque chose de Dieu à travers la création, mais ils ne l'ont pas glorifié (1.18-32). Puis il se tourne vers le lecteur moraliste et vers le Juif religieux : connaître la Loi ne sauve pas si on ne la pratique pas (2.1 à 3.8). En 3.9-20, il rend son verdict : « Juifs et Grecs, sont tous sous l'empire du péché. » L'expression « sous le péché » décrit une domination, comme un peuple sous un occupant. Le péché n'est pas seulement une liste de fautes, c'est une puissance qui tient l'humanité captive."
+     ]
+    },
+    {
+     "titre": "Romains 3.10-20 : le verdict des Écritures",
+     "paragraphes": [
+      "Paul rassemble plusieurs citations de l'Ancien Testament, surtout des Psaumes (Psaume 14 et 53, 5, 140, 10, 36) et d'Ésaïe 59. Le procédé est volontaire : ce ne sont pas ses idées personnelles, c'est l'Écriture qui témoigne. La liste parcourt tout l'être humain : l'intelligence (« nul n'est intelligent »), la volonté (« nul ne cherche Dieu »), la bouche et la langue (« leur gosier est un sépulcre ouvert »), les pieds (« ils ont les pieds légers pour répandre le sang ») et enfin les yeux (« la crainte de Dieu n'est pas devant leurs yeux »). Le péché a touché chaque dimension de la personne.",
+      "Le but de la Loi est alors précisé au verset 20 : « c'est par la loi que vient la connaissance du péché ». La Loi fonctionne comme un miroir ou un examen médical : elle montre la maladie, elle ne la guérit pas. Ainsi, « toute bouche » est fermée (v. 19). L'image est celle d'un accusé au tribunal qui n'a plus aucun argument pour se défendre. Ce silence n'est pas la fin de l'histoire : c'est la condition pour entendre la bonne nouvelle qui suit."
+     ]
+    },
+    {
+     "titre": "Romains 3.21-26 : « Mais maintenant »",
+     "paragraphes": [
+      "Le verset 21 commence par deux mots décisifs : « Mais maintenant ». Après le verdict de culpabilité, Dieu révèle une justice qui ne vient pas de la Loi, « la justice de Dieu par la foi en Jésus-Christ pour tous ceux qui croient » (v. 22). Le célèbre verset 23 se trouve donc au cœur d'une phrase de grâce : « Car tous ont péché et sont privés de la gloire de Dieu ; et ils sont gratuitement justifiés par sa grâce, par le moyen de la rédemption qui est en Jésus-Christ » (v. 23-24). Le diagnostic et le remède sont dans la même phrase.",
+      "Le verbe « ont péché » (en grec un aoriste) résume toute l'histoire humaine comme un seul fait accompli, tandis que « sont privés » (un présent) décrit un état qui dure : l'humanité continue de manquer de la gloire de Dieu. Cette gloire, c'est la présence rayonnante de Dieu et l'image de Dieu que l'homme devait refléter (Genèse 1.27). Le péché a terni ce reflet. Au verset 25, Paul dit que Dieu a « destiné » Jésus à être une « victime propitiatoire » : le mot grec hilastêrion désigne dans l'Ancien Testament grec le couvercle de l'arche, le propitiatoire, où le sang était versé au jour des expiations (Lévitique 16). Jésus est le lieu où la colère juste de Dieu contre le péché est apaisée et où le pécheur rencontre le pardon.",
+      "Le verset 26 donne la conclusion : Dieu est « juste tout en justifiant celui qui a la foi en Jésus ». Dieu ne ferme pas les yeux sur le péché, ce qui serait injuste ; il ne condamne pas non plus sans espoir, ce qui serait sans amour. À la croix, sa justice et son amour se rencontrent. C'est pourquoi on ne peut comprendre la grandeur du salut sans comprendre d'abord la gravité du péché."
+     ]
+    },
+    {
+     "titre": "Ésaïe 59.1-2 : la séparation",
+     "paragraphes": [
+      "Le prophète Ésaïe s'adresse à un peuple qui se plaint : « Pourquoi Dieu ne nous répond-il pas ? Pourquoi ne nous délivre-t-il pas ? » La réponse est directe : « Non, la main de l'Éternel n'est pas trop courte pour sauver, ni son oreille trop dure pour entendre. Mais ce sont vos crimes qui mettent une séparation entre vous et votre Dieu. » Le problème n'est ni la faiblesse de Dieu ni son indifférence, mais un mur que le péché a construit. Les versets suivants décrivent ce mur : mains souillées de sang, lèvres mensongères, injustice dans les tribunaux, violence. Le péché n'est jamais purement privé : il abîme aussi la société. Et le chapitre se termine par une promesse : « Un rédempteur viendra pour Sion » (59.20), promesse que Paul applique à Christ en Romains 11.26."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "péché",
+     "langue": "hébreu",
+     "original": "chatta't",
+     "sens": "Manquer la cible, s'écarter du but. Le même verbe est employé pour des frondeurs qui « ne manquaient pas le but » (Juges 20.16). Pécher, c'est manquer le but pour lequel Dieu nous a créés."
+    },
+    {
+     "mot": "iniquité",
+     "langue": "hébreu",
+     "original": "'avon",
+     "sens": "Ce qui est tordu, perverti ; désigne aussi la culpabilité qui en résulte. Le péché déforme ce qui était droit."
+    },
+    {
+     "mot": "transgression",
+     "langue": "hébreu",
+     "original": "pesha'",
+     "sens": "Révolte, rébellion volontaire contre une autorité. David emploie ces trois mots dans le Psaume 51."
+    },
+    {
+     "mot": "péché",
+     "langue": "grec",
+     "original": "hamartia",
+     "sens": "Manquer la cible ; chez Paul, désigne aussi une puissance qui domine l'homme (« sous le péché », Romains 3.9)."
+    },
+    {
+     "mot": "propitiation",
+     "langue": "grec",
+     "original": "hilastêrion",
+     "sens": "Le propitiatoire, couvercle de l'arche où l'on versait le sang du sacrifice ; ce qui apaise la juste colère de Dieu. Jésus est notre propitiation (Romains 3.25)."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Créés pour une relation",
+     "paragraphes": [
+      "Pour comprendre le péché, il faut revenir au commencement. Dieu a créé l'homme et la femme « à son image » (Genèse 1.27). Ils n'étaient pas des robots, mais des personnes capables d'aimer, de choisir, de travailler et de régner sur la création en représentant Dieu. Le jardin d'Éden était un lieu de communion : Dieu « parcourait le jardin vers le soir » (Genèse 3.8), et l'homme vivait en paix avec Dieu, avec sa femme, avec lui-même et avec la nature.",
+      "Dieu n'avait donné qu'une seule interdiction : ne pas manger du fruit de l'arbre de la connaissance du bien et du mal. Cet arbre signifiait que l'homme n'est pas Dieu : c'est le Créateur qui définit le bien et le mal, et la créature vit heureuse en lui faisant confiance. L'interdiction était une invitation à la confiance."
+     ]
+    },
+    {
+     "titre": "Ce qu'est le péché",
+     "paragraphes": [
+      "En Genèse 3, le serpent ne commence pas par proposer un crime. Il pose une question qui sème le doute : « Dieu a-t-il réellement dit ? » Puis il accuse Dieu de mentir : « Vous ne mourrez point ; mais Dieu sait que, le jour où vous en mangerez, vos yeux s'ouvriront, et que vous serez comme des dieux. » Le cœur du péché est là : soupçonner Dieu de ne pas vouloir notre bien, et vouloir décider nous-mêmes de ce qui est bien et mal. Le péché, c'est l'homme qui se met à la place de Dieu.",
+      "La Bible utilise plusieurs mots pour en décrire les facettes. Le péché est un but manqué (nous ne sommes pas ce que nous devrions être), une déformation (ce qui était droit devient tordu), une rébellion (nous refusons l'autorité de Dieu). Il comprend les actes (voler, mentir, tuer, commettre l'adultère), les paroles (calomnie, moquerie, mensonge), les pensées et désirs (convoitise, haine, orgueil, Matthieu 5.21-28), et même le bien que nous savons faire et que nous ne faisons pas (Jacques 4.17). Jésus enseigne que le mal sort du cœur (Marc 7.21-23) : nous ne sommes pas pécheurs parce que nous péchons, nous péchons parce que nous avons un cœur pécheur.",
+      "Le péché est universel. Paul cite le Psaume 14 : « Il n'y a point de juste, pas même un seul. » Cela ne veut pas dire que chaque personne est aussi mauvaise qu'elle pourrait l'être, ni que les non-croyants ne font jamais rien de bien. Cela veut dire que personne n'est sans péché devant Dieu, et que le péché a touché toutes les dimensions de notre être : intelligence, émotions, volonté, corps et relations. Les théologiens parlent de « corruption totale » au sens d'une corruption qui atteint la totalité de la personne."
+     ]
+    },
+    {
+     "titre": "Les conséquences du péché",
+     "paragraphes": [
+      "Dieu avait averti : « le jour où tu en mangeras, tu mourras » (Genèse 2.17). Adam et Ève n'ont pas cessé de respirer ce jour-là, mais la mort a commencé son œuvre. La mort spirituelle d'abord : ils se cachent loin de la face de Dieu (Genèse 3.8). La honte apparaît : ils découvrent qu'ils sont nus. Les relations se brisent : Adam accuse Ève, Ève accuse le serpent. La création elle-même subit les conséquences : le travail devient pénible, la terre produit des épines, et la souffrance entre dans l'enfantement. Enfin, la mort physique : « tu es poussière, et tu retourneras dans la poussière ». Dès Genèse 4, le premier frère tue le second.",
+      "Romains 6.23 résume : « le salaire du péché, c'est la mort ». Le mot « salaire » est important : la mort est ce que le péché rapporte, ce que nous méritons. La Bible parle aussi de la « seconde mort » (Apocalypse 20.14), la séparation éternelle d'avec Dieu pour celui qui refuse sa grâce. C'est sérieux, et un vrai chrétien ne doit jamais banaliser cette réalité. Mais le même verset continue : « mais le don gratuit de Dieu, c'est la vie éternelle en Jésus-Christ notre Seigneur. » Le salaire se mérite ; le don se reçoit."
+     ]
+    },
+    {
+     "titre": "Personne ne peut se sauver lui-même",
+     "paragraphes": [
+      "Face au péché, l'être humain a toujours cherché des solutions. Adam et Ève cousent des feuilles de figuier : c'est la première tentative humaine de couvrir sa honte. Aujourd'hui, on essaie encore : faire plus de bien que de mal, multiplier les pratiques religieuses, se comparer à pire que soi, ou dire que le péché n'existe pas. Mais un débiteur ne peut pas payer une dette infinie avec une monnaie qu'il n'a pas, et un mort ne peut pas se ressusciter lui-même (Éphésiens 2.1).",
+      "Il faut remarquer que, dans le jardin, c'est Dieu qui vient chercher l'homme : « Où es-tu ? » (Genèse 3.9). C'est aussi Dieu qui fait des habits de peau pour Adam et Ève (3.21), ce qui suppose qu'un animal a été sacrifié pour couvrir leur honte. Et c'est Dieu qui annonce que la postérité de la femme écrasera la tête du serpent (3.15). Dès la première page de l'histoire du péché, Dieu prépare déjà le salut. Reconnaître notre péché n'a donc pas pour but de nous écraser, mais de nous conduire vers celui qui seul peut nous sauver."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Romains 3.23",
+     "texte": "Car tous ont péché et sont privés de la gloire de Dieu ;"
+    },
+    {
+     "ref": "Romains 6.23",
+     "texte": "Car le salaire du péché, c'est la mort ; mais le don gratuit de Dieu, c'est la vie éternelle en Jésus-Christ notre Seigneur."
+    },
+    {
+     "ref": "Ésaïe 59.2",
+     "texte": "Mais ce sont vos crimes qui mettent une séparation Entre vous et votre Dieu ; Ce sont vos péchés qui vous cachent sa face Et l'empêchent de vous écouter."
+    },
+    {
+     "ref": "2 Samuel 12.13",
+     "texte": "David dit à Nathan : J'ai péché contre l'Éternel ! Et Nathan dit à David : L'Éternel pardonne ton péché, tu ne mourras point."
+    }
+   ],
+   "application": [
+    {
+     "titre": "Dans une culture qui dit « chacun sa vérité »",
+     "paragraphes": [
+      "Beaucoup de nos contemporains pensent que le bien et le mal dépendent de chacun : « Si ça me rend heureux, ce n'est pas mal. » C'est exactement la proposition du serpent : décider soi-même du bien et du mal. Le chrétien n'est pas appelé à juger tout le monde avec dureté, mais à reconnaître humblement que Dieu seul fixe la norme. Quand ta conscience est troublée, ne la fais pas taire avec des arguments à la mode : laisse la Parole de Dieu te montrer ce qui est vrai."
+     ]
+    },
+    {
+     "titre": "Au travail et dans les affaires",
+     "paragraphes": [
+      "Dans bien des pays, la corruption, les petits « arrangements », les fausses factures et les heures non travaillées sont considérés comme normaux. Mais la Bible appelle cela du vol et du mensonge. Le péché n'est pas seulement ce que tout le monde condamne, c'est tout ce que Dieu désapprouve. Commence par l'honnêteté dans les petites choses : ton temps de travail, tes comptes, tes promesses. Cela peut coûter cher, mais c'est là que ta nouvelle vie devient visible."
+     ]
+    },
+    {
+     "titre": "Sur les réseaux sociaux et devant les écrans",
+     "paragraphes": [
+      "David est tombé par un regard depuis son toit. Aujourd'hui, le « toit » est souvent un téléphone : images impudiques, curiosité malsaine, comparaison, jalousie, moqueries et rumeurs partagées en un clic. Le péché commence souvent dans des moments d'oisiveté et de solitude, comme pour David resté au palais au lieu d'être à sa place. Mets des limites concrètes : pas de téléphone au lit, des filtres si nécessaire, un ami à qui rendre des comptes."
+     ]
+    },
+    {
+     "titre": "Dans la famille",
+     "paragraphes": [
+      "Dès Genèse 3, Adam accuse sa femme et Ève accuse le serpent. Dans nos foyers, on reproduit souvent ce réflexe : c'est toujours la faute du conjoint, des parents, des enfants, de la belle-famille. Reconnaître son péché, c'est oser dire : « J'ai eu tort, pardonne-moi », sans ajouter « mais toi aussi… ». Ce simple aveu peut transformer une maison."
+     ]
+    },
+    {
+     "titre": "Face à la honte et à la culpabilité",
+     "paragraphes": [
+      "Certains nouveaux convertis portent des souvenirs très lourds : avortement, prostitution, violence, sorcellerie, vols, trahisons. Le diable veut te convaincre que ton péché est trop grand. Mais David, adultère et meurtrier, a entendu « l'Éternel pardonne ton péché ». La gravité du péché n'est pas là pour t'enfermer dans la honte, mais pour te montrer la grandeur de la grâce. Si un poids te dépasse, parle-en à un responsable de confiance de ton Église : la confession à un frère ou une sœur mûr apporte souvent une grande libération (Jacques 5.16)."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Koffi, 28 ans, comptable dans une entreprise de transport, vient de donner sa vie à Jésus. Son chef lui demande régulièrement de gonfler certaines factures pour « arranger » des clients importants. Tout le monde le fait, et Koffi l'a fait pendant deux ans. Depuis sa conversion, il se sent mal à l'aise, mais un collègue lui dit : « Dieu sait que tu dois nourrir ta famille. Ce n'est pas un vrai péché, c'est le système. » Koffi a aussi un frère qui lui dit : « Tu es devenu trop religieux, tu vas perdre ton travail. »",
+    "questions": [
+     "En t'appuyant sur la définition biblique du péché, que dirais-tu à Koffi sur ces factures gonflées ?",
+     "En quoi l'argument « tout le monde le fait » ressemble-t-il à ce que Paul décrit en Romains 3.9-20 ?",
+     "Que peut faire Koffi concrètement, avec sagesse, pour sortir de cette pratique (dialogue avec son chef, prière, conseil de l'Église) ?",
+     "Comment l'histoire de David l'encourage-t-elle à ne pas cacher ce qu'il a fait dans le passé ?"
+    ]
+   },
+   "reflexion": [
+    "Avant ta conversion, comment définissais-tu le péché ? Qu'est-ce qui a changé dans ta compréhension ?",
+    "Y a-t-il un domaine de ta vie où tu as tendance, comme Adam et Ève, à te cacher ou à accuser les autres ?",
+    "Quel « toit » (lieu, moment, appareil) représente pour toi un point de vulnérabilité ?",
+    "As-tu déjà dit à Dieu avec tes propres mots, comme David : « J'ai péché contre toi » ?"
+   ],
+   "retenir": [
+    "Le péché est d'abord une rupture de relation avec Dieu : manquer le but, se détourner, se révolter.",
+    "Tous ont péché ; le péché atteint tout l'être humain et toutes ses relations.",
+    "Le salaire du péché est la mort, spirituelle, physique et éternelle.",
+    "Personne ne peut se sauver lui-même, mais dès Genèse 3 Dieu vient chercher le pécheur.",
+    "Reconnaître son péché ouvre la porte au pardon de Dieu."
+   ],
+   "memoriser": {
+    "ref": "Romains 6.23",
+    "texte": "Car le salaire du péché, c'est la mort ; mais le don gratuit de Dieu, c'est la vie éternelle en Jésus-Christ notre Seigneur."
+   },
+   "priere": "Seigneur, je reconnais devant toi que j'ai péché, en pensées, en paroles et en actes. Je ne veux plus me cacher ni accuser les autres. Merci parce que tu es venu me chercher comme tu as cherché Adam, et que tu as pardonné à David. Crée en moi un cœur pur et renouvelle en moi un esprit bien disposé. Au nom de Jésus, amen."
+  },
+  {
+   "titre": "La grâce de Dieu en Jésus-Christ",
+   "lectures": [
+    {
+     "ref": "Éphésiens 2.1-10",
+     "resume": "Morts dans nos péchés, nous avons été rendus à la vie avec Christ par la grâce, par le moyen de la foi, pour accomplir les bonnes œuvres que Dieu a préparées."
+    },
+    {
+     "ref": "Romains 5.1-11",
+     "resume": "Justifiés par la foi, nous avons la paix avec Dieu ; Dieu a prouvé son amour en ce que Christ est mort pour nous alors que nous étions encore pécheurs."
+    },
+    {
+     "ref": "Ésaïe 53",
+     "resume": "Le Serviteur souffrant porte nos péchés et nos douleurs ; c'est par ses meurtrissures que nous sommes guéris."
+    },
+    {
+     "ref": "Luc 23.32-43",
+     "resume": "Crucifié entre deux malfaiteurs, Jésus promet le paradis à celui qui se tourne vers lui avec foi."
+    }
+   ],
+   "recit": {
+    "titre": "Le brigand sur la croix : sauvé à la dernière heure",
+    "ref": "Luc 23.32-43",
+    "paragraphes": [
+     "C'est un vendredi, sur une colline proche de Jérusalem appelée « le Crâne », Golgotha. Les soldats romains crucifient trois hommes. Au milieu, Jésus de Nazareth, que la foule acclamait quelques jours plus tôt. De chaque côté, un malfaiteur, condamné pour des crimes réels. La crucifixion était le supplice le plus cruel et le plus humiliant que Rome réservait aux esclaves et aux rebelles. Les clous, la soif, l'étouffement lent, la nudité, les moqueries : tout était fait pour écraser l'homme.",
+     "Au pied des croix, les chefs du peuple ricanent : « Il a sauvé les autres ; qu'il se sauve lui-même, s'il est le Christ, l'élu de Dieu ! » Les soldats lui présentent du vinaigre et se moquent aussi. Au-dessus de sa tête, une inscription : « Celui-ci est le roi des Juifs. » Et pourtant, au milieu de cette haine, Jésus prie : « Père, pardonne-leur, car ils ne savent ce qu'ils font. » Matthieu et Marc précisent que, d'abord, les deux brigands l'insultaient eux aussi.",
+     "Puis quelque chose change chez l'un d'eux. L'autre malfaiteur continue d'injurier Jésus : « N'es-tu pas le Christ ? Sauve-toi toi-même, et sauve-nous ! » Mais le premier le reprend : « Ne crains-tu pas Dieu, toi qui subis la même condamnation ? Pour nous, c'est justice, car nous recevons ce qu'ont mérité nos crimes ; mais celui-ci n'a rien fait de mal. » En quelques mots, cet homme reconnaît la sainteté de Dieu, avoue sa propre culpabilité sans excuse, et proclame l'innocence de Jésus.",
+     "Alors il se tourne vers Jésus et dit : « Souviens-toi de moi, quand tu viendras dans ton règne. » Quelle foi ! Il voit un homme cloué, ensanglanté, mourant, et il croit que cet homme est un roi qui va régner. Il ne demande pas à descendre de la croix ; il demande une place dans le royaume. Jésus lui répond : « Je te le dis en vérité, aujourd'hui tu seras avec moi dans le paradis. » Cet homme n'a pas été baptisé, il n'a jamais assisté à un culte, il n'a fait aucune bonne œuvre pour réparer son passé, il n'a pas eu le temps de changer de vie. Il ne pouvait plus bouger ni les mains ni les pieds. Il ne pouvait que croire. Et il a été sauvé, le jour même, par la seule grâce de celui qui mourait à côté de lui."
+    ],
+    "lecons": [
+     "Le salut est un don reçu par la foi, et non une récompense gagnée par nos œuvres : le brigand n'avait plus rien à offrir.",
+     "La vraie repentance reconnaît son péché sans excuse (« c'est justice ») et se tourne vers Jésus.",
+     "Il n'est jamais trop tard pour se tourner vers Christ tant qu'on est vivant, mais il n'est pas sage d'attendre : l'autre brigand, à la même distance de Jésus, est mort dans sa moquerie.",
+     "Jésus offre une assurance immédiate : « aujourd'hui tu seras avec moi »."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Le contexte de l'épître aux Éphésiens",
+     "paragraphes": [
+      "Paul écrit aux Éphésiens alors qu'il est prisonnier (Éphésiens 3.1 ; 4.1), probablement à Rome vers 60-62. Éphèse était une grande ville portuaire d'Asie Mineure (Turquie actuelle), célèbre pour le temple d'Artémis, et un centre de magie et d'occultisme (voir Actes 19.18-19, où de nouveaux croyants brûlent leurs livres de magie). Beaucoup de lecteurs venaient du paganisme. Les trois premiers chapitres expliquent ce que Dieu a fait pour nous en Christ ; les trois derniers décrivent comment vivre en conséquence. L'ordre est important : la doctrine de la grâce vient avant les exigences de la vie chrétienne."
+     ]
+    },
+    {
+     "titre": "Éphésiens 2.1-3 : ce que nous étions",
+     "paragraphes": [
+      "Paul décrit la condition humaine sans Christ par trois puissances. D'abord le monde : nous marchions « selon le train de ce monde », c'est-à-dire selon la manière de penser et de vivre d'une société qui ignore Dieu. Ensuite le diable : « le prince de la puissance de l'air, de l'esprit qui agit maintenant dans les fils de la rébellion ». Enfin la chair : nous vivions « selon les convoitises de notre chair, accomplissant les volontés de la chair et de nos pensées ». Le diagnostic est grave : nous étions « morts par nos offenses et par nos péchés » (v. 1). Un mort ne peut pas s'améliorer : il a besoin d'être ressuscité."
+     ]
+    },
+    {
+     "titre": "Éphésiens 2.4-7 : « Mais Dieu »",
+     "paragraphes": [
+      "Le verset 4 renverse tout : « Mais Dieu, qui est riche en miséricorde, à cause du grand amour dont il nous a aimés… ». La cause du salut n'est pas en nous, mais dans le cœur de Dieu : sa miséricorde (il ne nous traite pas comme nous le méritons), son amour (il veut notre bien) et sa grâce (il nous donne ce que nous ne méritons pas). Trois verbes grecs commencent par le préfixe « avec » (sun) : Dieu nous a « rendus à la vie avec Christ », il nous a « ressuscités ensemble », il nous a « fait asseoir ensemble dans les lieux célestes ». Ce qui est arrivé à Jésus, sa résurrection et son élévation, nous concerne parce que nous sommes unis à lui par la foi.",
+      "Paul glisse au milieu une parenthèse qui deviendra la clé du passage : « c'est par grâce que vous êtes sauvés » (v. 5). Le verbe est au parfait grec : une action passée dont les effets durent. Le croyant a été sauvé et il demeure sauvé."
+     ]
+    },
+    {
+     "titre": "Éphésiens 2.8-10 : grâce, foi et œuvres",
+     "paragraphes": [
+      "Les versets 8 et 9 posent trois affirmations. La source du salut : « par la grâce ». Le canal du salut : « par le moyen de la foi ». La foi n'est pas un mérite, mais la main vide qui reçoit le cadeau. Enfin, ce que le salut n'est pas : « cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres, afin que personne ne se glorifie. » Au ciel, personne ne pourra dire : « Je suis ici parce que j'étais meilleur que les autres. »",
+      "Le verset 10 complète l'équilibre : « Car nous sommes son ouvrage, ayant été créés en Jésus-Christ pour de bonnes œuvres, que Dieu a préparées d'avance. » Le mot « ouvrage » (poiêma) a donné le mot « poème » : le croyant est comme une œuvre d'art que Dieu façonne. Les bonnes œuvres ne sont pas la racine du salut, elles en sont le fruit. Nous ne sommes pas sauvés par les œuvres, mais nous sommes sauvés pour les œuvres."
+     ]
+    },
+    {
+     "titre": "Romains 5.6-11 : la preuve de l'amour",
+     "paragraphes": [
+      "Ce passage s'éclaire à la lumière d'Ésaïe 52.13 à 53.12, le quatrième chant du Serviteur de l'Éternel. Ésaïe prophétisait au huitième siècle avant Jésus-Christ, et ce poème décrit un Serviteur méprisé, « homme de douleur et habitué à la souffrance », dont on détourne le visage (53.3). Le cœur du chant se trouve aux versets 4 à 6, où le prophète parle au nom du peuple : « ce sont nos souffrances qu'il a portées », « il était blessé pour nos péchés », « l'Éternel a fait retomber sur lui l'iniquité de nous tous ». Les pronoms sont décisifs : lui souffre, nous sommes guéris. Le verset 6 commence par un aveu universel, « Nous étions tous errants comme des brebis », et se termine par une substitution : nos iniquités retombent sur un seul. Le verset 10 dit même qu'il livre « sa vie en sacrifice pour le péché ». Le Nouveau Testament applique clairement ce texte à Jésus : l'eunuque éthiopien lisait Ésaïe 53 quand Philippe « lui annonça la bonne nouvelle de Jésus » (Actes 8.32-35), et Pierre cite ce chapitre pour expliquer la croix (1 Pierre 2.22-25). Ainsi, quand Paul écrit en Romains 5 que Christ est mort « pour nous », il reprend la logique même d'Ésaïe : la mort de Jésus n'était pas un accident ni un simple martyre, mais un sacrifice annoncé, offert à notre place.",
+      "Paul souligne le moment où Christ est mort : « lorsque nous étions encore sans force », « impies », « pécheurs », et même « ennemis » (v. 6, 8, 10). Il remarque qu'on accepterait à peine de mourir pour un juste, peut-être pour un homme de bien ; mais Dieu prouve son amour en ce que Christ est mort pour des pécheurs. Le verbe « prouve » est au présent : la croix continue de démontrer, aujourd'hui encore, l'amour de Dieu. Le résultat est triple : nous sommes « justifiés » (déclarés justes, v. 9), « réconciliés » (la relation est restaurée, v. 10) et nous avons « la paix avec Dieu » (v. 1)."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "grâce",
+     "langue": "grec",
+     "original": "charis",
+     "sens": "Faveur imméritée, cadeau gratuit. Dieu nous donne ce que nous ne méritons pas."
+    },
+    {
+     "mot": "foi",
+     "langue": "grec",
+     "original": "pistis",
+     "sens": "Confiance, adhésion, fidélité. Croire que Jésus a fait ce qu'il a dit et s'appuyer entièrement sur lui."
+    },
+    {
+     "mot": "repentance",
+     "langue": "grec",
+     "original": "metanoia",
+     "sens": "Changement de pensée qui entraîne un changement de direction. Se détourner du péché pour se tourner vers Dieu."
+    },
+    {
+     "mot": "sauver",
+     "langue": "grec",
+     "original": "sôzô",
+     "sens": "Délivrer, guérir, préserver. Le salut touche toute la personne : délivrance du péché, de la condamnation et, à terme, de la mort."
+    },
+    {
+     "mot": "justifier",
+     "langue": "grec",
+     "original": "dikaioô",
+     "sens": "Déclarer juste, acquitter, comme un juge au tribunal. Dieu déclare juste celui qui croit en Jésus."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Dieu a pris l'initiative",
+     "paragraphes": [
+      "Toutes les religions humaines ont une chose en commun : elles décrivent l'homme qui monte vers Dieu par ses efforts, ses rites et ses mérites. L'Évangile annonce exactement l'inverse : Dieu descend vers l'homme. « Car Dieu a tant aimé le monde qu'il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu'il ait la vie éternelle » (Jean 3.16). Le mot « monde », dans l'Évangile de Jean, désigne souvent l'humanité rebelle à Dieu. Dieu n'aime pas un monde aimable ; il aime un monde qui lui a tourné le dos.",
+      "Ce don n'est pas une idée abstraite. Jésus, le Fils éternel de Dieu, est devenu homme. Il est né à Bethléhem, a grandi à Nazareth, a travaillé comme charpentier, a enseigné, guéri, pardonné. Il a vécu une vie parfaitement obéissante, sans péché (Hébreux 4.15). Il était le seul homme qui ne méritait pas la mort, et c'est lui qui est mort."
+     ]
+    },
+    {
+     "titre": "Ce qui s'est passé à la croix",
+     "paragraphes": [
+      "Sept siècles avant Jésus, Ésaïe avait annoncé un Serviteur de l'Éternel qui serait « blessé pour nos péchés, brisé pour nos iniquités » (Ésaïe 53.5). Le chapitre insiste sur l'idée de substitution : « l'Éternel a fait retomber sur lui l'iniquité de nous tous » (53.6). Paul résume : « Celui qui n'a point connu le péché, il l'a fait devenir péché pour nous, afin que nous devenions en lui justice de Dieu » (2 Corinthiens 5.21). À la croix a eu lieu un échange : Jésus a pris notre péché, et il nous donne sa justice.",
+      "La Bible utilise plusieurs images pour décrire cette œuvre. Le tribunal : nous étions coupables, et le juge nous déclare justes parce qu'un autre a payé (justification). Le marché aux esclaves : nous étions captifs, et Christ a payé le prix de notre libération (rédemption, Marc 10.45). Le temple : le sang du sacrifice couvre le péché et apaise la juste colère de Dieu (propitiation, Romains 3.25). La relation brisée : des ennemis deviennent amis (réconciliation, Romains 5.10). Aucune image ne dit tout, mais ensemble elles montrent la richesse de ce que Christ a accompli.",
+      "Puis, le troisième jour, Jésus est ressuscité. La résurrection n'est pas un détail : elle est la signature de Dieu sur l'œuvre de la croix. Paul écrit que Jésus « a été livré pour nos offenses, et est ressuscité pour notre justification » (Romains 4.25). Si Jésus était resté dans la tombe, notre foi serait vaine (1 Corinthiens 15.17). Mais il est vivant, et c'est un Sauveur vivant que nous recevons."
+     ]
+    },
+    {
+     "titre": "Recevoir le salut : repentance et foi",
+     "paragraphes": [
+      "Comment ce salut devient-il le mien ? Jésus résume son message : « Repentez-vous, et croyez à la bonne nouvelle » (Marc 1.15). La repentance et la foi sont les deux faces d'une même pièce. Se repentir, c'est se détourner du péché ; croire, c'est se tourner vers Jésus. On ne peut pas marcher vers Jésus en continuant de marcher vers le péché.",
+      "La repentance n'est pas simplement des larmes ou des regrets. Judas a eu des remords, mais il ne s'est pas tourné vers Dieu (Matthieu 27.3-5). Pierre a pleuré amèrement, et il est revenu à Jésus. La vraie repentance comprend une prise de conscience (je reconnais que j'ai péché contre Dieu), une tristesse selon Dieu (2 Corinthiens 7.10), et une décision (je change de direction, avec l'aide de Dieu). Elle se manifeste par des fruits concrets, comme Zachée qui rend ce qu'il a volé (Luc 19.8).",
+      "La foi, de son côté, n'est pas seulement croire que Dieu existe ; les démons le croient aussi et ils tremblent (Jacques 2.19). La foi qui sauve, c'est faire confiance à Jésus de manière personnelle, comme on s'assied sur une chaise en se fiant à elle pour nous porter. Le brigand sur la croix n'avait qu'une seule chose à donner : sa confiance. Et cela a suffi, parce que tout dépendait de celui en qui il avait confiance."
+     ]
+    },
+    {
+     "titre": "Grâce coûteuse, pas grâce bon marché",
+     "paragraphes": [
+      "Certains comprennent mal la grâce et disent : « Puisque je suis sauvé par grâce, je peux vivre comme je veux. » Paul répond avec force : « Demeurerions-nous dans le péché, afin que la grâce abonde ? Loin de là ! » (Romains 6.1-2). La grâce est gratuite pour nous, mais elle a coûté la vie du Fils de Dieu. Celui qui l'a vraiment reçue ne peut pas la mépriser. La grâce ne nous laisse pas tels que nous sommes : « elle nous enseigne à renoncer à l'impiété et aux convoitises mondaines » (Tite 2.12). La grâce pardonne, et la même grâce transforme."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Jean 3.16",
+     "texte": "Car Dieu a tant aimé le monde qu'il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu'il ait la vie éternelle."
+    },
+    {
+     "ref": "Éphésiens 2.8-9",
+     "texte": "Car c'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres, afin que personne ne se glorifie."
+    },
+    {
+     "ref": "Romains 5.8",
+     "texte": "Mais Dieu prouve son amour envers nous, en ce que, lorsque nous étions encore des pécheurs, Christ est mort pour nous."
+    },
+    {
+     "ref": "Ésaïe 53.5",
+     "texte": "Mais il était blessé pour nos péchés, Brisé pour nos iniquités ; Le châtiment qui nous donne la paix est tombé sur lui, Et c'est par ses meurtrissures que nous sommes guéris."
+    },
+    {
+     "ref": "Luc 23.43",
+     "texte": "Jésus lui répondit : Je te le dis en vérité, aujourd'hui tu seras avec moi dans le paradis."
+    }
+   ],
+   "application": [
+    {
+     "titre": "Quand tu as l'impression de devoir « mériter » Dieu",
+     "paragraphes": [
+      "Beaucoup de croyants, même après leur conversion, vivent comme des employés qui ont peur d'être licenciés : s'ils ont bien prié, jeûné et servi, ils se sentent aimés ; s'ils ont échoué, ils pensent que Dieu les rejette. C'est oublier la grâce. Tes prières, tes offrandes et ton service sont importants, mais ils sont une réponse d'amour, pas un paiement. Commence chaque journée en remerciant Dieu pour ce que Christ a fait, et non en lui présentant tes performances."
+     ]
+    },
+    {
+     "titre": "Face aux pratiques qui promettent le salut ou la protection",
+     "paragraphes": [
+      "Dans beaucoup de milieux, on propose des « solutions » spirituelles payantes : amulettes, bains, sacrifices, objets bénis vendus à prix d'or, prières « garanties » contre de l'argent. Certaines circulent même dans des milieux qui se disent chrétiens. Le message de la croix est clair : Christ a tout payé. Personne ne peut te vendre ce que Jésus t'offre gratuitement. Si quelqu'un te demande de l'argent pour te garantir le pardon, la délivrance ou la bénédiction de Dieu, éloigne-toi et parles-en à des responsables de confiance."
+     ]
+    },
+    {
+     "titre": "Dans tes relations",
+     "paragraphes": [
+      "Celui qui a reçu la grâce apprend à faire grâce. Jésus a prié pour ceux qui le crucifiaient. Ton collègue injuste, ton parent blessant, ton ancien conjoint ne méritent peut-être pas ton pardon, mais tu ne méritais pas non plus celui de Dieu. Pardonner ne veut pas dire tout accepter ni supprimer toute limite ; cela veut dire renoncer à la vengeance et remettre la cause à Dieu."
+     ]
+    },
+    {
+     "titre": "Avec ceux qui pensent être trop mauvais",
+     "paragraphes": [
+      "Tu connais peut-être des personnes qui disent : « Dieu ne peut pas me pardonner, j'ai fait trop de mal. » L'histoire du brigand sur la croix est faite pour elles. Raconte-la simplement. Et si quelqu'un pense être assez bon pour se passer de Dieu, raconte-lui l'histoire du pharisien et du publicain (Luc 18.9-14) : c'est celui qui implorait la miséricorde qui est rentré justifié."
+     ]
+    },
+    {
+     "titre": "Dans ta manière de juger les autres",
+     "paragraphes": [
+      "Parce que nous sommes sauvés par grâce, « personne ne peut se glorifier ». Il n'y a donc pas de place dans l'Église pour le mépris envers les nouveaux venus, les personnes au passé difficile, les pauvres ou les étrangers. Nous sommes tous des mendiants qui ont trouvé du pain et qui montrent aux autres où le trouver."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Aïcha, 35 ans, a grandi dans une famille où l'on pensait qu'il fallait accumuler de bonnes actions pour espérer le paradis. Elle vient d'accepter Jésus. Mais chaque fois qu'elle se met en colère contre ses enfants ou qu'elle oublie de prier, elle se dit que Dieu doit être fâché et qu'elle a « perdu des points ». Elle s'impose alors des jeûnes très longs pour « réparer ». Une amie de l'Église lui dit au contraire : « Puisque c'est la grâce, ne t'inquiète de rien, tout est permis. »",
+    "questions": [
+     "Quelle compréhension erronée du salut Aïcha garde-t-elle de son passé ? Quel verset l'aiderait ?",
+     "En quoi le conseil de son amie est-il aussi déséquilibré ? Que dit Romains 6.1-2 ?",
+     "Comment expliquerais-tu à Aïcha la différence entre jeûner pour mériter et jeûner par amour ?",
+     "Que pourrait-elle faire concrètement quand elle tombe dans la colère (voir 1 Jean 1.9) ?"
+    ]
+   },
+   "reflexion": [
+    "Qu'est-ce qui, dans le récit du brigand sur la croix, te touche le plus personnellement ?",
+    "Y a-t-il des « œuvres » sur lesquelles tu comptes encore secrètement pour être accepté par Dieu ?",
+    "Comment expliquerais-tu en deux phrases la différence entre un salaire et un don ?",
+    "Quelle personne as-tu besoin de traiter avec la même grâce que celle que Dieu t'a montrée ?"
+   ],
+   "retenir": [
+    "Le salut vient de l'initiative de Dieu : il a donné son Fils par amour pour un monde rebelle.",
+    "À la croix, Jésus a pris notre place : il a porté notre péché et nous donne sa justice.",
+    "La résurrection confirme que l'œuvre de Christ est accomplie et acceptée par le Père.",
+    "On reçoit le salut par la repentance et la foi, non par les œuvres ; les bonnes œuvres en sont le fruit.",
+    "La grâce est gratuite pour nous mais elle a coûté la vie de Jésus : elle pardonne et transforme."
+   ],
+   "memoriser": {
+    "ref": "Éphésiens 2.8-9",
+    "texte": "Car c'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres, afin que personne ne se glorifie."
+   },
+   "priere": "Père, merci d'avoir tant aimé le monde, et de m'avoir aimé moi, alors que j'étais encore pécheur. Seigneur Jésus, merci d'avoir porté mes péchés sur la croix et d'être ressuscité. Je ne veux plus compter sur mes mérites, mais sur toi seul. Apprends-moi à vivre chaque jour par ta grâce et à l'offrir aux autres. Amen."
+  },
+  {
+   "titre": "L'assurance du salut",
+   "lectures": [
+    {
+     "ref": "Jean 3.1-21",
+     "resume": "Jésus explique à Nicodème qu'il faut naître de nouveau, d'eau et d'Esprit, et que quiconque croit au Fils élevé sur la croix a la vie éternelle."
+    },
+    {
+     "ref": "1 Jean 5.9-13",
+     "resume": "Dieu a rendu témoignage à son Fils : celui qui a le Fils a la vie, et Jean écrit pour que les croyants sachent qu'ils ont la vie éternelle."
+    },
+    {
+     "ref": "Jean 10.22-30",
+     "resume": "Les brebis de Jésus entendent sa voix ; il leur donne la vie éternelle et personne ne peut les ravir de sa main ni de celle du Père."
+    },
+    {
+     "ref": "Romains 8.28-39",
+     "resume": "Rien ne peut séparer le croyant de l'amour de Dieu manifesté en Jésus-Christ."
+    }
+   ],
+   "recit": {
+    "titre": "Nicodème : un maître religieux qui devait naître de nouveau",
+    "ref": "Jean 3.1-21 ; 7.45-52 ; 19.38-42",
+    "paragraphes": [
+     "À Jérusalem, il y avait un homme nommé Nicodème. Ce n'était pas n'importe qui : pharisien, membre du sanhédrin, le grand conseil juif, et Jésus l'appelle « le docteur d'Israël ». Il connaissait la Loi par cœur, il priait, il jeûnait, il donnait la dîme. Selon tous les critères religieux de son époque, il était un modèle. Pourtant, une question le travaillait. Il avait vu les signes de Jésus et il sentait que Dieu était avec cet homme. Un soir, il vient le trouver. Il vient « de nuit » : peut-être par prudence, pour ne pas être vu avec ce rabbi controversé, peut-être simplement pour parler au calme. L'évangéliste Jean aime aussi ce symbole : Nicodème sort de la nuit pour venir vers la lumière.",
+     "Il commence poliment : « Rabbi, nous savons que tu es un docteur venu de Dieu. » Jésus va droit au cœur : « En vérité, en vérité, je te le dis, si un homme ne naît de nouveau, il ne peut voir le royaume de Dieu. » Nicodème est déconcerté : « Comment un homme peut-il naître quand il est vieux ? Peut-il rentrer dans le sein de sa mère et naître ? » Il pense à une naissance physique. Jésus précise : il faut naître « d'eau et d'Esprit ». Ce qui est né de la chair est chair, ce qui est né de l'Esprit est esprit. Puis il prend une image : le vent souffle où il veut, on en entend le bruit, mais on ne sait d'où il vient ni où il va. Ainsi en est-il de tout homme né de l'Esprit. On ne voit pas le vent, mais on voit ses effets.",
+     "Nicodème demande encore : « Comment cela peut-il se faire ? » Jésus lui rappelle alors une histoire que ce docteur connaissait bien. Dans le désert, le peuple d'Israël avait murmuré contre Dieu, et des serpents brûlants avaient mordu beaucoup de gens. Dieu avait ordonné à Moïse de faire un serpent d'airain et de le placer sur une perche : quiconque avait été mordu et regardait vers le serpent était guéri (Nombres 21.4-9). Il ne fallait pas fabriquer un remède, ni mériter la guérison, il fallait regarder avec confiance. « Et comme Moïse éleva le serpent dans le désert, il faut de même que le Fils de l'homme soit élevé, afin que quiconque croit en lui ait la vie éternelle. » C'est dans cette conversation que Jésus prononce les paroles les plus connues de la Bible : « Car Dieu a tant aimé le monde… »",
+     "Que devient Nicodème ? Jean ne raconte pas sa conversion ce soir-là, mais il nous laisse deux indices. Plus tard, lorsque les chefs veulent condamner Jésus sans l'entendre, Nicodème ose prendre sa défense (Jean 7.50-51). Et après la crucifixion, alors que les disciples se cachent, Nicodème vient avec Joseph d'Arimathée, apporte environ cent livres de myrrhe et d'aloès, et ensevelit publiquement le corps de Jésus (Jean 19.39). L'homme qui venait de nuit se montre en plein jour. La graine de la nouvelle naissance avait germé."
+    ],
+    "lecons": [
+     "La religion, la morale et la connaissance biblique ne remplacent pas la nouvelle naissance : même un docteur de la Loi devait naître de nouveau.",
+     "La nouvelle naissance est l'œuvre de l'Esprit de Dieu : on ne la voit pas comme on voit un rite, mais on en voit les effets, comme pour le vent.",
+     "Comme les Israélites mordus regardaient le serpent d'airain, nous sommes sauvés en regardant avec foi vers Jésus élevé sur la croix.",
+     "La croissance peut être progressive : Nicodème est passé de la nuit au grand jour."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Jean 3.3-8 : naître d'en haut",
+     "paragraphes": [
+      "L'expression traduite par « de nouveau » (en grec anôthen) a un double sens : elle peut signifier « à nouveau » ou « d'en haut ». Nicodème comprend « une deuxième fois » et pense à la naissance biologique ; Jésus parle d'une naissance qui vient d'en haut, de Dieu. Les deux idées sont vraies : c'est une nouvelle naissance, et elle vient de Dieu. Jean l'avait déjà annoncé dans son prologue : les enfants de Dieu « sont nés, non du sang, ni de la volonté de la chair, ni de la volonté de l'homme, mais de Dieu » (Jean 1.13). On ne naît pas chrétien parce qu'on a des parents chrétiens, et on ne le devient pas par sa seule décision humaine.",
+      "Que signifie naître « d'eau et d'Esprit » (v. 5) ? Les évangéliques proposent plusieurs lectures. Certains y voient le baptême d'eau associé à l'œuvre de l'Esprit ; d'autres la naissance naturelle (l'eau de l'accouchement) suivie de la naissance spirituelle. Beaucoup y voient une allusion à Ézéchiel 36.25-27, un texte qu'un docteur d'Israël devait connaître : « Je répandrai sur vous une eau pure, et vous serez purifiés… Je vous donnerai un cœur nouveau, et je mettrai en vous un esprit nouveau… Je mettrai mon esprit en vous. » Dans cette lecture, l'eau symbolise la purification du péché et l'Esprit la vie nouvelle. C'est pourquoi Jésus s'étonne : « Tu es le docteur d'Israël, et tu ne sais pas ces choses ! » (v. 10). Quelle que soit l'interprétation retenue, le point central est clair : la nouvelle naissance est une œuvre surnaturelle de purification et de vie accomplie par l'Esprit de Dieu.",
+      "Le jeu de mots du verset 8 est remarquable : en grec, le même mot pneuma signifie « vent » et « esprit » (comme l'hébreu rouach). Le vent est libre, invisible et puissant ; ses effets sont visibles. Ainsi, nul ne contrôle l'œuvre de l'Esprit, mais on reconnaît celui qui est né de nouveau à une vie transformée."
+     ]
+    },
+    {
+     "titre": "Jean 3.14-18 : croire pour avoir la vie",
+     "paragraphes": [
+      "Jésus relie la nouvelle naissance à la croix. Le verbe « élever » (hupsoô) a, chez Jean, un double sens : être élevé sur la croix et être exalté dans la gloire (voir Jean 12.32-33). Le verbe « croire » apparaît cinq fois dans les versets 15 à 18. Le texte oppose deux situations : « Celui qui croit en lui n'est point jugé ; mais celui qui ne croit pas est déjà jugé » (v. 18). La vie éternelle n'est pas seulement une vie qui commencera après la mort : c'est une vie nouvelle, celle de Dieu, que le croyant possède déjà. Jean 5.24 le confirme : celui qui croit « a la vie éternelle et ne vient point en jugement, mais il est passé de la mort à la vie »."
+     ]
+    },
+    {
+     "titre": "1 Jean 5.11-13 : afin que vous sachiez",
+     "paragraphes": [
+      "L'apôtre Jean écrit sa première lettre, vers la fin du premier siècle, à des Églises troublées par de faux enseignants qui niaient que Jésus soit venu en chair et qui prétendaient posséder une connaissance supérieure. Certains croyants simples commençaient à douter : « Avons-nous vraiment la vie de Dieu ? » Jean leur donne des critères pour discerner et les rassure. Il conclut : « Je vous ai écrit ces choses, afin que vous sachiez que vous avez la vie éternelle, vous qui croyez au nom du Fils de Dieu » (v. 13).",
+      "Remarquons trois choses. D'abord, l'assurance est possible : Jean ne dit pas « afin que vous espériez peut-être », mais « afin que vous sachiez ». Ensuite, elle repose sur un témoignage : « Dieu nous a donné la vie éternelle, et cette vie est dans son Fils » (v. 11). La vie n'est pas une substance séparée que je posséderais de manière autonome ; elle est dans une personne. D'où la logique simple du verset 12 : « Celui qui a le Fils a la vie ; celui qui n'a pas le Fils de Dieu n'a pas la vie. » Enfin, le verbe « vous avez » est au présent : la vie éternelle est une possession actuelle du croyant."
+     ]
+    },
+    {
+     "titre": "Jean 10.27-29 : la main du berger",
+     "paragraphes": [
+      "Dans ce passage, Jésus parle de ses brebis. Elles « entendent sa voix » et « le suivent » : c'est la description du vrai disciple. À elles, il promet : « je leur donne la vie éternelle ; et elles ne périront jamais, et personne ne les ravira de ma main ». En grec, « ne… jamais » est une double négation très forte (ou mê), qu'on pourrait rendre par « absolument jamais ». Puis Jésus ajoute que personne ne peut les ravir de la main de son Père. Le croyant est tenu par deux mains. Notre sécurité ne dépend pas de la force avec laquelle nous tenons Dieu, mais de la force avec laquelle Dieu nous tient.",
+      "Les chrétiens évangéliques ont des sensibilités différentes sur la question de savoir si un vrai croyant peut finalement perdre son salut. Les uns insistent sur la persévérance des saints, garantie par Dieu ; les autres insistent sur les avertissements bibliques contre l'abandon de la foi (par exemple Hébreux 6.4-6). Mais tous s'accordent sur ces points : le salut repose sur l'œuvre de Christ et non sur nos mérites, le croyant qui tombe n'est pas rejeté mais appelé à revenir, et la vraie foi se manifeste en continuant à suivre le berger."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "de nouveau / d'en haut",
+     "langue": "grec",
+     "original": "anôthen",
+     "sens": "À la fois « à nouveau » et « d'en haut » : une naissance nouvelle qui vient de Dieu."
+    },
+    {
+     "mot": "esprit / vent",
+     "langue": "grec",
+     "original": "pneuma",
+     "sens": "Souffle, vent, esprit. Jésus compare l'action du Saint-Esprit au vent : invisible, libre, mais aux effets visibles."
+    },
+    {
+     "mot": "vie éternelle",
+     "langue": "grec",
+     "original": "zôê aiônios",
+     "sens": "La vie du siècle à venir, la vie même de Dieu, que le croyant possède déjà et qui ne finira pas."
+    },
+    {
+     "mot": "savoir",
+     "langue": "grec",
+     "original": "oida",
+     "sens": "Savoir avec certitude. Jean écrit « afin que vous sachiez » : l'assurance du salut est voulue par Dieu."
+    },
+    {
+     "mot": "enfants",
+     "langue": "grec",
+     "original": "tekna",
+     "sens": "Enfants nés de quelqu'un ; souligne un lien de naissance et de nature, et pas seulement un titre (Jean 1.12)."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Ce que Dieu a fait en toi : la nouvelle naissance",
+     "paragraphes": [
+      "Quand tu as reçu Jésus, Dieu n'a pas seulement effacé ton passé : il t'a donné une vie nouvelle. La Bible appelle cela la régénération ou la nouvelle naissance. « Si quelqu'un est en Christ, il est une nouvelle créature. Les choses anciennes sont passées ; voici, toutes choses sont devenues nouvelles » (2 Corinthiens 5.17). Le Saint-Esprit est venu habiter en toi (Romains 8.9). Tu as reçu de nouveaux désirs : aimer Dieu, lire sa Parole, fuir le péché, aimer les frères (1 Jean 3.14).",
+      "La nouvelle naissance est un commencement, pas un aboutissement. Un nouveau-né est pleinement un enfant, mais il doit grandir. Pierre écrit : « désirez, comme des enfants nouveau-nés, le lait spirituel et pur, afin que par lui vous croissiez pour le salut » (1 Pierre 2.2). Ne t'étonne donc pas si tout n'a pas changé du jour au lendemain. Certaines habitudes tomberont vite, d'autres demanderont un combat. Mais la vie est là, et Dieu la fera grandir : « celui qui a commencé en vous cette bonne œuvre la rendra parfaite pour le jour de Jésus-Christ » (Philippiens 1.6)."
+     ]
+    },
+    {
+     "titre": "Ta nouvelle identité : enfant de Dieu",
+     "paragraphes": [
+      "« Mais à tous ceux qui l'ont reçue, à ceux qui croient en son nom, elle a donné le pouvoir de devenir enfants de Dieu » (Jean 1.12). Recevoir Jésus et croire en son nom, c'est la même chose vue sous deux angles. Le mot « pouvoir » (exousia) signifie un droit, une autorité légitime. Tu n'es pas un invité toléré dans la maison de Dieu, tu es un enfant qui y a sa place. L'Esprit lui-même « rend témoignage à notre esprit que nous sommes enfants de Dieu » (Romains 8.16), et nous pouvons crier « Abba ! Père ! ».",
+      "Cette identité change la manière de vivre. Un enfant ne travaille pas pour être adopté ; il obéit parce qu'il est aimé. Un enfant qui tombe ne cesse pas d'être un enfant ; il est relevé, corrigé et consolé. Le Père céleste discipline ceux qu'il aime (Hébreux 12.6), mais il ne renie pas ses enfants."
+     ]
+    },
+    {
+     "titre": "Les trois fondements de l'assurance",
+     "paragraphes": [
+      "Le premier fondement est la promesse de Dieu. C'est le plus important. Les émotions varient selon la fatigue, la santé, les circonstances ou les attaques de l'ennemi. La Parole de Dieu, elle, ne change pas. Quand le doute vient, ne te demande pas d'abord « Est-ce que je me sens sauvé ? », mais « Qu'est-ce que Dieu a promis à celui qui croit ? ». Jean 3.16, Jean 5.24, Jean 10.28 et 1 Jean 5.12 sont des promesses sur lesquelles tu peux poser tout ton poids.",
+      "Le deuxième fondement est le témoignage intérieur de l'Esprit (Romains 8.16). Il s'agit d'une conviction profonde, donnée par Dieu, que nous lui appartenons, et d'un amour nouveau pour lui. Ce témoignage n'est pas toujours spectaculaire, mais il est réel.",
+      "Le troisième fondement est le fruit visible d'une vie transformée. La première lettre de Jean donne plusieurs signes : garder les commandements de Dieu (2.3), aimer les frères (3.14), confesser que Jésus est le Christ venu en chair (4.2). Ces signes ne sont pas des conditions pour gagner le salut, ce sont des indices qu'il est bien là. Ils ne sont jamais parfaits : un pommier jeune porte peu de fruits, mais c'est bien un pommier."
+     ]
+    },
+    {
+     "titre": "Quand je tombe : chute ou rupture ?",
+     "paragraphes": [
+      "Un enfant de Dieu peut encore pécher. Jean écrit d'ailleurs : « Mes petits enfants, je vous écris ces choses afin que vous ne péchiez point. Et si quelqu'un a péché, nous avons un avocat auprès du Père, Jésus-Christ le juste » (1 Jean 2.1). La différence entre le croyant et l'incroyant n'est pas que l'un ne tombe jamais, mais que le croyant ne peut plus être à l'aise dans le péché ; il le combat, il le confesse et il se relève. « Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et pour nous purifier de toute iniquité » (1 Jean 1.9).",
+      "Une chute brise la communion avec Dieu, la joie et la paix, mais pas la relation de Père à enfant. David, après sa chute, ne demande pas « rends-moi le salut », mais « rends-moi la joie de ton salut » (Psaume 51.14). Si tu tombes, ne fuis pas loin de Dieu comme Adam ; cours vers lui comme un enfant blessé court vers son père."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Jean 3.3",
+     "texte": "Jésus lui répondit : En vérité, en vérité, je te le dis, si un homme ne naît de nouveau, il ne peut voir le royaume de Dieu."
+    },
+    {
+     "ref": "1 Jean 5.11-13",
+     "texte": "Et voici ce témoignage, c'est que Dieu nous a donné la vie éternelle, et que cette vie est dans son Fils. Celui qui a le Fils a la vie ; celui qui n'a pas le Fils de Dieu n'a pas la vie. Je vous ai écrit ces choses, afin que vous sachiez que vous avez la vie éternelle, vous qui croyez au nom du Fils de Dieu."
+    },
+    {
+     "ref": "Jean 10.28",
+     "texte": "Je leur donne la vie éternelle ; et elles ne périront jamais, et personne ne les ravira de ma main."
+    },
+    {
+     "ref": "Jean 1.12",
+     "texte": "Mais à tous ceux qui l'ont reçue, à ceux qui croient en son nom, elle a donné le pouvoir de devenir enfants de Dieu,"
+    },
+    {
+     "ref": "1 Jean 1.9",
+     "texte": "Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et pour nous purifier de toute iniquité."
+    }
+   ],
+   "application": [
+    {
+     "titre": "Quand le doute s'installe",
+     "paragraphes": [
+      "Il est fréquent, dans les premiers mois, de se réveiller un matin en se demandant : « Est-ce que c'était vrai ? » Ne panique pas. Ouvre ta Bible à 1 Jean 5.11-13, lis-le à voix haute et pose-toi la question : « Est-ce que j'ai le Fils ? Est-ce que je fais confiance à Jésus et à ce qu'il a fait pour moi ? » Si la réponse est oui, alors Dieu dit que tu as la vie. Ta foi peut être faible, mais elle repose sur un Sauveur fort."
+     ]
+    },
+    {
+     "titre": "Face aux pressions familiales et religieuses",
+     "paragraphes": [
+      "Certains nouveaux croyants entendent leur famille dire : « Tu as trahi la religion de tes ancêtres », ou des leaders religieux affirmer qu'il faut encore accomplir tel rite pour être vraiment sauvé. Comme Nicodème, tu peux avoir peur de te montrer en plein jour. Ton assurance ne vient pas de l'approbation des hommes, mais de la Parole de Dieu. Reste respectueux, honore tes parents, mais ne cède pas sur l'essentiel : c'est Christ qui sauve."
+     ]
+    },
+    {
+     "titre": "Après une rechute",
+     "paragraphes": [
+      "Tu avais arrêté l'alcool, la pornographie, les insultes ou les jeux d'argent, et tu es retombé. L'accusateur te murmure : « Tu vois, tu n'es pas vraiment sauvé. » Réponds par 1 Jean 1.9 et 2.1. Confesse précisément ce que tu as fait, reçois le pardon, puis prends une mesure concrète pour ne pas y retourner : supprimer un contact, éviter un lieu, appeler un frère ou une sœur. La chute n'est pas la fin de l'histoire."
+     ]
+    },
+    {
+     "titre": "Dans les épreuves et la santé mentale",
+     "paragraphes": [
+      "La dépression, l'anxiété ou un deuil peuvent éteindre toute émotion spirituelle. Certains croyants en concluent qu'ils ont perdu Dieu. Mais l'assurance du salut ne dépend pas de ton état émotionnel. Les Psaumes sont pleins de croyants abattus qui s'accrochent aux promesses (Psaume 42). Si ta détresse dure, n'aie pas honte de chercher de l'aide auprès de ton pasteur et aussi d'un médecin ou d'un professionnel de santé : prendre soin de son esprit et de son corps n'est pas un manque de foi."
+     ]
+    },
+    {
+     "titre": "Raconter ce que Dieu a fait",
+     "paragraphes": [
+      "L'assurance grandit quand on témoigne. Prépare ton histoire en trois parties : avant (ma vie sans Christ, sans exagérer ni glorifier le péché), la rencontre (comment j'ai compris l'Évangile et me suis tourné vers Jésus), après (ce qui a commencé à changer). Écris-la en quelques phrases simples, puis entraîne-toi à la raconter en deux minutes."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Samuel, étudiant de 20 ans, s'est converti lors d'un camp de jeunes il y a trois mois. Il avait vécu un moment très fort, avec beaucoup d'émotion. Depuis la rentrée universitaire, il ne ressent plus rien de spécial pendant la prière, il a été pris par les fêtes et il s'est remis à fumer. Un ami lui dit : « Si tu étais vraiment né de nouveau, tu ne fumerais plus. Ta conversion n'était que de l'émotion. » Samuel a envie de tout abandonner.",
+    "questions": [
+     "Sur quoi Samuel faisait-il reposer son assurance ? Pourquoi est-ce fragile ?",
+     "Quels versets de cette leçon pourrais-tu lui lire, et pourquoi ?",
+     "L'ami de Samuel a-t-il complètement tort ? Comment présenter avec équilibre le lien entre nouvelle naissance et changement de vie ?",
+     "Quelles étapes pratiques proposerais-tu à Samuel pour les prochaines semaines ?"
+    ]
+   },
+   "reflexion": [
+    "Sur une échelle de 1 à 10, quelle est ton assurance d'être enfant de Dieu ? Sur quoi repose-t-elle ?",
+    "Quels signes de vie nouvelle as-tu déjà remarqués en toi depuis ta conversion ?",
+    "Y a-t-il un domaine où, comme Nicodème au début, tu préfères rester « de nuit » ?",
+    "Comment réagis-tu quand tu tombes : tu fuis Dieu ou tu cours vers lui ?"
+   ],
+   "retenir": [
+    "Il faut naître de nouveau : c'est une œuvre de l'Esprit de Dieu, que ni la religion ni la morale ne peuvent remplacer.",
+    "Celui qui a le Fils a la vie : l'assurance repose d'abord sur la promesse de Dieu, pas sur les émotions.",
+    "En recevant Jésus, je suis devenu enfant de Dieu, tenu dans la main du Fils et du Père.",
+    "L'Esprit témoigne en moi, et une vie transformée confirme la réalité de la nouvelle naissance.",
+    "Quand je tombe, je confesse et je me relève : la chute brise la communion, pas la filiation."
+   ],
+   "memoriser": {
+    "ref": "1 Jean 5.12",
+    "texte": "Celui qui a le Fils a la vie ; celui qui n'a pas le Fils de Dieu n'a pas la vie."
+   },
+   "priere": "Père, merci parce que ta Parole me dit que celui qui a le Fils a la vie. Je ne veux pas m'appuyer sur mes émotions, mais sur ta promesse. Merci de m'avoir fait naître de nouveau et de me tenir dans ta main. Quand je tombe, aide-moi à courir vers toi. Fais grandir en moi la vie que tu as commencée. Au nom de Jésus, amen."
+  }
+ ],
+ "pratique": {
+  "consigne": "Prépare ton témoignage de conversion, partage-le avec au moins une personne cette semaine, puis décris par écrit comment cela s'est passé et ce que tu as appris.",
+  "etapes": [
+   "Écris ton témoignage en trois parties : avant (ma vie sans Christ), la rencontre (comment j'ai compris l'Évangile et me suis tourné vers Jésus), après (ce qui a commencé à changer). Pas plus d'une page.",
+   "Ajoute un verset de ce module qui résume ce que Dieu a fait pour toi (par exemple Romains 6.23, Éphésiens 2.8-9 ou 1 Jean 5.12).",
+   "Entraîne-toi à le raconter à voix haute en deux minutes, simplement, sans jargon religieux.",
+   "Prie pour une personne précise (ami, collègue, membre de ta famille), puis partage-lui ton histoire avec respect.",
+   "Décris ici sa réaction, ce que tu as ressenti et ce que tu ferais différemment la prochaine fois."
+  ]
+ },
+ "examen": [
+  {
+   "q": "Selon Romains 6.23, quel est le salaire du péché ?",
+   "choix": [
+    "La pauvreté",
+    "La mort",
+    "La maladie",
+    "L'oubli"
+   ],
+   "bonne": 1,
+   "explication": "« Car le salaire du péché, c'est la mort ; mais le don gratuit de Dieu, c'est la vie éternelle » (Romains 6.23)."
+  },
+  {
+   "q": "Que signifie le mot hébreu chatta't, souvent traduit par « péché » ?",
+   "choix": [
+    "Une faute rituelle sans importance",
+    "Manquer la cible, s'écarter du but",
+    "Une maladie héréditaire",
+    "Un mauvais sort jeté par un ennemi"
+   ],
+   "bonne": 1,
+   "explication": "Chatta't évoque l'idée de manquer le but ; le même verbe est employé pour des frondeurs qui ne manquaient pas le but (Juges 20.16)."
+  },
+  {
+   "q": "Dans Genèse 3, quelle est la première stratégie du serpent pour tenter Ève ?",
+   "choix": [
+    "Lui offrir de l'or",
+    "La menacer de mort",
+    "Semer le doute sur la parole de Dieu : « Dieu a-t-il réellement dit ? »",
+    "Lui promettre un mari"
+   ],
+   "bonne": 2,
+   "explication": "Le serpent commence par mettre en doute la parole de Dieu, puis accuse Dieu de mentir (Genèse 3.1-5)."
+  },
+  {
+   "q": "Quel prophète Dieu envoie-t-il au roi David après son péché avec Bath-Schéba ?",
+   "choix": [
+    "Élie",
+    "Samuel",
+    "Ésaïe",
+    "Nathan"
+   ],
+   "bonne": 3,
+   "explication": "Dieu envoie Nathan, qui raconte la parabole de la petite brebis et dit à David : « Tu es cet homme-là ! » (2 Samuel 12.1-7)."
+  },
+  {
+   "q": "Qu'a dit David lorsqu'il a été confronté à son péché ?",
+   "choix": [
+    "« Ce n'est pas ma faute, c'est Bath-Schéba »",
+    "« J'ai péché contre l'Éternel ! »",
+    "« Je suis le roi, je fais ce que je veux »",
+    "« Urie méritait de mourir »"
+   ],
+   "bonne": 1,
+   "explication": "David reconnaît sa faute sans excuse : « J'ai péché contre l'Éternel ! » et Nathan lui annonce le pardon (2 Samuel 12.13)."
+  },
+  {
+   "q": "Selon Ésaïe 59.2, qu'est-ce qui met une séparation entre l'homme et Dieu ?",
+   "choix": [
+    "Nos crimes et nos péchés",
+    "La faiblesse de Dieu",
+    "La distance entre le ciel et la terre",
+    "Le manque de sacrifices"
+   ],
+   "bonne": 0,
+   "explication": "« Ce sont vos crimes qui mettent une séparation entre vous et votre Dieu » ; la main de l'Éternel n'est pas trop courte pour sauver (Ésaïe 59.1-2)."
+  },
+  {
+   "q": "En Romains 3.9-20, quel est le verdict de Paul sur l'humanité ?",
+   "choix": [
+    "Seuls les païens sont pécheurs",
+    "Les Juifs religieux sont justes par la Loi",
+    "Juifs et Grecs sont tous sous l'empire du péché",
+    "La plupart des hommes sont bons"
+   ],
+   "bonne": 2,
+   "explication": "Paul conclut que « Juifs et Grecs, sont tous sous l'empire du péché » et que nul n'est juste (Romains 3.9-10)."
+  },
+  {
+   "q": "Selon Romains 3.20, quel est le rôle de la Loi ?",
+   "choix": [
+    "Donner la vie éternelle",
+    "Faire connaître le péché",
+    "Remplacer la foi",
+    "Rendre les hommes parfaits"
+   ],
+   "bonne": 1,
+   "explication": "« C'est par la loi que vient la connaissance du péché » : la Loi montre la maladie comme un miroir, elle ne la guérit pas (Romains 3.20)."
+  },
+  {
+   "q": "Comment sommes-nous sauvés selon Éphésiens 2.8-9 ?",
+   "choix": [
+    "Par nos bonnes œuvres",
+    "Par la fréquentation de l'église",
+    "Par le jeûne et les offrandes",
+    "Par la grâce, par le moyen de la foi"
+   ],
+   "bonne": 3,
+   "explication": "« C'est par la grâce que vous êtes sauvés, par le moyen de la foi… ce n'est point par les œuvres » (Éphésiens 2.8-9)."
+  },
+  {
+   "q": "Selon Éphésiens 2.10, quelle est la place des bonnes œuvres dans la vie du croyant ?",
+   "choix": [
+    "Elles sont la racine du salut",
+    "Elles sont inutiles",
+    "Elles sont le fruit du salut : nous avons été créés en Christ pour les pratiquer",
+    "Elles remplacent la foi"
+   ],
+   "bonne": 2,
+   "explication": "Nous sommes « créés en Jésus-Christ pour de bonnes œuvres, que Dieu a préparées d'avance » : sauvés non par les œuvres, mais pour les œuvres."
+  },
+  {
+   "q": "Que demande le malfaiteur repentant à Jésus sur la croix ?",
+   "choix": [
+    "« Sauve-toi toi-même, et sauve-nous ! »",
+    "« Souviens-toi de moi, quand tu viendras dans ton règne »",
+    "« Fais-moi descendre de cette croix »",
+    "« Pardonne à ceux qui m'ont condamné »"
+   ],
+   "bonne": 1,
+   "explication": "Il dit : « Souviens-toi de moi, quand tu viendras dans ton règne », et Jésus lui promet : « aujourd'hui tu seras avec moi dans le paradis » (Luc 23.42-43)."
+  },
+  {
+   "q": "Que nous enseigne surtout le salut du brigand sur la croix ?",
+   "choix": [
+    "Qu'il faut d'abord réparer tout son passé",
+    "Que le baptême est la condition du salut",
+    "Que seuls les gens honnêtes peuvent être sauvés",
+    "Que le salut est reçu par la foi, comme un don, sans mérite"
+   ],
+   "bonne": 3,
+   "explication": "Le brigand n'avait aucune œuvre à offrir ; il a cru et Jésus l'a sauvé le jour même (Luc 23.40-43)."
+  },
+  {
+   "q": "La repentance biblique (metanoia) consiste à :",
+   "choix": [
+    "Changer de pensée et de direction : quitter le péché pour se tourner vers Dieu",
+    "Se sentir coupable pour toujours",
+    "Faire des sacrifices pour payer ses fautes",
+    "Promettre de ne plus jamais tomber"
+   ],
+   "bonne": 0,
+   "explication": "Metanoia signifie un changement de pensée qui entraîne un changement de direction ; Jésus dit : « Repentez-vous, et croyez à la bonne nouvelle » (Marc 1.15)."
+  },
+  {
+   "q": "Que signifie le mot grec hilastêrion employé en Romains 3.25 ?",
+   "choix": [
+    "Un temple païen",
+    "Une prière de louange",
+    "Le propitiatoire, lieu où le sang du sacrifice couvrait le péché",
+    "Un livre de la Loi"
+   ],
+   "bonne": 2,
+   "explication": "Hilastêrion désigne le propitiatoire de l'arche (Lévitique 16) ; Jésus est celui en qui la juste colère de Dieu contre le péché est apaisée."
+  },
+  {
+   "q": "Vrai ou faux : selon Romains 5.8, Christ est mort pour nous lorsque nous étions déjà devenus justes.",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "bonne": 1,
+   "explication": "Faux : « Dieu prouve son amour envers nous, en ce que, lorsque nous étions encore des pécheurs, Christ est mort pour nous » (Romains 5.8)."
+  },
+  {
+   "q": "Quelle fonction occupait Nicodème, venu trouver Jésus de nuit ?",
+   "choix": [
+    "Collecteur d'impôts",
+    "Pêcheur de Galilée",
+    "Soldat romain",
+    "Pharisien, chef des Juifs et docteur d'Israël"
+   ],
+   "bonne": 3,
+   "explication": "Nicodème était pharisien, chef des Juifs, et Jésus l'appelle « le docteur d'Israël » (Jean 3.1, 10)."
+  },
+  {
+   "q": "Quelle histoire de l'Ancien Testament Jésus utilise-t-il pour expliquer à Nicodème comment on reçoit la vie éternelle ?",
+   "choix": [
+    "Le serpent d'airain élevé par Moïse dans le désert",
+    "L'arche de Noé",
+    "Le sacrifice d'Isaac",
+    "Jonas dans le poisson"
+   ],
+   "bonne": 0,
+   "explication": "« Comme Moïse éleva le serpent dans le désert, il faut de même que le Fils de l'homme soit élevé, afin que quiconque croit en lui ait la vie éternelle » (Jean 3.14-15 ; Nombres 21.4-9)."
+  },
+  {
+   "q": "Selon 1 Jean 5.13, pourquoi Jean a-t-il écrit sa lettre ?",
+   "choix": [
+    "Pour que les croyants espèrent peut-être être sauvés",
+    "Pour que les croyants sachent qu'ils ont la vie éternelle",
+    "Pour fixer les règles du culte",
+    "Pour condamner les nouveaux convertis"
+   ],
+   "bonne": 1,
+   "explication": "« Je vous ai écrit ces choses, afin que vous sachiez que vous avez la vie éternelle, vous qui croyez au nom du Fils de Dieu » (1 Jean 5.13)."
+  },
+  {
+   "q": "Un nouveau croyant dit : « Ce matin je ne ressens rien, donc je ne suis peut-être plus sauvé. » Quelle réponse est la plus biblique ?",
+   "choix": [
+    "« C'est vrai, il faut te reconvertir chaque fois que tu ne ressens rien »",
+    "« Tes émotions décident de ton salut »",
+    "« Ton assurance repose sur la promesse de Dieu : celui qui a le Fils a la vie »",
+    "« Il faut payer quelqu'un pour prier pour toi »"
+   ],
+   "bonne": 2,
+   "explication": "L'assurance repose d'abord sur la Parole de Dieu, qui ne change pas : « Celui qui a le Fils a la vie » (1 Jean 5.12)."
+  },
+  {
+   "q": "Un croyant est retombé dans un ancien péché. Que lui recommande 1 Jean 1.9 ?",
+   "choix": [
+    "Se cacher loin de Dieu jusqu'à ce qu'il soit meilleur",
+    "Confesser son péché, car Dieu est fidèle et juste pour le pardonner et le purifier",
+    "Recommencer toute sa conversion depuis le début",
+    "Faire semblant que rien ne s'est passé"
+   ],
+   "bonne": 1,
+   "explication": "« Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et pour nous purifier de toute iniquité » (1 Jean 1.9)."
+  }
+ ]
+}

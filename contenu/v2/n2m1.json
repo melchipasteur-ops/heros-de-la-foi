@@ -1,0 +1,867 @@
+{
+  "id": "n2m1",
+  "titre": "Mon identité en Christ",
+  "objectif": "Savoir qui je suis selon Dieu et vivre libéré du regard des autres.",
+  "introduction": [
+    "« Qui suis-je ? » Voilà sans doute l'une des plus vieilles questions de l'humanité, et l'une des plus actuelles. Notre époque y répond de mille manières : tu es ce que tu possèdes, tu es ce que tu produis, tu es ce que les autres pensent de toi, tu es ce que tu ressens. Les réseaux sociaux mesurent notre valeur en mentions « j'aime », l'entreprise en chiffres, la famille parfois en diplômes, en mariage ou en enfants, et la société en argent, en apparence et en réputation. Beaucoup de chrétiens, même engagés depuis longtemps, continuent à vivre avec ces étiquettes collées au cœur : « je suis nul », « je suis le raté de la famille », « je suis l'enfant non désiré », « je suis ce que j'ai fait de pire ».",
+    "La Bible ne commence pas par nous dire ce que nous devons faire, mais par nous dire qui nous sommes : des créatures faites à l'image de Dieu. Puis, après la chute, elle nous révèle ce que Dieu a fait pour nous en Jésus-Christ : il nous a choisis, rachetés, adoptés, pardonnés, scellés par son Esprit et faits héritiers. Ce module veut ancrer l'étudiant dans ces vérités. Ce n'est pas de la « pensée positive » : ce sont des réalités spirituelles fondées sur l'œuvre de Christ, que la foi reçoit et que la vie quotidienne apprend à habiter.",
+    "Le parcours suit trois étapes. D'abord, la création : ma valeur vient de mon Créateur (Genèse 1-2, Psaume 139). Ensuite, la rédemption : en Christ, je suis enfant, racheté et héritier (Éphésiens 1, Galates 4, 2 Corinthiens 5). Enfin, la liberté : sécurisé dans l'amour du Père, je peux vivre libéré de la crainte des hommes (Galates 1.10, Proverbes 29.25, Romains 8.1). Chaque leçon s'appuie sur un récit biblique : Gédéon, le fils prodigue et le roi Saül.",
+    "Un disciple qui sait qui il est devient libre de servir. Il n'a plus besoin de se prouver, de se cacher ou d'écraser les autres. Il peut recevoir une critique sans s'effondrer, un compliment sans s'enfler, et un échec sans renoncer. C'est sur ce socle que se bâtiront tous les autres modules du niveau Disciple : la vie dans l'Esprit, la famille, l'argent, les relations et le soin de soi."
+  ],
+  "lecturesObligatoires": [
+    {
+      "ref": "Genèse 1.26-31",
+      "consigne": "Relevez tout ce que Dieu dit et fait au sujet de l'homme et de la femme. Quel mot revient pour décrire l'ensemble de la création au verset 31 ?"
+    },
+    {
+      "ref": "Genèse 2.7-25",
+      "consigne": "Notez comment Dieu forme l'homme, ce qu'il lui confie et pourquoi il crée la femme."
+    },
+    {
+      "ref": "Psaume 139.1-18",
+      "consigne": "Faites la liste de ce que Dieu sait de vous et de ce qu'il a fait avant votre naissance."
+    },
+    {
+      "ref": "Juges 6.1-24",
+      "consigne": "Comparez la manière dont Gédéon se voit et la manière dont Dieu le voit."
+    },
+    {
+      "ref": "Éphésiens 1.3-14",
+      "consigne": "Soulignez chaque expression « en lui » ou « en Christ » et notez la bénédiction qui l'accompagne."
+    },
+    {
+      "ref": "Luc 15.11-32",
+      "consigne": "Observez ce que le fils cadet prépare de dire à son père, et ce que le père fait avant même qu'il ait fini de parler."
+    },
+    {
+      "ref": "Galates 4.1-7",
+      "consigne": "Quelle différence Paul fait-il entre un esclave et un fils ? Que crie l'Esprit dans nos cœurs ?"
+    },
+    {
+      "ref": "Romains 8.1-17",
+      "consigne": "Relevez les vérités qui libèrent de la condamnation et de la crainte."
+    },
+    {
+      "ref": "1 Samuel 15.1-35",
+      "consigne": "Identifiez les excuses de Saül et la raison qu'il finit par avouer au verset 24."
+    },
+    {
+      "ref": "Galates 1.6-12 et 2.11-14",
+      "consigne": "Comparez la fermeté de Paul et la peur de Pierre devant les hommes."
+    }
+  ],
+  "lecons": [
+    {
+      "titre": "Créé à l'image de Dieu",
+      "lectures": [
+        {
+          "ref": "Genèse 1.26-31",
+          "resume": "Au sommet de la création, Dieu crée l'homme et la femme à son image, les bénit et leur confie la terre ; il voit que tout est très bon."
+        },
+        {
+          "ref": "Psaume 139.13-16",
+          "resume": "David s'émerveille : Dieu l'a formé dans le sein de sa mère et connaissait tous ses jours avant qu'un seul existe."
+        },
+        {
+          "ref": "Juges 6.11-16",
+          "resume": "Gédéon, caché et apeuré, s'entend appeler « vaillant héros » par l'ange de l'Éternel."
+        },
+        {
+          "ref": "Psaume 8.4-10",
+          "resume": "Devant l'immensité du ciel, le psalmiste découvre que Dieu a couronné l'homme de gloire et d'honneur."
+        }
+      ],
+      "recit": {
+        "titre": "Gédéon, le « plus petit » que Dieu appelle « vaillant héros »",
+        "ref": "Juges 6.1-24 ; 7.1-22",
+        "paragraphes": [
+          "Le peuple d'Israël vit des années sombres. Parce qu'il s'est détourné de l'Éternel, il subit chaque année l'invasion des Madianites. Ces nomades arrivent avec leurs chameaux « nombreux comme des sauterelles », dévorent les récoltes et emportent le bétail. Les Israélites se réfugient dans les cavernes et les creux des montagnes. La peur est devenue leur maison. C'est dans ce climat que nous rencontrons Gédéon, fils de Joas, de la tribu de Manassé.",
+          "Gédéon ne bat pas son blé sur l'aire, à découvert, au sommet d'une colline où le vent emporte la balle. Il le bat en cachette dans le pressoir, un creux taillé dans la roche, pour que les Madianites ne le voient pas. C'est là, au fond du trou, que l'ange de l'Éternel vient s'asseoir sous le térébinthe et lui dit : « L'Éternel est avec toi, vaillant héros ! » On imagine Gédéon lever les yeux, couvert de poussière, et se demander si l'on se moque de lui. Un héros, lui, qui se cache ?",
+          "Sa réponse révèle tout ce qu'il pense de Dieu et de lui-même. D'abord, il doute de Dieu : « Si l'Éternel est avec nous, pourquoi toutes ces choses nous sont-elles arrivées ? » Ensuite, il doute de lui-même : « Avec quoi délivrerai-je Israël ? Voici, ma famille est la plus pauvre en Manassé, et je suis le plus petit dans la maison de mon père. » Gédéon a une identité construite par les circonstances : un clan pauvre, une place de cadet, une nation humiliée. Il se définit par ce qu'il n'a pas.",
+          "Dieu ne discute pas avec ces étiquettes ; il les remplace. « Je serai avec toi, et tu battras Madian comme un seul homme. » Le fondement de la nouvelle identité de Gédéon n'est pas sa force, mais la présence de Dieu. Le chemin sera progressif : Gédéon demande un signe, prépare une offrande que le feu consume, bâtit un autel qu'il appelle « l'Éternel paix ». Puis il ose un premier acte de foi : de nuit, encore craintif, il renverse l'autel de Baal de son propre père. Plus tard, il demandera encore deux signes avec la toison, et Dieu, patient, les lui accordera.",
+          "Enfin vient la bataille. Dieu réduit l'armée de trente-deux mille hommes à trois cents, pour qu'Israël ne puisse pas dire : « C'est ma main qui m'a délivré. » Armés de trompettes, de cruches vides et de flambeaux, les trois cents encerclent le camp ennemi en pleine nuit, brisent les cruches, sonnent des trompettes et crient : « Épée pour l'Éternel et pour Gédéon ! » Le camp de Madian s'effondre dans la panique. Le « plus petit » est devenu celui que Dieu avait déclaré : un vaillant héros. Non parce qu'il s'était transformé tout seul, mais parce qu'il avait fini par croire ce que Dieu disait de lui."
+        ],
+        "lecons": [
+          "Dieu nous voit selon ce qu'il a mis en nous et selon ce qu'il veut faire avec nous, et non selon nos peurs, notre milieu ou notre rang familial.",
+          "L'identité que Dieu donne repose sur sa présence (« Je serai avec toi ») et non sur nos capacités naturelles.",
+          "Dieu est patient avec nos doutes : il conduit Gédéon pas à pas, de la peur à l'obéissance.",
+          "Croire ce que Dieu dit de nous ne rend pas orgueilleux : la victoire de Gédéon est clairement celle de Dieu, afin que personne ne s'en glorifie."
+        ]
+      },
+      "exegese": [
+        {
+          "titre": "Le contexte de Genèse 1 : un récit qui répond aux mythes de l'Antiquité",
+          "paragraphes": [
+            "Le livre de la Genèse, attribué traditionnellement à Moïse, a été reçu par un peuple qui sortait de l'esclavage en Égypte et qui allait vivre au milieu des Cananéens. Les peuples voisins avaient leurs propres récits de création. Dans plusieurs de ces récits mésopotamiens, l'homme est créé comme un esclave des dieux, chargé de faire le travail pénible à leur place et de les nourrir par des offrandes. Seul le roi était parfois appelé « image » d'un dieu, c'est-à-dire son représentant officiel.",
+            "Genèse 1 prend le contre-pied de cette vision. Ce n'est pas un roi seul qui porte l'image de Dieu, mais tout être humain, homme et femme. L'homme n'est pas créé pour servir des dieux affamés, mais il est béni, nourri par Dieu (Genèse 1.29) et établi comme gérant de la création. Le chapitre est construit avec une grande régularité : « Dieu dit… et cela fut ainsi… Dieu vit que cela était bon… il y eut un soir, et il y eut un matin. » Mais au sixième jour, le rythme change. Au lieu de « Que la terre produise », Dieu dit : « Faisons l'homme. » Le texte ralentit, comme pour signaler que l'on arrive au sommet de l'œuvre."
+          ]
+        },
+        {
+          "titre": "Genèse 1.26-28 verset par verset",
+          "paragraphes": [
+            "Verset 26 : « Faisons l'homme à notre image, selon notre ressemblance. » Le pluriel « faisons » a reçu plusieurs explications : un pluriel de majesté, une délibération de Dieu avec sa cour céleste, ou, selon de nombreux Pères de l'Église et commentateurs évangéliques, une première ouverture vers la pluralité des personnes en Dieu, que le Nouveau Testament révélera pleinement. Quoi qu'il en soit, la création de l'homme est présentée comme une décision réfléchie et personnelle. Les deux mots « image » (tselem) et « ressemblance » (demout) se renforcent : l'homme reflète quelque chose de Dieu, sans être Dieu.",
+            "La suite du verset donne immédiatement la conséquence : « et qu'il domine sur les poissons de la mer… et sur toute la terre ». Dans le monde ancien, un roi plaçait des statues de lui-même dans les provinces de son empire pour rappeler qui régnait. L'être humain est en quelque sorte la « statue vivante » de Dieu sur la terre : il représente le Créateur et gère la création en son nom. Dominer ne signifie pas exploiter, mais gouverner avec sagesse, comme le ferait Dieu lui-même. Genèse 2.15 le précise : l'homme est placé dans le jardin « pour le cultiver et pour le garder ».",
+            "Verset 27 : « Dieu créa l'homme à son image, il le créa à l'image de Dieu, il créa l'homme et la femme. » C'est un petit poème en trois lignes. Le verbe « créer » (bara), réservé à l'action de Dieu, y revient trois fois. La troisième ligne souligne que l'homme et la femme portent ensemble, et à égalité, l'image de Dieu. Aucun sexe, aucune ethnie, aucune classe sociale n'en est exclu. Verset 28 : « Dieu les bénit. » La première parole de Dieu adressée à l'humanité est une bénédiction, pas une malédiction. Enfin, au verset 31, Dieu contemple tout ce qu'il a fait, et le verdict passe de « bon » à « très bon »."
+          ]
+        },
+        {
+          "titre": "Psaume 139.13-16 : formé avec soin",
+          "paragraphes": [
+            "Le Psaume 139 est attribué à David. Il commence par la connaissance que Dieu a de lui (versets 1-6), puis la présence de Dieu partout (versets 7-12), et arrive à la création personnelle (versets 13-16). David utilise des images d'artisan : « C'est toi qui as formé mes reins, qui m'as tissé dans le sein de ma mère. » Le verbe traduit par « tisser » évoque le travail patient d'un tisserand ou d'un brodeur. Au verset 15, l'expression « dans les profondeurs de la terre » est une image poétique du lieu caché où l'enfant prend forme.",
+            "Le verset 16 va plus loin : « Quand je n'étais qu'une masse informe, tes yeux me voyaient ; et sur ton livre étaient tous inscrits les jours qui m'étaient destinés, avant qu'aucun d'eux existât. » Avant que quiconque ait vu cet enfant, Dieu le voyait déjà. Le verset 14 est donc la réponse logique : « Je te loue de ce que je suis une créature si merveilleuse. » David ne se loue pas lui-même ; il loue Dieu pour le travail que Dieu a fait en lui. C'est la différence entre l'orgueil et une juste estime de soi : l'orgueil dit « regardez-moi », la louange dit « regardez ce que Dieu a fait »."
+          ]
+        }
+      ],
+      "motsCles": [
+        {
+          "mot": "image",
+          "langue": "hébreu",
+          "original": "tselem",
+          "sens": "Représentation, statue, reflet. L'homme représente Dieu sur la terre et reflète quelque chose de son caractère."
+        },
+        {
+          "mot": "ressemblance",
+          "langue": "hébreu",
+          "original": "demout",
+          "sens": "Similitude, apparence semblable. Souligne que l'homme ressemble à Dieu sans être Dieu."
+        },
+        {
+          "mot": "créer",
+          "langue": "hébreu",
+          "original": "bara",
+          "sens": "Verbe employé dans la Bible uniquement avec Dieu pour sujet : faire exister quelque chose de nouveau."
+        },
+        {
+          "mot": "merveilleux",
+          "langue": "hébreu",
+          "original": "palah",
+          "sens": "Être distingué, mis à part, remarquable. David reconnaît que Dieu l'a fait de manière admirable (Psaume 139.14)."
+        }
+      ],
+      "enseignement": [
+        {
+          "titre": "Ce que signifie porter l'image de Dieu",
+          "paragraphes": [
+            "Les théologiens ont décrit l'image de Dieu sous trois angles complémentaires. Le premier est ce que nous sommes : des êtres capables de penser, de choisir, d'aimer, de créer, de parler et d'adorer, ce qui nous distingue des animaux. Le deuxième est ce que nous faisons : représenter Dieu en gérant la création avec justice et bonté. Le troisième est la relation : nous sommes faits pour connaître Dieu et vivre en communion avec lui et avec les autres, comme Dieu lui-même vit en communion éternelle entre le Père, le Fils et le Saint-Esprit.",
+            "Il en découle une vérité capitale : la valeur d'une personne est donnée, non gagnée. Elle ne dépend ni de la beauté, ni de l'intelligence, ni du compte en banque, ni de l'âge, ni de la santé, ni de l'utilité. Un nourrisson, une personne handicapée, un vieillard malade, un prisonnier, un migrant sans papiers portent tous l'image de Dieu. C'est pourquoi la Bible protège la vie humaine (Genèse 9.6) et interdit même de maudire l'homme fait à la ressemblance de Dieu (Jacques 3.9). Mépriser quelqu'un, c'est mépriser l'œuvre du Créateur.",
+            "Cette vérité a une portée immense pour la vie en société. Elle fonde la dignité de chaque personne, quelle que soit son origine ethnique ou sa nationalité, et condamne le tribalisme, le racisme, le mépris des pauvres et la violence faite aux femmes et aux enfants. Elle nous rappelle aussi notre responsabilité : si nous représentons Dieu sur la terre, notre manière de travailler, de gérer l'argent, de traiter la nature et de parler aux autres devrait refléter quelque chose de sa justice, de sa fidélité et de sa bonté. L'image de Dieu n'est pas seulement un privilège ; c'est une vocation."
+          ]
+        },
+        {
+          "titre": "Une image abîmée mais pas effacée",
+          "paragraphes": [
+            "Genèse 3 raconte la désobéissance d'Adam et Ève. Le péché a abîmé l'image de Dieu en nous : notre intelligence s'est obscurcie, notre volonté s'est tournée vers nous-mêmes, nos relations ont été marquées par la honte, l'accusation et la domination. Mais l'image n'a pas disparu : après le déluge, Dieu rappelle encore que l'homme est fait à son image (Genèse 9.6). C'est comme un miroir brisé : il reflète encore la lumière, mais de façon déformée.",
+            "La bonne nouvelle, c'est que Dieu ne jette pas le miroir. Jésus-Christ est « l'image du Dieu invisible » (Colossiens 1.15), l'homme parfait qui reflète Dieu sans aucune déformation. En nous unissant à lui par la foi, Dieu commence à restaurer son image en nous. Paul dit que nous sommes « transformés en la même image » de gloire en gloire, par l'Esprit du Seigneur (2 Corinthiens 3.18), et que le nouvel homme « se renouvelle, dans la connaissance, selon l'image de celui qui l'a créé » (Colossiens 3.10). Notre identité n'est donc pas seulement un point de départ ; c'est aussi une destination : devenir semblables à Christ (Romains 8.29)."
+          ]
+        },
+        {
+          "titre": "Les mensonges qui défigurent l'identité",
+          "paragraphes": [
+            "Si l'ennemi ne peut pas effacer l'image de Dieu en nous, il cherche à nous faire croire qu'elle n'existe pas. Il utilise pour cela des paroles blessantes reçues dans l'enfance (« tu ne feras jamais rien de bon »), des comparaisons permanentes, des échecs, des abus subis, ou encore des messages culturels (« tu ne vaux que ce que tu gagnes »). Ces mensonges deviennent des lunettes à travers lesquelles nous lisons toute notre vie. Gédéon portait les lunettes du « plus petit » ; beaucoup portent celles du « raté », de « l'enfant de trop », de « celle qui n'est pas assez belle ».",
+            "Le combat pour l'identité se mène avec la vérité. Jésus a dit : « Vous connaîtrez la vérité, et la vérité vous affranchira » (Jean 8.32). Il ne s'agit pas de répéter des formules magiques, mais de laisser la Parole de Dieu corriger notre regard sur nous-mêmes, comme elle corrige notre regard sur Dieu. Paul appelle cela le renouvellement de l'intelligence (Romains 12.2). Concrètement, cela passe par trois gestes : identifier le mensonge, le confronter à ce que Dieu dit, puis choisir d'agir selon la vérité, même quand les émotions ne suivent pas encore, comme Gédéon renversant l'autel de Baal de nuit, encore tremblant.",
+            "Il faut enfin éviter deux pièges opposés. Le premier est le mépris de soi, qui contredit l'œuvre de Dieu. Le second est l'orgueil, qui oublie que tout ce que nous sommes vient de lui : « Qu'as-tu que tu n'aies reçu ? » (1 Corinthiens 4.7). L'identité biblique produit l'humilité confiante : je ne suis pas le centre du monde, mais je suis aimé et voulu par celui qui en est le centre."
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "ref": "Genèse 1.27",
+          "texte": "Dieu créa l'homme à son image, il le créa à l'image de Dieu, il créa l'homme et la femme."
+        },
+        {
+          "ref": "Psaume 139.14",
+          "texte": "Je te loue de ce que je suis une créature si merveilleuse. Tes œuvres sont admirables, et mon âme le reconnaît bien."
+        },
+        {
+          "ref": "Juges 6.12",
+          "texte": "L'ange de l'Éternel lui apparut, et lui dit : L'Éternel est avec toi, vaillant héros !"
+        },
+        {
+          "ref": "Éphésiens 2.10",
+          "texte": "Car nous sommes son ouvrage, ayant été créés en Jésus-Christ pour de bonnes œuvres, que Dieu a préparées d'avance, afin que nous les pratiquions."
+        },
+        {
+          "ref": "Colossiens 1.15",
+          "texte": "Il est l'image du Dieu invisible, le premier-né de toute la création."
+        }
+      ],
+      "application": [
+        {
+          "titre": "Face aux réseaux sociaux et à la comparaison",
+          "paragraphes": [
+            "Sur les réseaux, chacun montre le meilleur de sa vie : le mariage réussi, le voyage, la nouvelle voiture, le corps parfait. À force de comparer nos coulisses aux vitrines des autres, nous finissons par nous sentir insignifiants. Le disciple apprend à se poser une question simple avant de faire défiler son écran : « Est-ce que je cherche ici de l'information, de la détente… ou ma valeur ? » Si c'est notre valeur, nous la cherchons au mauvais endroit. Il peut être sage de limiter son temps d'écran, de ne plus suivre les comptes qui nourrissent l'envie, et de commencer la journée par la Parole plutôt que par les notifications."
+          ]
+        },
+        {
+          "titre": "Dans la famille et la culture",
+          "paragraphes": [
+            "Dans beaucoup de familles, la valeur se mesure au rang, au sexe ou à la réussite : l'aîné avant le cadet, le garçon avant la fille, le diplômé avant celui qui a échoué. Certains ont grandi en entendant qu'ils étaient « la honte de la famille ». Genèse 1.27 renverse ces hiérarchies : l'homme et la femme, l'aîné et le cadet, le riche et le pauvre portent la même image. Le disciple honore ses parents et sa culture, mais il refuse de laisser une tradition humaine définir sa valeur plus que la Parole de Dieu."
+          ]
+        },
+        {
+          "titre": "Au travail et dans la précarité",
+          "paragraphes": [
+            "Le chômage, un emploi précaire ou un statut de migrant peuvent donner l'impression de n'être « rien ». Pourtant, ta valeur ne change pas avec ton contrat de travail ou tes papiers. Le travail est une vocation donnée par Dieu dès Genèse 2.15, mais il n'est pas ta source d'identité. Inversement, celui qui réussit doit se garder de mépriser ceux qui ont moins : son collègue de ménage, son employé de maison, le vendeur de la rue portent la même image de Dieu que lui. La manière dont nous traitons les plus faibles révèle ce que nous croyons vraiment sur l'image de Dieu."
+          ]
+        },
+        {
+          "titre": "Dans le corps et la santé mentale",
+          "paragraphes": [
+            "Les complexes liés au corps (couleur de peau, poids, taille, cicatrices, handicap) font souffrir beaucoup de personnes. Le dépigmentage de la peau, les régimes extrêmes ou la honte de son apparence sont souvent le signe d'une identité blessée. Le Psaume 139 invite à remercier Dieu pour son corps et à en prendre soin, sans en faire une idole. Si les pensées de dévalorisation deviennent envahissantes, persistantes ou s'accompagnent d'idées noires, il est sage et biblique de demander de l'aide : à un pasteur, à un conseiller chrétien, à un médecin ou à un psychologue. Demander de l'aide n'est pas un manque de foi."
+          ]
+        },
+        {
+          "titre": "Dans l'Église et le service",
+          "paragraphes": [
+            "Beaucoup de croyants refusent de servir parce qu'ils se jugent « trop petits », comme Gédéon. D'autres, au contraire, servent pour se sentir importants et souffrent quand on ne les remarque pas. L'un et l'autre oublient que leur valeur est déjà fixée par Dieu. Le disciple sert parce qu'il est aimé, et non pour être aimé. Cette semaine, accepte une petite responsabilité que tu avais refusée par peur, ou abandonne un service que tu faisais seulement pour être vu, et remets-le à Dieu dans la prière."
+          ]
+        }
+      ],
+      "etudeDeCas": {
+        "situation": "Aïcha, 24 ans, est la troisième fille d'une famille où l'on attendait un garçon. Depuis l'enfance, elle a entendu des remarques comme « si seulement tu étais un garçon » ou « toi, tu ne feras rien de grand ». Convertie depuis deux ans, elle sert fidèlement à l'accueil de son église, mais refuse chaque fois qu'on lui propose d'animer un groupe de jeunes : « Je ne suis pas faite pour ça, d'autres sont plus capables. » Elle passe ses soirées à regarder la vie des autres sur son téléphone et se sent toujours en retard. Récemment, elle a confié à une amie qu'elle se demandait si Dieu l'aimait autant que les autres.",
+        "questions": [
+          "Quels mensonges sur son identité Aïcha semble-t-elle croire ? D'où viennent-ils ?",
+          "Quels passages de cette leçon (Genèse 1.27, Psaume 139, Juges 6) pourraient l'aider, et comment les lui présenteriez-vous avec douceur ?",
+          "Quel premier pas concret, comparable à celui de Gédéon renversant l'autel de son père, pourrait-elle faire cette semaine ?",
+          "Comment son église peut-elle l'aider sans la forcer ni la flatter ?"
+        ]
+      },
+      "reflexion": [
+        "Quelle étiquette ou quel surnom blessant t'a été donné dans ton enfance, et quelle place a-t-il encore dans ta façon de te voir ?",
+        "Dans quel domaine ressembles-tu à Gédéon caché dans le pressoir ?",
+        "Comment traites-tu les personnes que la société considère comme « moins importantes » ? Ta manière de faire montre-t-elle que tu crois qu'elles portent l'image de Dieu ?",
+        "Peux-tu remercier Dieu sincèrement pour ton corps, ton histoire et ta personnalité, comme David au Psaume 139.14 ?"
+      ],
+      "retenir": [
+        "Tout être humain, homme et femme, est créé à l'image de Dieu : sa valeur est donnée par Dieu, non gagnée.",
+        "Porter l'image de Dieu, c'est être capable de relation avec lui, le refléter et gérer la création en son nom.",
+        "Le péché a abîmé l'image de Dieu, mais ne l'a pas effacée ; en Christ, qui est l'image parfaite de Dieu, elle est restaurée.",
+        "Dieu nous voit selon sa présence et son appel, comme Gédéon, et non selon nos peurs ou nos étiquettes.",
+        "La vérité de la Parole combat les mensonges qui défigurent notre identité."
+      ],
+      "memoriser": {
+        "ref": "Psaume 139.14",
+        "texte": "Je te loue de ce que je suis une créature si merveilleuse. Tes œuvres sont admirables, et mon âme le reconnaît bien."
+      },
+      "priere": "Père, merci de m'avoir créé à ton image. Pardonne-moi d'avoir cru tant de mensonges sur moi-même et d'avoir méprisé l'œuvre de tes mains, en moi et chez les autres. Comme tu l'as fait pour Gédéon, appelle-moi par le nom que tu me donnes, et non par celui que la peur m'a donné. Restaure en moi l'image de ton Fils Jésus, et aide-moi à regarder chaque personne comme quelqu'un que tu as formé avec soin. Au nom de Jésus, amen."
+    },
+    {
+      "titre": "Enfant, racheté, héritier",
+      "lectures": [
+        {
+          "ref": "Éphésiens 1.3-14",
+          "resume": "Une longue louange : en Christ, le croyant est béni, choisi, adopté, racheté, pardonné, scellé du Saint-Esprit et assuré d'un héritage."
+        },
+        {
+          "ref": "Galates 4.1-7",
+          "resume": "Par la venue du Fils et le don de l'Esprit, nous passons de l'état d'esclaves à celui de fils et d'héritiers."
+        },
+        {
+          "ref": "2 Corinthiens 5.14-21",
+          "resume": "En Christ, nous sommes une nouvelle création, réconciliés avec Dieu et envoyés comme ambassadeurs de cette réconciliation."
+        },
+        {
+          "ref": "Luc 15.11-32",
+          "resume": "Le père de la parabole accueille son fils perdu non comme un ouvrier, mais comme un fils, avec la robe, l'anneau et la fête."
+        }
+      ],
+      "recit": {
+        "titre": "Le fils perdu et le père qui court",
+        "ref": "Luc 15.11-32",
+        "paragraphes": [
+          "Jésus est entouré de publicains et de pécheurs qui viennent l'écouter, tandis que les pharisiens et les scribes murmurent : « Cet homme accueille des gens de mauvaise vie, et mange avec eux. » Pour leur répondre, Jésus raconte trois paraboles : la brebis perdue, la drachme perdue et le fils perdu. La troisième est la plus longue et la plus bouleversante.",
+          "Un homme avait deux fils. Le plus jeune lui dit : « Mon père, donne-moi la part de bien qui doit me revenir. » Dans la culture de l'époque, réclamer son héritage du vivant de son père revenait presque à lui dire : « Pour moi, tu es déjà mort. » Le père accepte pourtant. Peu après, le fils rassemble tout, part dans un pays éloigné et dissipe son bien en vivant dans la débauche. Puis vient la famine. Ruiné, il se met au service d'un habitant du pays, qui l'envoie garder les pourceaux, animaux impurs pour un Juif. Il aurait voulu se rassasier des caroubes que mangeaient les porcs, mais personne ne lui en donnait. Il est tombé aussi bas qu'un fils d'Israël pouvait tomber.",
+          "Alors il rentre en lui-même. Il se souvient que les ouvriers de son père ont du pain en abondance. Il prépare un discours : « Mon père, j'ai péché contre le ciel et contre toi, je ne suis plus digne d'être appelé ton fils ; traite-moi comme l'un de tes mercenaires. » Remarquez son raisonnement : il espère être réintégré dans la maison, mais en tant qu'employé. Il pense qu'il a perdu son identité de fils et qu'il doit désormais gagner son pain par son travail.",
+          "Mais le père guettait. « Comme il était encore loin, son père le vit et fut ému de compassion, il courut se jeter à son cou et le baisa. » Dans cette société, un homme âgé et respectable ne courait pas en public ; il fallait relever sa longue robe, au risque du ridicule. Le père accepte de perdre sa dignité pour gagner son fils. Le fils commence son discours, mais il n'a pas le temps d'arriver à la phrase « traite-moi comme l'un de tes mercenaires ». Le père l'interrompt et donne des ordres aux serviteurs : « Apportez vite la plus belle robe, et l'en revêtez ; mettez-lui un anneau au doigt, et des souliers aux pieds. Amenez le veau gras, et tuez-le. Mangeons et réjouissons-nous ; car mon fils que voici était mort, et il est revenu à la vie ; il était perdu, et il est retrouvé. »",
+          "La robe couvre ses haillons et honore son retour. L'anneau, souvent un anneau-sceau, représente l'autorité de la famille. Les souliers le distinguent des esclaves, qui marchaient pieds nus. Chaque geste dit la même chose : « Tu n'es pas un ouvrier, tu es mon fils. » La parabole se termine pourtant sur une note inattendue. Le fils aîné, qui revient des champs, se met en colère et refuse d'entrer. Il dit à son père : « Voici, il y a tant d'années que je te sers. » Lui aussi raisonne comme un ouvrier qui attend son salaire. Le père lui répond avec tendresse : « Mon enfant, tu es toujours avec moi, et tout ce que j'ai est à toi. » Jésus laisse l'histoire ouverte : le fils aîné entrera-t-il dans la fête ?"
+        ],
+        "lecons": [
+          "Notre identité d'enfant de Dieu ne repose pas sur nos performances, mais sur l'amour et la grâce du Père.",
+          "On peut s'éloigner de Dieu de deux manières : par la rébellion ouverte, comme le cadet, ou par une religion de mérite, comme l'aîné. Tous deux pensent comme des ouvriers et non comme des fils.",
+          "Le Père ne nous reçoit pas « à l'essai » ou au rang de serviteurs : il nous rend pleinement la dignité de fils et de filles.",
+          "La grâce du Père doit aussi changer notre regard sur ceux qui reviennent à Dieu : nous sommes invités à entrer dans sa joie."
+        ]
+      },
+      "exegese": [
+        {
+          "titre": "Éphésiens 1.3-14 : une seule phrase de louange",
+          "paragraphes": [
+            "Paul écrit l'épître aux Éphésiens depuis la prison, probablement à Rome vers l'an 60-62. Éphèse était une grande ville d'Asie Mineure, célèbre pour son temple d'Artémis, ses pratiques de magie et son commerce. Les croyants y étaient d'anciens païens et des Juifs, souvent issus de milieux modestes. Face à une ville impressionnante et à des puissances spirituelles redoutées, Paul veut qu'ils comprennent la grandeur de ce qu'ils ont reçu en Christ.",
+            "Dans le texte grec, les versets 3 à 14 forment une seule et longue phrase, comme un torrent de louange qui ne peut pas s'arrêter. Elle est structurée autour des trois personnes de la Trinité. Le Père nous a choisis et prédestinés à être ses enfants d'adoption (versets 3-6). Le Fils nous a rachetés par son sang et nous a fait connaître le mystère de la volonté de Dieu (versets 7-12). L'Esprit nous a scellés comme garantie de notre héritage (versets 13-14). Trois fois revient le refrain « à la louange de sa gloire » (versets 6, 12 et 14) : le but final de notre identité n'est pas notre gloire, mais celle de Dieu.",
+            "L'expression clé du passage est « en Christ » ou « en lui », qui revient une dizaine de fois. Toutes les bénédictions sont reçues dans l'union avec Christ. Le verset 3 dit que nous sommes bénis « de toute sorte de bénédictions spirituelles dans les lieux célestes en Christ ». Le verbe est au passé : ces bénédictions sont déjà données. La foi ne les fabrique pas ; elle les reçoit et apprend à en vivre."
+          ]
+        },
+        {
+          "titre": "Les mots de l'identité nouvelle",
+          "paragraphes": [
+            "Verset 4 : « En lui Dieu nous a élus avant la fondation du monde, pour que nous soyons saints et irrépréhensibles devant lui. » Le mystère de l'élection est débattu entre évangéliques quant à son articulation avec la liberté humaine, mais tous reconnaissent ici un message de sécurité : notre salut n'est pas un accident ni une idée de dernière minute. Dieu pensait à nous avec amour avant que le monde existe.",
+            "Verset 5 : il nous a « prédestinés dans son amour à être ses enfants d'adoption par Jésus-Christ ». Le mot grec huiothesia, « adoption », désigne une réalité juridique bien connue dans le monde romain. Un adopté recevait un nouveau nom, ses anciennes dettes étaient annulées, il entrait pleinement dans la famille et recevait les mêmes droits d'héritage qu'un enfant né dans cette famille. Plusieurs empereurs romains avaient ainsi été adoptés pour devenir héritiers. Paul affirme que Dieu nous a donné cette place-là.",
+            "Verset 7 : « En lui nous avons la rédemption par son sang, la rémission des péchés. » La rédemption (apolutrôsis) évoque le paiement d'une rançon pour libérer un esclave ou un prisonnier. Le prix de notre libération n'est ni l'argent ni nos œuvres, mais le sang de Christ (1 Pierre 1.18-19). Versets 13-14 : nous avons été « scellés du Saint-Esprit qui avait été promis, lequel est un gage de notre héritage ». Le sceau marquait la propriété et l'authenticité d'un document ou d'une marchandise. Le « gage » (arrabôn) est un acompte : le premier versement qui garantit que le reste suivra. L'Esprit en nous est l'avant-goût et la garantie de tout ce que Dieu nous réserve."
+          ]
+        },
+        {
+          "titre": "Galates 4.4-7 et 2 Corinthiens 5.17 : de l'esclave au fils",
+          "paragraphes": [
+            "Dans l'épître aux Galates, Paul combat ceux qui voulaient obliger les chrétiens d'origine païenne à se faire circoncire et à observer la loi de Moïse pour être pleinement acceptés. Il leur rappelle que nous ne devenons pas enfants de Dieu par nos efforts religieux. « Lorsque les temps ont été accomplis, Dieu a envoyé son Fils, né d'une femme, né sous la loi, afin qu'il rachetât ceux qui étaient sous la loi, afin que nous reçussions l'adoption. » Puis : « Parce que vous êtes fils, Dieu a envoyé dans nos cœurs l'Esprit de son Fils, lequel crie : Abba ! Père ! » Abba est le mot araméen intime qu'un enfant utilisait pour son père, et que Jésus lui-même employait dans la prière (Marc 14.36). La conclusion est nette : « Ainsi tu n'es plus esclave, mais fils. »",
+            "En 2 Corinthiens 5.17, Paul écrit : « Si quelqu'un est en Christ, il est une nouvelle créature. » L'expression grecque kainè ktisis peut se traduire « nouvelle création ». Ce n'est pas seulement un individu amélioré, c'est l'irruption, dans une vie, du monde nouveau que Dieu a commencé à créer par la résurrection de Christ. « Les choses anciennes sont passées » : le verbe signifie qu'elles ont disparu, comme une saison terminée. Notre passé n'est pas effacé de l'histoire, mais il ne détermine plus notre identité devant Dieu."
+          ]
+        }
+      ],
+      "motsCles": [
+        {
+          "mot": "adoption",
+          "langue": "grec",
+          "original": "huiothesia",
+          "sens": "Littéralement « placement comme fils » : acte juridique donnant à l'adopté un nouveau nom, une nouvelle famille et les pleins droits d'héritier."
+        },
+        {
+          "mot": "rédemption",
+          "langue": "grec",
+          "original": "apolutrôsis",
+          "sens": "Libération obtenue par le paiement d'une rançon, comme pour un esclave ou un captif."
+        },
+        {
+          "mot": "gage",
+          "langue": "grec",
+          "original": "arrabôn",
+          "sens": "Acompte, premier versement qui garantit le paiement complet ; l'Esprit est le gage de notre héritage."
+        },
+        {
+          "mot": "héritier",
+          "langue": "grec",
+          "original": "klèronomos",
+          "sens": "Celui qui reçoit une part de l'héritage familial ; en Christ, le croyant est cohéritier avec lui (Romains 8.17)."
+        },
+        {
+          "mot": "Abba",
+          "langue": "araméen",
+          "original": "abba",
+          "sens": "Père, terme familier et tendre employé par l'enfant envers son père."
+        }
+      ],
+      "enseignement": [
+        {
+          "titre": "Des réalités spirituelles, pas des sentiments",
+          "paragraphes": [
+            "Quand Paul dit que nous sommes adoptés, rachetés, pardonnés et scellés, il ne décrit pas des émotions mais des faits. Un enfant adopté légalement reste l'enfant de ses parents même les jours où il ne se sent pas aimé. De même, notre statut d'enfant de Dieu ne monte pas et ne descend pas avec notre humeur, nos réussites ou nos échecs de la semaine. Les sentiments sont réels et importants, mais ils sont comme les wagons d'un train : ils suivent la locomotive, qui est la vérité de la Parole reçue par la foi.",
+            "C'est pourquoi la Bible nous invite non seulement à croire, mais aussi à « connaître » ce que nous avons reçu. Juste après la louange d'Éphésiens 1, Paul prie pour que Dieu illumine les yeux du cœur des croyants, afin qu'ils sachent « quelle est l'espérance qui s'attache à son appel, quelle est la richesse de la gloire de son héritage » (Éphésiens 1.18). Beaucoup de chrétiens vivent comme des enfants de roi qui ignorent leur héritage et mendient à la porte du palais."
+          ]
+        },
+        {
+          "titre": "Les vérités de mon identité en Christ",
+          "paragraphes": [
+            "Rassemblons ce que disent les passages étudiés. En Christ, je suis choisi : Dieu m'a voulu avant la fondation du monde (Éphésiens 1.4). Je suis adopté : je fais partie de sa famille avec tous les droits d'un enfant (Éphésiens 1.5 ; Jean 1.12). Je suis racheté et pardonné : le prix de ma liberté a été payé par le sang de Christ, et mes péchés ne me sont plus comptés (Éphésiens 1.7 ; Colossiens 1.13-14). Je suis scellé : l'Esprit Saint marque que j'appartiens à Dieu et garantit mon avenir (Éphésiens 1.13-14). Je suis héritier : ce que Dieu prépare pour ses enfants m'est promis (Galates 4.7 ; Romains 8.17). Je suis une nouvelle création : mon passé ne définit plus qui je suis (2 Corinthiens 5.17). Je suis réconcilié et envoyé : je deviens ambassadeur de Christ (2 Corinthiens 5.20).",
+            "Ces vérités ont une conséquence directe sur la manière dont je prie. Un ouvrier se présente à son patron avec un dossier de mérites ; un fils vient à son père avec confiance. Jésus nous a appris à dire « Notre Père qui es aux cieux ». Les jours de faiblesse, je ne viens pas à Dieu pour négocier une place, mais parce que j'ai déjà une place à sa table. Cela ne rend pas le péché moins grave : au contraire, un fils aimé a encore plus de raisons de ne pas attrister son Père."
+          ]
+        },
+        {
+          "titre": "Mentalité d'esclave et mentalité de fils",
+          "paragraphes": [
+            "La parabole de Luc 15 montre que l'on peut habiter la maison du Père et penser encore comme un esclave. La mentalité d'esclave se reconnaît à plusieurs signes : je sers Dieu par peur d'être puni ; je pense que son amour pour moi dépend de mes performances spirituelles ; je compare sans cesse ce que je reçois avec ce que reçoivent les autres ; je suis jaloux quand Dieu bénit quelqu'un qui me semble moins méritant. Le fils aîné disait : « Jamais tu ne m'as donné un chevreau. »",
+            "La mentalité de fils, elle, sert par amour et par reconnaissance. Elle sait que « tout ce que j'ai est à toi », selon la parole du père à l'aîné. Elle peut donc se réjouir de la bénédiction des autres, car il n'y a pas de pénurie dans l'amour du Père. Elle peut aussi confesser rapidement ses fautes, car elle ne craint pas d'être rejetée : elle sait qu'il y a un avocat auprès du Père, Jésus-Christ le juste (1 Jean 2.1). Passer de l'une à l'autre est un chemin. L'Esprit lui-même nous y conduit en criant en nous « Abba ! Père ! » et en rendant témoignage à notre esprit que nous sommes enfants de Dieu (Romains 8.15-16).",
+            "Enfin, l'adoption nous place dans une famille. Si Dieu est mon Père, les autres croyants sont mes frères et sœurs, quelle que soit leur origine. Cette vérité est particulièrement précieuse pour ceux qui ont été rejetés par leur famille à cause de leur foi, pour les orphelins, pour les migrants loin des leurs. Jésus a promis à ceux qui ont tout quitté pour lui de recevoir au centuple des maisons, des frères, des sœurs et des mères (Marc 10.29-30). L'Église est appelée à être cette famille."
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "ref": "Éphésiens 1.7",
+          "texte": "En lui nous avons la rédemption par son sang, la rémission des péchés, selon la richesse de sa grâce,"
+        },
+        {
+          "ref": "Galates 4.6-7",
+          "texte": "Et parce que vous êtes fils, Dieu a envoyé dans nos cœurs l'Esprit de son Fils, lequel crie : Abba ! Père ! Ainsi tu n'es plus esclave, mais fils ; et si tu es fils, tu es aussi héritier par la grâce de Dieu."
+        },
+        {
+          "ref": "2 Corinthiens 5.17",
+          "texte": "Si quelqu'un est en Christ, il est une nouvelle créature. Les choses anciennes sont passées ; voici, toutes choses sont devenues nouvelles."
+        },
+        {
+          "ref": "Jean 1.12",
+          "texte": "Mais à tous ceux qui l'ont reçue, à ceux qui croient en son nom, elle a donné le pouvoir de devenir enfants de Dieu,"
+        },
+        {
+          "ref": "1 Jean 3.1",
+          "texte": "Voyez quel amour le Père nous a témoigné, pour que nous soyons appelés enfants de Dieu ! Et nous le sommes."
+        }
+      ],
+      "application": [
+        {
+          "titre": "Quand le passé revient",
+          "paragraphes": [
+            "Une ancienne addiction, un avortement, une prison, une relation adultère, une fraude : certains passés pèsent lourd. Parfois, des personnes autour de nous continuent de nous appeler par notre ancien nom. Le disciple ne nie pas son histoire et répare ce qui peut l'être, mais il refuse de se laisser définir par elle. Quand le souvenir revient, il peut répondre : « Oui, c'est ce que j'ai fait. Mais ce n'est plus ce que je suis : je suis une nouvelle création en Christ. » Le témoignage du fils perdu n'est pas « j'ai été un débauché », mais « j'étais mort, et je suis revenu à la vie »."
+          ]
+        },
+        {
+          "titre": "Pour ceux qui ont manqué de père",
+          "paragraphes": [
+            "L'absence, la violence ou l'indifférence d'un père terrestre rend parfois difficile de croire à l'amour de Dieu le Père. On projette sur Dieu ce que l'on a vécu. Le Père de Luc 15 corrige cette image : il guette, il court, il embrasse, il restaure. Il peut être utile de lire régulièrement ce texte en se mettant à la place du fils, et de demander de l'aide à des frères et sœurs mûrs pour guérir de ces blessures, sans s'enfermer dans l'amertume envers son père terrestre."
+          ]
+        },
+        {
+          "titre": "Dans la religion du mérite",
+          "paragraphes": [
+            "Certains chrétiens fidèles ressemblent au fils aîné : ils prient, jeûnent, servent et donnent, mais sans joie, avec un sentiment d'injustice quand d'autres sont bénis. Ils pensent : « Après tout ce que j'ai fait pour Dieu… » Le remède n'est pas de servir moins, mais de servir autrement : en recevant d'abord l'amour du Père, puis en servant comme un fils qui partage l'œuvre de la maison, et non comme un employé qui réclame un salaire."
+          ]
+        },
+        {
+          "titre": "Dans la pauvreté et l'insécurité",
+          "paragraphes": [
+            "Quand l'argent manque et que l'avenir est incertain, la tentation est grande de croire que Dieu nous a oubliés, ou de chercher la sécurité par des moyens douteux : corruption, jeux d'argent, pratiques occultes. Savoir que je suis héritier de Dieu ne supprime pas les difficultés présentes, mais change ma façon de les traverser. Mon Père connaît mes besoins (Matthieu 6.32), et mon héritage véritable ne peut ni se perdre ni se corrompre (1 Pierre 1.4). Je peux donc travailler avec honnêteté, demander de l'aide sans honte et refuser les raccourcis qui déshonorent le nom de ma famille spirituelle."
+          ]
+        }
+      ],
+      "etudeDeCas": {
+        "situation": "Jonathan, 31 ans, a passé quatre ans en prison pour vol à main armée. Il a rencontré Christ pendant sa détention grâce à un aumônier. Depuis sa libération, il fréquente une église où il est bien accueilli, mais il s'assoit toujours au fond et part avant la fin du culte. Quand on lui propose de rejoindre une cellule de maison, il répond : « Les gens comme moi, Dieu les pardonne, mais il ne les utilise pas. » Dans son quartier, on l'appelle encore par son ancien surnom de bandit. Il travaille dur dans un petit emploi et a l'impression qu'il doit rembourser Dieu pour tout le mal qu'il a fait.",
+        "questions": [
+          "Quelle « mentalité » décrite dans cette leçon reconnaissez-vous chez Jonathan ? Montrez-le à partir du récit de Luc 15.",
+          "Quelles vérités d'Éphésiens 1 et de 2 Corinthiens 5.17 lui adresseriez-vous ?",
+          "Que pourrait faire concrètement l'église pour lui montrer qu'il est un frère et non un invité toléré ?",
+          "Comment distinguer, pour Jonathan, la réparation légitime des torts causés et le désir de « rembourser » son salut ?"
+        ]
+      },
+      "reflexion": [
+        "Dans ta relation avec Dieu, te comportes-tu plutôt comme un fils, comme le cadet rebelle ou comme l'aîné qui réclame son salaire ?",
+        "Laquelle des vérités d'Éphésiens 1.3-14 te paraît la plus difficile à croire pour toi-même ? Pourquoi ?",
+        "Quel « ancien nom » le monde, ta famille ou ta propre conscience te donne-t-il encore ?",
+        "Comment ton image de ton père terrestre influence-t-elle ta façon de voir Dieu le Père ?",
+        "Qui, dans ton entourage, a besoin de découvrir qu'il peut être un enfant de Dieu et non un simple serviteur ?"
+      ],
+      "retenir": [
+        "En Christ, je suis choisi, adopté, racheté, pardonné, scellé par l'Esprit et héritier : ce sont des réalités, non des sentiments.",
+        "L'adoption (huiothesia) me donne un nouveau nom, une nouvelle famille et tous les droits d'enfant de Dieu.",
+        "L'Esprit en moi crie « Abba ! Père ! » et témoigne que je suis enfant de Dieu.",
+        "Je ne suis plus esclave, mais fils ou fille : je sers Dieu par amour, non pour mériter son amour.",
+        "Mon passé ne me définit plus : je suis une nouvelle création."
+      ],
+      "memoriser": {
+        "ref": "Galates 4.7",
+        "texte": "Ainsi tu n'es plus esclave, mais fils ; et si tu es fils, tu es aussi héritier par la grâce de Dieu."
+      },
+      "priere": "Abba, Père, merci de m'avoir choisi, adopté et racheté par le sang de Jésus. Je renonce à la mentalité d'esclave qui veut mériter ton amour, et à la rébellion qui veut vivre loin de toi. Merci de courir vers moi quand je reviens, et de me revêtir de la robe, de l'anneau et des souliers de tes enfants. Par ton Esprit, rends témoignage à mon esprit que je suis ton enfant, et apprends-moi à vivre comme un héritier de ton royaume. Au nom de Jésus, amen."
+    },
+    {
+      "titre": "Vivre libre du regard des autres",
+      "lectures": [
+        {
+          "ref": "1 Samuel 15.1-35",
+          "resume": "Le roi Saül désobéit à l'ordre de Dieu, se justifie, puis avoue qu'il a agi par crainte du peuple ; il perd la royauté."
+        },
+        {
+          "ref": "Galates 1.6-12",
+          "resume": "Paul refuse d'adapter l'Évangile pour plaire aux hommes : s'il cherchait encore leur faveur, il ne serait pas serviteur de Christ."
+        },
+        {
+          "ref": "Proverbes 29.25",
+          "resume": "La crainte des hommes est un piège, mais celui qui se confie en l'Éternel est protégé."
+        },
+        {
+          "ref": "Romains 8.1-4, 31-39",
+          "resume": "Il n'y a aucune condamnation pour ceux qui sont en Christ, et rien ne peut les séparer de l'amour de Dieu."
+        }
+      ],
+      "recit": {
+        "titre": "Saül, le roi qui craignait le peuple",
+        "ref": "1 Samuel 15",
+        "paragraphes": [
+          "Saül avait tout pour réussir. Le texte le décrit comme un jeune homme beau, plus grand que tout le peuple « depuis l'épaule et au-dessus ». Choisi par Dieu et oint par le prophète Samuel, il devient le premier roi d'Israël. Pourtant, dès le jour de sa proclamation, un détail inquiète : au moment où on le cherche pour le présenter au peuple, il est caché parmi les bagages (1 Samuel 10.22). Derrière l'apparence imposante se cache un homme peu sûr de lui.",
+          "Quelques années plus tard, Dieu confie à Saül une mission précise contre Amalek, le peuple qui avait attaqué Israël sans pitié lors de la sortie d'Égypte, en s'en prenant aux plus faibles qui traînaient à l'arrière (Deutéronome 25.17-18). L'ordre est clair : exécuter entièrement le jugement de Dieu, sans rien garder pour soi. Saül remporte la bataille. Mais il épargne Agag, le roi d'Amalek, ainsi que le meilleur du bétail. Puis il se rend au Carmel et s'y érige un monument, à sa propre gloire.",
+          "Quand Samuel arrive, Saül l'accueille avec un grand sourire : « Sois béni de l'Éternel ! J'ai observé la parole de l'Éternel. » Samuel répond par une question terrible : « Qu'est-ce donc que ce bêlement de brebis qui parvient à mes oreilles, et ce mugissement de bœufs que j'entends ? » Saül commence alors une série d'excuses. D'abord, il accuse les autres : « C'est le peuple qui a épargné les meilleures brebis. » Ensuite, il spiritualise sa désobéissance : c'était « afin de les sacrifier à l'Éternel ». Samuel répond par une parole devenue célèbre : « L'obéissance vaut mieux que les sacrifices, et l'observation de sa parole vaut mieux que la graisse des béliers. »",
+          "Acculé, Saül finit par avouer la vraie raison : « J'ai péché, car j'ai transgressé l'ordre de l'Éternel, et je n'ai pas obéi à tes paroles ; je craignais le peuple, et j'ai écouté sa voix » (1 Samuel 15.24). Voilà la racine. Le roi d'Israël, appelé à conduire le peuple selon la parole de Dieu, se laissait conduire par l'opinion du peuple. Et même dans sa repentance, il reste prisonnier du regard des autres. Il supplie Samuel : « J'ai péché ! Maintenant, je te prie, honore-moi en présence des anciens de mon peuple et en présence d'Israël. » Sa préoccupation principale n'est pas d'être restauré devant Dieu, mais de ne pas perdre la face devant les hommes.",
+          "Samuel annonce que l'Éternel a rejeté Saül comme roi. Le récit se termine dans la tristesse : Samuel ne revoit plus Saül jusqu'au jour de sa mort, et il pleure sur lui. La suite de l'histoire montrera un Saül de plus en plus rongé par la jalousie, en particulier envers David, que les femmes acclament en chantant : « Saül a frappé ses mille, et David ses dix mille. » L'homme qui vivait pour le regard des autres ne supportera jamais qu'un autre soit plus admiré que lui."
+        ],
+        "lecons": [
+          "La crainte des hommes conduit à une obéissance partielle, qui est en réalité une désobéissance.",
+          "On peut habiller la peur de l'opinion avec des raisons religieuses (« c'était pour le sacrifice »), mais Dieu voit le cœur.",
+          "Celui qui vit pour l'approbation devient facilement jaloux de ceux qui sont plus admirés que lui.",
+          "La vraie repentance cherche d'abord la restauration devant Dieu, non la sauvegarde de son image devant les hommes."
+        ]
+      },
+      "exegese": [
+        {
+          "titre": "Proverbes 29.25 : le piège et la tour",
+          "paragraphes": [
+            "Le livre des Proverbes rassemble des enseignements de sagesse attribués en grande partie à Salomon et à d'autres sages d'Israël. Le chapitre 29 fait partie d'une collection copiée sous le roi Ézéchias (Proverbes 25.1). Les proverbes sont des sentences courtes, souvent construites en deux lignes qui s'opposent ou se complètent. Ici, la première ligne présente un danger, la seconde un refuge.",
+            "« La crainte des hommes tend un piège. » Le mot hébreu pour « crainte » (ḥerdah) désigne un tremblement, une peur qui fait trembler. Le mot « piège » (moqesh) est le terme qui désigne le piège du chasseur d'oiseaux, un appât qui attire puis referme ses mâchoires. La crainte des hommes promet la sécurité (« si je leur plais, je serai protégé ») mais elle finit par emprisonner. Elle pousse à mentir, à se taire quand il faudrait parler, à suivre la majorité quand elle a tort.",
+            "« Mais celui qui se confie en l'Éternel est protégé. » Le verbe traduit par « protégé » (sagav) signifie littéralement « être placé en hauteur », hors d'atteinte, comme dans une forteresse sur un rocher. Le contraste est saisissant : d'un côté, l'oiseau pris au piège au ras du sol ; de l'autre, l'homme élevé en lieu sûr. Le remède à la crainte des hommes n'est pas l'indifférence ou l'orgueil, mais une crainte plus grande et plus saine : la confiance révérencielle en Dieu. Jésus dira la même chose : « Ne craignez pas ceux qui tuent le corps et qui ne peuvent tuer l'âme » (Matthieu 10.28)."
+          ]
+        },
+        {
+          "titre": "Galates 1.10 : serviteur de Christ ou des hommes ?",
+          "paragraphes": [
+            "L'épître aux Galates est l'une des plus vigoureuses de Paul. Après son passage en Galatie, des prédicateurs sont venus dire aux nouveaux croyants qu'ils devaient aussi se faire circoncire et observer la loi pour être de vrais chrétiens. Paul s'étonne qu'ils se détournent si vite de la grâce. Ses adversaires l'accusaient sans doute d'adoucir l'Évangile pour plaire aux païens, en supprimant les exigences de la loi.",
+            "Paul répond au verset 10 par trois questions : « Et maintenant, est-ce la faveur des hommes que je désire, ou celle de Dieu ? Est-ce que je cherche à plaire aux hommes ? Si je plaisais encore aux hommes, je ne serais pas serviteur de Christ. » Le verbe grec areskô, « plaire », est employé dans l'Antiquité pour parler des flatteurs et des orateurs qui adaptent leur discours pour gagner la faveur du public. Le mot « serviteur » (doulos) signifie « esclave » : Paul se considère comme appartenant entièrement à Christ. On ne peut pas avoir deux maîtres. Le mot « encore » est révélateur : avant sa conversion, Paul cherchait la reconnaissance de ses pairs pharisiens (Galates 1.14). Christ l'a libéré de ce besoin.",
+            "Au chapitre 2 (versets 11-14), Paul raconte un épisode douloureux. À Antioche, Pierre mangeait librement avec les chrétiens d'origine païenne. Mais quand des gens venus de Jérusalem sont arrivés, il s'est retiré « par crainte des circoncis ». D'autres l'ont imité, même Barnabas. Paul l'a repris publiquement. Cet épisode montre que même un apôtre peut tomber dans le piège de la crainte des hommes, et que cette crainte a des conséquences pour les autres : elle divise l'Église et obscurcit l'Évangile."
+          ]
+        },
+        {
+          "titre": "Romains 8.1 : aucune condamnation",
+          "paragraphes": [
+            "Après avoir décrit le combat intérieur du croyant face au péché (Romains 7), Paul ouvre le chapitre 8 par une affirmation éclatante : « Il n'y a donc maintenant aucune condamnation pour ceux qui sont en Jésus-Christ. » Le mot katakrima appartient au vocabulaire du tribunal : c'est la sentence de condamnation et la peine qui l'accompagne. Paul dit qu'elle n'existe plus pour ceux qui sont unis à Christ, parce que Dieu a « condamné le péché dans la chair » de son Fils (Romains 8.3). Le verdict a été prononcé et exécuté sur Christ à notre place.",
+            "Le chapitre se termine en écho (versets 31-39) : « Si Dieu est pour nous, qui sera contre nous ? … Qui accusera les élus de Dieu ? C'est Dieu qui justifie ! Qui les condamnera ? » Le lien avec la crainte des hommes est profond. Si le juge suprême m'a déclaré juste et m'aime d'un amour dont rien ne peut me séparer, alors le jugement des hommes perd son pouvoir de me détruire. Il peut me blesser, m'instruire ou m'avertir, mais il n'a plus le dernier mot sur ma valeur."
+          ]
+        }
+      ],
+      "motsCles": [
+        {
+          "mot": "piège",
+          "langue": "hébreu",
+          "original": "moqesh",
+          "sens": "Piège à oiseaux, appât qui attire puis capture ; image de la crainte des hommes (Proverbes 29.25)."
+        },
+        {
+          "mot": "être protégé",
+          "langue": "hébreu",
+          "original": "sagav",
+          "sens": "Être élevé, placé en hauteur, hors d'atteinte, comme dans une forteresse."
+        },
+        {
+          "mot": "plaire",
+          "langue": "grec",
+          "original": "areskô",
+          "sens": "Chercher à se rendre agréable, gagner la faveur ; employé pour les flatteurs (Galates 1.10)."
+        },
+        {
+          "mot": "condamnation",
+          "langue": "grec",
+          "original": "katakrima",
+          "sens": "Sentence judiciaire de condamnation et peine qui en résulte (Romains 8.1)."
+        }
+      ],
+      "enseignement": [
+        {
+          "titre": "Les visages de la crainte des hommes",
+          "paragraphes": [
+            "La crainte des hommes ne ressemble pas toujours à de la peur. Elle peut prendre la forme du perfectionnisme (« je dois être irréprochable pour qu'on ne me critique pas »), de la timidité spirituelle (« je n'ose pas dire que je suis chrétien au bureau »), de la complaisance (« je dis oui à tout le monde pour éviter les conflits »), de la susceptibilité (« la moindre remarque me fait m'effondrer ou me met en colère »), ou encore de la vantardise (« j'ai besoin que l'on sache ce que je fais pour Dieu »). Derrière tous ces comportements se cache la même question : « Que vont-ils penser de moi ? »",
+            "Le problème de fond est un déplacement de l'adoration. Ce que nous craignons le plus, nous finissons par le servir. Si l'opinion des autres est devenue ce qui décide de mes choix, alors elle est devenue une idole. Jésus a diagnostiqué ce mal chez certains chefs religieux : « Comment pouvez-vous croire, vous qui tirez votre gloire les uns des autres, et qui ne cherchez point la gloire qui vient de Dieu seul ? » (Jean 5.44). Et Jean note au sujet de certains notables qui croyaient en Jésus sans oser le confesser : « Car ils aimèrent la gloire des hommes plus que la gloire de Dieu » (Jean 12.43)."
+          ]
+        },
+        {
+          "titre": "Le remède : un cœur rempli de l'approbation de Dieu",
+          "paragraphes": [
+            "On ne guérit pas de la crainte des hommes en se forçant à ne plus se soucier de rien, ni en devenant dur et méprisant. On en guérit en recevant quelque chose de plus grand. Au baptême de Jésus, avant même qu'il ait commencé son ministère public, le Père déclare : « Celui-ci est mon Fils bien-aimé, en qui j'ai mis toute mon affection » (Matthieu 3.17). C'est de cette approbation que Jésus a vécu. Il a pu être rejeté à Nazareth, critiqué par les pharisiens, abandonné par ses disciples, sans jamais cesser d'aimer et d'obéir.",
+            "En Christ, cette parole du Père nous concerne aussi : nous sommes « agréables » à Dieu en son Fils bien-aimé (Éphésiens 1.6). Celui qui est rassasié n'a plus besoin de mendier. Quand je sais que Dieu m'accepte pleinement en Christ, je peux servir sans chercher à être vu, comme Jésus l'enseigne dans le Sermon sur la montagne : donner, prier et jeûner « dans le secret », sous le regard du Père (Matthieu 6.1-18). Je peux recevoir une critique et me demander simplement : « Y a-t-il du vrai dans ce qu'on me dit ? » sans que mon identité soit menacée. Et je peux me réjouir sincèrement du succès des autres, au lieu de le vivre comme une menace, à l'inverse de Saül."
+          ]
+        },
+        {
+          "titre": "Libre du regard des autres, mais pas indifférent aux autres",
+          "paragraphes": [
+            "Il faut éviter un contresens. La Bible ne nous demande pas de mépriser l'avis des autres. Les Proverbes louent celui qui écoute les conseils (Proverbes 12.15). Paul s'efforce de ne scandaliser personne et de se faire « tout à tous » pour en gagner quelques-uns (1 Corinthiens 9.22). L'Écriture demande même aux responsables d'avoir « un bon témoignage de la part de ceux du dehors » (1 Timothée 3.7). La différence est dans le motif : je tiens compte des autres par amour pour eux et pour l'honneur de Christ, non par besoin de leur approbation pour exister.",
+            "Le disciple libéré de la crainte des hommes n'est donc pas un individualiste arrogant. Il est au contraire plus disponible pour aimer, parce qu'il n'utilise plus les autres pour remplir son vide. Il peut dire la vérité avec amour (Éphésiens 4.15), poser des limites sans culpabilité, demander pardon sans se sentir humilié, et laisser les autres libres de ne pas l'approuver. Il découvre la liberté que Paul résume ainsi : « Pour moi, il m'importe fort peu d'être jugé par vous, ou par un tribunal humain… Celui qui me juge, c'est le Seigneur » (1 Corinthiens 4.3-4)."
+          ]
+        },
+        {
+          "titre": "Quatre pas pour grandir dans cette liberté",
+          "paragraphes": [
+            "Premier pas : nommer la peur. Quand j'hésite à faire ce qui est juste, je me demande honnêtement : « De qui ai-je peur, et qu'est-ce que je crains de perdre ? » Saül n'a avoué la vraie raison qu'à la fin ; le disciple apprend à la reconnaître dès le début. Deuxième pas : la confesser à Dieu comme une idolâtrie, sans se condamner, puisqu'il n'y a pas de condamnation en Christ. Troisième pas : remplir son cœur de la vérité, en méditant des textes comme Romains 8, Éphésiens 1 ou le Psaume 27 (« L'Éternel est ma lumière et mon salut : de qui aurais-je crainte ? »). Quatrième pas : poser un acte concret d'obéissance, même petit, malgré la peur. La liberté grandit comme un muscle : chaque acte d'obéissance la fortifie.",
+            "Il est utile aussi de s'entourer de personnes qui nous aiment assez pour nous dire la vérité, et devant qui nous n'avons pas besoin de jouer un rôle. Dans une telle amitié, on apprend peu à peu à être connu tel que l'on est, et l'on découvre que l'amour reçu ne dépend pas de l'image que l'on donne."
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "ref": "Proverbes 29.25",
+          "texte": "La crainte des hommes tend un piège, mais celui qui se confie en l'Éternel est protégé."
+        },
+        {
+          "ref": "Galates 1.10",
+          "texte": "Et maintenant, est-ce la faveur des hommes que je désire, ou celle de Dieu ? Est-ce que je cherche à plaire aux hommes ? Si je plaisais encore aux hommes, je ne serais pas serviteur de Christ."
+        },
+        {
+          "ref": "Romains 8.1",
+          "texte": "Il n'y a donc maintenant aucune condamnation pour ceux qui sont en Jésus-Christ."
+        },
+        {
+          "ref": "1 Samuel 15.22",
+          "texte": "Samuel dit : L'Éternel trouve-t-il du plaisir dans les holocaustes et les sacrifices, comme dans l'obéissance à la voix de l'Éternel ? Voici, l'obéissance vaut mieux que les sacrifices, et l'observation de sa parole vaut mieux que la graisse des béliers."
+        },
+        {
+          "ref": "Jean 12.43",
+          "texte": "Car ils aimèrent la gloire des hommes plus que la gloire de Dieu."
+        }
+      ],
+      "application": [
+        {
+          "titre": "Au travail et face à la corruption",
+          "paragraphes": [
+            "Dans beaucoup de milieux professionnels, refuser de « faire comme tout le monde » expose au ridicule ou à l'exclusion : refuser un pot-de-vin, une fausse facture, un arrangement douteux, une soirée où l'on attend de vous des compromis. La crainte des hommes murmure : « Tu vas passer pour un naïf, tu vas perdre ta place. » Le disciple se rappelle que son patron ultime est Christ (Colossiens 3.23-24). Il peut refuser avec respect et sans arrogance, expliquer sa position simplement, et confier à Dieu les conséquences, comme Daniel et ses amis à la cour de Babylone."
+          ]
+        },
+        {
+          "titre": "Sur les réseaux sociaux",
+          "paragraphes": [
+            "Les réseaux ont créé une forme nouvelle de crainte des hommes : la dépendance aux réactions. On publie, puis on vérifie sans cesse le nombre de vues ; on se sent valorisé ou rejeté selon les commentaires. Certains chrétiens publient même leurs actes de foi, leurs dons ou leurs prières pour être admirés. Un bon exercice est de se demander avant de publier : « Pourquoi est-ce que je partage cela ? » et de pratiquer régulièrement des actes de bonté et de dévotion que personne ne verra jamais, sauf le Père qui voit dans le secret."
+          ]
+        },
+        {
+          "titre": "En famille et dans la communauté",
+          "paragraphes": [
+            "La pression du « qu'en dira-t-on » est forte dans les familles et les communautés : pression pour se marier vite, pour organiser des cérémonies au-dessus de ses moyens, pour participer à des pratiques que la foi désapprouve, ou pour cacher un problème afin de ne pas faire honte à la famille. Le disciple honore sa famille, mais il apprend à dire non avec douceur quand l'obéissance à Dieu est en jeu. Il refuse aussi de cacher la violence, l'abus ou la souffrance d'un proche par peur du scandale : la vérité et la protection des personnes passent avant la réputation."
+          ]
+        },
+        {
+          "titre": "Dans l'Église",
+          "paragraphes": [
+            "Même à l'église, la crainte des hommes peut dominer : servir pour être vu par le pasteur, ne pas oser poser une question de peur de paraître ignorant, cacher un combat par peur d'être jugé, ou au contraire flatter les responsables. Les responsables eux-mêmes peuvent céder, comme Pierre à Antioche, en adaptant leur message à ce que les gens veulent entendre. Une communauté saine encourage la transparence, accueille les faiblesses avec grâce et honore ceux qui servent dans l'ombre."
+          ]
+        }
+      ],
+      "etudeDeCas": {
+        "situation": "Pierre-Emmanuel, 38 ans, est comptable dans une entreprise de transport et diacre dans son église. Son directeur lui demande de « régulariser » des factures pour réduire les impôts de la société, en lui disant que tout le monde le fait et que ceux qui refusent ne restent pas longtemps. Pierre-Emmanuel a trois enfants scolarisés et un loyer élevé. À l'église, il est très apprécié ; il n'ose en parler à personne de peur que l'on découvre qu'il a déjà accepté une première fois. Il passe ses nuits à se demander ce que penseront son patron, ses collègues, sa famille et ses frères en la foi s'il refuse ou si la vérité éclate.",
+        "questions": [
+          "Quelles formes de crainte des hommes reconnaissez-vous dans la situation de Pierre-Emmanuel ?",
+          "Quels parallèles faites-vous avec Saül en 1 Samuel 15 ? Quelle différence entre la repentance de Saül et une vraie repentance ?",
+          "Comment Romains 8.1 et Proverbes 29.25 peuvent-ils l'aider à faire le pas de la vérité ?",
+          "Quelles étapes concrètes et sages lui conseilleriez-vous (prière, conseil, dialogue avec son directeur, recherche de solutions) ?"
+        ]
+      },
+      "reflexion": [
+        "De qui crains-tu le plus le jugement aujourd'hui : ta famille, tes collègues, tes amis, ton église, les gens en ligne ?",
+        "Quelle décision as-tu prise récemment à cause de « ce qu'on va dire » plutôt qu'à cause de ce que Dieu dit ?",
+        "Comment réagis-tu habituellement à une critique : effondrement, colère, justification, ou examen paisible ?",
+        "Arrives-tu à te réjouir sincèrement quand quelqu'un est plus admiré ou plus béni que toi ?"
+      ],
+      "retenir": [
+        "La crainte des hommes tend un piège ; la confiance en Dieu place en sécurité (Proverbes 29.25).",
+        "Chercher d'abord à plaire aux hommes est incompatible avec le fait d'être serviteur de Christ (Galates 1.10).",
+        "Saül a perdu sa royauté parce qu'il craignait le peuple plus que Dieu : l'obéissance vaut mieux que les sacrifices.",
+        "En Christ, il n'y a aucune condamnation : l'approbation de Dieu me libère du besoin d'approbation humaine.",
+        "Être libre du regard des autres ne veut pas dire les mépriser, mais les aimer sans dépendre d'eux."
+      ],
+      "memoriser": {
+        "ref": "Proverbes 29.25",
+        "texte": "La crainte des hommes tend un piège, mais celui qui se confie en l'Éternel est protégé."
+      },
+      "priere": "Seigneur, je reconnais que j'ai souvent craint le regard des hommes plus que toi. Comme Saül, j'ai obéi à moitié et j'ai cherché à sauver mon image. Pardonne-moi. Merci parce qu'en Jésus-Christ il n'y a pour moi aucune condamnation et que je suis accepté dans ton Fils bien-aimé. Remplis mon cœur de ton approbation, afin que je puisse servir dans le secret, dire la vérité avec amour, recevoir la critique avec humilité et me réjouir du succès des autres. Au nom de Jésus, amen."
+    }
+  ],
+  "pratique": {
+    "consigne": "Écris une déclaration personnelle de ton identité en Christ comportant au moins 7 vérités bibliques, chacune avec sa référence, et lis-la à voix haute chaque matin pendant 30 jours. À la fin, décris par écrit ce qui a changé dans ta manière de penser, de réagir à la critique et de servir les autres.",
+    "etapes": [
+      "Relis tes notes des trois leçons et fais la liste des mensonges que tu as longtemps crus sur toi-même (par exemple : « je ne vaux rien », « Dieu ne peut pas m'utiliser », « je dois plaire à tout le monde »).",
+      "En face de chaque mensonge, écris la vérité biblique qui le contredit, avec sa référence (Genèse 1.27, Psaume 139.14, Éphésiens 1.7, Galates 4.7, 2 Corinthiens 5.17, Romains 8.1, Éphésiens 2.10, 1 Pierre 2.9…).",
+      "Rédige ta déclaration à la première personne (« Je suis… parce que la Parole dit… ») et place-la là où tu la verras chaque matin.",
+      "Pendant 30 jours, lis-la à voix haute et note dans un carnet une situation où une de ces vérités t'a aidé (critique, tentation, comparaison, peur).",
+      "Fais au moins une bonne action en secret chaque semaine, sans en parler à personne (Matthieu 6.1-4).",
+      "Partage ta déclaration avec un mentor ou un frère ou une sœur de confiance, puis rédige ton compte rendu final pour la plateforme."
+    ]
+  },
+  "examen": [
+    {
+      "q": "Selon Genèse 1.27, comment Dieu a-t-il créé l'homme et la femme ?",
+      "choix": [
+        "À son image",
+        "À partir des animaux",
+        "Pour être les esclaves des anges",
+        "Sans plan précis"
+      ],
+      "bonne": 0,
+      "explication": "« Dieu créa l'homme à son image… il créa l'homme et la femme » (Genèse 1.27)."
+    },
+    {
+      "q": "Que signifie le mot hébreu « tselem », traduit par « image » en Genèse 1.26-27 ?",
+      "choix": [
+        "Un souffle de vie",
+        "Une représentation, un reflet, une statue",
+        "Une loi gravée",
+        "Un lieu saint"
+      ],
+      "bonne": 1,
+      "explication": "Tselem désigne une représentation : l'homme représente Dieu sur la terre et reflète quelque chose de lui."
+    },
+    {
+      "q": "Quelle mission Dieu confie-t-il à l'homme en Genèse 1.26-28 et 2.15 ?",
+      "choix": [
+        "Fuir le monde matériel",
+        "Servir des idoles",
+        "Gouverner, cultiver et garder la création au nom de Dieu",
+        "Construire une tour jusqu'au ciel"
+      ],
+      "bonne": 2,
+      "explication": "Dieu demande à l'homme de dominer sur la terre et place Adam dans le jardin « pour le cultiver et pour le garder » (Genèse 2.15)."
+    },
+    {
+      "q": "Au Psaume 139.14, pourquoi David loue-t-il Dieu ?",
+      "choix": [
+        "Parce qu'il est devenu roi",
+        "Parce qu'il a vaincu Goliath",
+        "Parce qu'il a reçu de grandes richesses",
+        "Parce qu'il est une créature si merveilleuse, œuvre admirable de Dieu"
+      ],
+      "bonne": 3,
+      "explication": "« Je te loue de ce que je suis une créature si merveilleuse. Tes œuvres sont admirables » (Psaume 139.14)."
+    },
+    {
+      "q": "Où se trouvait Gédéon quand l'ange de l'Éternel l'a appelé « vaillant héros » ?",
+      "choix": [
+        "Dans le pressoir, où il battait le blé en cachette",
+        "À la tête d'une armée",
+        "Dans le temple de Jérusalem",
+        "Au palais du roi"
+      ],
+      "bonne": 0,
+      "explication": "Gédéon battait le froment au pressoir pour le soustraire aux Madianites (Juges 6.11-12)."
+    },
+    {
+      "q": "Sur quoi Dieu fonde-t-il la nouvelle identité de Gédéon (Juges 6.16) ?",
+      "choix": [
+        "Sur la richesse de sa famille",
+        "Sur sa présence : « Je serai avec toi »",
+        "Sur la force physique de Gédéon",
+        "Sur le nombre de ses soldats"
+      ],
+      "bonne": 1,
+      "explication": "L'Éternel lui dit : « Je serai avec toi, et tu battras Madian comme un seul homme » (Juges 6.16)."
+    },
+    {
+      "q": "Que dit Colossiens 1.15 au sujet de Jésus-Christ ?",
+      "choix": [
+        "Il est un ange supérieur",
+        "Il est un prophète parmi d'autres",
+        "Il est l'image du Dieu invisible",
+        "Il est un homme devenu dieu par ses efforts"
+      ],
+      "bonne": 2,
+      "explication": "« Il est l'image du Dieu invisible, le premier-né de toute la création » (Colossiens 1.15) ; en lui, l'image de Dieu est restaurée en nous."
+    },
+    {
+      "q": "Vrai ou faux : après la chute, l'image de Dieu en l'homme a été complètement effacée.",
+      "choix": [
+        "Vrai",
+        "Faux"
+      ],
+      "bonne": 1,
+      "explication": "Faux : le péché a abîmé l'image de Dieu, mais Genèse 9.6 et Jacques 3.9 affirment que l'homme la porte encore."
+    },
+    {
+      "q": "Que signifie le mot grec « huiothesia » employé en Éphésiens 1.5 ?",
+      "choix": [
+        "Le pardon",
+        "La sanctification",
+        "La prédication",
+        "L'adoption, le placement comme fils"
+      ],
+      "bonne": 3,
+      "explication": "Huiothesia désigne l'adoption : un nouveau nom, une nouvelle famille et les pleins droits d'héritier."
+    },
+    {
+      "q": "Selon Éphésiens 1.7, que possédons-nous en Christ ?",
+      "choix": [
+        "La rédemption par son sang, la rémission des péchés",
+        "La garantie de ne jamais souffrir",
+        "La richesse matérielle immédiate",
+        "Le droit de juger les autres"
+      ],
+      "bonne": 0,
+      "explication": "« En lui nous avons la rédemption par son sang, la rémission des péchés, selon la richesse de sa grâce » (Éphésiens 1.7)."
+    },
+    {
+      "q": "Selon Éphésiens 1.13-14, qu'est-ce que le Saint-Esprit pour le croyant ?",
+      "choix": [
+        "Une récompense pour les plus fidèles",
+        "Le sceau et le gage de notre héritage",
+        "Une simple force impersonnelle",
+        "Un don réservé aux apôtres"
+      ],
+      "bonne": 1,
+      "explication": "Les croyants ont été « scellés du Saint-Esprit qui avait été promis, lequel est un gage de notre héritage »."
+    },
+    {
+      "q": "Selon Galates 4.6, que crie l'Esprit du Fils dans nos cœurs ?",
+      "choix": [
+        "« Hosanna ! »",
+        "« Maranatha ! »",
+        "« Abba ! Père ! »",
+        "« Alléluia ! »"
+      ],
+      "bonne": 2,
+      "explication": "« Dieu a envoyé dans nos cœurs l'Esprit de son Fils, lequel crie : Abba ! Père ! » (Galates 4.6)."
+    },
+    {
+      "q": "Dans la parabole de Luc 15, quelle demande le fils cadet avait-il préparée pour son retour ?",
+      "choix": [
+        "Recevoir une nouvelle part d'héritage",
+        "Être traité comme l'un des ouvriers de son père",
+        "Remplacer son frère aîné",
+        "Organiser une fête en son honneur"
+      ],
+      "bonne": 1,
+      "explication": "Il avait préparé de dire : « Traite-moi comme l'un de tes mercenaires » (Luc 15.19), mais le père le restaure comme fils."
+    },
+    {
+      "q": "Que signifient la robe, l'anneau et les souliers donnés par le père en Luc 15.22 ?",
+      "choix": [
+        "Que le fils devra rembourser sa dette",
+        "Que le fils devient serviteur de la maison",
+        "Que le père cherche à impressionner les voisins",
+        "Que le fils est pleinement rétabli dans sa dignité de fils"
+      ],
+      "bonne": 3,
+      "explication": "Ces gestes honorent le fils, lui rendent l'autorité familiale et le distinguent des esclaves, qui marchaient pieds nus."
+    },
+    {
+      "q": "Quelle attitude le fils aîné de Luc 15 révèle-t-il en disant « il y a tant d'années que je te sers » ?",
+      "choix": [
+        "Une mentalité d'ouvrier qui réclame son salaire",
+        "Une joie parfaite pour le retour de son frère",
+        "Une humilité exemplaire",
+        "Une grande générosité"
+      ],
+      "bonne": 0,
+      "explication": "L'aîné pense en termes de mérite ; le père lui rappelle : « Tout ce que j'ai est à toi » (Luc 15.31)."
+    },
+    {
+      "q": "Selon 2 Corinthiens 5.17, que devient celui qui est en Christ ?",
+      "choix": [
+        "Un homme parfait qui ne pèche plus",
+        "Une personne simplement améliorée",
+        "Une nouvelle créature",
+        "Quelqu'un qui doit oublier toute son histoire"
+      ],
+      "bonne": 2,
+      "explication": "« Si quelqu'un est en Christ, il est une nouvelle créature. Les choses anciennes sont passées » (2 Corinthiens 5.17)."
+    },
+    {
+      "q": "Selon Proverbes 29.25, que fait la crainte des hommes ?",
+      "choix": [
+        "Elle rend sage",
+        "Elle protège",
+        "Elle plaît à Dieu",
+        "Elle tend un piège"
+      ],
+      "bonne": 3,
+      "explication": "« La crainte des hommes tend un piège, mais celui qui se confie en l'Éternel est protégé » (Proverbes 29.25)."
+    },
+    {
+      "q": "En 1 Samuel 15.24, quelle raison Saül donne-t-il finalement pour sa désobéissance ?",
+      "choix": [
+        "Il voulait offrir un sacrifice",
+        "Il craignait le peuple et avait écouté sa voix",
+        "Il n'avait pas compris l'ordre",
+        "Il était malade"
+      ],
+      "bonne": 1,
+      "explication": "Saül avoue : « Je craignais le peuple, et j'ai écouté sa voix » (1 Samuel 15.24)."
+    },
+    {
+      "q": "Selon Galates 1.10, que dit Paul de celui qui cherche encore à plaire aux hommes ?",
+      "choix": [
+        "Il ne serait pas serviteur de Christ",
+        "Il deviendrait un meilleur évangéliste",
+        "Il serait plus humble",
+        "Il gagnerait plus d'âmes"
+      ],
+      "bonne": 0,
+      "explication": "« Si je plaisais encore aux hommes, je ne serais pas serviteur de Christ » (Galates 1.10)."
+    },
+    {
+      "q": "Vrai ou faux : selon Romains 8.1, ceux qui sont en Jésus-Christ restent sous la condamnation tant qu'ils n'ont pas atteint la perfection.",
+      "choix": [
+        "Vrai",
+        "Faux"
+      ],
+      "bonne": 1,
+      "explication": "Faux : « Il n'y a donc maintenant aucune condamnation pour ceux qui sont en Jésus-Christ » (Romains 8.1)."
+    }
+  ]
+}

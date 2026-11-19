@@ -1,0 +1,901 @@
+{
+  "id": "n4m2",
+  "titre": "Former des disciples et des leaders",
+  "objectif": "Multiplier ma vie en formant d’autres qui formeront à leur tour.",
+  "introduction": [
+    "Le dernier ordre que Jésus a donné à ses disciples avant de monter au ciel n’était pas « remplissez des salles » ni « devenez célèbres », mais : « Allez, faites de toutes les nations des disciples » (Matthieu 28.19). La mesure d’un leader chrétien n’est donc pas le nombre de personnes qui l’écoutent, mais le nombre de personnes qu’il aide à devenir des disciples mûrs, capables à leur tour d’en former d’autres.",
+    "Beaucoup d’églises sont dépendantes d’un seul homme ou d’une seule femme. Quand ce responsable tombe malade, déménage, s’épuise ou meurt, tout s’arrête ou se divise. La Bible propose un autre modèle : Moïse forme Josué, Élie forme Élisée, Jésus forme les Douze, Barnabas forme Paul puis Jean-Marc, Paul forme Timothée, qui doit former des hommes fidèles, qui en formeront d’autres. Le Royaume avance par multiplication, pas seulement par addition.",
+    "Ce module comporte trois leçons. La première pose le principe de multiplication à partir de 2 Timothée 2.2, de l’appel des Douze et de la succession d’Élie à Élisée. La deuxième étudie la méthode de Jésus : choisir, être avec, montrer, envoyer, évaluer, corriger et encourager, en particulier à travers l’envoi des Douze et des soixante-dix et l’échec des disciples au pied de la montagne. La troisième traite du mentorat et de la délégation avec Jéthro et Moïse, la préparation de Josué, et l’histoire de Barnabas qui a cru en Jean-Marc.",
+    "Ce module vous demandera d’agir : vous ne pouvez pas apprendre à former des disciples seulement en lisant. Dès la première semaine, priez pour savoir qui Dieu vous appelle à accompagner. À la fin, vous décrirez par écrit l’accompagnement que vous aurez commencé."
+  ],
+  "lecturesObligatoires": [
+    {
+      "ref": "2 Timothée 2.1-7",
+      "consigne": "Repérez les quatre générations de disciples du verset 2, puis les trois images du soldat, de l’athlète et du laboureur. Que dit chacune sur celui qui forme ?"
+    },
+    {
+      "ref": "Marc 3.13-19",
+      "consigne": "Notez dans quel ordre Jésus donne les buts de l’appel des Douze au verset 14. Observez la diversité des personnes choisies."
+    },
+    {
+      "ref": "Matthieu 28.16-20",
+      "consigne": "Relevez le verbe principal de la mission et les trois actions qui l’accompagnent. Que promet Jésus ?"
+    },
+    {
+      "ref": "1 Rois 19.19-21 et 2 Rois 2.1-15",
+      "consigne": "Suivez la relation entre Élie et Élisée, de l’appel jusqu’à la succession. Que demande Élisée et que fait-il du manteau ?"
+    },
+    {
+      "ref": "Luc 9.1-10 et Luc 10.1-24",
+      "consigne": "Comparez l’envoi des Douze et celui des soixante-dix. Notez ce que Jésus fait avant l’envoi et ce qu’il fait au retour."
+    },
+    {
+      "ref": "Matthieu 17.14-21",
+      "consigne": "Lisez l’échec des disciples avec l’enfant lunatique. Comment Jésus réagit-il, et quelle explication donne-t-il en privé ?"
+    },
+    {
+      "ref": "Exode 18.13-27",
+      "consigne": "Décrivez la journée de Moïse, le diagnostic de Jéthro et les critères qu’il donne pour choisir des responsables."
+    },
+    {
+      "ref": "Nombres 27.15-23",
+      "consigne": "Notez ce que demande Moïse pour le peuple et comment Josué est établi publiquement."
+    },
+    {
+      "ref": "Actes 9.26-30 et Actes 11.19-26",
+      "consigne": "Observez comment Barnabas accueille Saul quand les autres le craignent, puis va le chercher à Tarse."
+    },
+    {
+      "ref": "Actes 15.36-41 et 2 Timothée 4.11",
+      "consigne": "Comparez le désaccord entre Paul et Barnabas au sujet de Marc avec ce que Paul écrit de Marc à la fin de sa vie."
+    }
+  ],
+  "lecons": [
+    {
+      "titre": "Le principe de multiplication",
+      "lectures": [
+        {
+          "ref": "2 Timothée 2.1-2",
+          "resume": "Depuis sa prison, Paul demande à Timothée de confier ce qu’il a reçu à des hommes fidèles, capables d’enseigner d’autres personnes à leur tour."
+        },
+        {
+          "ref": "Marc 3.13-15",
+          "resume": "Jésus appelle ceux qu’il veut et établit douze disciples, d’abord pour les avoir avec lui, ensuite pour les envoyer prêcher."
+        },
+        {
+          "ref": "Jean 17.18",
+          "resume": "Dans sa prière, Jésus dit au Père qu’il envoie ses disciples dans le monde comme le Père l’a envoyé lui-même."
+        },
+        {
+          "ref": "Matthieu 28.18-20",
+          "resume": "Le Christ ressuscité, revêtu de tout pouvoir, ordonne de faire de toutes les nations des disciples et promet d’être avec eux tous les jours."
+        }
+      ],
+      "recit": {
+        "titre": "Élie et Élisée : le manteau qui passe",
+        "ref": "1 Rois 19.19-21 ; 2 Rois 2.1-15",
+        "paragraphes": [
+          "Après sa crise sous le genêt, Élie reçoit de Dieu l’ordre d’oindre Élisée comme prophète à sa place. Il le trouve en train de labourer : douze paires de bœufs travaillent devant lui, et lui est avec la douzième. C’est un fils de famille aisée, un homme au travail. Élie passe près de lui et jette sur lui son manteau. Le geste est clair pour Élisée : le prophète l’appelle à le suivre. Élisée court derrière Élie et demande seulement d’embrasser son père et sa mère. Puis il prend une paire de bœufs, les offre en sacrifice, fait cuire leur viande avec le bois de la charrue et la donne au peuple. Il brûle les ponts derrière lui. Le texte conclut simplement : « Puis il se leva, suivit Élie, et fut à son service » (1 Rois 19.21).",
+          "Pendant plusieurs années, la Bible ne dit presque rien d’Élisée. Il est le serviteur du prophète. Bien plus tard, quand un roi demandera s’il existe un prophète, on répondra : « Il y a ici Élisée, fils de Schaphath, qui versait l’eau sur les mains d’Élie » (2 Rois 3.11). Voilà comment on le connaissait : celui qui versait l’eau sur les mains de son maître. Avant de recevoir le manteau, Élisée a appris dans le service quotidien, en voyant de près comment vivait, priait et affrontait les rois l’homme de Dieu.",
+          "Vient le jour où l’Éternel va enlever Élie au ciel. Élie, Élisée et les fils des prophètes le savent. Élie dit à Élisée : « Reste ici, je te prie, car l’Éternel m’envoie jusqu’à Béthel. » Élisée répond : « L’Éternel est vivant et ton âme est vivante ! je ne te quitterai point. » La scène se répète à Béthel, puis à Jéricho, puis au Jourdain. Chaque fois, les fils des prophètes demandent à Élisée s’il sait que son maître va lui être enlevé ; chaque fois il répond : « Je le sais aussi ; taisez-vous. » Élisée ne se laisse détourner ni par la fatigue du chemin, ni par les commentaires des autres. Il reste près de son maître jusqu’au bout.",
+          "Au bord du Jourdain, Élie roule son manteau et frappe les eaux, qui se partagent. Ils passent à pied sec. Élie lui dit alors : « Demande ce que tu veux que je fasse pour toi, avant que je sois enlevé d’avec toi. » Élisée répond : « Qu’il y ait sur moi, je te prie, une double portion de ton esprit ! » (2 Rois 2.9). Élie répond que c’est une chose difficile, mais que s’il le voit au moment où il sera enlevé, cela lui arrivera. Pendant qu’ils marchent en parlant, un char de feu et des chevaux de feu les séparent, et Élie monte au ciel dans un tourbillon. Élisée crie : « Mon père ! mon père ! Char d’Israël et sa cavalerie ! » Puis il ne le voit plus. Il déchire ses vêtements en deux.",
+          "Alors Élisée ramasse le manteau tombé d’Élie. Il retourne au bord du Jourdain, frappe les eaux et dit : « Où est l’Éternel, le Dieu d’Élie ? » Les eaux se partagent, et Élisée passe. Les fils des prophètes, qui regardaient de l’autre côté, s’écrient : « L’esprit d’Élie repose sur Élisée ! » (2 Rois 2.15) et se prosternent devant lui. Le ministère n’est pas mort avec Élie. Il a passé à la génération suivante. Élisée accomplira à son tour de nombreux miracles et formera lui aussi des disciples parmi les fils des prophètes."
+        ],
+        "lecons": [
+          "Le leader appelé par Dieu pense à la génération suivante : Élie a investi des années dans Élisée pour que l’œuvre continue après lui.",
+          "Le disciple se forme d’abord dans le service et la proximité : avant de porter le manteau, Élisée « versait l’eau sur les mains d’Élie ».",
+          "Le disciple qui réussit est celui qui persévère et ne se laisse pas détourner : « je ne te quitterai point ».",
+          "La source de la puissance reste Dieu, pas le mentor : Élisée ne crie pas « Où est Élie ? », mais « Où est l’Éternel, le Dieu d’Élie ? »."
+        ]
+      },
+      "exegese": [
+        {
+          "titre": "2 Timothée 2.2 dans son contexte",
+          "paragraphes": [
+            "La deuxième épître à Timothée est la dernière lettre connue de Paul. L’apôtre est prisonnier à Rome, enchaîné « comme un malfaiteur » (2.9), abandonné par plusieurs (1.15 ; 4.16), et il sait que sa mort est proche : « le moment de mon départ approche » (4.6). Les dernières paroles d’un homme révèlent ce qui lui tient le plus à cœur. Or Paul ne parle pas de ses églises comme de son œuvre, ni de sa réputation : il parle de transmission.",
+            "Au chapitre 1, il a déjà parlé d’un « dépôt » : « Garde le bon dépôt, par le Saint-Esprit qui habite en nous » (1.14). Au chapitre 2, il ajoute : « Toi donc, mon enfant, fortifie-toi dans la grâce qui est en Jésus-Christ. Et ce que tu as entendu de moi en présence de beaucoup de témoins, confie-le à des hommes fidèles, qui soient capables de l’enseigner aussi à d’autres » (2.1-2). Remarquez l’ordre : avant de transmettre, Timothée doit se fortifier dans la grâce. On ne donne que ce que l’on a reçu et dont on vit.",
+            "Le verbe « confie » (parathou, du verbe paratithêmi) appartient au même vocabulaire que le « dépôt ». Il désigne l’action de remettre un bien précieux en garde à quelqu’un de confiance, comme on dépose un trésor chez un banquier fiable. L’Évangile n’est pas la propriété de Timothée ; c’est un trésor confié, qui doit être transmis intact. L’expression « en présence de beaucoup de témoins » montre que cet enseignement n’était pas secret : il avait été donné publiquement et pouvait être vérifié."
+          ]
+        },
+        {
+          "titre": "Quatre générations et deux critères",
+          "paragraphes": [
+            "Le verset 2 contient quatre générations : Paul (« de moi »), Timothée (« tu »), des hommes fidèles, et « d’autres ». En une phrase, Paul décrit une chaîne de transmission qui doit continuer après lui. Le but du leader n’est pas seulement d’avoir des disciples, mais de former des formateurs, des personnes capables de reproduire le processus.",
+            "Paul donne deux critères pour choisir ces personnes. D’abord « fidèles » (pistos) : dignes de confiance, constants, sur qui l’on peut compter. Le critère n’est pas d’abord le talent, l’intelligence ou le statut social, mais la fiabilité. Ensuite « capables » (hikanos) : suffisamment préparés, aptes à enseigner. Cette capacité peut se développer ; la fidélité est la condition de départ. Il vaut mieux former une personne fidèle et peu douée qu’une personne très douée qui abandonne à la première difficulté.",
+            "Le mot grec traduit par « hommes » (anthrôpoi) est un terme général qui désigne des êtres humains. Le principe de transmission s’applique à tous les croyants : les femmes âgées sont aussi appelées à former les plus jeunes (Tite 2.3-5). Chaque disciple de Jésus, homme ou femme, est appelé à transmettre ce qu’il a reçu, dans le cadre où Dieu le place.",
+            "Paul illustre ensuite cette mission par trois images (2.3-6) : le soldat, qui ne s’embarrasse pas des affaires de la vie pour plaire à celui qui l’a enrôlé ; l’athlète, qui doit lutter selon les règles ; le laboureur, qui travaille dur avant de recueillir les fruits. Former des disciples demande du dévouement, de l’intégrité et de la patience. Comme le laboureur, le formateur sème longtemps avant de récolter."
+          ]
+        },
+        {
+          "titre": "Marc 3.14 et Matthieu 28.19 : « avec lui » et « faites des disciples »",
+          "paragraphes": [
+            "Marc raconte que Jésus monta sur la montagne et « appela ceux qu’il voulut, et ils vinrent auprès de lui » (3.13). Puis : « Il en établit douze, pour les avoir avec lui, et pour les envoyer prêcher » (3.14). Le premier but de l’appel est relationnel : « pour les avoir avec lui » (hina ôsin met’ autou). Le second est missionnaire : « pour les envoyer » (apostellô, d’où vient le mot « apôtre »). L’ordre est essentiel : l’envoi découle de la présence. Jésus n’a pas d’abord organisé une école ; il a partagé sa vie.",
+            "La liste des Douze qui suit (3.16-19) montre une diversité surprenante : des pêcheurs, un collecteur d’impôts au service de Rome (Matthieu), un zélote probablement opposé à Rome (Simon), des tempéraments impulsifs comme Pierre ou les « fils du tonnerre », Jacques et Jean. Et Judas, « celui qui livra Jésus ». Jésus forme des personnes ordinaires, différentes, imparfaites. Former des disciples, c’est accepter de travailler avec de vraies personnes, pas avec des candidats idéaux.",
+            "En Matthieu 28.19-20, la mission finale est formulée ainsi : « Allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit, et enseignez-leur à observer tout ce que je vous ai prescrit. » Dans le texte grec, le verbe principal est mathêteusate, « faites des disciples ». Les autres verbes (aller, baptiser, enseigner) l’accompagnent et décrivent comment on le fait. Le but n’est pas seulement d’obtenir des décisions ou des conversions, mais de former des personnes qui obéissent à tout ce que Jésus a prescrit. Et Jésus ne demande pas d’enseigner seulement ce qu’il a prescrit, mais d’enseigner « à observer » : l’accent est sur l’obéissance vécue.",
+            "Enfin, Jean 17.18 relie la mission des disciples à celle de Jésus : « Comme tu m’as envoyé dans le monde, je les ai aussi envoyés dans le monde. » Le disciple formé par Jésus devient un envoyé. La formation ne vise pas à garder les gens autour de nous, mais à les rendre capables d’être envoyés."
+          ]
+        }
+      ],
+      "motsCles": [
+        {
+          "mot": "disciple",
+          "langue": "grec",
+          "original": "mathêtês",
+          "sens": "Celui qui apprend auprès d’un maître en partageant sa vie, pour lui ressembler et pratiquer son enseignement."
+        },
+        {
+          "mot": "faire des disciples",
+          "langue": "grec",
+          "original": "mathêteuô",
+          "sens": "Verbe principal de Matthieu 28.19 : amener des personnes à devenir des disciples obéissants de Jésus."
+        },
+        {
+          "mot": "confier",
+          "langue": "grec",
+          "original": "paratithêmi",
+          "sens": "Remettre un bien précieux en garde à quelqu’un de confiance. L’Évangile est un dépôt à transmettre intact."
+        },
+        {
+          "mot": "fidèle",
+          "langue": "grec",
+          "original": "pistos",
+          "sens": "Digne de confiance, constant, sur qui l’on peut compter. Premier critère pour choisir ceux que l’on forme."
+        },
+        {
+          "mot": "double portion",
+          "langue": "hébreu",
+          "original": "pi-shnayim",
+          "sens": "Littéralement « une bouche de deux » : la part double que recevait le fils aîné, l’héritier (Deutéronome 21.17)."
+        }
+      ],
+      "enseignement": [
+        {
+          "titre": "Qu’est-ce qu’un disciple ?",
+          "paragraphes": [
+            "Dans le monde juif du premier siècle, un disciple ne se contentait pas d’assister à des cours. Il suivait son maître, vivait avec lui, observait sa manière de prier, de parler, de réagir, et cherchait à lui ressembler. Jésus l’exprime ainsi : « Le disciple n’est pas plus que le maître ; mais tout disciple accompli sera comme son maître » (Luc 6.40). Être disciple de Jésus, c’est donc apprendre de lui pour devenir semblable à lui, dans le caractère et dans l’obéissance.",
+            "Il en découle qu’un disciple ne se forme pas seulement par l’information, mais par l’imitation et la transformation. Paul peut dire : « Ce que vous avez appris, reçu et entendu de moi, et ce que vous avez vu en moi, pratiquez-le » (Philippiens 4.9). Remarquez les quatre verbes : appris, reçu, entendu, vu. On ne peut voir la vie de quelqu’un qu’en passant du temps avec lui. Une prédication par semaine ne suffit pas à former un disciple ; il faut une relation."
+          ]
+        },
+        {
+          "titre": "Addition et multiplication",
+          "paragraphes": [
+            "Imaginons deux serviteurs de Dieu. Le premier est un évangéliste très doué : chaque année, il conduit beaucoup de personnes à la foi, mais il ne forme personne pour faire ce qu’il fait. Son œuvre grandit par addition. Le second accompagne en profondeur une ou deux personnes par an, et leur apprend à en accompagner d’autres. Les premières années, son œuvre paraît minuscule. Mais si chacun de ceux qu’il forme en forme à son tour un ou deux, le nombre double chaque année. Au bout de quelques années, la multiplication dépasse largement l’addition, et surtout l’œuvre ne dépend plus d’une seule personne.",
+            "Cette illustration ne prétend pas décrire exactement la réalité : des disciples abandonnent, la croissance n’est jamais mécanique, et c’est Dieu qui fait croître (1 Corinthiens 3.6-7). Mais elle montre un principe biblique : Jésus a investi l’essentiel de son temps dans un petit groupe, et ce petit groupe a porté l’Évangile jusqu’aux extrémités de la terre. La multiplication commence lentement et en profondeur.",
+            "Il ne s’agit pas d’opposer l’évangélisation et le discipulat. Les deux sont nécessaires. Mais le leader doit se poser la question : si je disparaissais demain, qui continuerait ce que je fais ? Si la réponse est « personne », il a construit sur le sable du court terme."
+          ]
+        },
+        {
+          "titre": "Le discipulat est d’abord une relation",
+          "paragraphes": [
+            "Jésus a choisi les Douze « pour les avoir avec lui ». Il a mangé avec eux, voyagé avec eux, prié devant eux, répondu à leurs questions, supporté leurs disputes. Il les appelait « amis » (Jean 15.15). Paul écrit aux Thessaloniciens : « nous aurions voulu non seulement vous donner l’Évangile de Dieu, mais encore nos propres vies, tant vous nous étiez devenus chers » (1 Thessaloniciens 2.8). Former des disciples, ce n’est pas seulement transmettre un programme, c’est donner sa vie.",
+            "Cela a des conséquences pratiques. On ne peut accompagner en profondeur qu’un petit nombre de personnes à la fois. Jésus avait un cercle large (les soixante-dix), un cercle de douze, et un cercle intime de trois (Pierre, Jacques et Jean). Le leader peut enseigner beaucoup de monde, mais il doit choisir quelques personnes à qui donner un accès plus profond à sa vie. Le cadre peut être simple : un repas, un trajet, une visite à faire ensemble, un temps de prière, une étude biblique à deux ou trois."
+          ]
+        },
+        {
+          "titre": "Qui choisir ?",
+          "paragraphes": [
+            "Jésus a passé une nuit à prier avant de choisir les Douze (Luc 6.12-13). Le choix des personnes à former est un acte spirituel. Paul donne les critères de la fidélité et de la capacité. On peut y ajouter la disponibilité et la soif d’apprendre : une personne fidèle, disponible et enseignable est un terrain fertile. Élisée a quitté sa charrue ; il était prêt à suivre.",
+            "Ne choisissez pas seulement ceux qui vous ressemblent ou qui vous admirent. Jésus a choisi des personnes très différentes. Ne cherchez pas des personnes parfaites, mais des personnes qui avancent. Et commencez souvent par ceux que Dieu a déjà placés près de vous : vos enfants, les jeunes de votre église, un collègue converti récemment, un nouveau membre de votre groupe de maison. Le discipulat le plus naturel commence dans les relations existantes."
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "ref": "2 Timothée 2.2",
+          "texte": "Et ce que tu as entendu de moi en présence de beaucoup de témoins, confie-le à des hommes fidèles, qui soient capables de l’enseigner aussi à d’autres."
+        },
+        {
+          "ref": "Marc 3.14",
+          "texte": "Il en établit douze, pour les avoir avec lui, et pour les envoyer prêcher"
+        },
+        {
+          "ref": "Matthieu 28.19-20",
+          "texte": "Allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit, et enseignez-leur à observer tout ce que je vous ai prescrit. Et voici, je suis avec vous tous les jours, jusqu’à la fin du monde."
+        },
+        {
+          "ref": "Jean 17.18",
+          "texte": "Comme tu m’as envoyé dans le monde, je les ai aussi envoyés dans le monde."
+        },
+        {
+          "ref": "2 Rois 2.9",
+          "texte": "Lorsqu’ils eurent passé, Élie dit à Élisée : Demande ce que tu veux que je fasse pour toi, avant que je sois enlevé d’avec toi. Élisée répondit : Qu’il y ait sur moi, je te prie, une double portion de ton esprit !"
+        }
+      ],
+      "application": [
+        {
+          "titre": "Dans l’église locale",
+          "paragraphes": [
+            "Faites l’inventaire de vos responsabilités : louange, enseignement des enfants, accueil, intercession, gestion. Pour chacune, posez-vous la question : qui est en train d’apprendre à le faire avec moi ? Si personne, priez et invitez quelqu’un à vous accompagner dès la prochaine fois. Une église en bonne santé ne se reconnaît pas seulement à ses programmes, mais à ses apprentis."
+          ]
+        },
+        {
+          "titre": "À la maison",
+          "paragraphes": [
+            "Le premier lieu de discipulat, ce sont vos enfants. Moïse demandait aux parents d’enseigner les paroles de Dieu « quand tu seras dans ta maison, quand tu iras en voyage, quand tu te coucheras et quand tu te lèveras » (Deutéronome 6.7). Lisez la Bible avec eux, priez avec eux, laissez-les vous voir obéir à Dieu, demander pardon et servir. Les enfants qui voient la foi vécue à la maison sont souvent les leaders de demain."
+          ]
+        },
+        {
+          "titre": "Au travail et dans le quartier",
+          "paragraphes": [
+            "Si un collègue, un voisin ou un camarade d’études vient à la foi, ne vous contentez pas de l’inviter à l’église. Proposez-lui de lire un Évangile ensemble chaque semaine, à la pause ou par appel vidéo. Les migrations et les déplacements séparent souvent les familles et les églises ; les outils numériques permettent de continuer un accompagnement à distance, tout en cherchant pour la personne une église locale où elle pourra s’enraciner."
+          ]
+        },
+        {
+          "titre": "Avec les réseaux sociaux",
+          "paragraphes": [
+            "Les réseaux sociaux permettent d’atteindre beaucoup de monde, ce qui est une bonne chose. Mais des milliers d’abonnés ne sont pas des disciples. Un message vu par beaucoup peut éveiller l’intérêt ; seule une relation patiente forme un disciple. Utilisez la visibilité pour inviter à des groupes plus petits, où l’on peut se connaître, se poser des questions et prier ensemble."
+          ]
+        },
+        {
+          "titre": "Dans un contexte de persécution ou de dispersion",
+          "paragraphes": [
+            "Dans les régions où les chrétiens sont menacés, où les leaders peuvent être arrêtés ou contraints de fuir, la multiplication n’est pas une option mais une nécessité. Paul écrivait depuis sa prison ; il savait que l’œuvre ne pouvait pas dépendre de sa présence. Là où vous êtes, formez des personnes capables de continuer sans vous. Les chrétiens migrants ou déplacés peuvent aussi devenir des formateurs là où ils arrivent, en accompagnant d’autres personnes dans leur nouvelle ville."
+          ]
+        }
+      ],
+      "etudeDeCas": {
+        "situation": "Frère Joseph est le responsable très apprécié de la jeunesse de son église depuis dix ans. Il prêche, organise les camps, gère la musique et conseille les jeunes. Tout le monde l’aime et dit : « Sans lui, il n’y aurait pas de jeunesse. » Mais Joseph a reçu une offre d’emploi dans une autre ville et devra partir dans six mois. En y réfléchissant, il réalise que personne d’autre ne sait préparer un camp, que les jeunes qui prêchent parfois l’ont fait sans préparation ni accompagnement, et qu’il a toujours refusé de déléguer « pour que ce soit bien fait ».",
+        "questions": [
+          "Quelle erreur Joseph a-t-il commise selon le principe de 2 Timothée 2.2 ?",
+          "Comment pourrait-il, en six mois, s’inspirer d’Élie avec Élisée pour préparer la suite ?",
+          "Selon quels critères devrait-il choisir les personnes à former en priorité ?",
+          "Quelles responsabilités concrètes pourrait-il confier dès maintenant, et comment les accompagner ?"
+        ]
+      },
+      "reflexion": [
+        "Si je disparaissais demain de mon service, qui pourrait continuer ce que je fais ?",
+        "Qui m’a formé dans la foi ? Ai-je déjà remercié cette personne ?",
+        "Quelles sont les deux ou trois personnes fidèles que Dieu a placées près de moi pour que je les accompagne ?",
+        "Est-ce que je partage seulement des enseignements, ou aussi ma vie, avec ceux que je forme ?",
+        "Qu’est-ce qui m’empêche aujourd’hui de transmettre : manque de temps, peur d’être dépassé, désir de contrôle ?"
+      ],
+      "retenir": [
+        "Former des formateurs : 2 Timothée 2.2 contient quatre générations de disciples (Paul, Timothée, des hommes fidèles, d’autres).",
+        "Les deux critères de Paul sont la fidélité et la capacité à enseigner ; la fidélité vient en premier.",
+        "Jésus a appelé les Douze d’abord « pour les avoir avec lui », ensuite pour les envoyer : le discipulat est d’abord une relation.",
+        "Le verbe principal de Matthieu 28.19 est « faites des disciples » ; le but est d’enseigner à observer tout ce que Jésus a prescrit.",
+        "Élie a formé Élisée dans le service et la proximité ; l’œuvre a continué après lui parce que le manteau a été transmis."
+      ],
+      "memoriser": {
+        "ref": "2 Timothée 2.2",
+        "texte": "Et ce que tu as entendu de moi en présence de beaucoup de témoins, confie-le à des hommes fidèles, qui soient capables de l’enseigner aussi à d’autres."
+      },
+      "priere": "Seigneur Jésus, toi qui as choisi des hommes ordinaires pour les avoir avec toi, apprends-moi à transmettre ce que j’ai reçu. Délivre-moi du désir de tout contrôler et de la peur d’être remplacé. Montre-moi les personnes fidèles que tu veux que j’accompagne, et donne-moi la patience du laboureur. Que ma vie ne s’arrête pas à moi, mais qu’elle porte du fruit dans les générations suivantes. Amen."
+    },
+    {
+      "titre": "La méthode de Jésus",
+      "lectures": [
+        {
+          "ref": "Luc 9.1-10",
+          "resume": "Jésus donne aux Douze force et pouvoir, les envoie prêcher et guérir avec des consignes précises, puis les prend à l’écart quand ils reviennent raconter ce qu’ils ont fait."
+        },
+        {
+          "ref": "Luc 10.1-24",
+          "resume": "Jésus envoie soixante-dix disciples deux à deux. À leur retour joyeux, il se réjouit avec eux mais les recentre : réjouissez-vous plutôt de ce que vos noms sont écrits dans les cieux."
+        },
+        {
+          "ref": "Matthieu 17.14-21",
+          "resume": "Pendant que Jésus est sur la montagne, ses disciples échouent à délivrer un enfant. Jésus le guérit, puis explique en privé la cause de leur échec."
+        }
+      ],
+      "recit": {
+        "titre": "L’échec au pied de la montagne",
+        "ref": "Matthieu 17.1-21 ; Marc 9.14-29",
+        "paragraphes": [
+          "Jésus vient de vivre l’un des moments les plus glorieux de son ministère. Sur une haute montagne, avec Pierre, Jacques et Jean, il a été transfiguré : son visage a resplendi comme le soleil, Moïse et Élie lui sont apparus, et la voix du Père a déclaré : « Celui-ci est mon Fils bien-aimé, en qui j’ai mis toute mon affection : écoutez-le ! » (Matthieu 17.5). Mais pendant ce temps, au pied de la montagne, les neuf autres disciples vivent une scène très différente.",
+          "Un père désespéré leur a amené son fils. L’Évangile de Marc donne des détails poignants : l’enfant est tourmenté depuis son plus jeune âge, il est jeté à terre, écume, grince des dents, devient raide, et l’esprit le jette souvent dans le feu ou dans l’eau pour le faire périr. Les disciples ont essayé. Quelques mois plus tôt, Jésus leur avait donné pouvoir sur les démons, et ils avaient vu des délivrances. Mais cette fois, rien ne se passe. Autour d’eux, la foule s’attroupe, et des scribes discutent vivement avec eux. On imagine l’humiliation : des disciples publiquement impuissants, des opposants qui triomphent, un père qui perd espoir.",
+          "C’est alors que Jésus descend. La foule court vers lui. Le père s’agenouille : « Seigneur, aie pitié de mon fils, qui est lunatique, et qui souffre cruellement ; il tombe souvent dans le feu, et souvent dans l’eau. Je l’ai amené à tes disciples, et ils n’ont pas pu le guérir » (Matthieu 17.15-16). Jésus soupire : « Race incrédule et perverse, jusques à quand serai-je avec vous ? jusques à quand vous supporterai-je ? Amenez-le-moi ici. » Dans le récit de Marc, Jésus parle avec le père, qui lui dit : « si tu peux quelque chose, viens à notre secours ». Jésus reprend : « Si tu peux !… Tout est possible à celui qui croit. » Et le père s’écrie avec larmes : « Je crois ! viens au secours de mon incrédulité ! » (Marc 9.22-24).",
+          "Jésus menace l’esprit impur, qui sort en secouant violemment l’enfant. Le garçon reste comme mort, au point que beaucoup disent qu’il est mort. Mais Jésus le prend par la main, le fait lever, et le rend à son père. La foule est frappée de la grandeur de Dieu.",
+          "Le plus intéressant pour notre sujet vient ensuite. Jésus ne laisse pas l’échec de ses disciples sans explication. Lorsqu’ils sont seuls dans la maison, les disciples s’approchent de lui et lui demandent en particulier : « Pourquoi n’avons-nous pu chasser ce démon ? » Jésus répond : « C’est à cause de votre incrédulité », puis il leur parle de la foi comme un grain de sénevé, qui peut transporter une montagne. Il ajoute que cette sorte d’esprit ne sort que par la prière. Jésus ne les humilie pas devant la foule ; il les enseigne en privé. Il ne leur retire pas leur mission ; il leur montre ce qui leur manquait. L’échec devient une leçon."
+        ],
+        "lecons": [
+          "Même les disciples formés par Jésus ont connu des échecs publics. L’échec fait partie du chemin de formation ; il n’est pas une raison d’abandonner celui qu’on forme.",
+          "Jésus intervient d’abord pour réparer la situation et secourir la personne en détresse, avant de corriger ses disciples.",
+          "Jésus corrige en privé et explique la cause profonde de l’échec : le manque de foi et de prière, et non un manque de technique.",
+          "Un bon formateur crée un espace où ceux qu’il forme peuvent poser la question : « Pourquoi n’avons-nous pas pu ? »"
+        ]
+      },
+      "exegese": [
+        {
+          "titre": "Luc 9.1-10 : préparer, envoyer, écouter",
+          "paragraphes": [
+            "Avant Luc 9, les Douze ont passé de longs mois avec Jésus. Ils l’ont entendu enseigner (Luc 6, le discours dans la plaine), l’ont vu calmer la tempête, délivrer le démoniaque de Gadara, guérir la femme malade depuis douze ans et ressusciter la fille de Jaïrus (Luc 8). Ils ont regardé longtemps avant d’agir. La formation a commencé par l’observation.",
+            "Puis vient l’envoi : « Jésus, ayant assemblé les douze, leur donna force et pouvoir sur tous les démons, avec la puissance de guérir les maladies. Il les envoya prêcher le royaume de Dieu, et guérir les malades » (9.1-2). Jésus ne les envoie pas sans ressources : il leur transmet sa propre autorité. Le mot « pouvoir » (exousia) désigne une autorité déléguée, le droit d’agir au nom d’un autre. Le formateur ne se contente pas de donner des ordres ; il équipe et il autorise.",
+            "Les consignes sont précises et exigeantes : « Ne prenez rien pour le voyage, ni bâton, ni sac, ni pain, ni argent, et n’ayez pas deux tuniques » (9.3). Elles leur apprennent à dépendre de Dieu et de l’hospitalité de ceux qui les accueillent. Jésus leur explique aussi quoi faire en cas de rejet : secouer la poussière de leurs pieds et continuer. Il les prépare à l’échec autant qu’au succès.",
+            "Le verset 10 est souvent oublié : « Les apôtres, étant de retour, racontèrent à Jésus tout ce qu’ils avaient fait. Il les prit avec lui, et se retira à l’écart. » Voilà le débriefing. Jésus écoute leur récit, puis les emmène dans un lieu à part. La formation ne s’arrête pas à l’envoi. Elle comprend un retour, une écoute, une relecture de l’expérience. Sans ce temps, l’expérience reste une simple activité ; avec lui, elle devient apprentissage."
+          ]
+        },
+        {
+          "titre": "Luc 10.1-24 : envoyer deux à deux et recentrer sur l’essentiel",
+          "paragraphes": [
+            "Au chapitre 10, Jésus élargit le cercle : « le Seigneur désigna encore soixante-dix autres disciples, et il les envoya deux à deux devant lui dans toutes les villes et dans tous les lieux où lui-même devait aller » (10.1). Certains manuscrits anciens disent soixante-douze ; la Louis Segond suit la leçon « soixante-dix ». Le chiffre importe moins que le principe : la formation s’étend au-delà des Douze. Les disciples formés deviennent nombreux.",
+            "Ils sont envoyés « deux à deux ». Personne ne part seul : on s’encourage, on se protège, on témoigne ensemble. Jésus commence par une demande de prière : « La moisson est grande, mais il y a peu d’ouvriers. Priez donc le maître de la moisson d’envoyer des ouvriers dans sa moisson » (10.2). Le formateur ne recrute pas d’abord par la publicité, mais par la prière. Il ne cache pas non plus le danger : « je vous envoie comme des agneaux au milieu des loups » (10.3).",
+            "Au retour, les soixante-dix sont pleins de joie : « Seigneur, les démons mêmes nous sont soumis en ton nom » (10.17). Jésus confirme leur victoire : il voyait Satan tomber du ciel comme un éclair, et il leur a donné pouvoir sur toute la puissance de l’ennemi. Mais il ajoute aussitôt : « Cependant, ne vous réjouissez pas de ce que les esprits vous sont soumis ; mais réjouissez-vous de ce que vos noms sont écrits dans les cieux » (10.20). Jésus célèbre les résultats, puis recentre ses disciples sur leur identité. Le danger du succès est de bâtir sa joie sur ses performances. Le disciple doit savoir qu’il est aimé et sauvé avant d’être utile.",
+            "Le texte montre enfin Jésus lui-même tressaillant de joie par le Saint-Esprit et louant le Père d’avoir révélé ces choses « aux enfants » (10.21). Le formateur se réjouit sincèrement des progrès de ceux qu’il forme ; il n’est pas jaloux de leurs succès."
+          ]
+        },
+        {
+          "titre": "Matthieu 17.19-21 : la correction en privé",
+          "paragraphes": [
+            "La question des disciples est posée « en particulier » (kat’ idian, à l’écart, en privé). Jésus avait réprimandé publiquement la génération incrédule dans son ensemble, mais il traite l’échec de ses disciples en privé. C’est une sagesse pédagogique : corriger quelqu’un devant tout le monde l’humilie et le pousse à se défendre ; le corriger seul l’invite à apprendre.",
+            "La réponse de Jésus vise la racine : « C’est à cause de votre incrédulité » (oligopistia dans de nombreux manuscrits, « petite foi »). Puis il donne une promesse : avec une foi comme un grain de sénevé, la plus petite des semences, rien ne serait impossible. Le problème n’est pas la taille de la foi, mais son objet et sa réalité. Peut-être les disciples avaient-ils commencé à compter sur une formule ou sur leurs expériences passées plutôt que sur Dieu. Le verset 21 de la Louis Segond, que Marc 9.29 confirme, ajoute : « cette sorte de démon ne sort que par la prière et par le jeûne ». Le ministère ne fonctionne pas comme une technique ; il dépend d’une relation vivante avec Dieu.",
+            "Cette scène montre donc un cycle complet de formation : Jésus avait montré, il avait envoyé, les disciples ont agi et ont échoué, Jésus a réparé, puis il a expliqué. Le formateur fidèle ne protège pas ceux qu’il forme de tout échec ; il les accompagne dans l’échec pour qu’ils en sortent plus mûrs."
+          ]
+        }
+      ],
+      "motsCles": [
+        {
+          "mot": "pouvoir, autorité",
+          "langue": "grec",
+          "original": "exousia",
+          "sens": "Autorité déléguée, droit d’agir au nom d’un autre. Jésus la transmet aux Douze avant de les envoyer (Luc 9.1)."
+        },
+        {
+          "mot": "envoyer",
+          "langue": "grec",
+          "original": "apostellô",
+          "sens": "Envoyer en mission avec un mandat. D’où le mot « apôtre », envoyé."
+        },
+        {
+          "mot": "en particulier",
+          "langue": "grec",
+          "original": "kat’ idian",
+          "sens": "À l’écart, en privé. Jésus explique et corrige ses disciples en privé (Matthieu 17.19 ; Marc 4.34)."
+        },
+        {
+          "mot": "petite foi",
+          "langue": "grec",
+          "original": "oligopistia",
+          "sens": "Foi insuffisante ou hésitante. Jésus l’identifie comme la cause de l’échec des disciples dans de nombreux manuscrits de Matthieu 17.20."
+        }
+      ],
+      "enseignement": [
+        {
+          "titre": "Les étapes de la méthode de Jésus",
+          "paragraphes": [
+            "En suivant les Évangiles, on peut repérer une progression dans la manière dont Jésus a formé ses disciples. Il les a d’abord invités : « Venez, et voyez » (Jean 1.39) ; « Suivez-moi, et je vous ferai pêcheurs d’hommes » (Matthieu 4.19). Il les a gardés près de lui pour qu’ils l’observent : enseigner les foules, guérir, prier, affronter les opposants, accueillir les enfants. Il leur a expliqué en privé ce qu’il enseignait en public (Marc 4.34). Puis il les a envoyés, d’abord pour des missions courtes et encadrées, avec des consignes. Il a écouté leurs comptes rendus, corrigé leurs erreurs, célébré leurs victoires. Enfin, il leur a confié toute la mission et leur a promis sa présence par l’Esprit.",
+            "Les formateurs chrétiens résument souvent cette progression en quatre étapes simples. Première étape : je fais, tu regardes. Le disciple observe. Deuxième étape : je fais, tu m’aides. Le disciple participe à une partie de la tâche. Troisième étape : tu fais, je t’aide. Le disciple prend la responsabilité principale, le formateur est à côté pour soutenir. Quatrième étape : tu fais, je regarde, puis je me retire. Le disciple est autonome, et commence à son tour à former quelqu’un.",
+            "Un exemple frappant se trouve en Luc 11.1. Jésus priait en un certain lieu. Lorsqu’il eut fini, un de ses disciples lui dit : « Seigneur, enseigne-nous à prier. » Les disciples avaient vu Jésus prier ; cela a éveillé en eux le désir d’apprendre. Jésus leur a alors donné un modèle de prière. L’exemple précède l’enseignement et le rend désirable."
+          ]
+        },
+        {
+          "titre": "Confier une responsabilité réelle",
+          "paragraphes": [
+            "Jésus n’a pas seulement fait assister ses disciples à ses activités ; il leur a confié de vraies responsabilités, avec un vrai risque d’échec. Il les a envoyés sans lui dans les villages. Il leur a demandé de distribuer le pain à la foule (Luc 9.16). Il a confié la bourse commune à l’un d’eux. Il a permis à Pierre de marcher sur l’eau, et de couler.",
+            "Beaucoup de responsables hésitent à confier une tâche parce que « l’autre ne le fera pas aussi bien ». C’est souvent vrai au début. Mais celui qui refuse d’accepter l’imperfection d’un débutant se condamne à tout faire lui-même pour toujours. La croissance de l’autre passe par des tâches qu’il ne maîtrise pas encore. Le rôle du formateur est d’adapter la responsabilité au niveau de la personne, d’accompagner, puis d’augmenter progressivement."
+          ]
+        },
+        {
+          "titre": "Corriger avec patience, célébrer avec sagesse",
+          "paragraphes": [
+            "Les disciples de Jésus étaient lents à comprendre, se disputaient pour savoir qui était le plus grand (Marc 9.33-34), voulaient faire descendre le feu du ciel sur un village samaritain (Luc 9.54-55), et ont tous fui au moment de l’arrestation. Jésus les a repris, parfois avec fermeté, mais il ne les a jamais abandonnés. À Pierre, il annonce son reniement et ajoute : « mais j’ai prié pour toi, afin que ta foi ne défaille point ; et toi, quand tu seras converti, affermis tes frères » (Luc 22.32). Jésus voit déjà, au-delà de l’échec, le ministère de restauration que Pierre exercera.",
+            "La correction biblique a quelques caractéristiques. Elle est faite de préférence en privé. Elle vise la racine plutôt que les symptômes. Elle s’accompagne de prière. Elle garde l’espérance pour la personne. Et elle ne retire pas la mission à cause d’un échec, sauf s’il s’agit d’un péché grave qui demande un temps de restauration.",
+            "La célébration est aussi importante que la correction. Jésus s’est réjoui avec les soixante-dix. Un formateur qui ne voit que les erreurs décourage. Mais Jésus a aussi recentré la joie de ses disciples sur leur relation avec Dieu plutôt que sur leurs résultats. Le formateur aide ceux qu’il forme à se réjouir de ce que Dieu fait, sans bâtir leur identité sur le succès."
+          ]
+        },
+        {
+          "titre": "Former au caractère, pas seulement aux tâches",
+          "paragraphes": [
+            "Le but de Jésus n’était pas seulement que ses disciples sachent prêcher, guérir ou distribuer le pain. Il voulait qu’ils deviennent semblables à lui. C’est pourquoi une grande partie de sa formation porte sur le cœur : leur orgueil quand ils se disputent pour la première place, leur dureté quand ils veulent écarter les enfants (Marc 10.13-16), leur esprit de vengeance contre le village samaritain, leur peur dans la tempête, leur manque de compassion devant la foule affamée. Jésus utilise les situations de la vie quotidienne comme des salles de classe.",
+            "Le formateur chrétien est tenté de se concentrer sur les compétences : apprendre à quelqu’un à conduire la louange, à gérer un budget ou à prêcher. Ces compétences sont utiles. Mais si l’on forme quelqu’un à une tâche sans former son caractère, on prépare un futur leader doué et fragile, exactement ce que le module sur le caractère du leader nous a appris à éviter. Dans chaque accompagnement, il faut donc poser deux types de questions : comment s’est passée la tâche ? et comment va ton cœur ? Qu’as-tu ressenti quand on t’a critiqué ? As-tu été tenté de te mettre en avant ? Comment vis-tu la jalousie, la fatigue, la déception ?",
+            "Enfin, Jésus a formé ses disciples à dépendre de Dieu. Le récit de l’enfant lunatique le montre : la cause de l’échec n’était pas technique mais spirituelle. Le formateur doit conduire ceux qu’il forme à prier eux-mêmes, à lire eux-mêmes la Parole et à écouter eux-mêmes le Saint-Esprit, afin qu’ils ne dépendent pas de lui, mais du Seigneur."
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "ref": "Luc 9.1-2",
+          "texte": "Jésus, ayant assemblé les douze, leur donna force et pouvoir sur tous les démons, avec la puissance de guérir les maladies. Il les envoya prêcher le royaume de Dieu, et guérir les malades."
+        },
+        {
+          "ref": "Luc 10.2",
+          "texte": "Il leur dit : La moisson est grande, mais il y a peu d’ouvriers. Priez donc le maître de la moisson d’envoyer des ouvriers dans sa moisson."
+        },
+        {
+          "ref": "Luc 10.20",
+          "texte": "Cependant, ne vous réjouissez pas de ce que les esprits vous sont soumis ; mais réjouissez-vous de ce que vos noms sont écrits dans les cieux."
+        },
+        {
+          "ref": "Marc 9.24",
+          "texte": "Aussitôt le père de l’enfant s’écria : Je crois ! viens au secours de mon incrédulité !"
+        },
+        {
+          "ref": "Luc 22.32",
+          "texte": "Mais j’ai prié pour toi, afin que ta foi ne défaille point ; et toi, quand tu seras converti, affermis tes frères."
+        }
+      ],
+      "application": [
+        {
+          "titre": "Prendre un apprenti",
+          "paragraphes": [
+            "La prochaine fois que vous ferez une visite à un malade, que vous préparerez une étude biblique ou que vous animerez une réunion de prière, emmenez quelqu’un avec vous. Expliquez-lui avant ce que vous allez faire et pourquoi. Après, prenez dix minutes pour en parler : qu’as-tu remarqué ? Qu’est-ce qui t’a surpris ? La fois suivante, confiez-lui une partie de la tâche."
+          ]
+        },
+        {
+          "titre": "Le débriefing",
+          "paragraphes": [
+            "Après chaque mission confiée, prenez l’habitude d’un temps de retour avec quatre questions simples : Qu’est-ce qui s’est bien passé ? Qu’est-ce qui a été difficile ? Qu’as-tu appris sur Dieu, sur les autres et sur toi-même ? Que feras-tu différemment la prochaine fois ? Ces questions transforment chaque expérience en école. Elles fonctionnent aussi bien à l’église qu’au travail ou à la maison avec vos enfants."
+          ]
+        },
+        {
+          "titre": "Corriger sans humilier",
+          "paragraphes": [
+            "Si la personne que vous formez commet une erreur pendant un culte, une réunion ou une activité, résistez à la tentation de la reprendre publiquement ou de vous moquer. Réparez discrètement ce qui doit l’être, puis parlez-lui seul à seul. Commencez par ce qui était bien, nommez clairement ce qui doit changer, et terminez en exprimant votre confiance. Dans les cultures où la honte publique blesse profondément, cette sagesse est d’autant plus importante."
+          ]
+        },
+        {
+          "titre": "Au travail et en famille",
+          "paragraphes": [
+            "La méthode de Jésus s’applique au-delà de l’église. Un chef d’équipe chrétien peut former un collègue plus jeune en appliquant les quatre étapes. Un parent peut apprendre à son enfant à cuisiner, à gérer de l’argent ou à prier de la même manière : je fais, tu regardes ; je fais, tu aides ; tu fais, j’aide ; tu fais, je regarde. Former des disciples, c’est une manière de vivre, pas seulement un programme d’église."
+          ]
+        },
+        {
+          "titre": "Dans une grande communauté",
+          "paragraphes": [
+            "Si vous êtes responsable d’un grand groupe, vous ne pouvez pas accompagner personnellement chacun. Faites comme Jésus avec les soixante-dix, les Douze et les trois : enseignez largement, formez un petit groupe d’équipiers, et investissez plus profondément dans deux ou trois d’entre eux. Demandez ensuite à chacun de vos équipiers de faire de même avec quelques personnes. Le soin pastoral se multiplie au lieu de s’épuiser."
+          ]
+        }
+      ],
+      "etudeDeCas": {
+        "situation": "Sœur Mireille dirige l’intercession de son église. Elle a confié pour la première fois la conduite de la réunion de prière à Aïcha, une jeune femme fidèle qu’elle accompagne depuis plusieurs mois. La réunion s’est mal passée : Aïcha était très nerveuse, elle a parlé trop longtemps, et plusieurs personnes sont parties avant la fin. Un ancien a dit devant tout le monde : « La prochaine fois, Mireille, fais-le toi-même. » Aïcha est rentrée chez elle en pleurs et a écrit à Mireille qu’elle ne recommencerait plus jamais.",
+        "questions": [
+          "Comment Jésus a-t-il réagi à l’échec de ses disciples en Matthieu 17 ? Qu’est-ce que Mireille peut en retenir ?",
+          "Que devrait dire Mireille à Aïcha, et à quel moment ? Proposez les grandes lignes de leur conversation.",
+          "Comment Mireille pourrait-elle réagir face au commentaire public de l’ancien ?",
+          "À quelle étape de la méthode « je fais, tu regardes… » Aïcha se trouvait-elle ? Mireille a-t-elle sauté une étape ?"
+        ]
+      },
+      "reflexion": [
+        "Qui m’a confié une responsabilité alors que je n’étais pas encore prêt ? Qu’est-ce que cela a produit en moi ?",
+        "Est-ce que je laisse les autres essayer, ou est-ce que je reprends toujours la main « pour que ce soit bien fait » ?",
+        "Comment est-ce que je réagis quand quelqu’un que je forme échoue ?",
+        "Est-ce que je prends le temps d’écouter et d’évaluer après avoir confié une tâche ?",
+        "Ma joie dans le service repose-t-elle sur mes résultats ou sur le fait que mon nom est écrit dans les cieux ?"
+      ],
+      "retenir": [
+        "Montrer, accompagner, envoyer, évaluer : Jésus a formé ses disciples par étapes progressives.",
+        "Je fais, tu regardes ; je fais, tu m’aides ; tu fais, je t’aide ; tu fais, je regarde.",
+        "Jésus a envoyé ses disciples deux à deux, après avoir prié et en leur donnant autorité et consignes (Luc 9 ; Luc 10).",
+        "Au retour des envoyés, Jésus a écouté, célébré, puis recentré leur joie : « réjouissez-vous de ce que vos noms sont écrits dans les cieux » (Luc 10.20).",
+        "Jésus a corrigé l’échec de ses disciples en privé et en visant la racine : l’incrédulité et le manque de prière (Matthieu 17.19-21)."
+      ],
+      "memoriser": {
+        "ref": "Luc 10.2",
+        "texte": "La moisson est grande, mais il y a peu d’ouvriers. Priez donc le maître de la moisson d’envoyer des ouvriers dans sa moisson."
+      },
+      "priere": "Seigneur Jésus, Maître patient, merci de ne pas m’avoir abandonné quand j’ai échoué. Apprends-moi à former les autres comme tu as formé tes disciples : avec patience, avec exemple, avec confiance. Donne-moi le courage de confier des responsabilités réelles, la sagesse de corriger sans humilier, et la joie de célébrer les progrès des autres. Envoie des ouvriers dans ta moisson, et fais de moi l’un d’eux. Amen."
+    },
+    {
+      "titre": "Mentorat et délégation",
+      "lectures": [
+        {
+          "ref": "Exode 18.13-27",
+          "resume": "Jéthro voit Moïse juger seul le peuple du matin au soir. Il lui conseille de choisir des hommes capables, craignant Dieu, intègres et désintéressés, et de leur déléguer les affaires ordinaires."
+        },
+        {
+          "ref": "Nombres 27.15-23",
+          "resume": "Moïse demande à Dieu un berger pour le peuple après lui. Dieu désigne Josué, et Moïse lui impose les mains publiquement devant le prêtre et toute l’assemblée."
+        },
+        {
+          "ref": "Actes 15.36-41",
+          "resume": "Paul et Barnabas se séparent à cause de Jean-Marc, qui les avait quittés lors du premier voyage. Barnabas emmène Marc ; Paul part avec Silas."
+        },
+        {
+          "ref": "2 Timothée 4.11",
+          "resume": "À la fin de sa vie, Paul demande qu’on lui amène Marc, « car il m’est utile pour le ministère »."
+        }
+      ],
+      "recit": {
+        "titre": "Le conseil de Jéthro : Moïse apprend à déléguer",
+        "ref": "Exode 18.1-27",
+        "paragraphes": [
+          "Israël est sorti d’Égypte. La mer s’est ouverte, la manne tombe chaque matin, l’eau a jailli du rocher, Amalek a été vaincu. Jéthro, prêtre de Madian et beau-père de Moïse, entend parler de tout ce que Dieu a fait. Il vient au désert rejoindre Moïse, avec Séphora, la femme de Moïse, et ses deux fils. Moïse sort à sa rencontre, se prosterne, l’embrasse, et lui raconte toutes les délivrances de l’Éternel. Jéthro se réjouit, bénit Dieu et offre un sacrifice. C’est une belle scène de famille et de foi.",
+          "Le lendemain, Jéthro observe la journée de son gendre. Moïse s’assoit pour juger le peuple, et le peuple se tient devant lui « depuis le matin jusqu’au soir » (18.13). Une file interminable de personnes attend : des conflits de voisinage, des questions d’héritage, des querelles sur des bêtes, des demandes de conseil. Moïse écoute, tranche, enseigne la volonté de Dieu. Il fait un travail utile, spirituel, nécessaire. Mais il le fait seul, toute la journée, tous les jours.",
+          "Le soir, Jéthro lui pose une question simple : « Que fais-tu là avec ce peuple ? Pourquoi sièges-tu seul, et tout le peuple se tient-il devant toi, depuis le matin jusqu’au soir ? » (18.14). Moïse répond avec sincérité : « C’est que le peuple vient à moi pour consulter Dieu. » Il a de bonnes raisons. Il est l’homme qui parle avec Dieu ; qui d’autre pourrait le faire ? Mais Jéthro répond avec la franchise d’un aîné : « Ce que tu fais n’est pas bien. Tu t’épuiseras toi-même, et tu épuiseras ce peuple qui est avec toi ; car la chose est au-dessus de tes forces, tu ne pourras pas y suffire seul » (18.17-18).",
+          "Jéthro ne se contente pas de critiquer : il propose une organisation. Moïse doit garder ce qui lui est propre : être l’interprète du peuple auprès de Dieu, porter les causes devant Dieu, enseigner les lois et montrer le chemin à suivre. Puis il doit choisir parmi le peuple « des hommes capables, craignant Dieu, des hommes intègres, ennemis de la cupidité » (18.21), et les établir chefs de mille, de cent, de cinquante et de dix. Ils jugeront les affaires ordinaires ; les causes importantes reviendront à Moïse. « Ils porteront le fardeau avec toi, et ta tâche sera allégée » (18.22). Jéthro ajoute que si Moïse fait cela, il pourra tenir, et tout le peuple rentrera chez lui en paix.",
+          "Le plus remarquable est la réaction de Moïse. Il est le libérateur d’Israël, celui qui a vu le buisson ardent et fendu la mer. Il aurait pu dire : « Tu es un prêtre de Madian, que connais-tu au peuple de Dieu ? » Au contraire : « Moïse écouta la voix de son beau-père, et fit tout ce qu’il avait dit » (18.24). Il choisit des hommes capables, les établit, et partage la charge. Le grand leader se révèle aussi dans sa capacité à recevoir un conseil. Puis Jéthro repart chez lui. Son passage a été bref, mais il a changé la manière dont Israël était conduit."
+        ],
+        "lecons": [
+          "Un leader peut faire un travail bon et spirituel d’une manière qui l’épuise et épuise les autres. Être indispensable n’est pas une vertu.",
+          "Le regard extérieur d’un mentor voit ce que le leader ne voit plus. Jéthro a observé une seule journée et a vu le problème.",
+          "Déléguer, ce n’est pas abandonner : Moïse garde la prière, l’enseignement et les causes difficiles, et confie le reste à des personnes choisies selon le caractère.",
+          "La grandeur de Moïse se voit aussi dans son humilité : il écoute le conseil et l’applique."
+        ]
+      },
+      "exegese": [
+        {
+          "titre": "Exode 18.13-26 : diagnostic et critères",
+          "paragraphes": [
+            "Le diagnostic de Jéthro tient en une phrase : « Ce que tu fais n’est pas bien » (lo tov). L’expression rappelle Genèse 2.18 : « Il n’est pas bon que l’homme soit seul. » Dès la création, Dieu a voulu que l’être humain vive et travaille en communauté. Un leadership solitaire va contre ce dessein. Jéthro donne deux conséquences : Moïse s’épuisera, et le peuple aussi s’épuisera. Les gens attendent des heures, les affaires traînent, les frustrations montent. La centralisation nuit à tout le monde.",
+            "Le verbe traduit par « tu t’épuiseras » (navol tibbol) évoque une feuille qui se fane et tombe. L’image est forte : Moïse va se dessécher. La raison : « la chose est au-dessus de tes forces » (littéralement « trop lourde pour toi »). Le mot « lourd » revient au verset 22 : « Ils porteront le fardeau avec toi. » La délégation ne supprime pas le poids ; elle le partage.",
+            "Les critères du verset 21 méritent d’être étudiés. « Hommes capables » traduit anshé-hayil : des hommes de valeur, de force, de compétence. Le mot hayil est celui de « la femme vertueuse » (eshet hayil) de Proverbes 31.10. « Craignant Dieu » : ils vivent sous le regard de Dieu, ce qui les gardera de la corruption. « Hommes intègres » (anshé émet) : des hommes de vérité, fiables. « Ennemis de la cupidité » : qui haïssent le gain injuste, donc incorruptibles. Trois critères sur quatre concernent le caractère. On retrouve exactement la logique de 1 Timothée 3.",
+            "Remarquez aussi la structure proposée : des chefs de mille, de cent, de cinquante et de dix. Chaque responsable a un nombre de personnes à sa mesure. Personne n’est laissé sans accompagnement, et personne ne porte tout. Les petites unités de dix rappellent les petits groupes d’aujourd’hui : cellules de maison, groupes de prière, équipes de service. Une communauté grandit sainement quand chacun est connu et suivi par quelqu’un."
+          ]
+        },
+        {
+          "titre": "Nombres 27.15-23 : préparer et installer un successeur",
+          "paragraphes": [
+            "À la fin de sa vie, Moïse apprend qu’il n’entrera pas dans le pays promis. Sa première réaction n’est pas de penser à lui-même, mais au peuple : « Que l’Éternel, le Dieu des esprits de toute chair, établisse sur l’assemblée un homme qui sorte devant eux et qui entre devant eux, … afin que l’assemblée de l’Éternel ne soit pas comme des brebis qui n’ont point de berger » (27.16-17). Le vrai leader se soucie de ce qui arrivera après lui.",
+            "Dieu répond : « Prends Josué, fils de Nun, homme en qui réside l’esprit ; et tu poseras ta main sur lui » (27.18). Josué n’était pas un inconnu. Il avait été le serviteur de Moïse depuis sa jeunesse (Nombres 11.28). Il avait combattu Amalek pendant que Moïse priait sur la colline (Exode 17.9-13). Il avait accompagné Moïse sur la montagne (Exode 24.13). Pendant que Moïse parlait avec Dieu dans la tente d’assignation, « son jeune serviteur, Josué, fils de Nun, ne sortait pas du milieu de la tente » (Exode 33.11). Il avait été l’un des deux espions fidèles (Nombres 14.6-9). La succession avait été préparée pendant quarante ans.",
+            "L’installation est publique : Moïse place Josué devant le prêtre Éléazar et devant toute l’assemblée, pose les mains sur lui et lui donne ses ordres (27.22-23). Dieu précise : « Tu le rendras participant de ton autorité, afin que toute l’assemblée des enfants d’Israël l’écoute » (27.20). Moïse ne transmet pas seulement une fonction ; il transfère publiquement sa crédibilité. Deutéronome 34.9 confirme le résultat : « Josué, fils de Nun, était rempli de l’esprit de sagesse, car Moïse avait posé ses mains sur lui. Les enfants d’Israël lui obéirent. »"
+          ]
+        },
+        {
+          "titre": "Actes 15.36-41 et 2 Timothée 4.11 : Barnabas et Jean-Marc",
+          "paragraphes": [
+            "Pour comprendre ce passage, il faut connaître Barnabas. Son vrai nom est Joseph, mais les apôtres l’ont surnommé Barnabas, « ce qui signifie fils d’exhortation » (Actes 4.36). Le mot paraklêsis peut signifier encouragement, exhortation ou consolation. Barnabas est l’encourageur de l’Église primitive. Quand Saul de Tarse, ancien persécuteur, arrive à Jérusalem, « tous le craignaient, ne croyant pas qu’il fût un disciple ». C’est Barnabas qui le prend avec lui et le présente aux apôtres (Actes 9.26-27). Plus tard, il va le chercher à Tarse pour l’amener à Antioche (11.25-26). Sans Barnabas, le ministère de Paul aurait peut-être tardé à commencer.",
+            "Lors du premier voyage missionnaire, Paul et Barnabas emmènent Jean-Marc, cousin de Barnabas (Colossiens 4.10). Mais à Perge, en Pamphylie, Jean-Marc les quitte et retourne à Jérusalem (Actes 13.13). Le texte ne donne pas la raison. Au moment du deuxième voyage, Barnabas veut reprendre Marc ; Paul refuse, jugeant « plus convenable de ne pas prendre avec eux celui qui les avait quittés depuis la Pamphylie » (15.38). Le texte dit : « Ce dissentiment fut assez vif pour être cause qu’ils se séparèrent l’un de l’autre » (15.39). Le mot paroxusmos évoque une vive irritation.",
+            "Qui avait raison ? Le texte ne tranche pas explicitement. Paul pensait à la mission, qui exigeait des collaborateurs fiables ; Barnabas pensait à la personne, qui avait besoin d’une seconde chance. Les deux préoccupations sont légitimes. Dieu a utilisé cette séparation pour former deux équipes missionnaires au lieu d’une. Mais l’histoire ne s’arrête pas là. Des années plus tard, Paul mentionne Marc parmi ses « compagnons d’oeuvre » (Philémon 24), et dans sa dernière lettre, il écrit : « Prends Marc, et amène-le avec toi, car il m’est utile pour le ministère » (2 Timothée 4.11). Le mot « utile » (euchrêstos) signifie « bien utilisable ». Celui que Paul jugeait inutilisable est devenu précieux. Pierre l’appelle même « Marc, mon fils » (1 Pierre 5.13), et une tradition ancienne lui attribue l’Évangile selon Marc.",
+            "Barnabas a vu le potentiel de Marc au-delà de son échec, comme il avait vu celui de Saul au-delà de son passé. C’est le cœur du mentorat : croire en quelqu’un avant que les autres y croient, et investir dans sa restauration."
+          ]
+        }
+      ],
+      "motsCles": [
+        {
+          "mot": "hommes capables",
+          "langue": "hébreu",
+          "original": "anshé-hayil",
+          "sens": "Hommes de valeur, de force et de compétence. Le même mot hayil décrit la femme vertueuse de Proverbes 31.10."
+        },
+        {
+          "mot": "exhortation, encouragement",
+          "langue": "grec",
+          "original": "paraklêsis",
+          "sens": "Le fait de venir à côté de quelqu’un pour l’encourager, l’exhorter ou le consoler. Barnabas est le « fils d’exhortation » (Actes 4.36)."
+        },
+        {
+          "mot": "dissentiment vif",
+          "langue": "grec",
+          "original": "paroxusmos",
+          "sens": "Vive irritation, désaccord aigu. Il décrit la séparation de Paul et Barnabas au sujet de Marc (Actes 15.39)."
+        },
+        {
+          "mot": "utile",
+          "langue": "grec",
+          "original": "euchrêstos",
+          "sens": "Bien utilisable, précieux pour le service. Paul l’emploie au sujet de Marc en 2 Timothée 4.11."
+        }
+      ],
+      "enseignement": [
+        {
+          "titre": "Qu’est-ce qu’un mentor ?",
+          "paragraphes": [
+            "Le mot « mentor » ne se trouve pas dans la Bible, mais la réalité y est partout : Jéthro pour Moïse, Moïse pour Josué, Naomi pour Ruth, Élie pour Élisée, Barnabas pour Paul et Marc, Paul pour Timothée et Tite, Priscille et Aquilas pour Apollos (Actes 18.24-26). Un mentor est une personne plus avancée sur un chemin, qui accompagne une autre personne dans sa croissance, par la relation, l’exemple, le conseil et l’encouragement.",
+            "Le mentor n’est pas un maître qui contrôle, ni un sauveur qui résout tous les problèmes. Il pose des questions, écoute, partage son expérience, prie, encourage, et parfois confronte. Il aide l’autre à entendre Dieu, plutôt que de se placer entre Dieu et lui. Le bon mentor se réjouit le jour où son disciple le dépasse, comme Barnabas qui a accepté de passer au second plan quand le ministère de Paul a grandi (dans les Actes, « Barnabas et Saul » devient progressivement « Paul et Barnabas »).",
+            "Chaque leader a besoin de trois types de relations : un mentor plus mûr qui l’accompagne (comme Paul pour Timothée), des pairs avec qui il marche (comme Paul et Barnabas, ou Paul et Silas), et des personnes qu’il forme (comme Timothée pour Paul). Le leader qui n’a qu’une de ces relations est déséquilibré."
+          ]
+        },
+        {
+          "titre": "Déléguer sans abandonner",
+          "paragraphes": [
+            "Le conseil de Jéthro nous apprend plusieurs principes de délégation. Premièrement, le leader garde ce qui lui est propre : la prière, l’enseignement, la vision, les décisions majeures. Les apôtres feront la même chose en Actes 6.1-4 : face à la plainte des veuves, ils confient le service des tables à sept hommes « de qui l’on rende un bon témoignage, qui soient pleins d’Esprit-Saint et de sagesse », afin de continuer à « s’appliquer à la prière et au ministère de la parole ». Deuxièmement, on choisit selon le caractère avant la compétence. Troisièmement, on définit clairement les responsabilités et les limites : qui décide de quoi. Quatrièmement, on reste disponible pour les cas difficiles.",
+            "Il existe deux erreurs opposées. La première est de ne jamais déléguer, par perfectionnisme, par peur de perdre le contrôle, ou par besoin d’être indispensable. La seconde est de « déléguer en abandonnant » : confier une tâche à quelqu’un sans formation, sans soutien et sans suivi, puis le critiquer quand il échoue. La vraie délégation transmet à la fois une responsabilité, une autorité et un accompagnement.",
+            "Déléguer est aussi un acte de foi envers le corps de Christ. Paul enseigne que chaque membre a reçu des dons pour l’édification commune (1 Corinthiens 12.7) et que les responsables sont donnés « pour le perfectionnement des saints en vue de l’oeuvre du ministère » (Éphésiens 4.12). Le leader qui fait tout lui-même prive les autres de l’occasion d’exercer leurs dons. Il empêche l’église de grandir."
+          ]
+        },
+        {
+          "titre": "Préparer sa succession",
+          "paragraphes": [
+            "Moïse a prié pour un successeur, l’a formé pendant des années et l’a installé publiquement. Élie a formé Élisée. Paul a préparé Timothée. Jésus lui-même a dit à ses disciples : « il vous est avantageux que je m’en aille » (Jean 16.7), car l’Esprit viendrait, et ils continueraient l’œuvre. Un leadership qui ne prépare pas la suite met en danger tout ce qu’il a construit.",
+            "Dans beaucoup de communautés, la question de la succession est un sujet sensible : on craint de paraître ambitieux si l’on en parle, ou l’on a peur que le responsable actuel se sente poussé dehors. Le résultat est souvent une crise au moment d’un décès, d’une maladie ou d’un départ, avec parfois des divisions douloureuses. Il est plus sage d’en parler tôt, de former plusieurs personnes, de leur confier progressivement de vraies responsabilités, et de prévoir une transition claire et publique, comme Moïse avec Josué.",
+            "Préparer sa succession ne concerne pas seulement les pasteurs principaux. Le responsable de la chorale, la monitrice de l’école du dimanche, le trésorier, le chef de cellule : chacun devrait pouvoir dire qui pourrait le remplacer et ce qu’il fait pour le préparer."
+          ]
+        },
+        {
+          "titre": "Quand les leaders ne sont pas d’accord",
+          "paragraphes": [
+            "L’histoire de Paul et Barnabas est rassurante par son honnêteté : même des hommes remplis du Saint-Esprit ont connu des désaccords vifs. La Bible ne cache pas ce conflit. Elle nous apprend qu’un désaccord sur une personne ou une stratégie n’est pas forcément un péché, mais qu’il doit être vécu sans amertume. Paul et Barnabas se séparent, mais aucun des deux ne calomnie l’autre, et l’œuvre de Dieu se multiplie.",
+            "La suite montre aussi que Paul a été capable de changer d’avis sur Marc. Un leader mûr reconnaît qu’il a pu se tromper sur quelqu’un. Il laisse à Dieu la possibilité de transformer ceux qui ont échoué. Et il rend publiquement justice à ceux qu’il avait mis de côté : « il m’est utile pour le ministère »."
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "ref": "Exode 18.17-18",
+          "texte": "Le beau-père de Moïse lui dit : Ce que tu fais n’est pas bien. Tu t’épuiseras toi-même, et tu épuiseras ce peuple qui est avec toi ; car la chose est au-dessus de tes forces, tu ne pourras pas y suffire seul."
+        },
+        {
+          "ref": "Exode 18.21",
+          "texte": "Choisis parmi tout le peuple des hommes capables, craignant Dieu, des hommes intègres, ennemis de la cupidité ; établis-les sur eux comme chefs de mille, chefs de cent, chefs de cinquante et chefs de dix."
+        },
+        {
+          "ref": "Nombres 27.18",
+          "texte": "L’Éternel dit à Moïse : Prends Josué, fils de Nun, homme en qui réside l’esprit ; et tu poseras ta main sur lui."
+        },
+        {
+          "ref": "2 Timothée 4.11",
+          "texte": "Luc seul est avec moi. Prends Marc, et amène-le avec toi, car il m’est utile pour le ministère."
+        }
+      ],
+      "application": [
+        {
+          "titre": "Faire l’audit de sa semaine",
+          "paragraphes": [
+            "Notez pendant une semaine tout ce que vous faites dans votre service. Classez ensuite chaque activité en trois colonnes : ce que moi seul peux faire (comme Moïse devant Dieu), ce que quelqu’un d’autre pourrait faire avec un peu de formation, et ce que quelqu’un d’autre pourrait déjà faire aujourd’hui. Commencez à confier la troisième colonne, et à former quelqu’un pour la deuxième."
+          ]
+        },
+        {
+          "titre": "Trouver un Jéthro",
+          "paragraphes": [
+            "Invitez un responsable plus expérimenté, si possible extérieur à votre structure, à observer votre manière de servir pendant une journée ou une réunion, puis à vous dire honnêtement ce qu’il voit. Préparez-vous à entendre « ce que tu fais n’est pas bien ». Le regard extérieur est un cadeau, surtout dans les petites communautés où personne n’ose rien dire au responsable."
+          ]
+        },
+        {
+          "titre": "Être un Barnabas",
+          "paragraphes": [
+            "Pensez à une personne qui a échoué ou qui a été mise de côté dans votre église, votre famille ou votre travail : un jeune qui a abandonné un service, un frère tombé dans un péché et repenti, une sœur que l’on juge sur son passé. Allez vers elle, encouragez-la, proposez-lui de servir à vos côtés dans une tâche à sa mesure. Beaucoup de Marc attendent un Barnabas pour redevenir utiles."
+          ]
+        },
+        {
+          "titre": "Écrire un plan de succession",
+          "paragraphes": [
+            "Pour votre service actuel, rédigez un document simple : la description de ce que vous faites, les compétences nécessaires, les contacts importants, les deux ou trois personnes qui pourraient prendre la relève, et ce que vous allez faire dans les six prochains mois pour les préparer. Parlez-en avec votre responsable. Ce document protège l’œuvre si vous deviez partir, tomber malade ou être appelé ailleurs."
+          ]
+        },
+        {
+          "titre": "Pour les parents et les éducateurs",
+          "paragraphes": [
+            "Déléguer s’apprend aussi à la maison. Confiez progressivement à vos enfants des responsabilités adaptées à leur âge : préparer un repas, gérer une petite somme d’argent, conduire la prière familiale, aider un frère plus jeune dans ses devoirs. Acceptez qu’ils fassent moins bien que vous au début, félicitez leurs efforts et corrigez avec douceur. Vous formez ainsi des adultes responsables et peut-être de futurs leaders du peuple de Dieu."
+          ]
+        }
+      ],
+      "etudeDeCas": {
+        "situation": "Pasteur Daniel, 62 ans, dirige une église de campagne depuis trente ans. Il prêche chaque dimanche, gère les finances, célèbre les mariages, règle tous les conflits, visite tous les malades. Il refuse de laisser prêcher les jeunes « parce qu’ils ne sont pas prêts ». Son fils Samuel et un jeune frère, Ibrahim, ont montré de la fidélité et des dons, mais Ibrahim a quitté l’équipe de louange il y a deux ans après une dispute, et Daniel le considère depuis comme « peu fiable ». Daniel a récemment eu des problèmes de santé et son médecin lui demande de ralentir. Les membres s’inquiètent : « Que deviendra l’église sans lui ? »",
+        "questions": [
+          "Quels éléments du conseil de Jéthro s’appliquent à la situation de Pasteur Daniel ?",
+          "Comment Daniel pourrait-il s’inspirer de Moïse avec Josué pour préparer une succession ? Faut-il choisir son fils, quelqu’un d’autre, ou une équipe ? Selon quels critères ?",
+          "Que nous apprend l’histoire de Jean-Marc sur la manière de considérer Ibrahim ?",
+          "Proposez un plan sur douze mois pour que l’église soit moins dépendante de Daniel."
+        ]
+      },
+      "reflexion": [
+        "Qui joue aujourd’hui le rôle de Jéthro dans ma vie, avec la liberté de me dire « ce que tu fais n’est pas bien » ?",
+        "Quelles tâches est-ce que je garde par peur de perdre le contrôle ou par besoin d’être indispensable ?",
+        "Y a-t-il un Jean-Marc que j’ai rejeté trop vite et à qui Dieu voudrait que je donne une seconde chance ?",
+        "Qui pourrait me remplacer si je devais quitter mon service demain ? Qu’est-ce que je fais pour le préparer ?",
+        "Ai-je les trois types de relations : un mentor, des pairs et des personnes que je forme ?"
+      ],
+      "retenir": [
+        "Un leader sans successeur est un leader qui échoue à préparer l’avenir ; Moïse a formé Josué pendant des années et l’a installé publiquement.",
+        "Jéthro a dit à Moïse : « Tu t’épuiseras toi-même… tu ne pourras pas y suffire seul » ; déléguer, c’est partager le fardeau.",
+        "Les critères de Jéthro : des hommes capables, craignant Dieu, intègres et ennemis de la cupidité (Exode 18.21).",
+        "Barnabas, le « fils d’exhortation », a cru en Saul puis en Jean-Marc ; Paul a fini par écrire de Marc : « il m’est utile pour le ministère ».",
+        "Déléguer, c’est transmettre une responsabilité, une autorité et un accompagnement, pas abandonner quelqu’un à son sort."
+      ],
+      "memoriser": {
+        "ref": "Exode 18.18",
+        "texte": "Tu t’épuiseras toi-même, et tu épuiseras ce peuple qui est avec toi ; car la chose est au-dessus de tes forces, tu ne pourras pas y suffire seul."
+      },
+      "priere": "Père, merci pour les Jéthro, les Barnabas et les Moïse que tu as placés sur mon chemin. Donne-moi l’humilité d’écouter les conseils et le courage de partager le fardeau. Délivre-moi du besoin d’être indispensable. Apprends-moi à voir le potentiel de ceux qui ont échoué et à croire en eux comme tu crois en moi. Prépare dès maintenant ceux qui continueront ton œuvre après moi. Au nom de Jésus. Amen."
+    }
+  ],
+  "pratique": {
+    "consigne": "Accompagnez au moins une personne pendant la durée de ce module, si possible dans un module du programme « Héro de la Foi » : rencontres régulières, lecture biblique commune, prière, mise en pratique et responsabilité réelle confiée. Décrivez par écrit votre accompagnement : qui, combien de rencontres, ce que vous avez fait ensemble, les difficultés, les fruits observés, et la responsabilité que vous lui avez confiée.",
+    "etapes": [
+      "Priez pendant une semaine en demandant à Dieu de vous montrer deux ou trois personnes « fidèles » et disponibles (2 Timothée 2.2). Si possible, choisissez des personnes de votre sexe pour un accompagnement personnel.",
+      "Proposez à l’une d’elles un accompagnement de six à huit semaines, avec un objectif clair (par exemple : suivre ensemble un module du programme) et un rythme de rencontre fixé à l’avance.",
+      "À chaque rencontre : partagez un repas ou un temps simple, lisez un passage, posez des questions, priez ensemble et convenez d’une mise en pratique pour la semaine.",
+      "Appliquez les quatre étapes : je fais et tu regardes ; je fais et tu m’aides ; tu fais et je t’aide ; tu fais et je regarde. Confiez-lui au moins une responsabilité réelle (conduire une prière, animer une discussion, visiter quelqu’un avec vous).",
+      "Après chaque mise en pratique, faites un temps d’évaluation bienveillant : ce qui s’est bien passé, ce qui peut être amélioré, ce que Dieu a fait.",
+      "À la fin, encouragez la personne à commencer à son tour à accompagner quelqu’un d’autre, et rédigez votre rapport."
+    ]
+  },
+  "examen": [
+    {
+      "q": "Combien de générations de disciples apparaissent en 2 Timothée 2.2 ?",
+      "choix": [
+        "Une",
+        "Deux",
+        "Quatre",
+        "Dix"
+      ],
+      "bonne": 2,
+      "explication": "Paul (« de moi »), Timothée (« tu »), des hommes fidèles, et « d’autres » : quatre générations dans un seul verset (2 Timothée 2.2)."
+    },
+    {
+      "q": "Selon 2 Timothée 2.2, à quel type de personnes Timothée doit-il confier l’enseignement reçu ?",
+      "choix": [
+        "Aux plus riches de l’église",
+        "À des hommes fidèles, capables de l’enseigner à d’autres",
+        "Aux plus anciens uniquement",
+        "À ceux qui ont étudié la philosophie"
+      ],
+      "bonne": 1,
+      "explication": "« Confie-le à des hommes fidèles, qui soient capables de l’enseigner aussi à d’autres » (2 Timothée 2.2). La fidélité est le premier critère."
+    },
+    {
+      "q": "Selon Marc 3.14, quel est le premier but pour lequel Jésus établit les Douze ?",
+      "choix": [
+        "Les avoir avec lui",
+        "Les envoyer immédiatement prêcher",
+        "Bâtir un temple",
+        "Gérer la bourse commune"
+      ],
+      "bonne": 0,
+      "explication": "« Il en établit douze, pour les avoir avec lui, et pour les envoyer prêcher » (Marc 3.14). La relation précède l’envoi."
+    },
+    {
+      "q": "Dans le texte grec de Matthieu 28.19-20, quel est le verbe principal de la mission confiée par Jésus ?",
+      "choix": [
+        "Baptisez",
+        "Allez",
+        "Prêchez",
+        "Faites des disciples"
+      ],
+      "bonne": 3,
+      "explication": "Le verbe principal est mathêteusate, « faites des disciples » ; aller, baptiser et enseigner décrivent comment le faire."
+    },
+    {
+      "q": "Que faisait Élisée lorsqu’Élie jeta son manteau sur lui ?",
+      "choix": [
+        "Il priait au temple",
+        "Il labourait avec des bœufs",
+        "Il gardait des brebis",
+        "Il pêchait au bord du Jourdain"
+      ],
+      "bonne": 1,
+      "explication": "Élie trouva Élisée « qui labourait », avec douze paires de bœufs devant lui (1 Rois 19.19)."
+    },
+    {
+      "q": "Comment était connu Élisée avant de succéder à Élie, selon 2 Rois 3.11 ?",
+      "choix": [
+        "Comme un grand guerrier",
+        "Comme le chef des fils des prophètes",
+        "Comme celui qui versait l’eau sur les mains d’Élie",
+        "Comme un prêtre du temple"
+      ],
+      "bonne": 2,
+      "explication": "« Il y a ici Élisée, fils de Schaphath, qui versait l’eau sur les mains d’Élie » (2 Rois 3.11). Il a été formé dans le service."
+    },
+    {
+      "q": "Qu’a demandé Élisée à Élie avant que celui-ci soit enlevé au ciel ?",
+      "choix": [
+        "Une double portion de son esprit",
+        "Ses richesses",
+        "Son char",
+        "La royauté sur Israël"
+      ],
+      "bonne": 0,
+      "explication": "« Qu’il y ait sur moi, je te prie, une double portion de ton esprit ! » (2 Rois 2.9)."
+    },
+    {
+      "q": "Vrai ou faux : en frappant les eaux du Jourdain avec le manteau, Élisée s’est écrié : « Où est Élie, mon maître ? »",
+      "choix": [
+        "Vrai",
+        "Faux"
+      ],
+      "bonne": 1,
+      "explication": "Faux : il a dit « Où est l’Éternel, le Dieu d’Élie ? » (2 Rois 2.14). La source de la puissance est Dieu, pas le mentor."
+    },
+    {
+      "q": "Selon Luc 10.1, comment Jésus envoya-t-il les soixante-dix disciples ?",
+      "choix": [
+        "Seuls, chacun dans une ville",
+        "Tous ensemble en un seul groupe",
+        "Avec Pierre comme chef",
+        "Deux à deux"
+      ],
+      "bonne": 3,
+      "explication": "« Il les envoya deux à deux devant lui dans toutes les villes et dans tous les lieux où lui-même devait aller » (Luc 10.1)."
+    },
+    {
+      "q": "Au retour joyeux des soixante-dix, de quoi Jésus leur demande-t-il surtout de se réjouir (Luc 10.20) ?",
+      "choix": [
+        "De ce que les esprits leur sont soumis",
+        "De leur grand nombre",
+        "De ce que leurs noms sont écrits dans les cieux",
+        "De l’accueil reçu dans les villes"
+      ],
+      "bonne": 2,
+      "explication": "« Ne vous réjouissez pas de ce que les esprits vous sont soumis ; mais réjouissez-vous de ce que vos noms sont écrits dans les cieux » (Luc 10.20)."
+    },
+    {
+      "q": "Que firent les apôtres à leur retour de mission en Luc 9.10, et comment Jésus réagit-il ?",
+      "choix": [
+        "Ils racontèrent ce qu’ils avaient fait, et Jésus les prit à l’écart avec lui",
+        "Ils reçurent un salaire",
+        "Ils furent réprimandés publiquement",
+        "Ils repartirent aussitôt sans rien dire"
+      ],
+      "bonne": 0,
+      "explication": "« Les apôtres, étant de retour, racontèrent à Jésus tout ce qu’ils avaient fait. Il les prit avec lui, et se retira à l’écart » (Luc 9.10). C’est un temps de débriefing."
+    },
+    {
+      "q": "Selon Matthieu 17.19-20, quelle cause Jésus donne-t-il à l’échec des disciples face à l’enfant lunatique ?",
+      "choix": [
+        "Leur manque d’expérience",
+        "L’absence de Pierre",
+        "Leur incrédulité",
+        "La présence des scribes"
+      ],
+      "bonne": 2,
+      "explication": "« C’est à cause de votre incrédulité, leur dit Jésus » (Matthieu 17.20). Il ajoute que cette sorte de démon ne sort que par la prière (et le jeûne)."
+    },
+    {
+      "q": "Où et comment Jésus a-t-il expliqué aux disciples la raison de leur échec en Matthieu 17 ?",
+      "choix": [
+        "Devant toute la foule pour les humilier",
+        "En particulier, quand ils l’ont interrogé",
+        "Par une lettre",
+        "Il ne l’a jamais expliqué"
+      ],
+      "bonne": 1,
+      "explication": "« Alors les disciples s’approchèrent de Jésus, et lui dirent en particulier : Pourquoi n’avons-nous pu chasser ce démon ? » (Matthieu 17.19). La correction a eu lieu en privé."
+    },
+    {
+      "q": "Quelle est la troisième étape de la méthode de formation résumée par « je fais, tu regardes… » ?",
+      "choix": [
+        "Je fais, tu m’aides",
+        "Je fais, tu regardes",
+        "Tu fais, je regarde",
+        "Tu fais, je t’aide"
+      ],
+      "bonne": 3,
+      "explication": "Les quatre étapes : je fais, tu regardes ; je fais, tu m’aides ; tu fais, je t’aide ; tu fais, je regarde."
+    },
+    {
+      "q": "Quel diagnostic Jéthro donne-t-il en voyant Moïse juger seul le peuple du matin au soir (Exode 18.17-18) ?",
+      "choix": [
+        "Tu t’épuiseras toi-même, et tu épuiseras ce peuple",
+        "Tu dois juger encore plus de causes",
+        "Tu dois rentrer en Égypte",
+        "Tu dois confier tout le peuple à Aaron"
+      ],
+      "bonne": 0,
+      "explication": "« Ce que tu fais n’est pas bien. Tu t’épuiseras toi-même, et tu épuiseras ce peuple qui est avec toi » (Exode 18.17-18)."
+    },
+    {
+      "q": "Selon Exode 18.21, quelles qualités devaient avoir les hommes choisis pour aider Moïse ?",
+      "choix": [
+        "Riches, instruits, influents",
+        "Jeunes, forts, rapides",
+        "Capables, craignant Dieu, intègres, ennemis de la cupidité",
+        "Lévites, prêtres, prophètes"
+      ],
+      "bonne": 2,
+      "explication": "« Choisis parmi tout le peuple des hommes capables, craignant Dieu, des hommes intègres, ennemis de la cupidité » (Exode 18.21)."
+    },
+    {
+      "q": "Comment Moïse a-t-il installé Josué comme son successeur selon Nombres 27.18-23 ?",
+      "choix": [
+        "En secret, la nuit",
+        "En lui imposant les mains devant le prêtre Éléazar et toute l’assemblée",
+        "Par un tirage au sort",
+        "En le laissant prendre le pouvoir après sa mort"
+      ],
+      "bonne": 1,
+      "explication": "Moïse plaça Josué devant Éléazar et toute l’assemblée, posa les mains sur lui et lui donna ses ordres (Nombres 27.22-23)."
+    },
+    {
+      "q": "Que signifie le surnom « Barnabas » selon Actes 4.36 ?",
+      "choix": [
+        "Fils du tonnerre",
+        "Fils d’exhortation",
+        "Fils de la promesse",
+        "Fils de la droite"
+      ],
+      "bonne": 1,
+      "explication": "« Joseph, surnommé par les apôtres Barnabas, ce qui signifie fils d’exhortation » (Actes 4.36)."
+    },
+    {
+      "q": "Vrai ou faux : à la fin de sa vie, Paul écrit au sujet de Marc : « il m’est utile pour le ministère ».",
+      "choix": [
+        "Vrai",
+        "Faux"
+      ],
+      "bonne": 0,
+      "explication": "Vrai : « Prends Marc, et amène-le avec toi, car il m’est utile pour le ministère » (2 Timothée 4.11). Celui qui avait échoué a été restauré."
+    },
+    {
+      "q": "Un responsable de jeunesse fait tout lui-même « pour que ce soit bien fait » et doit bientôt déménager. Selon l’enseignement biblique sur la délégation, que devrait-il faire en priorité ?",
+      "choix": [
+        "Continuer seul jusqu’à son départ",
+        "Annuler les activités après son départ",
+        "Former dès maintenant des personnes fidèles et leur confier progressivement de vraies responsabilités",
+        "Choisir le jeune le plus populaire et partir sans le préparer"
+      ],
+      "bonne": 2,
+      "explication": "Comme Moïse avec Josué et Paul avec Timothée (2 Timothée 2.2), le leader forme des personnes fidèles et leur confie une responsabilité réelle avec accompagnement."
+    }
+  ]
+}

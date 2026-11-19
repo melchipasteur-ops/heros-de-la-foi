@@ -51,7 +51,7 @@ for (const f of files) {
   });
   if (vf > 4) warn.push(`${vf} questions Vrai/Faux (max conseillé : 4)`);
   if (Math.max(...pos) > 8) warn.push(`bonnes réponses mal réparties sur les positions : ${pos.join("/")}`);
-  if (/Segond 21|\bS21\b|Colombe|Semeur/i.test(JSON.stringify(m))) warn.push("mention d'une traduction protégée : n'utiliser que Louis Segond 1910");
+  if (/Segond 21|\bS21\b|version Colombe|Bible du Semeur/i.test(JSON.stringify(m))) warn.push("mention d'une traduction protégée : n'utiliser que Louis Segond 1910");
   total += motsModule;
   if (err.length) ko++;
   console.log(`${err.length ? "✗" : "✓"} ${f} : ${motsModule} mots, ${(m.lecons || []).length} leçons, ${(m.examen || []).length} questions`);
