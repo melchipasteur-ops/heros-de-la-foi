@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>Héro de la Foi</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+/* Layout : en-tête sticky, colonne de lecture 960px ; niveaux codés par couleur, laiton = réussite / attestation */
+:root{
+  --bg:#f6f7fb; --surface:#ffffff; --surface2:#eef1f8; --ink:#141b2e; --muted:#586078; --line:#d9deea;
+  --navy:#1b2a4e; --brass:#a87b1f; --brass-soft:#f4ead3;
+  --n1:#2f5fb3; --n2:#3f7d4e; --n3:#7a3f86; --n4:#a87b1f;
+  --ok:#2e7d4f; --ok-soft:#e1f2e8; --bad:#b2392f; --bad-soft:#f8e3e1; --warn-soft:#fff4d6;
+  --display:"Fraunces", Georgia, "Times New Roman", serif;
+  --body:"Source Sans 3", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1422; --surface:#171e31; --surface2:#1f2840; --ink:#e8ebf4; --muted:#a2aac2; --line:#2c3652;
+  --navy:#c9d5f5; --brass:#e0b85a; --brass-soft:#3a3018;
+  --n1:#7ea6ef; --n2:#7fc38f; --n3:#c792d3; --n4:#e0b85a;
+  --ok:#6fd39b; --ok-soft:#183a29; --bad:#f08a80; --bad-soft:#3d1f1d; --warn-soft:#3a3118; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1422; --surface:#171e31; --surface2:#1f2840; --ink:#e8ebf4; --muted:#a2aac2; --line:#2c3652;
+  --navy:#c9d5f5; --brass:#e0b85a; --brass-soft:#3a3018;
+  --n1:#7ea6ef; --n2:#7fc38f; --n3:#c792d3; --n4:#e0b85a;
+  --ok:#6fd39b; --ok-soft:#183a29; --bad:#f08a80; --bad-soft:#3d1f1d; --warn-soft:#3a3118; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.2;margin:0;color:var(--ink)}
+h1{font-size:clamp(1.7rem,4vw,2.4rem)} h2{font-size:1.45rem} h3{font-size:1.15rem}
+p{margin:0}
+a{color:var(--n1)}
+button,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+.wrap{max-width:960px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding-block:10px}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:1.15rem;color:var(--ink);background:none;border:0;cursor:pointer;padding:0}
+.brand svg{width:28px;height:28px}
+nav.tabs{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+nav.tabs button{background:none;border:0;padding:8px 12px;border-radius:8px;cursor:pointer;color:var(--muted);font-weight:600}
+nav.tabs button[aria-current="page"]{background:var(--surface2);color:var(--ink)}
+main{padding-block:28px 64px;display:grid;gap:28px}
+.banner{padding:10px 14px;border-radius:10px;background:var(--warn-soft);font-size:.95rem}
+.eyebrow{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--muted)}
+.lead{color:var(--muted);max-width:65ch}
+.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);padding:9px 16px;border-radius:10px;cursor:pointer;font-weight:600}
+.btn.primary{background:var(--navy);border-color:var(--navy);color:var(--bg)}
+.btn.gold{background:var(--brass);border-color:var(--brass);color:#1a1405}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.btn.small{padding:5px 10px;font-size:.9rem}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}
+.hero{display:grid;gap:12px}
+.verse{font-family:var(--display);font-style:italic;color:var(--muted);max-width:65ch}
+/* niveaux */
+.levels{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr))}
+.level{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;gap:12px;border-top:5px solid var(--lc)}
+.level .head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.level .num{font-weight:700;color:var(--lc);font-size:.85rem;letter-spacing:.06em;text-transform:uppercase}
+.bar{height:8px;border-radius:99px;background:var(--surface2);overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--lc);border-radius:99px}
+.mods{display:grid;gap:6px;list-style:none;padding:0;margin:0}
+.mods button{width:100%;text-align:left;display:flex;gap:10px;align-items:center;background:var(--surface2);border:1px solid transparent;border-radius:10px;padding:8px 10px;cursor:pointer}
+.mods button:hover{border-color:var(--lc)}
+.mods .t{flex:1;min-width:0}
+.pill{font-size:.75rem;font-weight:700;padding:2px 8px;border-radius:99px;white-space:nowrap;background:var(--surface);color:var(--muted);border:1px solid var(--line)}
+.pill.ok{background:var(--ok-soft);color:var(--ok);border-color:transparent}
+.pill.cert{background:var(--brass-soft);color:var(--brass);border-color:transparent}
+.pill.bad{background:var(--bad-soft);color:var(--bad);border-color:transparent}
+.dot{width:22px;height:22px;flex:none;border-radius:50%;display:grid;place-items:center;font-size:.72rem;font-weight:700;background:var(--surface);color:var(--muted);border:1.5px solid var(--line)}
+.dot.done{background:var(--brass);color:#1a1405;border-color:var(--brass)}
+/* module */
+.crumbs{display:flex;gap:6px;align-items:center;flex-wrap:wrap;color:var(--muted);font-size:.92rem}
+.crumbs button{background:none;border:0;color:var(--n1);cursor:pointer;padding:0;font-weight:600}
+.steps{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.step{border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:var(--surface)}
+.step b{display:block;font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.step.on{border-color:var(--ok);background:var(--ok-soft)}
+.lesson{background:var(--surface);border:1px solid var(--line);border-radius:14px}
+.lesson summary{cursor:pointer;padding:14px 18px;display:flex;gap:12px;align-items:center;list-style:none}
+.lesson summary::-webkit-details-marker{display:none}
+.lesson summary h3{flex:1;min-width:0}
+.lesson .body{padding:0 18px 18px;display:grid;gap:12px;max-width:72ch}
+.refs{display:flex;gap:6px;flex-wrap:wrap}
+.ref{font-size:.82rem;font-weight:600;padding:2px 8px;border-radius:6px;background:var(--surface2);color:var(--navy)}
+.keep{border-left:4px solid var(--brass);background:var(--brass-soft);padding:10px 14px;border-radius:0 10px 10px 0;font-weight:600}
+.apply{color:var(--muted)} .apply b{color:var(--ink)}
+textarea{width:100%;min-height:130px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--bg);resize:vertical}
+input[type=text]{width:100%;border:1px solid var(--line);border-radius:10px;padding:9px 12px;background:var(--bg)}
+label.f{display:grid;gap:4px;font-weight:600;font-size:.95rem}
+.hint{font-size:.88rem;color:var(--muted);font-weight:400}
+/* examen */
+.q{display:grid;gap:8px;padding:16px 0;border-top:1px solid var(--line)}
+.q:first-of-type{border-top:0}
+.q legend{font-weight:700;padding:0;margin-bottom:6px}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+.opt{display:flex;gap:10px;align-items:flex-start;padding:8px 12px;border:1px solid var(--line);border-radius:10px;cursor:pointer;margin-top:6px;background:var(--surface)}
+.opt input{margin-top:5px}
+.opt.right{border-color:var(--ok);background:var(--ok-soft)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.score{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.score .big{font-family:var(--display);font-size:2.4rem;font-weight:700;font-variant-numeric:tabular-nums}
+/* attestation preview */
+.cert{border:2px solid var(--brass);outline:6px double var(--brass-soft);border-radius:6px;padding:28px 20px;text-align:center;display:grid;gap:10px;background:var(--surface)}
+.cert .nm{font-family:var(--display);font-size:1.8rem;color:var(--navy)}
+/* enseignant */
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:620px;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);background:var(--surface2)}
+tr:last-child td{border-bottom:0}
+.stats{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(160px,1fr))}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
+.stat .v{font-family:var(--display);font-size:1.8rem;font-weight:700;font-variant-numeric:tabular-nums}
+.stat .l{color:var(--muted);font-size:.9rem}
+.grid2{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.empty{padding:24px;text-align:center;color:var(--muted)}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--navy);color:var(--bg);padding:10px 16px;border-radius:10px;font-weight:600;z-index:20;max-width:calc(100% - 32px)}
+.prog-table td:first-child{min-width:220px}
+@media (prefers-reduced-motion:no-preference){.bar>i{transition:width .4s ease}}
+</style>
+
+<header class="top"><div class="wrap">
+  <button class="brand" id="brand" type="button" aria-label="Accueil">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3 L28 8 V16 C28 23 22.5 27.5 16 29 C9.5 27.5 4 23 4 16 V8 Z" fill="var(--navy)"/><path d="M16 9 V23 M11 14 H21" stroke="var(--brass)" stroke-width="2.6" stroke-linecap="round"/></svg>
+    Héro de la Foi
+  </button>
+  <nav class="tabs" aria-label="Navigation">
+    <button type="button" data-view="parcours" id="tab-parcours">Mon parcours</button>
+    <button type="button" data-view="programme" id="tab-programme">Programme</button>
+    <button type="button" data-view="enseignant" id="tab-enseignant" hidden>Espace enseignant</button>
+  </nav>
+</div></header>
+
+<div class="wrap"><main id="app"><div class="empty">Chargement du programme…</div></main></div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+(function(){
+"use strict";
+const SEUIL = 0.8;          // 4 bonnes réponses sur 5
+const MIN_PRATIQUE = 80;    // caractères minimum pour le témoignage de foi agissante
+const LS_KEY = "hdf-progression-v1";
+const $app = document.getElementById("app");
+const S = {
+  prog:null, view:"parcours", moduleId:null, exam:null,
+  etu:{nom:"", eglise:"", modules:{}, lecons:{}, evaluations:{}},
+  mode:"local", db:null, user:null, uid:null, docRef:null, canEdit:false,
+  etudiants:[], selEtu:null, downloads:null
+};
+
+// ---------- utilitaires ----------
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const pct = (a,b) => b ? Math.round(a*100/b) : 0;
+const fmtDate = iso => { try{ return new Date(iso).toLocaleDateString("fr-FR",{day:"numeric",month:"long",year:"numeric"}); }catch(e){ return ""; } };
+function toast(msg){ const t=document.getElementById("toast"); t.textContent=msg; t.hidden=false; clearTimeout(toast._t); toast._t=setTimeout(()=>t.hidden=true,3200); }
+function shuffle(a){ a=a.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]];} return a; }
+function hash(s){ let h=2166136261; for(const c of s){ h^=c.charCodeAt(0); h=Math.imul(h,16777619);} return (h>>>0).toString(36).toUpperCase().padStart(6,"0").slice(0,6); }
+function allModules(){ return S.prog.niveaux.flatMap(n=>n.modules.map(m=>({...m, niveau:n}))); }
+function findModule(id){ return allModules().find(m=>m.id===id); }
+function niveauIndex(n){ return S.prog.niveaux.indexOf(n)+1; }
+
+// statut d'un module pour l'étudiant courant
+function statut(m, etu){
+  etu = etu || S.etu;
+  const r = (etu.modules||{})[m.id] || {};
+  const lus = (m.lecons||[]).filter((_,i)=>(etu.lecons||{})[m.id+"-"+i]).length;
+  const reussi = (r.meilleur||0) >= SEUIL;
+  const pratique = (r.pratique||"").trim().length >= MIN_PRATIQUE;
+  return { r, lus, reussi, pratique, certifie: !!r.certNo, tentatives: r.tentatives||0 };
+}
+function niveauFini(n, etu){ return n.modules.every(m=>statut(m,etu).certifie); }
+
+// ---------- stockage ----------
+function loadLocal(){ try{ const v=JSON.parse(localStorage.getItem(LS_KEY)||"null"); if(v) S.etu={...S.etu,...v}; }catch(e){} }
+function saveLocal(){ try{ localStorage.setItem(LS_KEY, JSON.stringify(S.etu)); }catch(e){} }
+let saveQueue = Promise.resolve();
+function save(fields){
+  Object.assign(S.etu, fields);
+  saveLocal();
+  if(S.mode!=="db" || !S.docRef) return;
+  const payload = {...fields, maj:new Date().toISOString()};
+  saveQueue = saveQueue.then(async ()=>{
+    try{
+      const snap = await S.docRef.get();
+      if(!snap.exists) await S.docRef.set({nom:S.etu.nom||"", eglise:S.etu.eglise||"", modules:S.etu.modules||{}, lecons:S.etu.lecons||{}, inscrit:new Date().toISOString(), ...payload});
+      else await S.docRef.update(payload);
+    }catch(e){
+      S.mode="local"; render();
+      toast("Enregistrement en ligne impossible : votre progression est gardée sur cet appareil.");
+    }
+  });
+}
+
+async function initCapabilities(){
+  if(!window.claude || typeof window.claude.use!=="function") return;
+  try{
+    const [db,user,dl] = await Promise.all([claude.use("db"), claude.use("user"), claude.use("downloads")]);
+    S.downloads = dl;
+    if(user){ S.user=user; S.canEdit = await user.canEdit().catch(()=>false); S.uid = await user.id().catch(()=>null); }
+    if(db && S.uid){
+      S.db=db; S.docRef=db.doc("resultats/"+S.uid);
+      const timer=setTimeout(()=>{ if(S.mode!=="db"){ render(); } },10000);
+      S.docRef.onSnapshot(snap=>{
+        clearTimeout(timer);
+        S.mode="db";
+        if(snap.exists){
+          const d=snap.data()||{};
+          S.etu={nom:d.nom||"", eglise:d.eglise||"", modules:d.modules||{}, lecons:d.lecons||{}, evaluations:d.evaluations||{}};
+          saveLocal();
+        }else if(Object.keys(S.etu.modules||{}).length || S.etu.nom){
+          save({}); // reprend la progression locale
+        }
+        if(!(S.view==="examen" && S.exam && !S.exam.fini)) render();
+      }, ()=>{ clearTimeout(timer); S.mode="local"; render(); });
+      if(S.canEdit){
+        db.collection("resultats").onSnapshot(qs=>{
+          S.etudiants = qs.docs.map(d=>({id:d.id, ...(d.data()||{})}));
+          if(S.view==="enseignant") render();
+        }, ()=>{});
+      }
+    }
+  }catch(e){}
+  document.getElementById("tab-enseignant").hidden = !S.canEdit;
+  render();
+}
+
+// ---------- navigation ----------
+function go(view, moduleId){
+  S.view=view; if(moduleId!==undefined) S.moduleId=moduleId;
+  if(view!=="examen") S.exam=null;
+  const h = view==="module"||view==="examen" ? "m-"+S.moduleId : view;
+  if(location.hash!=="#"+h){ try{ history.replaceState(null,"","#"+h); }catch(e){ location.hash=h; } }
+  render(); window.scrollTo({top:0});
+}
+function fromHash(){
+  const h=(location.hash||"").slice(1);
+  if(h.startsWith("m-") && findModule(h.slice(2))){ S.view="module"; S.moduleId=h.slice(2); }
+  else if(["parcours","programme","enseignant"].includes(h)) S.view=h;
+}
+document.getElementById("brand").onclick=()=>go("parcours");
+document.querySelectorAll("nav.tabs button").forEach(b=>b.onclick=()=>go(b.dataset.view));
+window.addEventListener("hashchange",()=>{ if(!S.prog) return; fromHash(); render(); });
+
+// ---------- rendu ----------
+function render(){
+  if(!S.prog) return;
+  document.querySelectorAll("nav.tabs button").forEach(b=>b.setAttribute("aria-current", b.dataset.view===S.view || (b.dataset.view==="parcours" && (S.view==="module"||S.view==="examen")) ? "page":"false"));
+  const v = {parcours:vParcours, programme:vProgramme, module:vModule, examen:vExamen, enseignant:vEnseignant}[S.view] || vParcours;
+  $app.innerHTML = v();
+  bind();
+}
+
+function banner(){
+  if(S.mode==="db") return "";
+  return `<div class="banner">Votre progression est enregistrée sur cet appareil seulement. Pour qu'elle soit visible par votre enseignant, ouvrez la plateforme connecté à votre compte avec un accès « contributeur ».</div>`;
+}
+
+function profilForm(){
+  return `<section class="panel" style="display:grid;gap:14px">
+    <div><p class="eyebrow">Votre fiche d'étudiant</p><h2>Le nom qui figurera sur vos attestations</h2></div>
+    <div class="grid2">
+      <label class="f" for="p-nom">Nom complet<input type="text" id="p-nom" value="${esc(S.etu.nom)}" placeholder="Ex. : Jean-Baptiste Mukendi" maxlength="80"></label>
+      <label class="f" for="p-eglise">Église ou assemblée <span class="hint">(facultatif)</span><input type="text" id="p-eglise" value="${esc(S.etu.eglise)}" maxlength="80"></label>
+    </div>
+    <div class="row"><button class="btn primary" id="p-save" type="button">Enregistrer ma fiche</button></div>
+  </section>`;
+}
+
+function vParcours(){
+  const mods = allModules();
+  const cert = mods.filter(m=>statut(m).certifie).length;
+  const scores = mods.map(m=>statut(m).r.meilleur).filter(x=>x!=null);
+  const moy = scores.length ? Math.round(scores.reduce((a,b)=>a+b,0)/scores.length*100) : null;
+  const next = mods.find(m=>!statut(m).certifie);
+  return `${banner()}
+  <section class="hero">
+    <p class="eyebrow">${S.etu.nom ? "Bienvenue, "+esc(S.etu.nom) : "Programme de formation biblique"}</p>
+    <h1>De la conversion à la maturité : devenir un héros de la foi</h1>
+    <p class="lead">Quatre niveaux, vingt-quatre modules. Chaque module se termine par un examen en ligne et une mise en pratique. Réussir les deux vous donne une attestation ; terminer un niveau vous donne un diplôme.</p>
+    <p class="verse">« Ainsi en est-il de la foi : si elle n'a pas les œuvres, elle est morte en elle-même. » Jacques 2.17</p>
+  </section>
+  <section class="stats" aria-label="Résumé">
+    <div class="stat"><div class="v">${cert}<span style="font-size:1rem;color:var(--muted)"> / ${mods.length}</span></div><div class="l">attestations obtenues</div></div>
+    <div class="stat"><div class="v">${S.prog.niveaux.filter(n=>niveauFini(n)).length}<span style="font-size:1rem;color:var(--muted)"> / 4</span></div><div class="l">diplômes de niveau</div></div>
+    <div class="stat"><div class="v">${moy==null?"–":moy+" %"}</div><div class="l">moyenne aux examens</div></div>
+  </section>
+  ${next ? `<section class="panel row" style="justify-content:space-between"><div><p class="eyebrow">Prochaine étape</p><h3>${esc(next.titre)}</h3><p class="hint">Niveau ${niveauIndex(next.niveau)} · ${esc(next.niveau.nom)}</p></div><button class="btn primary" data-open="${next.id}" type="button">Continuer</button></section>` : `<section class="panel"><h3>Félicitations ! Vous avez terminé tout le programme.</h3></section>`}
+  ${!S.etu.nom ? profilForm() : ""}
+  <section class="levels">${S.prog.niveaux.map(levelCard).join("")}</section>
+  ${S.etu.nom ? profilForm() : ""}`;
+}
+
+function levelCard(n){
+  const i = niveauIndex(n);
+  const done = n.modules.filter(m=>statut(m).certifie).length;
+  return `<article class="level" style="--lc:var(--n${i})">
+    <div class="head"><div><div class="num">Niveau ${i}</div><h2>${esc(n.nom)}</h2></div><span class="pill ${done===n.modules.length?"cert":""}">${done} / ${n.modules.length}</span></div>
+    <p class="hint">${esc(n.sousTitre)}</p>
+    <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="${n.modules.length}" aria-valuenow="${done}"><i style="width:${pct(done,n.modules.length)}%"></i></div>
+    <ul class="mods">${n.modules.map((m,k)=>{ const s=statut(m);
+      const pill = s.certifie ? `<span class="pill cert">Attestation</span>` : s.reussi ? `<span class="pill ok">Examen réussi</span>` : s.tentatives ? `<span class="pill bad">À reprendre</span>` : s.lus ? `<span class="pill">${s.lus}/3 leçons</span>` : "";
+      return `<li><button type="button" data-open="${m.id}"><span class="dot ${s.certifie?"done":""}">${s.certifie?"✓":k+1}</span><span class="t">${esc(m.titre)}</span>${pill}</button></li>`; }).join("")}</ul>
+    ${niveauFini(n) ? `<button class="btn gold" type="button" data-diplome="${n.id}">Télécharger le diplôme du niveau ${i}</button>` : ""}
+  </article>`;
+}
+
+function vProgramme(){
+  return `<section class="hero"><p class="eyebrow">Plan de formation</p><h1>Le programme complet</h1>
+    <p class="lead">Le parcours suit la croissance d'un croyant : naître de nouveau, grandir dans tous les domaines de la vie, servir, puis conduire et former d'autres. Les anciens dans la foi peuvent commencer au niveau de leur choix.</p></section>
+    <section class="panel"><h3>Comment fonctionne un module</h3>
+    <div class="steps" style="margin-top:12px">
+      <div class="step"><b>1. Étudier</b>3 leçons avec versets, points clés et application</div>
+      <div class="step"><b>2. Agir</b>Une mise en pratique de la foi, décrite par écrit</div>
+      <div class="step"><b>3. Examen</b>5 questions corrigées en ligne, réussite à 80 %</div>
+      <div class="step"><b>4. Attestation</b>Un PDF numéroté, puis un diplôme par niveau</div>
+    </div></section>
+    ${S.prog.niveaux.map(n=>{ const i=niveauIndex(n); return `<section class="panel" style="border-top:5px solid var(--n${i});display:grid;gap:12px">
+      <div><p class="eyebrow" style="color:var(--n${i})">Niveau ${i}</p><h2>${esc(n.nom)} : ${esc(n.sousTitre)}</h2></div>
+      <p class="lead">${esc(n.description)}</p>
+      <p class="verse">${esc(n.verset)}</p>
+      <div class="tbl"><table class="prog-table"><thead><tr><th>Module</th><th>Leçons</th><th>Foi agissante</th></tr></thead><tbody>
+      ${n.modules.map((m,k)=>`<tr><td><b>${k+1}. ${esc(m.titre)}</b><br><span class="hint">${esc(m.objectif)}</span></td><td>${m.lecons.map(l=>esc(l.titre)).join("<br>")}</td><td class="hint">${esc(m.pratique)}</td></tr>`).join("")}
+      </tbody></table></div></section>`; }).join("")}`;
+}
+
+function vModule(){
+  const m = findModule(S.moduleId); if(!m) return vParcours();
+  const n=m.niveau, i=niveauIndex(n), s=statut(m), ev=(S.etu.evaluations||{})[m.id];
+  return `${banner()}
+  <nav class="crumbs" aria-label="Fil d'Ariane"><button type="button" data-go="parcours">Mon parcours</button><span>›</span><span>Niveau ${i} · ${esc(n.nom)}</span></nav>
+  <section class="hero" style="--lc:var(--n${i})"><p class="eyebrow" style="color:var(--n${i})">Module ${n.modules.indexOf(m)+1} sur ${n.modules.length}</p><h1>${esc(m.titre)}</h1><p class="lead"><b>Objectif :</b> ${esc(m.objectif)}</p></section>
+  <section class="steps" aria-label="Avancement">
+    <div class="step ${s.lus===3?"on":""}"><b>Leçons</b>${s.lus} / 3 lues</div>
+    <div class="step ${s.pratique?"on":""}"><b>Foi agissante</b>${s.pratique?"Témoignage déposé":"À faire"}</div>
+    <div class="step ${s.reussi?"on":""}"><b>Examen</b>${s.r.meilleur!=null?Math.round(s.r.meilleur*100)+" %":"Non passé"}</div>
+    <div class="step ${s.certifie?"on":""}"><b>Attestation</b>${s.certifie?"Obtenue":"Pas encore"}</div>
+  </section>
+  ${m.lecons.map((l,k)=>{ const lu=(S.etu.lecons||{})[m.id+"-"+k]; return `<details class="lesson" ${k===0&&!lu?"open":""}>
+    <summary><span class="dot ${lu?"done":""}">${lu?"✓":k+1}</span><h3>${esc(l.titre)}</h3></summary>
+    <div class="body">
+      <div class="refs">${l.versets.map(v=>`<span class="ref">${esc(v)}</span>`).join("")}</div>
+      ${l.texte.map(p=>`<p>${esc(p)}</p>`).join("")}
+      <div class="keep">À retenir : ${esc(l.retenir)}</div>
+      <p class="apply"><b>Application :</b> ${esc(l.application)}</p>
+      <div><button class="btn small" type="button" data-lu="${k}" ${lu?"disabled":""}>${lu?"Leçon terminée":"J'ai terminé cette leçon"}</button></div>
+    </div></details>`; }).join("")}
+  <section class="panel" style="display:grid;gap:12px">
+    <div><p class="eyebrow">Foi agissante</p><h2>Mise en pratique</h2></div>
+    <p>${esc(m.pratique)}</p>
+    <label class="f" for="pratique">Votre témoignage <span class="hint">(au moins ${MIN_PRATIQUE} caractères ; votre enseignant pourra le lire et le noter)</span>
+      <textarea id="pratique" maxlength="4000">${esc(s.r.pratique||"")}</textarea></label>
+    <div class="row"><button class="btn" id="save-pratique" type="button">Enregistrer mon témoignage</button><span class="hint" id="pr-count"></span></div>
+    ${ev ? `<div class="keep" style="background:var(--surface2);border-color:var(--navy)">Appréciation de l'enseignant${ev.note!=null&&ev.note!==""?` : <b>${esc(ev.note)}/20</b>`:""}${ev.commentaire?`<br><span style="font-weight:400">${esc(ev.commentaire)}</span>`:""}</div>`:""}
+  </section>
+  <section class="panel" style="display:grid;gap:12px">
+    <div><p class="eyebrow">Évaluation</p><h2>Examen du module</h2></div>
+    <p class="hint">5 questions, ordre des réponses mélangé à chaque tentative. Il faut au moins 4 bonnes réponses. Vous pouvez repasser l'examen autant de fois que nécessaire ; la meilleure note est conservée.${s.tentatives?` Tentatives : ${s.tentatives}.`:""}</p>
+    <div class="row"><button class="btn primary" type="button" data-go="examen">${s.tentatives?"Repasser l'examen":"Commencer l'examen"}</button></div>
+  </section>
+  ${certSection(m,s)}`;
+}
+
+function certSection(m,s){
+  if(s.certifie) return `<section class="cert"><p class="eyebrow">Attestation n° ${esc(s.r.certNo)}</p><div class="nm">${esc(S.etu.nom)}</div><p>a réussi le module « ${esc(m.titre)} » avec ${Math.round(s.r.meilleur*100)} % et a mis sa foi en pratique.</p><p class="hint">Délivrée le ${fmtDate(s.r.certDate)}</p><div class="row" style="justify-content:center"><button class="btn gold" type="button" data-pdf="${m.id}">Télécharger l'attestation (PDF)</button></div></section>`;
+  const manque = [];
+  if(!S.etu.nom) manque.push("renseigner votre nom sur la page « Mon parcours »");
+  if(!s.reussi) manque.push("réussir l'examen");
+  if(!s.pratique) manque.push("déposer votre témoignage de foi agissante");
+  return `<section class="panel" style="display:grid;gap:10px;border-color:var(--brass)"><div><p class="eyebrow" style="color:var(--brass)">Attestation</p><h2>Obtenir l'attestation du module</h2></div>
+  ${manque.length ? `<p class="hint">Il vous reste à ${manque.join(", ")}.</p>` : `<p>Toutes les conditions sont remplies.</p>`}
+  <div class="row"><button class="btn gold" type="button" id="delivrer" ${manque.length?"disabled":""}>Recevoir mon attestation</button></div></section>`;
+}
+
+function vExamen(){
+  const m = findModule(S.moduleId);
+  if(!S.exam){
+    S.exam = { questions: shuffle(m.examen.map((q,qi)=>({qi, q:q[0], choix: shuffle(q[1].map((c,ci)=>({c, ok: ci===q[2]})))}))), rep:{}, fini:false };
+  }
+  const E=S.exam;
+  let res="";
+  if(E.fini){
+    const ok=E.questions.filter((q,i)=>q.choix[E.rep[i]]?.ok).length, tot=E.questions.length, pass=ok/tot>=SEUIL;
+    res = `<section class="panel score" style="border-color:${pass?"var(--ok)":"var(--bad)"}"><div class="big" style="color:${pass?"var(--ok)":"var(--bad)"}">${ok}/${tot}</div><div style="flex:1;min-width:200px"><h3>${pass?"Examen réussi !":"Pas encore : il faut 4 bonnes réponses."}</h3><p class="hint">${pass?"Votre note est enregistrée. Retournez au module pour recevoir votre attestation.":"Relisez les leçons puis réessayez. Les corrections sont affichées ci-dessous."}</p></div>
+    <div class="row"><button class="btn primary" type="button" data-go="module">Retour au module</button>${pass?"":`<button class="btn" type="button" id="retry">Réessayer</button>`}</div></section>`;
+  }
+  return `<nav class="crumbs"><button type="button" data-go="parcours">Mon parcours</button><span>›</span><button type="button" data-go="module">${esc(m.titre)}</button><span>›</span><span>Examen</span></nav>
+  <section class="hero"><p class="eyebrow">Examen en ligne</p><h1>${esc(m.titre)}</h1></section>
+  ${res}
+  <form class="panel" id="exam-form">
+    ${E.questions.map((q,i)=>`<fieldset class="q"><legend>${i+1}. ${esc(q.q)}</legend>
+      ${q.choix.map((c,ci)=>{ let cls=""; if(E.fini){ if(c.ok) cls="right"; else if(E.rep[i]===ci) cls="wrong"; }
+        return `<label class="opt ${cls}" for="q${i}-${ci}"><input type="radio" name="q${i}" id="q${i}-${ci}" value="${ci}" ${E.rep[i]===ci?"checked":""} ${E.fini?"disabled":""}><span>${esc(c.c)}</span></label>`; }).join("")}
+    </fieldset>`).join("")}
+    ${E.fini?"":`<div class="row" style="padding-top:12px"><button class="btn primary" type="submit">Valider mes réponses</button><span class="hint" id="ex-hint"></span></div>`}
+  </form>`;
+}
+
+function vEnseignant(){
+  if(!S.canEdit) return `<div class="empty">Cet espace est réservé aux enseignants de la formation.</div>`;
+  const mods = allModules();
+  const list = S.etudiants.slice().sort((a,b)=>(b.maj||"").localeCompare(a.maj||""));
+  const nbCert = e => mods.filter(m=>statut(m,e).certifie).length;
+  const moyE = e => { const v=mods.map(m=>statut(m,e).r.meilleur).filter(x=>x!=null); return v.length?Math.round(v.reduce((a,b)=>a+b,0)/v.length*100):null; };
+  const totalCert = list.reduce((a,e)=>a+nbCert(e),0);
+  const aNoter = list.reduce((a,e)=>a+mods.filter(m=>{const s=statut(m,e); return s.pratique && !((e.evaluations||{})[m.id]);}).length,0);
+  const sel = list.find(e=>e.id===S.selEtu);
+  return `<section class="hero"><p class="eyebrow">Espace enseignant</p><h1>Suivi et notation des étudiants</h1><p class="lead">Les résultats d'examens arrivent ici en direct. Ouvrez la fiche d'un étudiant pour lire ses témoignages de foi agissante et lui donner une note sur 20 avec une appréciation.</p></section>
+  <section class="stats"><div class="stat"><div class="v">${list.length}</div><div class="l">étudiants inscrits</div></div><div class="stat"><div class="v">${totalCert}</div><div class="l">attestations délivrées</div></div><div class="stat"><div class="v">${aNoter}</div><div class="l">témoignages à noter</div></div></section>
+  ${list.length ? `<div class="tbl"><table><thead><tr><th>Étudiant</th><th>Église</th><th>Attestations</th><th>Moyenne examens</th><th>Dernière activité</th><th></th></tr></thead><tbody>
+    ${list.map(e=>{const m=moyE(e); return `<tr><td><b>${esc(e.nom||"Sans nom")}</b></td><td>${esc(e.eglise||"–")}</td><td>${nbCert(e)} / ${mods.length}</td><td>${m==null?"–":m+" %"}</td><td>${e.maj?fmtDate(e.maj):"–"}</td><td><button class="btn small" type="button" data-etu="${esc(e.id)}">${S.selEtu===e.id?"Fermer":"Ouvrir"}</button></td></tr>`;}).join("")}
+  </tbody></table></div>` : `<div class="panel empty">Aucun étudiant pour l'instant. Partagez le lien de la plateforme avec vos étudiants (accès « contributeur ») : leurs résultats apparaîtront ici dès leur premier examen.</div>`}
+  ${sel ? ficheEtu(sel) : ""}`;
+}
+
+function ficheEtu(e){
+  const ev = e.evaluations||{};
+  const touched = allModules().filter(m=>{const s=statut(m,e); return s.tentatives||s.r.pratique;});
+  return `<section class="panel" style="display:grid;gap:14px"><div><p class="eyebrow">Fiche étudiant</p><h2>${esc(e.nom||"Sans nom")}</h2><p class="hint">${esc(e.eglise||"")}${e.inscrit?" · inscrit le "+fmtDate(e.inscrit):""}</p></div>
+  ${touched.length ? touched.map(m=>{const s=statut(m,e), x=ev[m.id]||{}; return `<div class="panel" style="background:var(--surface2);display:grid;gap:8px">
+    <div class="row" style="justify-content:space-between"><b>${esc(m.titre)}</b><span class="row" style="gap:6px">${s.r.meilleur!=null?`<span class="pill ${s.reussi?"ok":"bad"}">Examen ${Math.round(s.r.meilleur*100)} % · ${s.tentatives} essai(s)</span>`:""}${s.certifie?`<span class="pill cert">N° ${esc(s.r.certNo)}</span>`:""}</span></div>
+    <p class="hint">Niveau ${niveauIndex(m.niveau)} · ${esc(m.niveau.nom)}</p>
+    ${s.r.pratique?`<div><b>Témoignage de foi agissante</b><p style="white-space:pre-wrap">${esc(s.r.pratique)}</p></div>`:`<p class="hint">Pas encore de témoignage.</p>`}
+    <div class="row" style="align-items:flex-end">
+      <label class="f" for="note-${m.id}" style="width:110px">Note /20<input type="text" inputmode="decimal" id="note-${m.id}" value="${esc(x.note??"")}"></label>
+      <label class="f" for="com-${m.id}" style="flex:1;min-width:200px">Appréciation<input type="text" id="com-${m.id}" value="${esc(x.commentaire||"")}" maxlength="500"></label>
+      <button class="btn small primary" type="button" data-noter="${m.id}">Enregistrer</button>
+    </div></div>`;}).join("") : `<p class="hint">Cet étudiant n'a encore passé aucun examen.</p>`}
+  </section>`;
+}
+
+// ---------- interactions ----------
+function bind(){
+  $app.querySelectorAll("[data-open]").forEach(b=>b.onclick=()=>go("module",b.dataset.open));
+  $app.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>go(b.dataset.go));
+  $app.querySelectorAll("[data-lu]").forEach(b=>b.onclick=()=>{ const l={...(S.etu.lecons||{})}; l[S.moduleId+"-"+b.dataset.lu]=true; save({lecons:l}); render(); });
+  $app.querySelectorAll("[data-pdf]").forEach(b=>b.onclick=()=>pdfModule(findModule(b.dataset.pdf)));
+  $app.querySelectorAll("[data-diplome]").forEach(b=>b.onclick=()=>pdfNiveau(S.prog.niveaux.find(n=>n.id===b.dataset.diplome)));
+  $app.querySelectorAll("[data-etu]").forEach(b=>b.onclick=()=>{ S.selEtu = S.selEtu===b.dataset.etu?null:b.dataset.etu; render(); });
+  $app.querySelectorAll("[data-noter]").forEach(b=>b.onclick=()=>noter(b.dataset.noter));
+  const ps=document.getElementById("p-save");
+  if(ps) ps.onclick=()=>{ const nom=document.getElementById("p-nom").value.trim(); if(nom.length<3){ toast("Indiquez votre nom complet."); return; } save({nom, eglise:document.getElementById("p-eglise").value.trim()}); toast("Fiche enregistrée."); render(); };
+  const ta=document.getElementById("pratique");
+  if(ta){ const c=document.getElementById("pr-count"); const upd=()=>{ const n=ta.value.trim().length; c.textContent = n<MIN_PRATIQUE ? `${n} / ${MIN_PRATIQUE} caractères minimum` : `${n} caractères`; }; ta.oninput=upd; upd();
+    document.getElementById("save-pratique").onclick=()=>{ const mods={...(S.etu.modules||{})}; mods[S.moduleId]={...(mods[S.moduleId]||{}), pratique:ta.value.trim()}; save({modules:mods}); toast("Témoignage enregistré."); render(); }; }
+  const dv=document.getElementById("delivrer");
+  if(dv) dv.onclick=()=>{ const m=findModule(S.moduleId), mods={...(S.etu.modules||{})}, r={...(mods[m.id]||{})}; const d=new Date().toISOString();
+    r.certNo="HDF-"+m.id.toUpperCase()+"-"+hash((S.uid||S.etu.nom)+m.id+d); r.certDate=d; mods[m.id]=r; save({modules:mods}); render(); toast("Attestation délivrée. Vous pouvez la télécharger."); };
+  const f=document.getElementById("exam-form");
+  if(f && !S.exam.fini){
+    f.onchange=e=>{ const t=e.target; if(t.name&&t.name.startsWith("q")) S.exam.rep[+t.name.slice(1)]=+t.value; };
+    f.onsubmit=e=>{ e.preventDefault(); const E=S.exam;
+      if(Object.keys(E.rep).length<E.questions.length){ document.getElementById("ex-hint").textContent="Répondez à toutes les questions avant de valider."; return; }
+      E.fini=true;
+      const ok=E.questions.filter((q,i)=>q.choix[E.rep[i]]?.ok).length, sc=ok/E.questions.length;
+      const mods={...(S.etu.modules||{})}, r={...(mods[S.moduleId]||{})};
+      r.tentatives=(r.tentatives||0)+1; r.dernier=sc; r.dateExamen=new Date().toISOString(); r.meilleur=Math.max(r.meilleur||0, sc);
+      mods[S.moduleId]=r; save({modules:mods}); render(); window.scrollTo({top:0}); };
+  }
+  const rt=document.getElementById("retry"); if(rt) rt.onclick=()=>{ S.exam=null; render(); window.scrollTo({top:0}); };
+}
+
+async function noter(mid){
+  const e=S.etudiants.find(x=>x.id===S.selEtu); if(!e||!S.db) return;
+  const raw=document.getElementById("note-"+mid).value.trim().replace(",",".");
+  const note = raw==="" ? "" : Number(raw);
+  if(raw!=="" && (isNaN(note)||note<0||note>20)){ toast("La note doit être comprise entre 0 et 20."); return; }
+  const evals={...(e.evaluations||{})}; evals[mid]={note, commentaire:document.getElementById("com-"+mid).value.trim(), date:new Date().toISOString()};
+  try{ await S.db.doc("resultats/"+e.id).update({evaluations:evals}); toast("Appréciation enregistrée."); }
+  catch(err){ toast("Enregistrement impossible : "+(err&&err.message||"erreur")); }
+}
+
+// ---------- PDF ----------
+const pdfTxt = s => String(s).replace(/[’‘]/g,"'").replace(/[“”]/g,'"').replace(/œ/g,"oe").replace(/Œ/g,"OE").replace(/[—–]/g,"-").replace(/…/g,"...").replace(/ /g," ");
+function cadre(doc, couleur){
+  const W=297,H=210; doc.setFillColor(252,250,244); doc.rect(0,0,W,H,"F");
+  doc.setDrawColor(...couleur); doc.setLineWidth(2.2); doc.rect(10,10,W-20,H-20);
+  doc.setLineWidth(0.5); doc.rect(14,14,W-28,H-28);
+  // écusson
+  doc.setFillColor(27,42,78); doc.circle(W/2,33,10,"F");
+  doc.setDrawColor(...couleur); doc.setLineWidth(1.6); doc.line(W/2,27,W/2,40); doc.line(W/2-4.5,31,W/2+4.5,31);
+}
+function piedPdf(doc, no, date){
+  const W=297; doc.setFont("helvetica","normal"); doc.setFontSize(10); doc.setTextColor(90,96,120);
+  doc.text(pdfTxt("Délivrée le "+fmtDate(date)),40,178); doc.text(pdfTxt("N° "+no),40,184);
+  doc.setDrawColor(150,150,150); doc.setLineWidth(0.3); doc.line(W-110,176,W-40,176);
+  doc.text("Le responsable de la formation",W-75,182,{align:"center"});
+  doc.setFontSize(8.5); doc.text(pdfTxt("Programme Héro de la Foi - de la conversion à la maturité"),297/2,193,{align:"center"});
+}
+async function livrer(doc, filename){
+  const blob = doc.output("blob");
+  if(S.downloads){
+    try{ await S.downloads.save({filename, data:blob}); toast("Attestation enregistrée."); return; }
+    catch(e){ if(e&&e.code==="declined") return; }
+  }
+  try{ doc.save(filename); toast("Attestation téléchargée."); }
+  catch(e){ toast("Le téléchargement n'est pas disponible ici."); }
+}
+async function pdfModule(m){
+  if(!window.jspdf){ toast("Le module PDF n'a pas pu se charger. Rechargez la page."); return; }
+  const s=statut(m), i=niveauIndex(m.niveau), W=297;
+  const doc=new jspdf.jsPDF({orientation:"landscape",unit:"mm",format:"a4"});
+  cadre(doc,[168,123,31]);
+  doc.setTextColor(27,42,78); doc.setFont("times","bold"); doc.setFontSize(30); doc.text("ATTESTATION DE RÉUSSITE",W/2,62,{align:"center"});
+  doc.setFont("helvetica","normal"); doc.setFontSize(12); doc.setTextColor(90,96,120);
+  doc.text(pdfTxt("Formation Héro de la Foi - Niveau "+i+" : "+m.niveau.nom),W/2,71,{align:"center"});
+  doc.setFontSize(13); doc.text("est décernée à",W/2,88,{align:"center"});
+  doc.setFont("times","bold"); doc.setFontSize(28); doc.setTextColor(20,27,46); doc.text(pdfTxt(S.etu.nom),W/2,103,{align:"center"});
+  doc.setFont("helvetica","normal"); doc.setFontSize(12.5); doc.setTextColor(40,44,60);
+  const t=pdfTxt(`pour avoir suivi avec succès le module « ${m.titre} », réussi l'examen avec la note de ${Math.round(s.r.meilleur*100)} % et mis sa foi en pratique.`);
+  doc.text(doc.splitTextToSize(t,200),W/2,118,{align:"center"});
+  if(S.etu.eglise){ doc.setFontSize(11); doc.setTextColor(90,96,120); doc.text(pdfTxt(S.etu.eglise),W/2,138,{align:"center"}); }
+  doc.setFont("times","italic"); doc.setFontSize(11.5); doc.setTextColor(120,90,30);
+  doc.text(pdfTxt("« Ainsi en est-il de la foi : si elle n'a pas les oeuvres, elle est morte en elle-même. » Jacques 2.17"),W/2,155,{align:"center"});
+  piedPdf(doc, s.r.certNo, s.r.certDate);
+  await livrer(doc, `Attestation-${m.id.toUpperCase()}-${pdfTxt(S.etu.nom).replace(/[^A-Za-z0-9]+/g,"-")}.pdf`);
+}
+async function pdfNiveau(n){
+  if(!window.jspdf){ toast("Le module PDF n'a pas pu se charger. Rechargez la page."); return; }
+  const i=niveauIndex(n), W=297;
+  const sc=n.modules.map(m=>statut(m).r.meilleur||0), moy=Math.round(sc.reduce((a,b)=>a+b,0)/sc.length*100);
+  const last=n.modules.map(m=>statut(m).r.certDate).sort().pop();
+  const doc=new jspdf.jsPDF({orientation:"landscape",unit:"mm",format:"a4"});
+  cadre(doc,[168,123,31]);
+  doc.setTextColor(27,42,78); doc.setFont("times","bold"); doc.setFontSize(32); doc.text("DIPLÔME",W/2,60,{align:"center"});
+  doc.setFont("helvetica","normal"); doc.setFontSize(13); doc.setTextColor(90,96,120);
+  doc.text(pdfTxt("Niveau "+i+" - "+n.nom+" : "+n.sousTitre),W/2,70,{align:"center"});
+  doc.text("est décerné à",W/2,86,{align:"center"});
+  doc.setFont("times","bold"); doc.setFontSize(28); doc.setTextColor(20,27,46); doc.text(pdfTxt(S.etu.nom),W/2,101,{align:"center"});
+  doc.setFont("helvetica","normal"); doc.setFontSize(12); doc.setTextColor(40,44,60);
+  doc.text(doc.splitTextToSize(pdfTxt(`qui a validé les ${n.modules.length} modules du niveau avec une moyenne de ${moy} % aux examens et une foi agissante attestée.`),210),W/2,115,{align:"center"});
+  doc.setFontSize(9.5); doc.setTextColor(90,96,120);
+  doc.text(doc.splitTextToSize(pdfTxt(n.modules.map(m=>m.titre).join(" · ")),230),W/2,132,{align:"center"});
+  doc.setFont("times","italic"); doc.setFontSize(11); doc.setTextColor(120,90,30);
+  doc.text(doc.splitTextToSize(pdfTxt(n.verset),230),W/2,152,{align:"center"});
+  piedPdf(doc, "HDF-"+n.id.toUpperCase()+"-DIP-"+hash((S.uid||S.etu.nom)+n.id), last);
+  await livrer(doc, `Diplome-Niveau${i}-${pdfTxt(S.etu.nom).replace(/[^A-Za-z0-9]+/g,"-")}.pdf`);
+}
+
+// ---------- démarrage ----------
+loadLocal();
+fetch("programme.json").then(r=>r.json()).then(p=>{ S.prog=p; fromHash(); render(); initCapabilities(); })
+  .catch(()=>{ $app.innerHTML='<div class="empty">Le programme n\'a pas pu être chargé. Rechargez la page.</div>'; });
+})();
+</script>
+
+</body>
+</html>
