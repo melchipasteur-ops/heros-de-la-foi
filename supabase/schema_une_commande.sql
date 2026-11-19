@@ -321,22 +321,43 @@ language sql stable security definer set search_path = public as $$
                             from public.suivi_notes n left join public.profils e on e.id = n.enseignant_id
                            where n.etudiant_id = auth.uid() and n.visible), '[]'::jsonb));
 $$$c69$;
-  execute $c70$create or replace function public.verifier_attestation(p_no text) returns jsonb
+  execute $c70$create or replace function public.rattraper_attestations() returns int
+language plpgsql security definer set search_path = public as $$
+declare v_n int;
+begin
+  if auth.uid() is null then raise exception 'Connexion requise'; end if;
+  insert into public.progression (user_id, module_id, meilleur, dernier, date_examen, tentatives, cert_no, cert_date, origine)
+  select t.user_id, m.id, t.note20 / 20, t.note20 / 20, now(), 0,
+         'HDF-' || upper(m.id) || '-' || upper(substr(md5(t.user_id::text || m.id || clock_timestamp()::text), 1, 6)), now(), 'test'
+    from (select distinct on (niveau) user_id, niveau, note20 from public.tests_passage
+           where user_id = auth.uid() and reussi order by niveau, note20 desc) t
+    join public.modules m on m.niveau = t.niveau
+   where not exists (select 1 from public.progression g where g.user_id = t.user_id and g.module_id = m.id and g.cert_no is not null)
+  on conflict (user_id, module_id) do update
+    set meilleur = greatest(progression.meilleur, excluded.meilleur),
+        cert_no = coalesce(progression.cert_no, excluded.cert_no),
+        cert_date = coalesce(progression.cert_date, excluded.cert_date),
+        origine = case when progression.cert_no is null then 'test' else progression.origine end,
+        maj = now();
+  get diagnostics v_n = row_count;
+  return v_n;
+end $$$c70$;
+  execute $c71$create or replace function public.verifier_attestation(p_no text) returns jsonb
 language sql stable security definer set search_path = public as $$
   select jsonb_build_object('nom', p.nom, 'module', g.module_id, 'date', g.cert_date, 'score', g.meilleur, 'origine', g.origine)
     from public.progression g join public.profils p on p.id = g.user_id
    where g.cert_no = upper(trim(p_no));
-$$$c70$;
-  execute $c71$revoke execute on function public.marquer_lecon(text,int), public.enregistrer_pratique(text,text),
+$$$c71$;
+  execute $c72$revoke execute on function public.marquer_lecon(text,int), public.enregistrer_pratique(text,text),
   public.soumettre_examen(text,jsonb), public.delivrer_attestation(text), public.verifier_attestation(text),
   public.demarrer_test(int), public.soumettre_test(uuid,jsonb),
   public.est_enseignant(), public.module_existe(text), public.module_ouvert(uuid,text), public.niveau_ouvert(uuid,int),
-  public.marquer_etape(text,int,int,int), public.evaluer_temoignage(uuid,text,text,text), public.attribuer_etudiant(uuid,uuid), public.mon_suivi(),
-  public.creer_profil() from public, anon$c71$;
-  execute $c72$grant execute on function public.marquer_lecon(text,int), public.enregistrer_pratique(text,text),
+  public.marquer_etape(text,int,int,int), public.evaluer_temoignage(uuid,text,text,text), public.attribuer_etudiant(uuid,uuid), public.mon_suivi(), public.rattraper_attestations(),
+  public.creer_profil() from public, anon$c72$;
+  execute $c73$grant execute on function public.marquer_lecon(text,int), public.enregistrer_pratique(text,text),
   public.soumettre_examen(text,jsonb), public.delivrer_attestation(text), public.demarrer_test(int),
   public.soumettre_test(uuid,jsonb), public.est_enseignant(), public.module_existe(text),
-  public.marquer_etape(text,int,int,int), public.evaluer_temoignage(uuid,text,text,text), public.attribuer_etudiant(uuid,uuid), public.mon_suivi() to authenticated$c72$;
-  execute $c73$grant execute on function public.verifier_attestation(text) to anon, authenticated$c73$;
+  public.marquer_etape(text,int,int,int), public.evaluer_temoignage(uuid,text,text,text), public.attribuer_etudiant(uuid,uuid), public.mon_suivi(), public.rattraper_attestations() to authenticated$c73$;
+  execute $c74$grant execute on function public.verifier_attestation(text) to anon, authenticated$c74$;
 end
 $principal$;

@@ -36,6 +36,9 @@ async function chargerEtu(){
   S.profil = p.data || {id:uid, nom:"", eglise:"", role:"etudiant"};
   S.etu = etuDepuis(S.profil, g.data||[], t.data||[]);
   S.suivi = su.error ? null : su.data;
+  // Test de passage réussi mais attestations manquantes (module ajouté après le test) : rattrapage côté serveur
+  const manque = (t.data||[]).some(x=>{ const n=S.prog.niveaux[x.niveau-1]; return n && n.modules.some(m=>!statut(m).certifie); });
+  if(manque && !S._rattrapage){ S._rattrapage=true; const r=await S.sb.rpc("rattraper_attestations"); if(!r.error && r.data>0){ toast(`${r.data} attestation(s) délivrée(s) grâce à votre test de passage.`); return chargerEtu(); } }
 }
 async function rpc(fn, args){
   const {data, error} = await S.sb.rpc(fn, args);

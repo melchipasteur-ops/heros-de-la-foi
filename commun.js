@@ -13,7 +13,9 @@ function toast(msg){ const t=document.getElementById("toast"); t.textContent=msg
 function shuffle(a){ a=a.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]];} return a; }
 function erreur(e){
   const m = (e && (e.message||e.error_description)) || "Erreur inconnue";
-  const fr = {"Invalid login credentials":"Adresse ou mot de passe incorrect.","Email not confirmed":"Ce compte n'est pas encore activé. Contactez le responsable de la formation.","User already registered":"Un compte existe déjà avec cette adresse. Connectez-vous.","Password should be at least 6 characters.":"Le mot de passe doit contenir au moins 6 caractères."};
+  const fr = {"Invalid login credentials":"Adresse ou mot de passe incorrect.","Email not confirmed":"Ce compte n'est pas encore activé. Contactez le responsable de la formation.","User already registered":"Un compte existe déjà avec cette adresse. Connectez-vous.","Password should be at least 6 characters.":"Le mot de passe doit contenir au moins 6 caractères.",
+    "Module inconnu":"Ce module n'est pas encore installé dans la base de données. Le responsable doit exécuter les fichiers SQL de mise à jour (schema_une_commande.sql puis les parties 01 à 03).",
+    "Étape inconnue":"Ce module n'est pas encore installé dans la base de données. Prévenez le responsable de la formation."};
   return fr[m] || m;
 }
 

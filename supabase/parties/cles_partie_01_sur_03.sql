@@ -1,3 +1,5 @@
+do $hdf$ begin
+alter table public.modules drop constraint if exists modules_ordre_key;
 insert into public.modules (id, niveau, ordre, nb_lecons) values
 ('n1m1', 1, 1, 3),
 ('n1m7', 1, 2, 4),
@@ -26,3 +28,15 @@ insert into public.modules (id, niveau, ordre, nb_lecons) values
 ('n4m5', 4, 25, 3),
 ('n4m6', 4, 26, 3)
 on conflict (id) do update set niveau = excluded.niveau, ordre = excluded.ordre, nb_lecons = excluded.nb_lecons;
+insert into public.progression (user_id, module_id, meilleur, dernier, date_examen, tentatives, cert_no, cert_date, origine)
+select t.user_id, m.id, t.note20 / 20, t.note20 / 20, now(), 0,
+       'HDF-' || upper(m.id) || '-' || upper(substr(md5(t.user_id::text || m.id || clock_timestamp()::text), 1, 6)), now(), 'test'
+  from (select distinct on (user_id, niveau) user_id, niveau, note20 from public.tests_passage where reussi order by user_id, niveau, note20 desc) t
+  join public.modules m on m.niveau = t.niveau
+ where not exists (select 1 from public.progression g where g.user_id = t.user_id and g.module_id = m.id and g.cert_no is not null)
+on conflict (user_id, module_id) do update
+  set meilleur = greatest(progression.meilleur, excluded.meilleur),
+      cert_no = coalesce(progression.cert_no, excluded.cert_no),
+      cert_date = coalesce(progression.cert_date, excluded.cert_date),
+      origine = case when progression.cert_no is null then 'test' else progression.origine end;
+end $hdf$;

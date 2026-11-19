@@ -78,7 +78,23 @@ for (const nom of ["schema", "cles_examen"]) {
 // Chaque partie peut être relancée sans risque (mise à jour si la ligne existe déjà).
 const dossier = path.join(racine, "supabase", "parties");
 fs.rmSync(dossier, { recursive: true, force: true }); fs.mkdirSync(dossier, { recursive: true });
-const parties = [`insert into public.modules (id, niveau, ordre, nb_lecons) values\n${modRows.join(",\n")}\non conflict (id) do update set niveau = excluded.niveau, ordre = excluded.ordre, nb_lecons = excluded.nb_lecons;`];
+// Partie 01 : un seul bloc DO qui (1) retire l'ancienne contrainte d'unicité de l'ordre (sinon l'insertion d'un module échoue),
+// (2) enregistre les modules dans le bon ordre, (3) délivre les attestations manquantes aux étudiants qui ont réussi un test de passage.
+const parties = [`do $hdf$ begin
+alter table public.modules drop constraint if exists modules_ordre_key;
+insert into public.modules (id, niveau, ordre, nb_lecons) values\n${modRows.join(",\n")}\non conflict (id) do update set niveau = excluded.niveau, ordre = excluded.ordre, nb_lecons = excluded.nb_lecons;
+insert into public.progression (user_id, module_id, meilleur, dernier, date_examen, tentatives, cert_no, cert_date, origine)
+select t.user_id, m.id, t.note20 / 20, t.note20 / 20, now(), 0,
+       'HDF-' || upper(m.id) || '-' || upper(substr(md5(t.user_id::text || m.id || clock_timestamp()::text), 1, 6)), now(), 'test'
+  from (select distinct on (user_id, niveau) user_id, niveau, note20 from public.tests_passage where reussi order by user_id, niveau, note20 desc) t
+  join public.modules m on m.niveau = t.niveau
+ where not exists (select 1 from public.progression g where g.user_id = t.user_id and g.module_id = m.id and g.cert_no is not null)
+on conflict (user_id, module_id) do update
+  set meilleur = greatest(progression.meilleur, excluded.meilleur),
+      cert_no = coalesce(progression.cert_no, excluded.cert_no),
+      cert_date = coalesce(progression.cert_date, excluded.cert_date),
+      origine = case when progression.cert_no is null then 'test' else progression.origine end;
+end $hdf$;`];
 const fin = "\non conflict (module_id, question) do update set reponse = excluded.reponse, explication = excluded.explication;";
 let lot = [];
 const vider = () => { if (lot.length) parties.push(`insert into public.cles_examen (module_id, question, reponse, explication) values\n${lot.join(",\n")}${fin}`); lot = []; };
