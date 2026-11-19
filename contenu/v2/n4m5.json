@@ -1,930 +1,1169 @@
 {
-  "id": "n4m5",
-  "titre": "Éthique chrétienne contemporaine",
-  "objectif": "Discerner et répondre bibliquement aux questions éthiques de notre temps.",
-  "introduction": [
-    "Chaque génération de chrétiens doit répondre à des questions que la génération précédente ne se posait pas, ou pas de la même manière. Nos grands-parents ne connaissaient ni les réseaux sociaux, ni la fécondation in vitro, ni les débats publics sur l’identité de genre, ni l’argent virtuel. Pourtant, la Parole de Dieu reste suffisante pour nous équiper à toute bonne œuvre (2 Timothée 3.16-17). Elle ne contient pas un verset pour chaque situation moderne, mais elle nous donne des principes, des exemples et surtout une manière de penser renouvelée par l’Esprit.",
-    "Le leader chrétien est souvent interrogé : Pasteur, est-ce que je peux ? Que dit la Bible sur… ? Les jeunes, les parents, les professionnels de santé, les commerçants attendent des réponses claires, mais aussi justes et compatissantes. Deux dangers guettent : le légalisme, qui multiplie les interdits humains sans fondement biblique, et le relativisme, qui renonce à dire ce que Dieu dit par peur de déplaire.",
-    "Ce module vous apprend d’abord à discerner, avec une méthode fondée sur Romains 12, Hébreux 5 et 1 Corinthiens 10. Puis il applique ce discernement à deux grands domaines : la vie, le corps et la sexualité d’une part ; le numérique, les médias et l’argent d’autre part. Trois récits vous accompagnent : Daniel à la cour de Babylone, les sages-femmes d’Égypte face à l’ordre de Pharaon, et Guéhazi face à la tentation de l’argent.",
-    "Sur certaines questions, les chrétiens évangéliques fidèles à la Bible n’arrivent pas tous aux mêmes conclusions. Dans ce cas, nous présentons les positions avec respect. Sur d’autres, l’Écriture est claire, et nous devons tenir la vérité avec fermeté et douceur, comme Jésus, plein de grâce et de vérité (Jean 1.14)."
-  ],
-  "lecturesObligatoires": [
-    {
-      "ref": "Romains 12.1-2",
-      "consigne": "Notez ce que Paul demande de faire de notre corps et de notre intelligence, et dans quel but."
-    },
-    {
-      "ref": "Hébreux 5.11-14",
-      "consigne": "Relevez la différence entre le lait et la nourriture solide, et ce qui exerce le jugement."
-    },
-    {
-      "ref": "1 Corinthiens 10.23-33",
-      "consigne": "Listez les critères que Paul utilise pour décider de ce qu’il fait ou non."
-    },
-    {
-      "ref": "Daniel 1",
-      "consigne": "Observez ce que Daniel accepte de Babylone et ce qu’il refuse, et comment il le fait."
-    },
-    {
-      "ref": "Psaume 139",
-      "consigne": "Relevez tout ce que le psalmiste dit de Dieu et de la formation de l’être humain."
-    },
-    {
-      "ref": "Exode 1.8-22",
-      "consigne": "Décrivez le dilemme des sages-femmes et la manière dont Dieu les récompense."
-    },
-    {
-      "ref": "Matthieu 19.3-12",
-      "consigne": "Notez à quel texte Jésus renvoie pour parler du mariage et pourquoi."
-    },
-    {
-      "ref": "Jean 8.1-11",
-      "consigne": "Observez comment Jésus unit la grâce et la vérité face à la femme adultère."
-    },
-    {
-      "ref": "2 Rois 5",
-      "consigne": "Comparez l’attitude d’Élisée et celle de Guéhazi face aux présents de Naaman."
-    },
-    {
-      "ref": "1 Timothée 6.3-19",
-      "consigne": "Relevez ce que Paul dit du contentement, de l’amour de l’argent et des riches."
-    }
-  ],
-  "lecons": [
-    {
-      "titre": "Comment discerner",
-      "lectures": [
-        {
-          "ref": "Romains 12.1-2",
-          "resume": "Offrir son corps à Dieu, refuser de se conformer au siècle et être transformé par le renouvellement de l’intelligence pour discerner la volonté de Dieu."
-        },
-        {
-          "ref": "Hébreux 5.11-14",
-          "resume": "Les croyants mûrs ont le jugement exercé par l’usage à discerner le bien et le mal."
-        },
-        {
-          "ref": "1 Corinthiens 10.23-31",
-          "resume": "Tout est permis mais tout n’est pas utile ni édifiant ; chercher l’intérêt d’autrui et tout faire pour la gloire de Dieu."
-        },
-        {
-          "ref": "Daniel 1",
-          "resume": "Daniel et ses compagnons, déportés à Babylone, refusent de se souiller par les mets du roi et Dieu les honore."
-        }
-      ],
-      "recit": {
-        "titre": "Daniel à la table du roi",
-        "ref": "Daniel 1",
-        "paragraphes": [
-          "Vers 605 avant Jésus-Christ, Nebucadnetsar, roi de Babylone, assiège Jérusalem. Parmi les déportés se trouvent de jeunes hommes de famille noble : Daniel, Hanania, Mischaël et Azaria. Ils sont choisis parce qu’ils sont sans défaut, beaux, intelligents et instruits. Le roi a un plan : pendant trois ans, ils apprendront la langue et la littérature des Chaldéens, mangeront à sa table, puis entreront à son service. C’est un programme d’intégration complet, conçu pour faire de ces jeunes Juifs de parfaits fonctionnaires babyloniens.",
-          "Le chef des eunuques change même leurs noms. Daniel, qui signifie Dieu est mon juge, devient Beltschatsar. Hanania devient Schadrac, Mischaël devient Méschac, Azaria devient Abed-Nego. Les nouveaux noms font référence aux divinités babyloniennes. Pourtant, le texte ne dit pas que Daniel a protesté contre l’école ou contre le changement de nom. Il étudie la culture de Babylone, il apprend sa langue, il accepte de servir un roi païen.",
-          "Mais il y a un point sur lequel Daniel trace une limite. Le texte dit : Daniel résolut de ne pas se souiller par les mets du roi et par le vin dont le roi buvait. Littéralement, il posa dans son cœur. Ce n’est pas une réaction impulsive ; c’est une décision intérieure, réfléchie. Nous ne savons pas exactement pourquoi la nourriture du roi était souillante : peut-être parce qu’elle n’était pas conforme aux lois alimentaires de Moïse, peut-être parce qu’elle était offerte aux idoles, peut-être parce que manger à la table du roi signifiait une dépendance totale envers lui. Ce qui est clair, c’est que Daniel a discerné que là, sa fidélité à Dieu était en jeu.",
-          "La manière dont Daniel agit est aussi instructive que sa décision. Il ne fait pas de scandale, il ne méprise pas ses supérieurs. Il demande respectueusement au chef des eunuques de ne pas l’obliger à se souiller. Dieu lui fait trouver grâce et faveur auprès de cet homme, mais celui-ci a peur : si le roi voit les jeunes hommes plus maigres que les autres, il risque sa tête. Daniel propose alors une solution sage à l’intendant : faites un essai de dix jours. Donnez-nous des légumes à manger et de l’eau à boire, puis comparez.",
-          "Au bout de dix jours, Daniel et ses compagnons ont meilleur visage et plus d’embonpoint que tous les jeunes gens qui mangent les mets du roi. L’intendant accepte de continuer. Dieu accorde à ces quatre jeunes gens de la science, de l’intelligence dans toutes les lettres et de la sagesse ; Daniel reçoit même la capacité d’expliquer les visions et les songes. Lorsque le roi les examine, il les trouve dix fois supérieurs à tous les magiciens et astrologues de son royaume. Daniel restera au service des rois jusqu’à la première année du roi Cyrus, soit environ soixante-dix ans de fidélité au cœur d’un empire païen."
-        ],
-        "lecons": [
-          "Le discernement chrétien ne rejette pas tout de la culture : Daniel étudie et sert, mais il refuse ce qui compromet sa fidélité à Dieu.",
-          "La fidélité commence par une décision du cœur, prise avant la tentation.",
-          "On peut dire non avec respect, sagesse et créativité, en proposant une alternative.",
-          "Dieu honore ceux qui l’honorent, même dans un environnement hostile."
-        ]
-      },
-      "exegese": [
-        {
-          "titre": "Romains 12.1-2 : une intelligence renouvelée",
-          "paragraphes": [
-            "Les chapitres 1 à 11 de l’épître aux Romains exposent les compassions de Dieu : le péché universel, la justification par la foi, la vie dans l’Esprit, le plan de Dieu pour Israël et les nations. Le chapitre 12 commence par donc : la vie chrétienne est une réponse à la grâce. Paul nous exhorte à offrir nos corps comme un sacrifice vivant, saint, agréable à Dieu, ce qui sera de notre part un culte raisonnable. L’éthique chrétienne n’est pas d’abord une liste de règles ; c’est une vie entière offerte en adoration.",
-            "Au verset 2, Paul utilise deux verbes opposés. Le premier, suschêmatizô, traduit vous conformer, évoque le fait de prendre la forme extérieure d’un moule, de suivre le schéma du siècle présent. Le second, metamorphoô, traduit être transformés, est le verbe utilisé pour la transfiguration de Jésus (Matthieu 17.2) : un changement qui vient de l’intérieur et devient visible. Les deux verbes sont au présent et au passif : c’est un processus continu, et c’est Dieu qui agit en nous, par sa Parole et son Esprit.",
-            "Le moyen de cette transformation est le renouvellement de l’intelligence, le nous, c’est-à-dire la manière de penser, de juger, d’évaluer. Le but est que nous discernions la volonté de Dieu. Le verbe dokimazô signifie éprouver, tester, comme on teste un métal précieux pour en vérifier la pureté, puis approuver ce qui a résisté à l’épreuve. Le croyant renouvelé apprend à tester les idées, les pratiques et les décisions pour reconnaître ce qui est bon, agréable et parfait aux yeux de Dieu."
-          ]
-        },
-        {
-          "titre": "Hébreux 5.14 : un jugement exercé",
-          "paragraphes": [
-            "L’auteur de l’épître aux Hébreux s’adresse à des chrétiens d’origine juive tentés de revenir en arrière. Il leur reproche d’être devenus lents à comprendre : alors qu’ils devraient être des maîtres depuis longtemps, ils ont encore besoin de lait, c’est-à-dire des premiers rudiments de la Parole. Puis il affirme : la nourriture solide est pour les hommes faits, teleioi, les adultes, les mûrs.",
-            "Ces adultes ont les sens, aisthêtêria, exercés par l’usage à discerner le bien et le mal. Le mot aisthêtêrion désigne les organes de perception, comme les sens physiques. Le participe gegumnasmena vient de gumnazô, qui a donné le mot gymnastique. Le discernement est comparé à un muscle qui se développe par l’entraînement. On ne devient pas capable de discerner en une journée ; on le devient par une pratique régulière de la Parole, de la prière, de la réflexion et de l’obéissance. Le leader doit donc à la fois donner des réponses et former les croyants à discerner par eux-mêmes."
-          ]
-        },
-        {
-          "titre": "1 Corinthiens 10.23-31 : liberté et amour",
-          "paragraphes": [
-            "À Corinthe, une question pratique divisait l’Église : peut-on manger de la viande qui a été offerte aux idoles avant d’être vendue au marché ? Certains disaient : Les idoles ne sont rien, donc tout m’est permis. Paul reprend leur slogan, tout est permis, mais il le corrige deux fois : tout n’est pas utile, sumpherei, avantageux ; tout n’édifie pas, oikodomei, construit. Ailleurs, il ajoute : je ne me laisserai asservir par quoi que ce soit (1 Corinthiens 6.12).",
-            "Paul donne ensuite des consignes très concrètes. Au marché, mange sans poser de questions par motif de conscience, car la terre est au Seigneur. Chez un non-croyant, mange ce qu’on te sert. Mais si quelqu’un te dit que c’est une viande sacrifiée et que ta liberté risque de blesser sa conscience, abstiens-toi, par amour pour lui. Le principe : que personne ne cherche son propre intérêt, mais que chacun cherche celui d’autrui (verset 24).",
-            "Le verset 31 donne le critère suprême : soit que vous mangiez, soit que vous buviez, soit que vous fassiez quelque autre chose, faites tout pour la gloire de Dieu. Même les gestes les plus ordinaires entrent dans le champ de l’éthique chrétienne. Le verset 32 ajoute : ne soyez en scandale ni aux Juifs, ni aux Grecs, ni à l’Église de Dieu. Notre liberté est réelle, mais elle est toujours au service de l’amour et du témoignage."
-          ]
-        },
-        {
-          "titre": "Daniel 1.8 : une décision posée dans le cœur",
-          "paragraphes": [
-            "Le livre de Daniel s’ouvre sur une catastrophe : la troisième année du règne de Jojakim, roi de Juda, Nebucadnetsar assiège Jérusalem, et le Seigneur livre entre ses mains le roi et une partie des ustensiles du temple, qui sont emportés dans la maison de son dieu (Daniel 1.1-2). Le texte affirme d’emblée que c’est le Seigneur qui livre : même en exil, Dieu reste maître de l’histoire. Toute la suite du chapitre montre comment des croyants peuvent rester fidèles au cœur d’un empire qui veut les absorber.",
-            "L’expression traduite Daniel résolut est littéralement Daniel posa sur son cœur. Le cœur, lev en hébreu, est le centre de la volonté, des pensées et des décisions. Daniel ne réagit pas au dernier moment ; il fixe une conviction intérieure. Le verbe se souiller, gâal, signifie rendre impur au sens rituel. La raison exacte de la souillure n’est pas précisée, et les commentateurs proposent plusieurs hypothèses : viandes interdites par la loi, aliments consacrés aux idoles, ou refus symbolique de dépendre entièrement de la table royale. Mais le fait que Daniel accepte par ailleurs l’éducation babylonienne montre un discernement fin : il ne rejette pas tout, il identifie le point précis où sa fidélité à Dieu est engagée.",
-            "Le verset 9 ajoute : Dieu fit trouver à Daniel faveur et grâce devant le chef des eunuques. La fidélité de Daniel ne le rend pas arrogant ; elle s’accompagne de respect, et Dieu agit dans le cœur de ses supérieurs. Le chapitre se termine en montrant que Dieu donne la sagesse à ceux qui l’honorent (verset 17), écho de 1 Samuel 2.30 : j’honorerai celui qui m’honore."
-          ]
-        }
-      ],
-      "motsCles": [
-        {
-          "mot": "se conformer",
-          "langue": "grec",
-          "original": "suschêmatizô",
-          "sens": "Prendre la forme d’un moule extérieur, suivre le modèle du monde présent."
-        },
-        {
-          "mot": "être transformé",
-          "langue": "grec",
-          "original": "metamorphoô",
-          "sens": "Changement profond venant de l’intérieur ; même verbe que pour la transfiguration."
-        },
-        {
-          "mot": "discerner",
-          "langue": "grec",
-          "original": "dokimazô",
-          "sens": "Éprouver, tester comme un métal, puis approuver ce qui est authentique."
-        },
-        {
-          "mot": "exercé",
-          "langue": "grec",
-          "original": "gumnazô",
-          "sens": "Entraîner, exercer comme un athlète ; le discernement se développe par la pratique."
-        },
-        {
-          "mot": "édifier",
-          "langue": "grec",
-          "original": "oikodomeô",
-          "sens": "Construire une maison ; ce qui fait grandir la foi et la communauté."
-        }
-      ],
-      "enseignement": [
-        {
-          "titre": "Trois catégories de questions",
-          "paragraphes": [
-            "Pour discerner, il est utile de distinguer trois catégories. Premièrement, ce que la Bible commande ou interdit clairement : ne pas tuer, ne pas commettre d’adultère, ne pas voler, ne pas mentir, aimer son prochain, prendre soin du pauvre, honorer ses parents. Sur ces points, il n’y a pas à débattre ; il faut obéir, même quand la culture dit autrement.",
-            "Deuxièmement, les questions sur lesquelles la Bible ne donne pas de commandement direct, mais des principes clairs qui permettent de conclure : par exemple, la pornographie n’est pas nommée dans la Bible, mais Jésus enseigne que regarder une femme pour la convoiter, c’est déjà commettre l’adultère dans son cœur (Matthieu 5.28). Troisièmement, les questions de liberté, que Paul appelle des opinions ou des choses discutables (Romains 14.1) : certaines habitudes alimentaires, certains styles musicaux, la célébration de certaines fêtes, certains choix de loisirs. Là, que chacun ait en son esprit une pleine conviction (Romains 14.5), sans juger celui qui fait un autre choix.",
-            "Beaucoup d’erreurs viennent de la confusion entre ces catégories. Le légalisme transforme les questions de liberté en commandements, et impose aux autres ses propres scrupules. Le relativisme transforme les commandements clairs en questions de liberté. Le leader mûr sait distinguer et enseigne à distinguer."
-          ]
-        },
-        {
-          "titre": "Cinq questions pour discerner",
-          "paragraphes": [
-            "En rassemblant les textes de cette leçon, on peut proposer cinq questions pratiques à se poser devant une décision. Un : est-ce conforme à l’Écriture ? Y a-t-il un commandement ou un principe biblique qui s’applique ? Deux : est-ce utile ? Cela me fait-il du bien, à moi et aux autres, ou est-ce une perte de temps, d’argent, de santé ? Trois : est-ce que cela édifie ? Cela fait-il grandir ma foi et celle des autres, ou risque-t-il de faire chuter un plus faible ? Quatre : est-ce que cela me rend esclave ? Suis-je encore libre de dire non ? Cinq : est-ce pour la gloire de Dieu ? Puis-je le faire en le remerciant et en le présentant devant lui ?",
-            "On peut ajouter deux questions complémentaires. Ai-je la paix dans ma conscience ? Car tout ce qui n’est pas le produit d’une conviction est un péché (Romains 14.23). Et qu’en pensent des chrétiens mûrs que je respecte ? Car le salut est dans le grand nombre des conseillers (Proverbes 11.14). Ces questions ne sont pas une formule magique ; elles sont un outil pour exercer notre jugement, comme le demande Hébreux 5.14."
-          ]
-        },
-        {
-          "titre": "Les moyens du discernement",
-          "paragraphes": [
-            "Le discernement n’est pas une technique froide. Il naît d’une relation vivante avec Dieu. Paul prie pour que l’amour des Philippiens augmente de plus en plus en connaissance et en pleine intelligence pour le discernement des choses les meilleures (Philippiens 1.9-10). Remarquez l’ordre : l’amour grandit en connaissance. Ceux qui aiment Dieu et leur prochain et qui connaissent la Parole développent un instinct spirituel.",
-            "Les moyens sont simples : la lecture régulière et intelligente de toute la Bible, la prière qui demande la sagesse (Jacques 1.5), la communion avec d’autres croyants qui peuvent nous avertir, l’écoute de la conscience éclairée par la Parole, et l’obéissance dans les petites choses. Plus on obéit, plus on voit clair ; plus on désobéit, plus la conscience s’endurcit (1 Timothée 4.2)."
-          ]
-        },
-        {
-          "titre": "La conscience et la liberté de l’autre",
-          "paragraphes": [
-            "Dans Romains 14 et 1 Corinthiens 8 à 10, Paul aborde des désaccords entre croyants qu’il appelle les forts et les faibles. Les forts ont compris que les aliments ne rendent pas impurs ; les faibles ont encore des scrupules. Paul donne raison aux forts sur le fond, mais il leur demande de ne pas mépriser les faibles, et aux faibles de ne pas juger les forts. Il ajoute un principe très fort : ne cause pas, par ton aliment, la perte de celui pour lequel Christ est mort (Romains 14.15).",
-            "Pour le leader, cela signifie deux choses. D’abord, il doit respecter les consciences et ne pas forcer quelqu’un à faire ce qu’il considère comme un péché, même si la chose est en elle-même permise. Ensuite, il doit instruire patiemment les consciences pour qu’elles soient éclairées par la Parole, et non par des traditions humaines ou des peurs. Une conscience bien formée est un trésor ; une conscience déformée, trop large ou trop étroite, peut causer beaucoup de souffrance. Le but est l’amour : recherchons ce qui contribue à la paix et à l’édification mutuelle (Romains 14.19)."
-          ]
-        }
-      ],
-      "citations": [
-        {
-          "ref": "Romains 12.2",
-          "texte": "Ne vous conformez pas au siècle présent, mais soyez transformés par le renouvellement de l’intelligence, afin que vous discerniez quelle est la volonté de Dieu, ce qui est bon, agréable et parfait."
-        },
-        {
-          "ref": "Hébreux 5.14",
-          "texte": "Mais la nourriture solide est pour les hommes faits, pour ceux dont le jugement est exercé par l’usage à discerner ce qui est bien et ce qui est mal."
-        },
-        {
-          "ref": "1 Corinthiens 10.23",
-          "texte": "Tout est permis, mais tout n’est pas utile ; tout est permis, mais tout n’édifie pas."
-        },
-        {
-          "ref": "1 Corinthiens 10.31",
-          "texte": "Soit donc que vous mangiez, soit que vous buviez, soit que vous fassiez quelque autre chose, faites tout pour la gloire de Dieu."
-        },
-        {
-          "ref": "Daniel 1.8",
-          "texte": "Daniel résolut de ne pas se souiller par les mets du roi et par le vin dont le roi buvait, et il pria le chef des eunuques de ne pas l’obliger à se souiller."
-        }
-      ],
-      "application": [
-        {
-          "titre": "À l’école et à l’université",
-          "paragraphes": [
-            "Comme Daniel, beaucoup d’étudiants chrétiens étudient dans des institutions qui enseignent des philosophies contraires à la foi. Il ne s’agit pas de fuir l’école, mais d’étudier sérieusement, d’exceller, de comprendre les idées de son temps tout en gardant ses convictions. Il faudra parfois dire non : à la fraude aux examens, au bizutage humiliant, aux faveurs sexuelles en échange de notes, à la corruption pour obtenir un diplôme. Prenez cette décision dans votre cœur avant que la pression arrive."
-          ]
-        },
-        {
-          "titre": "Au travail",
-          "paragraphes": [
-            "Un comptable à qui l’on demande de falsifier des chiffres, une commerçante tentée de tricher sur les poids, un fonctionnaire à qui l’on propose une enveloppe, un employé à qui l’on demande de mentir aux clients : ce sont des situations de Daniel modernes. Comme lui, cherchez d’abord une alternative respectueuse, expliquez votre position sans arrogance, proposez une solution honnête. Et si la pression continue, soyez prêt à en payer le prix, en sachant que Dieu voit."
-          ]
-        },
-        {
-          "titre": "Dans les questions de liberté",
-          "paragraphes": [
-            "Sur les questions discutables, comme certaines fêtes culturelles, certains styles vestimentaires ou certaines musiques, évitez de juger les autres. Appliquez les cinq questions pour vous-même, respectez ceux qui arrivent à d’autres conclusions, et renoncez à votre liberté si elle blesse un frère plus faible. Le leader doit éviter de transformer ses préférences en lois de l’Église."
-          ]
-        },
-        {
-          "titre": "Face à la pression culturelle",
-          "paragraphes": [
-            "La pression du siècle présent prend aujourd’hui la forme des médias, des influenceurs, des séries, de la publicité et parfois des lois. Elle peut venir de l’Occident sécularisé comme des traditions locales contraires à l’Évangile : sorcellerie, rites de veuvage humiliants, pressions familiales sur la dot ou sur le mariage. Le chrétien ne rejette pas sa culture en bloc ; il la passe au crible de la Parole, garde ce qui est bon et refuse ce qui contredit Christ."
-          ]
-        },
-        {
-          "titre": "En famille : former les enfants au discernement",
-          "paragraphes": [
-            "Les parents ne pourront pas toujours contrôler ce que leurs enfants voient et entendent. Il faut donc leur apprendre à discerner par eux-mêmes. Regardez parfois un film ou une vidéo avec eux, puis discutez : qu’est-ce qui était vrai ? Qu’est-ce qui était contraire à la Parole ? Comment Jésus aurait-il réagi ? Expliquez les raisons de vos règles plutôt que d’imposer seulement des interdits. Un enfant qui comprend pourquoi sera mieux armé qu’un enfant qui obéit seulement par peur."
-          ]
-        }
-      ],
-      "etudeDeCas": {
-        "situation": "Grâce, 24 ans, vient d’être embauchée dans une agence de communication. Elle est brillante et appréciée. Son patron lui demande de rédiger de faux avis clients très positifs sur internet pour un client important, en disant que tout le monde le fait. Elle hésite : elle a besoin de ce travail pour aider sa famille, et elle ne veut pas paraître fanatique. Une amie de l’église lui dit que ce n’est pas grave, une autre qu’elle doit démissionner immédiatement.",
-        "questions": [
-          "Dans quelle catégorie de questions éthiques cette situation se trouve-t-elle ? Justifiez avec la Bible.",
-          "Appliquez les cinq questions du discernement à cette décision.",
-          "Comment Grâce pourrait-elle s’inspirer de la manière d’agir de Daniel face au chef des eunuques ?"
-        ]
-      },
-      "reflexion": [
-        "Dans quels domaines de votre vie vous conformez-vous au siècle présent sans vous en rendre compte ?",
-        "Avez-vous déjà pris une décision ferme dans votre cœur, comme Daniel, avant qu’une tentation se présente ?",
-        "Avez-vous tendance au légalisme ou au relativisme ?",
-        "Qui sont les chrétiens mûrs que vous consultez avant une décision importante ?"
-      ],
-      "retenir": [
-        "Le discernement naît d’une intelligence renouvelée par la Parole et l’Esprit (Romains 12.2).",
-        "Le jugement spirituel s’exerce par la pratique, comme un muscle (Hébreux 5.14).",
-        "Distinguer : commandements clairs, principes bibliques, questions de liberté.",
-        "Cinq questions : conforme à l’Écriture ? utile ? édifiant ? m’asservit-il ? pour la gloire de Dieu ?",
-        "Comme Daniel, on peut participer à la culture tout en refusant ce qui compromet la fidélité à Dieu."
-      ],
-      "memoriser": {
-        "ref": "Romains 12.2",
-        "texte": "Ne vous conformez pas au siècle présent, mais soyez transformés par le renouvellement de l’intelligence, afin que vous discerniez quelle est la volonté de Dieu, ce qui est bon, agréable et parfait."
-      },
-      "priere": "Père, renouvelle mon intelligence par ta Parole. Donne-moi un cœur ferme comme celui de Daniel, pour discerner ce qui te plaît et refuser ce qui te déshonore. Garde-moi du légalisme et du compromis. Que je fasse tout pour ta gloire, au travail, à la maison et partout. Au nom de Jésus. Amen."
-    },
-    {
-      "titre": "Vie, corps et sexualité",
-      "lectures": [
-        {
-          "ref": "Psaume 139.13-16",
-          "resume": "Dieu a formé et tissé l’être humain dans le sein de sa mère ; ses yeux le voyaient avant sa naissance."
-        },
-        {
-          "ref": "Genèse 1.26-28 ; 9.6",
-          "resume": "L’homme et la femme sont créés à l’image de Dieu ; c’est pourquoi verser le sang de l’homme est un crime grave."
-        },
-        {
-          "ref": "Matthieu 19.4-6",
-          "resume": "Jésus renvoie à la création : Dieu fit l’homme et la femme, et les deux deviennent une seule chair."
-        },
-        {
-          "ref": "Jean 8.1-11",
-          "resume": "Face à la femme adultère, Jésus refuse la condamnation et appelle à ne plus pécher."
-        }
-      ],
-      "recit": {
-        "titre": "Schiphra et Pua, les sages-femmes qui craignaient Dieu",
-        "ref": "Exode 1.8-22",
-        "paragraphes": [
-          "Plusieurs siècles se sont écoulés depuis que Joseph a sauvé l’Égypte de la famine. Un nouveau roi s’élève, qui n’a pas connu Joseph. Il voit que les Israélites se multiplient et il a peur : s’il y avait une guerre, ils pourraient se joindre aux ennemis. Il décide donc de les opprimer : travaux forcés, briques, mortier, travaux des champs. Mais plus on les accable, plus ils se multiplient. La peur de Pharaon devient de la haine.",
-          "Alors le roi d’Égypte convoque deux sages-femmes des Hébreux. La Bible a gardé leurs noms : Schiphra et Pua, alors qu’elle ne nous donne même pas le nom du Pharaon. L’ordre est terrible : Quand vous accoucherez les femmes des Hébreux, si c’est un garçon, faites-le mourir ; si c’est une fille, laissez-la vivre. Le pouvoir le plus puissant du monde ordonne à deux femmes, dont le métier est d’accueillir la vie, de devenir des instruments de mort.",
-          "Le texte dit simplement : Mais les sages-femmes craignirent Dieu, et ne firent point ce que leur avait dit le roi d’Égypte ; elles laissèrent vivre les enfants. Leur crainte de Dieu était plus grande que leur crainte du roi. Elles savaient que chaque nouveau-né appartenait au Créateur, et qu’aucun ordre humain ne pouvait leur donner le droit de lui ôter la vie.",
-          "Pharaon les convoque à nouveau : Pourquoi avez-vous agi ainsi, et avez-vous laissé vivre les enfants ? Elles répondent que les femmes des Hébreux ne sont pas comme les Égyptiennes : elles sont vigoureuses et accouchent avant l’arrivée de la sage-femme. Les commentateurs discutent pour savoir si cette réponse était entièrement exacte ou si elle était une ruse pour protéger les enfants. Le texte ne s’arrête pas sur ce point ; il souligne leur crainte de Dieu.",
-          "Dieu fit du bien aux sages-femmes, et le peuple multiplia et devint très nombreux. Parce que les sages-femmes avaient craint Dieu, Dieu fit prospérer leurs maisons. Pharaon, furieux, ordonne alors à tout son peuple de jeter dans le fleuve tous les garçons nouveau-nés. C’est dans ce contexte de mort que naîtra Moïse, sauvé par le courage d’autres femmes : sa mère, sa sœur et même la fille de Pharaon. Dieu se sert de femmes ordinaires qui choisissent la vie pour préparer la libération de tout un peuple."
-        ],
-        "lecons": [
-          "La crainte de Dieu donne le courage de résister aux ordres injustes, même venant des puissants.",
-          "Chaque vie humaine, même celle d’un nouveau-né sans défense, a une valeur infinie aux yeux de Dieu.",
-          "Dieu remarque et honore les personnes qui protègent la vie, même quand l’histoire oublie le nom des rois.",
-          "Des gestes de fidélité discrets peuvent préparer de grandes délivrances."
-        ]
-      },
-      "exegese": [
-        {
-          "titre": "Genèse 1.27 et 9.6 : l’image de Dieu",
-          "paragraphes": [
-            "Le fondement de toute l’éthique biblique de la vie se trouve dans les premières pages de la Bible. Genèse 1.27 affirme : Dieu créa l’homme à son image, il le créa à l’image de Dieu, il créa l’homme et la femme. Le mot hébreu tselem, image, désignait dans le monde ancien la statue qu’un roi plaçait dans ses territoires pour signaler sa présence et son autorité. L’être humain est le représentant de Dieu sur la terre. Le mot demout, ressemblance, au verset 26, souligne une parenté unique entre Dieu et l’homme.",
-            "Cette dignité n’est pas liée aux capacités : intelligence, force, santé, utilité économique. Elle est donnée à tout être humain, homme et femme, riche et pauvre, valide ou handicapé, jeune ou vieux. Genèse 9.6, après le déluge, en tire une conséquence : Si quelqu’un verse le sang de l’homme, par l’homme son sang sera versé ; car Dieu a fait l’homme à son image. Même après la chute, l’image de Dieu demeure. Attenter à la vie humaine, c’est attaquer l’image de Dieu lui-même."
-          ]
-        },
-        {
-          "titre": "Psaume 139.13-16 : la vie avant la naissance",
-          "paragraphes": [
-            "Le Psaume 139 est une méditation de David sur la connaissance, la présence et la puissance créatrice de Dieu. Aux versets 13 à 16, il décrit sa propre formation dans le sein de sa mère. C’est toi qui as formé mes reins : les reins, en hébreu kilyah, désignent dans la Bible le plus intime de la personne, ses émotions et ses pensées profondes. Qui m’as tissé dans le sein de ma mère : l’image est celle d’un tisserand qui travaille avec soin.",
-            "Au verset 16, David dit : Quand je n’étais qu’une masse informe, tes yeux me voyaient. Le mot golem, masse informe, embryon, n’apparaît qu’ici dans la Bible. Avant même que le corps soit formé, Dieu voyait déjà la personne et ses jours étaient inscrits dans son livre. Le psalmiste parle de lui-même, je, dès ce stade : il y a continuité entre l’embryon et l’adulte. Ce texte n’est pas un traité de biologie, mais il montre que Dieu considère la vie à naître comme une personne qu’il connaît et dont il prend soin. Jérémie 1.5 et Luc 1.41-44, où Jean-Baptiste tressaille dans le sein d’Élisabeth, vont dans le même sens."
-          ]
-        },
-        {
-          "titre": "Matthieu 19.4-6 et Jean 8.1-11 : vérité et grâce",
-          "paragraphes": [
-            "En Matthieu 19, des pharisiens interrogent Jésus sur le divorce pour l’éprouver. Jésus ne répond pas en citant les opinions des rabbins de son temps, mais en remontant à la création : N’avez-vous pas lu que le créateur, au commencement, fit l’homme et la femme ? Il cite Genèse 1.27 puis Genèse 2.24. Le verbe proskollaô, s’attacher, signifie coller, souder. Les deux deviennent mia sarx, une seule chair. Le mariage, selon Jésus, est l’union d’un homme et d’une femme, exclusive et pour la vie, et c’est Dieu lui-même qui les joint. La sexualité est un don de Dieu destiné à s’épanouir dans ce cadre.",
-            "Jean 8.1-11 montre l’autre face de l’attitude de Jésus. Les scribes et les pharisiens amènent une femme surprise en adultère et veulent la lapider. Ils l’utilisent comme un piège contre Jésus. Jésus écrit sur le sol, puis dit : Que celui de vous qui est sans péché jette le premier la pierre. Les accusateurs se retirent un à un, en commençant par les plus âgés. Jésus dit alors à la femme : Je ne te condamne pas non plus : va, et ne pèche plus. Il ne nie pas le péché, puisqu’il demande de ne plus pécher ; mais il offre d’abord la grâce et protège la dignité de la femme contre la violence. La vérité sans grâce écrase ; la grâce sans vérité ne transforme pas. Jésus est plein de grâce et de vérité (Jean 1.14)."
-          ]
-        },
-        {
-          "titre": "1 Corinthiens 6.12-20 : le corps appartient au Seigneur",
-          "paragraphes": [
-            "Corinthe était une ville portuaire réputée pour sa débauche. Certains croyants pensaient que le corps n’avait pas d’importance spirituelle : seul l’esprit comptait. Ils disaient : les aliments sont pour le ventre, et le ventre pour les aliments, et ils appliquaient le même raisonnement à la sexualité. Paul répond avec force que le corps n’est pas pour l’impudicité, mais pour le Seigneur, et le Seigneur pour le corps (verset 13). Dieu a ressuscité le Seigneur et il nous ressuscitera aussi : le corps a un avenir éternel.",
-            "Le mot porneia, traduit impudicité, désigne toute relation sexuelle en dehors du mariage. Paul explique que l’union sexuelle n’est jamais un simple acte physique : celui qui s’attache à une prostituée devient un seul corps avec elle, et il cite Genèse 2.24, les deux deviendront une seule chair. La sexualité engage toute la personne. Puis il donne un ordre clair : fuyez l’impudicité (verset 18). Le verbe pheugô, fuir, rappelle Joseph qui laisse son vêtement entre les mains de la femme de Potiphar et s’enfuit (Genèse 39.12).",
-            "Enfin, Paul donne la raison la plus profonde : votre corps est le temple du Saint-Esprit, vous ne vous appartenez point à vous-mêmes, car vous avez été rachetés à un grand prix. Le mot naos désigne le sanctuaire, le lieu même de la présence de Dieu. L’éthique chrétienne du corps ne vient pas du mépris de la sexualité, mais de la conscience d’appartenir à Christ."
-          ]
-        }
-      ],
-      "motsCles": [
-        {
-          "mot": "image",
-          "langue": "hébreu",
-          "original": "tselem",
-          "sens": "Représentation, statue royale ; l’homme représente Dieu sur la terre."
-        },
-        {
-          "mot": "masse informe, embryon",
-          "langue": "hébreu",
-          "original": "golem",
-          "sens": "L’être humain avant sa forme achevée, déjà vu et connu de Dieu (Psaume 139.16)."
-        },
-        {
-          "mot": "s’attacher",
-          "langue": "grec",
-          "original": "proskollaô",
-          "sens": "Coller, souder ; l’union exclusive et durable du mariage."
-        },
-        {
-          "mot": "une seule chair",
-          "langue": "grec",
-          "original": "mia sarx",
-          "sens": "L’union totale de l’homme et de la femme dans le mariage, corps et vie."
-        }
-      ],
-      "enseignement": [
-        {
-          "titre": "La vie humaine est sacrée",
-          "paragraphes": [
-            "Parce que l’être humain est créé à l’image de Dieu, la vie humaine est sacrée depuis la conception jusqu’à la mort naturelle. Ce principe éclaire plusieurs questions actuelles. Sur l’avortement, la position évangélique historique considère que l’enfant à naître est une vie humaine que nous devons protéger. Mais cette conviction doit s’accompagner d’une grande compassion pour les femmes en détresse : grossesse après un viol, pauvreté, abandon par le père, pression familiale. L’Église qui dit non à l’avortement doit dire oui à l’accompagnement concret des mères et des enfants. Et elle doit annoncer le pardon complet de Dieu aux femmes et aux hommes qui portent le poids d’un avortement passé.",
-            "Sur l’euthanasie et le suicide assisté, la même conviction s’applique : nous n’avons pas le droit de mettre fin intentionnellement à une vie humaine, même par compassion apparente. Cela ne signifie pas qu’il faut prolonger à tout prix les traitements lorsque la mort approche inévitablement. Accepter qu’un malade meure naturellement, en soulageant sa douleur et en l’entourant d’amour, n’est pas la même chose que provoquer sa mort. Les soins palliatifs et la présence fidèle auprès des mourants sont une belle expression de l’amour chrétien.",
-            "Sur les questions de bioéthique, comme la procréation médicalement assistée, les évangéliques ne sont pas tous d’accord sur tous les détails. Beaucoup considèrent légitime d’aider un couple marié à avoir un enfant, tout en s’interrogeant sérieusement sur le sort des embryons surnuméraires et sur le recours à des tiers donneurs. Le principe à garder est le respect de la vie humaine dès son commencement et le cadre du mariage."
-          ]
-        },
-        {
-          "titre": "Le corps et la sexualité selon Dieu",
-          "paragraphes": [
-            "La Bible a une vision très positive du corps et de la sexualité. Dieu a créé l’homme et la femme et il a vu que cela était très bon (Genèse 1.31). Le Cantique des cantiques célèbre l’amour conjugal. Le corps du croyant est le temple du Saint-Esprit (1 Corinthiens 6.19-20). Mais parce que la sexualité est précieuse, Dieu lui donne un cadre : le mariage d’un homme et d’une femme. En dehors de ce cadre, la Bible appelle à la chasteté : pas de relations sexuelles avant le mariage, fidélité totale dans le mariage.",
-            "Cette éthique concerne tout le monde, et pas seulement certaines catégories de personnes. La pornographie, l’adultère, la fornication, le harcèlement, la prostitution, les abus sexuels sont des péchés graves qui touchent aussi l’Église. Le leader doit en parler avec clarté, sans hypocrisie, en commençant par sa propre vie."
-          ]
-        },
-        {
-          "titre": "Sexualité et identité : vérité et compassion",
-          "paragraphes": [
-            "Les questions d’orientation sexuelle et d’identité de genre sont aujourd’hui au cœur des débats publics. La position évangélique historique, fondée sur la création de l’homme et de la femme et sur l’enseignement de Jésus en Matthieu 19, considère que les relations sexuelles entre personnes du même sexe ne correspondent pas au dessein de Dieu, et que notre corps sexué fait partie de ce que Dieu nous a donné. Mais tenir cette conviction ne donne aucun droit au mépris, à la moquerie ou à la violence. Toute personne, quelle que soit son histoire, est créée à l’image de Dieu et aimée de lui.",
-            "Beaucoup de personnes qui vivent des attirances homosexuelles ou un malaise profond avec leur identité souffrent en silence, y compris dans nos églises. Elles ont besoin d’écoute, d’amitié, d’accompagnement pastoral et parfois d’une aide médicale ou psychologique, pas de condamnation publique. Comme Jésus avec la femme adultère, l’Église est appelée à accueillir chacun pour l’amener à Christ, en tenant ensemble la grâce qui relève et la vérité qui transforme. Rappelons aussi que la Bible place tous les êtres humains sous le même besoin de grâce : tous ont péché (Romains 3.23)."
-          ]
-        },
-        {
-          "titre": "Pardon, restauration et justice",
-          "paragraphes": [
-            "Beaucoup de croyants portent des blessures ou des fautes dans le domaine de la sexualité et de la vie : relations passées, avortement, addiction à la pornographie, infidélité. L’Évangile annonce que le sang de Jésus purifie de tout péché (1 Jean 1.7-9). Paul écrit aux Corinthiens, après une liste de péchés sexuels et autres : Et c’est là ce que vous étiez, quelques-uns de vous. Mais vous avez été lavés, mais vous avez été sanctifiés, mais vous avez été justifiés au nom du Seigneur Jésus-Christ, et par l’Esprit de notre Dieu (1 Corinthiens 6.11). L’Église doit être un lieu où l’on peut confesser, recevoir le pardon et être accompagné vers la liberté.",
-            "Mais le pardon n’annule pas la justice envers les victimes. Lorsque des abus sexuels se produisent, en particulier sur des enfants ou des personnes vulnérables, l’Église doit croire et protéger la victime, l’orienter vers une aide médicale et psychologique, signaler les faits aux autorités comme la loi l’exige, et ne jamais couvrir un agresseur, même s’il est un responsable respecté. Dieu est le père des orphelins, le défenseur des veuves (Psaume 68.6) ; son Église ne peut pas se ranger du côté des puissants contre les faibles."
-          ]
-        }
-      ],
-      "citations": [
-        {
-          "ref": "Genèse 1.27",
-          "texte": "Dieu créa l’homme à son image, il le créa à l’image de Dieu, il créa l’homme et la femme."
-        },
-        {
-          "ref": "Genèse 9.6",
-          "texte": "Si quelqu’un verse le sang de l’homme, par l’homme son sang sera versé ; car Dieu a fait l’homme à son image."
-        },
-        {
-          "ref": "Psaume 139.13-14",
-          "texte": "C’est toi qui as formé mes reins, qui m’as tissé dans le sein de ma mère. Je te loue de ce que je suis une créature si merveilleuse. Tes œuvres sont admirables, et mon âme le reconnaît bien."
-        },
-        {
-          "ref": "Matthieu 19.6",
-          "texte": "Ainsi ils ne sont plus deux, mais ils sont une seule chair. Que l’homme donc ne sépare pas ce que Dieu a joint."
-        },
-        {
-          "ref": "1 Corinthiens 6.19-20",
-          "texte": "Ne savez-vous pas que votre corps est le temple du Saint-Esprit qui est en vous, que vous avez reçu de Dieu, et que vous ne vous appartenez point à vous-mêmes ? Car vous avez été rachetés à un grand prix. Glorifiez donc Dieu dans votre corps et dans votre esprit, qui appartiennent à Dieu."
-        }
-      ],
-      "application": [
-        {
-          "titre": "Accompagner une grossesse difficile",
-          "paragraphes": [
-            "Une jeune fille de l’église est enceinte hors mariage et envisage l’avortement par peur de la honte et de la pauvreté. Plutôt que de l’exclure ou de l’humilier publiquement, la communauté peut l’entourer : écoute, accompagnement à l’hôpital, aide matérielle, soutien de sa famille, et accompagnement spirituel. Une église qui protège la vie doit aussi devenir un lieu où une femme en détresse se sent en sécurité pour garder son enfant."
-          ]
-        },
-        {
-          "titre": "Auprès des malades et des personnes âgées",
-          "paragraphes": [
-            "Dans des sociétés où les personnes âgées sont parfois abandonnées ou accusées de sorcellerie, et où les malades en fin de vie sont isolés, l’Église peut témoigner de la valeur de toute vie. Visitez les malades, soutenez les familles qui accompagnent un mourant, défendez les personnes âgées accusées injustement. Les soignants chrétiens peuvent être des témoins de compassion et de respect de la vie dans leurs services."
-          ]
-        },
-        {
-          "titre": "Avec les jeunes et la sexualité",
-          "paragraphes": [
-            "Les jeunes reçoivent une éducation sexuelle à travers internet, les séries et les copains, souvent bien avant d’en entendre parler à l’église. Le silence n’est pas une solution. Créez des espaces sûrs où l’on peut parler de sexualité, de pureté, de consentement, de pornographie et de relations amoureuses à la lumière de la Bible, avec des responsables formés, en séparant les âges et en informant les parents."
-          ]
-        },
-        {
-          "titre": "Répondre avec douceur sur les réseaux sociaux",
-          "paragraphes": [
-            "Lorsqu’un débat éthique enflamme les réseaux, beaucoup de chrétiens répondent avec colère, insultes ou moqueries. Pierre nous demande d’être toujours prêts à nous défendre devant quiconque, mais avec douceur et respect (1 Pierre 3.15-16). Avant de publier, demandez-vous : mon message reflète-t-il la grâce et la vérité de Jésus ? Une conversation privée et respectueuse est souvent plus utile qu’un commentaire public agressif."
-          ]
-        },
-        {
-          "titre": "Dans le couple",
-          "paragraphes": [
-            "La fidélité conjugale se protège au quotidien : prendre du temps l’un pour l’autre, parler ouvertement, éviter les situations ambiguës avec un collègue ou un ancien amour, être transparent sur son téléphone et ses messages, demander de l’aide à un couple mûr ou à un conseiller lorsque la relation traverse une crise. Les couples qui se savent fragiles ne doivent pas avoir honte de chercher du soutien : c’est un signe de sagesse, pas de faiblesse."
-          ]
-        },
-        {
-          "titre": "Pour les célibataires",
-          "paragraphes": [
-            "Les célibataires, jeunes ou plus âgés, subissent souvent une double pression : celle de la culture qui banalise les relations sexuelles hors mariage, et celle de la famille ou de l’église qui les presse de se marier à tout prix. La Bible honore le célibat comme une vocation possible (1 Corinthiens 7.7-8) et appelle à la chasteté. L’Église doit offrir aux célibataires une vraie famille spirituelle, des amitiés solides, des responsabilités, et non une place de second rang. Les responsables doivent aussi décourager les mariages précipités sous la pression sociale."
-          ]
-        }
-      ],
-      "etudeDeCas": {
-        "situation": "Jonathan, 19 ans, fidèle à la chorale depuis son enfance, confie au responsable de jeunesse qu’il ressent depuis longtemps une attirance pour les garçons. Il n’a jamais eu de relation, il veut suivre Christ, mais il a peur d’être rejeté si quelqu’un l’apprend. Il a entendu des membres de l’église faire des plaisanteries méprisantes sur ce sujet et il se demande s’il a sa place dans la communauté.",
-        "questions": [
-          "Comment le responsable peut-il tenir ensemble la grâce et la vérité dans sa réponse à Jonathan, à l’exemple de Jésus en Jean 8 ?",
-          "Que faudrait-il changer dans la culture de cette église pour qu’elle soit un lieu sûr pour des personnes comme Jonathan ?",
-          "Quels textes bibliques et quelles ressources d’accompagnement le responsable peut-il proposer ?"
-        ]
-      },
-      "reflexion": [
-        "Considérez-vous chaque personne que vous rencontrez comme une image de Dieu, quelle que soit sa condition ?",
-        "Votre manière de parler des questions de sexualité reflète-t-elle à la fois la vérité et la compassion ?",
-        "Y a-t-il dans votre vie un domaine de la sexualité que vous devez soumettre à Dieu ?",
-        "Que pourrait faire votre église pour soutenir concrètement les mères en difficulté et les personnes en fin de vie ?"
-      ],
-      "retenir": [
-        "L’être humain est créé à l’image de Dieu : sa vie est sacrée de la conception à la mort naturelle.",
-        "Le Psaume 139 montre que Dieu connaît et forme la personne avant sa naissance.",
-        "Jésus renvoie à la création : le mariage est l’union d’un homme et d’une femme, une seule chair.",
-        "Vérité et compassion vont ensemble : Jésus ne condamne pas la femme adultère, mais lui dit de ne plus pécher.",
-        "Une Église qui défend la vie doit accompagner concrètement les personnes en détresse."
-      ],
-      "memoriser": {
-        "ref": "Psaume 139.14",
-        "texte": "Je te loue de ce que je suis une créature si merveilleuse. Tes œuvres sont admirables, et mon âme le reconnaît bien."
-      },
-      "priere": "Dieu créateur, merci de m’avoir formé avec tant de soin et de m’avoir fait à ton image. Apprends-moi à respecter toute vie humaine, à glorifier ton nom dans mon corps, et à parler de ta vérité avec ta compassion. Donne-moi le courage des sages-femmes d’Égypte pour choisir la vie et la tendresse de Jésus pour relever ceux qui sont tombés. Au nom de Jésus. Amen."
-    },
-    {
-      "titre": "Numérique, médias et argent",
-      "lectures": [
-        {
-          "ref": "Philippiens 4.8-9",
-          "resume": "Penser à tout ce qui est vrai, honorable, juste, pur, aimable et digne de louange, et le mettre en pratique."
-        },
-        {
-          "ref": "Éphésiens 5.15-17",
-          "resume": "Se conduire avec sagesse, racheter le temps, car les jours sont mauvais, et comprendre la volonté du Seigneur."
-        },
-        {
-          "ref": "1 Timothée 6.6-10",
-          "resume": "La piété avec le contentement est un grand gain ; l’amour de l’argent est une racine de tous les maux."
-        },
-        {
-          "ref": "2 Rois 5.15-27",
-          "resume": "Élisée refuse les présents de Naaman ; Guéhazi les réclame par un mensonge et est frappé de la lèpre."
-        }
-      ],
-      "recit": {
-        "titre": "Guéhazi et l’argent de Naaman",
-        "ref": "2 Rois 5",
-        "paragraphes": [
-          "Naaman est le chef de l’armée du roi de Syrie, un homme puissant, honoré et vaillant, mais il est lépreux. Dans sa maison, une petite fille israélite, emmenée captive, sert sa femme. Elle dit simplement : Oh ! si mon seigneur était auprès du prophète qui est à Samarie, le prophète le guérirait de sa lèpre ! Naaman part donc, avec une lettre de son roi et une fortune en cadeaux : dix talents d’argent, six mille sicles d’or et dix vêtements de rechange.",
-          "Arrivé devant la maison d’Élisée avec ses chevaux et son char, Naaman s’attend à une cérémonie impressionnante. Mais Élisée ne sort même pas. Il lui fait dire par un messager : Va, et lave-toi sept fois dans le Jourdain. Naaman est furieux : les fleuves de Damas ne valent-ils pas mieux ? Ses serviteurs le raisonnent avec douceur : si le prophète t’avait demandé quelque chose de difficile, ne l’aurais-tu pas fait ? Naaman descend, se plonge sept fois dans le Jourdain, et sa chair redevient comme la chair d’un jeune enfant.",
-          "Bouleversé, Naaman retourne vers Élisée avec toute sa suite et confesse : Je reconnais qu’il n’y a point de Dieu sur toute la terre, si ce n’est en Israël. Il supplie le prophète d’accepter un présent. Élisée répond : L’Éternel, dont je suis le serviteur, est vivant ! je n’accepterai pas. Naaman insiste, Élisée refuse encore. Le prophète veut que ce païen comprenne que la grâce de Dieu ne s’achète pas. Naaman repart guéri, avec sa foi toute neuve.",
-          "Mais Guéhazi, le serviteur d’Élisée, se dit : Voici, mon maître a ménagé Naaman, ce Syrien. L’Éternel est vivant ! je vais courir après lui, et j’en obtiendrai quelque chose. Il court, et Naaman, le voyant, descend de son char pour l’accueillir. Guéhazi invente une histoire : deux jeunes fils de prophètes viennent d’arriver de la montagne d’Éphraïm, et mon maître demande pour eux un talent d’argent et deux vêtements de rechange. Naaman, heureux de pouvoir donner, insiste pour qu’il prenne deux talents, et fait porter le tout par deux serviteurs.",
-          "Guéhazi cache le butin dans sa maison, puis se présente devant son maître comme si de rien n’était. Élisée lui demande : D’où viens-tu, Guéhazi ? Il répond : Ton serviteur n’est allé nulle part. Le prophète révèle alors qu’il a vu en esprit toute la scène. Il demande : Est-ce le temps de prendre de l’argent et de prendre des vêtements ? Puis il annonce que la lèpre de Naaman s’attachera à Guéhazi et à sa descendance. Guéhazi sort de devant Élisée, blanc de lèpre comme la neige. Celui qui vivait aux côtés d’un grand homme de Dieu a tout perdu pour quelques talents d’argent."
-        ],
-        "lecons": [
-          "Le désir de gain peut aveugler même ceux qui sont proches des choses de Dieu.",
-          "Le premier mensonge en entraîne d’autres : Guéhazi ment à Naaman, puis à son maître.",
-          "En monnayant la grâce de Dieu, on défigure l’Évangile aux yeux des nouveaux croyants.",
-          "Dieu voit ce qui est caché ; l’intégrité vaut plus que toutes les richesses."
-        ]
-      },
-      "exegese": [
-        {
-          "titre": "Philippiens 4.8 : nourrir sa pensée",
-          "paragraphes": [
-            "Paul écrit aux Philippiens depuis la prison. Juste avant ce verset, il a invité les croyants à ne s’inquiéter de rien, mais à présenter leurs besoins à Dieu par la prière, et il a promis que la paix de Dieu garderait leurs cœurs et leurs pensées en Jésus-Christ (Philippiens 4.6-7). Le verset 8 commence par au reste, et il propose un programme pour la vie intérieure.",
-            "Paul énumère huit qualités : vrai, honorable, juste, pur, aimable, digne d’approbation, vertueux, digne de louange. Le verbe final, logizomai, traduit soit l’objet de vos pensées, signifie compter, calculer, prendre en considération de manière réfléchie. Ce n’est pas seulement éviter les mauvaises pensées ; c’est choisir activement de nourrir son esprit de ce qui est bon. Le verset 9 ajoute la mise en pratique : ce que vous avez appris, reçu et entendu de moi, et ce que vous avez vu en moi, pratiquez-le. Or ce que nous regardons et écoutons façonne ce que nous pensons, et ce que nous pensons façonne ce que nous faisons. Jésus disait déjà : L’œil est la lampe du corps (Matthieu 6.22)."
-          ]
-        },
-        {
-          "titre": "Éphésiens 5.15-16 : racheter le temps",
-          "paragraphes": [
-            "Dans Éphésiens 5, Paul oppose la vie dans les ténèbres et la vie dans la lumière. Au verset 15, il demande de se conduire avec circonspection, littéralement de regarder exactement comment on marche, comme des sages et non comme des insensés. Puis il ajoute : rachetez le temps, car les jours sont mauvais.",
-            "Le verbe exagorazô signifie racheter, acheter sur la place du marché, saisir une occasion en payant le prix. Le mot pour temps n’est pas chronos, le temps qui s’écoule, mais kairos, le moment favorable, l’occasion. Il s’agit donc de saisir chaque occasion de faire le bien, de ne pas la laisser filer. Dans un monde où les écrans et les applications sont conçus pour capter notre attention le plus longtemps possible, ce commandement prend une actualité frappante. Le verset 17 conclut : ne soyez pas inconsidérés, mais comprenez quelle est la volonté du Seigneur."
-          ]
-        },
-        {
-          "titre": "1 Timothée 6.6-10 : piété et contentement",
-          "paragraphes": [
-            "Paul écrit à Timothée, qui conduit l’Église d’Éphèse, une ville riche et commerçante. Certains enseignants y considéraient la piété comme une source de gain (1 Timothée 6.5) : ils utilisaient la religion pour s’enrichir. Paul retourne l’expression : c’est, en effet, une grande source de gain que la piété avec le contentement. Le mot autarkeia, contentement, désignait chez les philosophes l’état de celui qui se suffit à lui-même. Chez Paul, c’est la satisfaction de celui qui trouve en Christ sa vraie richesse (Philippiens 4.11-13).",
-            "Paul rappelle ensuite une vérité simple : nous n’avons rien apporté dans le monde, et nous n’en pouvons rien emporter. Si nous avons la nourriture et le vêtement, cela nous suffira. Puis il avertit : ceux qui veulent s’enrichir tombent dans la tentation, dans le piège, et dans beaucoup de désirs insensés et pernicieux. Le problème n’est pas l’argent en lui-même, mais le désir de s’enrichir à tout prix.",
-            "Au verset 10, Paul écrit : l’amour de l’argent est une racine de tous les maux. Le mot philarguria signifie littéralement amitié pour l’argent. Remarquez que le texte ne dit pas que l’argent est la racine de tous les maux, mais l’amour de l’argent ; et il dit une racine, sans article défini en grec, donc une source parmi d’autres, mais capable de produire toutes sortes de maux. Quelques-uns, en étant possédés, se sont égarés loin de la foi. Les versets 17 à 19 ne condamnent pas les riches, mais leur demandent de ne pas être orgueilleux, de ne pas mettre leur espérance dans des richesses incertaines, et d’être riches en bonnes œuvres et généreux."
-          ]
-        },
-        {
-          "titre": "2 Rois 5.26 : est-ce le temps de prendre de l’argent ?",
-          "paragraphes": [
-            "Le récit de Naaman se situe au IXᵉ siècle avant Jésus-Christ, à une époque de tensions répétées entre la Syrie et Israël. Le contraste est voulu par l’auteur : un général païen guéri qui confesse le vrai Dieu, et un serviteur israélite, proche d’un grand prophète, qui se perd par cupidité. L’étranger entre dans la bénédiction ; l’initié en sort. Jésus rappellera ce récit dans la synagogue de Nazareth : il y avait plusieurs lépreux en Israël du temps d’Élisée, et aucun ne fut purifié, si ce n’est Naaman le Syrien (Luc 4.27).",
-            "Le refus d’Élisée est solennel : L’Éternel, dont je suis le serviteur, est vivant ! Il emploie la formule du serment. Accepter le présent aurait pu laisser croire à Naaman que la guérison était un service payé, comme chez les devins de son pays. Guéhazi, lui, reprend la même formule, l’Éternel est vivant, pour justifier sa course après l’argent : il utilise le langage de la foi pour couvrir sa convoitise.",
-            "La question d’Élisée au verset 26 porte sur le moment : est-ce le temps de prendre de l’argent et des vêtements, puis des oliviers, des vignes, des brebis et des serviteurs ? Élisée lit dans le cœur de Guéhazi ses projets d’enrichissement. Il ne dit pas que la propriété est mauvaise, mais qu’il y a des moments où recevoir de l’argent trahit le témoignage. Le châtiment, la lèpre, est un renversement tragique : celui qui voulait la richesse de Naaman reçoit sa maladie."
-          ]
-        }
-      ],
-      "motsCles": [
-        {
-          "mot": "objet de vos pensées",
-          "langue": "grec",
-          "original": "logizomai",
-          "sens": "Compter, considérer de manière réfléchie ; choisir ce qui nourrit l’esprit."
-        },
-        {
-          "mot": "racheter",
-          "langue": "grec",
-          "original": "exagorazô",
-          "sens": "Acheter sur le marché, saisir une occasion en payant le prix."
-        },
-        {
-          "mot": "temps, occasion",
-          "langue": "grec",
-          "original": "kairos",
-          "sens": "Le moment favorable, l’occasion à saisir, par opposition au temps qui s’écoule."
-        },
-        {
-          "mot": "contentement",
-          "langue": "grec",
-          "original": "autarkeia",
-          "sens": "Satisfaction intérieure de celui qui trouve sa richesse en Dieu."
-        },
-        {
-          "mot": "amour de l’argent",
-          "langue": "grec",
-          "original": "philarguria",
-          "sens": "Attachement à l’argent ; une racine de toutes sortes de maux."
-        }
-      ],
-      "enseignement": [
-        {
-          "titre": "Le numérique : un outil puissant à maîtriser",
-          "paragraphes": [
-            "Le téléphone, internet et les réseaux sociaux ne sont pas mauvais en eux-mêmes. Ils permettent de lire la Bible dans des centaines de langues, de suivre des formations, de rester en lien avec la famille dispersée, d’annoncer l’Évangile à des milliers de personnes. Mais ce sont aussi des outils qui façonnent nos pensées, nos désirs et nos habitudes. Les applications sont conçues pour capter notre attention, et beaucoup de croyants passent bien plus de temps chaque jour sur leur écran que dans la Parole ou la prière.",
-            "Les dangers sont multiples : la pornographie accessible en un clic, la comparaison permanente avec la vie apparemment parfaite des autres, l’anxiété, les fausses informations et les rumeurs, les arnaques, le harcèlement en ligne, la perte du sommeil et de la concentration, et parfois l’addiction. Philippiens 4.8 nous invite à choisir ce que nous laissons entrer dans notre esprit. Le psalmiste disait : Je ne mettrai rien de mauvais devant mes yeux (Psaume 101.3).",
-            "Le principe de 1 Corinthiens 6.12 s’applique pleinement : je ne me laisserai asservir par quoi que ce soit. Si je ne peux pas passer une journée sans mon téléphone, si je le consulte avant même de prier le matin, si mes enfants n’obtiennent mon attention qu’après mon écran, alors l’outil est devenu un maître."
-          ]
-        },
-        {
-          "titre": "Protéger les enfants et les plus fragiles",
-          "paragraphes": [
-            "Les parents et les responsables ont une responsabilité particulière envers les enfants et les jeunes. Un enfant laissé seul avec un téléphone connecté peut être exposé à des contenus violents ou pornographiques, à des prédateurs, à des défis dangereux. Protéger les enfants est une responsabilité spirituelle : utiliser des contrôles parentaux, fixer des règles claires sur les horaires et les lieux d’utilisation, garder les écrans hors des chambres la nuit, parler ouvertement des dangers, et surtout montrer l’exemple. Les parents qui sont eux-mêmes collés à leur téléphone auront du mal à enseigner la modération à leurs enfants."
-          ]
-        },
-        {
-          "titre": "L’argent : serviteur ou maître",
-          "paragraphes": [
-            "Jésus a dit : Vous ne pouvez servir Dieu et Mammon (Matthieu 6.24). Mammon est un mot araméen qui désigne la richesse, presque personnifiée comme une divinité rivale. L’argent est un bon serviteur, mais un terrible maître. Le chrétien est appelé à travailler, à gagner sa vie honnêtement, à épargner, à donner généreusement et à gérer avec sagesse ce qu’il reçoit, en se souvenant que tout appartient à Dieu.",
-            "Le leader doit être particulièrement vigilant. Paul exige des anciens qu’ils ne soient pas amis de l’argent (1 Timothée 3.3). Pierre demande de paître le troupeau non pour un gain sordide, mais avec dévouement (1 Pierre 5.2). L’exploitation de la foi pour le gain, sous forme de promesses de richesse en échange d’offrandes, de ventes d’objets prétendument bénis, ou de pressions financières sur des fidèles pauvres, est une trahison de l’Évangile. Comme Élisée, le serviteur de Dieu doit montrer que la grâce ne s’achète pas.",
-            "Enfin, le leader enseigne le contentement. Dans un monde de publicité permanente, de jeux d’argent et de paris en ligne, de crédits faciles et de pression sociale pour paraître riche, apprendre à dire cela me suffit est un acte de foi et de liberté. Le contentement ne signifie pas la résignation face à l’injustice ou à la pauvreté, mais la paix de celui qui sait que Dieu pourvoit."
-          ]
-        },
-        {
-          "titre": "Travail, dettes et générosité",
-          "paragraphes": [
-            "La Bible ne glorifie ni la pauvreté ni la richesse ; elle enseigne une juste relation avec les biens. Le travail est une vocation donnée par Dieu dès la création (Genèse 2.15). Paul demande que celui qui dérobait ne dérobe plus, mais plutôt qu’il travaille, en faisant de ses mains ce qui est bien, pour avoir de quoi donner à celui qui est dans le besoin (Éphésiens 4.28). Le but du travail n’est pas seulement de s’enrichir, mais aussi de pouvoir donner.",
-            "La Bible met aussi en garde contre les dettes : celui qui emprunte est l’esclave de celui qui prête (Proverbes 22.7). Dans des sociétés où le crédit facile, les prêts entre membres de la famille et les tontines mal gérées causent beaucoup de conflits, le chrétien doit emprunter avec prudence, rembourser ce qu’il doit (Romains 13.8) et éviter de se porter garant à la légère. Enfin, la générosité est le meilleur remède contre l’amour de l’argent. Paul demande aux riches d’être généreux et prêts à partager (1 Timothée 6.18). Celui qui donne régulièrement apprend que l’argent est un outil au service de Dieu et du prochain, et non un dieu."
-          ]
-        }
-      ],
-      "citations": [
-        {
-          "ref": "Philippiens 4.8",
-          "texte": "Au reste, frères, que tout ce qui est vrai, tout ce qui est honorable, tout ce qui est juste, tout ce qui est pur, tout ce qui est aimable, tout ce qui mérite l’approbation, ce qui est vertueux et digne de louange, soit l’objet de vos pensées."
-        },
-        {
-          "ref": "Éphésiens 5.15-16",
-          "texte": "Prenez donc garde de vous conduire avec circonspection, non comme des insensés, mais comme des sages ; rachetez le temps, car les jours sont mauvais."
-        },
-        {
-          "ref": "1 Timothée 6.6-7",
-          "texte": "C’est, en effet, une grande source de gain que la piété avec le contentement ; car nous n’avons rien apporté dans le monde, et il est évident que nous n’en pouvons rien emporter ;"
-        },
-        {
-          "ref": "1 Timothée 6.10",
-          "texte": "Car l’amour de l’argent est une racine de tous les maux ; et quelques-uns, en étant possédés, se sont égarés loin de la foi, et se sont jeté eux-mêmes dans bien des tourments."
-        },
-        {
-          "ref": "Matthieu 6.24",
-          "texte": "Nul ne peut servir deux maîtres. Car, ou il haïra l’un, et aimera l’autre ; ou il s’attachera à l’un, et méprisera l’autre. Vous ne pouvez servir Dieu et Mammon."
-        }
-      ],
-      "application": [
-        {
-          "titre": "Faire le point sur son temps d’écran",
-          "paragraphes": [
-            "La plupart des téléphones indiquent le temps passé sur chaque application. Regardez honnêtement ces chiffres pendant une semaine. Puis prenez des décisions concrètes : pas de téléphone pendant le premier moment de la journée consacré à Dieu, pas d’écran pendant les repas en famille, désactiver les notifications inutiles, fixer une heure d’arrêt le soir. Un jeûne numérique de 24 heures permet de mesurer sa dépendance et de retrouver de la liberté."
-          ]
-        },
-        {
-          "titre": "Être une présence de lumière en ligne",
-          "paragraphes": [
-            "Avant de partager une information, vérifiez qu’elle est vraie. Avant de commenter, demandez-vous si votre message est honorable, juste et aimable. Refusez de relayer les rumeurs, les insultes et les vidéos humiliantes. Utilisez plutôt vos réseaux pour encourager, partager la Parole, témoigner avec humilité et soutenir les causes justes. Les jeunes chrétiens qui créent du contenu peuvent être de véritables missionnaires numériques."
-          ]
-        },
-        {
-          "titre": "Face aux jeux d’argent et aux promesses de richesse rapide",
-          "paragraphes": [
-            "Les paris sportifs, les loteries, les placements miracles et certains systèmes de vente pyramidale promettent une richesse rapide, et ils attirent particulièrement les jeunes et les personnes en difficulté. La Bible enseigne plutôt le travail patient : celui qui amasse peu à peu l’augmente (Proverbes 13.11). Avant tout investissement, demandez conseil, vérifiez, et méfiez-vous de ce qui paraît trop beau pour être vrai."
-          ]
-        },
-        {
-          "titre": "Dans le ministère",
-          "paragraphes": [
-            "Le leader qui reçoit des cadeaux, des enveloppes ou des avantages doit se poser la question d’Élisée : est-ce le temps de prendre de l’argent ? Il doit refuser tout ce qui pourrait le rendre redevable ou donner l’impression que la grâce de Dieu s’achète. Il doit aussi éviter un train de vie ostentatoire qui scandalise des fidèles qui peinent à nourrir leurs enfants. La simplicité et la générosité du leader sont un puissant enseignement."
-          ]
-        },
-        {
-          "titre": "En famille : une charte numérique",
-          "paragraphes": [
-            "Rédigez ensemble, parents et enfants, une petite charte de la maison : heures où les écrans sont permis, lieux sans téléphone comme la table et les chambres la nuit, applications autorisées selon l’âge, règle de transparence sur les mots de passe pour les plus jeunes, et engagement à parler à un parent de tout contenu choquant ou de tout message inquiétant. Relisez-la chaque année et ajustez-la à l’âge des enfants."
-          ]
-        },
-        {
-          "titre": "Dans la précarité",
-          "paragraphes": [
-            "Pour ceux qui vivent dans la précarité, le chômage ou l’incertitude des papiers, parler de contentement peut sembler cruel. Le contentement biblique n’est pas l’acceptation de l’injustice : l’Église doit aussi agir, partager, aider à trouver du travail et défendre les droits des plus faibles. Mais il libère de la honte et de l’envie, et il protège contre les solutions désespérées comme les prêts usuriers, les trafics ou les promesses de prospérité en échange d’offrandes. Dieu connaît nos besoins (Matthieu 6.32) et il prend soin de ceux qui cherchent premièrement son royaume."
-          ]
-        }
-      ],
-      "etudeDeCas": {
-        "situation": "Pasteur Élie dirige une église dynamique. Un homme d’affaires récemment converti, très riche, propose de financer entièrement le nouveau bâtiment de l’église et d’offrir une voiture au pasteur. En échange, il souhaite discrètement être nommé ancien rapidement et que l’église ne parle plus de certaines pratiques commerciales douteuses de son entreprise. Plusieurs membres poussent le pasteur à accepter : c’est une bénédiction de Dieu, disent-ils.",
-        "questions": [
-          "Quels parallèles voyez-vous avec l’histoire d’Élisée, de Naaman et de Guéhazi ?",
-          "Quels principes de 1 Timothée 6 et de Matthieu 6.24 s’appliquent à cette situation ?",
-          "Comment pasteur Élie peut-il répondre avec sagesse, en accueillant ce nouveau converti sans compromettre l’intégrité de l’église ?"
-        ]
-      },
-      "reflexion": [
-        "Combien de temps passez-vous chaque jour sur votre téléphone, et combien dans la Parole et la prière ?",
-        "Ce que vous regardez et écoutez nourrit-il votre esprit de ce qui est vrai, pur et aimable ?",
-        "L’argent est-il votre serviteur ou votre maître ? À quoi le voyez-vous ?",
-        "Savez-vous dire : cela me suffit ?"
-      ],
-      "retenir": [
-        "Ce que nous regardons façonne nos pensées : choisir ce qui est vrai, pur et aimable (Philippiens 4.8).",
-        "Racheter le temps, c’est saisir les occasions de faire le bien, en refusant d’être asservi par les écrans.",
-        "Protéger les enfants dans le monde numérique est une responsabilité spirituelle.",
-        "L’amour de l’argent est une racine de tous les maux ; la piété avec le contentement est un grand gain.",
-        "Comme Élisée, le serviteur de Dieu montre que la grâce de Dieu ne s’achète pas."
-      ],
-      "memoriser": {
-        "ref": "Philippiens 4.8",
-        "texte": "Au reste, frères, que tout ce qui est vrai, tout ce qui est honorable, tout ce qui est juste, tout ce qui est pur, tout ce qui est aimable, tout ce qui mérite l’approbation, ce qui est vertueux et digne de louange, soit l’objet de vos pensées."
-      },
-      "priere": "Seigneur, garde mon cœur et mes yeux. Libère-moi de tout ce qui m’asservit, écrans ou argent. Apprends-moi à racheter le temps, à nourrir mon esprit de ce qui est vrai et pur, et à trouver en toi mon contentement. Fais de moi un serviteur intègre, comme Élisée, qui montre que ta grâce ne s’achète pas. Au nom de Jésus. Amen."
-    }
-  ],
-  "pratique": {
-    "consigne": "Anime un temps d’échange (groupe, jeunesse, famille) sur une question éthique actuelle à la lumière de la Bible. Décris ici la question, les textes utilisés et les conclusions.",
-    "etapes": [
-      "Choisis une question éthique concrète qui préoccupe ton groupe (par exemple : réseaux sociaux, argent, sexualité, fraude, respect de la vie).",
-      "Prépare trois à cinq passages bibliques et classe la question : commandement clair, principe biblique ou question de liberté.",
-      "Anime l’échange en appliquant les cinq questions du discernement, en laissant chacun s’exprimer avec respect.",
-      "Veille à tenir ensemble la vérité et la compassion, sans mépris pour personne.",
-      "Rédige les conclusions du groupe et une décision pratique que chacun peut prendre."
-    ]
+ "id": "n4m5",
+ "titre": "Éthique chrétienne contemporaine",
+ "objectif": "Discerner et répondre bibliquement aux questions éthiques de notre temps.",
+ "introduction": [
+  "Chaque génération de chrétiens doit répondre à des questions que la génération précédente ne se posait pas, ou pas de la même manière. Nos grands-parents ne connaissaient ni les réseaux sociaux, ni la fécondation in vitro, ni les débats publics sur l’identité de genre, ni l’argent virtuel. Pourtant, la Parole de Dieu reste suffisante pour nous équiper à toute bonne œuvre (2 Timothée 3.16-17). Elle ne contient pas un verset pour chaque situation moderne, mais elle nous donne des principes, des exemples et surtout une manière de penser renouvelée par l’Esprit.",
+  "Le leader chrétien est souvent interrogé : Pasteur, est-ce que je peux ? Que dit la Bible sur… ? Les jeunes, les parents, les professionnels de santé, les commerçants attendent des réponses claires, mais aussi justes et compatissantes. Deux dangers guettent : le légalisme, qui multiplie les interdits humains sans fondement biblique, et le relativisme, qui renonce à dire ce que Dieu dit par peur de déplaire.",
+  "Ce module vous apprend d’abord à discerner, avec une méthode fondée sur Romains 12, Hébreux 5 et 1 Corinthiens 10. Puis il applique ce discernement à deux grands domaines : la vie, le corps et la sexualité d’une part ; le numérique, les médias et l’argent d’autre part. Trois récits vous accompagnent : Daniel à la cour de Babylone, les sages-femmes d’Égypte face à l’ordre de Pharaon, et Guéhazi face à la tentation de l’argent.",
+  "Sur certaines questions, les chrétiens évangéliques fidèles à la Bible n’arrivent pas tous aux mêmes conclusions. Dans ce cas, nous présentons les positions avec respect. Sur d’autres, l’Écriture est claire, et nous devons tenir la vérité avec fermeté et douceur, comme Jésus, plein de grâce et de vérité (Jean 1.14)."
+ ],
+ "lecturesObligatoires": [
+  {
+   "ref": "Romains 12.1-2",
+   "consigne": "Notez ce que Paul demande de faire de notre corps et de notre intelligence, et dans quel but."
   },
-  "examen": [
+  {
+   "ref": "Hébreux 5.11-14",
+   "consigne": "Relevez la différence entre le lait et la nourriture solide, et ce qui exerce le jugement."
+  },
+  {
+   "ref": "1 Corinthiens 10.23-33",
+   "consigne": "Listez les critères que Paul utilise pour décider de ce qu’il fait ou non."
+  },
+  {
+   "ref": "Daniel 1",
+   "consigne": "Observez ce que Daniel accepte de Babylone et ce qu’il refuse, et comment il le fait."
+  },
+  {
+   "ref": "Psaume 139",
+   "consigne": "Relevez tout ce que le psalmiste dit de Dieu et de la formation de l’être humain."
+  },
+  {
+   "ref": "Exode 1.8-22",
+   "consigne": "Décrivez le dilemme des sages-femmes et la manière dont Dieu les récompense."
+  },
+  {
+   "ref": "Matthieu 19.3-12",
+   "consigne": "Notez à quel texte Jésus renvoie pour parler du mariage et pourquoi."
+  },
+  {
+   "ref": "Jean 8.1-11",
+   "consigne": "Observez comment Jésus unit la grâce et la vérité face à la femme adultère."
+  },
+  {
+   "ref": "2 Rois 5",
+   "consigne": "Comparez l’attitude d’Élisée et celle de Guéhazi face aux présents de Naaman."
+  },
+  {
+   "ref": "1 Timothée 6.3-19",
+   "consigne": "Relevez ce que Paul dit du contentement, de l’amour de l’argent et des riches."
+  }
+ ],
+ "lecons": [
+  {
+   "titre": "Comment discerner",
+   "lectures": [
     {
-      "q": "Selon Romains 12.2, comment le croyant peut-il discerner la volonté de Dieu ?",
-      "choix": [
-        "En suivant la majorité",
-        "En consultant les médias",
-        "En étant transformé par le renouvellement de l’intelligence",
-        "En suivant ses émotions"
-      ],
-      "bonne": 2,
-      "explication": "Romains 12.2 : soyez transformés par le renouvellement de l’intelligence, afin que vous discerniez quelle est la volonté de Dieu."
+     "ref": "Romains 12.1-2",
+     "resume": "Offrir son corps à Dieu, refuser de se conformer au siècle et être transformé par le renouvellement de l’intelligence pour discerner la volonté de Dieu."
     },
     {
-      "q": "Le verbe grec dokimazô, traduit discerner en Romains 12.2, signifie :",
-      "choix": [
-        "Éprouver, tester puis approuver ce qui est authentique",
-        "Deviner au hasard",
-        "Imiter les autres",
-        "Oublier le passé"
-      ],
-      "bonne": 0,
-      "explication": "Dokimazô évoque le test d’un métal précieux : on éprouve, puis on approuve ce qui a résisté à l’épreuve."
+     "ref": "Hébreux 5.11-14",
+     "resume": "Les croyants mûrs ont le jugement exercé par l’usage à discerner le bien et le mal."
     },
     {
-      "q": "Selon Hébreux 5.14, comment le jugement des croyants mûrs devient-il capable de discerner le bien et le mal ?",
-      "choix": [
-        "Par l’âge seulement",
-        "Par l’étude de la philosophie",
-        "Par une révélation soudaine",
-        "Il est exercé par l’usage, comme par un entraînement"
-      ],
-      "bonne": 3,
-      "explication": "Hébreux 5.14 : ceux dont le jugement est exercé par l’usage ; le verbe gumnazô évoque l’entraînement de l’athlète."
+     "ref": "1 Corinthiens 10.23-31",
+     "resume": "Tout est permis mais tout n’est pas utile ni édifiant ; chercher l’intérêt d’autrui et tout faire pour la gloire de Dieu."
     },
     {
-      "q": "Que répond Paul au slogan des Corinthiens : Tout est permis ?",
-      "choix": [
-        "Rien n’est permis",
-        "Tout n’est pas utile, et tout n’édifie pas",
-        "Tout est permis, donc faites ce que vous voulez",
-        "Seuls les apôtres peuvent décider"
-      ],
-      "bonne": 1,
-      "explication": "1 Corinthiens 10.23 : Tout est permis, mais tout n’est pas utile ; tout est permis, mais tout n’édifie pas."
-    },
-    {
-      "q": "Quel est le critère suprême de 1 Corinthiens 10.31 pour tous nos actes ?",
-      "choix": [
-        "Faire ce qui nous plaît",
-        "Faire ce que les anciens faisaient",
-        "Faire ce que la loi civile autorise",
-        "Faire tout pour la gloire de Dieu"
-      ],
-      "bonne": 3,
-      "explication": "1 Corinthiens 10.31 : soit que vous mangiez, soit que vous buviez, soit que vous fassiez quelque autre chose, faites tout pour la gloire de Dieu."
-    },
-    {
-      "q": "À Babylone, qu’est-ce que Daniel a refusé ?",
-      "choix": [
-        "D’apprendre la langue des Chaldéens",
-        "De servir le roi",
-        "De se souiller par les mets et le vin du roi",
-        "De porter un nouveau nom"
-      ],
-      "bonne": 2,
-      "explication": "Daniel 1.8 : Daniel résolut de ne pas se souiller par les mets du roi et par le vin dont le roi buvait."
-    },
-    {
-      "q": "Quelle solution Daniel a-t-il proposée à l’intendant ?",
-      "choix": [
-        "Un essai de dix jours avec des légumes et de l’eau",
-        "S’enfuir de Babylone",
-        "Une grève de la faim",
-        "Se plaindre directement au roi"
-      ],
-      "bonne": 0,
-      "explication": "Daniel 1.12 : Éprouve tes serviteurs pendant dix jours, et qu’on nous donne des légumes à manger et de l’eau à boire."
-    },
-    {
-      "q": "Selon Romains 14, comment faut-il traiter les questions discutables, comme certaines habitudes alimentaires ?",
-      "choix": [
-        "En imposant ses convictions à tous",
-        "Chacun doit être pleinement persuadé dans son esprit, sans juger les autres",
-        "En votant à l’église",
-        "En les interdisant toutes"
-      ],
-      "bonne": 1,
-      "explication": "Romains 14.5 : que chacun ait en son esprit une pleine conviction ; et Romains 14.1 demande de ne pas discuter des opinions."
-    },
-    {
-      "q": "Pourquoi Genèse 9.6 considère-t-il le meurtre comme un crime si grave ?",
-      "choix": [
-        "Parce que la loi de Moïse l’interdit",
-        "Parce que c’est une tradition",
-        "Parce que la société en souffre",
-        "Parce que Dieu a fait l’homme à son image"
-      ],
-      "bonne": 3,
-      "explication": "Genèse 9.6 : Si quelqu’un verse le sang de l’homme, par l’homme son sang sera versé ; car Dieu a fait l’homme à son image."
-    },
-    {
-      "q": "Que montre le Psaume 139.13-16 au sujet de la vie avant la naissance ?",
-      "choix": [
-        "Que Dieu forme la personne dans le sein de sa mère et la voit déjà",
-        "Que Dieu ne s’intéresse à l’homme qu’après sa naissance",
-        "Que l’embryon n’a aucune valeur",
-        "Que la vie commence à l’âge adulte"
-      ],
-      "bonne": 0,
-      "explication": "Psaume 139.13,16 : tu m’as tissé dans le sein de ma mère ; quand je n’étais qu’une masse informe, tes yeux me voyaient."
-    },
-    {
-      "q": "Pourquoi les sages-femmes Schiphra et Pua ont-elles désobéi à l’ordre de Pharaon ?",
-      "choix": [
-        "Par peur des Hébreux",
-        "Parce qu’elles voulaient de l’argent",
-        "Parce qu’elles craignaient Dieu",
-        "Parce que Moïse le leur avait demandé"
-      ],
-      "bonne": 2,
-      "explication": "Exode 1.17 : les sages-femmes craignirent Dieu, et ne firent point ce que leur avait dit le roi d’Égypte ; elles laissèrent vivre les enfants."
-    },
-    {
-      "q": "Pour répondre à la question sur le divorce en Matthieu 19, à quel texte Jésus renvoie-t-il ?",
-      "choix": [
-        "À la tradition des rabbins",
-        "Au récit de la création dans la Genèse",
-        "Au livre des Proverbes",
-        "Aux lois romaines"
-      ],
-      "bonne": 1,
-      "explication": "Matthieu 19.4-5 : N’avez-vous pas lu que le créateur, au commencement, fit l’homme et la femme… ? Jésus cite Genèse 1.27 et 2.24."
-    },
-    {
-      "q": "Quelles paroles Jésus adresse-t-il à la femme surprise en adultère ?",
-      "choix": [
-        "Je ne te condamne pas non plus : va, et ne pèche plus",
-        "Tu mérites d’être lapidée",
-        "Ton péché n’a aucune importance",
-        "Va offrir un sacrifice au temple"
-      ],
-      "bonne": 0,
-      "explication": "Jean 8.11 : Je ne te condamne pas non plus : va, et ne pèche plus. Jésus unit la grâce et la vérité."
-    },
-    {
-      "q": "Vrai ou faux : selon l’enseignement biblique, tenir la vérité sur la sexualité autorise le mépris envers ceux qui vivent autrement.",
-      "choix": [
-        "Vrai",
-        "Faux"
-      ],
-      "bonne": 1,
-      "explication": "Toute personne est créée à l’image de Dieu (Genèse 1.27) ; Jésus, plein de grâce et de vérité, accueille sans mépris tout en appelant à la sainteté."
-    },
-    {
-      "q": "Une jeune fille de l’église envisage l’avortement par peur de la honte et de la pauvreté. Quelle réponse est la plus conforme à l’éthique biblique de la vie ?",
-      "choix": [
-        "L’exclure publiquement de l’église",
-        "Lui faire honte devant ses parents",
-        "Lui dire que ce n’est pas l’affaire de l’église",
-        "L’entourer, l’écouter et l’aider concrètement à accueillir son enfant"
-      ],
-      "bonne": 3,
-      "explication": "Une Église qui défend la vie (Psaume 139) doit aussi accompagner concrètement les mères en détresse, avec la compassion de Jésus."
-    },
-    {
-      "q": "Selon Philippiens 4.8, sur quoi nos pensées doivent-elles se porter ?",
-      "choix": [
-        "Les rumeurs et les nouvelles",
-        "Ce qui est vrai, honorable, juste, pur et aimable",
-        "Les peurs pour l’avenir",
-        "Les défauts des autres"
-      ],
-      "bonne": 1,
-      "explication": "Philippiens 4.8 : que tout ce qui est vrai, honorable, juste, pur, aimable… soit l’objet de vos pensées."
-    },
-    {
-      "q": "Dans Éphésiens 5.16, que signifie racheter le temps ?",
-      "choix": [
-        "Travailler sans jamais se reposer",
-        "Acheter des montres",
-        "Saisir les occasions favorables de faire le bien",
-        "Rattraper le temps perdu en dormant moins"
-      ],
-      "bonne": 2,
-      "explication": "Exagorazô signifie racheter, saisir ; kairos désigne le moment favorable. Il faut saisir chaque occasion de faire le bien."
-    },
-    {
-      "q": "Selon 1 Timothée 6.10, qu’est-ce qui est une racine de tous les maux ?",
-      "choix": [
-        "L’argent",
-        "Le travail",
-        "La pauvreté",
-        "L’amour de l’argent"
-      ],
-      "bonne": 3,
-      "explication": "1 Timothée 6.10 : l’amour de l’argent est une racine de tous les maux ; ce n’est pas l’argent lui-même."
-    },
-    {
-      "q": "Comment Élisée a-t-il réagi lorsque Naaman, guéri, a voulu lui offrir un présent ?",
-      "choix": [
-        "Il a refusé, pour montrer que la grâce de Dieu ne s’achète pas",
-        "Il l’a accepté avec joie",
-        "Il a demandé le double",
-        "Il l’a envoyé au roi d’Israël"
-      ],
-      "bonne": 0,
-      "explication": "2 Rois 5.16 : L’Éternel, dont je suis le serviteur, est vivant ! je n’accepterai pas."
-    },
-    {
-      "q": "Quelle a été la conséquence du mensonge et de la cupidité de Guéhazi ?",
-      "choix": [
-        "Il devint riche et respecté",
-        "La lèpre de Naaman s’attacha à lui",
-        "Il succéda à Élisée",
-        "Il partit vivre en Syrie"
-      ],
-      "bonne": 1,
-      "explication": "2 Rois 5.27 : la lèpre de Naaman s’attacha à Guéhazi, qui sortit de devant Élisée blanc de lèpre comme la neige."
+     "ref": "Daniel 1",
+     "resume": "Daniel et ses compagnons, déportés à Babylone, refusent de se souiller par les mets du roi et Dieu les honore."
     }
+   ],
+   "recit": {
+    "titre": "Daniel à la table du roi",
+    "ref": "Daniel 1",
+    "paragraphes": [
+     "Vers 605 avant Jésus-Christ, Nebucadnetsar, roi de Babylone, assiège Jérusalem. Parmi les déportés se trouvent de jeunes hommes de famille noble : Daniel, Hanania, Mischaël et Azaria. Ils sont choisis parce qu’ils sont sans défaut, beaux, intelligents et instruits. Le roi a un plan : pendant trois ans, ils apprendront la langue et la littérature des Chaldéens, mangeront à sa table, puis entreront à son service. C’est un programme d’intégration complet, conçu pour faire de ces jeunes Juifs de parfaits fonctionnaires babyloniens.",
+     "Le chef des eunuques change même leurs noms. Daniel, qui signifie Dieu est mon juge, devient Beltschatsar. Hanania devient Schadrac, Mischaël devient Méschac, Azaria devient Abed-Nego. Les nouveaux noms font référence aux divinités babyloniennes. Pourtant, le texte ne dit pas que Daniel a protesté contre l’école ou contre le changement de nom. Il étudie la culture de Babylone, il apprend sa langue, il accepte de servir un roi païen.",
+     "Mais il y a un point sur lequel Daniel trace une limite. Le texte dit : Daniel résolut de ne pas se souiller par les mets du roi et par le vin dont le roi buvait. Littéralement, il posa dans son cœur. Ce n’est pas une réaction impulsive ; c’est une décision intérieure, réfléchie. Nous ne savons pas exactement pourquoi la nourriture du roi était souillante : peut-être parce qu’elle n’était pas conforme aux lois alimentaires de Moïse, peut-être parce qu’elle était offerte aux idoles, peut-être parce que manger à la table du roi signifiait une dépendance totale envers lui. Ce qui est clair, c’est que Daniel a discerné que là, sa fidélité à Dieu était en jeu.",
+     "La manière dont Daniel agit est aussi instructive que sa décision. Il ne fait pas de scandale, il ne méprise pas ses supérieurs. Il demande respectueusement au chef des eunuques de ne pas l’obliger à se souiller. Dieu lui fait trouver grâce et faveur auprès de cet homme, mais celui-ci a peur : si le roi voit les jeunes hommes plus maigres que les autres, il risque sa tête. Daniel propose alors une solution sage à l’intendant : faites un essai de dix jours. Donnez-nous des légumes à manger et de l’eau à boire, puis comparez.",
+     "Au bout de dix jours, Daniel et ses compagnons ont meilleur visage et plus d’embonpoint que tous les jeunes gens qui mangent les mets du roi. L’intendant accepte de continuer. Dieu accorde à ces quatre jeunes gens de la science, de l’intelligence dans toutes les lettres et de la sagesse ; Daniel reçoit même la capacité d’expliquer les visions et les songes. Lorsque le roi les examine, il les trouve dix fois supérieurs à tous les magiciens et astrologues de son royaume. Daniel restera au service des rois jusqu’à la première année du roi Cyrus, soit environ soixante-dix ans de fidélité au cœur d’un empire païen."
+    ],
+    "lecons": [
+     "Le discernement chrétien ne rejette pas tout de la culture : Daniel étudie et sert, mais il refuse ce qui compromet sa fidélité à Dieu.",
+     "La fidélité commence par une décision du cœur, prise avant la tentation.",
+     "On peut dire non avec respect, sagesse et créativité, en proposant une alternative.",
+     "Dieu honore ceux qui l’honorent, même dans un environnement hostile."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Romains 12.1-2 : une intelligence renouvelée",
+     "paragraphes": [
+      "Les chapitres 1 à 11 de l’épître aux Romains exposent les compassions de Dieu : le péché universel, la justification par la foi, la vie dans l’Esprit, le plan de Dieu pour Israël et les nations. Le chapitre 12 commence par donc : la vie chrétienne est une réponse à la grâce. Paul nous exhorte à offrir nos corps comme un sacrifice vivant, saint, agréable à Dieu, ce qui sera de notre part un culte raisonnable. L’éthique chrétienne n’est pas d’abord une liste de règles ; c’est une vie entière offerte en adoration.",
+      "Au verset 2, Paul utilise deux verbes opposés. Le premier, suschêmatizô, traduit vous conformer, évoque le fait de prendre la forme extérieure d’un moule, de suivre le schéma du siècle présent. Le second, metamorphoô, traduit être transformés, est le verbe utilisé pour la transfiguration de Jésus (Matthieu 17.2) : un changement qui vient de l’intérieur et devient visible. Les deux verbes sont au présent et au passif : c’est un processus continu, et c’est Dieu qui agit en nous, par sa Parole et son Esprit.",
+      "Le moyen de cette transformation est le renouvellement de l’intelligence, le nous, c’est-à-dire la manière de penser, de juger, d’évaluer. Le but est que nous discernions la volonté de Dieu. Le verbe dokimazô signifie éprouver, tester, comme on teste un métal précieux pour en vérifier la pureté, puis approuver ce qui a résisté à l’épreuve. Le croyant renouvelé apprend à tester les idées, les pratiques et les décisions pour reconnaître ce qui est bon, agréable et parfait aux yeux de Dieu."
+     ]
+    },
+    {
+     "titre": "Hébreux 5.14 : un jugement exercé",
+     "paragraphes": [
+      "L’auteur de l’épître aux Hébreux s’adresse à des chrétiens d’origine juive tentés de revenir en arrière. Il leur reproche d’être devenus lents à comprendre : alors qu’ils devraient être des maîtres depuis longtemps, ils ont encore besoin de lait, c’est-à-dire des premiers rudiments de la Parole. Puis il affirme : la nourriture solide est pour les hommes faits, teleioi, les adultes, les mûrs.",
+      "Ces adultes ont les sens, aisthêtêria, exercés par l’usage à discerner le bien et le mal. Le mot aisthêtêrion désigne les organes de perception, comme les sens physiques. Le participe gegumnasmena vient de gumnazô, qui a donné le mot gymnastique. Le discernement est comparé à un muscle qui se développe par l’entraînement. On ne devient pas capable de discerner en une journée ; on le devient par une pratique régulière de la Parole, de la prière, de la réflexion et de l’obéissance. Le leader doit donc à la fois donner des réponses et former les croyants à discerner par eux-mêmes."
+     ]
+    },
+    {
+     "titre": "1 Corinthiens 10.23-31 : liberté et amour",
+     "paragraphes": [
+      "À Corinthe, une question pratique divisait l’Église : peut-on manger de la viande qui a été offerte aux idoles avant d’être vendue au marché ? Certains disaient : Les idoles ne sont rien, donc tout m’est permis. Paul reprend leur slogan, tout est permis, mais il le corrige deux fois : tout n’est pas utile, sumpherei, avantageux ; tout n’édifie pas, oikodomei, construit. Ailleurs, il ajoute : je ne me laisserai asservir par quoi que ce soit (1 Corinthiens 6.12).",
+      "Paul donne ensuite des consignes très concrètes. Au marché, mange sans poser de questions par motif de conscience, car la terre est au Seigneur. Chez un non-croyant, mange ce qu’on te sert. Mais si quelqu’un te dit que c’est une viande sacrifiée et que ta liberté risque de blesser sa conscience, abstiens-toi, par amour pour lui. Le principe : que personne ne cherche son propre intérêt, mais que chacun cherche celui d’autrui (verset 24).",
+      "Le verset 31 donne le critère suprême : soit que vous mangiez, soit que vous buviez, soit que vous fassiez quelque autre chose, faites tout pour la gloire de Dieu. Même les gestes les plus ordinaires entrent dans le champ de l’éthique chrétienne. Le verset 32 ajoute : ne soyez en scandale ni aux Juifs, ni aux Grecs, ni à l’Église de Dieu. Notre liberté est réelle, mais elle est toujours au service de l’amour et du témoignage."
+     ]
+    },
+    {
+     "titre": "Daniel 1.8 : une décision posée dans le cœur",
+     "paragraphes": [
+      "Le livre de Daniel s’ouvre sur une catastrophe : la troisième année du règne de Jojakim, roi de Juda, Nebucadnetsar assiège Jérusalem, et le Seigneur livre entre ses mains le roi et une partie des ustensiles du temple, qui sont emportés dans la maison de son dieu (Daniel 1.1-2). Le texte affirme d’emblée que c’est le Seigneur qui livre : même en exil, Dieu reste maître de l’histoire. Toute la suite du chapitre montre comment des croyants peuvent rester fidèles au cœur d’un empire qui veut les absorber.",
+      "L’expression traduite Daniel résolut est littéralement Daniel posa sur son cœur. Le cœur, lev en hébreu, est le centre de la volonté, des pensées et des décisions. Daniel ne réagit pas au dernier moment ; il fixe une conviction intérieure. Le verbe se souiller, gâal, signifie rendre impur au sens rituel. La raison exacte de la souillure n’est pas précisée, et les commentateurs proposent plusieurs hypothèses : viandes interdites par la loi, aliments consacrés aux idoles, ou refus symbolique de dépendre entièrement de la table royale. Mais le fait que Daniel accepte par ailleurs l’éducation babylonienne montre un discernement fin : il ne rejette pas tout, il identifie le point précis où sa fidélité à Dieu est engagée.",
+      "Le verset 9 ajoute : Dieu fit trouver à Daniel faveur et grâce devant le chef des eunuques. La fidélité de Daniel ne le rend pas arrogant ; elle s’accompagne de respect, et Dieu agit dans le cœur de ses supérieurs. Le chapitre se termine en montrant que Dieu donne la sagesse à ceux qui l’honorent (verset 17), écho de 1 Samuel 2.30 : j’honorerai celui qui m’honore."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "se conformer",
+     "langue": "grec",
+     "original": "suschêmatizô",
+     "sens": "Prendre la forme d’un moule extérieur, suivre le modèle du monde présent."
+    },
+    {
+     "mot": "être transformé",
+     "langue": "grec",
+     "original": "metamorphoô",
+     "sens": "Changement profond venant de l’intérieur ; même verbe que pour la transfiguration."
+    },
+    {
+     "mot": "discerner",
+     "langue": "grec",
+     "original": "dokimazô",
+     "sens": "Éprouver, tester comme un métal, puis approuver ce qui est authentique."
+    },
+    {
+     "mot": "exercé",
+     "langue": "grec",
+     "original": "gumnazô",
+     "sens": "Entraîner, exercer comme un athlète ; le discernement se développe par la pratique."
+    },
+    {
+     "mot": "édifier",
+     "langue": "grec",
+     "original": "oikodomeô",
+     "sens": "Construire une maison ; ce qui fait grandir la foi et la communauté."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Trois catégories de questions",
+     "paragraphes": [
+      "Pour discerner, il est utile de distinguer trois catégories. Premièrement, ce que la Bible commande ou interdit clairement : ne pas tuer, ne pas commettre d’adultère, ne pas voler, ne pas mentir, aimer son prochain, prendre soin du pauvre, honorer ses parents. Sur ces points, il n’y a pas à débattre ; il faut obéir, même quand la culture dit autrement.",
+      "Deuxièmement, les questions sur lesquelles la Bible ne donne pas de commandement direct, mais des principes clairs qui permettent de conclure : par exemple, la pornographie n’est pas nommée dans la Bible, mais Jésus enseigne que regarder une femme pour la convoiter, c’est déjà commettre l’adultère dans son cœur (Matthieu 5.28). Troisièmement, les questions de liberté, que Paul appelle des opinions ou des choses discutables (Romains 14.1) : certaines habitudes alimentaires, certains styles musicaux, la célébration de certaines fêtes, certains choix de loisirs. Là, que chacun ait en son esprit une pleine conviction (Romains 14.5), sans juger celui qui fait un autre choix.",
+      "Beaucoup d’erreurs viennent de la confusion entre ces catégories. Le légalisme transforme les questions de liberté en commandements, et impose aux autres ses propres scrupules. Le relativisme transforme les commandements clairs en questions de liberté. Le leader mûr sait distinguer et enseigne à distinguer."
+     ]
+    },
+    {
+     "titre": "Cinq questions pour discerner",
+     "paragraphes": [
+      "En rassemblant les textes de cette leçon, on peut proposer cinq questions pratiques à se poser devant une décision. Un : est-ce conforme à l’Écriture ? Y a-t-il un commandement ou un principe biblique qui s’applique ? Deux : est-ce utile ? Cela me fait-il du bien, à moi et aux autres, ou est-ce une perte de temps, d’argent, de santé ? Trois : est-ce que cela édifie ? Cela fait-il grandir ma foi et celle des autres, ou risque-t-il de faire chuter un plus faible ? Quatre : est-ce que cela me rend esclave ? Suis-je encore libre de dire non ? Cinq : est-ce pour la gloire de Dieu ? Puis-je le faire en le remerciant et en le présentant devant lui ?",
+      "On peut ajouter deux questions complémentaires. Ai-je la paix dans ma conscience ? Car tout ce qui n’est pas le produit d’une conviction est un péché (Romains 14.23). Et qu’en pensent des chrétiens mûrs que je respecte ? Car le salut est dans le grand nombre des conseillers (Proverbes 11.14). Ces questions ne sont pas une formule magique ; elles sont un outil pour exercer notre jugement, comme le demande Hébreux 5.14."
+     ]
+    },
+    {
+     "titre": "Les moyens du discernement",
+     "paragraphes": [
+      "Le discernement n’est pas une technique froide. Il naît d’une relation vivante avec Dieu. Paul prie pour que l’amour des Philippiens augmente de plus en plus en connaissance et en pleine intelligence pour le discernement des choses les meilleures (Philippiens 1.9-10). Remarquez l’ordre : l’amour grandit en connaissance. Ceux qui aiment Dieu et leur prochain et qui connaissent la Parole développent un instinct spirituel.",
+      "Les moyens sont simples : la lecture régulière et intelligente de toute la Bible, la prière qui demande la sagesse (Jacques 1.5), la communion avec d’autres croyants qui peuvent nous avertir, l’écoute de la conscience éclairée par la Parole, et l’obéissance dans les petites choses. Plus on obéit, plus on voit clair ; plus on désobéit, plus la conscience s’endurcit (1 Timothée 4.2)."
+     ]
+    },
+    {
+     "titre": "La conscience et la liberté de l’autre",
+     "paragraphes": [
+      "Dans Romains 14 et 1 Corinthiens 8 à 10, Paul aborde des désaccords entre croyants qu’il appelle les forts et les faibles. Les forts ont compris que les aliments ne rendent pas impurs ; les faibles ont encore des scrupules. Paul donne raison aux forts sur le fond, mais il leur demande de ne pas mépriser les faibles, et aux faibles de ne pas juger les forts. Il ajoute un principe très fort : ne cause pas, par ton aliment, la perte de celui pour lequel Christ est mort (Romains 14.15).",
+      "Pour le leader, cela signifie deux choses. D’abord, il doit respecter les consciences et ne pas forcer quelqu’un à faire ce qu’il considère comme un péché, même si la chose est en elle-même permise. Ensuite, il doit instruire patiemment les consciences pour qu’elles soient éclairées par la Parole, et non par des traditions humaines ou des peurs. Une conscience bien formée est un trésor ; une conscience déformée, trop large ou trop étroite, peut causer beaucoup de souffrance. Le but est l’amour : recherchons ce qui contribue à la paix et à l’édification mutuelle (Romains 14.19)."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Romains 12.2",
+     "texte": "Ne vous conformez pas au siècle présent, mais soyez transformés par le renouvellement de l’intelligence, afin que vous discerniez quelle est la volonté de Dieu, ce qui est bon, agréable et parfait."
+    },
+    {
+     "ref": "Hébreux 5.14",
+     "texte": "Mais la nourriture solide est pour les hommes faits, pour ceux dont le jugement est exercé par l’usage à discerner ce qui est bien et ce qui est mal."
+    },
+    {
+     "ref": "1 Corinthiens 10.23",
+     "texte": "Tout est permis, mais tout n’est pas utile ; tout est permis, mais tout n’édifie pas."
+    },
+    {
+     "ref": "1 Corinthiens 10.31",
+     "texte": "Soit donc que vous mangiez, soit que vous buviez, soit que vous fassiez quelque autre chose, faites tout pour la gloire de Dieu."
+    },
+    {
+     "ref": "Daniel 1.8",
+     "texte": "Daniel résolut de ne pas se souiller par les mets du roi et par le vin dont le roi buvait, et il pria le chef des eunuques de ne pas l’obliger à se souiller."
+    }
+   ],
+   "application": [
+    {
+     "titre": "À l’école et à l’université",
+     "paragraphes": [
+      "Comme Daniel, beaucoup d’étudiants chrétiens étudient dans des institutions qui enseignent des philosophies contraires à la foi. Il ne s’agit pas de fuir l’école, mais d’étudier sérieusement, d’exceller, de comprendre les idées de son temps tout en gardant ses convictions. Il faudra parfois dire non : à la fraude aux examens, au bizutage humiliant, aux faveurs sexuelles en échange de notes, à la corruption pour obtenir un diplôme. Prenez cette décision dans votre cœur avant que la pression arrive."
+     ]
+    },
+    {
+     "titre": "Au travail",
+     "paragraphes": [
+      "Un comptable à qui l’on demande de falsifier des chiffres, une commerçante tentée de tricher sur les poids, un fonctionnaire à qui l’on propose une enveloppe, un employé à qui l’on demande de mentir aux clients : ce sont des situations de Daniel modernes. Comme lui, cherchez d’abord une alternative respectueuse, expliquez votre position sans arrogance, proposez une solution honnête. Et si la pression continue, soyez prêt à en payer le prix, en sachant que Dieu voit."
+     ]
+    },
+    {
+     "titre": "Dans les questions de liberté",
+     "paragraphes": [
+      "Sur les questions discutables, comme certaines fêtes culturelles, certains styles vestimentaires ou certaines musiques, évitez de juger les autres. Appliquez les cinq questions pour vous-même, respectez ceux qui arrivent à d’autres conclusions, et renoncez à votre liberté si elle blesse un frère plus faible. Le leader doit éviter de transformer ses préférences en lois de l’Église."
+     ]
+    },
+    {
+     "titre": "Face à la pression culturelle",
+     "paragraphes": [
+      "La pression du siècle présent prend aujourd’hui la forme des médias, des influenceurs, des séries, de la publicité et parfois des lois. Elle peut venir de l’Occident sécularisé comme des traditions locales contraires à l’Évangile : sorcellerie, rites de veuvage humiliants, pressions familiales sur la dot ou sur le mariage. Le chrétien ne rejette pas sa culture en bloc ; il la passe au crible de la Parole, garde ce qui est bon et refuse ce qui contredit Christ."
+     ]
+    },
+    {
+     "titre": "En famille : former les enfants au discernement",
+     "paragraphes": [
+      "Les parents ne pourront pas toujours contrôler ce que leurs enfants voient et entendent. Il faut donc leur apprendre à discerner par eux-mêmes. Regardez parfois un film ou une vidéo avec eux, puis discutez : qu’est-ce qui était vrai ? Qu’est-ce qui était contraire à la Parole ? Comment Jésus aurait-il réagi ? Expliquez les raisons de vos règles plutôt que d’imposer seulement des interdits. Un enfant qui comprend pourquoi sera mieux armé qu’un enfant qui obéit seulement par peur."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Grâce, 24 ans, vient d’être embauchée dans une agence de communication. Elle est brillante et appréciée. Son patron lui demande de rédiger de faux avis clients très positifs sur internet pour un client important, en disant que tout le monde le fait. Elle hésite : elle a besoin de ce travail pour aider sa famille, et elle ne veut pas paraître fanatique. Une amie de l’église lui dit que ce n’est pas grave, une autre qu’elle doit démissionner immédiatement.",
+    "questions": [
+     "Dans quelle catégorie de questions éthiques cette situation se trouve-t-elle ? Justifiez avec la Bible.",
+     "Appliquez les cinq questions du discernement à cette décision.",
+     "Comment Grâce pourrait-elle s’inspirer de la manière d’agir de Daniel face au chef des eunuques ?"
+    ]
+   },
+   "reflexion": [
+    "Dans quels domaines de votre vie vous conformez-vous au siècle présent sans vous en rendre compte ?",
+    "Avez-vous déjà pris une décision ferme dans votre cœur, comme Daniel, avant qu’une tentation se présente ?",
+    "Avez-vous tendance au légalisme ou au relativisme ?",
+    "Qui sont les chrétiens mûrs que vous consultez avant une décision importante ?"
+   ],
+   "retenir": [
+    "Le discernement naît d’une intelligence renouvelée par la Parole et l’Esprit (Romains 12.2).",
+    "Le jugement spirituel s’exerce par la pratique, comme un muscle (Hébreux 5.14).",
+    "Distinguer : commandements clairs, principes bibliques, questions de liberté.",
+    "Cinq questions : conforme à l’Écriture ? utile ? édifiant ? m’asservit-il ? pour la gloire de Dieu ?",
+    "Comme Daniel, on peut participer à la culture tout en refusant ce qui compromet la fidélité à Dieu."
+   ],
+   "memoriser": {
+    "ref": "Romains 12.2",
+    "texte": "Ne vous conformez pas au siècle présent, mais soyez transformés par le renouvellement de l’intelligence, afin que vous discerniez quelle est la volonté de Dieu, ce qui est bon, agréable et parfait."
+   },
+   "priere": "Père, renouvelle mon intelligence par ta Parole. Donne-moi un cœur ferme comme celui de Daniel, pour discerner ce qui te plaît et refuser ce qui te déshonore. Garde-moi du légalisme et du compromis. Que je fasse tout pour ta gloire, au travail, à la maison et partout. Au nom de Jésus. Amen.",
+   "illustration": "lampe",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Paul appelle à être transformé par le renouvellement de l'intelligence, afin de discerner la volonté de Dieu.",
+      "vrai": true,
+      "explication": "« Ne vous conformez pas au siècle présent, mais soyez transformés par le renouvellement de l'intelligence » (Romains 12.2)."
+     },
+     {
+      "affirmation": "Le discernement est un don instantané qui n'a pas besoin d'être exercé.",
+      "vrai": false,
+      "explication": "Les hommes faits ont « le jugement… exercé par l'usage à discerner ce qui est bien et ce qui est mal » (Hébreux 5.14)."
+     },
+     {
+      "affirmation": "Daniel a participé à la formation babylonienne, mais il a refusé de se souiller avec les mets du roi.",
+      "vrai": true,
+      "explication": "Daniel apprit les lettres des Chaldéens, mais « résolut de ne pas se souiller » (Daniel 1.4-8)."
+     },
+     {
+      "affirmation": "Tout ce qui est permis est forcément utile et bon pour moi.",
+      "vrai": false,
+      "explication": "« Tout m'est permis, mais tout n'est pas utile ; … je ne me laisserai asservir par quoi que ce soit » (1 Corinthiens 6.12)."
+     },
+     {
+      "affirmation": "Sur les questions de liberté, chacun doit agir selon une conviction bien établie et respecter la conscience de l'autre.",
+      "vrai": true,
+      "explication": "« Que chacun ait en son esprit une pleine conviction » et ne pas juger son frère (Romains 14.5, 13)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque question : commandement clair de la Bible, principe biblique à appliquer avec sagesse, ou question de liberté ?",
+     "categories": [
+      "Commandement clair",
+      "Principe à appliquer avec sagesse",
+      "Question de liberté"
+     ],
+     "elements": [
+      {
+       "texte": "Le patron de Grâce lui demande de rédiger de faux avis de clients satisfaits.",
+       "categorie": 0,
+       "explication": "« Tu ne porteras point de faux témoignage » ; renoncez au mensonge (Exode 20.16 ; Éphésiens 4.25)."
+      },
+      {
+       "texte": "Manger ou non de la viande, ou observer certains jours de jeûne.",
+       "categorie": 2,
+       "explication": "« Tel fait une distinction entre les jours ; tel autre les estime tous égaux. Que chacun ait en son esprit une pleine conviction » (Romains 14.2-5)."
+      },
+      {
+       "texte": "Combien d'heures passer chaque jour sur les jeux vidéo.",
+       "categorie": 1,
+       "explication": "« Je ne me laisserai asservir par quoi que ce soit » ; racheter le temps (1 Corinthiens 6.12 ; Éphésiens 5.16)."
+      },
+      {
+       "texte": "Choisir la couleur de ses vêtements ou son style de coiffure.",
+       "categorie": 2,
+       "explication": "La Bible appelle à la pudeur et à la modestie, mais ne fixe ni couleur ni coupe (1 Timothée 2.9 ; 1 Pierre 3.3-4)."
+      },
+      {
+       "texte": "Voler du matériel au travail parce que « tout le monde le fait ».",
+       "categorie": 0,
+       "explication": "« Que celui qui dérobait ne dérobe plus » (Éphésiens 4.28 ; Exode 20.15)."
+      },
+      {
+       "texte": "Accepter un emploi bien payé mais qui empêche toute vie de famille et d'église.",
+       "categorie": 1,
+       "explication": "Se demander : est-ce utile, édifiant, pour la gloire de Dieu ? (1 Corinthiens 10.23, 31)."
+      },
+      {
+       "texte": "Écouter un style de musique moderne pour louer Dieu.",
+       "categorie": 2,
+       "explication": "Ce qui compte, ce sont les paroles et l'esprit : « tout ce qui est vrai, tout ce qui est honorable… » (Philippiens 4.8 ; Colossiens 3.16)."
+      },
+      {
+       "texte": "Suivre une tendance en ligne qui consiste à se moquer cruellement d'une personne.",
+       "categorie": 0,
+       "explication": "« Qu'il ne sorte de votre bouche aucune parole mauvaise » (Éphésiens 4.29)."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "titre": "Vie, corps et sexualité",
+   "lectures": [
+    {
+     "ref": "Psaume 139.13-16",
+     "resume": "Dieu a formé et tissé l’être humain dans le sein de sa mère ; ses yeux le voyaient avant sa naissance."
+    },
+    {
+     "ref": "Genèse 1.26-28 ; 9.6",
+     "resume": "L’homme et la femme sont créés à l’image de Dieu ; c’est pourquoi verser le sang de l’homme est un crime grave."
+    },
+    {
+     "ref": "Matthieu 19.4-6",
+     "resume": "Jésus renvoie à la création : Dieu fit l’homme et la femme, et les deux deviennent une seule chair."
+    },
+    {
+     "ref": "Jean 8.1-11",
+     "resume": "Face à la femme adultère, Jésus refuse la condamnation et appelle à ne plus pécher."
+    }
+   ],
+   "recit": {
+    "titre": "Schiphra et Pua, les sages-femmes qui craignaient Dieu",
+    "ref": "Exode 1.8-22",
+    "paragraphes": [
+     "Plusieurs siècles se sont écoulés depuis que Joseph a sauvé l’Égypte de la famine. Un nouveau roi s’élève, qui n’a pas connu Joseph. Il voit que les Israélites se multiplient et il a peur : s’il y avait une guerre, ils pourraient se joindre aux ennemis. Il décide donc de les opprimer : travaux forcés, briques, mortier, travaux des champs. Mais plus on les accable, plus ils se multiplient. La peur de Pharaon devient de la haine.",
+     "Alors le roi d’Égypte convoque deux sages-femmes des Hébreux. La Bible a gardé leurs noms : Schiphra et Pua, alors qu’elle ne nous donne même pas le nom du Pharaon. L’ordre est terrible : Quand vous accoucherez les femmes des Hébreux, si c’est un garçon, faites-le mourir ; si c’est une fille, laissez-la vivre. Le pouvoir le plus puissant du monde ordonne à deux femmes, dont le métier est d’accueillir la vie, de devenir des instruments de mort.",
+     "Le texte dit simplement : Mais les sages-femmes craignirent Dieu, et ne firent point ce que leur avait dit le roi d’Égypte ; elles laissèrent vivre les enfants. Leur crainte de Dieu était plus grande que leur crainte du roi. Elles savaient que chaque nouveau-né appartenait au Créateur, et qu’aucun ordre humain ne pouvait leur donner le droit de lui ôter la vie.",
+     "Pharaon les convoque à nouveau : Pourquoi avez-vous agi ainsi, et avez-vous laissé vivre les enfants ? Elles répondent que les femmes des Hébreux ne sont pas comme les Égyptiennes : elles sont vigoureuses et accouchent avant l’arrivée de la sage-femme. Les commentateurs discutent pour savoir si cette réponse était entièrement exacte ou si elle était une ruse pour protéger les enfants. Le texte ne s’arrête pas sur ce point ; il souligne leur crainte de Dieu.",
+     "Dieu fit du bien aux sages-femmes, et le peuple multiplia et devint très nombreux. Parce que les sages-femmes avaient craint Dieu, Dieu fit prospérer leurs maisons. Pharaon, furieux, ordonne alors à tout son peuple de jeter dans le fleuve tous les garçons nouveau-nés. C’est dans ce contexte de mort que naîtra Moïse, sauvé par le courage d’autres femmes : sa mère, sa sœur et même la fille de Pharaon. Dieu se sert de femmes ordinaires qui choisissent la vie pour préparer la libération de tout un peuple."
+    ],
+    "lecons": [
+     "La crainte de Dieu donne le courage de résister aux ordres injustes, même venant des puissants.",
+     "Chaque vie humaine, même celle d’un nouveau-né sans défense, a une valeur infinie aux yeux de Dieu.",
+     "Dieu remarque et honore les personnes qui protègent la vie, même quand l’histoire oublie le nom des rois.",
+     "Des gestes de fidélité discrets peuvent préparer de grandes délivrances."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Genèse 1.27 et 9.6 : l’image de Dieu",
+     "paragraphes": [
+      "Le fondement de toute l’éthique biblique de la vie se trouve dans les premières pages de la Bible. Genèse 1.27 affirme : Dieu créa l’homme à son image, il le créa à l’image de Dieu, il créa l’homme et la femme. Le mot hébreu tselem, image, désignait dans le monde ancien la statue qu’un roi plaçait dans ses territoires pour signaler sa présence et son autorité. L’être humain est le représentant de Dieu sur la terre. Le mot demout, ressemblance, au verset 26, souligne une parenté unique entre Dieu et l’homme.",
+      "Cette dignité n’est pas liée aux capacités : intelligence, force, santé, utilité économique. Elle est donnée à tout être humain, homme et femme, riche et pauvre, valide ou handicapé, jeune ou vieux. Genèse 9.6, après le déluge, en tire une conséquence : Si quelqu’un verse le sang de l’homme, par l’homme son sang sera versé ; car Dieu a fait l’homme à son image. Même après la chute, l’image de Dieu demeure. Attenter à la vie humaine, c’est attaquer l’image de Dieu lui-même."
+     ]
+    },
+    {
+     "titre": "Psaume 139.13-16 : la vie avant la naissance",
+     "paragraphes": [
+      "Le Psaume 139 est une méditation de David sur la connaissance, la présence et la puissance créatrice de Dieu. Aux versets 13 à 16, il décrit sa propre formation dans le sein de sa mère. C’est toi qui as formé mes reins : les reins, en hébreu kilyah, désignent dans la Bible le plus intime de la personne, ses émotions et ses pensées profondes. Qui m’as tissé dans le sein de ma mère : l’image est celle d’un tisserand qui travaille avec soin.",
+      "Au verset 16, David dit : Quand je n’étais qu’une masse informe, tes yeux me voyaient. Le mot golem, masse informe, embryon, n’apparaît qu’ici dans la Bible. Avant même que le corps soit formé, Dieu voyait déjà la personne et ses jours étaient inscrits dans son livre. Le psalmiste parle de lui-même, je, dès ce stade : il y a continuité entre l’embryon et l’adulte. Ce texte n’est pas un traité de biologie, mais il montre que Dieu considère la vie à naître comme une personne qu’il connaît et dont il prend soin. Jérémie 1.5 et Luc 1.41-44, où Jean-Baptiste tressaille dans le sein d’Élisabeth, vont dans le même sens."
+     ]
+    },
+    {
+     "titre": "Matthieu 19.4-6 et Jean 8.1-11 : vérité et grâce",
+     "paragraphes": [
+      "En Matthieu 19, des pharisiens interrogent Jésus sur le divorce pour l’éprouver. Jésus ne répond pas en citant les opinions des rabbins de son temps, mais en remontant à la création : N’avez-vous pas lu que le créateur, au commencement, fit l’homme et la femme ? Il cite Genèse 1.27 puis Genèse 2.24. Le verbe proskollaô, s’attacher, signifie coller, souder. Les deux deviennent mia sarx, une seule chair. Le mariage, selon Jésus, est l’union d’un homme et d’une femme, exclusive et pour la vie, et c’est Dieu lui-même qui les joint. La sexualité est un don de Dieu destiné à s’épanouir dans ce cadre.",
+      "Jean 8.1-11 montre l’autre face de l’attitude de Jésus. Les scribes et les pharisiens amènent une femme surprise en adultère et veulent la lapider. Ils l’utilisent comme un piège contre Jésus. Jésus écrit sur le sol, puis dit : Que celui de vous qui est sans péché jette le premier la pierre. Les accusateurs se retirent un à un, en commençant par les plus âgés. Jésus dit alors à la femme : Je ne te condamne pas non plus : va, et ne pèche plus. Il ne nie pas le péché, puisqu’il demande de ne plus pécher ; mais il offre d’abord la grâce et protège la dignité de la femme contre la violence. La vérité sans grâce écrase ; la grâce sans vérité ne transforme pas. Jésus est plein de grâce et de vérité (Jean 1.14)."
+     ]
+    },
+    {
+     "titre": "1 Corinthiens 6.12-20 : le corps appartient au Seigneur",
+     "paragraphes": [
+      "Corinthe était une ville portuaire réputée pour sa débauche. Certains croyants pensaient que le corps n’avait pas d’importance spirituelle : seul l’esprit comptait. Ils disaient : les aliments sont pour le ventre, et le ventre pour les aliments, et ils appliquaient le même raisonnement à la sexualité. Paul répond avec force que le corps n’est pas pour l’impudicité, mais pour le Seigneur, et le Seigneur pour le corps (verset 13). Dieu a ressuscité le Seigneur et il nous ressuscitera aussi : le corps a un avenir éternel.",
+      "Le mot porneia, traduit impudicité, désigne toute relation sexuelle en dehors du mariage. Paul explique que l’union sexuelle n’est jamais un simple acte physique : celui qui s’attache à une prostituée devient un seul corps avec elle, et il cite Genèse 2.24, les deux deviendront une seule chair. La sexualité engage toute la personne. Puis il donne un ordre clair : fuyez l’impudicité (verset 18). Le verbe pheugô, fuir, rappelle Joseph qui laisse son vêtement entre les mains de la femme de Potiphar et s’enfuit (Genèse 39.12).",
+      "Enfin, Paul donne la raison la plus profonde : votre corps est le temple du Saint-Esprit, vous ne vous appartenez point à vous-mêmes, car vous avez été rachetés à un grand prix. Le mot naos désigne le sanctuaire, le lieu même de la présence de Dieu. L’éthique chrétienne du corps ne vient pas du mépris de la sexualité, mais de la conscience d’appartenir à Christ."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "image",
+     "langue": "hébreu",
+     "original": "tselem",
+     "sens": "Représentation, statue royale ; l’homme représente Dieu sur la terre."
+    },
+    {
+     "mot": "masse informe, embryon",
+     "langue": "hébreu",
+     "original": "golem",
+     "sens": "L’être humain avant sa forme achevée, déjà vu et connu de Dieu (Psaume 139.16)."
+    },
+    {
+     "mot": "s’attacher",
+     "langue": "grec",
+     "original": "proskollaô",
+     "sens": "Coller, souder ; l’union exclusive et durable du mariage."
+    },
+    {
+     "mot": "une seule chair",
+     "langue": "grec",
+     "original": "mia sarx",
+     "sens": "L’union totale de l’homme et de la femme dans le mariage, corps et vie."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "La vie humaine est sacrée",
+     "paragraphes": [
+      "Parce que l’être humain est créé à l’image de Dieu, la vie humaine est sacrée depuis la conception jusqu’à la mort naturelle. Ce principe éclaire plusieurs questions actuelles. Sur l’avortement, la position évangélique historique considère que l’enfant à naître est une vie humaine que nous devons protéger. Mais cette conviction doit s’accompagner d’une grande compassion pour les femmes en détresse : grossesse après un viol, pauvreté, abandon par le père, pression familiale. L’Église qui dit non à l’avortement doit dire oui à l’accompagnement concret des mères et des enfants. Et elle doit annoncer le pardon complet de Dieu aux femmes et aux hommes qui portent le poids d’un avortement passé.",
+      "Sur l’euthanasie et le suicide assisté, la même conviction s’applique : nous n’avons pas le droit de mettre fin intentionnellement à une vie humaine, même par compassion apparente. Cela ne signifie pas qu’il faut prolonger à tout prix les traitements lorsque la mort approche inévitablement. Accepter qu’un malade meure naturellement, en soulageant sa douleur et en l’entourant d’amour, n’est pas la même chose que provoquer sa mort. Les soins palliatifs et la présence fidèle auprès des mourants sont une belle expression de l’amour chrétien.",
+      "Sur les questions de bioéthique, comme la procréation médicalement assistée, les évangéliques ne sont pas tous d’accord sur tous les détails. Beaucoup considèrent légitime d’aider un couple marié à avoir un enfant, tout en s’interrogeant sérieusement sur le sort des embryons surnuméraires et sur le recours à des tiers donneurs. Le principe à garder est le respect de la vie humaine dès son commencement et le cadre du mariage."
+     ]
+    },
+    {
+     "titre": "Le corps et la sexualité selon Dieu",
+     "paragraphes": [
+      "La Bible a une vision très positive du corps et de la sexualité. Dieu a créé l’homme et la femme et il a vu que cela était très bon (Genèse 1.31). Le Cantique des cantiques célèbre l’amour conjugal. Le corps du croyant est le temple du Saint-Esprit (1 Corinthiens 6.19-20). Mais parce que la sexualité est précieuse, Dieu lui donne un cadre : le mariage d’un homme et d’une femme. En dehors de ce cadre, la Bible appelle à la chasteté : pas de relations sexuelles avant le mariage, fidélité totale dans le mariage.",
+      "Cette éthique concerne tout le monde, et pas seulement certaines catégories de personnes. La pornographie, l’adultère, la fornication, le harcèlement, la prostitution, les abus sexuels sont des péchés graves qui touchent aussi l’Église. Le leader doit en parler avec clarté, sans hypocrisie, en commençant par sa propre vie."
+     ]
+    },
+    {
+     "titre": "Sexualité et identité : vérité et compassion",
+     "paragraphes": [
+      "Les questions d’orientation sexuelle et d’identité de genre sont aujourd’hui au cœur des débats publics. La position évangélique historique, fondée sur la création de l’homme et de la femme et sur l’enseignement de Jésus en Matthieu 19, considère que les relations sexuelles entre personnes du même sexe ne correspondent pas au dessein de Dieu, et que notre corps sexué fait partie de ce que Dieu nous a donné. Mais tenir cette conviction ne donne aucun droit au mépris, à la moquerie ou à la violence. Toute personne, quelle que soit son histoire, est créée à l’image de Dieu et aimée de lui.",
+      "Beaucoup de personnes qui vivent des attirances homosexuelles ou un malaise profond avec leur identité souffrent en silence, y compris dans nos églises. Elles ont besoin d’écoute, d’amitié, d’accompagnement pastoral et parfois d’une aide médicale ou psychologique, pas de condamnation publique. Comme Jésus avec la femme adultère, l’Église est appelée à accueillir chacun pour l’amener à Christ, en tenant ensemble la grâce qui relève et la vérité qui transforme. Rappelons aussi que la Bible place tous les êtres humains sous le même besoin de grâce : tous ont péché (Romains 3.23)."
+     ]
+    },
+    {
+     "titre": "Pardon, restauration et justice",
+     "paragraphes": [
+      "Beaucoup de croyants portent des blessures ou des fautes dans le domaine de la sexualité et de la vie : relations passées, avortement, addiction à la pornographie, infidélité. L’Évangile annonce que le sang de Jésus purifie de tout péché (1 Jean 1.7-9). Paul écrit aux Corinthiens, après une liste de péchés sexuels et autres : Et c’est là ce que vous étiez, quelques-uns de vous. Mais vous avez été lavés, mais vous avez été sanctifiés, mais vous avez été justifiés au nom du Seigneur Jésus-Christ, et par l’Esprit de notre Dieu (1 Corinthiens 6.11). L’Église doit être un lieu où l’on peut confesser, recevoir le pardon et être accompagné vers la liberté.",
+      "Mais le pardon n’annule pas la justice envers les victimes. Lorsque des abus sexuels se produisent, en particulier sur des enfants ou des personnes vulnérables, l’Église doit croire et protéger la victime, l’orienter vers une aide médicale et psychologique, signaler les faits aux autorités comme la loi l’exige, et ne jamais couvrir un agresseur, même s’il est un responsable respecté. Dieu est le père des orphelins, le défenseur des veuves (Psaume 68.6) ; son Église ne peut pas se ranger du côté des puissants contre les faibles."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Genèse 1.27",
+     "texte": "Dieu créa l’homme à son image, il le créa à l’image de Dieu, il créa l’homme et la femme."
+    },
+    {
+     "ref": "Genèse 9.6",
+     "texte": "Si quelqu’un verse le sang de l’homme, par l’homme son sang sera versé ; car Dieu a fait l’homme à son image."
+    },
+    {
+     "ref": "Psaume 139.13-14",
+     "texte": "C’est toi qui as formé mes reins, qui m’as tissé dans le sein de ma mère. Je te loue de ce que je suis une créature si merveilleuse. Tes œuvres sont admirables, et mon âme le reconnaît bien."
+    },
+    {
+     "ref": "Matthieu 19.6",
+     "texte": "Ainsi ils ne sont plus deux, mais ils sont une seule chair. Que l’homme donc ne sépare pas ce que Dieu a joint."
+    },
+    {
+     "ref": "1 Corinthiens 6.19-20",
+     "texte": "Ne savez-vous pas que votre corps est le temple du Saint-Esprit qui est en vous, que vous avez reçu de Dieu, et que vous ne vous appartenez point à vous-mêmes ? Car vous avez été rachetés à un grand prix. Glorifiez donc Dieu dans votre corps et dans votre esprit, qui appartiennent à Dieu."
+    }
+   ],
+   "application": [
+    {
+     "titre": "Accompagner une grossesse difficile",
+     "paragraphes": [
+      "Une jeune fille de l’église est enceinte hors mariage et envisage l’avortement par peur de la honte et de la pauvreté. Plutôt que de l’exclure ou de l’humilier publiquement, la communauté peut l’entourer : écoute, accompagnement à l’hôpital, aide matérielle, soutien de sa famille, et accompagnement spirituel. Une église qui protège la vie doit aussi devenir un lieu où une femme en détresse se sent en sécurité pour garder son enfant."
+     ]
+    },
+    {
+     "titre": "Auprès des malades et des personnes âgées",
+     "paragraphes": [
+      "Dans des sociétés où les personnes âgées sont parfois abandonnées ou accusées de sorcellerie, et où les malades en fin de vie sont isolés, l’Église peut témoigner de la valeur de toute vie. Visitez les malades, soutenez les familles qui accompagnent un mourant, défendez les personnes âgées accusées injustement. Les soignants chrétiens peuvent être des témoins de compassion et de respect de la vie dans leurs services."
+     ]
+    },
+    {
+     "titre": "Avec les jeunes et la sexualité",
+     "paragraphes": [
+      "Les jeunes reçoivent une éducation sexuelle à travers internet, les séries et les copains, souvent bien avant d’en entendre parler à l’église. Le silence n’est pas une solution. Créez des espaces sûrs où l’on peut parler de sexualité, de pureté, de consentement, de pornographie et de relations amoureuses à la lumière de la Bible, avec des responsables formés, en séparant les âges et en informant les parents."
+     ]
+    },
+    {
+     "titre": "Répondre avec douceur sur les réseaux sociaux",
+     "paragraphes": [
+      "Lorsqu’un débat éthique enflamme les réseaux, beaucoup de chrétiens répondent avec colère, insultes ou moqueries. Pierre nous demande d’être toujours prêts à nous défendre devant quiconque, mais avec douceur et respect (1 Pierre 3.15-16). Avant de publier, demandez-vous : mon message reflète-t-il la grâce et la vérité de Jésus ? Une conversation privée et respectueuse est souvent plus utile qu’un commentaire public agressif."
+     ]
+    },
+    {
+     "titre": "Dans le couple",
+     "paragraphes": [
+      "La fidélité conjugale se protège au quotidien : prendre du temps l’un pour l’autre, parler ouvertement, éviter les situations ambiguës avec un collègue ou un ancien amour, être transparent sur son téléphone et ses messages, demander de l’aide à un couple mûr ou à un conseiller lorsque la relation traverse une crise. Les couples qui se savent fragiles ne doivent pas avoir honte de chercher du soutien : c’est un signe de sagesse, pas de faiblesse."
+     ]
+    },
+    {
+     "titre": "Pour les célibataires",
+     "paragraphes": [
+      "Les célibataires, jeunes ou plus âgés, subissent souvent une double pression : celle de la culture qui banalise les relations sexuelles hors mariage, et celle de la famille ou de l’église qui les presse de se marier à tout prix. La Bible honore le célibat comme une vocation possible (1 Corinthiens 7.7-8) et appelle à la chasteté. L’Église doit offrir aux célibataires une vraie famille spirituelle, des amitiés solides, des responsabilités, et non une place de second rang. Les responsables doivent aussi décourager les mariages précipités sous la pression sociale."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Jonathan, 19 ans, fidèle à la chorale depuis son enfance, confie au responsable de jeunesse qu’il ressent depuis longtemps une attirance pour les garçons. Il n’a jamais eu de relation, il veut suivre Christ, mais il a peur d’être rejeté si quelqu’un l’apprend. Il a entendu des membres de l’église faire des plaisanteries méprisantes sur ce sujet et il se demande s’il a sa place dans la communauté.",
+    "questions": [
+     "Comment le responsable peut-il tenir ensemble la grâce et la vérité dans sa réponse à Jonathan, à l’exemple de Jésus en Jean 8 ?",
+     "Que faudrait-il changer dans la culture de cette église pour qu’elle soit un lieu sûr pour des personnes comme Jonathan ?",
+     "Quels textes bibliques et quelles ressources d’accompagnement le responsable peut-il proposer ?"
+    ]
+   },
+   "reflexion": [
+    "Considérez-vous chaque personne que vous rencontrez comme une image de Dieu, quelle que soit sa condition ?",
+    "Votre manière de parler des questions de sexualité reflète-t-elle à la fois la vérité et la compassion ?",
+    "Y a-t-il dans votre vie un domaine de la sexualité que vous devez soumettre à Dieu ?",
+    "Que pourrait faire votre église pour soutenir concrètement les mères en difficulté et les personnes en fin de vie ?"
+   ],
+   "retenir": [
+    "L’être humain est créé à l’image de Dieu : sa vie est sacrée de la conception à la mort naturelle.",
+    "Le Psaume 139 montre que Dieu connaît et forme la personne avant sa naissance.",
+    "Jésus renvoie à la création : le mariage est l’union d’un homme et d’une femme, une seule chair.",
+    "Vérité et compassion vont ensemble : Jésus ne condamne pas la femme adultère, mais lui dit de ne plus pécher.",
+    "Une Église qui défend la vie doit accompagner concrètement les personnes en détresse."
+   ],
+   "memoriser": {
+    "ref": "Psaume 139.14",
+    "texte": "Je te loue de ce que je suis une créature si merveilleuse. Tes œuvres sont admirables, et mon âme le reconnaît bien."
+   },
+   "priere": "Dieu créateur, merci de m’avoir formé avec tant de soin et de m’avoir fait à ton image. Apprends-moi à respecter toute vie humaine, à glorifier ton nom dans mon corps, et à parler de ta vérité avec ta compassion. Donne-moi le courage des sages-femmes d’Égypte pour choisir la vie et la tendresse de Jésus pour relever ceux qui sont tombés. Au nom de Jésus. Amen.",
+   "illustration": "famille",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Les sages-femmes Schiphra et Pua ont craint Dieu et ont laissé vivre les garçons malgré l'ordre du roi d'Égypte.",
+      "vrai": true,
+      "explication": "« Les sages-femmes craignirent Dieu, et ne firent point ce que leur avait dit le roi d'Égypte » (Exode 1.17)."
+     },
+     {
+      "affirmation": "Selon le Psaume 139, Dieu ne s'intéresse à la personne qu'après sa naissance.",
+      "vrai": false,
+      "explication": "« Quand je n'étais qu'une masse informe, tes yeux me voyaient » (Psaume 139.16)."
+     },
+     {
+      "affirmation": "Jésus renvoie au commencement de la création pour parler du mariage d'un homme et d'une femme.",
+      "vrai": true,
+      "explication": "« Le créateur, au commencement, fit l'homme et la femme… et les deux deviendront une seule chair » (Matthieu 19.4-5)."
+     },
+     {
+      "affirmation": "Jésus a approuvé le péché de la femme adultère pour ne pas la blesser.",
+      "vrai": false,
+      "explication": "Il ne l'a pas condamnée, mais il lui a dit : « va, et ne pèche plus » (Jean 8.11)."
+     },
+     {
+      "affirmation": "Paul rappelle aux Corinthiens que certains d'entre eux vivaient autrefois dans le péché sexuel, mais qu'ils ont été lavés et justifiés.",
+      "vrai": true,
+      "explication": "« Et c'est là ce que vous étiez, quelques-uns de vous. Mais vous avez été lavés… » (1 Corinthiens 6.11)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque réaction : unit-elle vérité et compassion, ou penche-t-elle d'un seul côté ?",
+     "categories": [
+      "Vérité et compassion ensemble",
+      "Dureté sans compassion",
+      "Compassion sans vérité"
+     ],
+     "elements": [
+      {
+       "texte": "Jonathan confie une attirance pour les garçons ; le responsable l'écoute, le remercie de sa confiance et l'accompagne dans la prière et la Parole.",
+       "categorie": 0,
+       "explication": "Jésus a été tenté comme nous ; nous avons un souverain sacrificateur qui compatit (Hébreux 4.15 ; Galates 6.2)."
+      },
+      {
+       "texte": "Le responsable annonce à toute la chorale la confidence de Jonathan et le renvoie.",
+       "categorie": 1,
+       "explication": "Celui qui répand la calomnie dévoile les secrets ; on restaure avec douceur (Proverbes 11.13 ; Galates 6.1)."
+      },
+      {
+       "texte": "Un ami dit à une jeune femme enceinte hors mariage : « Avorte, c'est plus simple. »",
+       "categorie": 2,
+       "explication": "La vie de l'enfant est formée par Dieu ; l'Église doit offrir une aide concrète (Psaume 139.13 ; Exode 20.13)."
+      },
+      {
+       "texte": "L'église aide une jeune mère seule avec un logement, des habits de bébé et un accompagnement.",
+       "categorie": 0,
+       "explication": "La religion pure consiste à visiter les orphelins et les veuves dans leurs afflictions (Jacques 1.27)."
+      },
+      {
+       "texte": "On rejette une personne âgée malade en disant qu'elle « ne sert plus à rien ».",
+       "categorie": 1,
+       "explication": "« Tu te lèveras devant les cheveux blancs, et tu honoreras la personne du vieillard » (Lévitique 19.32)."
+      },
+      {
+       "texte": "Un couple chrétien décide de vivre ensemble sans se marier, et on leur dit que « l'amour suffit ».",
+       "categorie": 2,
+       "explication": "« Que le mariage soit honoré de tous, et le lit conjugal exempt de souillure » (Hébreux 13.4)."
+      },
+      {
+       "texte": "Un célibataire de 35 ans est respecté et encouragé dans son service à l'église.",
+       "categorie": 0,
+       "explication": "Paul présente le célibat comme un don qui permet de servir le Seigneur (1 Corinthiens 7.7, 32)."
+      },
+      {
+       "texte": "Sur les réseaux, une chrétienne répond avec des insultes à ceux qui ne pensent pas comme elle.",
+       "categorie": 1,
+       "explication": "« Que votre parole soit toujours accompagnée de grâce, assaisonnée de sel » (Colossiens 4.6)."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "titre": "Numérique, médias et argent",
+   "lectures": [
+    {
+     "ref": "Philippiens 4.8-9",
+     "resume": "Penser à tout ce qui est vrai, honorable, juste, pur, aimable et digne de louange, et le mettre en pratique."
+    },
+    {
+     "ref": "Éphésiens 5.15-17",
+     "resume": "Se conduire avec sagesse, racheter le temps, car les jours sont mauvais, et comprendre la volonté du Seigneur."
+    },
+    {
+     "ref": "1 Timothée 6.6-10",
+     "resume": "La piété avec le contentement est un grand gain ; l’amour de l’argent est une racine de tous les maux."
+    },
+    {
+     "ref": "2 Rois 5.15-27",
+     "resume": "Élisée refuse les présents de Naaman ; Guéhazi les réclame par un mensonge et est frappé de la lèpre."
+    }
+   ],
+   "recit": {
+    "titre": "Guéhazi et l’argent de Naaman",
+    "ref": "2 Rois 5",
+    "paragraphes": [
+     "Naaman est le chef de l’armée du roi de Syrie, un homme puissant, honoré et vaillant, mais il est lépreux. Dans sa maison, une petite fille israélite, emmenée captive, sert sa femme. Elle dit simplement : Oh ! si mon seigneur était auprès du prophète qui est à Samarie, le prophète le guérirait de sa lèpre ! Naaman part donc, avec une lettre de son roi et une fortune en cadeaux : dix talents d’argent, six mille sicles d’or et dix vêtements de rechange.",
+     "Arrivé devant la maison d’Élisée avec ses chevaux et son char, Naaman s’attend à une cérémonie impressionnante. Mais Élisée ne sort même pas. Il lui fait dire par un messager : Va, et lave-toi sept fois dans le Jourdain. Naaman est furieux : les fleuves de Damas ne valent-ils pas mieux ? Ses serviteurs le raisonnent avec douceur : si le prophète t’avait demandé quelque chose de difficile, ne l’aurais-tu pas fait ? Naaman descend, se plonge sept fois dans le Jourdain, et sa chair redevient comme la chair d’un jeune enfant.",
+     "Bouleversé, Naaman retourne vers Élisée avec toute sa suite et confesse : Je reconnais qu’il n’y a point de Dieu sur toute la terre, si ce n’est en Israël. Il supplie le prophète d’accepter un présent. Élisée répond : L’Éternel, dont je suis le serviteur, est vivant ! je n’accepterai pas. Naaman insiste, Élisée refuse encore. Le prophète veut que ce païen comprenne que la grâce de Dieu ne s’achète pas. Naaman repart guéri, avec sa foi toute neuve.",
+     "Mais Guéhazi, le serviteur d’Élisée, se dit : Voici, mon maître a ménagé Naaman, ce Syrien. L’Éternel est vivant ! je vais courir après lui, et j’en obtiendrai quelque chose. Il court, et Naaman, le voyant, descend de son char pour l’accueillir. Guéhazi invente une histoire : deux jeunes fils de prophètes viennent d’arriver de la montagne d’Éphraïm, et mon maître demande pour eux un talent d’argent et deux vêtements de rechange. Naaman, heureux de pouvoir donner, insiste pour qu’il prenne deux talents, et fait porter le tout par deux serviteurs.",
+     "Guéhazi cache le butin dans sa maison, puis se présente devant son maître comme si de rien n’était. Élisée lui demande : D’où viens-tu, Guéhazi ? Il répond : Ton serviteur n’est allé nulle part. Le prophète révèle alors qu’il a vu en esprit toute la scène. Il demande : Est-ce le temps de prendre de l’argent et de prendre des vêtements ? Puis il annonce que la lèpre de Naaman s’attachera à Guéhazi et à sa descendance. Guéhazi sort de devant Élisée, blanc de lèpre comme la neige. Celui qui vivait aux côtés d’un grand homme de Dieu a tout perdu pour quelques talents d’argent."
+    ],
+    "lecons": [
+     "Le désir de gain peut aveugler même ceux qui sont proches des choses de Dieu.",
+     "Le premier mensonge en entraîne d’autres : Guéhazi ment à Naaman, puis à son maître.",
+     "En monnayant la grâce de Dieu, on défigure l’Évangile aux yeux des nouveaux croyants.",
+     "Dieu voit ce qui est caché ; l’intégrité vaut plus que toutes les richesses."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Philippiens 4.8 : nourrir sa pensée",
+     "paragraphes": [
+      "Paul écrit aux Philippiens depuis la prison. Juste avant ce verset, il a invité les croyants à ne s’inquiéter de rien, mais à présenter leurs besoins à Dieu par la prière, et il a promis que la paix de Dieu garderait leurs cœurs et leurs pensées en Jésus-Christ (Philippiens 4.6-7). Le verset 8 commence par au reste, et il propose un programme pour la vie intérieure.",
+      "Paul énumère huit qualités : vrai, honorable, juste, pur, aimable, digne d’approbation, vertueux, digne de louange. Le verbe final, logizomai, traduit soit l’objet de vos pensées, signifie compter, calculer, prendre en considération de manière réfléchie. Ce n’est pas seulement éviter les mauvaises pensées ; c’est choisir activement de nourrir son esprit de ce qui est bon. Le verset 9 ajoute la mise en pratique : ce que vous avez appris, reçu et entendu de moi, et ce que vous avez vu en moi, pratiquez-le. Or ce que nous regardons et écoutons façonne ce que nous pensons, et ce que nous pensons façonne ce que nous faisons. Jésus disait déjà : L’œil est la lampe du corps (Matthieu 6.22)."
+     ]
+    },
+    {
+     "titre": "Éphésiens 5.15-16 : racheter le temps",
+     "paragraphes": [
+      "Dans Éphésiens 5, Paul oppose la vie dans les ténèbres et la vie dans la lumière. Au verset 15, il demande de se conduire avec circonspection, littéralement de regarder exactement comment on marche, comme des sages et non comme des insensés. Puis il ajoute : rachetez le temps, car les jours sont mauvais.",
+      "Le verbe exagorazô signifie racheter, acheter sur la place du marché, saisir une occasion en payant le prix. Le mot pour temps n’est pas chronos, le temps qui s’écoule, mais kairos, le moment favorable, l’occasion. Il s’agit donc de saisir chaque occasion de faire le bien, de ne pas la laisser filer. Dans un monde où les écrans et les applications sont conçus pour capter notre attention le plus longtemps possible, ce commandement prend une actualité frappante. Le verset 17 conclut : ne soyez pas inconsidérés, mais comprenez quelle est la volonté du Seigneur."
+     ]
+    },
+    {
+     "titre": "1 Timothée 6.6-10 : piété et contentement",
+     "paragraphes": [
+      "Paul écrit à Timothée, qui conduit l’Église d’Éphèse, une ville riche et commerçante. Certains enseignants y considéraient la piété comme une source de gain (1 Timothée 6.5) : ils utilisaient la religion pour s’enrichir. Paul retourne l’expression : c’est, en effet, une grande source de gain que la piété avec le contentement. Le mot autarkeia, contentement, désignait chez les philosophes l’état de celui qui se suffit à lui-même. Chez Paul, c’est la satisfaction de celui qui trouve en Christ sa vraie richesse (Philippiens 4.11-13).",
+      "Paul rappelle ensuite une vérité simple : nous n’avons rien apporté dans le monde, et nous n’en pouvons rien emporter. Si nous avons la nourriture et le vêtement, cela nous suffira. Puis il avertit : ceux qui veulent s’enrichir tombent dans la tentation, dans le piège, et dans beaucoup de désirs insensés et pernicieux. Le problème n’est pas l’argent en lui-même, mais le désir de s’enrichir à tout prix.",
+      "Au verset 10, Paul écrit : l’amour de l’argent est une racine de tous les maux. Le mot philarguria signifie littéralement amitié pour l’argent. Remarquez que le texte ne dit pas que l’argent est la racine de tous les maux, mais l’amour de l’argent ; et il dit une racine, sans article défini en grec, donc une source parmi d’autres, mais capable de produire toutes sortes de maux. Quelques-uns, en étant possédés, se sont égarés loin de la foi. Les versets 17 à 19 ne condamnent pas les riches, mais leur demandent de ne pas être orgueilleux, de ne pas mettre leur espérance dans des richesses incertaines, et d’être riches en bonnes œuvres et généreux."
+     ]
+    },
+    {
+     "titre": "2 Rois 5.26 : est-ce le temps de prendre de l’argent ?",
+     "paragraphes": [
+      "Le récit de Naaman se situe au IXᵉ siècle avant Jésus-Christ, à une époque de tensions répétées entre la Syrie et Israël. Le contraste est voulu par l’auteur : un général païen guéri qui confesse le vrai Dieu, et un serviteur israélite, proche d’un grand prophète, qui se perd par cupidité. L’étranger entre dans la bénédiction ; l’initié en sort. Jésus rappellera ce récit dans la synagogue de Nazareth : il y avait plusieurs lépreux en Israël du temps d’Élisée, et aucun ne fut purifié, si ce n’est Naaman le Syrien (Luc 4.27).",
+      "Le refus d’Élisée est solennel : L’Éternel, dont je suis le serviteur, est vivant ! Il emploie la formule du serment. Accepter le présent aurait pu laisser croire à Naaman que la guérison était un service payé, comme chez les devins de son pays. Guéhazi, lui, reprend la même formule, l’Éternel est vivant, pour justifier sa course après l’argent : il utilise le langage de la foi pour couvrir sa convoitise.",
+      "La question d’Élisée au verset 26 porte sur le moment : est-ce le temps de prendre de l’argent et des vêtements, puis des oliviers, des vignes, des brebis et des serviteurs ? Élisée lit dans le cœur de Guéhazi ses projets d’enrichissement. Il ne dit pas que la propriété est mauvaise, mais qu’il y a des moments où recevoir de l’argent trahit le témoignage. Le châtiment, la lèpre, est un renversement tragique : celui qui voulait la richesse de Naaman reçoit sa maladie."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "objet de vos pensées",
+     "langue": "grec",
+     "original": "logizomai",
+     "sens": "Compter, considérer de manière réfléchie ; choisir ce qui nourrit l’esprit."
+    },
+    {
+     "mot": "racheter",
+     "langue": "grec",
+     "original": "exagorazô",
+     "sens": "Acheter sur le marché, saisir une occasion en payant le prix."
+    },
+    {
+     "mot": "temps, occasion",
+     "langue": "grec",
+     "original": "kairos",
+     "sens": "Le moment favorable, l’occasion à saisir, par opposition au temps qui s’écoule."
+    },
+    {
+     "mot": "contentement",
+     "langue": "grec",
+     "original": "autarkeia",
+     "sens": "Satisfaction intérieure de celui qui trouve sa richesse en Dieu."
+    },
+    {
+     "mot": "amour de l’argent",
+     "langue": "grec",
+     "original": "philarguria",
+     "sens": "Attachement à l’argent ; une racine de toutes sortes de maux."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Le numérique : un outil puissant à maîtriser",
+     "paragraphes": [
+      "Le téléphone, internet et les réseaux sociaux ne sont pas mauvais en eux-mêmes. Ils permettent de lire la Bible dans des centaines de langues, de suivre des formations, de rester en lien avec la famille dispersée, d’annoncer l’Évangile à des milliers de personnes. Mais ce sont aussi des outils qui façonnent nos pensées, nos désirs et nos habitudes. Les applications sont conçues pour capter notre attention, et beaucoup de croyants passent bien plus de temps chaque jour sur leur écran que dans la Parole ou la prière.",
+      "Les dangers sont multiples : la pornographie accessible en un clic, la comparaison permanente avec la vie apparemment parfaite des autres, l’anxiété, les fausses informations et les rumeurs, les arnaques, le harcèlement en ligne, la perte du sommeil et de la concentration, et parfois l’addiction. Philippiens 4.8 nous invite à choisir ce que nous laissons entrer dans notre esprit. Le psalmiste disait : Je ne mettrai rien de mauvais devant mes yeux (Psaume 101.3).",
+      "Le principe de 1 Corinthiens 6.12 s’applique pleinement : je ne me laisserai asservir par quoi que ce soit. Si je ne peux pas passer une journée sans mon téléphone, si je le consulte avant même de prier le matin, si mes enfants n’obtiennent mon attention qu’après mon écran, alors l’outil est devenu un maître."
+     ]
+    },
+    {
+     "titre": "Protéger les enfants et les plus fragiles",
+     "paragraphes": [
+      "Les parents et les responsables ont une responsabilité particulière envers les enfants et les jeunes. Un enfant laissé seul avec un téléphone connecté peut être exposé à des contenus violents ou pornographiques, à des prédateurs, à des défis dangereux. Protéger les enfants est une responsabilité spirituelle : utiliser des contrôles parentaux, fixer des règles claires sur les horaires et les lieux d’utilisation, garder les écrans hors des chambres la nuit, parler ouvertement des dangers, et surtout montrer l’exemple. Les parents qui sont eux-mêmes collés à leur téléphone auront du mal à enseigner la modération à leurs enfants."
+     ]
+    },
+    {
+     "titre": "L’argent : serviteur ou maître",
+     "paragraphes": [
+      "Jésus a dit : Vous ne pouvez servir Dieu et Mammon (Matthieu 6.24). Mammon est un mot araméen qui désigne la richesse, presque personnifiée comme une divinité rivale. L’argent est un bon serviteur, mais un terrible maître. Le chrétien est appelé à travailler, à gagner sa vie honnêtement, à épargner, à donner généreusement et à gérer avec sagesse ce qu’il reçoit, en se souvenant que tout appartient à Dieu.",
+      "Le leader doit être particulièrement vigilant. Paul exige des anciens qu’ils ne soient pas amis de l’argent (1 Timothée 3.3). Pierre demande de paître le troupeau non pour un gain sordide, mais avec dévouement (1 Pierre 5.2). L’exploitation de la foi pour le gain, sous forme de promesses de richesse en échange d’offrandes, de ventes d’objets prétendument bénis, ou de pressions financières sur des fidèles pauvres, est une trahison de l’Évangile. Comme Élisée, le serviteur de Dieu doit montrer que la grâce ne s’achète pas.",
+      "Enfin, le leader enseigne le contentement. Dans un monde de publicité permanente, de jeux d’argent et de paris en ligne, de crédits faciles et de pression sociale pour paraître riche, apprendre à dire cela me suffit est un acte de foi et de liberté. Le contentement ne signifie pas la résignation face à l’injustice ou à la pauvreté, mais la paix de celui qui sait que Dieu pourvoit."
+     ]
+    },
+    {
+     "titre": "Travail, dettes et générosité",
+     "paragraphes": [
+      "La Bible ne glorifie ni la pauvreté ni la richesse ; elle enseigne une juste relation avec les biens. Le travail est une vocation donnée par Dieu dès la création (Genèse 2.15). Paul demande que celui qui dérobait ne dérobe plus, mais plutôt qu’il travaille, en faisant de ses mains ce qui est bien, pour avoir de quoi donner à celui qui est dans le besoin (Éphésiens 4.28). Le but du travail n’est pas seulement de s’enrichir, mais aussi de pouvoir donner.",
+      "La Bible met aussi en garde contre les dettes : celui qui emprunte est l’esclave de celui qui prête (Proverbes 22.7). Dans des sociétés où le crédit facile, les prêts entre membres de la famille et les tontines mal gérées causent beaucoup de conflits, le chrétien doit emprunter avec prudence, rembourser ce qu’il doit (Romains 13.8) et éviter de se porter garant à la légère. Enfin, la générosité est le meilleur remède contre l’amour de l’argent. Paul demande aux riches d’être généreux et prêts à partager (1 Timothée 6.18). Celui qui donne régulièrement apprend que l’argent est un outil au service de Dieu et du prochain, et non un dieu."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Philippiens 4.8",
+     "texte": "Au reste, frères, que tout ce qui est vrai, tout ce qui est honorable, tout ce qui est juste, tout ce qui est pur, tout ce qui est aimable, tout ce qui mérite l’approbation, ce qui est vertueux et digne de louange, soit l’objet de vos pensées."
+    },
+    {
+     "ref": "Éphésiens 5.15-16",
+     "texte": "Prenez donc garde de vous conduire avec circonspection, non comme des insensés, mais comme des sages ; rachetez le temps, car les jours sont mauvais."
+    },
+    {
+     "ref": "1 Timothée 6.6-7",
+     "texte": "C’est, en effet, une grande source de gain que la piété avec le contentement ; car nous n’avons rien apporté dans le monde, et il est évident que nous n’en pouvons rien emporter ;"
+    },
+    {
+     "ref": "1 Timothée 6.10",
+     "texte": "Car l’amour de l’argent est une racine de tous les maux ; et quelques-uns, en étant possédés, se sont égarés loin de la foi, et se sont jeté eux-mêmes dans bien des tourments."
+    },
+    {
+     "ref": "Matthieu 6.24",
+     "texte": "Nul ne peut servir deux maîtres. Car, ou il haïra l’un, et aimera l’autre ; ou il s’attachera à l’un, et méprisera l’autre. Vous ne pouvez servir Dieu et Mammon."
+    }
+   ],
+   "application": [
+    {
+     "titre": "Faire le point sur son temps d’écran",
+     "paragraphes": [
+      "La plupart des téléphones indiquent le temps passé sur chaque application. Regardez honnêtement ces chiffres pendant une semaine. Puis prenez des décisions concrètes : pas de téléphone pendant le premier moment de la journée consacré à Dieu, pas d’écran pendant les repas en famille, désactiver les notifications inutiles, fixer une heure d’arrêt le soir. Un jeûne numérique de 24 heures permet de mesurer sa dépendance et de retrouver de la liberté."
+     ]
+    },
+    {
+     "titre": "Être une présence de lumière en ligne",
+     "paragraphes": [
+      "Avant de partager une information, vérifiez qu’elle est vraie. Avant de commenter, demandez-vous si votre message est honorable, juste et aimable. Refusez de relayer les rumeurs, les insultes et les vidéos humiliantes. Utilisez plutôt vos réseaux pour encourager, partager la Parole, témoigner avec humilité et soutenir les causes justes. Les jeunes chrétiens qui créent du contenu peuvent être de véritables missionnaires numériques."
+     ]
+    },
+    {
+     "titre": "Face aux jeux d’argent et aux promesses de richesse rapide",
+     "paragraphes": [
+      "Les paris sportifs, les loteries, les placements miracles et certains systèmes de vente pyramidale promettent une richesse rapide, et ils attirent particulièrement les jeunes et les personnes en difficulté. La Bible enseigne plutôt le travail patient : celui qui amasse peu à peu l’augmente (Proverbes 13.11). Avant tout investissement, demandez conseil, vérifiez, et méfiez-vous de ce qui paraît trop beau pour être vrai."
+     ]
+    },
+    {
+     "titre": "Dans le ministère",
+     "paragraphes": [
+      "Le leader qui reçoit des cadeaux, des enveloppes ou des avantages doit se poser la question d’Élisée : est-ce le temps de prendre de l’argent ? Il doit refuser tout ce qui pourrait le rendre redevable ou donner l’impression que la grâce de Dieu s’achète. Il doit aussi éviter un train de vie ostentatoire qui scandalise des fidèles qui peinent à nourrir leurs enfants. La simplicité et la générosité du leader sont un puissant enseignement."
+     ]
+    },
+    {
+     "titre": "En famille : une charte numérique",
+     "paragraphes": [
+      "Rédigez ensemble, parents et enfants, une petite charte de la maison : heures où les écrans sont permis, lieux sans téléphone comme la table et les chambres la nuit, applications autorisées selon l’âge, règle de transparence sur les mots de passe pour les plus jeunes, et engagement à parler à un parent de tout contenu choquant ou de tout message inquiétant. Relisez-la chaque année et ajustez-la à l’âge des enfants."
+     ]
+    },
+    {
+     "titre": "Dans la précarité",
+     "paragraphes": [
+      "Pour ceux qui vivent dans la précarité, le chômage ou l’incertitude des papiers, parler de contentement peut sembler cruel. Le contentement biblique n’est pas l’acceptation de l’injustice : l’Église doit aussi agir, partager, aider à trouver du travail et défendre les droits des plus faibles. Mais il libère de la honte et de l’envie, et il protège contre les solutions désespérées comme les prêts usuriers, les trafics ou les promesses de prospérité en échange d’offrandes. Dieu connaît nos besoins (Matthieu 6.32) et il prend soin de ceux qui cherchent premièrement son royaume."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Pasteur Élie dirige une église dynamique. Un homme d’affaires récemment converti, très riche, propose de financer entièrement le nouveau bâtiment de l’église et d’offrir une voiture au pasteur. En échange, il souhaite discrètement être nommé ancien rapidement et que l’église ne parle plus de certaines pratiques commerciales douteuses de son entreprise. Plusieurs membres poussent le pasteur à accepter : c’est une bénédiction de Dieu, disent-ils.",
+    "questions": [
+     "Quels parallèles voyez-vous avec l’histoire d’Élisée, de Naaman et de Guéhazi ?",
+     "Quels principes de 1 Timothée 6 et de Matthieu 6.24 s’appliquent à cette situation ?",
+     "Comment pasteur Élie peut-il répondre avec sagesse, en accueillant ce nouveau converti sans compromettre l’intégrité de l’église ?"
+    ]
+   },
+   "reflexion": [
+    "Combien de temps passez-vous chaque jour sur votre téléphone, et combien dans la Parole et la prière ?",
+    "Ce que vous regardez et écoutez nourrit-il votre esprit de ce qui est vrai, pur et aimable ?",
+    "L’argent est-il votre serviteur ou votre maître ? À quoi le voyez-vous ?",
+    "Savez-vous dire : cela me suffit ?"
+   ],
+   "retenir": [
+    "Ce que nous regardons façonne nos pensées : choisir ce qui est vrai, pur et aimable (Philippiens 4.8).",
+    "Racheter le temps, c’est saisir les occasions de faire le bien, en refusant d’être asservi par les écrans.",
+    "Protéger les enfants dans le monde numérique est une responsabilité spirituelle.",
+    "L’amour de l’argent est une racine de tous les maux ; la piété avec le contentement est un grand gain.",
+    "Comme Élisée, le serviteur de Dieu montre que la grâce de Dieu ne s’achète pas."
+   ],
+   "memoriser": {
+    "ref": "Philippiens 4.8",
+    "texte": "Au reste, frères, que tout ce qui est vrai, tout ce qui est honorable, tout ce qui est juste, tout ce qui est pur, tout ce qui est aimable, tout ce qui mérite l’approbation, ce qui est vertueux et digne de louange, soit l’objet de vos pensées."
+   },
+   "priere": "Seigneur, garde mon cœur et mes yeux. Libère-moi de tout ce qui m’asservit, écrans ou argent. Apprends-moi à racheter le temps, à nourrir mon esprit de ce qui est vrai et pur, et à trouver en toi mon contentement. Fais de moi un serviteur intègre, comme Élisée, qui montre que ta grâce ne s’achète pas. Au nom de Jésus. Amen.",
+   "illustration": "bouclier",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Élisée a refusé le présent de Naaman pour montrer que la grâce de Dieu ne s'achète pas.",
+      "vrai": true,
+      "explication": "« L'Éternel, dont je suis le serviteur, est vivant ! je n'accepterai pas » (2 Rois 5.16)."
+     },
+     {
+      "affirmation": "Selon Paul, c'est l'argent lui-même qui est la racine de tous les maux.",
+      "vrai": false,
+      "explication": "C'est « l'amour de l'argent » qui est une racine de tous les maux (1 Timothée 6.10)."
+     },
+     {
+      "affirmation": "Paul demande d'occuper ses pensées de tout ce qui est vrai, honorable, juste, pur et aimable.",
+      "vrai": true,
+      "explication": "C'est Philippiens 4.8, le verset à mémoriser de la leçon."
+     },
+     {
+      "affirmation": "Les jeux d'argent sont un bon moyen pour un chrétien de sortir de la précarité.",
+      "vrai": false,
+      "explication": "« La richesse mal acquise diminue, mais celui qui amasse peu à peu l'augmente » (Proverbes 13.11)."
+     },
+     {
+      "affirmation": "La piété avec le contentement est un grand gain.",
+      "vrai": true,
+      "explication": "« C'est, en effet, une grande source de gain que la piété avec le contentement » (1 Timothée 6.6)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque usage du numérique ou de l'argent : sage, ou piège à éviter ?",
+     "categories": [
+      "Usage sage",
+      "Piège à éviter"
+     ],
+     "elements": [
+      {
+       "texte": "Un riche nouveau converti propose de financer tout le bâtiment à condition de devenir l'ancien principal.",
+       "categorie": 1,
+       "explication": "Le don de Dieu ne s'acquiert pas à prix d'argent, ni une place dans l'Église (Actes 8.20 ; 2 Rois 5.16)."
+      },
+      {
+       "texte": "Une famille écrit une charte : pas d'écrans à table ni dans les chambres la nuit.",
+       "categorie": 0,
+       "explication": "« Je ne me laisserai asservir par quoi que ce soit » (1 Corinthiens 6.12)."
+      },
+      {
+       "texte": "Un jeune passe ses nuits à faire défiler des vidéos et n'a plus de temps pour prier.",
+       "categorie": 1,
+       "explication": "« Rachetez le temps, car les jours sont mauvais » (Éphésiens 5.16)."
+      },
+      {
+       "texte": "Des parents installent un contrôle parental et parlent avec leurs enfants des dangers en ligne.",
+       "categorie": 0,
+       "explication": "Protéger les petits est une responsabilité sérieuse (Matthieu 18.6 ; Proverbes 22.6)."
+      },
+      {
+       "texte": "Investir toutes ses économies dans une promesse de « gain garanti » vue sur internet.",
+       "categorie": 1,
+       "explication": "« Celui qui a hâte de s'enrichir ne reste pas impuni » (Proverbes 28.20)."
+      },
+      {
+       "texte": "Un ouvrier met de côté chaque mois une petite somme et donne joyeusement à l'église.",
+       "categorie": 0,
+       "explication": "« Dieu aime celui qui donne avec joie » ; celui qui amasse peu à peu l'augmente (2 Corinthiens 9.7 ; Proverbes 13.11)."
+      },
+      {
+       "texte": "Un serviteur de Dieu ment pour obtenir de l'argent en secret, comme Guéhazi.",
+       "categorie": 1,
+       "explication": "Guéhazi a menti pour obtenir les biens de Naaman et en a subi les conséquences (2 Rois 5.20-27)."
+      },
+      {
+       "texte": "Une sœur partage un verset encourageant chaque jour sur son statut.",
+       "categorie": 0,
+       "explication": "Être une lumière en ligne : « que votre lumière luise ainsi devant les hommes » (Matthieu 5.16)."
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "pratique": {
+  "consigne": "Anime un temps d’échange (groupe, jeunesse, famille) sur une question éthique actuelle à la lumière de la Bible. Décris ici la question, les textes utilisés et les conclusions.",
+  "etapes": [
+   "Choisis une question éthique concrète qui préoccupe ton groupe (par exemple : réseaux sociaux, argent, sexualité, fraude, respect de la vie).",
+   "Prépare trois à cinq passages bibliques et classe la question : commandement clair, principe biblique ou question de liberté.",
+   "Anime l’échange en appliquant les cinq questions du discernement, en laissant chacun s’exprimer avec respect.",
+   "Veille à tenir ensemble la vérité et la compassion, sans mépris pour personne.",
+   "Rédige les conclusions du groupe et une décision pratique que chacun peut prendre."
   ]
+ },
+ "examen": [
+  {
+   "q": "Selon Romains 12.2, comment le croyant peut-il discerner la volonté de Dieu ?",
+   "choix": [
+    "En suivant la majorité",
+    "En consultant les médias",
+    "En étant transformé par le renouvellement de l’intelligence",
+    "En suivant ses émotions"
+   ],
+   "bonne": 2,
+   "explication": "Romains 12.2 : soyez transformés par le renouvellement de l’intelligence, afin que vous discerniez quelle est la volonté de Dieu."
+  },
+  {
+   "q": "Le verbe grec dokimazô, traduit discerner en Romains 12.2, signifie :",
+   "choix": [
+    "Éprouver, tester puis approuver ce qui est authentique",
+    "Deviner au hasard",
+    "Imiter les autres",
+    "Oublier le passé"
+   ],
+   "bonne": 0,
+   "explication": "Dokimazô évoque le test d’un métal précieux : on éprouve, puis on approuve ce qui a résisté à l’épreuve."
+  },
+  {
+   "q": "Selon Hébreux 5.14, comment le jugement des croyants mûrs devient-il capable de discerner le bien et le mal ?",
+   "choix": [
+    "Par l’âge seulement",
+    "Par l’étude de la philosophie",
+    "Par une révélation soudaine",
+    "Il est exercé par l’usage, comme par un entraînement"
+   ],
+   "bonne": 3,
+   "explication": "Hébreux 5.14 : ceux dont le jugement est exercé par l’usage ; le verbe gumnazô évoque l’entraînement de l’athlète."
+  },
+  {
+   "q": "Que répond Paul au slogan des Corinthiens : Tout est permis ?",
+   "choix": [
+    "Rien n’est permis",
+    "Tout n’est pas utile, et tout n’édifie pas",
+    "Tout est permis, donc faites ce que vous voulez",
+    "Seuls les apôtres peuvent décider"
+   ],
+   "bonne": 1,
+   "explication": "1 Corinthiens 10.23 : Tout est permis, mais tout n’est pas utile ; tout est permis, mais tout n’édifie pas."
+  },
+  {
+   "q": "Quel est le critère suprême de 1 Corinthiens 10.31 pour tous nos actes ?",
+   "choix": [
+    "Faire ce qui nous plaît",
+    "Faire ce que les anciens faisaient",
+    "Faire ce que la loi civile autorise",
+    "Faire tout pour la gloire de Dieu"
+   ],
+   "bonne": 3,
+   "explication": "1 Corinthiens 10.31 : soit que vous mangiez, soit que vous buviez, soit que vous fassiez quelque autre chose, faites tout pour la gloire de Dieu."
+  },
+  {
+   "q": "À Babylone, qu’est-ce que Daniel a refusé ?",
+   "choix": [
+    "D’apprendre la langue des Chaldéens",
+    "De servir le roi",
+    "De se souiller par les mets et le vin du roi",
+    "De porter un nouveau nom"
+   ],
+   "bonne": 2,
+   "explication": "Daniel 1.8 : Daniel résolut de ne pas se souiller par les mets du roi et par le vin dont le roi buvait."
+  },
+  {
+   "q": "Quelle solution Daniel a-t-il proposée à l’intendant ?",
+   "choix": [
+    "Un essai de dix jours avec des légumes et de l’eau",
+    "S’enfuir de Babylone",
+    "Une grève de la faim",
+    "Se plaindre directement au roi"
+   ],
+   "bonne": 0,
+   "explication": "Daniel 1.12 : Éprouve tes serviteurs pendant dix jours, et qu’on nous donne des légumes à manger et de l’eau à boire."
+  },
+  {
+   "q": "Selon Romains 14, comment faut-il traiter les questions discutables, comme certaines habitudes alimentaires ?",
+   "choix": [
+    "En imposant ses convictions à tous",
+    "Chacun doit être pleinement persuadé dans son esprit, sans juger les autres",
+    "En votant à l’église",
+    "En les interdisant toutes"
+   ],
+   "bonne": 1,
+   "explication": "Romains 14.5 : que chacun ait en son esprit une pleine conviction ; et Romains 14.1 demande de ne pas discuter des opinions."
+  },
+  {
+   "q": "Pourquoi Genèse 9.6 considère-t-il le meurtre comme un crime si grave ?",
+   "choix": [
+    "Parce que la loi de Moïse l’interdit",
+    "Parce que c’est une tradition",
+    "Parce que la société en souffre",
+    "Parce que Dieu a fait l’homme à son image"
+   ],
+   "bonne": 3,
+   "explication": "Genèse 9.6 : Si quelqu’un verse le sang de l’homme, par l’homme son sang sera versé ; car Dieu a fait l’homme à son image."
+  },
+  {
+   "q": "Que montre le Psaume 139.13-16 au sujet de la vie avant la naissance ?",
+   "choix": [
+    "Que Dieu forme la personne dans le sein de sa mère et la voit déjà",
+    "Que Dieu ne s’intéresse à l’homme qu’après sa naissance",
+    "Que l’embryon n’a aucune valeur",
+    "Que la vie commence à l’âge adulte"
+   ],
+   "bonne": 0,
+   "explication": "Psaume 139.13,16 : tu m’as tissé dans le sein de ma mère ; quand je n’étais qu’une masse informe, tes yeux me voyaient."
+  },
+  {
+   "q": "Pourquoi les sages-femmes Schiphra et Pua ont-elles désobéi à l’ordre de Pharaon ?",
+   "choix": [
+    "Par peur des Hébreux",
+    "Parce qu’elles voulaient de l’argent",
+    "Parce qu’elles craignaient Dieu",
+    "Parce que Moïse le leur avait demandé"
+   ],
+   "bonne": 2,
+   "explication": "Exode 1.17 : les sages-femmes craignirent Dieu, et ne firent point ce que leur avait dit le roi d’Égypte ; elles laissèrent vivre les enfants."
+  },
+  {
+   "q": "Pour répondre à la question sur le divorce en Matthieu 19, à quel texte Jésus renvoie-t-il ?",
+   "choix": [
+    "À la tradition des rabbins",
+    "Au récit de la création dans la Genèse",
+    "Au livre des Proverbes",
+    "Aux lois romaines"
+   ],
+   "bonne": 1,
+   "explication": "Matthieu 19.4-5 : N’avez-vous pas lu que le créateur, au commencement, fit l’homme et la femme… ? Jésus cite Genèse 1.27 et 2.24."
+  },
+  {
+   "q": "Quelles paroles Jésus adresse-t-il à la femme surprise en adultère ?",
+   "choix": [
+    "Je ne te condamne pas non plus : va, et ne pèche plus",
+    "Tu mérites d’être lapidée",
+    "Ton péché n’a aucune importance",
+    "Va offrir un sacrifice au temple"
+   ],
+   "bonne": 0,
+   "explication": "Jean 8.11 : Je ne te condamne pas non plus : va, et ne pèche plus. Jésus unit la grâce et la vérité."
+  },
+  {
+   "q": "Vrai ou faux : selon l’enseignement biblique, tenir la vérité sur la sexualité autorise le mépris envers ceux qui vivent autrement.",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "bonne": 1,
+   "explication": "Toute personne est créée à l’image de Dieu (Genèse 1.27) ; Jésus, plein de grâce et de vérité, accueille sans mépris tout en appelant à la sainteté."
+  },
+  {
+   "q": "Une jeune fille de l’église envisage l’avortement par peur de la honte et de la pauvreté. Quelle réponse est la plus conforme à l’éthique biblique de la vie ?",
+   "choix": [
+    "L’exclure publiquement de l’église",
+    "Lui faire honte devant ses parents",
+    "Lui dire que ce n’est pas l’affaire de l’église",
+    "L’entourer, l’écouter et l’aider concrètement à accueillir son enfant"
+   ],
+   "bonne": 3,
+   "explication": "Une Église qui défend la vie (Psaume 139) doit aussi accompagner concrètement les mères en détresse, avec la compassion de Jésus."
+  },
+  {
+   "q": "Selon Philippiens 4.8, sur quoi nos pensées doivent-elles se porter ?",
+   "choix": [
+    "Les rumeurs et les nouvelles",
+    "Ce qui est vrai, honorable, juste, pur et aimable",
+    "Les peurs pour l’avenir",
+    "Les défauts des autres"
+   ],
+   "bonne": 1,
+   "explication": "Philippiens 4.8 : que tout ce qui est vrai, honorable, juste, pur, aimable… soit l’objet de vos pensées."
+  },
+  {
+   "q": "Dans Éphésiens 5.16, que signifie racheter le temps ?",
+   "choix": [
+    "Travailler sans jamais se reposer",
+    "Acheter des montres",
+    "Saisir les occasions favorables de faire le bien",
+    "Rattraper le temps perdu en dormant moins"
+   ],
+   "bonne": 2,
+   "explication": "Exagorazô signifie racheter, saisir ; kairos désigne le moment favorable. Il faut saisir chaque occasion de faire le bien."
+  },
+  {
+   "q": "Selon 1 Timothée 6.10, qu’est-ce qui est une racine de tous les maux ?",
+   "choix": [
+    "L’argent",
+    "Le travail",
+    "La pauvreté",
+    "L’amour de l’argent"
+   ],
+   "bonne": 3,
+   "explication": "1 Timothée 6.10 : l’amour de l’argent est une racine de tous les maux ; ce n’est pas l’argent lui-même."
+  },
+  {
+   "q": "Comment Élisée a-t-il réagi lorsque Naaman, guéri, a voulu lui offrir un présent ?",
+   "choix": [
+    "Il a refusé, pour montrer que la grâce de Dieu ne s’achète pas",
+    "Il l’a accepté avec joie",
+    "Il a demandé le double",
+    "Il l’a envoyé au roi d’Israël"
+   ],
+   "bonne": 0,
+   "explication": "2 Rois 5.16 : L’Éternel, dont je suis le serviteur, est vivant ! je n’accepterai pas."
+  },
+  {
+   "q": "Quelle a été la conséquence du mensonge et de la cupidité de Guéhazi ?",
+   "choix": [
+    "Il devint riche et respecté",
+    "La lèpre de Naaman s’attacha à lui",
+    "Il succéda à Élisée",
+    "Il partit vivre en Syrie"
+   ],
+   "bonne": 1,
+   "explication": "2 Rois 5.27 : la lèpre de Naaman s’attacha à Guéhazi, qui sortit de devant Élisée blanc de lèpre comme la neige."
+  }
+ ]
 }

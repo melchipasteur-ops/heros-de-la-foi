@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Un chemin qui monte vers la lumière">
+<title>Un chemin qui monte vers la lumière</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbe7c6"/><stop offset="1" stop-color="#f6efe0"/></linearGradient></defs>
+<rect width="320" height="200" rx="18" fill="url(#g)"/>
+<circle cx="160" cy="64" r="26" fill="#e0b85a"/>
+<path d="M0 120 Q80 100 160 104 T320 112 V200 H0Z" fill="#c9dcc0"/>
+<path d="M120 200 C140 160 150 140 156 110 L164 110 C172 140 200 170 230 200Z" fill="#e9d8b4"/>
+<path d="M30 130 l16 -34 l16 34z M260 136 l16 -40 l16 40z" fill="#3f7d4e"/>
+<circle cx="170" cy="150" r="6" fill="#1b2a4e"/><rect x="165" y="156" width="10" height="16" rx="4" fill="#1b2a4e"/>
+</svg>

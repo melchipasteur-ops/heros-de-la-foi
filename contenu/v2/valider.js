@@ -12,7 +12,7 @@ for (const f of files) {
   let m;
   try { m = JSON.parse(fs.readFileSync(p, "utf8")); } catch (e) { console.log(`✗ ${f} : JSON invalide (${e.message})`); ko++; continue; }
   const req = (cond, msg) => { if (!cond) err.push(msg); };
-  req(/^n[1-4]m[1-6]$/.test(m.id || ""), "id invalide");
+  req(/^n[1-4]m[1-9]$/.test(m.id || ""), "id invalide");
   req(m.titre && m.objectif, "titre/objectif manquants");
   req(Array.isArray(m.introduction) && m.introduction.length >= 2, "introduction : au moins 2 paragraphes");
   req(Array.isArray(m.lecturesObligatoires) && m.lecturesObligatoires.length >= 6, "lecturesObligatoires : au moins 6");
@@ -33,6 +33,14 @@ for (const f of files) {
     req((l.retenir || []).length >= 3, `${t} : à retenir (au moins 3)`);
     req(l.memoriser && l.memoriser.ref && l.memoriser.texte, `${t} : verset à mémoriser`);
     req(l.priere, `${t} : prière`);
+    const IMAGES = ["bible","croix","priere","colombe","eglise","chemin","chaines","lumiere","bouclier","famille","arbre","coeur","balance","eau","couronne","mains","berger","lampe","porte","semence"];
+    if (l.illustration !== undefined) req(IMAGES.includes(l.illustration), `${t} : illustration inconnue (${l.illustration})`);
+    if (l.jeux) {
+      const vf = l.jeux.vraiFaux, tri = l.jeux.tri;
+      if (vf !== undefined) req(Array.isArray(vf) && vf.length >= 3 && vf.every(x => x.affirmation && typeof x.vrai === "boolean" && x.explication), `${t} : jeux.vraiFaux (au moins 3, avec affirmation, vrai, explication)`);
+      if (tri !== undefined) req(tri && Array.isArray(tri.categories) && tri.categories.length >= 2 && tri.categories.length <= 3 && Array.isArray(tri.elements) && tri.elements.length >= 4
+        && tri.elements.every(x => x.texte && Number.isInteger(x.categorie) && x.categorie >= 0 && x.categorie < tri.categories.length && x.explication), `${t} : jeux.tri (2-3 catégories, au moins 4 éléments valides)`);
+    }
     const n = mots((l.recit && l.recit.paragraphes || []).join(" ")) + somme(l.exegese) + somme(l.enseignement) + somme(l.application) + mots(l.etudeDeCas && l.etudeDeCas.situation);
     motsModule += n;
     if (n < 2500) warn.push(`${t} : ${n} mots (visé : 2 500 à 4 000)`);

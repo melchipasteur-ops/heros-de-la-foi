@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="L'eau vive qui lave et désaltère">
+<title>L'eau vive qui lave et désaltère</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dce7f7"/><stop offset="1" stop-color="#f6efe0"/></linearGradient></defs>
+<rect width="320" height="200" rx="18" fill="url(#g)"/>
+<circle cx="262" cy="46" r="20" fill="#e0b85a" opacity=".85"/>
+<path d="M160 36 C190 80 206 104 206 126 C206 152 186 170 160 170 C134 170 114 152 114 126 C114 104 130 80 160 36Z" fill="#2f5fb3"/>
+<path d="M140 120 C138 136 146 148 160 152" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity=".7"/>
+<path d="M30 176 Q60 164 90 176 T150 176 T210 176 T270 176 T330 176" stroke="#2f5fb3" stroke-width="5" fill="none" opacity=".6"/>
+</svg>

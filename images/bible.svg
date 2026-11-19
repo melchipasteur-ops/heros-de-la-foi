@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Une Bible ouverte">
+<title>Une Bible ouverte</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dce7f7"/><stop offset="1" stop-color="#f6efe0"/></linearGradient></defs>
+<rect width="320" height="200" rx="18" fill="url(#g)"/>
+<circle cx="262" cy="46" r="20" fill="#e0b85a" opacity=".85"/>
+<path d="M60 70 Q110 52 160 72 V160 Q110 142 60 160Z" fill="#fff" stroke="#1b2a4e" stroke-width="3"/>
+<path d="M260 70 Q210 52 160 72 V160 Q210 142 260 160Z" fill="#fff" stroke="#1b2a4e" stroke-width="3"/>
+<path d="M56 160 Q110 144 160 166 Q210 144 264 160 V168 Q210 152 160 174 Q110 152 56 168Z" fill="#1b2a4e"/>
+<path d="M76 86 Q108 76 146 90" stroke="#9aa6c2" stroke-width="2.5" fill="none"/><path d="M76 98 Q108 88 146 102" stroke="#9aa6c2" stroke-width="2.5" fill="none"/><path d="M76 110 Q108 100 146 114" stroke="#9aa6c2" stroke-width="2.5" fill="none"/><path d="M76 122 Q108 112 146 126" stroke="#9aa6c2" stroke-width="2.5" fill="none"/><path d="M76 134 Q108 124 146 138" stroke="#9aa6c2" stroke-width="2.5" fill="none"/>
+<path d="M174 90 Q212 76 244 86" stroke="#9aa6c2" stroke-width="2.5" fill="none"/><path d="M174 102 Q212 88 244 98" stroke="#9aa6c2" stroke-width="2.5" fill="none"/><path d="M174 114 Q212 100 244 110" stroke="#9aa6c2" stroke-width="2.5" fill="none"/><path d="M174 126 Q212 112 244 122" stroke="#9aa6c2" stroke-width="2.5" fill="none"/><path d="M174 138 Q212 124 244 134" stroke="#9aa6c2" stroke-width="2.5" fill="none"/>
+<path d="M160 72 V150" stroke="#a87b1f" stroke-width="3"/><path d="M196 62 V100 L204 92 L212 100 V60" fill="#b2392f"/>
+</svg>

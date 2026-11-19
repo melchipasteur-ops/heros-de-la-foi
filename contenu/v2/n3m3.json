@@ -249,7 +249,81 @@
     "ref": "Actes 1.8",
     "texte": "Mais vous recevrez une puissance, le Saint-Esprit survenant sur vous, et vous serez mes témoins à Jérusalem, dans toute la Judée, dans la Samarie, et jusqu’aux extrémités de la terre."
    },
-   "priere": "Seigneur Jésus, tout pouvoir t’appartient. Merci d’avoir eu pitié de moi. Remplis-moi de ton Esprit pour que je sois ton témoin dans ma maison, mon travail, ma ville, et jusqu’aux extrémités de la terre. Ôte de moi la peur et la honte, donne-moi l’amour et le courage. Je te présente ces personnes de mon entourage qui ne te connaissent pas encore. Amen."
+   "priere": "Seigneur Jésus, tout pouvoir t’appartient. Merci d’avoir eu pitié de moi. Remplis-moi de ton Esprit pour que je sois ton témoin dans ma maison, mon travail, ma ville, et jusqu’aux extrémités de la terre. Ôte de moi la peur et la honte, donne-moi l’amour et le courage. Je te présente ces personnes de mon entourage qui ne te connaissent pas encore. Amen.",
+   "illustration": "colombe",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Le grand mandat ordonne de faire des disciples de toutes les nations.",
+      "vrai": true,
+      "explication": "Allez, faites de toutes les nations des disciples (Matthieu 28.19)."
+     },
+     {
+      "affirmation": "Évangéliser est réservé aux pasteurs et aux évangélistes.",
+      "vrai": false,
+      "explication": "Jésus dit à tous ses disciples : « vous serez mes témoins » (Actes 1.8) ; même l’ancien démoniaque est envoyé vers les siens (Marc 5.19)."
+     },
+     {
+      "affirmation": "C’est le Saint-Esprit qui donne la puissance pour être témoin.",
+      "vrai": true,
+      "explication": "Vous recevrez une puissance, le Saint-Esprit survenant sur vous (Actes 1.8)."
+     },
+     {
+      "affirmation": "Jésus a demandé à l’homme délivré de Gérasa de le suivre en bateau pour devenir missionnaire au loin.",
+      "vrai": false,
+      "explication": "Jésus ne le lui permit pas : « Va dans ta maison, vers les tiens » (Marc 5.19). Son premier champ de mission était son entourage."
+     },
+     {
+      "affirmation": "Comment croiront-ils en celui dont ils n’ont pas entendu parler ?",
+      "vrai": true,
+      "explication": "Romains 10.14 : chaque maillon de la chaîne de l’Évangile compte."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque attitude face à l’évangélisation.",
+     "categories": [
+      "Attitude de témoin fidèle",
+      "Attitude à corriger"
+     ],
+     "elements": [
+      {
+       "texte": "Je raconte simplement à ma sœur ce que Jésus a changé dans ma vie.",
+       "categorie": 0,
+       "explication": "Raconte tout ce que le Seigneur t’a fait (Marc 5.19)."
+      },
+      {
+       "texte": "Je n’ose rien dire de ma foi au travail, de peur qu’on se moque de moi.",
+       "categorie": 1,
+       "explication": "Je n’ai point honte de l’Évangile (Romains 1.16) ; Dieu ne nous a pas donné un esprit de timidité (2 Timothée 1.7)."
+      },
+      {
+       "texte": "Je harcèle mon voisin chaque jour, même quand il me demande poliment d’arrêter.",
+       "categorie": 1,
+       "explication": "Il faut témoigner avec douceur et respect (1 Pierre 3.15-16), pas par la contrainte."
+      },
+      {
+       "texte": "Je prie pour mes collègues par leur nom et je cherche une occasion de les inviter.",
+       "categorie": 0,
+       "explication": "Priez le maître de la moisson (Matthieu 9.38) ; rachetez le temps et saisissez les occasions (Colossiens 4.5)."
+      },
+      {
+       "texte": "Je compte les « décisions » sans m’occuper de ceux qui ont prié après.",
+       "categorie": 1,
+       "explication": "Le mandat est de faire des disciples, en leur enseignant à observer tout ce que Jésus a prescrit (Matthieu 28.20)."
+      },
+      {
+       "texte": "Je partage l’Évangile sur les réseaux sociaux avec respect et sans attaquer les autres religions.",
+       "categorie": 0,
+       "explication": "Que votre parole soit toujours accompagnée de grâce (Colossiens 4.6)."
+      },
+      {
+       "texte": "Je pense que tous les chemins mènent à Dieu, donc il n’est pas nécessaire de parler de Jésus.",
+       "categorie": 1,
+       "explication": "Il n’y a de salut en aucun autre (Actes 4.12) ; Jésus est le chemin (Jean 14.6)."
+      }
+     ]
+    }
+   }
   },
   {
    "titre": "Présenter l’Évangile simplement",
@@ -449,7 +523,81 @@
     "ref": "1 Pierre 3.15",
     "texte": "Mais sanctifiez dans vos cœurs Christ le Seigneur, étant toujours prêts à vous défendre, avec douceur et respect, devant quiconque vous demande raison de l’espérance qui est en vous,"
    },
-   "priere": "Seigneur Jésus, toi qui t’es assis au bord du puits pour parler à une femme que tous évitaient, donne-moi ton regard et ton courage. Règne dans mon cœur afin que je sois toujours prêt à rendre raison de mon espérance, avec douceur et respect. Mets sur mon chemin des personnes assoiffées, et donne-moi les mots justes pour leur parler de l’eau vive. Amen."
+   "priere": "Seigneur Jésus, toi qui t’es assis au bord du puits pour parler à une femme que tous évitaient, donne-moi ton regard et ton courage. Règne dans mon cœur afin que je sois toujours prêt à rendre raison de mon espérance, avec douceur et respect. Mets sur mon chemin des personnes assoiffées, et donne-moi les mots justes pour leur parler de l’eau vive. Amen.",
+   "illustration": "porte",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Le cœur de l’Évangile : Christ est mort pour nos péchés, il a été enseveli et il est ressuscité le troisième jour.",
+      "vrai": true,
+      "explication": "1 Corinthiens 15.3-4, selon les Écritures."
+     },
+     {
+      "affirmation": "Avec la femme samaritaine, Jésus a commencé par lui faire la morale sur sa vie.",
+      "vrai": false,
+      "explication": "Il a commencé par lui demander à boire (Jean 4.7), puis il a parlé de l’eau vive ; la vérité sur sa vie est venue ensuite, avec grâce (Jean 4.16-18)."
+     },
+     {
+      "affirmation": "Il faut être toujours prêt à défendre notre espérance, avec douceur et respect.",
+      "vrai": true,
+      "explication": "1 Pierre 3.15-16."
+     },
+     {
+      "affirmation": "L’Évangile promet que celui qui croit ne sera plus jamais malade ni pauvre.",
+      "vrai": false,
+      "explication": "Jésus promet la vie éternelle (Jean 3.16) et sa présence, pas l’absence d’épreuves : dans le monde vous aurez des tribulations (Jean 16.33)."
+     },
+     {
+      "affirmation": "Un témoignage personnel peut se raconter en trois temps : avant, la rencontre avec Christ, après.",
+      "vrai": true,
+      "explication": "C’est la structure du témoignage de Paul devant Agrippa (Actes 26.4-23)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque message : est-ce l’Évangile biblique, ou un faux évangile ?",
+     "categories": [
+      "Évangile biblique",
+      "Ce que l’Évangile n’est pas"
+     ],
+     "elements": [
+      {
+       "texte": "« Dieu t’aime ; ton péché te sépare de lui ; Christ est mort et ressuscité pour toi ; repens-toi et crois. »",
+       "categorie": 0,
+       "explication": "Un plan simple et fidèle : Jean 3.16 ; Romains 3.23 ; 1 Corinthiens 15.3-4 ; Marc 1.15."
+      },
+      {
+       "texte": "« Donne une grosse offrande et Dieu te rendra riche cette année. »",
+       "categorie": 1,
+       "explication": "Le don de Dieu ne s’achète pas avec de l’argent (Actes 8.20) ; le salut est gratuit (Romains 6.23)."
+      },
+      {
+       "texte": "« Viens à Jésus et tous tes problèmes disparaîtront demain. »",
+       "categorie": 1,
+       "explication": "Jésus annonce la paix en lui, mais aussi des tribulations (Jean 16.33) ; suivre Jésus, c’est porter sa croix (Luc 9.23)."
+      },
+      {
+       "texte": "« Le salut est un cadeau ; on ne peut pas le mériter, on le reçoit par la foi. »",
+       "categorie": 0,
+       "explication": "C’est par la grâce que vous êtes sauvés, par le moyen de la foi (Éphésiens 2.8-9)."
+      },
+      {
+       "texte": "« Sois quelqu’un de bien et tu iras au ciel ; Jésus n’est qu’un bon exemple. »",
+       "categorie": 1,
+       "explication": "Tous ont péché (Romains 3.23) ; seul Christ, mort pour nos péchés, nous réconcilie avec Dieu (1 Pierre 3.18)."
+      },
+      {
+       "texte": "« Jésus t’appelle à te détourner de ton péché et à le suivre comme Seigneur. »",
+       "categorie": 0,
+       "explication": "Repentez-vous, et croyez à la bonne nouvelle (Marc 1.15) ; si tu confesses de ta bouche le Seigneur Jésus… (Romains 10.9)."
+      },
+      {
+       "texte": "« Rejoins notre Église, et c’est l’appartenance à notre groupe qui te sauvera. »",
+       "categorie": 1,
+       "explication": "C’est Christ qui sauve, non l’appartenance à un groupe (Actes 4.12) ; l’Église rassemble ceux qui sont sauvés (Actes 2.47)."
+      }
+     ]
+    }
+   }
   },
   {
    "titre": "Accompagner le nouveau converti",
@@ -660,7 +808,81 @@
     "ref": "2 Timothée 2.2",
     "texte": "Et ce que tu as entendu de moi en présence de beaucoup de témoins, confie-le à des hommes fidèles, qui soient capables de l’enseigner aussi à d’autres."
    },
-   "priere": "Seigneur, merci pour ceux qui m’ont guidé dans la foi. Rends-moi disponible comme Philippe, encourageant comme Barnabas, tendre et fidèle comme Paul. Montre-moi les personnes que tu veux que j’accompagne, donne-moi la patience de marcher à leur rythme, et la joie de les voir grandir jusqu’à devenir à leur tour des témoins. Amen."
+   "priere": "Seigneur, merci pour ceux qui m’ont guidé dans la foi. Rends-moi disponible comme Philippe, encourageant comme Barnabas, tendre et fidèle comme Paul. Montre-moi les personnes que tu veux que j’accompagne, donne-moi la patience de marcher à leur rythme, et la joie de les voir grandir jusqu’à devenir à leur tour des témoins. Amen.",
+   "illustration": "berger",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Quand Philippe lui a demandé s’il comprenait ce qu’il lisait, l’eunuque a répondu qu’il avait besoin d’être guidé.",
+      "vrai": true,
+      "explication": "« Comment le pourrais-je, si quelqu’un ne me guide ? » (Actes 8.31)."
+     },
+     {
+      "affirmation": "Une fois qu’une personne a fait la prière de conversion, le travail de l’évangéliste est terminé.",
+      "vrai": false,
+      "explication": "Il faut accompagner, enseigner et intégrer : présenter tout homme parfait (mûr) en Christ (Colossiens 1.28)."
+     },
+     {
+      "affirmation": "Paul se comparait à une nourrice qui prend tendrement soin de ses enfants.",
+      "vrai": true,
+      "explication": "1 Thessaloniciens 2.7 ; il ajoute qu’il exhortait aussi chacun comme un père (versets 11-12)."
+     },
+     {
+      "affirmation": "2 Timothée 2.2 décrit une chaîne : ce que Timothée a reçu, il doit le confier à des hommes fidèles qui l’enseigneront à d’autres.",
+      "vrai": true,
+      "explication": "Gagner, affermir, envoyer : la foi se transmet de génération en génération."
+     },
+     {
+      "affirmation": "Un bon accompagnateur doit décider de tout à la place du nouveau converti.",
+      "vrai": false,
+      "explication": "Paul exhortait et encourageait (1 Thessaloniciens 2.11-12) sans dominer ; le but est de conduire à Christ, non de créer une dépendance envers soi (1 Pierre 5.3)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque attitude d’un accompagnateur envers un nouveau converti.",
+     "categories": [
+      "Bon accompagnement",
+      "Piège à éviter"
+     ],
+     "elements": [
+      {
+       "texte": "Je lis l’Évangile de Marc chaque semaine avec Sandrine, qui vient de se convertir.",
+       "categorie": 0,
+       "explication": "Comme Philippe, ouvrir la bouche et commencer par l’Écriture (Actes 8.35)."
+      },
+      {
+       "texte": "Je lui donne dès la première semaine une longue liste d’interdits sans lui expliquer la grâce.",
+       "categorie": 1,
+       "explication": "Le légalisme écrase ; Jésus dit que son joug est doux (Matthieu 11.30). On enseigne d’abord le fondement : la grâce (Tite 2.11-12)."
+      },
+      {
+       "texte": "Je l’aide à comprendre ses anciennes pratiques (fétiches, pactes familiaux) et à y renoncer avec paix, à la lumière de la croix.",
+       "categorie": 0,
+       "explication": "Les croyants d’Éphèse renoncèrent publiquement à leurs pratiques (Actes 19.18-19) ; Christ a dépouillé les puissances (Colossiens 2.15)."
+      },
+      {
+       "texte": "Je lui fais peur en lui disant que tous ses malheurs viennent de sorciers dans sa famille.",
+       "categorie": 1,
+       "explication": "Ce soupçon détruit les familles ; le croyant ne vit pas dans la peur (Romains 8.15) et doit aimer et honorer sa famille (Exode 20.12)."
+      },
+      {
+       "texte": "Je le présente aux autres membres et l’aide à trouver sa place dans l’Église.",
+       "categorie": 0,
+       "explication": "Barnabas a pris Saul et l’a présenté aux apôtres (Actes 9.27)."
+      },
+      {
+       "texte": "Je partage ma vie avec lui : un repas, un appel quand il traverse une épreuve.",
+       "categorie": 0,
+       "explication": "Nous aurions voulu vous donner non seulement l’Évangile, mais encore nos propres vies (1 Thessaloniciens 2.8)."
+      },
+      {
+       "texte": "Je le garde pour moi seul et je lui déconseille de recevoir l’enseignement d’autres responsables.",
+       "categorie": 1,
+       "explication": "Paul plantait, Apollos arrosait, mais Dieu faisait croître (1 Corinthiens 3.6-7) : l’accompagnateur ne possède pas le disciple."
+      }
+     ]
+    }
+   }
   }
  ],
  "pratique": {

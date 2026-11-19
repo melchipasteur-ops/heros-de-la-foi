@@ -1,896 +1,1118 @@
 {
-  "id": "n1m4",
-  "titre": "La prière et la communion avec Dieu",
-  "objectif": "Apprendre à parler à Dieu, à l'écouter et à vivre dans sa présence.",
-  "introduction": [
-    "Au moment de ta conversion, une porte s'est ouverte : tu as été réconcilié avec Dieu. Mais la conversion n'est pas une fin, c'est le début d'une relation. Or une relation vit de communication. Un mari et une femme qui ne se parlent plus vivent sous le même toit sans vraiment partager leur vie ; un enfant qui n'adresse jamais la parole à son père reste un étranger dans la maison. Il en est de même avec Dieu : la prière est le souffle de la vie chrétienne. Sans elle, la foi devient une théorie ; avec elle, elle devient une rencontre quotidienne avec le Dieu vivant.",
-    "Beaucoup de nouveaux croyants se sentent maladroits dans la prière. Ils entendent des frères et sœurs prier longtemps, avec des mots puissants, et pensent : « Moi, je ne sais pas prier. » D'autres ont grandi avec des prières récitées par habitude, sans que le cœur y soit. D'autres encore ont connu des pratiques où l'on cherche à « obliger » des puissances invisibles par des formules, des rites ou des sacrifices. Ce module veut te libérer de ces fausses idées et te montrer, Bible en main, ce qu'est la prière selon Jésus : une conversation confiante avec un Père qui t'aime, qui t'écoute et qui te répond.",
-    "Nous étudierons trois grandes dimensions de la communion avec Dieu. D'abord, parler à Dieu : qu'est-ce que prier, et comment le « Notre Père » nous sert-il de modèle ? Ensuite, écouter Dieu : comment Dieu parle-t-il aujourd'hui, et comment discerner sa voix au milieu du bruit de notre monde ? Enfin, persévérer : que faire quand la réponse tarde, et quelle est la place du jeûne dans la vie du croyant ? À chaque étape, nous lirons des récits bibliques (Anne, le jeune Samuel, le prophète Daniel), nous ferons une exégèse sérieuse des textes, et nous chercherons des applications concrètes pour ta vie de tous les jours : au travail, en famille, dans la précarité, face aux écrans et à l'anxiété.",
-    "À la fin de ce module, tu ne seras pas un « expert » de la prière, car personne ne l'est. Mais tu auras appris à te tenir devant Dieu avec simplicité, à lui ouvrir ton cœur, à te nourrir de sa Parole et à tenir bon dans l'attente. La pratique du module, vingt et un jours de prière avec un journal, te permettra de vivre ce que tu auras appris."
-  ],
-  "lecturesObligatoires": [
-    {
-      "ref": "Matthieu 6.1-18",
-      "consigne": "Relevez les trois pratiques religieuses dont Jésus parle et ce qu'il dit sur la motivation du cœur."
-    },
-    {
-      "ref": "Luc 11.1-13",
-      "consigne": "Notez la demande des disciples et les deux images que Jésus utilise pour encourager à demander."
-    },
-    {
-      "ref": "1 Samuel 1.1-2.11",
-      "consigne": "Décrivez la détresse d'Anne, sa manière de prier et la façon dont elle tient son vœu."
-    },
-    {
-      "ref": "1 Samuel 3.1-21",
-      "consigne": "Relevez combien de fois Dieu appelle Samuel et le conseil qu'Éli lui donne."
-    },
-    {
-      "ref": "Psaume 46",
-      "consigne": "Notez les dangers décrits dans le psaume et ce que Dieu demande à son peuple au verset 11."
-    },
-    {
-      "ref": "Jean 10.1-30",
-      "consigne": "Relevez tout ce que Jésus dit de la voix du berger et de la relation avec ses brebis."
-    },
-    {
-      "ref": "Daniel 9.1-23",
-      "consigne": "Observez comment Daniel prie : sa lecture de Jérémie, sa confession, son humilité."
-    },
-    {
-      "ref": "Daniel 10.1-14",
-      "consigne": "Notez la durée du jeûne de Daniel et ce que l'envoyé céleste lui dit sur sa prière."
-    },
-    {
-      "ref": "Luc 18.1-14",
-      "consigne": "Comparez les deux paraboles : la veuve persévérante, puis le pharisien et le publicain."
-    },
-    {
-      "ref": "Ésaïe 58.1-12",
-      "consigne": "Relevez ce que Dieu reproche au jeûne de son peuple et le jeûne qu'il aime."
-    },
-    {
-      "ref": "Philippiens 4.4-9",
-      "consigne": "Notez ce que Paul dit de l'inquiétude, de la prière et de la paix de Dieu."
-    }
-  ],
-  "lecons": [
-    {
-      "titre": "Qu'est-ce que prier ?",
-      "lectures": [
-        {
-          "ref": "Matthieu 6.5-13",
-          "resume": "Jésus met en garde contre la prière faite pour être vu et contre les vaines répétitions, puis donne le « Notre Père » comme modèle."
-        },
-        {
-          "ref": "Philippiens 4.6-7",
-          "resume": "Paul invite à remplacer l'inquiétude par la prière accompagnée d'actions de grâces, et promet la paix de Dieu."
-        },
-        {
-          "ref": "Jérémie 33.3",
-          "resume": "Dieu invite son prophète enfermé en prison à l'invoquer, avec la promesse d'une réponse."
-        },
-        {
-          "ref": "1 Samuel 1.9-20",
-          "resume": "Anne répand son âme devant l'Éternel à Silo et repart en paix ; Dieu lui donne Samuel."
-        }
-      ],
-      "recit": {
-        "titre": "Anne répand son âme devant l'Éternel",
-        "ref": "1 Samuel 1.1-2.11",
-        "paragraphes": [
-          "Au temps des juges, dans la montagne d'Éphraïm, vivait un homme nommé Elkana. Il avait deux femmes : Peninna, qui avait des enfants, et Anne, qui n'en avait pas. Dans la culture de l'époque, une femme sans enfant portait une honte lourde : on la regardait comme oubliée de Dieu. Chaque année, Elkana montait avec sa famille à Silo, où se trouvait le sanctuaire de l'Éternel, pour adorer et offrir des sacrifices. Et chaque année, la même scène se répétait. Elkana donnait à Anne une portion double, car il l'aimait. Mais Peninna, que le texte appelle « sa rivale », se moquait d'elle et l'humiliait, précisément parce que l'Éternel l'avait rendue stérile. Anne pleurait et ne mangeait plus.",
-          "Elkana essayait de la consoler maladroitement : « Anne, pourquoi pleures-tu ? Est-ce que je ne vaux pas pour toi mieux que dix fils ? » Il l'aimait sincèrement, mais il ne pouvait pas porter sa douleur à sa place. Un jour, après le repas à Silo, Anne se leva. Le prêtre Éli était assis sur un siège près de la porte du temple. Anne, l'amertume dans l'âme, se mit à prier l'Éternel en versant des larmes. Elle fit un vœu : « Si tu regardes l'affliction de ta servante et si tu me donnes un fils, je le donnerai à l'Éternel pour tous les jours de sa vie. »",
-          "Anne priait longuement. Ses lèvres remuaient, mais on n'entendait pas sa voix : elle parlait dans son cœur. Éli, la voyant, crut qu'elle était ivre et la reprit durement. Anne répondit avec dignité : « Non, mon seigneur, je suis une femme qui souffre en son cœur ; je n'ai bu ni vin ni boisson enivrante, mais je répandais mon âme devant l'Éternel. » Éli comprit alors et la bénit : « Va en paix, et que le Dieu d'Israël exauce la prière que tu lui as adressée ! » Le texte ajoute un détail magnifique : Anne s'en alla, elle mangea, et son visage ne fut plus le même. Rien n'avait encore changé dans sa situation, mais tout avait changé dans son cœur.",
-          "Quelque temps après, Anne devint enceinte et mit au monde un fils. Elle l'appela Samuel, car, dit-elle, « je l'ai demandé à l'Éternel ». Quand l'enfant fut sevré, elle tint parole : elle le conduisit à Silo, avec des offrandes, et le présenta à Éli en disant : « C'était pour cet enfant que je priais, et l'Éternel a exaucé la prière que je lui adressais. » Puis Anne éclata en un cantique de louange (1 Samuel 2.1-10) qui célèbre le Dieu qui abaisse les orgueilleux et relève les humbles. Cet enfant, né d'une prière, deviendra l'un des plus grands prophètes d'Israël."
-        ],
-        "lecons": [
-          "La prière n'est pas une performance : Anne ne prononce aucun mot à voix haute, et pourtant Dieu entend. Dieu regarde le cœur, pas l'éloquence.",
-          "Prier, c'est « répandre son âme » devant Dieu : on peut lui apporter sa douleur, ses larmes, son humiliation, sans masque.",
-          "La paix peut précéder la réponse : Anne repart apaisée avant même d'être exaucée, parce qu'elle a remis son fardeau à Dieu.",
-          "La prière exaucée conduit à la louange et à la fidélité : Anne tient son vœu et rend gloire à Dieu."
-        ]
-      },
-      "exegese": [
-        {
-          "titre": "Le contexte du Sermon sur la montagne",
-          "paragraphes": [
-            "Matthieu 6.5-13 fait partie du Sermon sur la montagne (Matthieu 5 à 7), le plus long enseignement de Jésus rapporté dans les Évangiles. Matthieu écrit d'abord pour des lecteurs familiers des Écritures et des coutumes juives. Jésus s'adresse à ses disciples et aux foules en Galilée, et il décrit la vie de ceux qui appartiennent au royaume des cieux.",
-            "Le chapitre 6 commence par un principe général : « Gardez-vous de pratiquer votre justice devant les hommes, pour en être vus » (Matthieu 6.1). Jésus l'applique ensuite à trois pratiques religieuses importantes dans le judaïsme de son temps : l'aumône (versets 2-4), la prière (versets 5-15) et le jeûne (versets 16-18). Chaque fois, la structure est la même : une mauvaise manière (pour être vu des hommes), une bonne manière (dans le secret), et une promesse (« ton Père, qui voit dans le secret, te le rendra »). La prière se trouve donc au centre de cette section, et le « Notre Père » est au centre de la prière."
-          ]
-        },
-        {
-          "titre": "Deux dangers : l'hypocrisie et les vaines paroles (versets 5-8)",
-          "paragraphes": [
-            "Le premier danger est l'hypocrisie. Le mot grec hupokritès désignait à l'origine l'acteur de théâtre, celui qui joue un rôle sous un masque. Jésus décrit des gens qui aiment prier debout dans les synagogues et aux coins des rues, pour être vus. Leur public, ce sont les hommes, et ils ont déjà reçu leur récompense : l'admiration. Jésus ne condamne pas la prière publique (lui-même a prié en public), mais la prière dont le vrai destinataire est le regard des autres. Le remède est la « chambre » (en grec tameion, la pièce intérieure, souvent la réserve sans fenêtre de la maison) : un lieu où il n'y a que toi et ton Père.",
-            "Le second danger est celui des « vaines paroles ». Le verbe battalogeô évoque un bavardage répétitif, des mots empilés sans réflexion. Jésus vise les païens, qui pensaient qu'à force de paroles, de répétitions et de formules, ils obligeraient leurs divinités à agir. La raison donnée par Jésus est décisive : « votre Père sait de quoi vous avez besoin, avant que vous le lui demandiez » (Matthieu 6.8). On ne prie donc pas pour informer Dieu ni pour le manipuler, mais pour entrer en relation avec lui, lui confier sa vie et s'aligner sur sa volonté. Cela ne rend pas la demande inutile : Jésus nous commande de demander (Matthieu 7.7). Mais nous demandons comme des enfants à un Père, pas comme des clients à un guichet."
-          ]
-        },
-        {
-          "titre": "Le « Notre Père » verset par verset (versets 9-13)",
-          "paragraphes": [
-            "« Voici donc comment vous devez prier » : Jésus donne un modèle, pas seulement une formule à réciter. Luc 11.1-4 en rapporte une version plus courte, ce qui montre que l'important est la structure et l'esprit plus que les mots exacts. La prière comprend une adresse, trois demandes tournées vers Dieu, puis trois ou quatre demandes tournées vers nos besoins.",
-            "« Notre Père qui es aux cieux ! » Le mot « Père » exprime l'intimité ; Jésus lui-même disait « Abba » (Marc 14.36), terme araméen employé dans la famille. « Notre » rappelle que nous prions en tant que membres d'une famille. « Aux cieux » rappelle la grandeur et la souveraineté de ce Père : proximité et majesté vont ensemble.",
-            "« Que ton nom soit sanctifié ; que ton règne vienne ; que ta volonté soit faite sur la terre comme au ciel. » Avant de parler de nos besoins, nous demandons que Dieu soit reconnu comme saint (le verbe hagiazô signifie « mettre à part, traiter comme saint »), que son règne s'étende et que sa volonté s'accomplisse. La prière commence donc par l'adoration et la soumission : elle remet Dieu au centre.",
-            "« Donne-nous aujourd'hui notre pain quotidien » : Dieu s'intéresse à nos besoins matériels les plus simples. Le mot grec traduit « quotidien » (epiousios) est rare ; il évoque le pain nécessaire pour aujourd'hui ou pour le jour qui vient. Jésus nous apprend à vivre dans une dépendance de chaque jour. « Pardonne-nous nos offenses, comme nous aussi nous pardonnons » : le mot traduit « offenses » (opheilêmata) signifie littéralement « dettes ». Nous avons besoin de pardon chaque jour, et celui qui reçoit le pardon devient capable de pardonner (voir Matthieu 6.14-15). « Ne nous induis pas en tentation, mais délivre-nous du malin » : nous reconnaissons notre fragilité et demandons à Dieu de nous garder de l'épreuve qui ferait tomber et de la puissance du mal. La doxologie finale (« car c'est à toi qu'appartiennent… le règne, la puissance et la gloire ») est absente de plusieurs manuscrits anciens, mais elle exprime bien la louange biblique (voir 1 Chroniques 29.11)."
-          ]
-        },
-        {
-          "titre": "Philippiens 4.6-7 : la prière contre l'inquiétude",
-          "paragraphes": [
-            "Paul écrit aux Philippiens depuis une prison. Il ne vit donc pas dans le confort quand il dit : « Ne vous inquiétez de rien ». Le verbe merimnaô désigne une inquiétude qui divise l'esprit et le tire dans tous les sens. Paul ne demande pas d'ignorer les problèmes, mais de les transformer en prière : « en toute chose faites connaître vos besoins à Dieu ». Il emploie trois mots : la prière (proseuchê, le mot général pour s'adresser à Dieu), la supplication (deêsis, la demande précise née d'un besoin) et l'action de grâces (eucharistia, la reconnaissance). La promesse n'est pas que tout se réglera immédiatement, mais que « la paix de Dieu » gardera nos cœurs. Le verbe phroureô est un terme militaire : la paix monte la garde autour de nos cœurs et de nos pensées comme une garnison autour d'une ville."
-          ]
-        }
-      ],
-      "motsCles": [
-        {
-          "mot": "prier",
-          "langue": "grec",
-          "original": "proseuchomai",
-          "sens": "s'adresser à Dieu, lui parler en le regardant comme destinataire ; c'est le terme le plus général du Nouveau Testament pour la prière."
-        },
-        {
-          "mot": "Père (Abba)",
-          "langue": "araméen",
-          "original": "abba",
-          "sens": "terme familial employé par un enfant pour son père ; Jésus l'utilise (Marc 14.36), et l'Esprit nous permet de dire « Abba ! Père ! » (Romains 8.15)."
-        },
-        {
-          "mot": "supplication",
-          "langue": "grec",
-          "original": "deêsis",
-          "sens": "demande précise née d'un besoin ressenti ; prière qui expose une situation concrète à Dieu."
-        },
-        {
-          "mot": "action de grâces",
-          "langue": "grec",
-          "original": "eucharistia",
-          "sens": "reconnaissance pour ce que Dieu a donné et pour ce qu'il est ; elle accompagne toute vraie prière."
-        },
-        {
-          "mot": "hypocrite",
-          "langue": "grec",
-          "original": "hupokritès",
-          "sens": "acteur de théâtre qui joue un rôle sous un masque ; celui qui prie pour le regard des autres."
-        }
-      ],
-      "enseignement": [
-        {
-          "titre": "La prière est une relation avant d'être une technique",
-          "paragraphes": [
-            "La Bible ne présente jamais la prière comme une technique pour obtenir des choses, mais comme l'expression d'une relation. Dès le jardin d'Éden, Dieu parle avec l'homme. Abraham est appelé « ami de Dieu » (Jacques 2.23), et l'Éternel parlait avec Moïse « face à face, comme un homme parle à son ami » (Exode 33.11). Par la mort de Jésus, le voile du temple a été déchiré : nous pouvons désormais nous approcher « avec assurance du trône de la grâce » (Hébreux 4.16). La prière chrétienne repose donc sur l'œuvre de Christ : nous prions au nom de Jésus (Jean 14.13-14), c'est-à-dire en nous appuyant sur ce qu'il est et sur ce qu'il a fait, non sur nos mérites.",
-            "La prière est aussi trinitaire : nous prions le Père, par le Fils, avec l'aide du Saint-Esprit. Quand nous ne savons pas quoi dire, « l'Esprit lui-même intercède par des soupirs inexprimables » (Romains 8.26). Cela devrait rassurer ceux qui pensent ne pas savoir prier : Dieu lui-même vient au secours de notre faiblesse."
-          ]
-        },
-        {
-          "titre": "Les différentes formes de la prière",
-          "paragraphes": [
-            "La Bible montre une grande variété de prières. L'adoration célèbre Dieu pour ce qu'il est (Psaume 103). L'action de grâces le remercie pour ce qu'il a fait (Psaume 136). La confession reconnaît nos péchés et reçoit son pardon (Psaume 32 ; 1 Jean 1.9). La demande lui présente nos besoins (Philippiens 4.6). L'intercession porte les besoins des autres : Abraham intercède pour Sodome (Genèse 18), Moïse pour le peuple (Exode 32), Jésus pour ses disciples (Jean 17). Il y a aussi la lamentation, cette prière qui crie « Jusqu'à quand ? » (Psaume 13) : la Bible nous autorise à dire à Dieu notre incompréhension, sans perdre la foi.",
-            "Un moyen simple de se souvenir de cet équilibre est de suivre le « Notre Père » : commencer par Dieu (son nom, son règne, sa volonté), puis passer à nos besoins (le pain, le pardon, la protection). Beaucoup de croyants prient seulement pour leurs problèmes ; le modèle de Jésus élargit notre regard et met nos problèmes à leur juste place."
-          ]
-        },
-        {
-          "titre": "Prière et foi : ni magie, ni fatalisme",
-          "paragraphes": [
-            "Deux erreurs guettent le croyant. La première est l'esprit magique : croire que la prière fonctionne comme une formule, et que si l'on dit les bons mots, avec assez de bruit ou de répétitions, Dieu est obligé d'agir. Jésus rejette cette idée (Matthieu 6.7). Dieu n'est pas une force à manipuler, c'est un Père souverain et sage. La seconde erreur est le fatalisme : « De toute façon, Dieu fera ce qu'il veut, donc à quoi bon prier ? » La Bible répond que Dieu a choisi d'agir en réponse aux prières de son peuple : « vous ne possédez pas, parce que vous ne demandez pas » (Jacques 4.2), et « la prière agissante du juste a une grande efficacité » (Jacques 5.16).",
-            "La foi biblique tient ensemble ces deux vérités : Dieu est souverain, et la prière compte réellement. Quand nous prions, nous ne changeons pas le caractère de Dieu, mais Dieu nous associe à son œuvre. Et souvent, la première chose que la prière transforme, c'est nous-mêmes, comme Anne qui repart avec un visage changé."
-          ]
-        },
-        {
-          "titre": "Prier avec régularité et avec liberté",
-          "paragraphes": [
-            "Daniel priait trois fois par jour, à genoux, fenêtres ouvertes vers Jérusalem (Daniel 6.11). Jésus se retirait souvent dans des lieux déserts pour prier (Luc 5.16), parfois très tôt le matin (Marc 1.35). La régularité n'est pas du légalisme : c'est une discipline qui protège la relation, comme les repas réguliers protègent la santé. En même temps, la prière ne se limite pas aux moments fixés : Néhémie, devant le roi, adresse à Dieu une prière éclair avant de répondre (Néhémie 2.4). On peut prier en marchant, au travail, dans les transports, en cuisinant.",
-            "Pour le nouveau croyant, un bon départ consiste à fixer un moment quotidien, même court, avec la Bible ouverte, et à apprendre à « parler à Dieu » tout au long de la journée. La qualité de la prière ne dépend pas de sa longueur, mais de la sincérité du cœur et de la confiance placée en Dieu."
-          ]
-        }
-      ],
-      "citations": [
-        {
-          "ref": "Matthieu 6.6",
-          "texte": "Mais quand tu pries, entre dans ta chambre, ferme ta porte, et prie ton Père qui est là dans le lieu secret ; et ton Père, qui voit dans le secret, te le rendra."
-        },
-        {
-          "ref": "Matthieu 6.9-10",
-          "texte": "Voici donc comment vous devez prier : Notre Père qui es aux cieux ! Que ton nom soit sanctifié ; que ton règne vienne ; que ta volonté soit faite sur la terre comme au ciel."
-        },
-        {
-          "ref": "Philippiens 4.6-7",
-          "texte": "Ne vous inquiétez de rien ; mais en toute chose faites connaître vos besoins à Dieu par des prières et des supplications, avec des actions de grâces. Et la paix de Dieu, qui surpasse toute intelligence, gardera vos cœurs et vos pensées en Jésus-Christ."
-        },
-        {
-          "ref": "Jérémie 33.3",
-          "texte": "Invoque-moi, et je te répondrai ; Je t'annoncerai de grandes choses, des choses cachées, Que tu ne connais pas."
-        },
-        {
-          "ref": "Hébreux 4.16",
-          "texte": "Approchons-nous donc avec assurance du trône de la grâce, afin d'obtenir miséricorde et de trouver grâce, pour être secourus dans nos besoins."
-        }
-      ],
-      "application": [
-        {
-          "titre": "Face à l'anxiété et à la précarité",
-          "paragraphes": [
-            "Beaucoup vivent aujourd'hui avec une inquiétude permanente : loyer à payer, emploi instable, papiers en attente, enfants à nourrir, maladie d'un parent resté au pays. Philippiens 4.6 ne nie pas ces réalités ; il nous apprend à les transformer en prière. Concrètement, quand une inquiétude revient, prends l'habitude de la nommer devant Dieu, précisément, puis de le remercier pour une chose qu'il a déjà faite. Cela n'empêche pas d'agir (chercher du travail, consulter un médecin, demander de l'aide), mais cela change l'esprit dans lequel on agit. Si l'angoisse devient écrasante et durable, la prière n'exclut pas non plus de parler à un pasteur ou à un professionnel de santé : Dieu agit aussi par ces moyens."
-          ]
-        },
-        {
-          "titre": "Au travail et dans les transports",
-          "paragraphes": [
-            "Tu n'as pas besoin d'un lieu religieux pour prier. Comme Néhémie devant le roi, tu peux adresser à Dieu une courte prière avant une réunion difficile, avant de répondre à un client agressif, avant un examen ou un entretien d'embauche. Dans le bus ou le taxi, au lieu de faire défiler ton téléphone, prends cinq minutes pour prier pour tes collègues par leur nom. Ces prières « éclairs » ne remplacent pas le temps quotidien avec Dieu, mais elles en prolongent la présence tout au long de la journée."
-          ]
-        },
-        {
-          "titre": "Contre la prière-spectacle des réseaux sociaux",
-          "paragraphes": [
-            "À l'époque de Jésus, on priait au coin des rues pour être vu ; aujourd'hui, la tentation peut être de publier ses prières, ses jeûnes et ses veillées pour récolter des « j'aime ». Partager un sujet de prière ou un témoignage peut être une bénédiction, mais pose-toi honnêtement la question de Jésus : pour qui est-ce que je prie ? Le secret de la chambre reste la base. Une règle simple : que ta vie de prière cachée soit toujours plus grande que ta vie de prière visible."
-          ]
-        },
-        {
-          "titre": "En famille",
-          "paragraphes": [
-            "La prière n'est pas réservée au pasteur ou au « parent spirituel ». Dans un foyer, prier ensemble, même quelques minutes le soir, construit l'unité. Les parents peuvent apprendre aux enfants à remercier Dieu pour la journée et à prier pour un ami malade. Un couple qui prie ensemble apprend à se pardonner, car il est difficile de rester fâché contre quelqu'un avec qui l'on dit : « Pardonne-nous nos offenses, comme nous aussi nous pardonnons. » Si tu es le seul croyant de ta maison, prie fidèlement pour les tiens, dans le secret, sans faire de ta prière un moyen de pression sur eux."
-          ]
-        }
-      ],
-      "etudeDeCas": {
-        "situation": "Grâce s'est convertie il y a trois mois. Dans son église, plusieurs frères et sœurs prient très fort, longtemps, avec beaucoup d'assurance. Quand on lui demande de prier en groupe, elle panique et se tait. Seule chez elle, elle ne sait pas quoi dire après deux minutes et finit par réciter les mêmes phrases chaque soir. Une amie lui a dit que si Dieu ne répond pas à ses prières, c'est qu'elle ne prie « pas assez fort » ni assez longtemps. Grâce se demande si elle est vraiment faite pour la prière.",
-        "questions": [
-          "Que nous apprend le récit d'Anne sur la prière silencieuse et sincère ?",
-          "Que répondrait Jésus, d'après Matthieu 6.7-8, à l'idée qu'il faut prier « plus fort » ou « plus longtemps » pour être exaucé ?",
-          "Comment Grâce pourrait-elle utiliser le « Notre Père » comme plan pour nourrir sa prière personnelle ?",
-          "Quel petit pas concret lui conseillerais-tu pour prier en groupe sans crainte ?"
-        ]
-      },
-      "reflexion": [
-        "Quelle image de Dieu ai-je quand je prie : un Père, un juge, un guichet, une force lointaine ?",
-        "Ma prière est-elle surtout composée de demandes, ou y a-t-il aussi de l'adoration, de la reconnaissance et de l'intercession ?",
-        "Quelle inquiétude précise dois-je aujourd'hui « faire connaître à Dieu » au lieu de la ruminer ?",
-        "Ai-je un moment et un lieu réguliers pour rencontrer Dieu dans le secret ?"
-      ],
-      "retenir": [
-        "Prier, c'est parler avec Dieu comme un enfant avec son Père, sur la base de l'œuvre de Jésus.",
-        "Jésus rejette la prière-spectacle et les vaines répétitions : Dieu regarde le cœur.",
-        "Le « Notre Père » est un modèle : d'abord Dieu (nom, règne, volonté), ensuite nos besoins (pain, pardon, protection).",
-        "La prière accompagnée d'actions de grâces fait entrer la paix de Dieu dans un cœur inquiet.",
-        "La prière n'est ni de la magie ni du fatalisme : Dieu est souverain et il agit en réponse aux prières de ses enfants."
-      ],
-      "memoriser": {
-        "ref": "Philippiens 4.6-7",
-        "texte": "Ne vous inquiétez de rien ; mais en toute chose faites connaître vos besoins à Dieu par des prières et des supplications, avec des actions de grâces. Et la paix de Dieu, qui surpasse toute intelligence, gardera vos cœurs et vos pensées en Jésus-Christ."
-      },
-      "priere": "Notre Père qui es aux cieux, merci de m'avoir adopté comme ton enfant par Jésus-Christ. Apprends-moi à prier. Délivre-moi de la prière-spectacle et des paroles vides. Je dépose devant toi mes inquiétudes, et je te remercie pour tout ce que tu as déjà fait. Que ta paix garde mon cœur et mes pensées. Au nom de Jésus, amen."
-    },
-    {
-      "titre": "Écouter Dieu",
-      "lectures": [
-        {
-          "ref": "1 Samuel 3.1-21",
-          "resume": "Dieu appelle le jeune Samuel dans la nuit ; conseillé par Éli, Samuel répond : « Parle, car ton serviteur écoute »."
-        },
-        {
-          "ref": "Jean 10.1-16, 27-30",
-          "resume": "Jésus, le bon berger, connaît ses brebis ; elles reconnaissent sa voix et le suivent."
-        },
-        {
-          "ref": "Psaume 46",
-          "resume": "Au milieu des bouleversements, Dieu est un refuge ; il invite son peuple à s'arrêter et à reconnaître qu'il est Dieu."
-        },
-        {
-          "ref": "2 Timothée 3.14-17",
-          "resume": "Toute Écriture est inspirée de Dieu et utile pour enseigner, convaincre, corriger et instruire dans la justice."
-        }
-      ],
-      "recit": {
-        "titre": "« Parle, car ton serviteur écoute »",
-        "ref": "1 Samuel 3.1-21",
-        "paragraphes": [
-          "L'enfant qu'Anne avait demandé à Dieu grandissait au sanctuaire de Silo, au service de l'Éternel, sous la responsabilité du vieux prêtre Éli. L'époque était sombre. Les propres fils d'Éli, Hophni et Phinées, méprisaient les offrandes et se conduisaient de façon scandaleuse, et Éli ne les arrêtait pas. Le texte résume la situation spirituelle du pays par une phrase triste : « La parole de l'Éternel était rare en ce temps-là, les visions n'étaient pas fréquentes. » Le peuple avait encore un temple, des prêtres et des rites, mais on n'entendait plus Dieu.",
-          "Une nuit, alors que la lampe de Dieu n'était pas encore éteinte, Samuel était couché dans le temple, là où se trouvait l'arche. Éli, dont les yeux s'affaiblissaient, dormait à sa place. Soudain, l'Éternel appela : « Samuel ! » L'enfant répondit : « Me voici ! » et courut vers Éli : « Me voici, car tu m'as appelé. » Éli répondit : « Je n'ai point appelé ; retourne te coucher. » La scène se répéta une deuxième fois, puis une troisième. Le texte explique : « Samuel ne connaissait pas encore l'Éternel, et la parole de l'Éternel ne lui avait pas encore été révélée. » Samuel était sincère, serviable, obéissant, mais il ne savait pas encore reconnaître la voix de Dieu.",
-          "À la troisième fois, Éli comprit que c'était l'Éternel qui appelait l'enfant. Malgré ses faiblesses, le vieux prêtre donna alors le meilleur conseil de sa vie : « Va, couche-toi ; et si l'on t'appelle, tu diras : Parle, Éternel, car ton serviteur écoute. » Samuel retourna se coucher. L'Éternel vint, se présenta, et appela comme les autres fois : « Samuel, Samuel ! » Et Samuel répondit : « Parle, car ton serviteur écoute. »",
-          "Le message que Dieu confia alors à Samuel n'était pas facile : un jugement allait frapper la maison d'Éli, parce que ses fils s'étaient rendus méprisables et qu'il ne les avait pas réprimés. Au matin, Samuel eut peur de raconter la vision. Mais Éli insista, et Samuel lui dit tout, sans rien cacher. Éli répondit avec humilité : « C'est l'Éternel, qu'il fasse ce qui lui semblera bon ! » Le récit se termine sur une note lumineuse : Samuel grandissait, l'Éternel était avec lui, et l'Éternel ne laissa tomber à terre aucune de ses paroles : tout ce que Samuel annonçait s'accomplissait. Tout Israël, depuis Dan jusqu'à Beer-Schéba, reconnut que Samuel était établi prophète de l'Éternel. Dans un temps où la parole était rare, Dieu avait trouvé quelqu'un qui écoutait."
-        ],
-        "lecons": [
-          "On peut être au service de Dieu sans encore savoir reconnaître sa voix : l'écoute s'apprend.",
-          "Dieu se sert souvent d'un frère ou d'une sœur plus mûr pour nous aider à discerner sa voix, comme Éli pour Samuel.",
-          "Écouter Dieu suppose une disposition du cœur : « ton serviteur écoute » signifie être prêt à obéir, même à un message difficile.",
-          "Celui qui écoute Dieu fidèlement devient, à son tour, une voix fiable pour les autres."
-        ]
-      },
-      "exegese": [
-        {
-          "titre": "1 Samuel 3 : le contexte d'une parole rare",
-          "paragraphes": [
-            "Les livres de Samuel racontent le passage d'Israël du temps des juges à la royauté. Le livre des Juges se termine par un constat : « En ce temps-là, il n'y avait point de roi en Israël. Chacun faisait ce qui lui semblait bon » (Juges 21.25). Le sanctuaire de Silo est devenu le théâtre de la corruption religieuse : les fils d'Éli prélèvent de force la viande des sacrifices et se conduisent mal (1 Samuel 2.12-17, 22). Le chapitre 3 est construit en contraste : d'un côté, une famille sacerdotale qui n'écoute plus ; de l'autre, un enfant qui apprend à écouter.",
-            "Le détail de la lampe (verset 3) est riche de sens. La lampe du sanctuaire devait brûler du soir au matin (Exode 27.20-21). Dire que « la lampe de Dieu n'était pas encore éteinte » situe la scène avant l'aube, mais suggère aussi que, malgré l'obscurité spirituelle d'Israël, Dieu n'avait pas abandonné son peuple. Le verbe hébreu shâma', « écouter, entendre », traverse tout le récit : Samuel entend, puis écoute ; l'Éternel annonce une action qui bouleversera quiconque en entendra parler (verset 11). Dans la Bible, écouter (shâma') inclut toujours l'idée d'obéir ; c'est le mot du grand commandement : « Écoute, Israël ! » (Deutéronome 6.4)."
-          ]
-        },
-        {
-          "titre": "Jean 10 : la voix du bon berger",
-          "paragraphes": [
-            "En Jean 10, Jésus vient de guérir un aveugle de naissance (Jean 9), que les chefs religieux ont chassé de la synagogue. Jésus oppose alors les mauvais bergers, qui ne se soucient pas des brebis, au bon berger qui donne sa vie pour elles. Dans le Proche-Orient ancien, plusieurs troupeaux passaient parfois la nuit dans le même enclos ; le matin, chaque berger appelait les siennes, et elles se séparaient des autres pour le suivre, parce qu'elles reconnaissaient sa voix. Jésus utilise cette image : « les brebis entendent sa voix ; il appelle par leur nom les brebis qui lui appartiennent » (Jean 10.3).",
-            "Le mot grec phônê, « voix », revient à plusieurs reprises dans le chapitre (versets 3, 4, 5, 16, 27). La relation est réciproque : « Mes brebis entendent ma voix ; je les connais, et elles me suivent » (Jean 10.27). Trois verbes s'enchaînent : entendre, être connu, suivre. Reconnaître la voix de Jésus n'est donc pas d'abord une expérience extraordinaire, mais le fruit d'une familiarité : la brebis connaît la voix du berger parce qu'elle vit avec lui. Inversement, « elles ne suivront point un étranger ; mais elles fuiront loin de lui, parce qu'elles ne connaissent pas la voix des étrangers » (verset 5). Plus nous connaissons la voix du Christ dans les Écritures, plus nous sommes capables de repérer les voix étrangères."
-          ]
-        },
-        {
-          "titre": "Psaume 46.11 : « Arrêtez, et sachez »",
-          "paragraphes": [
-            "Le Psaume 46 décrit un monde qui tremble : la terre bouleversée, les montagnes chancelantes, les nations qui s'agitent, les royaumes qui s'ébranlent. Au milieu de ce chaos, le refrain proclame : « L'Éternel des armées est avec nous, le Dieu de Jacob est pour nous une haute retraite » (versets 8 et 12). Puis vient la parole de Dieu lui-même : « Arrêtez, et sachez que je suis Dieu. » Le verbe hébreu râphâh signifie « relâcher, laisser tomber les mains, cesser ». Il s'adresse d'abord aux nations en guerre, sommées de cesser leur agitation ; mais il s'applique aussi au croyant agité : cesse de t'épuiser, lâche prise, et reconnais qui est Dieu.",
-            "Le verbe « savoir » (yâda') ne désigne pas seulement une connaissance intellectuelle, mais une connaissance d'expérience et de relation. On ne connaît pas Dieu en courant sans cesse ; on le connaît en s'arrêtant devant lui. C'est pourquoi l'écoute de Dieu commence souvent par le silence : faire taire nos propres bruits pour laisser parler sa Parole."
-          ]
-        },
-        {
-          "titre": "2 Timothée 3.14-17 : l'Écriture, voix de Dieu pour le croyant",
-          "paragraphes": [
-            "Paul écrit sa dernière lettre depuis sa prison à Rome, peu avant sa mort. Il avertit Timothée que des temps difficiles viendront, avec des hommes qui auront « l'apparence de la piété » mais en renieront la force (2 Timothée 3.5). Face à ces voix trompeuses, Paul ne donne pas à Timothée une nouvelle expérience mystique, mais le renvoie aux Écritures qu'il connaît « dès ton enfance » (verset 15), apprises de sa grand-mère Loïs et de sa mère Eunice (2 Timothée 1.5).",
-            "Le verset 16 contient un mot unique dans le Nouveau Testament : theopneustos, « soufflé par Dieu ». Paul ne dit pas seulement que l'Écriture contient des pensées sur Dieu, mais qu'elle provient du souffle même de Dieu. Elle a quatre usages : enseigner (dire ce qui est vrai), convaincre (montrer ce qui est faux), corriger (remettre debout ce qui est tordu) et instruire dans la justice (former à la vie juste). Le but est que « l'homme de Dieu soit accompli et propre à toute bonne œuvre » (verset 17). Écouter Dieu par l'Écriture n'est donc pas une option pour les spécialistes : c'est le moyen normal par lequel Dieu forme chacun de ses enfants."
-          ]
-        }
-      ],
-      "motsCles": [
-        {
-          "mot": "écouter",
-          "langue": "hébreu",
-          "original": "shâma'",
-          "sens": "entendre, prêter attention et obéir ; dans la Bible, écouter vraiment Dieu, c'est mettre en pratique ce qu'il dit."
-        },
-        {
-          "mot": "voix",
-          "langue": "grec",
-          "original": "phônê",
-          "sens": "le son de la voix d'une personne ; en Jean 10, la voix personnelle du berger que les brebis reconnaissent."
-        },
-        {
-          "mot": "arrêtez",
-          "langue": "hébreu",
-          "original": "râphâh",
-          "sens": "relâcher, cesser, laisser tomber les mains ; s'arrêter de s'agiter pour reconnaître Dieu."
-        },
-        {
-          "mot": "inspirée de Dieu",
-          "langue": "grec",
-          "original": "theopneustos",
-          "sens": "littéralement « soufflée par Dieu » (2 Timothée 3.16) ; l'Écriture vient de Dieu lui-même."
-        }
-      ],
-      "enseignement": [
-        {
-          "titre": "Dieu parle d'abord et avec autorité par sa Parole écrite",
-          "paragraphes": [
-            "Le Dieu de la Bible est un Dieu qui parle. « Après avoir autrefois, à plusieurs reprises et de plusieurs manières, parlé à nos pères par les prophètes, Dieu, dans ces derniers temps, nous a parlé par le Fils » (Hébreux 1.1-2). Jésus est la Parole faite chair (Jean 1.14), et le témoignage sur lui nous est donné dans les Écritures. « Toute Écriture est inspirée de Dieu, et utile pour enseigner, pour convaincre, pour corriger, pour instruire dans la justice » (2 Timothée 3.16). La Bible est donc le lieu principal, sûr et suffisant où Dieu nous parle aujourd'hui.",
-            "Concrètement, cela signifie que la lecture biblique est une partie essentielle de la prière. Lire la Bible sans prier risque de devenir un exercice intellectuel ; prier sans lire la Bible risque de nous enfermer dans nos propres pensées. Une manière simple de lier les deux est de lire un passage, de se demander ce qu'il révèle de Dieu, ce qu'il demande de moi, puis de répondre à Dieu dans la prière à partir de ce passage."
-          ]
-        },
-        {
-          "titre": "Les autres moyens que Dieu utilise",
-          "paragraphes": [
-            "Dieu parle aussi par son Esprit, qui nous conduit dans la vérité (Jean 16.13) et rend témoignage à notre esprit que nous sommes enfants de Dieu (Romains 8.16). Il nous parle par l'Église : par la prédication, par le conseil de croyants mûrs (comme Éli pour Samuel), par l'exhortation mutuelle. Il peut nous parler par les circonstances, en ouvrant ou en fermant des portes (Actes 16.6-10). La Bible rapporte aussi des songes et des visions, et beaucoup de croyants témoignent que Dieu leur a parlé de cette façon.",
-            "Toutefois, ces moyens n'ont pas la même autorité que l'Écriture. Une impression intérieure, un rêve ou une « prophétie » peuvent venir de Dieu, mais aussi de nos propres désirs, de nos peurs, ou d'une influence trompeuse. C'est pourquoi le Nouveau Testament demande d'examiner : « examinez toutes choses ; retenez ce qui est bon » (1 Thessaloniciens 5.21), et « n'ajoutez pas foi à tout esprit ; mais éprouvez les esprits, pour savoir s'ils sont de Dieu » (1 Jean 4.1). Sur la place exacte des dons prophétiques aujourd'hui, les évangéliques n'ont pas tous la même position ; mais tous s'accordent sur ce principe : rien de ce qui contredit la Bible ne vient de Dieu."
-          ]
-        },
-        {
-          "titre": "Comment discerner la voix de Dieu",
-          "paragraphes": [
-            "Voici quelques critères bibliques simples. D'abord, l'accord avec l'Écriture : Dieu ne se contredit jamais. Ensuite, le caractère de Christ : la voix de Dieu conduit à plus d'amour, de sainteté, d'humilité et de vérité, jamais à la haine, à l'orgueil ou à l'immoralité. Troisièmement, la confirmation dans la communauté : les décisions importantes gagnent à être soumises à des croyants mûrs et sages (Proverbes 15.22). Quatrièmement, la paix de Christ qui « règne dans vos cœurs » (Colossiens 3.15), sans en faire une règle absolue, car nos émotions peuvent varier. Enfin, le temps : ce qui vient de Dieu supporte l'attente et la vérification.",
-            "Il faut aussi se méfier d'une forme de manipulation fréquente : quelqu'un qui prétend avoir « reçu une parole de Dieu » pour toi, afin d'obtenir ton argent, de contrôler ton mariage ou de t'isoler de ta famille. La voix du bon berger ne t'arrache pas à ta liberté, elle te conduit à la vérité. Le berger connaît ses brebis par leur nom ; il ne les exploite pas."
-          ]
-        },
-        {
-          "titre": "Le silence et la disponibilité",
-          "paragraphes": [
-            "Samuel n'a entendu la voix de Dieu que lorsqu'il a dit : « Parle, car ton serviteur écoute ». Beaucoup de nos prières disent plutôt : « Écoute, car ton serviteur parle. » Il est bon de laisser des temps de silence dans notre communion avec Dieu : relire lentement un verset, le méditer, attendre. Le psalmiste dit : « Heureux l'homme… qui trouve son plaisir dans la loi de l'Éternel, et qui la médite jour et nuit ! » (Psaume 1.1-2). Méditer, c'est ruminer la Parole, la répéter, la laisser descendre dans le cœur. Écouter Dieu est inséparable de la volonté d'obéir : Jésus compare celui qui entend ses paroles et les met en pratique à un homme qui bâtit sa maison sur le roc (Matthieu 7.24).",
-            "Il arrive aussi que Dieu semble silencieux. Les Psaumes en parlent souvent, et Samuel lui-même a grandi dans un temps où la parole était rare. Le silence de Dieu n'est pas son absence. Pendant ces périodes, continue de lire ce qu'il a déjà dit, d'obéir à ce que tu sais, et de rester dans la communion de l'Église. Le berger n'abandonne pas sa brebis parce qu'elle ne l'entend pas pour un temps : « personne ne les ravira de ma main » (Jean 10.28)."
-          ]
-        }
-      ],
-      "citations": [
-        {
-          "ref": "1 Samuel 3.10",
-          "texte": "L'Éternel vint et se présenta, et il appela comme les autres fois : Samuel, Samuel ! Et Samuel répondit : Parle, car ton serviteur écoute."
-        },
-        {
-          "ref": "Jean 10.27",
-          "texte": "Mes brebis entendent ma voix ; je les connais, et elles me suivent."
-        },
-        {
-          "ref": "Psaume 46.11",
-          "texte": "Arrêtez, et sachez que je suis Dieu : Je domine sur les nations, je domine sur la terre."
-        },
-        {
-          "ref": "Psaume 119.105",
-          "texte": "Ta parole est une lampe à mes pieds, Et une lumière sur mon sentier."
-        },
-        {
-          "ref": "1 Thessaloniciens 5.21",
-          "texte": "Mais examinez toutes choses ; retenez ce qui est bon ;"
-        }
-      ],
-      "application": [
-        {
-          "titre": "Faire silence dans un monde saturé de bruit",
-          "paragraphes": [
-            "Nos téléphones nous sollicitent sans cesse : notifications, messages, vidéos, actualités. Beaucoup de croyants commencent la journée en consultant leurs messages avant d'avoir dit un mot à Dieu. Une décision simple peut transformer ta vie spirituelle : ne pas ouvrir les réseaux sociaux avant d'avoir ouvert ta Bible. Mets ton téléphone en mode silencieux pendant ton temps de prière, ou utilise une Bible papier. Le Psaume 46 nous dit : « Arrêtez ». Dans notre monde, cela peut commencer par « éteignez »."
-          ]
-        },
-        {
-          "titre": "Lire la Bible pour entendre, pas seulement pour savoir",
-          "paragraphes": [
-            "Adopte une méthode simple pour ton temps quotidien : lis un passage court (par exemple un chapitre d'un Évangile), puis pose-toi trois questions : qu'est-ce que ce texte me montre de Dieu ? qu'est-ce qu'il me montre de moi ? que dois-je faire aujourd'hui ? Écris une phrase de réponse dans un carnet, puis transforme-la en prière. En quelques semaines, tu verras que la Bible n'est plus un livre difficile, mais la voix de ton berger."
-          ]
-        },
-        {
-          "titre": "Face aux « prophéties » et aux promesses faciles",
-          "paragraphes": [
-            "Dans certains milieux, on entend beaucoup de « paroles » annonçant richesse, mariage, voyage ou guérison immédiate, parfois en échange d'une offrande. Ne méprise pas les dons de Dieu, mais applique les critères de l'Écriture : cette parole est-elle conforme à la Bible ? Me pousse-t-elle à aimer Christ ou à aimer l'argent ? Est-elle confirmée par des responsables sages ? Me demande-t-on de payer pour la recevoir ? Le bon berger donne sa vie pour ses brebis ; il ne leur vend pas sa voix."
-          ]
-        },
-        {
-          "titre": "Prendre une décision importante",
-          "paragraphes": [
-            "Tu dois choisir un métier, accepter ou non une proposition de travail, décider d'émigrer, t'engager dans une relation ? Écouter Dieu dans ces situations ne consiste pas à attendre un signe spectaculaire. Commence par ce que Dieu a déjà dit clairement dans sa Parole (par exemple : ne pas s'associer avec un non-croyant dans le mariage, ne pas mentir sur ses papiers, ne pas abandonner sa famille). Prie, demande conseil à des croyants mûrs, examine les portes ouvertes et fermées, et avance avec humilité. Dieu guide celui qui marche, comme un berger guide une brebis en mouvement."
-          ]
-        },
-        {
-          "titre": "Apprendre à écouter avec d'autres",
-          "paragraphes": [
-            "Samuel avait besoin d'Éli pour comprendre que c'était Dieu qui l'appelait. De la même façon, ne reste pas seul avec tes questions. Rejoins un groupe de lecture biblique dans ton église, ou propose à un ami croyant de lire le même livre biblique pendant un mois et d'échanger chaque semaine sur ce que vous avez compris. Quand tu as l'impression que Dieu te parle sur un sujet important, partage-le avec un responsable mûr avant d'agir. Cette humilité n'éteint pas l'Esprit ; elle te protège des illusions et t'aide à grandir. Écouter Dieu se vit en famille, dans le corps de Christ, pas seulement dans l'isolement."
-          ]
-        }
-      ],
-      "etudeDeCas": {
-        "situation": "Jonas, 24 ans, cherche du travail depuis un an. Un soir, après une veillée de prière, un homme se présentant comme prophète lui dit qu'il a reçu une révélation : Dieu veut que Jonas parte en Europe dans les trois mois, et pour « débloquer » ce voyage, il doit semer une offrande importante. Le lendemain, la mère de Jonas, malade, lui demande de rester encore un peu pour l'aider. Jonas n'a pas lu sa Bible depuis plusieurs semaines. Il est perdu : il veut obéir à Dieu, mais il ne sait plus quelle voix écouter.",
-        "questions": [
-          "Quels critères bibliques Jonas peut-il utiliser pour examiner la « révélation » reçue ?",
-          "Que nous apprend Jean 10.1-5 sur la différence entre la voix du berger et celle d'un étranger ?",
-          "Quel rôle pourrait jouer un croyant mûr, comme Éli pour Samuel, dans la situation de Jonas ?",
-          "Quelle place Jonas devrait-il redonner à la Parole de Dieu dans sa recherche de direction ?"
-        ]
-      },
-      "reflexion": [
-        "Combien de temps est-ce que je consacre chaque jour à écouter Dieu par sa Parole, comparé au temps passé à écouter d'autres voix ?",
-        "Ma prière ressemble-t-elle davantage à « Parle, car ton serviteur écoute » ou à « Écoute, car ton serviteur parle » ?",
-        "Y a-t-il une parole claire de la Bible que je connais déjà mais que je n'ai pas encore mise en pratique ?",
-        "Qui, autour de moi, pourrait jouer le rôle d'Éli et m'aider à discerner la volonté de Dieu ?"
-      ],
-      "retenir": [
-        "Dieu est un Dieu qui parle ; il parle principalement, sûrement et suffisamment par sa Parole écrite.",
-        "Écouter Dieu (shâma') signifie entendre et obéir.",
-        "Les brebis de Jésus reconnaissent sa voix parce qu'elles vivent avec lui ; la familiarité avec l'Écriture aide à repérer les voix étrangères.",
-        "Toute impression, songe ou prophétie doit être examinée à la lumière de la Bible et confirmée par la communauté.",
-        "Le silence devant Dieu (« Arrêtez, et sachez que je suis Dieu ») prépare le cœur à l'écoute."
-      ],
-      "memoriser": {
-        "ref": "Jean 10.27",
-        "texte": "Mes brebis entendent ma voix ; je les connais, et elles me suivent."
-      },
-      "priere": "Seigneur, comme Samuel, je veux te dire : Parle, car ton serviteur écoute. Pardonne-moi d'avoir laissé tant d'autres voix remplir mes journées. Donne-moi l'amour de ta Parole, un cœur prêt à obéir et la sagesse de discerner ta voix. Garde-moi des voix étrangères. Au nom de Jésus, mon bon berger, amen."
-    },
-    {
-      "titre": "Persévérer et jeûner",
-      "lectures": [
-        {
-          "ref": "Luc 18.1-8",
-          "resume": "La parabole de la veuve qui insiste auprès d'un juge injuste montre qu'il faut toujours prier sans se relâcher."
-        },
-        {
-          "ref": "Matthieu 6.16-18",
-          "resume": "Jésus enseigne à jeûner pour le Père qui voit dans le secret, et non pour être remarqué."
-        },
-        {
-          "ref": "Daniel 10.1-14",
-          "resume": "Après trois semaines de deuil et de jeûne, Daniel apprend que sa prière a été entendue dès le premier jour."
-        },
-        {
-          "ref": "Ésaïe 58.3-11",
-          "resume": "Dieu dénonce un jeûne religieux sans justice et décrit le jeûne qui lui plaît : libérer, partager, secourir."
-        }
-      ],
-      "recit": {
-        "titre": "Daniel, vingt et un jours d'attente",
-        "ref": "Daniel 9.1-23 ; 10.1-14",
-        "paragraphes": [
-          "Daniel avait été emmené en captivité à Babylone dans sa jeunesse. Il avait servi sous plusieurs rois, traversé des complots et même la fosse aux lions, mais il n'avait jamais cessé de prier. Devenu un homme âgé, il lisait un jour le livre du prophète Jérémie. Il y découvrit que Dieu avait annoncé que la désolation de Jérusalem durerait soixante-dix ans (Daniel 9.2 ; Jérémie 25.11). Daniel ne se contenta pas de cette information : il tourna sa face vers le Seigneur Dieu pour recourir à la prière et aux supplications, en jeûnant, en prenant le sac et la cendre. Sa prière, rapportée au chapitre 9, est une longue confession : il ne dit pas « ils ont péché », mais « nous avons péché ». Il ne s'appuie pas sur la justice du peuple, mais sur les grandes compassions de Dieu.",
-          "Quelque temps plus tard, la troisième année de Cyrus, roi de Perse, Daniel reçut une révélation qui le bouleversa. Il se mit alors à mener le deuil pendant trois semaines entières. Le texte précise : il ne mangea aucun mets délicat, il n'entra ni viande ni vin dans sa bouche, et il ne s'oignit point. Ce n'était pas un jeûne total, mais une privation volontaire, prolongée, pour s'humilier devant Dieu et chercher à comprendre. Jour après jour, rien ne semblait se passer. Une semaine, deux semaines, trois semaines.",
-          "Le vingt-quatrième jour du premier mois, Daniel se trouvait au bord du grand fleuve, le Tigre (appelé Hiddékel). Il leva les yeux et vit un homme vêtu de lin, ceint d'une ceinture d'or, dont le visage brillait comme l'éclair et dont les yeux étaient comme des flammes de feu. Les hommes qui étaient avec lui ne virent rien, mais furent saisis de frayeur et s'enfuirent. Daniel resta seul, sans force, et tomba la face contre terre. Une main le toucha et le releva en tremblant sur ses genoux et sur ses mains.",
-          "Le messager céleste lui dit alors des paroles qui ont encouragé des générations de croyants : « Daniel, homme bien-aimé… Ne crains rien, Daniel ! car dès le premier jour où tu as eu à cœur de comprendre, et de t'humilier devant ton Dieu, tes paroles ont été entendues, et c'est à cause de tes paroles que je viens. » Puis il expliqua que le chef du royaume de Perse lui avait résisté vingt et un jours, et que Micaël, l'un des principaux chefs, était venu à son secours. La prière de Daniel avait été entendue dès le premier jour, mais la réponse avait été retardée par un combat invisible. Pendant ces vingt et un jours, Daniel n'avait vu aucun signe ; pourtant, Dieu était à l'œuvre."
-        ],
-        "lecons": [
-          "Le silence apparent de Dieu ne signifie pas qu'il n'a pas entendu : la prière de Daniel est entendue dès le premier jour.",
-          "La prière s'enracine dans la Parole : c'est en lisant Jérémie que Daniel se met à prier.",
-          "Le jeûne biblique accompagne l'humilité et la recherche de Dieu ; il n'est pas un moyen de pression sur lui.",
-          "Il existe une dimension spirituelle invisible ; la persévérance dans la prière participe au combat que Dieu mène."
-        ]
-      },
-      "exegese": [
-        {
-          "titre": "Luc 18.1-8 : le contexte de la parabole",
-          "paragraphes": [
-            "Luc est le plus attentif des évangélistes à la prière de Jésus et à son enseignement sur la prière (voir Luc 3.21 ; 5.16 ; 6.12 ; 9.28 ; 11.1-13 ; 22.39-46). La parabole de la veuve suit immédiatement un enseignement sur la venue du Fils de l'homme (Luc 17.20-37), qui sera soudaine et inattendue. Les disciples vont vivre une longue attente, pleine d'injustices et de persécutions, et ils seront tentés de se décourager. C'est pourquoi Luc annonce dès le premier verset le but de la parabole : « pour montrer qu'il faut toujours prier, et ne point se relâcher ».",
-            "Le verbe traduit « se relâcher » (egkakeô) signifie « perdre courage, faiblir, baisser les bras ». Jésus sait que la plus grande tentation dans la prière n'est pas de mal prier, mais d'arrêter de prier."
-          ]
-        },
-        {
-          "titre": "Les personnages et la logique « à combien plus forte raison »",
-          "paragraphes": [
-            "Le juge est décrit avec deux traits : il ne craint pas Dieu et n'a d'égard pour personne. Dans l'Ancien Testament, la veuve est le symbole de la personne sans défense, sans mari pour la protéger ni ressources pour acheter la justice ; la loi demande de la protéger (Exode 22.22 ; Deutéronome 10.18). Cette veuve n'a qu'une arme : sa persévérance. Elle revient sans cesse demander : « Fais-moi justice de ma partie adverse. » Le juge finit par céder, non par justice, mais pour qu'elle cesse de l'importuner ; l'expression grecque employée signifie même littéralement « qu'elle ne vienne pas me frapper sous l'œil », une image vivante de l'épuisement.",
-            "Attention : Jésus ne dit pas que Dieu ressemble à ce juge. Il raisonne par contraste, du plus petit au plus grand. Si même un juge injuste finit par rendre justice à une étrangère qui l'importune, combien plus Dieu, juste et bon, fera-t-il justice à « ses élus, qui crient à lui jour et nuit » ! Les croyants ne sont pas des inconnus qui dérangent : ce sont les élus, aimés de Dieu. Jésus ajoute : « il leur fera promptement justice ». Ce « promptement » ne signifie pas toujours immédiatement à nos yeux, mais que Dieu ne retardera pas un instant au-delà de ce qui est juste et bon.",
-            "La parabole se termine par une question inattendue : « Mais, quand le Fils de l'homme viendra, trouvera-t-il la foi sur la terre ? » La question n'est pas de savoir si Dieu sera fidèle (il l'est toujours), mais si nous, nous persévérerons dans la foi. La persévérance dans la prière est l'expression concrète de la foi qui attend le retour du Seigneur."
-          ]
-        },
-        {
-          "titre": "Matthieu 6.16-18 : jeûner pour le Père",
-          "paragraphes": [
-            "Jésus dit « quand vous jeûnez », et non « si vous jeûnez » : il suppose que ses disciples jeûneront, comme il l'annonce aussi en Matthieu 9.15 (« les jours viendront où l'époux leur sera enlevé, et alors ils jeûneront »). Dans l'Ancien Testament, le jeûne (en hébreu tsôm) était associé au deuil, à la repentance et à la recherche intense de Dieu (Joël 2.12 ; Esdras 8.21-23 ; Esther 4.16). La loi n'imposait qu'un jeûne annuel, au jour des expiations, désigné par l'expression « humilier son âme » (Lévitique 16.29-31). Au temps de Jésus, les pharisiens pieux jeûnaient deux fois par semaine (Luc 18.12).",
-            "Le problème que Jésus dénonce n'est pas le jeûne, mais le jeûne-spectacle : se donner un visage défait pour montrer aux autres qu'on jeûne. Le mot grec nêsteia désigne la privation de nourriture ; Jésus demande au contraire de se parfumer la tête et de se laver le visage, c'est-à-dire de garder une apparence normale. Le jeûne est une affaire entre le croyant et son Père. Ésaïe 58 complète cet enseignement : Dieu rejette un jeûne accompagné d'injustice envers les ouvriers et de disputes, et déclare : « Voici le jeûne auquel je prends plaisir : Détache les chaînes de la méchanceté… Partage ton pain avec celui qui a faim » (Ésaïe 58.6-7). Le vrai jeûne transforme notre relation avec Dieu et avec le prochain."
-          ]
-        },
-        {
-          "titre": "Daniel 10.12-13 : une prière entendue, une réponse retardée",
-          "paragraphes": [
-            "Le livre de Daniel se situe pendant l'exil à Babylone, puis au début de l'empire perse. La troisième année de Cyrus (Daniel 10.1), un premier groupe d'exilés est déjà rentré à Jérusalem, mais la reconstruction rencontre de fortes oppositions (voir Esdras 4.1-5). Daniel, resté en terre étrangère, porte dans la prière l'avenir de son peuple.",
-            "Le verset 12 relie trois éléments : « avoir à cœur de comprendre », « s'humilier devant ton Dieu » et « tes paroles ont été entendues ». Le verbe hébreu traduit « s'humilier » (ânâh) est celui que la loi emploie pour le jeûne du jour des expiations (« humilier son âme », Lévitique 16.29). Le jeûne de Daniel est donc d'abord une attitude d'humilité. Le verset 13 lève un coin du voile sur le monde invisible : un « chef du royaume de Perse » s'oppose au messager, et Micaël vient à son aide. Le texte ne nous donne pas tous les détails et il faut éviter les spéculations. Mais il enseigne clairement que la prière des croyants est liée à un combat réel, que Paul décrit aussi en Éphésiens 6.12, et que Dieu reste maître de l'issue."
-          ]
-        }
-      ],
-      "motsCles": [
-        {
-          "mot": "se relâcher",
-          "langue": "grec",
-          "original": "egkakeô",
-          "sens": "perdre courage, faiblir, baisser les bras ; Jésus enseigne à ne pas abandonner la prière."
-        },
-        {
-          "mot": "jeûne",
-          "langue": "hébreu",
-          "original": "tsôm",
-          "sens": "privation volontaire de nourriture pour s'humilier devant Dieu, exprimer le deuil ou la repentance, et le rechercher."
-        },
-        {
-          "mot": "jeûne",
-          "langue": "grec",
-          "original": "nêsteia",
-          "sens": "abstention de nourriture ; dans le Nouveau Testament, pratique des disciples, à vivre dans le secret devant le Père."
-        },
-        {
-          "mot": "sans cesse",
-          "langue": "grec",
-          "original": "adialeiptôs",
-          "sens": "sans interruption, de façon constante ; la prière comme attitude permanente du cœur (1 Thessaloniciens 5.17)."
-        }
-      ],
-      "enseignement": [
-        {
-          "titre": "Pourquoi Dieu ne répond-il pas toujours tout de suite ?",
-          "paragraphes": [
-            "La Bible ne donne pas une explication unique, mais plusieurs pistes. Parfois, Dieu répond « oui » rapidement, comme pour Néhémie devant le roi. Parfois, il répond « attends », parce que le moment n'est pas encore venu : Abraham attend vingt-cinq ans la naissance d'Isaac. Parfois, il répond « non », parce qu'il a quelque chose de meilleur : Paul demande trois fois que son « écharde dans la chair » lui soit enlevée, et Dieu répond : « Ma grâce te suffit, car ma puissance s'accomplit dans la faiblesse » (2 Corinthiens 12.9). Jésus lui-même, à Gethsémané, a prié : « Que cette coupe s'éloigne de moi ! Toutefois, non pas ce que je veux, mais ce que tu veux » (Matthieu 26.39).",
-            "Il arrive aussi que la Bible relie une prière non exaucée à un obstacle de notre côté : des motifs égoïstes (Jacques 4.3), un péché que l'on garde volontairement (Psaume 66.18), ou une relation conjugale où le mari méprise sa femme (1 Pierre 3.7). Mais il ne faut jamais conclure trop vite qu'une attente vient d'un péché caché : Daniel était un homme fidèle, et pourtant il a attendu vingt et un jours. L'attente fait partie de la vie de foi. Elle forme la patience, approfondit la confiance et purifie nos désirs."
-          ]
-        },
-        {
-          "titre": "Prier sans cesse",
-          "paragraphes": [
-            "« Priez sans cesse » (1 Thessaloniciens 5.17) ne signifie pas rester à genoux vingt-quatre heures sur vingt-quatre. Paul lui-même travaillait de ses mains (1 Thessaloniciens 2.9). Prier sans cesse, c'est vivre dans une conscience permanente de la présence de Dieu, revenir à lui naturellement tout au long de la journée, et ne jamais fermer définitivement un sujet de prière tant que Dieu n'a pas répondu ou montré une autre direction. C'est aussi garder des temps réguliers, comme Daniel qui priait trois fois par jour.",
-            "Persévérer, c'est continuer à prier quand on ne ressent rien, quand on est fatigué, quand les circonstances semblent dire le contraire. Jésus a donné une autre parabole sur ce sujet : l'ami qui vient frapper à minuit pour emprunter trois pains (Luc 11.5-8). Puis il conclut : « Demandez, et l'on vous donnera ; cherchez, et vous trouverez ; frappez, et l'on vous ouvrira » (Luc 11.9). Les verbes grecs sont au présent, qui exprime ici une action continue : continuez à demander, continuez à chercher, continuez à frapper."
-          ]
-        },
-        {
-          "titre": "Le jeûne : sens, formes et prudence",
-          "paragraphes": [
-            "Le jeûne biblique n'est pas une grève de la faim contre Dieu, ni un exploit pour mériter une réponse. C'est une manière de dire avec son corps : « Seigneur, tu es plus important que ma nourriture. » Il exprime l'humilité (Esdras 8.21), la repentance (Jonas 3.5-10), la recherche de direction (Actes 13.2-3 ; 14.23) et l'intensité d'un combat spirituel. La Bible montre différentes formes : le jeûne total sans nourriture (Esther 4.16, trois jours), le jeûne partiel (Daniel 10.3) et des jeûnes exceptionnels de quarante jours (Moïse, Élie, Jésus), qui ne sont pas présentés comme un modèle à imiter par tous.",
-            "Le jeûne doit être vécu avec sagesse. Une personne enceinte, malade (diabète, ulcère, troubles alimentaires), sous traitement médical, ou âgée doit consulter un médecin et choisir une forme adaptée, par exemple renoncer à certains aliments, aux écrans ou à un loisir. Le jeûne ne doit jamais être imposé comme une épreuve de force, ni servir à juger les autres. Ce qui compte n'est pas la durée, mais le cœur : un temps libéré pour prier, lire la Parole et chercher Dieu, et souvent un repas économisé partagé avec celui qui a faim, comme le demande Ésaïe 58."
-          ]
-        },
-        {
-          "titre": "Persévérance et confiance dans la souveraineté de Dieu",
-          "paragraphes": [
-            "Persévérer dans la prière ne veut pas dire « fatiguer » Dieu jusqu'à ce qu'il cède, comme le juge de la parabole. Jésus affirme au contraire que Dieu est un Père bon qui sait donner de bonnes choses à ses enfants (Luc 11.13). La persévérance est l'expression de notre confiance : nous revenons vers lui parce que nous croyons qu'il est fidèle, même si nous ne comprenons pas son calendrier.",
-            "Elle transforme aussi celui qui prie. En persévérant, Anne a appris à remettre son fardeau ; Daniel a reçu une compréhension plus profonde ; Paul a découvert que la grâce de Dieu suffit. Souvent, à la fin d'une longue attente, nous découvrons que Dieu a répondu à une prière plus profonde que celle que nous formulions. Le croyant qui persévère apprend à dire avec Jésus : « non pas ce que je veux, mais ce que tu veux », non par résignation, mais par confiance dans la sagesse du Père."
-          ]
-        }
-      ],
-      "citations": [
-        {
-          "ref": "Luc 18.1",
-          "texte": "Jésus leur adressa une parabole, pour montrer qu'il faut toujours prier, et ne point se relâcher."
-        },
-        {
-          "ref": "Luc 18.7-8",
-          "texte": "Et Dieu ne fera-t-il pas justice à ses élus, qui crient à lui jour et nuit, et tardera-t-il à leur égard ? Je vous le dis, il leur fera promptement justice. Mais, quand le Fils de l'homme viendra, trouvera-t-il la foi sur la terre ?"
-        },
-        {
-          "ref": "Matthieu 6.17-18",
-          "texte": "Mais quand tu jeûnes, parfume ta tête et lave ton visage, afin de ne pas montrer aux hommes que tu jeûnes, mais à ton Père qui est là dans le lieu secret ; et ton Père, qui voit dans le secret, te le rendra."
-        },
-        {
-          "ref": "1 Thessaloniciens 5.16-18",
-          "texte": "Soyez toujours joyeux. Priez sans cesse. Rendez grâces en toutes choses, car c'est à votre égard la volonté de Dieu en Jésus-Christ."
-        },
-        {
-          "ref": "Ésaïe 58.6",
-          "texte": "Voici le jeûne auquel je prends plaisir : Détache les chaînes de la méchanceté, Dénoue les liens de la servitude, Renvoie libres les opprimés, Et que l'on rompe toute espèce de joug ;"
-        }
-      ],
-      "application": [
-        {
-          "titre": "Tenir un journal de prière",
-          "paragraphes": [
-            "Notre mémoire est courte : nous oublions vite ce que nous avons demandé et ce que Dieu a fait. Un journal de prière est un outil simple et puissant. Sur une page, note la date, le sujet de prière, et laisse une colonne vide pour la réponse. Relis-le chaque semaine. Tu verras des réponses que tu aurais oubliées, et ta foi s'en trouvera fortifiée. Tu verras aussi des sujets qui attendent encore : continue de les présenter, comme la veuve de la parabole. Le journal t'aidera également à remarquer quand Dieu a répondu autrement que tu ne l'attendais."
-          ]
-        },
-        {
-          "titre": "Quand l'attente dure : chômage, maladie, papiers, mariage",
-          "paragraphes": [
-            "Certaines prières durent des mois, voire des années : un emploi stable, la guérison d'un proche, une régularisation administrative, un conjoint, un enfant, la conversion d'un parent. Pendant l'attente, garde trois attitudes. Continue à prier, même brièvement, chaque jour. Continue à agir de façon responsable et honnête (déposer des candidatures, suivre les traitements, respecter la loi). Et continue à servir Dieu là où tu es, sans mettre ta vie entre parenthèses. L'attente n'est pas du temps perdu : Dieu y travaille en toi comme il travaillait pour Daniel pendant ses vingt et un jours."
-          ]
-        },
-        {
-          "titre": "Choisir un jeûne adapté à ta vie",
-          "paragraphes": [
-            "Si tu n'as jamais jeûné, commence simplement : saute un repas une fois par semaine et utilise ce temps pour prier et lire la Bible. Tu peux aussi pratiquer un « jeûne des écrans » : pas de réseaux sociaux ni de séries pendant une semaine, et ce temps consacré à Dieu. Si tu travailles physiquement ou si ta santé est fragile, adapte la forme, à la manière du jeûne partiel de Daniel. Et n'oublie pas Ésaïe 58 : l'argent d'un repas non consommé peut nourrir quelqu'un qui a faim. Un jeûne qui rend plus dur envers les autres n'est pas le jeûne que Dieu aime."
-          ]
-        },
-        {
-          "titre": "Prier ensemble",
-          "paragraphes": [
-            "Jésus a promis : « Si deux d'entre vous s'accordent sur la terre pour demander une chose quelconque, elle leur sera accordée par mon Père qui est dans les cieux » (Matthieu 18.19). Dans l'Église primitive, on priait ensemble (Actes 1.14 ; 4.24-31 ; 12.5). Ne porte pas tes fardeaux seul : participe aux réunions de prière de ton église, et trouve un ou deux partenaires de prière avec qui échanger des sujets chaque semaine, même par un simple appel téléphonique. La persévérance est plus facile à plusieurs."
-          ]
-        }
-      ],
-      "etudeDeCas": {
-        "situation": "Esther, mère de trois enfants, prie depuis deux ans pour que son mari Paul vienne au Seigneur. Paul n'est pas hostile, mais il se moque gentiment de sa foi et refuse de venir à l'église. Récemment, une connaissance a dit à Esther que si son mari ne s'est pas encore converti, c'est qu'elle n'a pas assez jeûné, et lui a conseillé un jeûne sec de sept jours. Esther est diabétique et commence à se demander si Dieu l'écoute vraiment. Elle est fatiguée et a presque arrêté de prier pour son mari.",
-        "questions": [
-          "Que dit la parabole de Luc 18.1-8 à Esther dans son découragement ?",
-          "Comment le récit de Daniel 10 peut-il l'aider à comprendre le silence apparent de Dieu ?",
-          "Le conseil de jeûner sept jours sans boire est-il conforme à l'esprit du jeûne biblique et à la sagesse ? Que lui proposerais-tu à la place ?",
-          "Comment Esther peut-elle témoigner de sa foi auprès de Paul pendant ce temps d'attente (voir 1 Pierre 3.1-2) ?"
-        ]
-      },
-      "reflexion": [
-        "Y a-t-il un sujet de prière que j'ai abandonné par découragement et que je dois reprendre ?",
-        "Comment est-ce que je réagis quand Dieu répond « attends » ou « non » ?",
-        "Ai-je déjà jeûné ? Si oui, quelle était ma motivation ? Sinon, quelle forme de jeûne pourrais-je commencer avec sagesse ?",
-        "Mon jeûne et ma prière me rendent-ils plus attentif aux besoins des autres, comme le demande Ésaïe 58 ?"
-      ],
-      "retenir": [
-        "Jésus enseigne qu'il faut toujours prier et ne point se relâcher (Luc 18.1).",
-        "Dieu n'est pas comme le juge injuste : il est un Père juste qui fera justice à ses élus.",
-        "Le silence apparent de Dieu n'est pas son absence ; la prière de Daniel fut entendue dès le premier jour.",
-        "Le jeûne est une humiliation volontaire devant Dieu pour le rechercher ; il se vit dans le secret, avec sagesse, et il conduit à la justice envers le prochain.",
-        "Dieu peut répondre « oui », « attends » ou « non » ; sa grâce suffit dans chaque cas."
-      ],
-      "memoriser": {
-        "ref": "Luc 18.1",
-        "texte": "Jésus leur adressa une parabole, pour montrer qu'il faut toujours prier, et ne point se relâcher."
-      },
-      "priere": "Seigneur, tu connais les prières que je porte depuis longtemps et les moments où j'ai eu envie d'abandonner. Merci de m'entendre dès le premier jour. Donne-moi la persévérance de la veuve et l'humilité de Daniel. Apprends-moi à jeûner pour toi seul, avec sagesse, et à partager avec ceux qui ont faim. Que ton Fils trouve la foi en moi quand il reviendra. Amen."
-    }
-  ],
-  "pratique": {
-    "consigne": "Pendant 21 jours, prie chaque jour au moins 15 minutes, Bible ouverte, et tiens un journal de prière. À la fin, décris par écrit ce que ce temps a changé dans ta relation avec Dieu, les réponses reçues et les sujets qui attendent encore.",
-    "etapes": [
-      "Choisis un lieu et un moment fixes (ta « chambre » de Matthieu 6.6) et mets ton téléphone en silencieux pendant ce temps.",
-      "Chaque jour, lis un court passage biblique (par exemple un chapitre de l'Évangile de Luc) et note une phrase : ce que Dieu me dit aujourd'hui.",
-      "Prie en suivant le plan du « Notre Père » : adoration, soumission à sa volonté, besoins du jour, confession et pardon, protection.",
-      "Dans ton journal, inscris tes sujets de prière avec la date, et laisse une colonne pour noter les réponses de Dieu.",
-      "Pendant ces 21 jours, choisis une forme de jeûne adaptée à ta santé (un repas, ou les réseaux sociaux un jour par semaine) et consacre ce temps à la prière.",
-      "Prie au moins une fois par semaine avec un partenaire de prière, puis rédige ton bilan final (une demi-page)."
-    ]
+ "id": "n1m4",
+ "titre": "La prière et la communion avec Dieu",
+ "objectif": "Apprendre à parler à Dieu, à l'écouter et à vivre dans sa présence.",
+ "introduction": [
+  "Au moment de ta conversion, une porte s'est ouverte : tu as été réconcilié avec Dieu. Mais la conversion n'est pas une fin, c'est le début d'une relation. Or une relation vit de communication. Un mari et une femme qui ne se parlent plus vivent sous le même toit sans vraiment partager leur vie ; un enfant qui n'adresse jamais la parole à son père reste un étranger dans la maison. Il en est de même avec Dieu : la prière est le souffle de la vie chrétienne. Sans elle, la foi devient une théorie ; avec elle, elle devient une rencontre quotidienne avec le Dieu vivant.",
+  "Beaucoup de nouveaux croyants se sentent maladroits dans la prière. Ils entendent des frères et sœurs prier longtemps, avec des mots puissants, et pensent : « Moi, je ne sais pas prier. » D'autres ont grandi avec des prières récitées par habitude, sans que le cœur y soit. D'autres encore ont connu des pratiques où l'on cherche à « obliger » des puissances invisibles par des formules, des rites ou des sacrifices. Ce module veut te libérer de ces fausses idées et te montrer, Bible en main, ce qu'est la prière selon Jésus : une conversation confiante avec un Père qui t'aime, qui t'écoute et qui te répond.",
+  "Nous étudierons trois grandes dimensions de la communion avec Dieu. D'abord, parler à Dieu : qu'est-ce que prier, et comment le « Notre Père » nous sert-il de modèle ? Ensuite, écouter Dieu : comment Dieu parle-t-il aujourd'hui, et comment discerner sa voix au milieu du bruit de notre monde ? Enfin, persévérer : que faire quand la réponse tarde, et quelle est la place du jeûne dans la vie du croyant ? À chaque étape, nous lirons des récits bibliques (Anne, le jeune Samuel, le prophète Daniel), nous ferons une exégèse sérieuse des textes, et nous chercherons des applications concrètes pour ta vie de tous les jours : au travail, en famille, dans la précarité, face aux écrans et à l'anxiété.",
+  "À la fin de ce module, tu ne seras pas un « expert » de la prière, car personne ne l'est. Mais tu auras appris à te tenir devant Dieu avec simplicité, à lui ouvrir ton cœur, à te nourrir de sa Parole et à tenir bon dans l'attente. La pratique du module, vingt et un jours de prière avec un journal, te permettra de vivre ce que tu auras appris."
+ ],
+ "lecturesObligatoires": [
+  {
+   "ref": "Matthieu 6.1-18",
+   "consigne": "Relevez les trois pratiques religieuses dont Jésus parle et ce qu'il dit sur la motivation du cœur."
   },
-  "examen": [
+  {
+   "ref": "Luc 11.1-13",
+   "consigne": "Notez la demande des disciples et les deux images que Jésus utilise pour encourager à demander."
+  },
+  {
+   "ref": "1 Samuel 1.1-2.11",
+   "consigne": "Décrivez la détresse d'Anne, sa manière de prier et la façon dont elle tient son vœu."
+  },
+  {
+   "ref": "1 Samuel 3.1-21",
+   "consigne": "Relevez combien de fois Dieu appelle Samuel et le conseil qu'Éli lui donne."
+  },
+  {
+   "ref": "Psaume 46",
+   "consigne": "Notez les dangers décrits dans le psaume et ce que Dieu demande à son peuple au verset 11."
+  },
+  {
+   "ref": "Jean 10.1-30",
+   "consigne": "Relevez tout ce que Jésus dit de la voix du berger et de la relation avec ses brebis."
+  },
+  {
+   "ref": "Daniel 9.1-23",
+   "consigne": "Observez comment Daniel prie : sa lecture de Jérémie, sa confession, son humilité."
+  },
+  {
+   "ref": "Daniel 10.1-14",
+   "consigne": "Notez la durée du jeûne de Daniel et ce que l'envoyé céleste lui dit sur sa prière."
+  },
+  {
+   "ref": "Luc 18.1-14",
+   "consigne": "Comparez les deux paraboles : la veuve persévérante, puis le pharisien et le publicain."
+  },
+  {
+   "ref": "Ésaïe 58.1-12",
+   "consigne": "Relevez ce que Dieu reproche au jeûne de son peuple et le jeûne qu'il aime."
+  },
+  {
+   "ref": "Philippiens 4.4-9",
+   "consigne": "Notez ce que Paul dit de l'inquiétude, de la prière et de la paix de Dieu."
+  }
+ ],
+ "lecons": [
+  {
+   "titre": "Qu'est-ce que prier ?",
+   "lectures": [
     {
-      "q": "Dans Matthieu 6.5-6, que reproche Jésus aux hypocrites qui prient au coin des rues ?",
-      "choix": [
-        "De prier trop brièvement",
-        "De prier pour être vus des hommes",
-        "De prier en araméen plutôt qu'en hébreu",
-        "De prier sans jeûner"
-      ],
-      "bonne": 1,
-      "explication": "Ils prient pour être vus des hommes et ont déjà reçu leur récompense ; Jésus invite à prier le Père dans le secret (Matthieu 6.5-6)."
+     "ref": "Matthieu 6.5-13",
+     "resume": "Jésus met en garde contre la prière faite pour être vu et contre les vaines répétitions, puis donne le « Notre Père » comme modèle."
     },
     {
-      "q": "Selon Matthieu 6.7-8, pourquoi ne faut-il pas multiplier les vaines paroles dans la prière ?",
-      "choix": [
-        "Parce que Dieu se fatigue de nos prières",
-        "Parce que seuls les prêtres peuvent prier longtemps",
-        "Parce que le Père sait de quoi nous avons besoin avant que nous le lui demandions",
-        "Parce que la prière doit durer moins de cinq minutes"
-      ],
-      "bonne": 2,
-      "explication": "Les païens pensaient être exaucés à force de paroles ; mais « votre Père sait de quoi vous avez besoin, avant que vous le lui demandiez » (Matthieu 6.8)."
+     "ref": "Philippiens 4.6-7",
+     "resume": "Paul invite à remplacer l'inquiétude par la prière accompagnée d'actions de grâces, et promet la paix de Dieu."
     },
     {
-      "q": "Par quelles demandes commence le « Notre Père » (Matthieu 6.9-10) ?",
-      "choix": [
-        "Des demandes tournées vers Dieu : son nom, son règne, sa volonté",
-        "La demande du pain quotidien",
-        "La demande de pardon des offenses",
-        "La délivrance du malin"
-      ],
-      "bonne": 0,
-      "explication": "Le modèle de Jésus commence par Dieu : que ton nom soit sanctifié, que ton règne vienne, que ta volonté soit faite (Matthieu 6.9-10)."
+     "ref": "Jérémie 33.3",
+     "resume": "Dieu invite son prophète enfermé en prison à l'invoquer, avec la promesse d'une réponse."
     },
     {
-      "q": "Dans le « Notre Père », le mot grec traduit par « offenses » signifie littéralement :",
-      "choix": [
-        "Fautes rituelles",
-        "Maladies",
-        "Mensonges",
-        "Dettes"
-      ],
-      "bonne": 3,
-      "explication": "Le mot opheilêmata signifie « dettes » : le péché est une dette envers Dieu, que lui seul peut remettre (Matthieu 6.12)."
-    },
-    {
-      "q": "Selon Philippiens 4.6-7, que faut-il faire de nos inquiétudes ?",
-      "choix": [
-        "Les cacher pour ne pas paraître faible",
-        "Les faire connaître à Dieu par la prière, avec des actions de grâces",
-        "Attendre qu'elles disparaissent seules",
-        "Les confier uniquement à un prophète"
-      ],
-      "bonne": 1,
-      "explication": "Paul invite à faire connaître nos besoins à Dieu par des prières et des supplications, avec des actions de grâces ; la paix de Dieu gardera alors nos cœurs (Philippiens 4.6-7)."
-    },
-    {
-      "q": "Pourquoi le prêtre Éli pense-t-il qu'Anne est ivre (1 Samuel 1) ?",
-      "choix": [
-        "Elle chante bruyamment dans le temple",
-        "Elle a apporté du vin au sanctuaire",
-        "Ses lèvres remuent mais on n'entend pas sa voix",
-        "Elle est tombée devant l'autel"
-      ],
-      "bonne": 2,
-      "explication": "Anne parlait dans son cœur ; seules ses lèvres remuaient. Elle explique : « je répandais mon âme devant l'Éternel » (1 Samuel 1.13-15)."
-    },
-    {
-      "q": "Que signifie le nom « Samuel » selon l'explication d'Anne ?",
-      "choix": [
-        "Je l'ai demandé à l'Éternel",
-        "Dieu est grand",
-        "Fils de la joie",
-        "Le serviteur fidèle"
-      ],
-      "bonne": 0,
-      "explication": "Anne l'appela Samuel, « car, dit-elle, je l'ai demandé à l'Éternel » (1 Samuel 1.20)."
-    },
-    {
-      "q": "Vrai ou faux : après sa prière à Silo, le visage d'Anne changea avant même qu'elle soit enceinte.",
-      "choix": [
-        "Vrai",
-        "Faux"
-      ],
-      "bonne": 0,
-      "explication": "Après la bénédiction d'Éli, Anne s'en alla, mangea, et son visage ne fut plus le même (1 Samuel 1.18) : la paix précède la réponse."
-    },
-    {
-      "q": "Comment la Bible décrit-elle l'époque où Dieu appela le jeune Samuel ?",
-      "choix": [
-        "Un temps de grand réveil",
-        "Un temps où la parole de l'Éternel était rare",
-        "Un temps de paix sous le roi David",
-        "Un temps où les prophètes étaient nombreux"
-      ],
-      "bonne": 1,
-      "explication": "« La parole de l'Éternel était rare en ce temps-là, les visions n'étaient pas fréquentes » (1 Samuel 3.1)."
-    },
-    {
-      "q": "Quel conseil Éli donne-t-il à Samuel lorsqu'il comprend que Dieu l'appelle ?",
-      "choix": [
-        "Fuir le temple",
-        "Ne rien répondre",
-        "Aller réveiller les fils d'Éli",
-        "Répondre : Parle, Éternel, car ton serviteur écoute"
-      ],
-      "bonne": 3,
-      "explication": "Éli lui dit : « si l'on t'appelle, tu diras : Parle, Éternel, car ton serviteur écoute » (1 Samuel 3.9)."
-    },
-    {
-      "q": "Dans la Bible, le verbe hébreu shâma', « écouter », implique aussi l'idée de :",
-      "choix": [
-        "Chanter",
-        "Obéir",
-        "Voyager",
-        "Douter"
-      ],
-      "bonne": 1,
-      "explication": "Écouter Dieu, dans la Bible, c'est entendre et mettre en pratique ; c'est le mot de « Écoute, Israël ! » (Deutéronome 6.4)."
-    },
-    {
-      "q": "D'après Jean 10.27, que font les brebis de Jésus ?",
-      "choix": [
-        "Elles cherchent des signes dans le ciel",
-        "Elles suivent tous ceux qui les appellent",
-        "Elles entendent sa voix et le suivent",
-        "Elles restent dans l'enclos"
-      ],
-      "bonne": 2,
-      "explication": "« Mes brebis entendent ma voix ; je les connais, et elles me suivent » (Jean 10.27)."
-    },
-    {
-      "q": "Quel est le moyen principal et le plus sûr par lequel Dieu parle aujourd'hui ?",
-      "choix": [
-        "Sa Parole écrite, la Bible",
-        "Les rêves uniquement",
-        "Les coïncidences",
-        "Les sentiments du moment"
-      ],
-      "bonne": 0,
-      "explication": "« Toute Écriture est inspirée de Dieu, et utile pour enseigner… » (2 Timothée 3.16) ; tout autre moyen doit être vérifié par elle."
-    },
-    {
-      "q": "Un prophète te demande une grosse offrande pour « débloquer » une parole de Dieu sur ta vie. Quelle est l'attitude biblique ?",
-      "choix": [
-        "Payer immédiatement pour ne pas manquer la bénédiction",
-        "Examiner cette parole à la lumière de l'Écriture et demander conseil à des croyants mûrs",
-        "Accepter toute parole prononcée avec assurance",
-        "Rompre avec toute église"
-      ],
-      "bonne": 1,
-      "explication": "« Examinez toutes choses ; retenez ce qui est bon » (1 Thessaloniciens 5.21) ; le bon berger ne vend pas sa voix."
-    },
-    {
-      "q": "Que signifie l'ordre « Arrêtez, et sachez que je suis Dieu » (Psaume 46.11) ?",
-      "choix": [
-        "Arrêter de travailler définitivement",
-        "Arrêter de lire la Bible",
-        "Cesser de prier",
-        "Cesser de s'agiter, lâcher prise et reconnaître qui est Dieu"
-      ],
-      "bonne": 3,
-      "explication": "Le verbe râphâh signifie relâcher, cesser ; au milieu des bouleversements, Dieu invite à reconnaître sa souveraineté (Psaume 46.11)."
-    },
-    {
-      "q": "Selon Luc 18.1, dans quel but Jésus raconte-t-il la parabole de la veuve et du juge ?",
-      "choix": [
-        "Pour montrer qu'il faut toujours prier, et ne point se relâcher",
-        "Pour critiquer les tribunaux romains",
-        "Pour enseigner sur l'héritage des veuves",
-        "Pour montrer que Dieu est injuste"
-      ],
-      "bonne": 0,
-      "explication": "Luc l'annonce dès le premier verset : « pour montrer qu'il faut toujours prier, et ne point se relâcher » (Luc 18.1)."
-    },
-    {
-      "q": "Vrai ou faux : dans la parabole de Luc 18, le juge injuste représente Dieu tel qu'il est.",
-      "choix": [
-        "Vrai",
-        "Faux"
-      ],
-      "bonne": 1,
-      "explication": "Jésus raisonne par contraste : si un juge injuste finit par faire justice, combien plus Dieu fera-t-il justice à ses élus (Luc 18.6-8)."
-    },
-    {
-      "q": "Combien de temps Daniel mena-t-il le deuil en jeûnant avant que le messager céleste vienne à lui (Daniel 10) ?",
-      "choix": [
-        "Sept jours",
-        "Quarante jours",
-        "Trois jours",
-        "Trois semaines"
-      ],
-      "bonne": 3,
-      "explication": "Daniel mena le deuil trois semaines entières ; le messager explique que le chef du royaume de Perse lui a résisté vingt et un jours (Daniel 10.2-3, 13)."
-    },
-    {
-      "q": "Selon Matthieu 6.16-18, comment le disciple doit-il jeûner ?",
-      "choix": [
-        "En montrant un visage triste à tous",
-        "En annonçant son jeûne à l'église",
-        "En gardant une apparence normale, pour le Père qui voit dans le secret",
-        "En jeûnant uniquement le sabbat"
-      ],
-      "bonne": 2,
-      "explication": "« Parfume ta tête et lave ton visage, afin de ne pas montrer aux hommes que tu jeûnes, mais à ton Père qui est là dans le lieu secret » (Matthieu 6.17-18)."
-    },
-    {
-      "q": "D'après Ésaïe 58.6-7, quel jeûne plaît à Dieu ?",
-      "choix": [
-        "Un jeûne accompagné de disputes",
-        "Un jeûne qui libère les opprimés et partage le pain avec celui qui a faim",
-        "Un jeûne qui dure au moins quarante jours",
-        "Un jeûne qui oblige Dieu à répondre"
-      ],
-      "bonne": 1,
-      "explication": "Dieu dit : « Voici le jeûne auquel je prends plaisir : Détache les chaînes de la méchanceté… Partage ton pain avec celui qui a faim » (Ésaïe 58.6-7)."
+     "ref": "1 Samuel 1.9-20",
+     "resume": "Anne répand son âme devant l'Éternel à Silo et repart en paix ; Dieu lui donne Samuel."
     }
+   ],
+   "recit": {
+    "titre": "Anne répand son âme devant l'Éternel",
+    "ref": "1 Samuel 1.1-2.11",
+    "paragraphes": [
+     "Au temps des juges, dans la montagne d'Éphraïm, vivait un homme nommé Elkana. Il avait deux femmes : Peninna, qui avait des enfants, et Anne, qui n'en avait pas. Dans la culture de l'époque, une femme sans enfant portait une honte lourde : on la regardait comme oubliée de Dieu. Chaque année, Elkana montait avec sa famille à Silo, où se trouvait le sanctuaire de l'Éternel, pour adorer et offrir des sacrifices. Et chaque année, la même scène se répétait. Elkana donnait à Anne une portion double, car il l'aimait. Mais Peninna, que le texte appelle « sa rivale », se moquait d'elle et l'humiliait, précisément parce que l'Éternel l'avait rendue stérile. Anne pleurait et ne mangeait plus.",
+     "Elkana essayait de la consoler maladroitement : « Anne, pourquoi pleures-tu ? Est-ce que je ne vaux pas pour toi mieux que dix fils ? » Il l'aimait sincèrement, mais il ne pouvait pas porter sa douleur à sa place. Un jour, après le repas à Silo, Anne se leva. Le prêtre Éli était assis sur un siège près de la porte du temple. Anne, l'amertume dans l'âme, se mit à prier l'Éternel en versant des larmes. Elle fit un vœu : « Si tu regardes l'affliction de ta servante et si tu me donnes un fils, je le donnerai à l'Éternel pour tous les jours de sa vie. »",
+     "Anne priait longuement. Ses lèvres remuaient, mais on n'entendait pas sa voix : elle parlait dans son cœur. Éli, la voyant, crut qu'elle était ivre et la reprit durement. Anne répondit avec dignité : « Non, mon seigneur, je suis une femme qui souffre en son cœur ; je n'ai bu ni vin ni boisson enivrante, mais je répandais mon âme devant l'Éternel. » Éli comprit alors et la bénit : « Va en paix, et que le Dieu d'Israël exauce la prière que tu lui as adressée ! » Le texte ajoute un détail magnifique : Anne s'en alla, elle mangea, et son visage ne fut plus le même. Rien n'avait encore changé dans sa situation, mais tout avait changé dans son cœur.",
+     "Quelque temps après, Anne devint enceinte et mit au monde un fils. Elle l'appela Samuel, car, dit-elle, « je l'ai demandé à l'Éternel ». Quand l'enfant fut sevré, elle tint parole : elle le conduisit à Silo, avec des offrandes, et le présenta à Éli en disant : « C'était pour cet enfant que je priais, et l'Éternel a exaucé la prière que je lui adressais. » Puis Anne éclata en un cantique de louange (1 Samuel 2.1-10) qui célèbre le Dieu qui abaisse les orgueilleux et relève les humbles. Cet enfant, né d'une prière, deviendra l'un des plus grands prophètes d'Israël."
+    ],
+    "lecons": [
+     "La prière n'est pas une performance : Anne ne prononce aucun mot à voix haute, et pourtant Dieu entend. Dieu regarde le cœur, pas l'éloquence.",
+     "Prier, c'est « répandre son âme » devant Dieu : on peut lui apporter sa douleur, ses larmes, son humiliation, sans masque.",
+     "La paix peut précéder la réponse : Anne repart apaisée avant même d'être exaucée, parce qu'elle a remis son fardeau à Dieu.",
+     "La prière exaucée conduit à la louange et à la fidélité : Anne tient son vœu et rend gloire à Dieu."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Le contexte du Sermon sur la montagne",
+     "paragraphes": [
+      "Matthieu 6.5-13 fait partie du Sermon sur la montagne (Matthieu 5 à 7), le plus long enseignement de Jésus rapporté dans les Évangiles. Matthieu écrit d'abord pour des lecteurs familiers des Écritures et des coutumes juives. Jésus s'adresse à ses disciples et aux foules en Galilée, et il décrit la vie de ceux qui appartiennent au royaume des cieux.",
+      "Le chapitre 6 commence par un principe général : « Gardez-vous de pratiquer votre justice devant les hommes, pour en être vus » (Matthieu 6.1). Jésus l'applique ensuite à trois pratiques religieuses importantes dans le judaïsme de son temps : l'aumône (versets 2-4), la prière (versets 5-15) et le jeûne (versets 16-18). Chaque fois, la structure est la même : une mauvaise manière (pour être vu des hommes), une bonne manière (dans le secret), et une promesse (« ton Père, qui voit dans le secret, te le rendra »). La prière se trouve donc au centre de cette section, et le « Notre Père » est au centre de la prière."
+     ]
+    },
+    {
+     "titre": "Deux dangers : l'hypocrisie et les vaines paroles (versets 5-8)",
+     "paragraphes": [
+      "Le premier danger est l'hypocrisie. Le mot grec hupokritès désignait à l'origine l'acteur de théâtre, celui qui joue un rôle sous un masque. Jésus décrit des gens qui aiment prier debout dans les synagogues et aux coins des rues, pour être vus. Leur public, ce sont les hommes, et ils ont déjà reçu leur récompense : l'admiration. Jésus ne condamne pas la prière publique (lui-même a prié en public), mais la prière dont le vrai destinataire est le regard des autres. Le remède est la « chambre » (en grec tameion, la pièce intérieure, souvent la réserve sans fenêtre de la maison) : un lieu où il n'y a que toi et ton Père.",
+      "Le second danger est celui des « vaines paroles ». Le verbe battalogeô évoque un bavardage répétitif, des mots empilés sans réflexion. Jésus vise les païens, qui pensaient qu'à force de paroles, de répétitions et de formules, ils obligeraient leurs divinités à agir. La raison donnée par Jésus est décisive : « votre Père sait de quoi vous avez besoin, avant que vous le lui demandiez » (Matthieu 6.8). On ne prie donc pas pour informer Dieu ni pour le manipuler, mais pour entrer en relation avec lui, lui confier sa vie et s'aligner sur sa volonté. Cela ne rend pas la demande inutile : Jésus nous commande de demander (Matthieu 7.7). Mais nous demandons comme des enfants à un Père, pas comme des clients à un guichet."
+     ]
+    },
+    {
+     "titre": "Le « Notre Père » verset par verset (versets 9-13)",
+     "paragraphes": [
+      "« Voici donc comment vous devez prier » : Jésus donne un modèle, pas seulement une formule à réciter. Luc 11.1-4 en rapporte une version plus courte, ce qui montre que l'important est la structure et l'esprit plus que les mots exacts. La prière comprend une adresse, trois demandes tournées vers Dieu, puis trois ou quatre demandes tournées vers nos besoins.",
+      "« Notre Père qui es aux cieux ! » Le mot « Père » exprime l'intimité ; Jésus lui-même disait « Abba » (Marc 14.36), terme araméen employé dans la famille. « Notre » rappelle que nous prions en tant que membres d'une famille. « Aux cieux » rappelle la grandeur et la souveraineté de ce Père : proximité et majesté vont ensemble.",
+      "« Que ton nom soit sanctifié ; que ton règne vienne ; que ta volonté soit faite sur la terre comme au ciel. » Avant de parler de nos besoins, nous demandons que Dieu soit reconnu comme saint (le verbe hagiazô signifie « mettre à part, traiter comme saint »), que son règne s'étende et que sa volonté s'accomplisse. La prière commence donc par l'adoration et la soumission : elle remet Dieu au centre.",
+      "« Donne-nous aujourd'hui notre pain quotidien » : Dieu s'intéresse à nos besoins matériels les plus simples. Le mot grec traduit « quotidien » (epiousios) est rare ; il évoque le pain nécessaire pour aujourd'hui ou pour le jour qui vient. Jésus nous apprend à vivre dans une dépendance de chaque jour. « Pardonne-nous nos offenses, comme nous aussi nous pardonnons » : le mot traduit « offenses » (opheilêmata) signifie littéralement « dettes ». Nous avons besoin de pardon chaque jour, et celui qui reçoit le pardon devient capable de pardonner (voir Matthieu 6.14-15). « Ne nous induis pas en tentation, mais délivre-nous du malin » : nous reconnaissons notre fragilité et demandons à Dieu de nous garder de l'épreuve qui ferait tomber et de la puissance du mal. La doxologie finale (« car c'est à toi qu'appartiennent… le règne, la puissance et la gloire ») est absente de plusieurs manuscrits anciens, mais elle exprime bien la louange biblique (voir 1 Chroniques 29.11)."
+     ]
+    },
+    {
+     "titre": "Philippiens 4.6-7 : la prière contre l'inquiétude",
+     "paragraphes": [
+      "Paul écrit aux Philippiens depuis une prison. Il ne vit donc pas dans le confort quand il dit : « Ne vous inquiétez de rien ». Le verbe merimnaô désigne une inquiétude qui divise l'esprit et le tire dans tous les sens. Paul ne demande pas d'ignorer les problèmes, mais de les transformer en prière : « en toute chose faites connaître vos besoins à Dieu ». Il emploie trois mots : la prière (proseuchê, le mot général pour s'adresser à Dieu), la supplication (deêsis, la demande précise née d'un besoin) et l'action de grâces (eucharistia, la reconnaissance). La promesse n'est pas que tout se réglera immédiatement, mais que « la paix de Dieu » gardera nos cœurs. Le verbe phroureô est un terme militaire : la paix monte la garde autour de nos cœurs et de nos pensées comme une garnison autour d'une ville."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "prier",
+     "langue": "grec",
+     "original": "proseuchomai",
+     "sens": "s'adresser à Dieu, lui parler en le regardant comme destinataire ; c'est le terme le plus général du Nouveau Testament pour la prière."
+    },
+    {
+     "mot": "Père (Abba)",
+     "langue": "araméen",
+     "original": "abba",
+     "sens": "terme familial employé par un enfant pour son père ; Jésus l'utilise (Marc 14.36), et l'Esprit nous permet de dire « Abba ! Père ! » (Romains 8.15)."
+    },
+    {
+     "mot": "supplication",
+     "langue": "grec",
+     "original": "deêsis",
+     "sens": "demande précise née d'un besoin ressenti ; prière qui expose une situation concrète à Dieu."
+    },
+    {
+     "mot": "action de grâces",
+     "langue": "grec",
+     "original": "eucharistia",
+     "sens": "reconnaissance pour ce que Dieu a donné et pour ce qu'il est ; elle accompagne toute vraie prière."
+    },
+    {
+     "mot": "hypocrite",
+     "langue": "grec",
+     "original": "hupokritès",
+     "sens": "acteur de théâtre qui joue un rôle sous un masque ; celui qui prie pour le regard des autres."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "La prière est une relation avant d'être une technique",
+     "paragraphes": [
+      "La Bible ne présente jamais la prière comme une technique pour obtenir des choses, mais comme l'expression d'une relation. Dès le jardin d'Éden, Dieu parle avec l'homme. Abraham est appelé « ami de Dieu » (Jacques 2.23), et l'Éternel parlait avec Moïse « face à face, comme un homme parle à son ami » (Exode 33.11). Par la mort de Jésus, le voile du temple a été déchiré : nous pouvons désormais nous approcher « avec assurance du trône de la grâce » (Hébreux 4.16). La prière chrétienne repose donc sur l'œuvre de Christ : nous prions au nom de Jésus (Jean 14.13-14), c'est-à-dire en nous appuyant sur ce qu'il est et sur ce qu'il a fait, non sur nos mérites.",
+      "La prière est aussi trinitaire : nous prions le Père, par le Fils, avec l'aide du Saint-Esprit. Quand nous ne savons pas quoi dire, « l'Esprit lui-même intercède par des soupirs inexprimables » (Romains 8.26). Cela devrait rassurer ceux qui pensent ne pas savoir prier : Dieu lui-même vient au secours de notre faiblesse."
+     ]
+    },
+    {
+     "titre": "Les différentes formes de la prière",
+     "paragraphes": [
+      "La Bible montre une grande variété de prières. L'adoration célèbre Dieu pour ce qu'il est (Psaume 103). L'action de grâces le remercie pour ce qu'il a fait (Psaume 136). La confession reconnaît nos péchés et reçoit son pardon (Psaume 32 ; 1 Jean 1.9). La demande lui présente nos besoins (Philippiens 4.6). L'intercession porte les besoins des autres : Abraham intercède pour Sodome (Genèse 18), Moïse pour le peuple (Exode 32), Jésus pour ses disciples (Jean 17). Il y a aussi la lamentation, cette prière qui crie « Jusqu'à quand ? » (Psaume 13) : la Bible nous autorise à dire à Dieu notre incompréhension, sans perdre la foi.",
+      "Un moyen simple de se souvenir de cet équilibre est de suivre le « Notre Père » : commencer par Dieu (son nom, son règne, sa volonté), puis passer à nos besoins (le pain, le pardon, la protection). Beaucoup de croyants prient seulement pour leurs problèmes ; le modèle de Jésus élargit notre regard et met nos problèmes à leur juste place."
+     ]
+    },
+    {
+     "titre": "Prière et foi : ni magie, ni fatalisme",
+     "paragraphes": [
+      "Deux erreurs guettent le croyant. La première est l'esprit magique : croire que la prière fonctionne comme une formule, et que si l'on dit les bons mots, avec assez de bruit ou de répétitions, Dieu est obligé d'agir. Jésus rejette cette idée (Matthieu 6.7). Dieu n'est pas une force à manipuler, c'est un Père souverain et sage. La seconde erreur est le fatalisme : « De toute façon, Dieu fera ce qu'il veut, donc à quoi bon prier ? » La Bible répond que Dieu a choisi d'agir en réponse aux prières de son peuple : « vous ne possédez pas, parce que vous ne demandez pas » (Jacques 4.2), et « la prière agissante du juste a une grande efficacité » (Jacques 5.16).",
+      "La foi biblique tient ensemble ces deux vérités : Dieu est souverain, et la prière compte réellement. Quand nous prions, nous ne changeons pas le caractère de Dieu, mais Dieu nous associe à son œuvre. Et souvent, la première chose que la prière transforme, c'est nous-mêmes, comme Anne qui repart avec un visage changé."
+     ]
+    },
+    {
+     "titre": "Prier avec régularité et avec liberté",
+     "paragraphes": [
+      "Daniel priait trois fois par jour, à genoux, fenêtres ouvertes vers Jérusalem (Daniel 6.11). Jésus se retirait souvent dans des lieux déserts pour prier (Luc 5.16), parfois très tôt le matin (Marc 1.35). La régularité n'est pas du légalisme : c'est une discipline qui protège la relation, comme les repas réguliers protègent la santé. En même temps, la prière ne se limite pas aux moments fixés : Néhémie, devant le roi, adresse à Dieu une prière éclair avant de répondre (Néhémie 2.4). On peut prier en marchant, au travail, dans les transports, en cuisinant.",
+      "Pour le nouveau croyant, un bon départ consiste à fixer un moment quotidien, même court, avec la Bible ouverte, et à apprendre à « parler à Dieu » tout au long de la journée. La qualité de la prière ne dépend pas de sa longueur, mais de la sincérité du cœur et de la confiance placée en Dieu."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Matthieu 6.6",
+     "texte": "Mais quand tu pries, entre dans ta chambre, ferme ta porte, et prie ton Père qui est là dans le lieu secret ; et ton Père, qui voit dans le secret, te le rendra."
+    },
+    {
+     "ref": "Matthieu 6.9-10",
+     "texte": "Voici donc comment vous devez prier : Notre Père qui es aux cieux ! Que ton nom soit sanctifié ; que ton règne vienne ; que ta volonté soit faite sur la terre comme au ciel."
+    },
+    {
+     "ref": "Philippiens 4.6-7",
+     "texte": "Ne vous inquiétez de rien ; mais en toute chose faites connaître vos besoins à Dieu par des prières et des supplications, avec des actions de grâces. Et la paix de Dieu, qui surpasse toute intelligence, gardera vos cœurs et vos pensées en Jésus-Christ."
+    },
+    {
+     "ref": "Jérémie 33.3",
+     "texte": "Invoque-moi, et je te répondrai ; Je t'annoncerai de grandes choses, des choses cachées, Que tu ne connais pas."
+    },
+    {
+     "ref": "Hébreux 4.16",
+     "texte": "Approchons-nous donc avec assurance du trône de la grâce, afin d'obtenir miséricorde et de trouver grâce, pour être secourus dans nos besoins."
+    }
+   ],
+   "application": [
+    {
+     "titre": "Face à l'anxiété et à la précarité",
+     "paragraphes": [
+      "Beaucoup vivent aujourd'hui avec une inquiétude permanente : loyer à payer, emploi instable, papiers en attente, enfants à nourrir, maladie d'un parent resté au pays. Philippiens 4.6 ne nie pas ces réalités ; il nous apprend à les transformer en prière. Concrètement, quand une inquiétude revient, prends l'habitude de la nommer devant Dieu, précisément, puis de le remercier pour une chose qu'il a déjà faite. Cela n'empêche pas d'agir (chercher du travail, consulter un médecin, demander de l'aide), mais cela change l'esprit dans lequel on agit. Si l'angoisse devient écrasante et durable, la prière n'exclut pas non plus de parler à un pasteur ou à un professionnel de santé : Dieu agit aussi par ces moyens."
+     ]
+    },
+    {
+     "titre": "Au travail et dans les transports",
+     "paragraphes": [
+      "Tu n'as pas besoin d'un lieu religieux pour prier. Comme Néhémie devant le roi, tu peux adresser à Dieu une courte prière avant une réunion difficile, avant de répondre à un client agressif, avant un examen ou un entretien d'embauche. Dans le bus ou le taxi, au lieu de faire défiler ton téléphone, prends cinq minutes pour prier pour tes collègues par leur nom. Ces prières « éclairs » ne remplacent pas le temps quotidien avec Dieu, mais elles en prolongent la présence tout au long de la journée."
+     ]
+    },
+    {
+     "titre": "Contre la prière-spectacle des réseaux sociaux",
+     "paragraphes": [
+      "À l'époque de Jésus, on priait au coin des rues pour être vu ; aujourd'hui, la tentation peut être de publier ses prières, ses jeûnes et ses veillées pour récolter des « j'aime ». Partager un sujet de prière ou un témoignage peut être une bénédiction, mais pose-toi honnêtement la question de Jésus : pour qui est-ce que je prie ? Le secret de la chambre reste la base. Une règle simple : que ta vie de prière cachée soit toujours plus grande que ta vie de prière visible."
+     ]
+    },
+    {
+     "titre": "En famille",
+     "paragraphes": [
+      "La prière n'est pas réservée au pasteur ou au « parent spirituel ». Dans un foyer, prier ensemble, même quelques minutes le soir, construit l'unité. Les parents peuvent apprendre aux enfants à remercier Dieu pour la journée et à prier pour un ami malade. Un couple qui prie ensemble apprend à se pardonner, car il est difficile de rester fâché contre quelqu'un avec qui l'on dit : « Pardonne-nous nos offenses, comme nous aussi nous pardonnons. » Si tu es le seul croyant de ta maison, prie fidèlement pour les tiens, dans le secret, sans faire de ta prière un moyen de pression sur eux."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Grâce s'est convertie il y a trois mois. Dans son église, plusieurs frères et sœurs prient très fort, longtemps, avec beaucoup d'assurance. Quand on lui demande de prier en groupe, elle panique et se tait. Seule chez elle, elle ne sait pas quoi dire après deux minutes et finit par réciter les mêmes phrases chaque soir. Une amie lui a dit que si Dieu ne répond pas à ses prières, c'est qu'elle ne prie « pas assez fort » ni assez longtemps. Grâce se demande si elle est vraiment faite pour la prière.",
+    "questions": [
+     "Que nous apprend le récit d'Anne sur la prière silencieuse et sincère ?",
+     "Que répondrait Jésus, d'après Matthieu 6.7-8, à l'idée qu'il faut prier « plus fort » ou « plus longtemps » pour être exaucé ?",
+     "Comment Grâce pourrait-elle utiliser le « Notre Père » comme plan pour nourrir sa prière personnelle ?",
+     "Quel petit pas concret lui conseillerais-tu pour prier en groupe sans crainte ?"
+    ]
+   },
+   "reflexion": [
+    "Quelle image de Dieu ai-je quand je prie : un Père, un juge, un guichet, une force lointaine ?",
+    "Ma prière est-elle surtout composée de demandes, ou y a-t-il aussi de l'adoration, de la reconnaissance et de l'intercession ?",
+    "Quelle inquiétude précise dois-je aujourd'hui « faire connaître à Dieu » au lieu de la ruminer ?",
+    "Ai-je un moment et un lieu réguliers pour rencontrer Dieu dans le secret ?"
+   ],
+   "retenir": [
+    "Prier, c'est parler avec Dieu comme un enfant avec son Père, sur la base de l'œuvre de Jésus.",
+    "Jésus rejette la prière-spectacle et les vaines répétitions : Dieu regarde le cœur.",
+    "Le « Notre Père » est un modèle : d'abord Dieu (nom, règne, volonté), ensuite nos besoins (pain, pardon, protection).",
+    "La prière accompagnée d'actions de grâces fait entrer la paix de Dieu dans un cœur inquiet.",
+    "La prière n'est ni de la magie ni du fatalisme : Dieu est souverain et il agit en réponse aux prières de ses enfants."
+   ],
+   "memoriser": {
+    "ref": "Philippiens 4.6-7",
+    "texte": "Ne vous inquiétez de rien ; mais en toute chose faites connaître vos besoins à Dieu par des prières et des supplications, avec des actions de grâces. Et la paix de Dieu, qui surpasse toute intelligence, gardera vos cœurs et vos pensées en Jésus-Christ."
+   },
+   "priere": "Notre Père qui es aux cieux, merci de m'avoir adopté comme ton enfant par Jésus-Christ. Apprends-moi à prier. Délivre-moi de la prière-spectacle et des paroles vides. Je dépose devant toi mes inquiétudes, et je te remercie pour tout ce que tu as déjà fait. Que ta paix garde mon cœur et mes pensées. Au nom de Jésus, amen.",
+   "illustration": "priere",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Prier, c’est parler à Dieu comme un enfant parle à son Père.",
+      "vrai": true,
+      "explication": "Jésus nous apprend à dire « Notre Père qui es aux cieux » (Matthieu 6.9)."
+     },
+     {
+      "affirmation": "Plus on répète les mêmes mots, plus Dieu est obligé de répondre.",
+      "vrai": false,
+      "explication": "Jésus condamne les vaines redites (Matthieu 6.7)."
+     },
+     {
+      "affirmation": "Le Notre Père commence par ce qui concerne Dieu, puis parle de nos besoins.",
+      "vrai": true,
+      "explication": "Nom, règne, volonté, puis pain, pardon, protection (Matthieu 6.9-13)."
+     },
+     {
+      "affirmation": "Prier avec actions de grâces fait entrer la paix de Dieu dans un cœur inquiet.",
+      "vrai": true,
+      "explication": "Philippiens 4.6-7."
+     },
+     {
+      "affirmation": "Si Dieu est souverain, prier ne sert à rien.",
+      "vrai": false,
+      "explication": "Dieu agit en réponse aux prières de ses enfants : la prière du juste a une grande efficacité (Jacques 5.16)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque prière : est-elle biblique, ou est-elle à revoir ?",
+     "categories": [
+      "Prière biblique",
+      "Prière à revoir"
+     ],
+     "elements": [
+      {
+       "texte": "« Père, merci pour ce jour ; aide-moi à être honnête au travail. »",
+       "categorie": 0,
+       "explication": "Actions de grâces et demande pour vivre selon sa volonté (Philippiens 4.6)."
+      },
+      {
+       "texte": "Je prie longuement en public pour que les gens admirent ma piété.",
+       "categorie": 1,
+       "explication": "Jésus rejette la prière-spectacle (Matthieu 6.5-6)."
+      },
+      {
+       "texte": "« Seigneur, que ta volonté soit faite pour ce mariage. »",
+       "categorie": 0,
+       "explication": "Que ta volonté soit faite (Matthieu 6.10)."
+      },
+      {
+       "texte": "« Dieu, frappe de maladie ceux qui m’ont fait du mal. »",
+       "categorie": 1,
+       "explication": "Jésus demande de bénir et de prier pour ceux qui nous persécutent (Matthieu 5.44)."
+      },
+      {
+       "texte": "Je dis à Dieu ma peur pour le loyer, avec mes propres mots.",
+       "categorie": 0,
+       "explication": "Déchargez-vous sur lui de tous vos soucis, car il prend soin de vous (1 Pierre 5.7)."
+      },
+      {
+       "texte": "Je récite une formule exacte pour « obliger » Dieu à agir.",
+       "categorie": 1,
+       "explication": "La prière n’est pas de la magie (Matthieu 6.7-8)."
+      },
+      {
+       "texte": "Je prie pour mes dirigeants et mon pays.",
+       "categorie": 0,
+       "explication": "Paul exhorte à prier pour tous les hommes et pour ceux qui sont élevés en dignité (1 Timothée 2.1-2)."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "titre": "Écouter Dieu",
+   "lectures": [
+    {
+     "ref": "1 Samuel 3.1-21",
+     "resume": "Dieu appelle le jeune Samuel dans la nuit ; conseillé par Éli, Samuel répond : « Parle, car ton serviteur écoute »."
+    },
+    {
+     "ref": "Jean 10.1-16, 27-30",
+     "resume": "Jésus, le bon berger, connaît ses brebis ; elles reconnaissent sa voix et le suivent."
+    },
+    {
+     "ref": "Psaume 46",
+     "resume": "Au milieu des bouleversements, Dieu est un refuge ; il invite son peuple à s'arrêter et à reconnaître qu'il est Dieu."
+    },
+    {
+     "ref": "2 Timothée 3.14-17",
+     "resume": "Toute Écriture est inspirée de Dieu et utile pour enseigner, convaincre, corriger et instruire dans la justice."
+    }
+   ],
+   "recit": {
+    "titre": "« Parle, car ton serviteur écoute »",
+    "ref": "1 Samuel 3.1-21",
+    "paragraphes": [
+     "L'enfant qu'Anne avait demandé à Dieu grandissait au sanctuaire de Silo, au service de l'Éternel, sous la responsabilité du vieux prêtre Éli. L'époque était sombre. Les propres fils d'Éli, Hophni et Phinées, méprisaient les offrandes et se conduisaient de façon scandaleuse, et Éli ne les arrêtait pas. Le texte résume la situation spirituelle du pays par une phrase triste : « La parole de l'Éternel était rare en ce temps-là, les visions n'étaient pas fréquentes. » Le peuple avait encore un temple, des prêtres et des rites, mais on n'entendait plus Dieu.",
+     "Une nuit, alors que la lampe de Dieu n'était pas encore éteinte, Samuel était couché dans le temple, là où se trouvait l'arche. Éli, dont les yeux s'affaiblissaient, dormait à sa place. Soudain, l'Éternel appela : « Samuel ! » L'enfant répondit : « Me voici ! » et courut vers Éli : « Me voici, car tu m'as appelé. » Éli répondit : « Je n'ai point appelé ; retourne te coucher. » La scène se répéta une deuxième fois, puis une troisième. Le texte explique : « Samuel ne connaissait pas encore l'Éternel, et la parole de l'Éternel ne lui avait pas encore été révélée. » Samuel était sincère, serviable, obéissant, mais il ne savait pas encore reconnaître la voix de Dieu.",
+     "À la troisième fois, Éli comprit que c'était l'Éternel qui appelait l'enfant. Malgré ses faiblesses, le vieux prêtre donna alors le meilleur conseil de sa vie : « Va, couche-toi ; et si l'on t'appelle, tu diras : Parle, Éternel, car ton serviteur écoute. » Samuel retourna se coucher. L'Éternel vint, se présenta, et appela comme les autres fois : « Samuel, Samuel ! » Et Samuel répondit : « Parle, car ton serviteur écoute. »",
+     "Le message que Dieu confia alors à Samuel n'était pas facile : un jugement allait frapper la maison d'Éli, parce que ses fils s'étaient rendus méprisables et qu'il ne les avait pas réprimés. Au matin, Samuel eut peur de raconter la vision. Mais Éli insista, et Samuel lui dit tout, sans rien cacher. Éli répondit avec humilité : « C'est l'Éternel, qu'il fasse ce qui lui semblera bon ! » Le récit se termine sur une note lumineuse : Samuel grandissait, l'Éternel était avec lui, et l'Éternel ne laissa tomber à terre aucune de ses paroles : tout ce que Samuel annonçait s'accomplissait. Tout Israël, depuis Dan jusqu'à Beer-Schéba, reconnut que Samuel était établi prophète de l'Éternel. Dans un temps où la parole était rare, Dieu avait trouvé quelqu'un qui écoutait."
+    ],
+    "lecons": [
+     "On peut être au service de Dieu sans encore savoir reconnaître sa voix : l'écoute s'apprend.",
+     "Dieu se sert souvent d'un frère ou d'une sœur plus mûr pour nous aider à discerner sa voix, comme Éli pour Samuel.",
+     "Écouter Dieu suppose une disposition du cœur : « ton serviteur écoute » signifie être prêt à obéir, même à un message difficile.",
+     "Celui qui écoute Dieu fidèlement devient, à son tour, une voix fiable pour les autres."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "1 Samuel 3 : le contexte d'une parole rare",
+     "paragraphes": [
+      "Les livres de Samuel racontent le passage d'Israël du temps des juges à la royauté. Le livre des Juges se termine par un constat : « En ce temps-là, il n'y avait point de roi en Israël. Chacun faisait ce qui lui semblait bon » (Juges 21.25). Le sanctuaire de Silo est devenu le théâtre de la corruption religieuse : les fils d'Éli prélèvent de force la viande des sacrifices et se conduisent mal (1 Samuel 2.12-17, 22). Le chapitre 3 est construit en contraste : d'un côté, une famille sacerdotale qui n'écoute plus ; de l'autre, un enfant qui apprend à écouter.",
+      "Le détail de la lampe (verset 3) est riche de sens. La lampe du sanctuaire devait brûler du soir au matin (Exode 27.20-21). Dire que « la lampe de Dieu n'était pas encore éteinte » situe la scène avant l'aube, mais suggère aussi que, malgré l'obscurité spirituelle d'Israël, Dieu n'avait pas abandonné son peuple. Le verbe hébreu shâma', « écouter, entendre », traverse tout le récit : Samuel entend, puis écoute ; l'Éternel annonce une action qui bouleversera quiconque en entendra parler (verset 11). Dans la Bible, écouter (shâma') inclut toujours l'idée d'obéir ; c'est le mot du grand commandement : « Écoute, Israël ! » (Deutéronome 6.4)."
+     ]
+    },
+    {
+     "titre": "Jean 10 : la voix du bon berger",
+     "paragraphes": [
+      "En Jean 10, Jésus vient de guérir un aveugle de naissance (Jean 9), que les chefs religieux ont chassé de la synagogue. Jésus oppose alors les mauvais bergers, qui ne se soucient pas des brebis, au bon berger qui donne sa vie pour elles. Dans le Proche-Orient ancien, plusieurs troupeaux passaient parfois la nuit dans le même enclos ; le matin, chaque berger appelait les siennes, et elles se séparaient des autres pour le suivre, parce qu'elles reconnaissaient sa voix. Jésus utilise cette image : « les brebis entendent sa voix ; il appelle par leur nom les brebis qui lui appartiennent » (Jean 10.3).",
+      "Le mot grec phônê, « voix », revient à plusieurs reprises dans le chapitre (versets 3, 4, 5, 16, 27). La relation est réciproque : « Mes brebis entendent ma voix ; je les connais, et elles me suivent » (Jean 10.27). Trois verbes s'enchaînent : entendre, être connu, suivre. Reconnaître la voix de Jésus n'est donc pas d'abord une expérience extraordinaire, mais le fruit d'une familiarité : la brebis connaît la voix du berger parce qu'elle vit avec lui. Inversement, « elles ne suivront point un étranger ; mais elles fuiront loin de lui, parce qu'elles ne connaissent pas la voix des étrangers » (verset 5). Plus nous connaissons la voix du Christ dans les Écritures, plus nous sommes capables de repérer les voix étrangères."
+     ]
+    },
+    {
+     "titre": "Psaume 46.11 : « Arrêtez, et sachez »",
+     "paragraphes": [
+      "Le Psaume 46 décrit un monde qui tremble : la terre bouleversée, les montagnes chancelantes, les nations qui s'agitent, les royaumes qui s'ébranlent. Au milieu de ce chaos, le refrain proclame : « L'Éternel des armées est avec nous, le Dieu de Jacob est pour nous une haute retraite » (versets 8 et 12). Puis vient la parole de Dieu lui-même : « Arrêtez, et sachez que je suis Dieu. » Le verbe hébreu râphâh signifie « relâcher, laisser tomber les mains, cesser ». Il s'adresse d'abord aux nations en guerre, sommées de cesser leur agitation ; mais il s'applique aussi au croyant agité : cesse de t'épuiser, lâche prise, et reconnais qui est Dieu.",
+      "Le verbe « savoir » (yâda') ne désigne pas seulement une connaissance intellectuelle, mais une connaissance d'expérience et de relation. On ne connaît pas Dieu en courant sans cesse ; on le connaît en s'arrêtant devant lui. C'est pourquoi l'écoute de Dieu commence souvent par le silence : faire taire nos propres bruits pour laisser parler sa Parole."
+     ]
+    },
+    {
+     "titre": "2 Timothée 3.14-17 : l'Écriture, voix de Dieu pour le croyant",
+     "paragraphes": [
+      "Paul écrit sa dernière lettre depuis sa prison à Rome, peu avant sa mort. Il avertit Timothée que des temps difficiles viendront, avec des hommes qui auront « l'apparence de la piété » mais en renieront la force (2 Timothée 3.5). Face à ces voix trompeuses, Paul ne donne pas à Timothée une nouvelle expérience mystique, mais le renvoie aux Écritures qu'il connaît « dès ton enfance » (verset 15), apprises de sa grand-mère Loïs et de sa mère Eunice (2 Timothée 1.5).",
+      "Le verset 16 contient un mot unique dans le Nouveau Testament : theopneustos, « soufflé par Dieu ». Paul ne dit pas seulement que l'Écriture contient des pensées sur Dieu, mais qu'elle provient du souffle même de Dieu. Elle a quatre usages : enseigner (dire ce qui est vrai), convaincre (montrer ce qui est faux), corriger (remettre debout ce qui est tordu) et instruire dans la justice (former à la vie juste). Le but est que « l'homme de Dieu soit accompli et propre à toute bonne œuvre » (verset 17). Écouter Dieu par l'Écriture n'est donc pas une option pour les spécialistes : c'est le moyen normal par lequel Dieu forme chacun de ses enfants."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "écouter",
+     "langue": "hébreu",
+     "original": "shâma'",
+     "sens": "entendre, prêter attention et obéir ; dans la Bible, écouter vraiment Dieu, c'est mettre en pratique ce qu'il dit."
+    },
+    {
+     "mot": "voix",
+     "langue": "grec",
+     "original": "phônê",
+     "sens": "le son de la voix d'une personne ; en Jean 10, la voix personnelle du berger que les brebis reconnaissent."
+    },
+    {
+     "mot": "arrêtez",
+     "langue": "hébreu",
+     "original": "râphâh",
+     "sens": "relâcher, cesser, laisser tomber les mains ; s'arrêter de s'agiter pour reconnaître Dieu."
+    },
+    {
+     "mot": "inspirée de Dieu",
+     "langue": "grec",
+     "original": "theopneustos",
+     "sens": "littéralement « soufflée par Dieu » (2 Timothée 3.16) ; l'Écriture vient de Dieu lui-même."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Dieu parle d'abord et avec autorité par sa Parole écrite",
+     "paragraphes": [
+      "Le Dieu de la Bible est un Dieu qui parle. « Après avoir autrefois, à plusieurs reprises et de plusieurs manières, parlé à nos pères par les prophètes, Dieu, dans ces derniers temps, nous a parlé par le Fils » (Hébreux 1.1-2). Jésus est la Parole faite chair (Jean 1.14), et le témoignage sur lui nous est donné dans les Écritures. « Toute Écriture est inspirée de Dieu, et utile pour enseigner, pour convaincre, pour corriger, pour instruire dans la justice » (2 Timothée 3.16). La Bible est donc le lieu principal, sûr et suffisant où Dieu nous parle aujourd'hui.",
+      "Concrètement, cela signifie que la lecture biblique est une partie essentielle de la prière. Lire la Bible sans prier risque de devenir un exercice intellectuel ; prier sans lire la Bible risque de nous enfermer dans nos propres pensées. Une manière simple de lier les deux est de lire un passage, de se demander ce qu'il révèle de Dieu, ce qu'il demande de moi, puis de répondre à Dieu dans la prière à partir de ce passage."
+     ]
+    },
+    {
+     "titre": "Les autres moyens que Dieu utilise",
+     "paragraphes": [
+      "Dieu parle aussi par son Esprit, qui nous conduit dans la vérité (Jean 16.13) et rend témoignage à notre esprit que nous sommes enfants de Dieu (Romains 8.16). Il nous parle par l'Église : par la prédication, par le conseil de croyants mûrs (comme Éli pour Samuel), par l'exhortation mutuelle. Il peut nous parler par les circonstances, en ouvrant ou en fermant des portes (Actes 16.6-10). La Bible rapporte aussi des songes et des visions, et beaucoup de croyants témoignent que Dieu leur a parlé de cette façon.",
+      "Toutefois, ces moyens n'ont pas la même autorité que l'Écriture. Une impression intérieure, un rêve ou une « prophétie » peuvent venir de Dieu, mais aussi de nos propres désirs, de nos peurs, ou d'une influence trompeuse. C'est pourquoi le Nouveau Testament demande d'examiner : « examinez toutes choses ; retenez ce qui est bon » (1 Thessaloniciens 5.21), et « n'ajoutez pas foi à tout esprit ; mais éprouvez les esprits, pour savoir s'ils sont de Dieu » (1 Jean 4.1). Sur la place exacte des dons prophétiques aujourd'hui, les évangéliques n'ont pas tous la même position ; mais tous s'accordent sur ce principe : rien de ce qui contredit la Bible ne vient de Dieu."
+     ]
+    },
+    {
+     "titre": "Comment discerner la voix de Dieu",
+     "paragraphes": [
+      "Voici quelques critères bibliques simples. D'abord, l'accord avec l'Écriture : Dieu ne se contredit jamais. Ensuite, le caractère de Christ : la voix de Dieu conduit à plus d'amour, de sainteté, d'humilité et de vérité, jamais à la haine, à l'orgueil ou à l'immoralité. Troisièmement, la confirmation dans la communauté : les décisions importantes gagnent à être soumises à des croyants mûrs et sages (Proverbes 15.22). Quatrièmement, la paix de Christ qui « règne dans vos cœurs » (Colossiens 3.15), sans en faire une règle absolue, car nos émotions peuvent varier. Enfin, le temps : ce qui vient de Dieu supporte l'attente et la vérification.",
+      "Il faut aussi se méfier d'une forme de manipulation fréquente : quelqu'un qui prétend avoir « reçu une parole de Dieu » pour toi, afin d'obtenir ton argent, de contrôler ton mariage ou de t'isoler de ta famille. La voix du bon berger ne t'arrache pas à ta liberté, elle te conduit à la vérité. Le berger connaît ses brebis par leur nom ; il ne les exploite pas."
+     ]
+    },
+    {
+     "titre": "Le silence et la disponibilité",
+     "paragraphes": [
+      "Samuel n'a entendu la voix de Dieu que lorsqu'il a dit : « Parle, car ton serviteur écoute ». Beaucoup de nos prières disent plutôt : « Écoute, car ton serviteur parle. » Il est bon de laisser des temps de silence dans notre communion avec Dieu : relire lentement un verset, le méditer, attendre. Le psalmiste dit : « Heureux l'homme… qui trouve son plaisir dans la loi de l'Éternel, et qui la médite jour et nuit ! » (Psaume 1.1-2). Méditer, c'est ruminer la Parole, la répéter, la laisser descendre dans le cœur. Écouter Dieu est inséparable de la volonté d'obéir : Jésus compare celui qui entend ses paroles et les met en pratique à un homme qui bâtit sa maison sur le roc (Matthieu 7.24).",
+      "Il arrive aussi que Dieu semble silencieux. Les Psaumes en parlent souvent, et Samuel lui-même a grandi dans un temps où la parole était rare. Le silence de Dieu n'est pas son absence. Pendant ces périodes, continue de lire ce qu'il a déjà dit, d'obéir à ce que tu sais, et de rester dans la communion de l'Église. Le berger n'abandonne pas sa brebis parce qu'elle ne l'entend pas pour un temps : « personne ne les ravira de ma main » (Jean 10.28)."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "1 Samuel 3.10",
+     "texte": "L'Éternel vint et se présenta, et il appela comme les autres fois : Samuel, Samuel ! Et Samuel répondit : Parle, car ton serviteur écoute."
+    },
+    {
+     "ref": "Jean 10.27",
+     "texte": "Mes brebis entendent ma voix ; je les connais, et elles me suivent."
+    },
+    {
+     "ref": "Psaume 46.11",
+     "texte": "Arrêtez, et sachez que je suis Dieu : Je domine sur les nations, je domine sur la terre."
+    },
+    {
+     "ref": "Psaume 119.105",
+     "texte": "Ta parole est une lampe à mes pieds, Et une lumière sur mon sentier."
+    },
+    {
+     "ref": "1 Thessaloniciens 5.21",
+     "texte": "Mais examinez toutes choses ; retenez ce qui est bon ;"
+    }
+   ],
+   "application": [
+    {
+     "titre": "Faire silence dans un monde saturé de bruit",
+     "paragraphes": [
+      "Nos téléphones nous sollicitent sans cesse : notifications, messages, vidéos, actualités. Beaucoup de croyants commencent la journée en consultant leurs messages avant d'avoir dit un mot à Dieu. Une décision simple peut transformer ta vie spirituelle : ne pas ouvrir les réseaux sociaux avant d'avoir ouvert ta Bible. Mets ton téléphone en mode silencieux pendant ton temps de prière, ou utilise une Bible papier. Le Psaume 46 nous dit : « Arrêtez ». Dans notre monde, cela peut commencer par « éteignez »."
+     ]
+    },
+    {
+     "titre": "Lire la Bible pour entendre, pas seulement pour savoir",
+     "paragraphes": [
+      "Adopte une méthode simple pour ton temps quotidien : lis un passage court (par exemple un chapitre d'un Évangile), puis pose-toi trois questions : qu'est-ce que ce texte me montre de Dieu ? qu'est-ce qu'il me montre de moi ? que dois-je faire aujourd'hui ? Écris une phrase de réponse dans un carnet, puis transforme-la en prière. En quelques semaines, tu verras que la Bible n'est plus un livre difficile, mais la voix de ton berger."
+     ]
+    },
+    {
+     "titre": "Face aux « prophéties » et aux promesses faciles",
+     "paragraphes": [
+      "Dans certains milieux, on entend beaucoup de « paroles » annonçant richesse, mariage, voyage ou guérison immédiate, parfois en échange d'une offrande. Ne méprise pas les dons de Dieu, mais applique les critères de l'Écriture : cette parole est-elle conforme à la Bible ? Me pousse-t-elle à aimer Christ ou à aimer l'argent ? Est-elle confirmée par des responsables sages ? Me demande-t-on de payer pour la recevoir ? Le bon berger donne sa vie pour ses brebis ; il ne leur vend pas sa voix."
+     ]
+    },
+    {
+     "titre": "Prendre une décision importante",
+     "paragraphes": [
+      "Tu dois choisir un métier, accepter ou non une proposition de travail, décider d'émigrer, t'engager dans une relation ? Écouter Dieu dans ces situations ne consiste pas à attendre un signe spectaculaire. Commence par ce que Dieu a déjà dit clairement dans sa Parole (par exemple : ne pas s'associer avec un non-croyant dans le mariage, ne pas mentir sur ses papiers, ne pas abandonner sa famille). Prie, demande conseil à des croyants mûrs, examine les portes ouvertes et fermées, et avance avec humilité. Dieu guide celui qui marche, comme un berger guide une brebis en mouvement."
+     ]
+    },
+    {
+     "titre": "Apprendre à écouter avec d'autres",
+     "paragraphes": [
+      "Samuel avait besoin d'Éli pour comprendre que c'était Dieu qui l'appelait. De la même façon, ne reste pas seul avec tes questions. Rejoins un groupe de lecture biblique dans ton église, ou propose à un ami croyant de lire le même livre biblique pendant un mois et d'échanger chaque semaine sur ce que vous avez compris. Quand tu as l'impression que Dieu te parle sur un sujet important, partage-le avec un responsable mûr avant d'agir. Cette humilité n'éteint pas l'Esprit ; elle te protège des illusions et t'aide à grandir. Écouter Dieu se vit en famille, dans le corps de Christ, pas seulement dans l'isolement."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Jonas, 24 ans, cherche du travail depuis un an. Un soir, après une veillée de prière, un homme se présentant comme prophète lui dit qu'il a reçu une révélation : Dieu veut que Jonas parte en Europe dans les trois mois, et pour « débloquer » ce voyage, il doit semer une offrande importante. Le lendemain, la mère de Jonas, malade, lui demande de rester encore un peu pour l'aider. Jonas n'a pas lu sa Bible depuis plusieurs semaines. Il est perdu : il veut obéir à Dieu, mais il ne sait plus quelle voix écouter.",
+    "questions": [
+     "Quels critères bibliques Jonas peut-il utiliser pour examiner la « révélation » reçue ?",
+     "Que nous apprend Jean 10.1-5 sur la différence entre la voix du berger et celle d'un étranger ?",
+     "Quel rôle pourrait jouer un croyant mûr, comme Éli pour Samuel, dans la situation de Jonas ?",
+     "Quelle place Jonas devrait-il redonner à la Parole de Dieu dans sa recherche de direction ?"
+    ]
+   },
+   "reflexion": [
+    "Combien de temps est-ce que je consacre chaque jour à écouter Dieu par sa Parole, comparé au temps passé à écouter d'autres voix ?",
+    "Ma prière ressemble-t-elle davantage à « Parle, car ton serviteur écoute » ou à « Écoute, car ton serviteur parle » ?",
+    "Y a-t-il une parole claire de la Bible que je connais déjà mais que je n'ai pas encore mise en pratique ?",
+    "Qui, autour de moi, pourrait jouer le rôle d'Éli et m'aider à discerner la volonté de Dieu ?"
+   ],
+   "retenir": [
+    "Dieu est un Dieu qui parle ; il parle principalement, sûrement et suffisamment par sa Parole écrite.",
+    "Écouter Dieu (shâma') signifie entendre et obéir.",
+    "Les brebis de Jésus reconnaissent sa voix parce qu'elles vivent avec lui ; la familiarité avec l'Écriture aide à repérer les voix étrangères.",
+    "Toute impression, songe ou prophétie doit être examinée à la lumière de la Bible et confirmée par la communauté.",
+    "Le silence devant Dieu (« Arrêtez, et sachez que je suis Dieu ») prépare le cœur à l'écoute."
+   ],
+   "memoriser": {
+    "ref": "Jean 10.27",
+    "texte": "Mes brebis entendent ma voix ; je les connais, et elles me suivent."
+   },
+   "priere": "Seigneur, comme Samuel, je veux te dire : Parle, car ton serviteur écoute. Pardonne-moi d'avoir laissé tant d'autres voix remplir mes journées. Donne-moi l'amour de ta Parole, un cœur prêt à obéir et la sagesse de discerner ta voix. Garde-moi des voix étrangères. Au nom de Jésus, mon bon berger, amen.",
+   "illustration": "berger",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Dieu parle principalement et sûrement par sa Parole écrite.",
+      "vrai": true,
+      "explication": "Toute Écriture est inspirée de Dieu (2 Timothée 3.16-17)."
+     },
+     {
+      "affirmation": "Toute impression forte que je ressens est forcément la voix de Dieu.",
+      "vrai": false,
+      "explication": "Il faut éprouver les esprits (1 Jean 4.1) et tout examiner (1 Thessaloniciens 5.21)."
+     },
+     {
+      "affirmation": "Les brebis de Jésus reconnaissent sa voix.",
+      "vrai": true,
+      "explication": "« Mes brebis entendent ma voix ; je les connais, et elles me suivent » (Jean 10.27)."
+     },
+     {
+      "affirmation": "En hébreu, « écouter » (shâma’) veut aussi dire obéir.",
+      "vrai": true,
+      "explication": "C’est le mot de Deutéronome 6.4 : « Écoute, Israël »."
+     },
+     {
+      "affirmation": "Une prophétie qui contredit la Bible doit quand même être suivie si le prophète est célèbre.",
+      "vrai": false,
+      "explication": "Même un ange du ciel qui annoncerait un autre évangile serait anathème (Galates 1.8)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque situation : est-ce une bonne manière de discerner la voix de Dieu, ou un piège ?",
+     "categories": [
+      "Bon discernement",
+      "Piège à éviter"
+     ],
+     "elements": [
+      {
+       "texte": "Je compare ce que je crois avoir reçu avec ce que dit la Bible.",
+       "categorie": 0,
+       "explication": "Les Béréens examinaient les Écritures (Actes 17.11)."
+      },
+      {
+       "texte": "Je prends une grande décision en secret, sans conseil, sur la base d’un seul songe.",
+       "categorie": 1,
+       "explication": "Le salut est dans le grand nombre des conseillers (Proverbes 11.14)."
+      },
+      {
+       "texte": "Je prends un temps de silence avant de prier.",
+       "categorie": 0,
+       "explication": "« Arrêtez, et sachez que je suis Dieu » (Psaume 46.11)."
+      },
+      {
+       "texte": "Un « prophète » me demande de l’argent pour me révéler mon avenir.",
+       "categorie": 1,
+       "explication": "Vous avez reçu gratuitement, donnez gratuitement (Matthieu 10.8)."
+      },
+      {
+       "texte": "Je demande l’avis de responsables mûrs de mon église.",
+       "categorie": 0,
+       "explication": "Que deux ou trois prophètes parlent, et que les autres jugent (1 Corinthiens 14.29)."
+      },
+      {
+       "texte": "Je ne lis jamais la Bible mais j’attends que Dieu me parle de façon spectaculaire.",
+       "categorie": 1,
+       "explication": "La foi vient de ce qu’on entend, et ce qu’on entend vient de la parole de Christ (Romains 10.17)."
+      },
+      {
+       "texte": "Comme Samuel, je dis : « Parle, car ton serviteur écoute. »",
+       "categorie": 0,
+       "explication": "1 Samuel 3.10."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "titre": "Persévérer et jeûner",
+   "lectures": [
+    {
+     "ref": "Luc 18.1-8",
+     "resume": "La parabole de la veuve qui insiste auprès d'un juge injuste montre qu'il faut toujours prier sans se relâcher."
+    },
+    {
+     "ref": "Matthieu 6.16-18",
+     "resume": "Jésus enseigne à jeûner pour le Père qui voit dans le secret, et non pour être remarqué."
+    },
+    {
+     "ref": "Daniel 10.1-14",
+     "resume": "Après trois semaines de deuil et de jeûne, Daniel apprend que sa prière a été entendue dès le premier jour."
+    },
+    {
+     "ref": "Ésaïe 58.3-11",
+     "resume": "Dieu dénonce un jeûne religieux sans justice et décrit le jeûne qui lui plaît : libérer, partager, secourir."
+    }
+   ],
+   "recit": {
+    "titre": "Daniel, vingt et un jours d'attente",
+    "ref": "Daniel 9.1-23 ; 10.1-14",
+    "paragraphes": [
+     "Daniel avait été emmené en captivité à Babylone dans sa jeunesse. Il avait servi sous plusieurs rois, traversé des complots et même la fosse aux lions, mais il n'avait jamais cessé de prier. Devenu un homme âgé, il lisait un jour le livre du prophète Jérémie. Il y découvrit que Dieu avait annoncé que la désolation de Jérusalem durerait soixante-dix ans (Daniel 9.2 ; Jérémie 25.11). Daniel ne se contenta pas de cette information : il tourna sa face vers le Seigneur Dieu pour recourir à la prière et aux supplications, en jeûnant, en prenant le sac et la cendre. Sa prière, rapportée au chapitre 9, est une longue confession : il ne dit pas « ils ont péché », mais « nous avons péché ». Il ne s'appuie pas sur la justice du peuple, mais sur les grandes compassions de Dieu.",
+     "Quelque temps plus tard, la troisième année de Cyrus, roi de Perse, Daniel reçut une révélation qui le bouleversa. Il se mit alors à mener le deuil pendant trois semaines entières. Le texte précise : il ne mangea aucun mets délicat, il n'entra ni viande ni vin dans sa bouche, et il ne s'oignit point. Ce n'était pas un jeûne total, mais une privation volontaire, prolongée, pour s'humilier devant Dieu et chercher à comprendre. Jour après jour, rien ne semblait se passer. Une semaine, deux semaines, trois semaines.",
+     "Le vingt-quatrième jour du premier mois, Daniel se trouvait au bord du grand fleuve, le Tigre (appelé Hiddékel). Il leva les yeux et vit un homme vêtu de lin, ceint d'une ceinture d'or, dont le visage brillait comme l'éclair et dont les yeux étaient comme des flammes de feu. Les hommes qui étaient avec lui ne virent rien, mais furent saisis de frayeur et s'enfuirent. Daniel resta seul, sans force, et tomba la face contre terre. Une main le toucha et le releva en tremblant sur ses genoux et sur ses mains.",
+     "Le messager céleste lui dit alors des paroles qui ont encouragé des générations de croyants : « Daniel, homme bien-aimé… Ne crains rien, Daniel ! car dès le premier jour où tu as eu à cœur de comprendre, et de t'humilier devant ton Dieu, tes paroles ont été entendues, et c'est à cause de tes paroles que je viens. » Puis il expliqua que le chef du royaume de Perse lui avait résisté vingt et un jours, et que Micaël, l'un des principaux chefs, était venu à son secours. La prière de Daniel avait été entendue dès le premier jour, mais la réponse avait été retardée par un combat invisible. Pendant ces vingt et un jours, Daniel n'avait vu aucun signe ; pourtant, Dieu était à l'œuvre."
+    ],
+    "lecons": [
+     "Le silence apparent de Dieu ne signifie pas qu'il n'a pas entendu : la prière de Daniel est entendue dès le premier jour.",
+     "La prière s'enracine dans la Parole : c'est en lisant Jérémie que Daniel se met à prier.",
+     "Le jeûne biblique accompagne l'humilité et la recherche de Dieu ; il n'est pas un moyen de pression sur lui.",
+     "Il existe une dimension spirituelle invisible ; la persévérance dans la prière participe au combat que Dieu mène."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Luc 18.1-8 : le contexte de la parabole",
+     "paragraphes": [
+      "Luc est le plus attentif des évangélistes à la prière de Jésus et à son enseignement sur la prière (voir Luc 3.21 ; 5.16 ; 6.12 ; 9.28 ; 11.1-13 ; 22.39-46). La parabole de la veuve suit immédiatement un enseignement sur la venue du Fils de l'homme (Luc 17.20-37), qui sera soudaine et inattendue. Les disciples vont vivre une longue attente, pleine d'injustices et de persécutions, et ils seront tentés de se décourager. C'est pourquoi Luc annonce dès le premier verset le but de la parabole : « pour montrer qu'il faut toujours prier, et ne point se relâcher ».",
+      "Le verbe traduit « se relâcher » (egkakeô) signifie « perdre courage, faiblir, baisser les bras ». Jésus sait que la plus grande tentation dans la prière n'est pas de mal prier, mais d'arrêter de prier."
+     ]
+    },
+    {
+     "titre": "Les personnages et la logique « à combien plus forte raison »",
+     "paragraphes": [
+      "Le juge est décrit avec deux traits : il ne craint pas Dieu et n'a d'égard pour personne. Dans l'Ancien Testament, la veuve est le symbole de la personne sans défense, sans mari pour la protéger ni ressources pour acheter la justice ; la loi demande de la protéger (Exode 22.22 ; Deutéronome 10.18). Cette veuve n'a qu'une arme : sa persévérance. Elle revient sans cesse demander : « Fais-moi justice de ma partie adverse. » Le juge finit par céder, non par justice, mais pour qu'elle cesse de l'importuner ; l'expression grecque employée signifie même littéralement « qu'elle ne vienne pas me frapper sous l'œil », une image vivante de l'épuisement.",
+      "Attention : Jésus ne dit pas que Dieu ressemble à ce juge. Il raisonne par contraste, du plus petit au plus grand. Si même un juge injuste finit par rendre justice à une étrangère qui l'importune, combien plus Dieu, juste et bon, fera-t-il justice à « ses élus, qui crient à lui jour et nuit » ! Les croyants ne sont pas des inconnus qui dérangent : ce sont les élus, aimés de Dieu. Jésus ajoute : « il leur fera promptement justice ». Ce « promptement » ne signifie pas toujours immédiatement à nos yeux, mais que Dieu ne retardera pas un instant au-delà de ce qui est juste et bon.",
+      "La parabole se termine par une question inattendue : « Mais, quand le Fils de l'homme viendra, trouvera-t-il la foi sur la terre ? » La question n'est pas de savoir si Dieu sera fidèle (il l'est toujours), mais si nous, nous persévérerons dans la foi. La persévérance dans la prière est l'expression concrète de la foi qui attend le retour du Seigneur."
+     ]
+    },
+    {
+     "titre": "Matthieu 6.16-18 : jeûner pour le Père",
+     "paragraphes": [
+      "Jésus dit « quand vous jeûnez », et non « si vous jeûnez » : il suppose que ses disciples jeûneront, comme il l'annonce aussi en Matthieu 9.15 (« les jours viendront où l'époux leur sera enlevé, et alors ils jeûneront »). Dans l'Ancien Testament, le jeûne (en hébreu tsôm) était associé au deuil, à la repentance et à la recherche intense de Dieu (Joël 2.12 ; Esdras 8.21-23 ; Esther 4.16). La loi n'imposait qu'un jeûne annuel, au jour des expiations, désigné par l'expression « humilier son âme » (Lévitique 16.29-31). Au temps de Jésus, les pharisiens pieux jeûnaient deux fois par semaine (Luc 18.12).",
+      "Le problème que Jésus dénonce n'est pas le jeûne, mais le jeûne-spectacle : se donner un visage défait pour montrer aux autres qu'on jeûne. Le mot grec nêsteia désigne la privation de nourriture ; Jésus demande au contraire de se parfumer la tête et de se laver le visage, c'est-à-dire de garder une apparence normale. Le jeûne est une affaire entre le croyant et son Père. Ésaïe 58 complète cet enseignement : Dieu rejette un jeûne accompagné d'injustice envers les ouvriers et de disputes, et déclare : « Voici le jeûne auquel je prends plaisir : Détache les chaînes de la méchanceté… Partage ton pain avec celui qui a faim » (Ésaïe 58.6-7). Le vrai jeûne transforme notre relation avec Dieu et avec le prochain."
+     ]
+    },
+    {
+     "titre": "Daniel 10.12-13 : une prière entendue, une réponse retardée",
+     "paragraphes": [
+      "Le livre de Daniel se situe pendant l'exil à Babylone, puis au début de l'empire perse. La troisième année de Cyrus (Daniel 10.1), un premier groupe d'exilés est déjà rentré à Jérusalem, mais la reconstruction rencontre de fortes oppositions (voir Esdras 4.1-5). Daniel, resté en terre étrangère, porte dans la prière l'avenir de son peuple.",
+      "Le verset 12 relie trois éléments : « avoir à cœur de comprendre », « s'humilier devant ton Dieu » et « tes paroles ont été entendues ». Le verbe hébreu traduit « s'humilier » (ânâh) est celui que la loi emploie pour le jeûne du jour des expiations (« humilier son âme », Lévitique 16.29). Le jeûne de Daniel est donc d'abord une attitude d'humilité. Le verset 13 lève un coin du voile sur le monde invisible : un « chef du royaume de Perse » s'oppose au messager, et Micaël vient à son aide. Le texte ne nous donne pas tous les détails et il faut éviter les spéculations. Mais il enseigne clairement que la prière des croyants est liée à un combat réel, que Paul décrit aussi en Éphésiens 6.12, et que Dieu reste maître de l'issue."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "se relâcher",
+     "langue": "grec",
+     "original": "egkakeô",
+     "sens": "perdre courage, faiblir, baisser les bras ; Jésus enseigne à ne pas abandonner la prière."
+    },
+    {
+     "mot": "jeûne",
+     "langue": "hébreu",
+     "original": "tsôm",
+     "sens": "privation volontaire de nourriture pour s'humilier devant Dieu, exprimer le deuil ou la repentance, et le rechercher."
+    },
+    {
+     "mot": "jeûne",
+     "langue": "grec",
+     "original": "nêsteia",
+     "sens": "abstention de nourriture ; dans le Nouveau Testament, pratique des disciples, à vivre dans le secret devant le Père."
+    },
+    {
+     "mot": "sans cesse",
+     "langue": "grec",
+     "original": "adialeiptôs",
+     "sens": "sans interruption, de façon constante ; la prière comme attitude permanente du cœur (1 Thessaloniciens 5.17)."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Pourquoi Dieu ne répond-il pas toujours tout de suite ?",
+     "paragraphes": [
+      "La Bible ne donne pas une explication unique, mais plusieurs pistes. Parfois, Dieu répond « oui » rapidement, comme pour Néhémie devant le roi. Parfois, il répond « attends », parce que le moment n'est pas encore venu : Abraham attend vingt-cinq ans la naissance d'Isaac. Parfois, il répond « non », parce qu'il a quelque chose de meilleur : Paul demande trois fois que son « écharde dans la chair » lui soit enlevée, et Dieu répond : « Ma grâce te suffit, car ma puissance s'accomplit dans la faiblesse » (2 Corinthiens 12.9). Jésus lui-même, à Gethsémané, a prié : « Que cette coupe s'éloigne de moi ! Toutefois, non pas ce que je veux, mais ce que tu veux » (Matthieu 26.39).",
+      "Il arrive aussi que la Bible relie une prière non exaucée à un obstacle de notre côté : des motifs égoïstes (Jacques 4.3), un péché que l'on garde volontairement (Psaume 66.18), ou une relation conjugale où le mari méprise sa femme (1 Pierre 3.7). Mais il ne faut jamais conclure trop vite qu'une attente vient d'un péché caché : Daniel était un homme fidèle, et pourtant il a attendu vingt et un jours. L'attente fait partie de la vie de foi. Elle forme la patience, approfondit la confiance et purifie nos désirs."
+     ]
+    },
+    {
+     "titre": "Prier sans cesse",
+     "paragraphes": [
+      "« Priez sans cesse » (1 Thessaloniciens 5.17) ne signifie pas rester à genoux vingt-quatre heures sur vingt-quatre. Paul lui-même travaillait de ses mains (1 Thessaloniciens 2.9). Prier sans cesse, c'est vivre dans une conscience permanente de la présence de Dieu, revenir à lui naturellement tout au long de la journée, et ne jamais fermer définitivement un sujet de prière tant que Dieu n'a pas répondu ou montré une autre direction. C'est aussi garder des temps réguliers, comme Daniel qui priait trois fois par jour.",
+      "Persévérer, c'est continuer à prier quand on ne ressent rien, quand on est fatigué, quand les circonstances semblent dire le contraire. Jésus a donné une autre parabole sur ce sujet : l'ami qui vient frapper à minuit pour emprunter trois pains (Luc 11.5-8). Puis il conclut : « Demandez, et l'on vous donnera ; cherchez, et vous trouverez ; frappez, et l'on vous ouvrira » (Luc 11.9). Les verbes grecs sont au présent, qui exprime ici une action continue : continuez à demander, continuez à chercher, continuez à frapper."
+     ]
+    },
+    {
+     "titre": "Le jeûne : sens, formes et prudence",
+     "paragraphes": [
+      "Le jeûne biblique n'est pas une grève de la faim contre Dieu, ni un exploit pour mériter une réponse. C'est une manière de dire avec son corps : « Seigneur, tu es plus important que ma nourriture. » Il exprime l'humilité (Esdras 8.21), la repentance (Jonas 3.5-10), la recherche de direction (Actes 13.2-3 ; 14.23) et l'intensité d'un combat spirituel. La Bible montre différentes formes : le jeûne total sans nourriture (Esther 4.16, trois jours), le jeûne partiel (Daniel 10.3) et des jeûnes exceptionnels de quarante jours (Moïse, Élie, Jésus), qui ne sont pas présentés comme un modèle à imiter par tous.",
+      "Le jeûne doit être vécu avec sagesse. Une personne enceinte, malade (diabète, ulcère, troubles alimentaires), sous traitement médical, ou âgée doit consulter un médecin et choisir une forme adaptée, par exemple renoncer à certains aliments, aux écrans ou à un loisir. Le jeûne ne doit jamais être imposé comme une épreuve de force, ni servir à juger les autres. Ce qui compte n'est pas la durée, mais le cœur : un temps libéré pour prier, lire la Parole et chercher Dieu, et souvent un repas économisé partagé avec celui qui a faim, comme le demande Ésaïe 58."
+     ]
+    },
+    {
+     "titre": "Persévérance et confiance dans la souveraineté de Dieu",
+     "paragraphes": [
+      "Persévérer dans la prière ne veut pas dire « fatiguer » Dieu jusqu'à ce qu'il cède, comme le juge de la parabole. Jésus affirme au contraire que Dieu est un Père bon qui sait donner de bonnes choses à ses enfants (Luc 11.13). La persévérance est l'expression de notre confiance : nous revenons vers lui parce que nous croyons qu'il est fidèle, même si nous ne comprenons pas son calendrier.",
+      "Elle transforme aussi celui qui prie. En persévérant, Anne a appris à remettre son fardeau ; Daniel a reçu une compréhension plus profonde ; Paul a découvert que la grâce de Dieu suffit. Souvent, à la fin d'une longue attente, nous découvrons que Dieu a répondu à une prière plus profonde que celle que nous formulions. Le croyant qui persévère apprend à dire avec Jésus : « non pas ce que je veux, mais ce que tu veux », non par résignation, mais par confiance dans la sagesse du Père."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Luc 18.1",
+     "texte": "Jésus leur adressa une parabole, pour montrer qu'il faut toujours prier, et ne point se relâcher."
+    },
+    {
+     "ref": "Luc 18.7-8",
+     "texte": "Et Dieu ne fera-t-il pas justice à ses élus, qui crient à lui jour et nuit, et tardera-t-il à leur égard ? Je vous le dis, il leur fera promptement justice. Mais, quand le Fils de l'homme viendra, trouvera-t-il la foi sur la terre ?"
+    },
+    {
+     "ref": "Matthieu 6.17-18",
+     "texte": "Mais quand tu jeûnes, parfume ta tête et lave ton visage, afin de ne pas montrer aux hommes que tu jeûnes, mais à ton Père qui est là dans le lieu secret ; et ton Père, qui voit dans le secret, te le rendra."
+    },
+    {
+     "ref": "1 Thessaloniciens 5.16-18",
+     "texte": "Soyez toujours joyeux. Priez sans cesse. Rendez grâces en toutes choses, car c'est à votre égard la volonté de Dieu en Jésus-Christ."
+    },
+    {
+     "ref": "Ésaïe 58.6",
+     "texte": "Voici le jeûne auquel je prends plaisir : Détache les chaînes de la méchanceté, Dénoue les liens de la servitude, Renvoie libres les opprimés, Et que l'on rompe toute espèce de joug ;"
+    }
+   ],
+   "application": [
+    {
+     "titre": "Tenir un journal de prière",
+     "paragraphes": [
+      "Notre mémoire est courte : nous oublions vite ce que nous avons demandé et ce que Dieu a fait. Un journal de prière est un outil simple et puissant. Sur une page, note la date, le sujet de prière, et laisse une colonne vide pour la réponse. Relis-le chaque semaine. Tu verras des réponses que tu aurais oubliées, et ta foi s'en trouvera fortifiée. Tu verras aussi des sujets qui attendent encore : continue de les présenter, comme la veuve de la parabole. Le journal t'aidera également à remarquer quand Dieu a répondu autrement que tu ne l'attendais."
+     ]
+    },
+    {
+     "titre": "Quand l'attente dure : chômage, maladie, papiers, mariage",
+     "paragraphes": [
+      "Certaines prières durent des mois, voire des années : un emploi stable, la guérison d'un proche, une régularisation administrative, un conjoint, un enfant, la conversion d'un parent. Pendant l'attente, garde trois attitudes. Continue à prier, même brièvement, chaque jour. Continue à agir de façon responsable et honnête (déposer des candidatures, suivre les traitements, respecter la loi). Et continue à servir Dieu là où tu es, sans mettre ta vie entre parenthèses. L'attente n'est pas du temps perdu : Dieu y travaille en toi comme il travaillait pour Daniel pendant ses vingt et un jours."
+     ]
+    },
+    {
+     "titre": "Choisir un jeûne adapté à ta vie",
+     "paragraphes": [
+      "Si tu n'as jamais jeûné, commence simplement : saute un repas une fois par semaine et utilise ce temps pour prier et lire la Bible. Tu peux aussi pratiquer un « jeûne des écrans » : pas de réseaux sociaux ni de séries pendant une semaine, et ce temps consacré à Dieu. Si tu travailles physiquement ou si ta santé est fragile, adapte la forme, à la manière du jeûne partiel de Daniel. Et n'oublie pas Ésaïe 58 : l'argent d'un repas non consommé peut nourrir quelqu'un qui a faim. Un jeûne qui rend plus dur envers les autres n'est pas le jeûne que Dieu aime."
+     ]
+    },
+    {
+     "titre": "Prier ensemble",
+     "paragraphes": [
+      "Jésus a promis : « Si deux d'entre vous s'accordent sur la terre pour demander une chose quelconque, elle leur sera accordée par mon Père qui est dans les cieux » (Matthieu 18.19). Dans l'Église primitive, on priait ensemble (Actes 1.14 ; 4.24-31 ; 12.5). Ne porte pas tes fardeaux seul : participe aux réunions de prière de ton église, et trouve un ou deux partenaires de prière avec qui échanger des sujets chaque semaine, même par un simple appel téléphonique. La persévérance est plus facile à plusieurs."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Esther, mère de trois enfants, prie depuis deux ans pour que son mari Paul vienne au Seigneur. Paul n'est pas hostile, mais il se moque gentiment de sa foi et refuse de venir à l'église. Récemment, une connaissance a dit à Esther que si son mari ne s'est pas encore converti, c'est qu'elle n'a pas assez jeûné, et lui a conseillé un jeûne sec de sept jours. Esther est diabétique et commence à se demander si Dieu l'écoute vraiment. Elle est fatiguée et a presque arrêté de prier pour son mari.",
+    "questions": [
+     "Que dit la parabole de Luc 18.1-8 à Esther dans son découragement ?",
+     "Comment le récit de Daniel 10 peut-il l'aider à comprendre le silence apparent de Dieu ?",
+     "Le conseil de jeûner sept jours sans boire est-il conforme à l'esprit du jeûne biblique et à la sagesse ? Que lui proposerais-tu à la place ?",
+     "Comment Esther peut-elle témoigner de sa foi auprès de Paul pendant ce temps d'attente (voir 1 Pierre 3.1-2) ?"
+    ]
+   },
+   "reflexion": [
+    "Y a-t-il un sujet de prière que j'ai abandonné par découragement et que je dois reprendre ?",
+    "Comment est-ce que je réagis quand Dieu répond « attends » ou « non » ?",
+    "Ai-je déjà jeûné ? Si oui, quelle était ma motivation ? Sinon, quelle forme de jeûne pourrais-je commencer avec sagesse ?",
+    "Mon jeûne et ma prière me rendent-ils plus attentif aux besoins des autres, comme le demande Ésaïe 58 ?"
+   ],
+   "retenir": [
+    "Jésus enseigne qu'il faut toujours prier et ne point se relâcher (Luc 18.1).",
+    "Dieu n'est pas comme le juge injuste : il est un Père juste qui fera justice à ses élus.",
+    "Le silence apparent de Dieu n'est pas son absence ; la prière de Daniel fut entendue dès le premier jour.",
+    "Le jeûne est une humiliation volontaire devant Dieu pour le rechercher ; il se vit dans le secret, avec sagesse, et il conduit à la justice envers le prochain.",
+    "Dieu peut répondre « oui », « attends » ou « non » ; sa grâce suffit dans chaque cas."
+   ],
+   "memoriser": {
+    "ref": "Luc 18.1",
+    "texte": "Jésus leur adressa une parabole, pour montrer qu'il faut toujours prier, et ne point se relâcher."
+   },
+   "priere": "Seigneur, tu connais les prières que je porte depuis longtemps et les moments où j'ai eu envie d'abandonner. Merci de m'entendre dès le premier jour. Donne-moi la persévérance de la veuve et l'humilité de Daniel. Apprends-moi à jeûner pour toi seul, avec sagesse, et à partager avec ceux qui ont faim. Que ton Fils trouve la foi en moi quand il reviendra. Amen.",
+   "illustration": "chemin",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Jésus enseigne qu’il faut toujours prier et ne pas se relâcher.",
+      "vrai": true,
+      "explication": "Luc 18.1."
+     },
+     {
+      "affirmation": "Si Dieu ne répond pas tout de suite, c’est qu’il ne m’a pas entendu.",
+      "vrai": false,
+      "explication": "La prière de Daniel fut entendue dès le premier jour, même si la réponse a tardé (Daniel 10.12-13)."
+     },
+     {
+      "affirmation": "Le jeûne est un moyen d’obliger Dieu à faire ce que je veux.",
+      "vrai": false,
+      "explication": "Le jeûne est une humiliation devant Dieu ; Ésaïe 58 rappelle qu’il va avec la justice envers le prochain (Ésaïe 58.3-7)."
+     },
+     {
+      "affirmation": "Jésus demande de jeûner dans le secret, sans se montrer.",
+      "vrai": true,
+      "explication": "Matthieu 6.16-18."
+     },
+     {
+      "affirmation": "Dieu peut répondre « non », et sa grâce suffit quand même.",
+      "vrai": true,
+      "explication": "Paul a reçu cette réponse : « Ma grâce te suffit » (2 Corinthiens 12.9)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque façon de jeûner ou de persévérer : est-elle sage et biblique, ou à revoir ?",
+     "categories": [
+      "Sage et biblique",
+      "À revoir"
+     ],
+     "elements": [
+      {
+       "texte": "Je jeûne un repas par semaine et je passe ce temps dans la Parole.",
+       "categorie": 0,
+       "explication": "Jeûner, c’est rechercher Dieu (Esdras 8.21-23)."
+      },
+      {
+       "texte": "Malgré mon diabète, je fais un jeûne total de plusieurs jours sans avis médical.",
+       "categorie": 1,
+       "explication": "Notre corps est le temple du Saint-Esprit ; on peut jeûner autrement (des écrans, d’un aliment) (1 Corinthiens 6.19-20)."
+      },
+      {
+       "texte": "Je note mes prières dans un carnet et je relève les réponses de Dieu.",
+       "categorie": 0,
+       "explication": "Se souvenir des œuvres de l’Éternel nourrit la foi (Psaume 77.12-13)."
+      },
+      {
+       "texte": "Je publie sur les réseaux que je jeûne pour qu’on me trouve spirituel.",
+       "categorie": 1,
+       "explication": "Jésus dit de jeûner dans le secret (Matthieu 6.16-18)."
+      },
+      {
+       "texte": "Je continue de prier pour mes papiers, même après des mois d’attente.",
+       "categorie": 0,
+       "explication": "Jésus enseigne de ne point se relâcher (Luc 18.1-8)."
+      },
+      {
+       "texte": "Je jeûne tout en maltraitant les ouvriers que j’emploie.",
+       "categorie": 1,
+       "explication": "Le jeûne que Dieu aime, c’est détacher les chaînes de la méchanceté (Ésaïe 58.3-6)."
+      },
+      {
+       "texte": "Je prie avec deux amis chaque semaine pour nos besoins.",
+       "categorie": 0,
+       "explication": "Si deux d’entre vous s’accordent sur la terre pour demander… (Matthieu 18.19-20)."
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "pratique": {
+  "consigne": "Pendant 21 jours, prie chaque jour au moins 15 minutes, Bible ouverte, et tiens un journal de prière. À la fin, décris par écrit ce que ce temps a changé dans ta relation avec Dieu, les réponses reçues et les sujets qui attendent encore.",
+  "etapes": [
+   "Choisis un lieu et un moment fixes (ta « chambre » de Matthieu 6.6) et mets ton téléphone en silencieux pendant ce temps.",
+   "Chaque jour, lis un court passage biblique (par exemple un chapitre de l'Évangile de Luc) et note une phrase : ce que Dieu me dit aujourd'hui.",
+   "Prie en suivant le plan du « Notre Père » : adoration, soumission à sa volonté, besoins du jour, confession et pardon, protection.",
+   "Dans ton journal, inscris tes sujets de prière avec la date, et laisse une colonne pour noter les réponses de Dieu.",
+   "Pendant ces 21 jours, choisis une forme de jeûne adaptée à ta santé (un repas, ou les réseaux sociaux un jour par semaine) et consacre ce temps à la prière.",
+   "Prie au moins une fois par semaine avec un partenaire de prière, puis rédige ton bilan final (une demi-page)."
   ]
+ },
+ "examen": [
+  {
+   "q": "Dans Matthieu 6.5-6, que reproche Jésus aux hypocrites qui prient au coin des rues ?",
+   "choix": [
+    "De prier trop brièvement",
+    "De prier pour être vus des hommes",
+    "De prier en araméen plutôt qu'en hébreu",
+    "De prier sans jeûner"
+   ],
+   "bonne": 1,
+   "explication": "Ils prient pour être vus des hommes et ont déjà reçu leur récompense ; Jésus invite à prier le Père dans le secret (Matthieu 6.5-6)."
+  },
+  {
+   "q": "Selon Matthieu 6.7-8, pourquoi ne faut-il pas multiplier les vaines paroles dans la prière ?",
+   "choix": [
+    "Parce que Dieu se fatigue de nos prières",
+    "Parce que seuls les prêtres peuvent prier longtemps",
+    "Parce que le Père sait de quoi nous avons besoin avant que nous le lui demandions",
+    "Parce que la prière doit durer moins de cinq minutes"
+   ],
+   "bonne": 2,
+   "explication": "Les païens pensaient être exaucés à force de paroles ; mais « votre Père sait de quoi vous avez besoin, avant que vous le lui demandiez » (Matthieu 6.8)."
+  },
+  {
+   "q": "Par quelles demandes commence le « Notre Père » (Matthieu 6.9-10) ?",
+   "choix": [
+    "Des demandes tournées vers Dieu : son nom, son règne, sa volonté",
+    "La demande du pain quotidien",
+    "La demande de pardon des offenses",
+    "La délivrance du malin"
+   ],
+   "bonne": 0,
+   "explication": "Le modèle de Jésus commence par Dieu : que ton nom soit sanctifié, que ton règne vienne, que ta volonté soit faite (Matthieu 6.9-10)."
+  },
+  {
+   "q": "Dans le « Notre Père », le mot grec traduit par « offenses » signifie littéralement :",
+   "choix": [
+    "Fautes rituelles",
+    "Maladies",
+    "Mensonges",
+    "Dettes"
+   ],
+   "bonne": 3,
+   "explication": "Le mot opheilêmata signifie « dettes » : le péché est une dette envers Dieu, que lui seul peut remettre (Matthieu 6.12)."
+  },
+  {
+   "q": "Selon Philippiens 4.6-7, que faut-il faire de nos inquiétudes ?",
+   "choix": [
+    "Les cacher pour ne pas paraître faible",
+    "Les faire connaître à Dieu par la prière, avec des actions de grâces",
+    "Attendre qu'elles disparaissent seules",
+    "Les confier uniquement à un prophète"
+   ],
+   "bonne": 1,
+   "explication": "Paul invite à faire connaître nos besoins à Dieu par des prières et des supplications, avec des actions de grâces ; la paix de Dieu gardera alors nos cœurs (Philippiens 4.6-7)."
+  },
+  {
+   "q": "Pourquoi le prêtre Éli pense-t-il qu'Anne est ivre (1 Samuel 1) ?",
+   "choix": [
+    "Elle chante bruyamment dans le temple",
+    "Elle a apporté du vin au sanctuaire",
+    "Ses lèvres remuent mais on n'entend pas sa voix",
+    "Elle est tombée devant l'autel"
+   ],
+   "bonne": 2,
+   "explication": "Anne parlait dans son cœur ; seules ses lèvres remuaient. Elle explique : « je répandais mon âme devant l'Éternel » (1 Samuel 1.13-15)."
+  },
+  {
+   "q": "Que signifie le nom « Samuel » selon l'explication d'Anne ?",
+   "choix": [
+    "Je l'ai demandé à l'Éternel",
+    "Dieu est grand",
+    "Fils de la joie",
+    "Le serviteur fidèle"
+   ],
+   "bonne": 0,
+   "explication": "Anne l'appela Samuel, « car, dit-elle, je l'ai demandé à l'Éternel » (1 Samuel 1.20)."
+  },
+  {
+   "q": "Vrai ou faux : après sa prière à Silo, le visage d'Anne changea avant même qu'elle soit enceinte.",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "bonne": 0,
+   "explication": "Après la bénédiction d'Éli, Anne s'en alla, mangea, et son visage ne fut plus le même (1 Samuel 1.18) : la paix précède la réponse."
+  },
+  {
+   "q": "Comment la Bible décrit-elle l'époque où Dieu appela le jeune Samuel ?",
+   "choix": [
+    "Un temps de grand réveil",
+    "Un temps où la parole de l'Éternel était rare",
+    "Un temps de paix sous le roi David",
+    "Un temps où les prophètes étaient nombreux"
+   ],
+   "bonne": 1,
+   "explication": "« La parole de l'Éternel était rare en ce temps-là, les visions n'étaient pas fréquentes » (1 Samuel 3.1)."
+  },
+  {
+   "q": "Quel conseil Éli donne-t-il à Samuel lorsqu'il comprend que Dieu l'appelle ?",
+   "choix": [
+    "Fuir le temple",
+    "Ne rien répondre",
+    "Aller réveiller les fils d'Éli",
+    "Répondre : Parle, Éternel, car ton serviteur écoute"
+   ],
+   "bonne": 3,
+   "explication": "Éli lui dit : « si l'on t'appelle, tu diras : Parle, Éternel, car ton serviteur écoute » (1 Samuel 3.9)."
+  },
+  {
+   "q": "Dans la Bible, le verbe hébreu shâma', « écouter », implique aussi l'idée de :",
+   "choix": [
+    "Chanter",
+    "Obéir",
+    "Voyager",
+    "Douter"
+   ],
+   "bonne": 1,
+   "explication": "Écouter Dieu, dans la Bible, c'est entendre et mettre en pratique ; c'est le mot de « Écoute, Israël ! » (Deutéronome 6.4)."
+  },
+  {
+   "q": "D'après Jean 10.27, que font les brebis de Jésus ?",
+   "choix": [
+    "Elles cherchent des signes dans le ciel",
+    "Elles suivent tous ceux qui les appellent",
+    "Elles entendent sa voix et le suivent",
+    "Elles restent dans l'enclos"
+   ],
+   "bonne": 2,
+   "explication": "« Mes brebis entendent ma voix ; je les connais, et elles me suivent » (Jean 10.27)."
+  },
+  {
+   "q": "Quel est le moyen principal et le plus sûr par lequel Dieu parle aujourd'hui ?",
+   "choix": [
+    "Sa Parole écrite, la Bible",
+    "Les rêves uniquement",
+    "Les coïncidences",
+    "Les sentiments du moment"
+   ],
+   "bonne": 0,
+   "explication": "« Toute Écriture est inspirée de Dieu, et utile pour enseigner… » (2 Timothée 3.16) ; tout autre moyen doit être vérifié par elle."
+  },
+  {
+   "q": "Un prophète te demande une grosse offrande pour « débloquer » une parole de Dieu sur ta vie. Quelle est l'attitude biblique ?",
+   "choix": [
+    "Payer immédiatement pour ne pas manquer la bénédiction",
+    "Examiner cette parole à la lumière de l'Écriture et demander conseil à des croyants mûrs",
+    "Accepter toute parole prononcée avec assurance",
+    "Rompre avec toute église"
+   ],
+   "bonne": 1,
+   "explication": "« Examinez toutes choses ; retenez ce qui est bon » (1 Thessaloniciens 5.21) ; le bon berger ne vend pas sa voix."
+  },
+  {
+   "q": "Que signifie l'ordre « Arrêtez, et sachez que je suis Dieu » (Psaume 46.11) ?",
+   "choix": [
+    "Arrêter de travailler définitivement",
+    "Arrêter de lire la Bible",
+    "Cesser de prier",
+    "Cesser de s'agiter, lâcher prise et reconnaître qui est Dieu"
+   ],
+   "bonne": 3,
+   "explication": "Le verbe râphâh signifie relâcher, cesser ; au milieu des bouleversements, Dieu invite à reconnaître sa souveraineté (Psaume 46.11)."
+  },
+  {
+   "q": "Selon Luc 18.1, dans quel but Jésus raconte-t-il la parabole de la veuve et du juge ?",
+   "choix": [
+    "Pour montrer qu'il faut toujours prier, et ne point se relâcher",
+    "Pour critiquer les tribunaux romains",
+    "Pour enseigner sur l'héritage des veuves",
+    "Pour montrer que Dieu est injuste"
+   ],
+   "bonne": 0,
+   "explication": "Luc l'annonce dès le premier verset : « pour montrer qu'il faut toujours prier, et ne point se relâcher » (Luc 18.1)."
+  },
+  {
+   "q": "Vrai ou faux : dans la parabole de Luc 18, le juge injuste représente Dieu tel qu'il est.",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "bonne": 1,
+   "explication": "Jésus raisonne par contraste : si un juge injuste finit par faire justice, combien plus Dieu fera-t-il justice à ses élus (Luc 18.6-8)."
+  },
+  {
+   "q": "Combien de temps Daniel mena-t-il le deuil en jeûnant avant que le messager céleste vienne à lui (Daniel 10) ?",
+   "choix": [
+    "Sept jours",
+    "Quarante jours",
+    "Trois jours",
+    "Trois semaines"
+   ],
+   "bonne": 3,
+   "explication": "Daniel mena le deuil trois semaines entières ; le messager explique que le chef du royaume de Perse lui a résisté vingt et un jours (Daniel 10.2-3, 13)."
+  },
+  {
+   "q": "Selon Matthieu 6.16-18, comment le disciple doit-il jeûner ?",
+   "choix": [
+    "En montrant un visage triste à tous",
+    "En annonçant son jeûne à l'église",
+    "En gardant une apparence normale, pour le Père qui voit dans le secret",
+    "En jeûnant uniquement le sabbat"
+   ],
+   "bonne": 2,
+   "explication": "« Parfume ta tête et lave ton visage, afin de ne pas montrer aux hommes que tu jeûnes, mais à ton Père qui est là dans le lieu secret » (Matthieu 6.17-18)."
+  },
+  {
+   "q": "D'après Ésaïe 58.6-7, quel jeûne plaît à Dieu ?",
+   "choix": [
+    "Un jeûne accompagné de disputes",
+    "Un jeûne qui libère les opprimés et partage le pain avec celui qui a faim",
+    "Un jeûne qui dure au moins quarante jours",
+    "Un jeûne qui oblige Dieu à répondre"
+   ],
+   "bonne": 1,
+   "explication": "Dieu dit : « Voici le jeûne auquel je prends plaisir : Détache les chaînes de la méchanceté… Partage ton pain avec celui qui a faim » (Ésaïe 58.6-7)."
+  }
+ ]
 }

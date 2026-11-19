@@ -268,7 +268,81 @@
     "ref": "1 Jean 3.1",
     "texte": "Voyez quel amour le Père nous a témoigné, pour que nous soyons appelés enfants de Dieu ! Et nous le sommes. Si le monde ne nous connaît pas, c'est qu'il ne l'a pas connu."
    },
-   "priere": "Notre Père qui es aux cieux, que ton nom soit sanctifié. Merci de m'avoir vu de loin et d'avoir couru vers moi. Guéris en moi les images fausses que j'ai de toi. Apprends-moi à te faire confiance pour mes besoins, à accepter ta correction, et à me réjouir quand d'autres reviennent à toi. Au nom de Jésus, amen."
+   "priere": "Notre Père qui es aux cieux, que ton nom soit sanctifié. Merci de m'avoir vu de loin et d'avoir couru vers moi. Guéris en moi les images fausses que j'ai de toi. Apprends-moi à te faire confiance pour mes besoins, à accepter ta correction, et à me réjouir quand d'autres reviennent à toi. Au nom de Jésus, amen.",
+   "illustration": "coeur",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Il n’y a qu’un seul vrai Dieu.",
+      "vrai": true,
+      "explication": "« Écoute, Israël ! l’Éternel, notre Dieu, est le seul Éternel » (Deutéronome 6.4)."
+     },
+     {
+      "affirmation": "Dieu est amour, donc il ne se préoccupe pas de la justice.",
+      "vrai": false,
+      "explication": "Dieu est miséricordieux mais il ne tient pas le coupable pour innocent ; sa sainteté et son amour vont ensemble (Exode 34.6-7)."
+     },
+     {
+      "affirmation": "Par la foi en Christ, nous pouvons appeler Dieu « Abba, Père ».",
+      "vrai": true,
+      "explication": "Nous avons reçu un Esprit d’adoption, par lequel nous crions : Abba ! Père ! (Romains 8.15)."
+     },
+     {
+      "affirmation": "Dans la parabole, le père attend que son fils perdu rembourse tout avant de l’accueillir.",
+      "vrai": false,
+      "explication": "Le père court vers lui, l’embrasse et fait la fête (Luc 15.20-24)."
+     },
+     {
+      "affirmation": "Un père terrestre absent ou dur montre exactement comment Dieu est.",
+      "vrai": false,
+      "explication": "Dieu est le Père parfait : même si père et mère m’abandonnent, l’Éternel me recueillera (Psaume 27.10)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque phrase : correspond-elle à ce que la Bible révèle du Père, ou à une fausse image de Dieu ?",
+     "categories": [
+      "Vraie image du Père",
+      "Fausse image de Dieu"
+     ],
+     "elements": [
+      {
+       "texte": "Dieu connaît mes besoins avant même que je les lui demande.",
+       "categorie": 0,
+       "explication": "Jésus l’enseigne en Matthieu 6.8 et 6.32."
+      },
+      {
+       "texte": "Dieu est un patron sévère qui attend que je me trompe pour me punir.",
+       "categorie": 1,
+       "explication": "L’Éternel est lent à la colère et riche en bonté (Psaume 103.8-13)."
+      },
+      {
+       "texte": "Dieu m’accueille quand je reviens, même après m’être éloigné.",
+       "categorie": 0,
+       "explication": "Comme le père du fils prodigue (Luc 15.20)."
+      },
+      {
+       "texte": "Dieu est trop loin et trop grand pour s’intéresser à ma vie.",
+       "categorie": 1,
+       "explication": "Il compte même les cheveux de notre tête (Matthieu 10.30)."
+      },
+      {
+       "texte": "Dieu corrige ses enfants parce qu’il les aime.",
+       "categorie": 0,
+       "explication": "Le Seigneur châtie celui qu’il aime (Hébreux 12.6)."
+      },
+      {
+       "texte": "Dieu préfère les riches et ceux qui ont un grand nom.",
+       "categorie": 1,
+       "explication": "Dieu ne fait point acception de personnes (Actes 10.34)."
+      },
+      {
+       "texte": "Dieu est le même hier, aujourd’hui et demain : il ne change pas.",
+       "categorie": 0,
+       "explication": "« Je suis l’Éternel, je ne change pas » (Malachie 3.6)."
+      }
+     ]
+    }
+   }
   },
   {
    "titre": "Dieu le Fils",
@@ -478,7 +552,81 @@
     "ref": "Jean 1.14",
     "texte": "Et la parole a été faite chair, et elle a habité parmi nous, pleine de grâce et de vérité ; et nous avons contemplé sa gloire, une gloire comme la gloire du Fils unique venu du Père."
    },
-   "priere": "Seigneur Jésus, tu es la Parole éternelle, vrai Dieu et vrai homme. Merci d'avoir dressé ta tente parmi nous, de t'être abaissé jusqu'à la croix pour moi. Je te reconnais comme mon Sauveur et mon Seigneur. Prends la première place dans chaque domaine de ma vie, et quand viennent les tempêtes, apprends-moi à te faire confiance. Amen."
+   "priere": "Seigneur Jésus, tu es la Parole éternelle, vrai Dieu et vrai homme. Merci d'avoir dressé ta tente parmi nous, de t'être abaissé jusqu'à la croix pour moi. Je te reconnais comme mon Sauveur et mon Seigneur. Prends la première place dans chaque domaine de ma vie, et quand viennent les tempêtes, apprends-moi à te faire confiance. Amen.",
+   "illustration": "couronne",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Jésus est seulement un grand prophète, mais pas Dieu.",
+      "vrai": false,
+      "explication": "« La Parole était Dieu […] Et la parole a été faite chair » (Jean 1.1, 14)."
+     },
+     {
+      "affirmation": "Jésus est vrai Dieu et vrai homme.",
+      "vrai": true,
+      "explication": "Il était de condition divine et il s’est rendu semblable aux hommes (Philippiens 2.6-7)."
+     },
+     {
+      "affirmation": "Jésus a eu faim, a pleuré et a été fatigué.",
+      "vrai": true,
+      "explication": "Voir Matthieu 4.2 ; Jean 11.35 ; Jean 4.6 : il connaît notre faiblesse."
+     },
+     {
+      "affirmation": "Après sa résurrection, Jésus est monté au ciel et n’agit plus pour nous.",
+      "vrai": false,
+      "explication": "Il est à la droite de Dieu et il intercède pour nous (Romains 8.34)."
+     },
+     {
+      "affirmation": "On peut recevoir Jésus comme Sauveur tout en refusant qu’il soit Seigneur.",
+      "vrai": false,
+      "explication": "Si tu confesses de ta bouche le Seigneur Jésus et crois dans ton cœur… tu seras sauvé (Romains 10.9)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque choix : montre-t-il que Jésus est Seigneur de ma vie, ou qu’il ne l’est pas encore dans ce domaine ?",
+     "categories": [
+      "Jésus est Seigneur ici",
+      "Domaine à lui remettre"
+     ],
+     "elements": [
+      {
+       "texte": "Je demande à Jésus de me guider avant d’accepter un nouveau travail.",
+       "categorie": 0,
+       "explication": "Reconnais-le dans toutes tes voies (Proverbes 3.5-6)."
+      },
+      {
+       "texte": "Je dis que Jésus est mon Seigneur, mais je refuse de lui obéir dans ma manière de gérer l’argent.",
+       "categorie": 1,
+       "explication": "« Pourquoi m’appelez-vous Seigneur, Seigneur ! et ne faites-vous pas ce que je dis ? » (Luc 6.46)."
+      },
+      {
+       "texte": "Je choisis de servir les autres plutôt que de chercher les premières places.",
+       "categorie": 0,
+       "explication": "Ayez en vous les sentiments qui étaient en Jésus-Christ (Philippiens 2.5-8)."
+      },
+      {
+       "texte": "J’ai peur des puissances occultes plus que je ne fais confiance à Jésus.",
+       "categorie": 1,
+       "explication": "Jésus a reçu tout pouvoir dans le ciel et sur la terre (Matthieu 28.18)."
+      },
+      {
+       "texte": "Dans la tempête, je prie et je lui fais confiance.",
+       "categorie": 0,
+       "explication": "Même le vent et la mer lui obéissent (Marc 4.39-41)."
+      },
+      {
+       "texte": "Je garde une relation que je sais contraire à la Parole, en disant « Dieu comprend ».",
+       "categorie": 1,
+       "explication": "Celui qui l’aime garde ses commandements (Jean 14.21)."
+      },
+      {
+       "texte": "Je parle de Jésus avec respect à un ami d’une autre religion.",
+       "categorie": 0,
+       "explication": "Soyez toujours prêts à répondre… avec douceur et respect (1 Pierre 3.15)."
+      }
+     ]
+    }
+   }
   },
   {
    "titre": "Dieu le Saint-Esprit",
@@ -695,7 +843,81 @@
     "ref": "Jean 14.16-17",
     "texte": "Et moi, je prierai le Père, et il vous donnera un autre consolateur, afin qu'il demeure éternellement avec vous, l'Esprit de vérité, que le monde ne peut recevoir, parce qu'il ne le voit point et ne le connaît point ; mais vous, vous le connaissez, car il demeure avec vous, et il sera en vous."
    },
-   "priere": "Saint-Esprit, merci de demeurer en moi. Pardonne-moi pour les fois où je t'ai ignoré ou attristé. Remplis-moi aujourd'hui, conduis-moi dans la vérité de la Parole, fais grandir ton fruit dans mon caractère et donne-moi le courage d'être témoin de Jésus. Que ma vie le glorifie. Amen."
+   "priere": "Saint-Esprit, merci de demeurer en moi. Pardonne-moi pour les fois où je t'ai ignoré ou attristé. Remplis-moi aujourd'hui, conduis-moi dans la vérité de la Parole, fais grandir ton fruit dans mon caractère et donne-moi le courage d'être témoin de Jésus. Que ma vie le glorifie. Amen.",
+   "illustration": "colombe",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Le Saint-Esprit est une simple force, comme l’électricité.",
+      "vrai": false,
+      "explication": "Il est une personne : il enseigne, il intercède, et il peut être attristé (Jean 14.26 ; Romains 8.26 ; Éphésiens 4.30)."
+     },
+     {
+      "affirmation": "Le Père, le Fils et le Saint-Esprit sont un seul Dieu en trois personnes.",
+      "vrai": true,
+      "explication": "Jésus envoie baptiser « au nom du Père, du Fils et du Saint-Esprit » : un seul nom (Matthieu 28.19)."
+     },
+     {
+      "affirmation": "L’Esprit habite dans chaque croyant.",
+      "vrai": true,
+      "explication": "Votre corps est le temple du Saint-Esprit qui est en vous (1 Corinthiens 6.19)."
+     },
+     {
+      "affirmation": "Une manifestation spectaculaire vient toujours du Saint-Esprit.",
+      "vrai": false,
+      "explication": "Il faut éprouver les esprits ; l’Esprit glorifie Jésus et confesse qu’il est venu en chair (1 Jean 4.1-2 ; Jean 16.14)."
+     },
+     {
+      "affirmation": "Le fruit de l’Esprit se voit dans l’amour, la patience et la maîtrise de soi.",
+      "vrai": true,
+      "explication": "Voir Galates 5.22-23."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque situation : est-ce la marque de l’Esprit, ou quelque chose qui l’attriste ?",
+     "categories": [
+      "Marque de l’Esprit",
+      "Attriste l’Esprit"
+     ],
+     "elements": [
+      {
+       "texte": "Je garde la patience avec un enfant difficile.",
+       "categorie": 0,
+       "explication": "La patience fait partie du fruit de l’Esprit (Galates 5.22)."
+      },
+      {
+       "texte": "Je dis des paroles blessantes sur le groupe de discussion de l’église.",
+       "categorie": 1,
+       "explication": "Qu’il ne sorte de votre bouche aucune parole mauvaise… n’attristez pas le Saint-Esprit (Éphésiens 4.29-30)."
+      },
+      {
+       "texte": "Je sens que je dois demander pardon à mon frère, et je le fais.",
+       "categorie": 0,
+       "explication": "L’Esprit convainc de péché et conduit à la réconciliation (Jean 16.8 ; Matthieu 5.23-24)."
+      },
+      {
+       "texte": "Quelqu’un se met en avant par des « révélations » qui flattent son orgueil.",
+       "categorie": 1,
+       "explication": "L’Esprit glorifie Christ, pas l’homme (Jean 16.14)."
+      },
+      {
+       "texte": "J’ose parler de Jésus à un collègue malgré ma timidité.",
+       "categorie": 0,
+       "explication": "Vous recevrez une puissance… et vous serez mes témoins (Actes 1.8)."
+      },
+      {
+       "texte": "Je garde de l’amertume et de la colère dans mon cœur.",
+       "categorie": 1,
+       "explication": "Que toute amertume, toute animosité, toute colère… disparaissent (Éphésiens 4.31)."
+      },
+      {
+       "texte": "Je me maîtrise au lieu de répondre avec colère sur les réseaux sociaux.",
+       "categorie": 0,
+       "explication": "La maîtrise de soi est un fruit de l’Esprit (Galates 5.23)."
+      }
+     ]
+    }
+   }
   }
  ],
  "pratique": {

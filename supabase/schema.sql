@@ -1,5 +1,5 @@
 -- =====================================================================
---  Héro de la Foi : schéma Supabase (version 2)
+--  Héro de la Foi : schéma Supabase (version 3)
 --  À exécuter dans Supabase > SQL Editor, puis exécuter cles_examen.sql.
 --  Peut être relancé sans danger, y compris sur une base de la version 1.
 --  Si votre outil refuse plusieurs commandes : schema_une_commande.sql.
@@ -32,13 +32,38 @@ create table if not exists public.progression (
   primary key (user_id, module_id)
 );
 alter table public.progression add column if not exists origine text not null default 'cours';  -- 'cours' ou 'test'
+-- Version 3 : suivi étape par étape et validation des témoignages par l'enseignant
+alter table public.progression add column if not exists etapes jsonb not null default '{}';     -- {"0": [étape atteinte, nb d'étapes], …}
+alter table public.progression add column if not exists pratique_statut text;                    -- en_attente, valide, a_revoir
+alter table public.progression add column if not exists pratique_avis text;                      -- remarque de l'enseignant sur le témoignage
+alter table public.progression add column if not exists pratique_date timestamptz;
+alter table public.profils add column if not exists enseignant_id uuid references auth.users on delete set null;  -- enseignant qui suit l'étudiant
+
+-- Réglages de la formation (modifiables par les enseignants)
+create table if not exists public.reglages (
+  cle    text primary key,
+  valeur jsonb not null
+);
+insert into public.reglages (cle, valeur) values ('validation_temoignage_obligatoire', 'false') on conflict (cle) do nothing;
+
+-- Journal de suivi : notes de l'enseignant sur un étudiant, et messages visibles par l'étudiant
+create table if not exists public.suivi_notes (
+  id            uuid primary key default gen_random_uuid(),
+  etudiant_id   uuid not null references auth.users on delete cascade,
+  enseignant_id uuid not null references auth.users on delete cascade,
+  texte         text not null check (length(texte) between 1 and 2000),
+  visible       boolean not null default false,   -- true : message affiché à l'étudiant
+  cree          timestamptz not null default now()
+);
 
 -- Ordre des modules : sert à la progression obligatoire (rempli par cles_examen.sql)
 create table if not exists public.modules (
   id      text primary key,
   niveau  int  not null,
-  ordre   int  not null unique
+  ordre   int  not null
 );
+-- L'ordre peut changer quand on insère un module : il n'est plus « unique » (sinon la mise à jour échoue).
+alter table public.modules drop constraint if exists modules_ordre_key;
 alter table public.modules add column if not exists nb_lecons int not null default 0;
 
 -- Réponses des examens : jamais lisibles par les étudiants
@@ -91,14 +116,20 @@ language sql stable security definer set search_path = public as $$
   select exists (select 1 from public.modules where id = p_module);
 $$;
 
--- Un niveau est ouvert si c'est le premier, ou si tous les modules du niveau précédent sont validés (16/20 ou attestation)
+-- Un niveau est ouvert si c'est le premier, si tous les modules du niveau précédent sont validés (16/20 ou attestation),
+-- si le test de passage du niveau précédent a été réussi, ou si l'étudiant a déjà validé un module de ce niveau
+-- (cela protège les étudiants déjà avancés quand un nouveau module est ajouté à un niveau).
 create or replace function public.niveau_ouvert(p_user uuid, p_niveau int) returns boolean
 language sql stable security definer set search_path = public as $$
-  select p_niveau = 1 or not exists (
+  select p_niveau = 1
+    or not exists (
     select 1 from public.modules m
      where m.niveau = p_niveau - 1
        and not exists (select 1 from public.progression g
-                        where g.user_id = p_user and g.module_id = m.id and (g.meilleur >= 0.8 or g.cert_no is not null)));
+                        where g.user_id = p_user and g.module_id = m.id and (g.meilleur >= 0.8 or g.cert_no is not null)))
+    or exists (select 1 from public.tests_passage t where t.user_id = p_user and t.niveau = p_niveau - 1 and t.reussi)
+    or exists (select 1 from public.progression g join public.modules m on m.id = g.module_id
+                where g.user_id = p_user and m.niveau = p_niveau and (g.meilleur >= 0.8 or g.cert_no is not null));
 $$;
 
 -- Un module est ouvert si c'est le premier, ou si le module précédent (dans l'ordre global) est validé (16/20 ou attestation)
@@ -140,8 +171,27 @@ drop policy if exists "tests : lecture" on public.tests_passage;
 create policy "tests : lecture" on public.tests_passage for select to authenticated
   using (user_id = auth.uid() or public.est_enseignant());
 
+alter table public.reglages    enable row level security;
+alter table public.suivi_notes enable row level security;
+drop policy if exists "reglages : lecture" on public.reglages;
+create policy "reglages : lecture" on public.reglages for select to authenticated using (true);
+drop policy if exists "reglages : enseignant" on public.reglages;
+create policy "reglages : enseignant" on public.reglages for update to authenticated
+  using (public.est_enseignant()) with check (public.est_enseignant());
+drop policy if exists "suivi : lecture" on public.suivi_notes;
+create policy "suivi : lecture" on public.suivi_notes for select to authenticated
+  using (public.est_enseignant() or (etudiant_id = auth.uid() and visible));
+drop policy if exists "suivi : ajout" on public.suivi_notes;
+create policy "suivi : ajout" on public.suivi_notes for insert to authenticated
+  with check (public.est_enseignant() and enseignant_id = auth.uid());
+drop policy if exists "suivi : suppression" on public.suivi_notes;
+create policy "suivi : suppression" on public.suivi_notes for delete to authenticated
+  using (public.est_enseignant() and enseignant_id = auth.uid());
+
 -- Droits par colonne : tout le reste passe par les fonctions ci-dessous.
-revoke all on public.profils, public.progression, public.cles_examen, public.modules, public.tests_passage from anon, authenticated;
+revoke all on public.profils, public.progression, public.cles_examen, public.modules, public.tests_passage, public.reglages, public.suivi_notes from anon, authenticated;
+grant select, update (valeur) on public.reglages to authenticated;
+grant select, insert (etudiant_id, enseignant_id, texte, visible), delete on public.suivi_notes to authenticated;
 grant select on public.profils, public.progression, public.tests_passage to authenticated;
 grant select on public.modules to anon, authenticated;
 grant update (nom, eglise) on public.profils to authenticated;
@@ -166,8 +216,13 @@ begin
   if auth.uid() is null then raise exception 'Connexion requise'; end if;
   if not public.module_existe(p_module) then raise exception 'Module inconnu'; end if;
   if not public.module_ouvert(auth.uid(), p_module) then raise exception 'Module verrouillé : terminez d''abord le module précédent'; end if;
-  insert into public.progression (user_id, module_id, pratique) values (auth.uid(), p_module, left(trim(coalesce(p_texte, '')), 4000))
-  on conflict (user_id, module_id) do update set pratique = excluded.pratique, maj = now();
+  insert into public.progression (user_id, module_id, pratique, pratique_statut, pratique_date)
+  values (auth.uid(), p_module, left(trim(coalesce(p_texte, '')), 4000), 'en_attente', now())
+  on conflict (user_id, module_id) do update
+    set pratique = excluded.pratique,
+        pratique_statut = case when progression.pratique = excluded.pratique then progression.pratique_statut else 'en_attente' end,
+        pratique_date = case when progression.pratique = excluded.pratique then progression.pratique_date else now() end,
+        maj = now();
 end $$;
 
 -- Corrige l'examen d'un module (20 questions). p_reponses = {"0": "texte choisi", …}
@@ -217,6 +272,11 @@ begin
   if length(trim(coalesce(v_nom, ''))) < 3 then raise exception 'Renseignez votre nom complet'; end if;
   if r.meilleur < 0.8 then raise exception 'Examen non réussi : il faut au moins 16/20'; end if;
   if length(trim(r.pratique)) < 80 then raise exception 'Témoignage de foi agissante manquant'; end if;
+  if r.pratique_statut = 'a_revoir' then raise exception 'Votre enseignant vous demande de revoir votre témoignage avant l''attestation'; end if;
+  if coalesce((select valeur = 'true'::jsonb from public.reglages where cle = 'validation_temoignage_obligatoire'), false)
+     and coalesce(r.pratique_statut, '') <> 'valide' then
+    raise exception 'Votre témoignage attend la validation de votre enseignant';
+  end if;
   v_no := 'HDF-' || upper(p_module) || '-' || upper(substr(md5(auth.uid()::text || p_module || clock_timestamp()::text), 1, 6));
   update public.progression set cert_no = v_no, cert_date = now(), origine = 'cours', maj = now()
    where user_id = auth.uid() and module_id = p_module;
@@ -278,6 +338,53 @@ begin
   return jsonb_build_object('bonnes', v_ok, 'total', v_total, 'note20', v_note, 'reussi', v_reussi);
 end $$;
 
+-- Avancement dans les étapes d'une leçon (suivi par l'enseignant). On garde l'étape la plus avancée.
+create or replace function public.marquer_etape(p_module text, p_lecon int, p_etape int, p_total int) returns void
+language plpgsql security definer set search_path = public as $$
+declare v_avant int;
+begin
+  if auth.uid() is null then raise exception 'Connexion requise'; end if;
+  if not public.module_existe(p_module) or p_lecon not between 0 and 9 or p_total not between 1 and 60 or p_etape not between 1 and p_total then raise exception 'Étape inconnue'; end if;
+  if not public.module_ouvert(auth.uid(), p_module) then raise exception 'Module verrouillé : terminez d''abord le module précédent'; end if;
+  insert into public.progression (user_id, module_id) values (auth.uid(), p_module) on conflict (user_id, module_id) do nothing;
+  select coalesce((etapes->(p_lecon::text)->>0)::int, 0) into v_avant from public.progression where user_id = auth.uid() and module_id = p_module;
+  update public.progression
+     set etapes = jsonb_set(etapes, array[p_lecon::text], jsonb_build_array(greatest(v_avant, p_etape), p_total)), maj = now()
+   where user_id = auth.uid() and module_id = p_module;
+end $$;
+
+-- L'enseignant lit le témoignage : 'valide' ou 'a_revoir' (avec une remarque pour l'étudiant)
+create or replace function public.evaluer_temoignage(p_etudiant uuid, p_module text, p_statut text, p_avis text) returns void
+language plpgsql security definer set search_path = public as $$
+begin
+  if not public.est_enseignant() then raise exception 'Réservé aux enseignants'; end if;
+  if p_statut not in ('valide', 'a_revoir', 'en_attente') then raise exception 'Statut inconnu'; end if;
+  update public.progression set pratique_statut = p_statut, pratique_avis = nullif(left(trim(coalesce(p_avis, '')), 1000), ''), maj = now()
+   where user_id = p_etudiant and module_id = p_module;
+  if not found then raise exception 'Module non commencé par cet étudiant'; end if;
+end $$;
+
+-- Confier un étudiant à un enseignant (ou le libérer avec null)
+create or replace function public.attribuer_etudiant(p_etudiant uuid, p_enseignant uuid) returns void
+language plpgsql security definer set search_path = public as $$
+begin
+  if not public.est_enseignant() then raise exception 'Réservé aux enseignants'; end if;
+  if p_enseignant is not null and not exists (select 1 from public.profils where id = p_enseignant and role = 'enseignant') then
+    raise exception 'Cette personne n''est pas enseignant';
+  end if;
+  update public.profils set enseignant_id = p_enseignant where id = p_etudiant;
+end $$;
+
+-- Ce que l'étudiant voit de son suivi : le nom de son enseignant et ses messages
+create or replace function public.mon_suivi() returns jsonb
+language sql stable security definer set search_path = public as $$
+  select jsonb_build_object(
+    'enseignant', (select e.nom from public.profils p join public.profils e on e.id = p.enseignant_id where p.id = auth.uid()),
+    'messages', coalesce((select jsonb_agg(jsonb_build_object('texte', n.texte, 'date', n.cree, 'auteur', e.nom) order by n.cree desc)
+                            from public.suivi_notes n left join public.profils e on e.id = n.enseignant_id
+                           where n.etudiant_id = auth.uid() and n.visible), '[]'::jsonb));
+$$;
+
 -- Vérification publique d'une attestation par son numéro
 create or replace function public.verifier_attestation(p_no text) returns jsonb
 language sql stable security definer set search_path = public as $$
@@ -290,10 +397,12 @@ revoke execute on function public.marquer_lecon(text,int), public.enregistrer_pr
   public.soumettre_examen(text,jsonb), public.delivrer_attestation(text), public.verifier_attestation(text),
   public.demarrer_test(int), public.soumettre_test(uuid,jsonb),
   public.est_enseignant(), public.module_existe(text), public.module_ouvert(uuid,text), public.niveau_ouvert(uuid,int),
+  public.marquer_etape(text,int,int,int), public.evaluer_temoignage(uuid,text,text,text), public.attribuer_etudiant(uuid,uuid), public.mon_suivi(),
   public.creer_profil() from public, anon;
 grant execute on function public.marquer_lecon(text,int), public.enregistrer_pratique(text,text),
   public.soumettre_examen(text,jsonb), public.delivrer_attestation(text), public.demarrer_test(int),
-  public.soumettre_test(uuid,jsonb), public.est_enseignant(), public.module_existe(text) to authenticated;
+  public.soumettre_test(uuid,jsonb), public.est_enseignant(), public.module_existe(text),
+  public.marquer_etape(text,int,int,int), public.evaluer_temoignage(uuid,text,text,text), public.attribuer_etudiant(uuid,uuid), public.mon_suivi() to authenticated;
 grant execute on function public.verifier_attestation(text) to anon, authenticated;
 
 -- ---------- Nommer un enseignant (après sa première inscription) ----------

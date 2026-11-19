@@ -250,7 +250,81 @@
     "ref": "2 Timothée 2.15",
     "texte": "Efforce-toi de te présenter devant Dieu comme un homme éprouvé, un ouvrier qui n’a point à rougir, qui dispense droitement la parole de la vérité."
    },
-   "priere": "Seigneur, ta Parole est vérité. Pardonne-moi pour les fois où je lui ai fait dire ce que je voulais entendre. Donne-moi le zèle des Béréens, la patience d’Esdras et la sagesse de Jésus au désert. Fais de moi un ouvrier qui n’a point à rougir, qui trace droit le chemin de ta vérité pour moi et pour les autres. Amen."
+   "priere": "Seigneur, ta Parole est vérité. Pardonne-moi pour les fois où je lui ai fait dire ce que je voulais entendre. Donne-moi le zèle des Béréens, la patience d’Esdras et la sagesse de Jésus au désert. Fais de moi un ouvrier qui n’a point à rougir, qui trace droit le chemin de ta vérité pour moi et pour les autres. Amen.",
+   "illustration": "bible",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Dans le désert, le diable a lui aussi cité l’Écriture pour tenter Jésus.",
+      "vrai": true,
+      "explication": "Il a cité le Psaume 91 en le détournant de son sens (Matthieu 4.6)."
+     },
+     {
+      "affirmation": "Il suffit d’un verset isolé pour établir n’importe quelle doctrine.",
+      "vrai": false,
+      "explication": "Un texte sans contexte devient un prétexte ; Jésus répond « il est aussi écrit » en comparant l’Écriture avec l’Écriture (Matthieu 4.7)."
+     },
+     {
+      "affirmation": "Les Béréens examinaient chaque jour les Écritures pour vérifier ce que Paul enseignait.",
+      "vrai": true,
+      "explication": "Actes 17.11 : ils reçurent la parole avec beaucoup d’empressement et examinaient chaque jour les Écritures."
+     },
+     {
+      "affirmation": "Philippiens 4.13 signifie que le chrétien réussira forcément tout ce qu’il entreprend.",
+      "vrai": false,
+      "explication": "Dans son contexte (Philippiens 4.11-12), Paul parle de savoir vivre dans l’abondance comme dans la disette : Christ le fortifie pour être content en toute situation."
+     },
+     {
+      "affirmation": "Au temps de Néhémie, on lisait la loi et on en donnait le sens pour faire comprendre ce qu’on avait lu.",
+      "vrai": true,
+      "explication": "Néhémie 8.8 : lire, expliquer, faire comprendre."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque façon d’utiliser la Bible.",
+     "categories": [
+      "Lecture fidèle au contexte",
+      "Verset sorti de son contexte"
+     ],
+     "elements": [
+      {
+       "texte": "Avant d’expliquer un verset, je lis tout le chapitre qui l’entoure.",
+       "categorie": 0,
+       "explication": "C’est le contexte littéraire : il faut dispenser droitement la parole (2 Timothée 2.15)."
+      },
+      {
+       "texte": "Un prédicateur utilise Jérémie 29.11 pour promettre à chacun une voiture neuve cette année.",
+       "categorie": 1,
+       "explication": "Jérémie 29.11 s’adresse d’abord aux exilés de Babylone qui devaient attendre soixante-dix ans (Jérémie 29.10) ; c’est une promesse de fidélité, non de richesse rapide."
+      },
+      {
+       "texte": "Je compare un passage difficile avec d’autres passages plus clairs sur le même sujet.",
+       "categorie": 0,
+       "explication": "L’Écriture interprète l’Écriture, comme Jésus le fait : « il est aussi écrit » (Matthieu 4.7)."
+      },
+      {
+       "texte": "J’ouvre la Bible au hasard et je prends le premier verset comme réponse à ma décision.",
+       "categorie": 1,
+       "explication": "Dieu guide par sa Parole comprise, la prière et la sagesse (Jacques 1.5), non par un tirage au sort de versets."
+      },
+      {
+       "texte": "Je me demande qui écrit, à qui, et dans quelle situation historique.",
+       "categorie": 0,
+       "explication": "C’est le contexte historique et culturel, indispensable pour comprendre le sens premier (Néhémie 8.8)."
+      },
+      {
+       "texte": "J’utilise « Ne juge pas » pour refuser toute correction fraternelle.",
+       "categorie": 1,
+       "explication": "Dans Matthieu 7.1-5, Jésus condamne le jugement hypocrite, mais il demande ensuite d’ôter la paille de l’œil du frère après avoir ôté la poutre ; ailleurs il enseigne la correction fraternelle (Matthieu 18.15)."
+      },
+      {
+       "texte": "Je vérifie dans ma Bible ce qu’on m’enseigne, avec respect et sans esprit de critique.",
+       "categorie": 0,
+       "explication": "C’est l’exemple des Béréens (Actes 17.11)."
+      }
+     ]
+    }
+   }
   },
   {
    "titre": "Les genres littéraires",
@@ -449,7 +523,82 @@
     "ref": "Psaume 23.1",
     "texte": "L’Éternel est mon berger : je ne manquerai de rien."
    },
-   "priere": "Éternel, mon berger, merci pour la richesse de ta Parole. Apprends-moi à lire chaque texte comme tu l’as voulu : à prier avec les psaumes, à marcher avec les proverbes, à espérer avec les prophètes. Et quand ta Parole me dit « tu es cet homme-là », donne-moi l’humilité de David pour répondre : « J’ai péché contre l’Éternel. » Amen."
+   "priere": "Éternel, mon berger, merci pour la richesse de ta Parole. Apprends-moi à lire chaque texte comme tu l’as voulu : à prier avec les psaumes, à marcher avec les proverbes, à espérer avec les prophètes. Et quand ta Parole me dit « tu es cet homme-là », donne-moi l’humilité de David pour répondre : « J’ai péché contre l’Éternel. » Amen.",
+   "illustration": "lampe",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "La Bible est une bibliothèque de genres variés : récits, poésie, lois, prophéties, lettres…",
+      "vrai": true,
+      "explication": "Dieu a parlé « à plusieurs reprises et de plusieurs manières » (Hébreux 1.1)."
+     },
+     {
+      "affirmation": "Un proverbe est une promesse absolue qui se réalise toujours sans exception.",
+      "vrai": false,
+      "explication": "Les proverbes énoncent des principes généraux de sagesse ; Proverbes 26.4-5 donne deux conseils opposés pour montrer qu’il faut discerner quand chacun s’applique."
+     },
+     {
+      "affirmation": "Nathan a utilisé une histoire pour amener David à reconnaître son propre péché.",
+      "vrai": true,
+      "explication": "Après la parabole de la brebis du pauvre, Nathan dit : « Tu es cet homme-là ! » (2 Samuel 12.7)."
+     },
+     {
+      "affirmation": "Tout ce qu’un personnage biblique a fait est présenté comme un modèle à imiter.",
+      "vrai": false,
+      "explication": "Le récit raconte aussi les fautes : l’adultère de David est rapporté puis condamné (2 Samuel 11.27 ; 12.9)."
+     },
+     {
+      "affirmation": "Les symboles de l’Apocalypse désignent des réalités ; par exemple, les chandeliers représentent les Églises.",
+      "vrai": true,
+      "explication": "Apocalypse 1.20 l’explique : les sept chandeliers sont les sept Églises."
+     }
+    ],
+    "tri": {
+     "consigne": "À quel genre littéraire appartient chaque passage ?",
+     "categories": [
+      "Poésie ou sagesse",
+      "Récit historique",
+      "Prophétie ou apocalypse"
+     ],
+     "elements": [
+      {
+       "texte": "« L’Éternel est mon berger : je ne manquerai de rien. »",
+       "categorie": 0,
+       "explication": "Psaume 23.1 : une image poétique de la protection de Dieu, à lire comme poésie."
+      },
+      {
+       "texte": "David reste à Jérusalem au printemps et voit Bath-Schéba depuis son toit.",
+       "categorie": 1,
+       "explication": "2 Samuel 11.1-2 : un récit qui rapporte des faits, sans les approuver."
+      },
+      {
+       "texte": "Une bête monte de la mer, avec dix cornes et sept têtes.",
+       "categorie": 2,
+       "explication": "Apocalypse 13.1 : langage symbolique propre à l’apocalypse, qui désigne des puissances réelles."
+      },
+      {
+       "texte": "« Instruis l’enfant selon la voie qu’il doit suivre. »",
+       "categorie": 0,
+       "explication": "Proverbes 22.6 : un principe de sagesse, non une garantie mécanique."
+      },
+      {
+       "texte": "Paul et Silas sont jetés en prison à Philippes puis libérés par un tremblement de terre.",
+       "categorie": 1,
+       "explication": "Actes 16.23-26 : récit historique de la mission de Paul."
+      },
+      {
+       "texte": "« Voici, la jeune fille deviendra enceinte, elle enfantera un fils. »",
+       "categorie": 2,
+       "explication": "Ésaïe 7.14 : prophétie avec un accomplissement en Christ (Matthieu 1.22-23)."
+      },
+      {
+       "texte": "« Vanité des vanités, tout est vanité. »",
+       "categorie": 0,
+       "explication": "Ecclésiaste 1.2 : réflexion de sagesse sur le sens de la vie sous le soleil."
+      }
+     ]
+    }
+   }
   },
   {
    "titre": "De l’interprétation à l’application",
@@ -661,7 +810,81 @@
     "ref": "Jacques 1.22",
     "texte": "Mettez en pratique la parole, et ne vous bornez pas à l’écouter, en vous trompant vous-mêmes par de faux raisonnements."
    },
-   "priere": "Seigneur Jésus, comme aux disciples d’Emmaüs, ouvre-moi les Écritures et ouvre mon esprit pour que je les comprenne. Fais brûler mon cœur quand je lis ta Parole. Garde-moi d’une connaissance qui enfle, et fais de moi un faiseur de ta Parole, prompt à me lever et à témoigner. Amen."
+   "priere": "Seigneur Jésus, comme aux disciples d’Emmaüs, ouvre-moi les Écritures et ouvre mon esprit pour que je les comprenne. Fais brûler mon cœur quand je lis ta Parole. Garde-moi d’une connaissance qui enfle, et fais de moi un faiseur de ta Parole, prompt à me lever et à témoigner. Amen.",
+   "illustration": "chemin",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Sur le chemin d’Emmaüs, Jésus a expliqué aux disciples ce qui le concernait dans toutes les Écritures.",
+      "vrai": true,
+      "explication": "Luc 24.27 : commençant par Moïse et tous les prophètes."
+     },
+     {
+      "affirmation": "Pour bien appliquer un texte, il faut d’abord sauter directement à « Qu’est-ce que cela me dit aujourd’hui ? ».",
+      "vrai": false,
+      "explication": "L’ordre est : sens premier (hier), principe intemporel (toujours), puis application (aujourd’hui). Sauter les étapes mène à des contresens (2 Timothée 2.15)."
+     },
+     {
+      "affirmation": "Jésus reproche à certains de sonder les Écritures sans venir à lui pour avoir la vie.",
+      "vrai": true,
+      "explication": "Jean 5.39-40 : les Écritures rendent témoignage de lui."
+     },
+     {
+      "affirmation": "Écouter la Parole sans la mettre en pratique, c’est se tromper soi-même.",
+      "vrai": true,
+      "explication": "Mettez en pratique la parole, et ne vous bornez pas à l’écouter, en vous trompant vous-mêmes (Jacques 1.22)."
+     },
+     {
+      "affirmation": "Paul enseigne que l’Ancien Testament n’a plus rien à nous apprendre.",
+      "vrai": false,
+      "explication": "Ces choses ont été écrites pour notre instruction (1 Corinthiens 10.11) ; toute Écriture est utile (2 Timothée 3.16)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque application : est-elle fidèle au texte, ou abusive ?",
+     "categories": [
+      "Application fidèle",
+      "Application abusive"
+     ],
+     "elements": [
+      {
+       "texte": "Après avoir lu Éphésiens 4.26, je règle un conflit avec mon voisin avant la fin de la journée.",
+       "categorie": 0,
+       "explication": "Que le soleil ne se couche pas sur votre colère (Éphésiens 4.26) : application précise et personnelle."
+      },
+      {
+       "texte": "Josué a fait le tour de Jéricho sept fois, donc je fais sept fois le tour de la banque pour obtenir mon prêt.",
+       "categorie": 1,
+       "explication": "Le récit de Josué 6 montre la fidélité de Dieu à une promesse précise ; il ne fournit pas une technique à reproduire pour obtenir ce qu’on veut."
+      },
+      {
+       "texte": "Lisant le récit de Joseph, je décide de fuir les situations de tentation au bureau.",
+       "categorie": 0,
+       "explication": "Joseph s’enfuit et sortit (Genèse 39.12) ; fuyez l’impudicité (1 Corinthiens 6.18)."
+      },
+      {
+       "texte": "Gédéon a demandé un signe, donc je n’obéis à Dieu que s’il me donne un signe miraculeux.",
+       "categorie": 1,
+       "explication": "Le récit rapporte la faiblesse de Gédéon (Juges 6.36-40) et Dieu le supporte avec patience ; ce n’est pas un modèle. Dieu a déjà parlé clairement dans sa Parole (Hébreux 1.1-2)."
+      },
+      {
+       "texte": "Après Jacques 2.15-16, je partage un repas avec un collègue qui manque de nourriture.",
+       "categorie": 0,
+       "explication": "Une foi qui agit répond aux besoins concrets (Jacques 2.15-17)."
+      },
+      {
+       "texte": "« Ma Bible me suffit, je n’ai besoin ni d’enseignants ni d’Église pour l’interpréter. »",
+       "categorie": 1,
+       "explication": "Dieu a donné des docteurs pour équiper les saints (Éphésiens 4.11-12) ; l’eunuque avait besoin de Philippe pour comprendre (Actes 8.31)."
+      },
+      {
+       "texte": "Je partage avec mon groupe de maison ce que j’ai compris, pour qu’on m’aide à vérifier.",
+       "categorie": 0,
+       "explication": "Une bonne application se vit en communauté : instruisez-vous et exhortez-vous les uns les autres (Colossiens 3.16)."
+      }
+     ]
+    }
+   }
   }
  ],
  "pratique": {

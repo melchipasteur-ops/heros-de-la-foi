@@ -260,7 +260,82 @@
     "ref": "Romains 6.23",
     "texte": "Car le salaire du péché, c'est la mort ; mais le don gratuit de Dieu, c'est la vie éternelle en Jésus-Christ notre Seigneur."
    },
-   "priere": "Seigneur, je reconnais devant toi que j'ai péché, en pensées, en paroles et en actes. Je ne veux plus me cacher ni accuser les autres. Merci parce que tu es venu me chercher comme tu as cherché Adam, et que tu as pardonné à David. Crée en moi un cœur pur et renouvelle en moi un esprit bien disposé. Au nom de Jésus, amen."
+   "priere": "Seigneur, je reconnais devant toi que j'ai péché, en pensées, en paroles et en actes. Je ne veux plus me cacher ni accuser les autres. Merci parce que tu es venu me chercher comme tu as cherché Adam, et que tu as pardonné à David. Crée en moi un cœur pur et renouvelle en moi un esprit bien disposé. Au nom de Jésus, amen.",
+   "illustration": "chaines",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Le péché, c’est seulement faire de grosses fautes comme tuer ou voler.",
+      "vrai": false,
+      "explication": "Le péché, c’est d’abord manquer le but et se détourner de Dieu ; même nos pensées et nos paroles sont concernées (Romains 3.23 ; Matthieu 5.28)."
+     },
+     {
+      "affirmation": "Tous les êtres humains ont péché, quelle que soit leur religion ou leur famille.",
+      "vrai": true,
+      "explication": "« Car tous ont péché et sont privés de la gloire de Dieu » (Romains 3.23)."
+     },
+     {
+      "affirmation": "Le salaire du péché est la mort.",
+      "vrai": true,
+      "explication": "Paul l’écrit clairement, mais il ajoute que le don gratuit de Dieu est la vie éternelle en Jésus-Christ (Romains 6.23)."
+     },
+     {
+      "affirmation": "Avec assez de sacrifices, de rites ou de bonnes œuvres, on peut effacer soi-même son péché.",
+      "vrai": false,
+      "explication": "Personne ne se sauve lui-même : c’est par la grâce, par le moyen de la foi, et non par les œuvres (Éphésiens 2.8-9)."
+     },
+     {
+      "affirmation": "Après la chute, c’est Dieu qui est venu chercher Adam en demandant : « Où es-tu ? »",
+      "vrai": true,
+      "explication": "Dès Genèse 3.9, Dieu prend l’initiative de chercher le pécheur ; c’est déjà une bonne nouvelle."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque situation : est-ce un péché selon la Bible, une simple tentation, ou une question de coutume et de conscience ?",
+     "categories": [
+      "Péché selon la Bible",
+      "Tentation (pas encore un péché)",
+      "Question de coutume ou de conscience"
+     ],
+     "elements": [
+      {
+       "texte": "Je mens à mon patron pour cacher un retard.",
+       "categorie": 0,
+       "explication": "Dieu demande de renoncer au mensonge et de dire la vérité (Éphésiens 4.25)."
+      },
+      {
+       "texte": "Une pensée de vengeance me traverse l’esprit, et je la remets aussitôt à Dieu.",
+       "categorie": 1,
+       "explication": "Jésus a été tenté sans pécher ; c’est quand la convoitise est accueillie qu’elle enfante le péché (Hébreux 4.15 ; Jacques 1.14-15)."
+      },
+      {
+       "texte": "Je porte des vêtements traditionnels de ma région pour un mariage.",
+       "categorie": 2,
+       "explication": "La coutume n’est pas un péché en soi, tant qu’elle ne contredit pas la Parole ; chacun agit selon une conviction éclairée (Romains 14.5-6)."
+      },
+      {
+       "texte": "Je consulte un devin pour savoir si mon projet va réussir.",
+       "categorie": 0,
+       "explication": "Dieu interdit la divination et la consultation des esprits (Deutéronome 18.10-12)."
+      },
+      {
+       "texte": "Je garde de la rancune et je refuse de pardonner à ma sœur depuis des mois.",
+       "categorie": 0,
+       "explication": "Le refus durable de pardonner est un péché que Jésus prend au sérieux (Matthieu 6.14-15 ; Éphésiens 4.31-32)."
+      },
+      {
+       "texte": "Je vois une publicité qui me donne envie de dépenser, et je décide d’attendre.",
+       "categorie": 1,
+       "explication": "Être attiré n’est pas pécher ; Dieu donne le moyen de sortir de la tentation (1 Corinthiens 10.13)."
+      },
+      {
+       "texte": "Je choisis de manger ou non certains aliments selon les habitudes de ma famille.",
+       "categorie": 2,
+       "explication": "La Bible dit que le royaume de Dieu n’est pas le manger et le boire, mais la justice, la paix et la joie (Romains 14.17)."
+      }
+     ]
+    }
+   }
   },
   {
    "titre": "La grâce de Dieu en Jésus-Christ",
@@ -476,7 +551,81 @@
     "ref": "Éphésiens 2.8-9",
     "texte": "Car c'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres, afin que personne ne se glorifie."
    },
-   "priere": "Père, merci d'avoir tant aimé le monde, et de m'avoir aimé moi, alors que j'étais encore pécheur. Seigneur Jésus, merci d'avoir porté mes péchés sur la croix et d'être ressuscité. Je ne veux plus compter sur mes mérites, mais sur toi seul. Apprends-moi à vivre chaque jour par ta grâce et à l'offrir aux autres. Amen."
+   "priere": "Père, merci d'avoir tant aimé le monde, et de m'avoir aimé moi, alors que j'étais encore pécheur. Seigneur Jésus, merci d'avoir porté mes péchés sur la croix et d'être ressuscité. Je ne veux plus compter sur mes mérites, mais sur toi seul. Apprends-moi à vivre chaque jour par ta grâce et à l'offrir aux autres. Amen.",
+   "illustration": "croix",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "C’est Dieu qui a pris l’initiative de nous sauver, par amour, en donnant son Fils.",
+      "vrai": true,
+      "explication": "« Car Dieu a tant aimé le monde qu’il a donné son Fils unique » (Jean 3.16)."
+     },
+     {
+      "affirmation": "Il faut d’abord devenir une bonne personne pour que Dieu accepte de nous sauver.",
+      "vrai": false,
+      "explication": "Christ est mort pour nous lorsque nous étions encore des pécheurs (Romains 5.8)."
+     },
+     {
+      "affirmation": "À la croix, Jésus a pris notre place et porté notre péché.",
+      "vrai": true,
+      "explication": "« Celui qui n’a point connu le péché, il l’a fait devenir péché pour nous, afin que nous devenions en lui justice de Dieu » (2 Corinthiens 5.21)."
+     },
+     {
+      "affirmation": "Les bonnes œuvres sont la condition pour être sauvé.",
+      "vrai": false,
+      "explication": "Nous sommes sauvés par grâce, par la foi ; les bonnes œuvres viennent ensuite comme fruit du salut (Éphésiens 2.8-10)."
+     },
+     {
+      "affirmation": "Une amulette ou un rite de protection ajoute quelque chose à l’œuvre de Jésus.",
+      "vrai": false,
+      "explication": "L’œuvre de Christ est parfaite : « Tout est accompli » (Jean 19.30) ; il a dépouillé les dominations et les autorités (Colossiens 2.15)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque attitude : vient-elle de la grâce de Dieu, ou de l’idée qu’il faut mériter Dieu ?",
+     "categories": [
+      "Attitude qui reçoit la grâce",
+      "Attitude qui cherche à mériter"
+     ],
+     "elements": [
+      {
+       "texte": "Je remercie Dieu chaque jour pour un pardon que je ne mérite pas.",
+       "categorie": 0,
+       "explication": "La reconnaissance est la réponse naturelle à la grâce (Colossiens 3.15-17)."
+      },
+      {
+       "texte": "Je pense que Dieu m’aimera plus si je donne beaucoup d’argent à l’église.",
+       "categorie": 1,
+       "explication": "L’amour de Dieu ne s’achète pas ; le salut est un don gratuit (Romains 6.23 ; Actes 8.20)."
+      },
+      {
+       "texte": "Après une faute, je me confesse à Dieu et je crois qu’il me pardonne.",
+       "categorie": 0,
+       "explication": "Dieu est fidèle et juste pour nous pardonner (1 Jean 1.9)."
+      },
+      {
+       "texte": "Je me punis pendant des jours avant d’oser revenir prier.",
+       "categorie": 1,
+       "explication": "Jésus a déjà porté le châtiment ; on revient à Dieu avec assurance (Ésaïe 53.5 ; Hébreux 4.16)."
+      },
+      {
+       "texte": "J’aide mon voisin parce que Dieu m’a aimé le premier.",
+       "categorie": 0,
+       "explication": "Nous aimons parce qu’il nous a aimés le premier (1 Jean 4.19)."
+      },
+      {
+       "texte": "Je méprise un collègue en pensant que moi, je suis meilleur que lui.",
+       "categorie": 1,
+       "explication": "Le pharisien qui se croyait juste n’est pas reparti justifié (Luc 18.9-14)."
+      },
+      {
+       "texte": "J’annonce l’Évangile à un ami qui se croit trop mauvais pour Dieu.",
+       "categorie": 0,
+       "explication": "Christ est venu sauver les pécheurs, dont Paul se disait le premier (1 Timothée 1.15)."
+      }
+     ]
+    }
+   }
   },
   {
    "titre": "L'assurance du salut",
@@ -687,7 +836,81 @@
     "ref": "1 Jean 5.12",
     "texte": "Celui qui a le Fils a la vie ; celui qui n'a pas le Fils de Dieu n'a pas la vie."
    },
-   "priere": "Père, merci parce que ta Parole me dit que celui qui a le Fils a la vie. Je ne veux pas m'appuyer sur mes émotions, mais sur ta promesse. Merci de m'avoir fait naître de nouveau et de me tenir dans ta main. Quand je tombe, aide-moi à courir vers toi. Fais grandir en moi la vie que tu as commencée. Au nom de Jésus, amen."
+   "priere": "Père, merci parce que ta Parole me dit que celui qui a le Fils a la vie. Je ne veux pas m'appuyer sur mes émotions, mais sur ta promesse. Merci de m'avoir fait naître de nouveau et de me tenir dans ta main. Quand je tombe, aide-moi à courir vers toi. Fais grandir en moi la vie que tu as commencée. Au nom de Jésus, amen.",
+   "illustration": "porte",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "La nouvelle naissance est une œuvre du Saint-Esprit, pas un effort religieux.",
+      "vrai": true,
+      "explication": "« Si un homme ne naît d’eau et d’Esprit, il ne peut entrer dans le royaume de Dieu » (Jean 3.5)."
+     },
+     {
+      "affirmation": "Si je ne ressens rien pendant un jour, c’est que j’ai perdu mon salut.",
+      "vrai": false,
+      "explication": "L’assurance repose sur la promesse de Dieu : « Celui qui a le Fils a la vie » (1 Jean 5.12), pas sur les émotions."
+     },
+     {
+      "affirmation": "Celui qui reçoit Jésus devient enfant de Dieu.",
+      "vrai": true,
+      "explication": "« À tous ceux qui l’ont reçue […] elle a donné le pouvoir de devenir enfants de Dieu » (Jean 1.12)."
+     },
+     {
+      "affirmation": "Une chute brise la communion avec Dieu mais ne supprime pas ma place d’enfant.",
+      "vrai": true,
+      "explication": "Le croyant qui pèche a un avocat auprès du Père, Jésus-Christ le juste (1 Jean 2.1)."
+     },
+     {
+      "affirmation": "Être né de nouveau donne le droit de continuer à pécher sans souci.",
+      "vrai": false,
+      "explication": "« Demeurerions-nous dans le péché, afin que la grâce abonde ? Loin de là ! » (Romains 6.1-2)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque pensée : repose-t-elle sur la promesse de Dieu, ou sur un faux fondement ?",
+     "categories": [
+      "Assurance biblique",
+      "Faux fondement"
+     ],
+     "elements": [
+      {
+       "texte": "« Je suis sauvé parce que Jésus l’a promis à ceux qui croient. »",
+       "categorie": 0,
+       "explication": "« Celui qui croit au Fils a la vie éternelle » (Jean 3.36)."
+      },
+      {
+       "texte": "« Je suis sauvé parce que mes parents étaient chrétiens. »",
+       "categorie": 1,
+       "explication": "On ne naît pas enfant de Dieu par le sang ou la volonté de la chair, mais de Dieu (Jean 1.13)."
+      },
+      {
+       "texte": "« Personne ne peut me ravir de la main du Père. »",
+       "categorie": 0,
+       "explication": "Jésus le promet à ses brebis (Jean 10.28-29)."
+      },
+      {
+       "texte": "« J’ai eu une forte émotion pendant le culte, donc je suis sûr d’être sauvé. »",
+       "categorie": 1,
+       "explication": "Les émotions sont bonnes mais ne sont pas le fondement ; la Parole l’est (1 Jean 5.13)."
+      },
+      {
+       "texte": "« Je vois que Dieu change peu à peu ma façon de parler et de pardonner. »",
+       "categorie": 0,
+       "explication": "Une vie transformée confirme la nouvelle naissance (2 Corinthiens 5.17)."
+      },
+      {
+       "texte": "« Je ne suis sauvé que si je ne commets plus jamais aucune faute. »",
+       "categorie": 1,
+       "explication": "Si nous disons que nous n’avons pas de péché, nous nous séduisons nous-mêmes (1 Jean 1.8-9)."
+      },
+      {
+       "texte": "« L’Esprit rend témoignage à mon esprit que je suis enfant de Dieu. »",
+       "categorie": 0,
+       "explication": "C’est ce qu’écrit Paul en Romains 8.16."
+      }
+     ]
+    }
+   }
   }
  ],
  "pratique": {

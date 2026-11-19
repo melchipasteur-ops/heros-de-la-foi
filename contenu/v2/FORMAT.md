@@ -100,3 +100,34 @@ Chaque leçon complète : **2 500 à 4 000 mots** (récit + exégèse + enseigne
 - Répartir la bonne réponse sur les positions 0, 1, 2 et 3 (pas toujours la même).
 - Ces questions servent aussi au **test de passage** du niveau (80 questions tirées des 120 du niveau) :
   chaque question doit se comprendre seule, sans « dans cette leçon » ou « ci-dessus ».
+
+## Ajouts (version 3) : illustrations et jeux
+
+Deux champs **facultatifs** peuvent être ajoutés à chaque leçon. La plateforme découpe déjà
+automatiquement chaque leçon en petites étapes (lectures, récit, exégèse, enseignement…) et crée
+d'elle-même deux jeux pour toutes les leçons (« Complète le verset » à partir de `memoriser`,
+« Associe les mots » à partir de `motsCles`). Les champs ci-dessous ajoutent des jeux rédigés à la main.
+
+```json
+"illustration": "chaines",            // une image de la bibliothèque (liste ci-dessous)
+"jeux": {
+  "vraiFaux": [                       // 4 à 8 affirmations
+    { "affirmation": "Un chrétien doit vivre dans la peur des malédictions de sa famille.",
+      "vrai": false,
+      "explication": "1-2 phrases avec la référence biblique (Colossiens 2.15)." }
+  ],
+  "tri": {                            // classer des situations dans 2 ou 3 catégories
+    "consigne": "Classe chaque situation.",
+    "categories": ["Péché selon la Bible", "Tentation (pas encore un péché)", "Question de conscience ou de coutume"],
+    "elements": [                     // 6 à 10 situations courtes (une phrase)
+      { "texte": "Une pensée de convoitise traverse mon esprit et je la rejette aussitôt.",
+        "categorie": 1,               // index dans "categories" (0 = première)
+        "explication": "1-2 phrases avec la référence biblique (Hébreux 4.15 ; Jacques 1.14-15)." }
+    ]
+  }
+}
+```
+
+Images disponibles pour `illustration` : `bible`, `croix`, `priere`, `colombe`, `eglise`, `chemin`,
+`chaines`, `lumiere`, `bouclier`, `famille`, `arbre`, `coeur`, `balance`, `eau`, `couronne`,
+`mains`, `berger`, `lampe`, `porte`, `semence`.

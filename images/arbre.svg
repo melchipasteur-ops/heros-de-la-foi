@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Un arbre planté près d'un courant d'eau">
+<title>Un arbre planté près d'un courant d'eau</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dce7f7"/><stop offset="1" stop-color="#f6efe0"/></linearGradient></defs>
+<rect width="320" height="200" rx="18" fill="url(#g)"/>
+<circle cx="262" cy="46" r="20" fill="#e0b85a" opacity=".85"/><path d="M0 160 Q80 145 160 155 T320 150 V200 H0 Z" fill="#c9dcc0"/><path d="M0 172 Q90 160 180 170 T320 165 V200 H0Z" fill="#b3cfa8"/>
+<path d="M150 170 C152 140 150 120 156 96 L166 96 C170 120 168 140 172 170Z" fill="#6b4a2b"/>
+<circle cx="160" cy="76" r="44" fill="#3f7d4e"/><circle cx="126" cy="96" r="28" fill="#4f9461"/><circle cx="196" cy="96" r="28" fill="#4f9461"/>
+<circle cx="140" cy="70" r="5" fill="#b2392f"/><circle cx="176" cy="62" r="5" fill="#b2392f"/><circle cx="190" cy="96" r="5" fill="#b2392f"/><circle cx="130" cy="104" r="5" fill="#b2392f"/><circle cx="160" cy="96" r="5" fill="#b2392f"/>
+<path d="M0 182 Q80 172 160 184 T320 178" stroke="#2f5fb3" stroke-width="7" fill="none" opacity=".7"/>
+</svg>

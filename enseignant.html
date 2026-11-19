@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Espace enseignant · Héro de la Foi</title>
+<meta name="description" content="Espace réservé aux enseignants : suivi des étudiants étape par étape.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>:root{padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <button class="brand" id="brand" type="button" aria-label="Accueil">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3 L28 8 V16 C28 23 22.5 27.5 16 29 C9.5 27.5 4 23 4 16 V8 Z" fill="var(--navy)"/><path d="M16 9 V23 M11 14 H21" stroke="var(--brass)" stroke-width="2.6" stroke-linecap="round"/></svg>
+    Héro de la Foi
+  </button>
+  <span class="pill cert">Espace enseignant</span>
+  <nav class="tabs" aria-label="Navigation" id="nav" hidden>
+    <button type="button" data-view="tableau">Tableau de bord</button>
+    <button type="button" data-view="etudiants">Étudiants</button>
+    <button type="button" data-view="reglages">Réglages</button>
+    <button type="button" id="logout">Se déconnecter</button>
+  </nav>
+</div></header>
+
+<div class="wrap"><main id="app"><div class="empty">Chargement…</div></main></div>
+<footer class="wrap pied"><a href="index.html">Site des étudiants</a></footer>
+<div class="toast" id="toast" hidden></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="commun.js"></script>
+<script src="enseignant.js"></script>
+</body>
+</html>

@@ -1,886 +1,1128 @@
 {
-  "id": "n2m4",
-  "titre": "L’argent, le travail et la gestion",
-  "objectif": "Gérer mes ressources comme un intendant fidèle et honorer Dieu dans mon travail.",
-  "introduction": [
-    "Jésus a parlé de l’argent plus souvent qu’on ne l’imagine. Dans ses paraboles reviennent des pièces perdues, des talents confiés, des dettes remises, des greniers trop pleins, des ouvriers payés le soir. Il ne le fait pas parce que l’argent serait plus important que Dieu, mais parce que l’argent est l’un des endroits où notre cœur se révèle le plus clairement. « Là où est ton trésor, là aussi sera ton cœur » (Matthieu 6.21). Un disciple qui a donné sa vie à Christ doit donc apprendre à lui donner aussi son portefeuille, son salaire, ses projets et ses heures de travail.",
-    "Ce module s’adresse à tous : à l’étudiant qui vit avec très peu, au commerçant du marché, à la mère de famille qui fait des miracles avec un petit budget, au cadre d’entreprise, au chômeur qui cherche du travail, à l’entrepreneur qui rêve de créer des emplois. Les principes bibliques ne dépendent pas du montant que l’on possède. La veuve qui donne deux petites pièces est louée par Jésus, et le riche qui bâtit des greniers plus grands est appelé insensé. Ce qui compte, c’est la fidélité.",
-    "Nous avancerons en trois étapes. D’abord, une vérité fondatrice : Dieu est propriétaire de tout et je ne suis que son intendant. Ensuite, la gestion concrète : le budget, les dettes, l’épargne et la générosité. Enfin, le travail lui-même, que la Bible présente comme une vocation reçue de Dieu dès la création, et non comme une malédiction. À chaque étape, nous lirons des récits bibliques, nous étudierons les textes de près et nous les appliquerons au monde d’aujourd’hui : crédits faciles, argent mobile, tontines, corruption, chômage, pression sociale et familiale.",
-    "À la fin du module, vous ne serez pas devenu riche, et ce n’est pas le but. Le but est que vous soyez trouvé fidèle (1 Corinthiens 4.2), libre de l’esclavage des dettes et de l’amour de l’argent, généreux, travailleur, et que votre manière de gérer et de travailler devienne un témoignage pour ceux qui vous entourent."
-  ],
-  "lecturesObligatoires": [
-    {
-      "ref": "Psaume 24",
-      "consigne": "Notez tout ce qui, selon ce psaume, appartient à l’Éternel."
-    },
-    {
-      "ref": "Matthieu 6.19-34",
-      "consigne": "Relevez les deux trésors, les deux maîtres et le remède que Jésus donne contre l’inquiétude."
-    },
-    {
-      "ref": "Matthieu 25.14-30",
-      "consigne": "Comparez l’attitude des trois serviteurs et la réponse du maître à chacun."
-    },
-    {
-      "ref": "Luc 16.1-13",
-      "consigne": "Repérez la phrase qui résume ce que Jésus attend de nous dans la gestion des richesses."
-    },
-    {
-      "ref": "2 Rois 4.1-7",
-      "consigne": "Décrivez la situation de la veuve et les étapes de la délivrance."
-    },
-    {
-      "ref": "Proverbes 6.1-11",
-      "consigne": "Relevez les deux dangers décrits : la caution irréfléchie et la paresse."
-    },
-    {
-      "ref": "2 Corinthiens 8.1-15 et 9.6-15",
-      "consigne": "Notez comment donnaient les Macédoniens et dans quel esprit Paul demande de donner."
-    },
-    {
-      "ref": "1 Timothée 6.6-19",
-      "consigne": "Distinguez ce que Paul dit à ceux qui veulent s’enrichir et ce qu’il dit aux riches."
-    },
-    {
-      "ref": "Genèse 39 à 41",
-      "consigne": "Suivez Joseph au travail : chez Potiphar, en prison, puis au palais. Qu’est-ce qui ne change pas en lui ?"
-    },
-    {
-      "ref": "Colossiens 3.22 à 4.1 et 2 Thessaloniciens 3.6-13",
-      "consigne": "Relevez les devoirs du travailleur et ceux du maître ou de l’employeur."
-    }
-  ],
-  "lecons": [
-    {
-      "titre": "Dieu est propriétaire, je suis intendant",
-      "lectures": [
-        {
-          "ref": "Psaume 24.1-2",
-          "resume": "La terre et tout ce qu’elle contient appartiennent à l’Éternel, parce qu’il l’a fondée."
-        },
-        {
-          "ref": "Luc 16.10-13",
-          "resume": "La fidélité dans les petites choses prépare aux grandes ; on ne peut servir Dieu et Mamon."
-        },
-        {
-          "ref": "Matthieu 6.19-24",
-          "resume": "Amasser des trésors dans le ciel, garder l’œil sain et choisir son maître."
-        },
-        {
-          "ref": "Matthieu 25.14-30",
-          "resume": "La parabole des talents : chacun rendra compte de ce qui lui a été confié."
-        }
-      ],
-      "recit": {
-        "titre": "Les talents confiés",
-        "ref": "Matthieu 25.14-30",
-        "paragraphes": [
-          "Jésus est à Jérusalem, quelques jours avant sa mort. Assis sur le mont des Oliviers, il parle à ses disciples de son retour et de la manière dont ils doivent vivre en l’attendant. Il leur raconte alors l’histoire d’un homme qui part en voyage. Avant de partir, il appelle ses serviteurs et leur remet ses biens. À l’un, il donne cinq talents ; à un autre, deux ; au troisième, un seul, « à chacun selon sa capacité ». Puis il s’en va. Il faut mesurer l’ampleur de ce geste : un talent n’était pas une petite pièce, mais un poids d’argent considérable, qui représentait plusieurs années de salaire d’un ouvrier. Même le serviteur qui reçoit un seul talent tient une fortune entre ses mains.",
-          "Le premier serviteur ne perd pas de temps. « Aussitôt », dit le texte, il va faire valoir les cinq talents et en gagne cinq autres. Le deuxième fait de même et double les deux talents reçus. Le troisième, lui, creuse un trou dans la terre et y cache l’argent de son maître. Dans le monde ancien, enterrer un trésor était une manière connue de le protéger des voleurs ; il ne le vole pas, il ne le gaspille pas. Il ne fait simplement rien.",
-          "Longtemps après, le maître revient et fait rendre compte. Le premier s’avance : « Seigneur, tu m’as remis cinq talents ; voici, j’en ai gagné cinq autres. » Le maître répond : « C’est bien, bon et fidèle serviteur ; tu as été fidèle en peu de chose, je te confierai beaucoup ; entre dans la joie de ton maître. » Remarquez : cinq talents, une fortune, sont appelés « peu de chose » ! Le deuxième serviteur reçoit exactement la même louange, mot pour mot, alors qu’il n’a gagné que deux talents. Le maître ne compare pas les résultats ; il récompense la fidélité.",
-          "Vient le troisième. Il commence par une accusation : « Seigneur, je savais que tu es un homme dur, qui moissonnes où tu n’as pas semé… j’ai eu peur, et je suis allé cacher ton talent dans la terre ; voici, prends ce qui est à toi. » Le maître le prend au mot : si tu pensais vraiment cela, tu aurais au moins dû placer mon argent chez les banquiers pour en recevoir l’intérêt. Il l’appelle « serviteur méchant et paresseux », lui retire le talent et le donne à celui qui en a dix. Le serviteur inutile est jeté dehors.",
-          "Le drame du troisième serviteur n’est pas d’avoir reçu peu. C’est d’avoir eu une fausse image de son maître, de s’être laissé paralyser par la peur, et d’avoir oublié que l’argent qu’il gardait n’était pas à lui. Sa phrase finale le trahit : « prends ce qui est à toi ». Il a tenu le bien de son maître comme un fardeau, jamais comme une mission."
-        ],
-        "lecons": [
-          "Tout ce que nous avons nous est confié : nous en sommes les gérants, pas les propriétaires, et nous en rendrons compte.",
-          "Dieu ne nous compare pas aux autres ; il attend que chacun soit fidèle selon ce qu’il a reçu.",
-          "La peur et une fausse image de Dieu paralysent ; la confiance pousse à agir et à faire fructifier.",
-          "Ne rien faire de ce que Dieu nous confie n’est pas de la prudence : c’est de l’infidélité."
-        ]
-      },
-      "exegese": [
-        {
-          "titre": "Psaume 24 : la terre est à l’Éternel",
-          "paragraphes": [
-            "Le Psaume 24 est attribué à David. Beaucoup de commentateurs pensent qu’il était chanté lors d’une procession vers le sanctuaire, peut-être en lien avec la montée de l’arche à Jérusalem (2 Samuel 6). Il se divise en trois parties : la royauté de Dieu sur la création (versets 1-2), la question de savoir qui peut monter à la montagne de l’Éternel (versets 3-6), et l’entrée triomphale du Roi de gloire (versets 7-10).",
-            "Le premier verset pose le fondement de toute la gestion biblique : « A l’Éternel la terre et ce qu’elle renferme, le monde et ceux qui l’habitent ! » La raison est donnée au verset 2 : « Car il l’a fondée sur les mers. » Dieu est propriétaire parce qu’il est créateur. Dans l’Orient ancien, les peuples attribuaient la mer et les forces du chaos à des divinités rivales. Le psalmiste affirme au contraire que même les mers sont sous l’autorité du seul vrai Dieu. Rien n’échappe à son droit de propriété : ni la terre, ni les ressources, ni les personnes. L’apôtre Paul cite ce verset en 1 Corinthiens 10.26 pour rappeler aux chrétiens que tout aliment vient de Dieu."
-          ]
-        },
-        {
-          "titre": "Luc 16.1-13 : l’économe et les deux maîtres",
-          "paragraphes": [
-            "Luc 15 contient trois paraboles adressées aux pharisiens qui critiquaient Jésus parce qu’il accueillait les pécheurs. Au chapitre 16, Jésus se tourne vers ses disciples et raconte l’histoire d’un économe, c’est-à-dire un gérant de domaine (en grec oikonomos), accusé d’avoir dilapidé les biens de son maître. Sur le point d’être renvoyé, il réduit les dettes des débiteurs pour se faire des amis. Le maître loue son habileté, non sa malhonnêteté. Jésus ne recommande pas la fraude ; il souligne que les gens de ce monde savent préparer leur avenir avec intelligence, alors que les enfants de lumière manquent souvent de prévoyance.",
-            "Les versets 10 à 13 tirent la leçon. « Celui qui est fidèle dans les moindres choses l’est aussi dans les grandes. » La fidélité ne commence pas quand on gère des millions ; elle se forme dans les petites sommes, les petites dépenses, la petite monnaie que l’on rend ou que l’on garde. Puis vient une logique surprenante : si vous n’avez pas été fidèles dans « les richesses injustes », qui vous confiera « les véritables » ? L’argent est appelé « injuste », non parce qu’il serait mauvais en soi, mais parce qu’il appartient à un monde marqué par le péché et qu’il pousse facilement à l’injustice. Il est le terrain d’entraînement de la fidélité. Enfin, verset 13 : « Nul serviteur ne peut servir deux maîtres… Vous ne pouvez servir Dieu et Mamon. » Le mot Mamon vient de l’araméen et désigne la richesse, ce sur quoi l’on s’appuie. Jésus en fait presque une personne, un maître concurrent qui réclame l’obéissance du cœur."
-          ]
-        },
-        {
-          "titre": "Matthieu 6.19-24 : deux trésors, deux regards, deux maîtres",
-          "paragraphes": [
-            "Dans le Sermon sur la montagne, Jésus enchaîne trois images. D’abord deux trésors : l’un sur la terre, exposé à la teigne, à la rouille et aux voleurs ; l’autre dans le ciel, que rien ne peut détruire. Dans le monde ancien, la richesse se gardait souvent en vêtements de prix (que la teigne ronge), en métaux et en réserves de grain : tout cela était fragile. Ensuite deux regards : « l’œil est la lampe du corps. » Dans la culture juive, un « œil mauvais » désignait l’avarice et un « œil bon » la générosité (voir Proverbes 22.9). Celui qui regarde les biens avec avidité se remplit de ténèbres. Enfin deux maîtres, que nous avons déjà rencontrés en Luc 16.",
-            "Le passage se poursuit avec l’enseignement sur l’inquiétude (versets 25-34). Le lien est essentiel : celui qui fait de l’argent son maître vit dans l’angoisse du lendemain, tandis que celui qui cherche « premièrement le royaume et la justice de Dieu » reçoit la promesse que le Père céleste pourvoira. La bonne gestion biblique n’est donc pas d’abord une technique ; c’est une question de confiance et de seigneurie."
-          ]
-        }
-      ],
-      "motsCles": [
-        {
-          "mot": "intendant, économe",
-          "langue": "grec",
-          "original": "oikonomos",
-          "sens": "Littéralement « celui qui gère la maison » : un serviteur chargé d’administrer les biens d’un autre, et qui doit lui rendre compte."
-        },
-        {
-          "mot": "Mamon",
-          "langue": "araméen",
-          "original": "mamôna",
-          "sens": "La richesse, les biens sur lesquels on s’appuie ; Jésus en fait un maître rival de Dieu."
-        },
-        {
-          "mot": "fidèle",
-          "langue": "grec",
-          "original": "pistos",
-          "sens": "Digne de confiance, sur qui l’on peut compter ; même racine que le mot « foi »."
-        },
-        {
-          "mot": "talent",
-          "langue": "grec",
-          "original": "talanton",
-          "sens": "Unité de poids servant à compter de grandes sommes d’argent ; un talent valait plusieurs années de salaire."
-        }
-      ],
-      "enseignement": [
-        {
-          "titre": "Propriétaire ou gérant : une révolution intérieure",
-          "paragraphes": [
-            "Toute la vision biblique de l’argent repose sur une distinction simple : Dieu est propriétaire, l’homme est intendant. Le propriétaire décide ; l’intendant exécute les volontés du propriétaire. Quand je dis « mon argent », « ma maison », « mon salaire », je parle juste au sens humain, mais spirituellement, je devrais dire : « l’argent que Dieu m’a confié ». David l’a exprimé lors des offrandes pour le temple : « Tout vient de toi, et nous recevons de ta main ce que nous t’offrons » (1 Chroniques 29.14). Moïse avait averti Israël avant l’entrée en Canaan : quand tu seras dans l’abondance, ne dis pas que c’est ta force qui t’a acquis ces richesses ; « souviens-toi de l’Éternel, ton Dieu, car c’est lui qui te donnera de la force pour les acquérir » (Deutéronome 8.17-18).",
-            "Cette vérité libère dans deux directions. Elle libère de l’orgueil : celui qui a beaucoup ne peut se vanter, car tout lui a été donné, y compris la santé, l’intelligence et les occasions qui lui ont permis de réussir. Elle libère aussi de la honte et de l’angoisse : celui qui a peu n’est pas moins précieux ; il est simplement appelé à être fidèle avec ce qu’il a. Le gérant n’a pas à porter le poids du propriétaire. Il demande : « Seigneur, que veux-tu que je fasse de ce que tu m’as confié ? »"
-          ]
-        },
-        {
-          "titre": "L’argent révèle le cœur",
-          "paragraphes": [
-            "Jésus enseigne que l’argent n’est jamais neutre dans notre vie. Il est soit un serviteur, soit un maître. Paul écrit que « l’amour de l’argent est une racine de tous les maux » (1 Timothée 6.10). Ce n’est pas l’argent qui est mauvais, mais l’amour de l’argent : cette disposition intérieure qui pousse à vouloir toujours plus, à mesurer sa valeur à ce que l’on possède, à sacrifier la vérité, la famille ou la foi pour gagner davantage. Paul ajoute que ceux qui veulent s’enrichir « tombent dans la tentation, dans le piège » (1 Timothée 6.9).",
-            "Comment savoir si l’argent est devenu mon maître ? Quelques questions aident : Est-ce que je pense à l’argent plus qu’à Dieu ? Est-ce que je suis prêt à mentir, tricher ou corrompre pour en obtenir ? Est-ce que je suis jaloux de ceux qui en ont plus ? Est-ce que je suis incapable de donner ? Est-ce que je me sens sans valeur quand je n’en ai pas ? Le contraire de l’amour de l’argent n’est pas la pauvreté, c’est le contentement : « C’est, en effet, une grande source de gain que la piété avec le contentement » (1 Timothée 6.6). Paul, qui avait connu l’abondance et la disette, disait avoir appris à être content dans l’état où il se trouvait (Philippiens 4.11-13)."
-          ]
-        },
-        {
-          "titre": "La fidélité dans les petites choses",
-          "paragraphes": [
-            "Beaucoup attendent d’avoir plus pour commencer à bien gérer : « Quand j’aurai un vrai salaire, je donnerai ; quand j’aurai plus, j’épargnerai. » Jésus renverse ce raisonnement : celui qui est fidèle dans peu le sera dans beaucoup, et celui qui est infidèle dans peu le sera dans beaucoup. Un gros salaire ne rend pas sage ; il amplifie simplement les habitudes déjà présentes. Celui qui gaspille cinq mille francs gaspillera cinq cent mille francs.",
-            "La fidélité se voit dans des détails : rendre la monnaie en trop que le commerçant vous a donnée, ne pas utiliser le matériel du bureau pour ses affaires personnelles, rembourser l’ami qui vous a prêté, tenir un petit carnet de ses dépenses, payer le transport au lieu de frauder. Ces gestes semblent minuscules, mais ils forment le caractère. Dieu observe ces petites choses, et c’est à travers elles qu’il prépare ses serviteurs à de plus grandes responsabilités, matérielles et spirituelles."
-          ]
-        },
-        {
-          "titre": "Rendre compte : une perspective d’éternité",
-          "paragraphes": [
-            "La parabole des talents se termine par un jour de reddition des comptes. Cette perspective est à la fois sérieuse et encourageante. Sérieuse, car nos choix financiers ont une portée éternelle : Paul demande aux riches d’être riches en bonnes œuvres, « de manière à s’amasser pour l’avenir un trésor placé sur un fondement solide » (1 Timothée 6.19). Encourageante, car le Maître se réjouit de ses serviteurs fidèles et les invite à « entrer dans sa joie ». Gérer pour Dieu, ce n’est pas vivre dans la peur d’un patron dur ; c’est servir un Seigneur généreux, qui a donné son propre Fils, et qui récompense même le verre d’eau donné en son nom (Matthieu 10.42).",
-            "Cette perspective change aussi la manière dont nous regardons ceux qui ont plus que nous. L’envie nous pousse à comparer, à murmurer, parfois à mépriser ou à flatter les riches. Jacques reproche aux chrétiens de faire asseoir le riche à la place d’honneur et de laisser le pauvre debout (Jacques 2.1-4). Devant le Maître, riches et pauvres sont des serviteurs qui rendront compte. Le riche doit apprendre l’humilité et la générosité, le pauvre doit apprendre la dignité et la confiance, et tous deux doivent apprendre la fidélité."
-          ]
-        }
-      ],
-      "citations": [
-        {
-          "ref": "Psaume 24.1",
-          "texte": "A l’Éternel la terre et ce qu’elle renferme, Le monde et ceux qui l’habitent !"
-        },
-        {
-          "ref": "Luc 16.10",
-          "texte": "Celui qui est fidèle dans les moindres choses l’est aussi dans les grandes, et celui qui est injuste dans les moindres choses l’est aussi dans les grandes."
-        },
-        {
-          "ref": "Matthieu 6.24",
-          "texte": "Nul ne peut servir deux maîtres. Car, ou il haïra l’un, et aimera l’autre ; ou il s’attachera à l’un, et méprisera l’autre. Vous ne pouvez servir Dieu et Mamon."
-        },
-        {
-          "ref": "1 Corinthiens 4.2",
-          "texte": "Du reste, ce qu’on demande des dispensateurs, c’est que chacun soit trouvé fidèle."
-        },
-        {
-          "ref": "1 Timothée 6.10",
-          "texte": "Car l’amour de l’argent est une racine de tous les maux ; et quelques-uns, en étant possédés, se sont égarés loin de la foi, et se sont jeté eux-mêmes dans bien des tourments."
-        }
-      ],
-      "application": [
-        {
-          "titre": "Savoir où va mon argent",
-          "paragraphes": [
-            "Un intendant qui ne sait pas ce qu’il gère ne peut pas être fidèle. Pendant un mois, notez toutes vos dépenses, même les plus petites : transport, crédit téléphonique, boissons, recharges d’argent mobile, cotisations, aides à la famille. Beaucoup découvrent alors des fuites : de petites sommes répétées chaque jour qui finissent par représenter une grosse part du revenu. Ce carnet n’est pas un outil de culpabilité, mais de lucidité. Il permet de prier avec précision : « Seigneur, voici ce que tu m’as confié et voici ce que j’en fais. »"
-          ]
-        },
-        {
-          "titre": "Face à la pression de paraître",
-          "paragraphes": [
-            "Les réseaux sociaux exposent chaque jour des vies apparemment parfaites : voyages, vêtements de marque, voitures, fêtes somptueuses. Dans beaucoup de nos cultures, les mariages, les funérailles et les fêtes poussent aussi à dépenser au-delà de ses moyens pour ne pas « avoir honte ». Le disciple se rappelle que sa valeur ne vient pas de ce qu’il montre, mais de ce que Christ a payé pour lui. Avant un achat important, posez-vous la question : est-ce que j’achète cela pour servir Dieu et les miens, ou pour impressionner des gens ?"
-          ]
-        },
-        {
-          "titre": "Dans les petites responsabilités du quotidien",
-          "paragraphes": [
-            "Vous êtes trésorier d’un groupe de jeunes, d’une tontine ou d’une association ? Vous gérez la caisse d’une boutique ? Tenez des comptes clairs, faites-vous contrôler, ne mélangez jamais l’argent qui vous est confié avec le vôtre, même « pour un jour seulement ». Beaucoup de témoignages chrétiens ont été ruinés par de petites sommes empruntées en cachette dans une caisse. La transparence protège le gérant autant que le groupe."
-          ]
-        },
-        {
-          "titre": "Quand on a très peu",
-          "paragraphes": [
-            "Être intendant ne concerne pas seulement ceux qui ont des revenus confortables. Celui qui vit avec peu est appelé à la même fidélité, et Dieu voit ses efforts. Faites un inventaire de ce que Dieu vous a confié au-delà de l’argent : votre santé, vos compétences, votre temps, vos relations, un téléphone qui peut servir à apprendre. Le serviteur qui avait un seul talent avait déjà de quoi faire fructifier. Demandez à Dieu de vous montrer ce que vous pouvez commencer avec ce qui est dans votre main aujourd’hui."
-          ]
-        },
-        {
-          "titre": "Dans la famille et le couple",
-          "paragraphes": [
-            "L’intendance concerne aussi la manière dont on parle d’argent à la maison. Dans beaucoup de foyers, l’argent est source de disputes, de soupçons et de secrets : un conjoint cache ses revenus, l’autre cache ses dettes. Si tout appartient à Dieu, aucun des deux n’est « propriétaire » face à l’autre ; ils sont co-gérants devant le Seigneur. Prenez un moment, en couple ou en famille, pour lire ensemble Psaume 24.1 et dire à haute voix : « Seigneur, tout ce que nous avons t’appartient. » Puis mettez les chiffres sur la table, sans accusation, et décidez ensemble de vos priorités.",
-            "Aux parents : apprenez à vos enfants, dès le plus jeune âge, la différence entre recevoir, donner, épargner et dépenser. Une petite somme partagée en trois enveloppes (Dieu, épargne, dépenses) forme mieux un enfant que de longs discours. Vous préparez ainsi une génération d’intendants fidèles."
-          ]
-        }
-      ],
-      "etudeDeCas": {
-        "situation": "Aïcha, 27 ans, travaille comme vendeuse dans un magasin de téléphones. Son salaire est modeste. Chaque mois, elle s’endette auprès de collègues avant la fin du mois. Elle se dit qu’elle commencera à gérer correctement quand elle aura une promotion. Un jour, son patron lui confie aussi la caisse du magasin le week-end. Une amie lui suggère d’« emprunter » discrètement un peu d’argent de la caisse pour finir le mois, en promettant de le remettre lundi. Aïcha est chrétienne depuis deux ans et elle sent un malaise, mais elle se dit que ce n’est pas vraiment du vol puisqu’elle compte rembourser.",
-        "questions": [
-          "Quelles vérités de Luc 16.10-13 s’appliquent directement à la situation d’Aïcha ?",
-          "Pourquoi le raisonnement « je gérerai bien quand j’aurai plus » est-il dangereux ?",
-          "Quelles décisions concrètes proposeriez-vous à Aïcha pour sortir du cycle des dettes de fin de mois ?",
-          "Comment Aïcha pourrait-elle transformer cette responsabilité de caisse en témoignage ?"
-        ]
-      },
-      "reflexion": [
-        "Est-ce que je considère vraiment ce que je possède comme appartenant à Dieu ? Dans quel domaine ai-je encore du mal à lâcher prise ?",
-        "Quels signes de l’amour de l’argent puis-je reconnaître dans mon cœur ?",
-        "Dans quelles « petites choses » ai-je été infidèle ces derniers temps ?",
-        "Quelle image ai-je de Dieu quand je pense à l’argent : un maître dur ou un Père généreux ?"
-      ],
-      "retenir": [
-        "Tout appartient à Dieu ; je gère pour lui.",
-        "On ne peut servir Dieu et Mamon : l’argent est un bon serviteur mais un mauvais maître.",
-        "La fidélité se forme dans les petites choses, bien avant les grandes.",
-        "Je rendrai compte de ce qui m’a été confié, à un Maître qui récompense la fidélité."
-      ],
-      "memoriser": {
-        "ref": "Luc 16.10",
-        "texte": "Celui qui est fidèle dans les moindres choses l’est aussi dans les grandes, et celui qui est injuste dans les moindres choses l’est aussi dans les grandes."
-      },
-      "priere": "Seigneur, tout ce que j’ai vient de toi. Pardonne-moi d’avoir souvent agi comme un propriétaire et non comme ton intendant. Délivre mon cœur de l’amour de l’argent, apprends-moi le contentement et rends-moi fidèle dans les petites choses. Que je puisse un jour entendre ta voix me dire : c’est bien, bon et fidèle serviteur. Au nom de Jésus, amen."
-    },
-    {
-      "titre": "Budget, dettes, épargne et générosité",
-      "lectures": [
-        {
-          "ref": "Proverbes 21.5 et 22.7",
-          "resume": "La diligence mène à l’abondance, la précipitation à la disette ; l’emprunteur devient esclave du prêteur."
-        },
-        {
-          "ref": "2 Rois 4.1-7",
-          "resume": "Une veuve menacée par un créancier est délivrée de sa dette par la grâce de Dieu et un travail concret."
-        },
-        {
-          "ref": "2 Corinthiens 9.6-15",
-          "resume": "Celui qui sème abondamment moissonne abondamment ; Dieu aime celui qui donne avec joie."
-        },
-        {
-          "ref": "Malachie 3.6-12",
-          "resume": "Dieu reproche à son peuple de retenir les dîmes et l’invite à le mettre à l’épreuve."
-        }
-      ],
-      "recit": {
-        "titre": "La veuve et le vase d’huile",
-        "ref": "2 Rois 4.1-7",
-        "paragraphes": [
-          "Nous sommes dans le royaume d’Israël, au neuvième siècle avant Jésus-Christ, à l’époque du prophète Élisée. Une femme vient crier vers lui. Son mari faisait partie des « fils des prophètes », ces groupes de disciples qui entouraient les prophètes et servaient Dieu. Il est mort. Elle le rappelle avec force : « Tu sais que ton serviteur craignait l’Éternel. » Pourtant, il a laissé des dettes. Et le créancier est venu prendre ses deux enfants pour en faire ses esclaves. La loi de l’époque permettait qu’un débiteur insolvable ou sa famille travaille au service du créancier jusqu’au remboursement. Pour cette mère, c’est la catastrophe : après son mari, elle va perdre ses fils.",
-          "Élisée ne commence pas par un sermon. Il pose deux questions : « Que puis-je faire pour toi ? Dis-moi, qu’as-tu à la maison ? » Elle répond : « Ta servante n’a rien du tout à la maison qu’un vase d’huile. » Rien… sauf un petit vase. C’est souvent ainsi : dans la détresse, nous voyons ce qui manque et oublions ce que Dieu a déjà mis dans notre main.",
-          "Le prophète lui donne alors des instructions précises et un peu étranges. Elle doit aller emprunter des vases vides chez tous ses voisins, « et n’en demande pas un petit nombre ». Puis elle doit rentrer, fermer la porte sur elle et sur ses fils, et verser l’huile dans tous ces vases, mettant de côté ceux qui sont pleins. Elle obéit. Ses fils lui apportent les vases, elle verse. Un vase se remplit, puis un autre, puis un autre encore. L’huile ne s’arrête pas. Quand elle demande un vase de plus, son fils répond : « Il n’y a plus de vase. » Et l’huile s’arrête.",
-          "Elle court l’annoncer à l’homme de Dieu. Sa réponse est d’une grande sagesse pratique : « Va vendre l’huile, et paie ta dette ; et tu vivras, toi et tes fils, de ce qui restera. » Le miracle ne sert pas d’abord à un luxe soudain. Il sert à rembourser la dette, à libérer les enfants, puis à assurer la vie de la famille. Il faudra encore vendre l’huile au marché, faire du commerce, compter, travailler.",
-          "Ce récit est d’une grande tendresse. Dieu voit une veuve endettée que tout le monde aurait pu oublier. Il honore la foi de son mari et l’obéissance de cette femme. Mais il lui demande aussi de participer : chercher des vases, les remplir, vendre l’huile, payer. La délivrance de la dette est à la fois un don de Dieu et un chemin d’obéissance concrète."
-        ],
-        "lecons": [
-          "Dieu se soucie des personnes écrasées par les dettes ; il n’est pas indifférent à notre situation financière.",
-          "La délivrance commence souvent par la question : « Qu’as-tu à la maison ? » Dieu part de ce qui est déjà dans notre main.",
-          "Le miracle est accompagné d’obéissance et de travail : emprunter des vases, verser, vendre, payer.",
-          "La priorité est de rembourser la dette, puis de vivre de ce qui reste : un ordre sage pour nos budgets."
-        ]
-      },
-      "exegese": [
-        {
-          "titre": "Les Proverbes : sagesse pratique pour la vie quotidienne",
-          "paragraphes": [
-            "Le livre des Proverbes rassemble des paroles de sagesse attribuées en grande partie à Salomon. Il ne s’agit pas de promesses automatiques, mais de principes généraux qui décrivent la manière dont la vie fonctionne habituellement dans le monde que Dieu a créé. Proverbes 21.5 oppose deux attitudes : « Les projets de l’homme diligent ne mènent qu’à l’abondance, mais celui qui agit avec précipitation n’arrive qu’à la disette. » Le diligent planifie, travaille avec constance et réfléchit avant d’agir. Le précipité veut tout, tout de suite : achat impulsif, investissement miraculeux promis par un inconnu, jeu d’argent. La planification, c’est-à-dire le budget, n’est pas un manque de foi ; elle est la marque du sage.",
-            "Proverbes 22.7 énonce une réalité sociale : « Le riche domine sur les pauvres, et celui qui emprunte est l’esclave de celui qui prête. » Le mot hébreu traduit par « esclave » (‘éved) est fort : il désigne le serviteur qui n’est plus libre de ses choix. Le texte ne dit pas que tout emprunt est un péché ; la loi de Moïse réglemente les prêts et demande même de prêter généreusement au pauvre, sans intérêt (Exode 22.25 ; Deutéronome 15.7-8). Mais il avertit : la dette restreint la liberté. Proverbes 6.1-5 ajoute un avertissement contre le fait de se porter caution à la légère pour autrui, et conseille de se dégager au plus vite d’un tel engagement. Jésus, de son côté, enseigne de « calculer la dépense » avant de bâtir une tour (Luc 14.28)."
-          ]
-        },
-        {
-          "titre": "Malachie 3 : les dîmes et la confiance",
-          "paragraphes": [
-            "Malachie est le dernier prophète de l’Ancien Testament. Il parle après le retour de l’exil, au cinquième siècle avant Jésus-Christ. Le temple a été reconstruit, mais la ferveur a disparu. Les prêtres offrent des animaux défectueux, les mariages se défont, les gens se demandent à quoi bon servir Dieu. Dans ce contexte, Dieu accuse son peuple : « Un homme trompe-t-il Dieu ? Car vous me trompez, et vous dites : En quoi t’avons-nous trompé ? Dans les dîmes et les offrandes » (Malachie 3.8).",
-            "La dîme (en hébreu ma‘asér, « le dixième ») servait à entretenir les Lévites, qui n’avaient pas reçu de territoire, à soutenir le culte, et aussi à nourrir l’étranger, l’orphelin et la veuve (Deutéronome 14.28-29). Retenir la dîme revenait donc à priver à la fois Dieu et les plus fragiles. Le verset 10 contient une invitation unique : « Mettez-moi de la sorte à l’épreuve… et vous verrez si je n’ouvre pas pour vous les écluses des cieux. » Dans le contexte d’un peuple agricole, la bénédiction promise concerne la pluie, les récoltes et la protection contre les insectes ravageurs (verset 11). Le principe durable est que Dieu honore ceux qui l’honorent avec leurs biens, et que donner est un acte de confiance.",
-            "Les chrétiens évangéliques ne sont pas tous d’accord sur la place de la dîme aujourd’hui. Certains y voient une norme toujours valable, puisque Abraham et Jacob la pratiquaient déjà avant la loi (Genèse 14.20 ; 28.22). D’autres pensent que la dîme appartenait à l’organisation d’Israël, et que le Nouveau Testament nous appelle à une générosité libre, joyeuse et proportionnelle, pour laquelle la dîme reste un excellent point de départ. Les deux positions s’accordent sur l’essentiel : donner régulièrement, en priorité, et généreusement."
-          ]
-        },
-        {
-          "titre": "2 Corinthiens 8 et 9 : la grâce de donner",
-          "paragraphes": [
-            "Paul organise une collecte pour les chrétiens pauvres de Jérusalem, frappés par la disette. Il cite en exemple les Églises de Macédoine qui, « au milieu de beaucoup de tribulations… et malgré leur pauvreté profonde », ont donné au-delà de leurs moyens, avec joie (2 Corinthiens 8.1-5). Paul appelle cette générosité une « grâce » (charis) : donner est d’abord un fruit de la grâce de Dieu à l’œuvre en nous. Le modèle suprême est Christ : « pour vous il s’est fait pauvre, de riche qu’il était, afin que par sa pauvreté vous fussiez enrichis » (8.9).",
-            "Au chapitre 9, Paul utilise l’image des semailles : celui qui sème peu moissonne peu. Puis il ajoute : « Que chacun donne comme il l’a résolu en son cœur, sans tristesse ni contrainte ; car Dieu aime celui qui donne avec joie » (9.7). Le mot grec traduit par « avec joie » est hilaros, d’où vient notre mot « hilarant ». Le don chrétien n’est pas une taxe arrachée, mais un geste joyeux. Paul ne promet pas que le donateur deviendra riche ; il promet que Dieu pourvoira à ses besoins « afin que… vous ayez encore en abondance pour toute espèce de bonnes œuvres » (9.8). Dieu nous enrichit pour que nous puissions être généreux, et la générosité produit des actions de grâces envers Dieu (9.11-12)."
-          ]
-        }
-      ],
-      "motsCles": [
-        {
-          "mot": "dîme",
-          "langue": "hébreu",
-          "original": "ma‘asér",
-          "sens": "Le dixième ; part des revenus consacrée à Dieu pour le culte, les serviteurs de Dieu et les pauvres."
-        },
-        {
-          "mot": "emprunter",
-          "langue": "hébreu",
-          "original": "lavah",
-          "sens": "Emprunter, s’attacher à ; celui qui emprunte se lie à celui qui prête (Proverbes 22.7)."
-        },
-        {
-          "mot": "avec joie",
-          "langue": "grec",
-          "original": "hilaros",
-          "sens": "Joyeux, de bon cœur ; caractérise le donateur que Dieu aime (2 Corinthiens 9.7)."
-        },
-        {
-          "mot": "grâce",
-          "langue": "grec",
-          "original": "charis",
-          "sens": "Faveur imméritée ; Paul appelle la générosité des Macédoniens une grâce de Dieu (2 Corinthiens 8.1)."
-        }
-      ],
-      "enseignement": [
-        {
-          "titre": "Le budget : un plan pour obéir",
-          "paragraphes": [
-            "Un budget est tout simplement un plan écrit qui dit à l’argent où aller avant qu’il ne parte de lui-même. Ce n’est ni un outil réservé aux riches ni une marque de méfiance envers Dieu. Joseph a fait un plan pour sept années d’abondance et sept années de famine ; la fourmi « prépare en été sa nourriture » (Proverbes 6.8). Un budget biblique simple suit un ordre : donner d’abord, épargner ensuite, payer ses obligations (loyer, nourriture, transport, scolarité, dettes), puis vivre avec le reste.",
-            "Pourquoi donner en premier ? Parce que cela proclame que Dieu est premier. Les prémices de la récolte étaient offertes à Dieu avant d’en profiter (Proverbes 3.9-10). Pourquoi épargner ensuite ? Parce que celui qui attend d’avoir « du reste » n’épargne jamais. Même une petite somme mise de côté chaque mois forme une habitude et constitue une réserve pour les imprévus : maladie, perte d’emploi, décès dans la famille. Un budget doit être réaliste, écrit, révisé chaque mois, et, si l’on est marié, établi ensemble dans la transparence."
-          ]
-        },
-        {
-          "titre": "Les dettes : sortir de l’esclavage",
-          "paragraphes": [
-            "La Bible ne condamne pas tout emprunt, mais elle met en garde contre la dette et encourage à s’en libérer. Paul écrit : « Ne devez rien à personne, si ce n’est de vous aimer les uns les autres » (Romains 13.8). Il faut distinguer la dette de consommation (emprunter pour acheter un téléphone dernier modèle, une fête, des vêtements), qui appauvrit, et certains emprunts réfléchis, par exemple pour un logement ou un outil de travail, quand le remboursement est réaliste. Le Psaume 37.21 ajoute une exigence morale : « Le méchant emprunte, et il ne rend pas. » Rembourser ses dettes fait partie de l’honnêteté chrétienne.",
-            "Pour sortir des dettes : 1) faire la liste de toutes ses dettes, même petites, avec les montants et les créanciers ; 2) arrêter d’en contracter de nouvelles ; 3) parler honnêtement avec ses créanciers pour proposer un plan de remboursement ; 4) rembourser en commençant soit par la plus petite (pour l’encouragement), soit par la plus coûteuse en intérêts ; 5) célébrer chaque dette payée et rendre grâce. Méfiez-vous des crédits instantanés sur téléphone, des prêteurs informels aux taux écrasants, et des promesses de gains rapides. Ne vous portez pas caution sans réfléchir et sans prier (Proverbes 6.1-5)."
-          ]
-        },
-        {
-          "titre": "La générosité : adorer et faire confiance",
-          "paragraphes": [
-            "Donner n’est pas une perte, c’est un acte d’adoration. Le Nouveau Testament présente plusieurs formes de don : le soutien de l’Église locale et de ceux qui enseignent la Parole (Galates 6.6 ; 1 Corinthiens 9.14), l’aide aux pauvres (Galates 2.10), le soutien de la mission (Philippiens 4.15-18), et les dons spontanés à ceux qui sont dans le besoin. Jésus a remarqué la veuve qui a mis deux petites pièces dans le tronc du temple : elle avait donné plus que tous les autres, car elle avait donné « tout ce qu’elle avait pour vivre » (Marc 12.41-44). Dieu ne mesure pas le montant, mais le cœur et le sacrifice.",
-            "La générosité biblique est régulière (« que chacun de vous, le premier jour de la semaine, mette à part chez lui ce qu’il pourra », 1 Corinthiens 16.2), proportionnelle aux revenus, joyeuse et discrète (« que ta main gauche ne sache pas ce que fait ta droite », Matthieu 6.3). Elle ne doit pas être manipulée : aucun serviteur de Dieu ne peut vendre une bénédiction ou exiger de l’argent en échange d’un miracle. Simon le magicien fut sévèrement repris pour avoir cru que le don de Dieu s’achetait (Actes 8.18-20).",
-            "Il faut aussi rappeler que la générosité n’est jamais un moyen d’acheter la faveur de Dieu. Nous ne donnons pas pour être sauvés, ni pour forcer Dieu à nous enrichir, mais parce que nous avons déjà tout reçu en Christ. Le don chrétien est une réponse de reconnaissance. C’est pourquoi Paul termine son enseignement sur la collecte par une louange : « Grâces soient rendues à Dieu pour son don ineffable ! » (2 Corinthiens 9.15). Le plus grand don, c’est Jésus lui-même ; nos dons ne sont qu’un écho joyeux de ce don."
-          ]
-        },
-        {
-          "titre": "Épargner sans thésauriser",
-          "paragraphes": [
-            "L’épargne est sage, mais elle peut devenir une idole. Jésus raconte l’histoire du riche insensé qui démolit ses greniers pour en bâtir de plus grands et se dit : « Mon âme, tu as beaucoup de biens en réserve pour plusieurs années ; repose-toi, mange, bois, et réjouis-toi. » Mais Dieu lui dit : « Insensé ! cette nuit même ton âme te sera redemandée » (Luc 12.16-21). Son tort n’était pas d’avoir un grenier, mais d’avoir tout pensé pour lui-même, sans Dieu et sans les autres. L’épargne chrétienne a des buts : faire face aux imprévus sans tomber dans les dettes, préparer l’avenir de sa famille (Proverbes 13.22), investir dans un projet utile, et pouvoir donner davantage."
-          ]
-        }
-      ],
-      "citations": [
-        {
-          "ref": "Proverbes 21.5",
-          "texte": "Les projets de l’homme diligent ne mènent qu’à l’abondance, Mais celui qui agit avec précipitation n’arrive qu’à la disette."
-        },
-        {
-          "ref": "Proverbes 22.7",
-          "texte": "Le riche domine sur les pauvres, Et celui qui emprunte est l’esclave de celui qui prête."
-        },
-        {
-          "ref": "2 Corinthiens 9.7",
-          "texte": "Que chacun donne comme il l’a résolu en son cœur, sans tristesse ni contrainte ; car Dieu aime celui qui donne avec joie."
-        },
-        {
-          "ref": "Malachie 3.10",
-          "texte": "Apportez à la maison du trésor toutes les dîmes, Afin qu’il y ait de la nourriture dans ma maison ; Mettez-moi de la sorte à l’épreuve, Dit l’Éternel des armées. Et vous verrez si je n’ouvre pas pour vous les écluses des cieux, Si je ne répands pas sur vous la bénédiction en abondance."
-        },
-        {
-          "ref": "Romains 13.8",
-          "texte": "Ne devez rien à personne, si ce n’est de vous aimer les uns les autres ; car celui qui aime les autres a accompli la loi."
-        }
-      ],
-      "application": [
-        {
-          "titre": "Établir un budget simple",
-          "paragraphes": [
-            "Prenez une feuille et faites quatre colonnes : revenus, dons, épargne, dépenses. Inscrivez d’abord tous vos revenus du mois, même irréguliers. Décidez ensuite du montant que vous donnerez et de celui que vous épargnerez, même petit. Puis répartissez le reste entre les dépenses indispensables. Si vos revenus varient (commerce, travail journalier), basez votre budget sur un mois faible et mettez de côté le surplus des bons mois. Revoyez ce budget chaque fin de mois avec honnêteté."
-          ]
-        },
-        {
-          "titre": "Argent mobile, crédits instantanés et jeux d’argent",
-          "paragraphes": [
-            "Les applications de prêt rapide sur téléphone rendent l’endettement très facile : quelques clics, et l’argent arrive. Mais les frais et les pénalités peuvent devenir écrasants. Les paris sportifs et les jeux d’argent promettent de « multiplier » une petite mise et piègent beaucoup de jeunes. Le disciple refuse la logique du gain facile et choisit la diligence de Proverbes 21.5. Si vous êtes déjà pris dans ces pièges, parlez-en à un responsable de confiance et faites un plan de sortie : on ne s’en sort pas seul dans la honte."
-          ]
-        },
-        {
-          "titre": "Tontines et solidarité familiale",
-          "paragraphes": [
-            "Dans beaucoup de pays, les tontines et l’entraide familiale sont des ressources précieuses. Elles peuvent aider à épargner et à financer des projets. Participez-y avec honnêteté, versez vos cotisations à temps et choisissez des groupes transparents. La solidarité familiale est une belle valeur biblique (1 Timothée 5.8), mais elle demande aussi de la sagesse : aider n’est pas entretenir la paresse, et il est permis, avec amour, de fixer des limites et de dire ce que votre budget permet réellement."
-          ]
-        },
-        {
-          "titre": "Donner même quand on a peu",
-          "paragraphes": [
-            "Beaucoup pensent qu’ils donneront « quand ils auront assez ». Or les Macédoniens ont donné dans leur pauvreté profonde, et la veuve a été louée pour deux petites pièces. Commencez maintenant, avec un pourcentage fixe de vos revenus, versé en premier. Ajoutez des gestes concrets : payer un repas à quelqu’un, aider un élève à acheter ses fournitures, soutenir un missionnaire. Vous découvrirez la joie de 2 Corinthiens 9.7 et la fidélité de Dieu qui pourvoit."
-          ]
-        },
-        {
-          "titre": "Préparer l’avenir avec foi",
-          "paragraphes": [
-            "Constituez progressivement une petite réserve pour les urgences, même si vous commencez avec une somme très modeste chaque semaine. Gardez-la dans un endroit séparé de l’argent du quotidien, pour ne pas la dépenser sans y penser. Cette réserve vous évitera de courir chez un prêteur au premier imprévu. Ensuite, fixez-vous un objectif d’épargne précis : la scolarité des enfants, un outil de travail, un petit commerce, un projet de logement. Un objectif écrit et daté donne la force de dire non aux dépenses inutiles.",
-            "Enfin, souvenez-vous que l’épargne n’est pas une assurance contre Dieu, mais un moyen de gérer sagement ce qu’il donne. Le chrétien épargne avec les mains ouvertes, prêt à aider un frère dans l’urgence, et sans jamais placer sa sécurité dans son compte plutôt que dans son Père céleste (Matthieu 6.31-33)."
-          ]
-        }
-      ],
-      "etudeDeCas": {
-        "situation": "Kevin et Grâce sont mariés depuis trois ans et ont un enfant. Kevin est chauffeur de taxi-moto, Grâce coiffe à domicile. Leurs revenus varient beaucoup selon les semaines. Ils ont contracté trois prêts sur des applications de téléphone, une dette chez un voisin et une autre auprès d’un oncle. Ils ne donnent plus rien à l’Église car « il ne reste rien ». Le mariage d’une cousine approche et la famille attend d’eux une forte contribution. Grâce veut emprunter encore pour ne pas être humiliée ; Kevin pense qu’il faut d’abord rembourser.",
-        "questions": [
-          "Quelles leçons du récit de la veuve d’Élisée peuvent aider ce couple ?",
-          "Quelles sont, dans l’ordre, les étapes concrètes que vous leur conseilleriez pour sortir des dettes ?",
-          "Comment peuvent-ils répondre à la pression familiale avec amour et vérité ?",
-          "Est-il possible de recommencer à donner tout en remboursant ? Comment ?"
-        ]
-      },
-      "reflexion": [
-        "Ai-je un budget écrit ? Si non, qu’est-ce qui m’en empêche vraiment ?",
-        "Quelles dettes ai-je aujourd’hui, et ai-je un plan pour les rembourser ?",
-        "Est-ce que je donne avec joie, avec tristesse, ou est-ce que je ne donne pas du tout ?",
-        "Dans quelle situation la pression sociale me pousse-t-elle à dépenser au-delà de mes moyens ?"
-      ],
-      "retenir": [
-        "Donner, épargner, dépenser avec sagesse, éviter les dettes.",
-        "Le budget est un plan d’obéissance, pas un manque de foi.",
-        "Celui qui emprunte devient esclave de celui qui prête : je cherche la liberté.",
-        "Dieu aime celui qui donne avec joie, régulièrement et selon ses moyens."
-      ],
-      "memoriser": {
-        "ref": "2 Corinthiens 9.7",
-        "texte": "Que chacun donne comme il l’a résolu en son cœur, sans tristesse ni contrainte ; car Dieu aime celui qui donne avec joie."
-      },
-      "priere": "Père, merci de prendre soin de moi comme tu as pris soin de la veuve. Donne-moi la sagesse de planifier, le courage de sortir de mes dettes, la discipline d’épargner et la joie de donner. Délivre-moi de la peur du manque et de la pression de paraître. Je te confie mes finances : qu’elles servent ton royaume. Au nom de Jésus, amen."
-    },
-    {
-      "titre": "Le travail comme vocation",
-      "lectures": [
-        {
-          "ref": "Genèse 2.8-15 et 3.17-19",
-          "resume": "Dieu confie à l’homme le jardin pour le cultiver et le garder ; après la chute, le travail devient pénible, mais il n’est pas une malédiction en lui-même."
-        },
-        {
-          "ref": "Colossiens 3.22 à 4.1",
-          "resume": "Travailler de bon cœur, comme pour le Seigneur ; les maîtres doivent agir avec justice."
-        },
-        {
-          "ref": "2 Thessaloniciens 3.6-13",
-          "resume": "Paul a donné l’exemple du travail et exhorte ceux qui vivent dans l’oisiveté."
-        },
-        {
-          "ref": "Genèse 39.1-6 et 41.37-49",
-          "resume": "Joseph travaille avec fidélité comme esclave puis comme gouverneur, et Dieu fait prospérer son travail."
-        }
-      ],
-      "recit": {
-        "titre": "Joseph : fidèle dans la maison, la prison et le palais",
-        "ref": "Genèse 39 à 41",
-        "paragraphes": [
-          "Joseph a dix-sept ans quand ses frères, jaloux, le vendent à des marchands. Il arrive en Égypte comme esclave et est acheté par Potiphar, officier de Pharaon. Tout pourrait le pousser à l’amertume et à la paresse : il n’a pas choisi ce travail, il n’est pas payé, il est loin de sa famille. Pourtant le texte dit : « L’Éternel fut avec lui, et la prospérité l’accompagna. » Potiphar voit que tout ce que Joseph entreprend réussit. Il lui confie toute sa maison, et Dieu bénit la maison de l’Égyptien à cause de Joseph.",
-          "Puis vient l’épreuve. La femme de Potiphar le harcèle jour après jour pour qu’il couche avec elle. Joseph refuse : « Comment ferais-je un aussi grand mal et pécherais-je contre Dieu ? » Il comprend que son intégrité au travail n’est pas seulement une affaire de loyauté envers son patron, mais de fidélité envers Dieu. Un jour, elle le saisit par son vêtement ; il s’enfuit en le laissant entre ses mains. Elle l’accuse faussement, et Joseph est jeté en prison.",
-          "En prison, Joseph ne baisse pas les bras. Là encore, « l’Éternel fut avec Joseph », et le chef de la prison lui confie la responsabilité de tous les prisonniers. Il s’occupe des autres, remarque la tristesse de deux officiers de Pharaon, interprète leurs rêves. L’un d’eux, l’échanson, promet de parler de lui à Pharaon… puis l’oublie pendant deux longues années. Joseph continue de servir dans l’ombre.",
-          "Un jour, Pharaon fait deux rêves que personne ne peut expliquer. L’échanson se souvient enfin de Joseph. On le sort de prison, on le rase, on change ses vêtements. Devant le roi, Joseph déclare : « Ce n’est pas moi ! c’est Dieu qui donnera une réponse favorable à Pharaon. » Il annonce sept années d’abondance suivies de sept années de famine. Puis il ne se contente pas d’interpréter : il propose un plan concret. Nommer un homme intelligent et sage, prélever le cinquième des récoltes pendant les années d’abondance, stocker le blé dans les villes sous l’autorité de Pharaon, afin que le pays ne périsse pas pendant la famine.",
-          "Pharaon reconnaît en lui « un homme qui a en lui l’esprit de Dieu » et le place à la tête de toute l’Égypte. À trente ans, Joseph parcourt le pays, organise les réserves, amasse du blé « comme le sable de la mer ». Quand la famine arrive, l’Égypte et les pays voisins viennent acheter du blé. Le travail fidèle, compétent et intègre de Joseph sauve des multitudes de vies, y compris celle de sa propre famille."
-        ],
-        "lecons": [
-          "On peut honorer Dieu dans n’importe quel travail, même dans un poste qu’on n’a pas choisi.",
-          "L’intégrité au travail est d’abord une fidélité envers Dieu.",
-          "La compétence, la planification et l’excellence font partie de la spiritualité de Joseph.",
-          "Dieu peut se servir d’un travail fidèle et souvent caché pour bénir un pays entier."
-        ]
-      },
-      "exegese": [
-        {
-          "titre": "Genèse 2.15 : le travail avant la chute",
-          "paragraphes": [
-            "Le récit de la création présente Dieu lui-même comme un travailleur : il crée, sépare, nomme, façonne, plante un jardin. Puis, au sommet de son œuvre, il crée l’homme à son image et lui confie une mission : dominer sur la terre et la soumettre, c’est-à-dire la gérer en son nom (Genèse 1.28). Genèse 2.15 précise : « L’Éternel Dieu prit l’homme, et le plaça dans le jardin d’Éden pour le cultiver et pour le garder. » Tout cela se passe avant le péché. Le travail n’est donc pas une punition : il fait partie de la bonne création de Dieu.",
-            "Les deux verbes hébreux sont riches. « Cultiver » traduit ‘avad, qui signifie aussi « servir » et qui est employé ailleurs pour le service de Dieu dans le culte. « Garder » traduit shamar, veiller, protéger, garder les commandements. Travailler la terre et servir Dieu sont ainsi liés dès l’origine. Après la chute, Dieu ne dit pas « le travail est maudit », mais « le sol sera maudit à cause de toi » ; le travail devient pénible, fait de sueur, d’épines et de frustrations (Genèse 3.17-19). Le péché a abîmé le travail, il ne l’a pas supprimé. En Christ, le travail peut retrouver son sens premier : servir Dieu et prendre soin du monde.",
-            "Le Nouveau Testament confirme cette perspective. Dans le monde gréco-romain, beaucoup de gens instruits méprisaient le travail manuel, jugé digne des esclaves. Les premiers chrétiens, eux, comptaient parmi leurs membres des artisans, des pêcheurs, des marchands et des esclaves, et ils ne voyaient aucune honte à travailler de leurs mains. Paul, formé aux pieds du célèbre maître Gamaliel (Actes 22.3), fabriquait des tentes et s’en faisait un honneur (Actes 20.34-35)."
-          ]
-        },
-        {
-          "titre": "Colossiens 3.22 à 4.1 : travailler pour le Seigneur",
-          "paragraphes": [
-            "Paul écrit de prison aux chrétiens de Colosses, une petite ville d’Asie Mineure. Dans la section 3.18 à 4.1, il s’adresse aux membres de la maison : épouses et maris, enfants et pères, esclaves et maîtres. Les « serviteurs » (en grec douloi) étaient des esclaves. Paul ne justifie pas l’esclavage ; dans la lettre à Philémon, envoyée en même temps, il demande à un maître d’accueillir son esclave fugitif Onésime « non plus comme un esclave, mais… comme un frère bien-aimé » (Philémon 16). L’Évangile sème ainsi les graines qui feront tomber cette institution. Mais aux chrétiens qui vivent dans cette situation, Paul donne une dignité nouvelle : ils peuvent servir Christ à travers leur travail.",
-            "Le verset 23 dit littéralement : « Tout ce que vous faites, travaillez-le de l’âme (ek psychès), comme pour le Seigneur et non pour des hommes. » Travailler de bon cœur, c’est y mettre toute sa personne. Le verset 22 précise : non pas seulement « sous leurs yeux », comme pour plaire aux hommes, mais avec simplicité de cœur, dans la crainte du Seigneur. Le chrétien travaille de la même façon quand le chef est présent et quand il est absent, car son vrai Maître le voit toujours. Et la récompense vient du Seigneur : « l’héritage ». Enfin, 4.1 rappelle aux maîtres qu’ils ont eux aussi un Maître dans le ciel et qu’ils doivent accorder ce qui est juste et équitable. Ce principe s’applique aujourd’hui aux employeurs, aux chefs d’équipe et aux entrepreneurs chrétiens."
-          ]
-        },
-        {
-          "titre": "2 Thessaloniciens 3.6-13 : contre l’oisiveté",
-          "paragraphes": [
-            "À Thessalonique, certains chrétiens avaient cessé de travailler. Peut-être pensaient-ils que le retour de Christ était si proche que le travail ne servait plus à rien ; peut-être profitaient-ils de la générosité de l’Église. Paul les appelle des gens qui vivent « dans le désordre » (ataktôs, comme des soldats qui ont quitté les rangs), « qui ne travaillent pas, mais qui s’occupent de futilités ». Il rappelle son propre exemple : il a travaillé « nuit et jour » de ses mains, alors qu’il aurait pu demander à être soutenu, pour ne pas être à charge (3.8-9).",
-            "Le principe du verset 10 est clair : « Si quelqu’un ne veut pas travailler, qu’il ne mange pas non plus. » Il faut bien lire le texte : il vise celui qui ne veut pas travailler, et non celui qui ne peut pas (malade, âgé, handicapé, chômeur cherchant sincèrement un emploi). Pour ces derniers, la Bible commande au contraire la solidarité. Paul conclut : « Pour vous, frères, ne vous lassez pas de faire le bien » (3.13). Le travail permet de subvenir à ses besoins, de ne pas être à charge et, selon Éphésiens 4.28, « d’avoir de quoi donner à celui qui est dans le besoin »."
-          ]
-        }
-      ],
-      "motsCles": [
-        {
-          "mot": "cultiver, servir",
-          "langue": "hébreu",
-          "original": "‘avad",
-          "sens": "Travailler, servir ; le même verbe désigne le travail de la terre et le service rendu à Dieu."
-        },
-        {
-          "mot": "garder",
-          "langue": "hébreu",
-          "original": "shamar",
-          "sens": "Veiller sur, protéger, prendre soin ; l’homme est gardien de la création."
-        },
-        {
-          "mot": "de bon cœur",
-          "langue": "grec",
-          "original": "ek psychès",
-          "sens": "Littéralement « de l’âme » : avec toute sa personne, sincèrement et avec énergie."
-        },
-        {
-          "mot": "dans le désordre",
-          "langue": "grec",
-          "original": "ataktôs",
-          "sens": "Hors des rangs, indiscipliné ; décrit ceux qui refusaient de travailler à Thessalonique."
-        }
-      ],
-      "enseignement": [
-        {
-          "titre": "Le travail est une vocation",
-          "paragraphes": [
-            "Le mot « vocation » vient du latin vocare, appeler. Dire que le travail est une vocation, c’est dire que Dieu nous appelle à le servir non seulement le dimanche à l’église, mais aussi le lundi au bureau, au champ, à l’atelier, à l’hôpital, au marché ou à la maison. Il n’y a pas d’un côté des métiers « spirituels » et de l’autre des métiers « profanes ». Bezaleel, l’artisan qui construisit le tabernacle, était « rempli de l’Esprit de Dieu, de sagesse, d’intelligence et de savoir pour toutes sortes d’ouvrages » (Exode 31.3). Jésus lui-même a travaillé de ses mains comme charpentier (Marc 6.3) pendant bien plus d’années qu’il n’a prêché.",
-            "Cela donne une immense dignité à chaque travail honnête. La mère qui élève ses enfants, l’agriculteur qui nourrit la ville, le balayeur qui garde les rues propres, l’informaticien qui sécurise un système : tous participent à l’œuvre de Dieu qui prend soin de sa création et de ses créatures. Le chrétien n’a pas à mépriser son travail, même modeste, ni à envier celui des autres."
-          ]
-        },
-        {
-          "titre": "Les marques du travailleur chrétien",
-          "paragraphes": [
-            "L’Écriture décrit plusieurs qualités qui font du travail un témoignage. L’honnêteté : ne pas voler le temps ni le matériel de l’employeur, ne pas falsifier les comptes, refuser la corruption (« tu ne recevras point de présent ; car les présents aveuglent ceux qui ont les yeux ouverts », Exode 23.8). La diligence : « Si tu vois un homme habile dans son ouvrage, il se tient auprès des rois » (Proverbes 22.29). La ponctualité et la fiabilité, qui traduisent le respect des autres. Le respect des autorités, même difficiles (1 Pierre 2.18), sans pour autant obéir à un ordre contraire à la loi de Dieu (Actes 5.29). Daniel en est un modèle : ses ennemis ne trouvèrent en lui « ni faute, ni rien de mauvais, parce qu’il était fidèle » (Daniel 6.4).",
-            "L’excellence chrétienne n’est pas le perfectionnisme anxieux ni la course à la réussite. C’est faire de son mieux avec les dons reçus, apprendre, se former, et accepter les limites humaines avec humilité. Le chrétien travaille pour la gloire de Dieu, non pour la sienne.",
-            "Le travailleur chrétien se distingue aussi par sa manière de parler et de se comporter avec ses collègues. Il refuse les commérages, les murmures permanents contre la hiérarchie et les intrigues pour obtenir une place. Paul écrit : « Faites toutes choses sans murmures ni hésitations, afin que vous soyez irréprochables et purs, des enfants de Dieu irrépréhensibles au milieu d’une génération perverse et corrompue, parmi laquelle vous brillez comme des flambeaux dans le monde » (Philippiens 2.14-15). Dans un bureau, une usine ou un marché, un chrétien qui encourage, qui reconnaît le travail des autres et qui garde sa parole devient une lumière que l’on remarque."
-          ]
-        },
-        {
-          "titre": "Entreprendre, créer, servir la société",
-          "paragraphes": [
-            "La femme vertueuse de Proverbes 31 achète un champ, plante une vigne, fabrique des vêtements et les vend, et elle « tend la main au malheureux ». Elle est entreprenante, travailleuse et généreuse. Lydie, à Philippes, était marchande de pourpre et mit sa maison au service de l’Église naissante (Actes 16.14-15). Aquilas et Priscille fabriquaient des tentes avec Paul (Actes 18.3). Entreprendre, innover, créer des emplois peut être un vrai service rendu à Dieu et à la société, surtout dans des pays où le chômage frappe beaucoup de jeunes.",
-            "L’entrepreneur chrétien porte une responsabilité particulière : payer un salaire juste et à temps (« le salaire de ton mercenaire ne restera pas chez toi jusqu’au lendemain », Lévitique 19.13 ; voir aussi Jacques 5.4), respecter la loi et payer ses impôts (Romains 13.6-7), traiter ses employés avec dignité, refuser les pots-de-vin même quand « tout le monde le fait »."
-          ]
-        },
-        {
-          "titre": "Le travail à sa juste place",
-          "paragraphes": [
-            "Le travail est un bien, mais il ne doit pas devenir une idole. L’Ecclésiaste décrit l’homme qui travaille sans fin, seul, sans jamais être rassasié (Ecclésiaste 4.8). Dieu a donné le travail et le repos ensemble : six jours de travail, un jour de repos. Notre identité ne se trouve pas dans notre poste, notre salaire ou notre titre, mais dans le fait d’être enfants de Dieu. Le chômeur, le retraité ou le malade ne perdent pas leur valeur. Et le chrétien qui réussit se souvient que son travail est un service, non un trône.",
-            "Le travail a enfin une dimension d’espérance. Paul termine son grand chapitre sur la résurrection par ces mots : « Ainsi, mes frères bien-aimés, soyez fermes, inébranlables, travaillant de mieux en mieux à l’œuvre du Seigneur, sachant que votre travail ne sera pas vain dans le Seigneur » (1 Corinthiens 15.58). Même lorsque notre travail paraît inutile, mal payé ou oublié, comme celui de Joseph en prison, rien de ce qui est fait pour Christ n’est perdu. Le Seigneur voit, se souvient et récompense. Cette assurance donne la force de persévérer dans la fidélité quand les résultats tardent."
-          ]
-        }
-      ],
-      "citations": [
-        {
-          "ref": "Genèse 2.15",
-          "texte": "L’Éternel Dieu prit l’homme, et le plaça dans le jardin d’Éden pour le cultiver et pour le garder."
-        },
-        {
-          "ref": "Colossiens 3.23-24",
-          "texte": "Tout ce que vous faites, faites-le de bon cœur, comme pour le Seigneur et non pour des hommes, sachant que vous recevrez du Seigneur l’héritage pour récompense. Servez Christ, le Seigneur."
-        },
-        {
-          "ref": "2 Thessaloniciens 3.10",
-          "texte": "Car, lorsque nous étions chez vous, nous vous disions expressément : Si quelqu’un ne veut pas travailler, qu’il ne mange pas non plus."
-        },
-        {
-          "ref": "Éphésiens 4.28",
-          "texte": "Que celui qui dérobait ne dérobe plus ; mais plutôt qu’il travaille, en faisant de ses mains ce qui est bien, pour avoir de quoi donner à celui qui est dans le besoin."
-        },
-        {
-          "ref": "Proverbes 22.29",
-          "texte": "Si tu vois un homme habile dans son ouvrage, Il se tient auprès des rois ; Il ne se tient pas auprès des gens obscurs."
-        }
-      ],
-      "application": [
-        {
-          "titre": "Face à la corruption",
-          "paragraphes": [
-            "Dans beaucoup de lieux, obtenir un document, un marché ou un emploi semble impossible sans « motiver » quelqu’un. Le disciple refuse de donner ou de recevoir des pots-de-vin. Cela peut coûter : un dossier qui traîne, une promotion perdue. Joseph a perdu sa place pour être resté intègre, mais Dieu était avec lui. Priez pour la sagesse, cherchez les voies légales, documentez vos démarches, entourez-vous d’autres chrétiens qui ont le même engagement, et faites confiance à Dieu pour la suite."
-          ]
-        },
-        {
-          "titre": "Quand le patron n’est pas là",
-          "paragraphes": [
-            "Colossiens 3.22 nous libère de la logique « je travaille seulement quand on me surveille ». Que vous soyez en télétravail, seul dans la boutique ou en mission sur le terrain, travaillez comme si Christ était votre chef d’équipe, car il l’est. Arrivez à l’heure, remplissez honnêtement vos fiches de temps, n’utilisez pas les heures de travail pour vos réseaux sociaux personnels. Ce sont des actes d’adoration silencieux."
-          ]
-        },
-        {
-          "titre": "Le chômage et le travail précaire",
-          "paragraphes": [
-            "Être sans emploi ou vivre de petits travaux n’est pas une honte devant Dieu. Joseph a connu des années d’attente. Utilisez ce temps pour apprendre un métier, vous former en ligne, rendre service, développer une petite activité honnête. Acceptez les travaux modestes sans les mépriser. L’Église doit aussi être une communauté qui aide ses membres à trouver du travail, partage les offres et soutient ceux qui traversent cette épreuve."
-          ]
-        },
-        {
-          "titre": "Pour l’employeur et l’entrepreneur",
-          "paragraphes": [
-            "Si vous dirigez des personnes, souvenez-vous que vous avez un Maître dans le ciel (Colossiens 4.1). Payez à temps, déclarez vos employés si la loi le demande, écoutez-les, formez-les, et ne les traitez jamais comme de simples outils. Votre entreprise peut devenir un lieu où l’Évangile se voit à travers la justice et le respect."
-          ]
-        },
-        {
-          "titre": "Pour les étudiants et les apprentis",
-          "paragraphes": [
-            "Vos études et votre apprentissage sont déjà votre travail actuel. Les principes de Colossiens 3.23 s’y appliquent pleinement : assiduité aux cours, honnêteté aux examens (refuser la fraude et l’achat de notes), respect des enseignants et des maîtres d’atelier, effort même dans les matières que vous aimez moins. Daniel et ses compagnons ont étudié la langue et la littérature des Chaldéens, et Dieu leur a donné « de la science, de l’intelligence dans toutes les lettres » (Daniel 1.17). L’excellence d’aujourd’hui dans vos études prépare la fidélité de demain dans votre métier.",
-            "Demandez à Dieu de vous montrer quels dons il a mis en vous et quels besoins vous voyez autour de vous. La vocation se trouve souvent à la rencontre de ces deux réalités : ce que Dieu vous a donné de savoir faire, et ce dont votre communauté a besoin."
-          ]
-        },
-        {
-          "titre": "Au foyer et dans le travail non payé",
-          "paragraphes": [
-            "Beaucoup de travail précieux n’est pas rémunéré : s’occuper des enfants, soigner un parent âgé, tenir la maison, servir bénévolement à l’Église ou dans le quartier. Ce travail compte aux yeux de Dieu autant que n’importe quel emploi salarié. La femme de Proverbes 31 est louée pour la manière dont elle prend soin de sa maison autant que pour son commerce. Si vous êtes dans cette situation, faites-le « comme pour le Seigneur » ; et si vous bénéficiez de ce travail, honorez et remerciez ceux qui l’accomplissent."
-          ]
-        }
-      ],
-      "etudeDeCas": {
-        "situation": "Samuel, 34 ans, est agent dans un service administratif. Il est souvent en retard, passe beaucoup de temps sur son téléphone et pense que son salaire est trop bas pour qu’il fasse plus d’efforts. Un usager lui propose de l’argent pour accélérer son dossier, « comme tout le monde le fait ». Samuel est chrétien et prêche le dimanche dans sa paroisse. Un collègue non croyant lui dit un jour en riant : « Toi, le pasteur, tu ne travailles pas plus que nous ! »",
-        "questions": [
-          "Que nous apprend la remarque du collègue sur le lien entre travail et témoignage ?",
-          "Quels textes de la leçon répondent à l’idée qu’un salaire bas justifie un travail médiocre ?",
-          "Que devrait faire Samuel face à la proposition de l’usager ? Quelles conséquences doit-il accepter ?",
-          "Proposez trois changements concrets que Samuel peut commencer dès demain."
-        ]
-      },
-      "reflexion": [
-        "Est-ce que je vois mon travail actuel (ou mes études) comme un appel de Dieu ?",
-        "Est-ce que je travaille de la même manière quand je suis observé et quand je ne le suis pas ?",
-        "Y a-t-il un domaine où je suis tenté par la corruption ou la malhonnêteté ?",
-        "Mon travail a-t-il pris la place de Dieu, de ma famille ou de mon repos ?"
-      ],
-      "retenir": [
-        "Je travaille pour le Seigneur, avec excellence.",
-        "Le travail existait avant la chute : c’est une vocation, pas une malédiction.",
-        "L’intégrité au travail est un témoignage puissant, même si elle coûte.",
-        "Je travaille pour subvenir à mes besoins et pour avoir de quoi donner."
-      ],
-      "memoriser": {
-        "ref": "Colossiens 3.23-24",
-        "texte": "Tout ce que vous faites, faites-le de bon cœur, comme pour le Seigneur et non pour des hommes, sachant que vous recevrez du Seigneur l’héritage pour récompense. Servez Christ, le Seigneur."
-      },
-      "priere": "Seigneur Jésus, toi qui as travaillé de tes mains, apprends-moi à voir mon travail comme un service pour toi. Rends-moi honnête, diligent et fidèle, même quand personne ne me regarde. Garde-moi de la corruption et de la paresse, mais aussi de l’idolâtrie du travail. Que mon travail bénisse les autres et te rende gloire. Amen."
-    }
-  ],
-  "pratique": {
-    "consigne": "Établissez un budget écrit (dons, épargne, dépenses, plan de remboursement des dettes s’il y en a) et appliquez-le pendant un mois. Choisissez aussi un domaine de votre travail où vous voulez exceller davantage. À la fin du mois, décrivez par écrit ce que vous avez appris.",
-    "etapes": [
-      "Pendant la première semaine, notez toutes vos dépenses, même les plus petites.",
-      "Établissez un budget écrit : revenus, dons, épargne, dépenses indispensables, et la liste complète de vos dettes avec un plan de remboursement.",
-      "Si vous êtes marié, préparez ce budget avec votre conjoint ; sinon, présentez-le à une personne mature de confiance.",
-      "Choisissez un engagement concret au travail ou dans vos études (ponctualité, honnêteté, qualité, formation) et tenez-le tout le mois.",
-      "À la fin du mois, comparez le budget prévu et les dépenses réelles, puis écrivez une page : ce qui a changé, les difficultés rencontrées, et comment vous avez vu Dieu agir."
-    ]
+ "id": "n2m4",
+ "titre": "L’argent, le travail et la gestion",
+ "objectif": "Gérer mes ressources comme un intendant fidèle et honorer Dieu dans mon travail.",
+ "introduction": [
+  "Jésus a parlé de l’argent plus souvent qu’on ne l’imagine. Dans ses paraboles reviennent des pièces perdues, des talents confiés, des dettes remises, des greniers trop pleins, des ouvriers payés le soir. Il ne le fait pas parce que l’argent serait plus important que Dieu, mais parce que l’argent est l’un des endroits où notre cœur se révèle le plus clairement. « Là où est ton trésor, là aussi sera ton cœur » (Matthieu 6.21). Un disciple qui a donné sa vie à Christ doit donc apprendre à lui donner aussi son portefeuille, son salaire, ses projets et ses heures de travail.",
+  "Ce module s’adresse à tous : à l’étudiant qui vit avec très peu, au commerçant du marché, à la mère de famille qui fait des miracles avec un petit budget, au cadre d’entreprise, au chômeur qui cherche du travail, à l’entrepreneur qui rêve de créer des emplois. Les principes bibliques ne dépendent pas du montant que l’on possède. La veuve qui donne deux petites pièces est louée par Jésus, et le riche qui bâtit des greniers plus grands est appelé insensé. Ce qui compte, c’est la fidélité.",
+  "Nous avancerons en trois étapes. D’abord, une vérité fondatrice : Dieu est propriétaire de tout et je ne suis que son intendant. Ensuite, la gestion concrète : le budget, les dettes, l’épargne et la générosité. Enfin, le travail lui-même, que la Bible présente comme une vocation reçue de Dieu dès la création, et non comme une malédiction. À chaque étape, nous lirons des récits bibliques, nous étudierons les textes de près et nous les appliquerons au monde d’aujourd’hui : crédits faciles, argent mobile, tontines, corruption, chômage, pression sociale et familiale.",
+  "À la fin du module, vous ne serez pas devenu riche, et ce n’est pas le but. Le but est que vous soyez trouvé fidèle (1 Corinthiens 4.2), libre de l’esclavage des dettes et de l’amour de l’argent, généreux, travailleur, et que votre manière de gérer et de travailler devienne un témoignage pour ceux qui vous entourent."
+ ],
+ "lecturesObligatoires": [
+  {
+   "ref": "Psaume 24",
+   "consigne": "Notez tout ce qui, selon ce psaume, appartient à l’Éternel."
   },
-  "examen": [
+  {
+   "ref": "Matthieu 6.19-34",
+   "consigne": "Relevez les deux trésors, les deux maîtres et le remède que Jésus donne contre l’inquiétude."
+  },
+  {
+   "ref": "Matthieu 25.14-30",
+   "consigne": "Comparez l’attitude des trois serviteurs et la réponse du maître à chacun."
+  },
+  {
+   "ref": "Luc 16.1-13",
+   "consigne": "Repérez la phrase qui résume ce que Jésus attend de nous dans la gestion des richesses."
+  },
+  {
+   "ref": "2 Rois 4.1-7",
+   "consigne": "Décrivez la situation de la veuve et les étapes de la délivrance."
+  },
+  {
+   "ref": "Proverbes 6.1-11",
+   "consigne": "Relevez les deux dangers décrits : la caution irréfléchie et la paresse."
+  },
+  {
+   "ref": "2 Corinthiens 8.1-15 et 9.6-15",
+   "consigne": "Notez comment donnaient les Macédoniens et dans quel esprit Paul demande de donner."
+  },
+  {
+   "ref": "1 Timothée 6.6-19",
+   "consigne": "Distinguez ce que Paul dit à ceux qui veulent s’enrichir et ce qu’il dit aux riches."
+  },
+  {
+   "ref": "Genèse 39 à 41",
+   "consigne": "Suivez Joseph au travail : chez Potiphar, en prison, puis au palais. Qu’est-ce qui ne change pas en lui ?"
+  },
+  {
+   "ref": "Colossiens 3.22 à 4.1 et 2 Thessaloniciens 3.6-13",
+   "consigne": "Relevez les devoirs du travailleur et ceux du maître ou de l’employeur."
+  }
+ ],
+ "lecons": [
+  {
+   "titre": "Dieu est propriétaire, je suis intendant",
+   "lectures": [
     {
-      "q": "Selon Psaume 24.1, à qui appartiennent la terre et ce qu’elle renferme ?",
-      "choix": [
-        "À l’Éternel",
-        "Aux rois de la terre",
-        "À ceux qui la travaillent",
-        "À personne"
-      ],
-      "bonne": 0,
-      "explication": "« A l’Éternel la terre et ce qu’elle renferme » (Psaume 24.1) : Dieu est propriétaire parce qu’il est créateur."
+     "ref": "Psaume 24.1-2",
+     "resume": "La terre et tout ce qu’elle contient appartiennent à l’Éternel, parce qu’il l’a fondée."
     },
     {
-      "q": "Que signifie le mot grec oikonomos, souvent traduit par « économe » ou « intendant » ?",
-      "choix": [
-        "Un propriétaire terrien",
-        "Un collecteur d’impôts",
-        "Celui qui gère la maison d’un autre et lui rend compte",
-        "Un marchand ambulant"
-      ],
-      "bonne": 2,
-      "explication": "L’oikonomos administre les biens de son maître ; c’est la position du chrétien face à ses biens (Luc 16.1-2)."
+     "ref": "Luc 16.10-13",
+     "resume": "La fidélité dans les petites choses prépare aux grandes ; on ne peut servir Dieu et Mamon."
     },
     {
-      "q": "Selon Matthieu 6.24, quels sont les deux maîtres qu’on ne peut pas servir en même temps ?",
-      "choix": [
-        "Le roi et le prêtre",
-        "Dieu et Mamon",
-        "Le père et la mère",
-        "La loi et la grâce"
-      ],
-      "bonne": 1,
-      "explication": "« Vous ne pouvez servir Dieu et Mamon » (Matthieu 6.24) : Mamon désigne la richesse devenue un maître."
+     "ref": "Matthieu 6.19-24",
+     "resume": "Amasser des trésors dans le ciel, garder l’œil sain et choisir son maître."
     },
     {
-      "q": "Dans la parabole des talents (Matthieu 25), qu’a fait le serviteur qui avait reçu un seul talent ?",
-      "choix": [
-        "Il l’a doublé",
-        "Il l’a dépensé",
-        "Il l’a donné aux pauvres",
-        "Il l’a caché dans la terre"
-      ],
-      "bonne": 3,
-      "explication": "Par peur, il a creusé la terre et caché le talent de son maître (Matthieu 25.18, 25)."
-    },
-    {
-      "q": "Dans la parabole des talents, que reçoivent les serviteurs qui avaient cinq et deux talents ?",
-      "choix": [
-        "La même louange : « C’est bien, bon et fidèle serviteur »",
-        "Une récompense proportionnelle à leur gain seulement",
-        "Un reproche pour ne pas avoir gagné plus",
-        "Leur liberté"
-      ],
-      "bonne": 0,
-      "explication": "Le maître leur adresse exactement les mêmes paroles (Matthieu 25.21, 23) : il récompense la fidélité, non la comparaison des résultats."
-    },
-    {
-      "q": "Selon Luc 16.10, celui qui est fidèle dans les moindres choses :",
-      "choix": [
-        "Restera toujours pauvre",
-        "L’est aussi dans les grandes",
-        "N’a pas besoin d’être fidèle dans les grandes",
-        "Sera récompensé par les hommes"
-      ],
-      "bonne": 1,
-      "explication": "« Celui qui est fidèle dans les moindres choses l’est aussi dans les grandes » (Luc 16.10)."
-    },
-    {
-      "q": "Selon 1 Timothée 6.10, qu’est-ce qui est une racine de tous les maux ?",
-      "choix": [
-        "L’argent",
-        "La pauvreté",
-        "L’amour de l’argent",
-        "Le commerce"
-      ],
-      "bonne": 2,
-      "explication": "Ce n’est pas l’argent lui-même, mais « l’amour de l’argent » qui est une racine de tous les maux (1 Timothée 6.10)."
-    },
-    {
-      "q": "Dans 2 Rois 4.1-7, qu’est-ce que le créancier menaçait de faire à la veuve ?",
-      "choix": [
-        "Prendre sa maison",
-        "La faire jeter en prison",
-        "Prendre son champ",
-        "Prendre ses deux enfants comme esclaves"
-      ],
-      "bonne": 3,
-      "explication": "« Le créancier est venu pour prendre mes deux enfants et en faire ses esclaves » (2 Rois 4.1)."
-    },
-    {
-      "q": "Après le miracle de l’huile, quelle instruction Élisée donne-t-il à la veuve ?",
-      "choix": [
-        "Garder l’huile pour les temps difficiles",
-        "Vendre l’huile, payer la dette et vivre du reste",
-        "Offrir toute l’huile au temple",
-        "Partager l’huile entre les voisins"
-      ],
-      "bonne": 1,
-      "explication": "« Va vendre l’huile, et paie ta dette ; et tu vivras, toi et tes fils, de ce qui restera » (2 Rois 4.7)."
-    },
-    {
-      "q": "Selon Proverbes 22.7, celui qui emprunte est :",
-      "choix": [
-        "Libre de ses choix",
-        "Béni de Dieu",
-        "L’esclave de celui qui prête",
-        "Plus sage que le riche"
-      ],
-      "bonne": 2,
-      "explication": "« Celui qui emprunte est l’esclave de celui qui prête » (Proverbes 22.7) : la dette restreint la liberté."
-    },
-    {
-      "q": "Selon Proverbes 21.5, à quoi mènent les projets de l’homme diligent ?",
-      "choix": [
-        "À l’abondance",
-        "À la disette",
-        "À la jalousie des autres",
-        "À l’orgueil"
-      ],
-      "bonne": 0,
-      "explication": "« Les projets de l’homme diligent ne mènent qu’à l’abondance, mais celui qui agit avec précipitation n’arrive qu’à la disette. »"
-    },
-    {
-      "q": "Selon 2 Corinthiens 9.7, Dieu aime celui qui donne :",
-      "choix": [
-        "Beaucoup",
-        "En public",
-        "Par obligation",
-        "Avec joie"
-      ],
-      "bonne": 3,
-      "explication": "« Que chacun donne… sans tristesse ni contrainte ; car Dieu aime celui qui donne avec joie » (2 Corinthiens 9.7)."
-    },
-    {
-      "q": "Comment les Églises de Macédoine ont-elles donné, selon 2 Corinthiens 8.1-5 ?",
-      "choix": [
-        "Seulement de leur superflu",
-        "Malgré leur pauvreté profonde, au-delà de leurs moyens et avec joie",
-        "Sous la contrainte de Paul",
-        "En exigeant une bénédiction en retour"
-      ],
-      "bonne": 1,
-      "explication": "Paul souligne leur joie et leur générosité au milieu de beaucoup de tribulations et malgré leur pauvreté profonde."
-    },
-    {
-      "q": "Dans Malachie 3.10, que dit Dieu à propos des dîmes ?",
-      "choix": [
-        "Qu’elles sont abolies",
-        "Qu’elles sont réservées aux riches",
-        "Apportez-les à la maison du trésor et mettez-moi à l’épreuve",
-        "Qu’il faut les garder pour soi"
-      ],
-      "bonne": 2,
-      "explication": "« Apportez à la maison du trésor toutes les dîmes… Mettez-moi de la sorte à l’épreuve » (Malachie 3.10)."
-    },
-    {
-      "q": "Dans un budget biblique simple, par quoi commence-t-on ?",
-      "choix": [
-        "Par donner à Dieu",
-        "Par les loisirs",
-        "Par les dépenses de prestige",
-        "Par emprunter pour les besoins du mois"
-      ],
-      "bonne": 0,
-      "explication": "Donner d’abord proclame que Dieu est premier (Proverbes 3.9), puis on épargne, on paie ses obligations et on vit avec le reste."
-    },
-    {
-      "q": "Selon Genèse 2.15, pourquoi Dieu a-t-il placé l’homme dans le jardin d’Éden ?",
-      "choix": [
-        "Pour s’y reposer sans rien faire",
-        "Pour le cultiver et pour le garder",
-        "Pour le vendre",
-        "Pour y attendre la chute"
-      ],
-      "bonne": 1,
-      "explication": "« L’Éternel Dieu… le plaça dans le jardin d’Éden pour le cultiver et pour le garder » (Genèse 2.15), avant même le péché."
-    },
-    {
-      "q": "Vrai ou faux : selon la Bible, le travail est une conséquence de la chute et donc une malédiction.",
-      "choix": [
-        "Vrai",
-        "Faux"
-      ],
-      "bonne": 1,
-      "explication": "Faux : le travail existait avant la chute (Genèse 2.15). Après le péché, c’est le sol qui est maudit et le travail devient pénible (Genèse 3.17-19)."
-    },
-    {
-      "q": "Selon Colossiens 3.23, comment le chrétien doit-il faire tout ce qu’il fait ?",
-      "choix": [
-        "Seulement quand le chef le regarde",
-        "Le plus vite possible",
-        "Pour plaire aux hommes",
-        "De bon cœur, comme pour le Seigneur"
-      ],
-      "bonne": 3,
-      "explication": "« Tout ce que vous faites, faites-le de bon cœur, comme pour le Seigneur et non pour des hommes » (Colossiens 3.23)."
-    },
-    {
-      "q": "Vrai ou faux : 2 Thessaloniciens 3.10 (« si quelqu’un ne veut pas travailler, qu’il ne mange pas non plus ») vise aussi les malades et les personnes âgées incapables de travailler.",
-      "choix": [
-        "Vrai",
-        "Faux"
-      ],
-      "bonne": 1,
-      "explication": "Faux : le texte vise celui qui ne veut pas travailler. Envers ceux qui ne peuvent pas, la Bible demande la solidarité."
-    },
-    {
-      "q": "Qu’a proposé Joseph à Pharaon pour préparer les sept années de famine ?",
-      "choix": [
-        "Prier sans rien prévoir",
-        "Emprunter du blé aux pays voisins",
-        "Prélever le cinquième des récoltes pendant l’abondance et le stocker",
-        "Réduire le nombre d’habitants de l’Égypte"
-      ],
-      "bonne": 2,
-      "explication": "Joseph conseille de prélever le cinquième des récoltes pendant les sept années d’abondance et de les garder en réserve (Genèse 41.34-36)."
+     "ref": "Matthieu 25.14-30",
+     "resume": "La parabole des talents : chacun rendra compte de ce qui lui a été confié."
     }
+   ],
+   "recit": {
+    "titre": "Les talents confiés",
+    "ref": "Matthieu 25.14-30",
+    "paragraphes": [
+     "Jésus est à Jérusalem, quelques jours avant sa mort. Assis sur le mont des Oliviers, il parle à ses disciples de son retour et de la manière dont ils doivent vivre en l’attendant. Il leur raconte alors l’histoire d’un homme qui part en voyage. Avant de partir, il appelle ses serviteurs et leur remet ses biens. À l’un, il donne cinq talents ; à un autre, deux ; au troisième, un seul, « à chacun selon sa capacité ». Puis il s’en va. Il faut mesurer l’ampleur de ce geste : un talent n’était pas une petite pièce, mais un poids d’argent considérable, qui représentait plusieurs années de salaire d’un ouvrier. Même le serviteur qui reçoit un seul talent tient une fortune entre ses mains.",
+     "Le premier serviteur ne perd pas de temps. « Aussitôt », dit le texte, il va faire valoir les cinq talents et en gagne cinq autres. Le deuxième fait de même et double les deux talents reçus. Le troisième, lui, creuse un trou dans la terre et y cache l’argent de son maître. Dans le monde ancien, enterrer un trésor était une manière connue de le protéger des voleurs ; il ne le vole pas, il ne le gaspille pas. Il ne fait simplement rien.",
+     "Longtemps après, le maître revient et fait rendre compte. Le premier s’avance : « Seigneur, tu m’as remis cinq talents ; voici, j’en ai gagné cinq autres. » Le maître répond : « C’est bien, bon et fidèle serviteur ; tu as été fidèle en peu de chose, je te confierai beaucoup ; entre dans la joie de ton maître. » Remarquez : cinq talents, une fortune, sont appelés « peu de chose » ! Le deuxième serviteur reçoit exactement la même louange, mot pour mot, alors qu’il n’a gagné que deux talents. Le maître ne compare pas les résultats ; il récompense la fidélité.",
+     "Vient le troisième. Il commence par une accusation : « Seigneur, je savais que tu es un homme dur, qui moissonnes où tu n’as pas semé… j’ai eu peur, et je suis allé cacher ton talent dans la terre ; voici, prends ce qui est à toi. » Le maître le prend au mot : si tu pensais vraiment cela, tu aurais au moins dû placer mon argent chez les banquiers pour en recevoir l’intérêt. Il l’appelle « serviteur méchant et paresseux », lui retire le talent et le donne à celui qui en a dix. Le serviteur inutile est jeté dehors.",
+     "Le drame du troisième serviteur n’est pas d’avoir reçu peu. C’est d’avoir eu une fausse image de son maître, de s’être laissé paralyser par la peur, et d’avoir oublié que l’argent qu’il gardait n’était pas à lui. Sa phrase finale le trahit : « prends ce qui est à toi ». Il a tenu le bien de son maître comme un fardeau, jamais comme une mission."
+    ],
+    "lecons": [
+     "Tout ce que nous avons nous est confié : nous en sommes les gérants, pas les propriétaires, et nous en rendrons compte.",
+     "Dieu ne nous compare pas aux autres ; il attend que chacun soit fidèle selon ce qu’il a reçu.",
+     "La peur et une fausse image de Dieu paralysent ; la confiance pousse à agir et à faire fructifier.",
+     "Ne rien faire de ce que Dieu nous confie n’est pas de la prudence : c’est de l’infidélité."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Psaume 24 : la terre est à l’Éternel",
+     "paragraphes": [
+      "Le Psaume 24 est attribué à David. Beaucoup de commentateurs pensent qu’il était chanté lors d’une procession vers le sanctuaire, peut-être en lien avec la montée de l’arche à Jérusalem (2 Samuel 6). Il se divise en trois parties : la royauté de Dieu sur la création (versets 1-2), la question de savoir qui peut monter à la montagne de l’Éternel (versets 3-6), et l’entrée triomphale du Roi de gloire (versets 7-10).",
+      "Le premier verset pose le fondement de toute la gestion biblique : « A l’Éternel la terre et ce qu’elle renferme, le monde et ceux qui l’habitent ! » La raison est donnée au verset 2 : « Car il l’a fondée sur les mers. » Dieu est propriétaire parce qu’il est créateur. Dans l’Orient ancien, les peuples attribuaient la mer et les forces du chaos à des divinités rivales. Le psalmiste affirme au contraire que même les mers sont sous l’autorité du seul vrai Dieu. Rien n’échappe à son droit de propriété : ni la terre, ni les ressources, ni les personnes. L’apôtre Paul cite ce verset en 1 Corinthiens 10.26 pour rappeler aux chrétiens que tout aliment vient de Dieu."
+     ]
+    },
+    {
+     "titre": "Luc 16.1-13 : l’économe et les deux maîtres",
+     "paragraphes": [
+      "Luc 15 contient trois paraboles adressées aux pharisiens qui critiquaient Jésus parce qu’il accueillait les pécheurs. Au chapitre 16, Jésus se tourne vers ses disciples et raconte l’histoire d’un économe, c’est-à-dire un gérant de domaine (en grec oikonomos), accusé d’avoir dilapidé les biens de son maître. Sur le point d’être renvoyé, il réduit les dettes des débiteurs pour se faire des amis. Le maître loue son habileté, non sa malhonnêteté. Jésus ne recommande pas la fraude ; il souligne que les gens de ce monde savent préparer leur avenir avec intelligence, alors que les enfants de lumière manquent souvent de prévoyance.",
+      "Les versets 10 à 13 tirent la leçon. « Celui qui est fidèle dans les moindres choses l’est aussi dans les grandes. » La fidélité ne commence pas quand on gère des millions ; elle se forme dans les petites sommes, les petites dépenses, la petite monnaie que l’on rend ou que l’on garde. Puis vient une logique surprenante : si vous n’avez pas été fidèles dans « les richesses injustes », qui vous confiera « les véritables » ? L’argent est appelé « injuste », non parce qu’il serait mauvais en soi, mais parce qu’il appartient à un monde marqué par le péché et qu’il pousse facilement à l’injustice. Il est le terrain d’entraînement de la fidélité. Enfin, verset 13 : « Nul serviteur ne peut servir deux maîtres… Vous ne pouvez servir Dieu et Mamon. » Le mot Mamon vient de l’araméen et désigne la richesse, ce sur quoi l’on s’appuie. Jésus en fait presque une personne, un maître concurrent qui réclame l’obéissance du cœur."
+     ]
+    },
+    {
+     "titre": "Matthieu 6.19-24 : deux trésors, deux regards, deux maîtres",
+     "paragraphes": [
+      "Dans le Sermon sur la montagne, Jésus enchaîne trois images. D’abord deux trésors : l’un sur la terre, exposé à la teigne, à la rouille et aux voleurs ; l’autre dans le ciel, que rien ne peut détruire. Dans le monde ancien, la richesse se gardait souvent en vêtements de prix (que la teigne ronge), en métaux et en réserves de grain : tout cela était fragile. Ensuite deux regards : « l’œil est la lampe du corps. » Dans la culture juive, un « œil mauvais » désignait l’avarice et un « œil bon » la générosité (voir Proverbes 22.9). Celui qui regarde les biens avec avidité se remplit de ténèbres. Enfin deux maîtres, que nous avons déjà rencontrés en Luc 16.",
+      "Le passage se poursuit avec l’enseignement sur l’inquiétude (versets 25-34). Le lien est essentiel : celui qui fait de l’argent son maître vit dans l’angoisse du lendemain, tandis que celui qui cherche « premièrement le royaume et la justice de Dieu » reçoit la promesse que le Père céleste pourvoira. La bonne gestion biblique n’est donc pas d’abord une technique ; c’est une question de confiance et de seigneurie."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "intendant, économe",
+     "langue": "grec",
+     "original": "oikonomos",
+     "sens": "Littéralement « celui qui gère la maison » : un serviteur chargé d’administrer les biens d’un autre, et qui doit lui rendre compte."
+    },
+    {
+     "mot": "Mamon",
+     "langue": "araméen",
+     "original": "mamôna",
+     "sens": "La richesse, les biens sur lesquels on s’appuie ; Jésus en fait un maître rival de Dieu."
+    },
+    {
+     "mot": "fidèle",
+     "langue": "grec",
+     "original": "pistos",
+     "sens": "Digne de confiance, sur qui l’on peut compter ; même racine que le mot « foi »."
+    },
+    {
+     "mot": "talent",
+     "langue": "grec",
+     "original": "talanton",
+     "sens": "Unité de poids servant à compter de grandes sommes d’argent ; un talent valait plusieurs années de salaire."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Propriétaire ou gérant : une révolution intérieure",
+     "paragraphes": [
+      "Toute la vision biblique de l’argent repose sur une distinction simple : Dieu est propriétaire, l’homme est intendant. Le propriétaire décide ; l’intendant exécute les volontés du propriétaire. Quand je dis « mon argent », « ma maison », « mon salaire », je parle juste au sens humain, mais spirituellement, je devrais dire : « l’argent que Dieu m’a confié ». David l’a exprimé lors des offrandes pour le temple : « Tout vient de toi, et nous recevons de ta main ce que nous t’offrons » (1 Chroniques 29.14). Moïse avait averti Israël avant l’entrée en Canaan : quand tu seras dans l’abondance, ne dis pas que c’est ta force qui t’a acquis ces richesses ; « souviens-toi de l’Éternel, ton Dieu, car c’est lui qui te donnera de la force pour les acquérir » (Deutéronome 8.17-18).",
+      "Cette vérité libère dans deux directions. Elle libère de l’orgueil : celui qui a beaucoup ne peut se vanter, car tout lui a été donné, y compris la santé, l’intelligence et les occasions qui lui ont permis de réussir. Elle libère aussi de la honte et de l’angoisse : celui qui a peu n’est pas moins précieux ; il est simplement appelé à être fidèle avec ce qu’il a. Le gérant n’a pas à porter le poids du propriétaire. Il demande : « Seigneur, que veux-tu que je fasse de ce que tu m’as confié ? »"
+     ]
+    },
+    {
+     "titre": "L’argent révèle le cœur",
+     "paragraphes": [
+      "Jésus enseigne que l’argent n’est jamais neutre dans notre vie. Il est soit un serviteur, soit un maître. Paul écrit que « l’amour de l’argent est une racine de tous les maux » (1 Timothée 6.10). Ce n’est pas l’argent qui est mauvais, mais l’amour de l’argent : cette disposition intérieure qui pousse à vouloir toujours plus, à mesurer sa valeur à ce que l’on possède, à sacrifier la vérité, la famille ou la foi pour gagner davantage. Paul ajoute que ceux qui veulent s’enrichir « tombent dans la tentation, dans le piège » (1 Timothée 6.9).",
+      "Comment savoir si l’argent est devenu mon maître ? Quelques questions aident : Est-ce que je pense à l’argent plus qu’à Dieu ? Est-ce que je suis prêt à mentir, tricher ou corrompre pour en obtenir ? Est-ce que je suis jaloux de ceux qui en ont plus ? Est-ce que je suis incapable de donner ? Est-ce que je me sens sans valeur quand je n’en ai pas ? Le contraire de l’amour de l’argent n’est pas la pauvreté, c’est le contentement : « C’est, en effet, une grande source de gain que la piété avec le contentement » (1 Timothée 6.6). Paul, qui avait connu l’abondance et la disette, disait avoir appris à être content dans l’état où il se trouvait (Philippiens 4.11-13)."
+     ]
+    },
+    {
+     "titre": "La fidélité dans les petites choses",
+     "paragraphes": [
+      "Beaucoup attendent d’avoir plus pour commencer à bien gérer : « Quand j’aurai un vrai salaire, je donnerai ; quand j’aurai plus, j’épargnerai. » Jésus renverse ce raisonnement : celui qui est fidèle dans peu le sera dans beaucoup, et celui qui est infidèle dans peu le sera dans beaucoup. Un gros salaire ne rend pas sage ; il amplifie simplement les habitudes déjà présentes. Celui qui gaspille cinq mille francs gaspillera cinq cent mille francs.",
+      "La fidélité se voit dans des détails : rendre la monnaie en trop que le commerçant vous a donnée, ne pas utiliser le matériel du bureau pour ses affaires personnelles, rembourser l’ami qui vous a prêté, tenir un petit carnet de ses dépenses, payer le transport au lieu de frauder. Ces gestes semblent minuscules, mais ils forment le caractère. Dieu observe ces petites choses, et c’est à travers elles qu’il prépare ses serviteurs à de plus grandes responsabilités, matérielles et spirituelles."
+     ]
+    },
+    {
+     "titre": "Rendre compte : une perspective d’éternité",
+     "paragraphes": [
+      "La parabole des talents se termine par un jour de reddition des comptes. Cette perspective est à la fois sérieuse et encourageante. Sérieuse, car nos choix financiers ont une portée éternelle : Paul demande aux riches d’être riches en bonnes œuvres, « de manière à s’amasser pour l’avenir un trésor placé sur un fondement solide » (1 Timothée 6.19). Encourageante, car le Maître se réjouit de ses serviteurs fidèles et les invite à « entrer dans sa joie ». Gérer pour Dieu, ce n’est pas vivre dans la peur d’un patron dur ; c’est servir un Seigneur généreux, qui a donné son propre Fils, et qui récompense même le verre d’eau donné en son nom (Matthieu 10.42).",
+      "Cette perspective change aussi la manière dont nous regardons ceux qui ont plus que nous. L’envie nous pousse à comparer, à murmurer, parfois à mépriser ou à flatter les riches. Jacques reproche aux chrétiens de faire asseoir le riche à la place d’honneur et de laisser le pauvre debout (Jacques 2.1-4). Devant le Maître, riches et pauvres sont des serviteurs qui rendront compte. Le riche doit apprendre l’humilité et la générosité, le pauvre doit apprendre la dignité et la confiance, et tous deux doivent apprendre la fidélité."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Psaume 24.1",
+     "texte": "A l’Éternel la terre et ce qu’elle renferme, Le monde et ceux qui l’habitent !"
+    },
+    {
+     "ref": "Luc 16.10",
+     "texte": "Celui qui est fidèle dans les moindres choses l’est aussi dans les grandes, et celui qui est injuste dans les moindres choses l’est aussi dans les grandes."
+    },
+    {
+     "ref": "Matthieu 6.24",
+     "texte": "Nul ne peut servir deux maîtres. Car, ou il haïra l’un, et aimera l’autre ; ou il s’attachera à l’un, et méprisera l’autre. Vous ne pouvez servir Dieu et Mamon."
+    },
+    {
+     "ref": "1 Corinthiens 4.2",
+     "texte": "Du reste, ce qu’on demande des dispensateurs, c’est que chacun soit trouvé fidèle."
+    },
+    {
+     "ref": "1 Timothée 6.10",
+     "texte": "Car l’amour de l’argent est une racine de tous les maux ; et quelques-uns, en étant possédés, se sont égarés loin de la foi, et se sont jeté eux-mêmes dans bien des tourments."
+    }
+   ],
+   "application": [
+    {
+     "titre": "Savoir où va mon argent",
+     "paragraphes": [
+      "Un intendant qui ne sait pas ce qu’il gère ne peut pas être fidèle. Pendant un mois, notez toutes vos dépenses, même les plus petites : transport, crédit téléphonique, boissons, recharges d’argent mobile, cotisations, aides à la famille. Beaucoup découvrent alors des fuites : de petites sommes répétées chaque jour qui finissent par représenter une grosse part du revenu. Ce carnet n’est pas un outil de culpabilité, mais de lucidité. Il permet de prier avec précision : « Seigneur, voici ce que tu m’as confié et voici ce que j’en fais. »"
+     ]
+    },
+    {
+     "titre": "Face à la pression de paraître",
+     "paragraphes": [
+      "Les réseaux sociaux exposent chaque jour des vies apparemment parfaites : voyages, vêtements de marque, voitures, fêtes somptueuses. Dans beaucoup de nos cultures, les mariages, les funérailles et les fêtes poussent aussi à dépenser au-delà de ses moyens pour ne pas « avoir honte ». Le disciple se rappelle que sa valeur ne vient pas de ce qu’il montre, mais de ce que Christ a payé pour lui. Avant un achat important, posez-vous la question : est-ce que j’achète cela pour servir Dieu et les miens, ou pour impressionner des gens ?"
+     ]
+    },
+    {
+     "titre": "Dans les petites responsabilités du quotidien",
+     "paragraphes": [
+      "Vous êtes trésorier d’un groupe de jeunes, d’une tontine ou d’une association ? Vous gérez la caisse d’une boutique ? Tenez des comptes clairs, faites-vous contrôler, ne mélangez jamais l’argent qui vous est confié avec le vôtre, même « pour un jour seulement ». Beaucoup de témoignages chrétiens ont été ruinés par de petites sommes empruntées en cachette dans une caisse. La transparence protège le gérant autant que le groupe."
+     ]
+    },
+    {
+     "titre": "Quand on a très peu",
+     "paragraphes": [
+      "Être intendant ne concerne pas seulement ceux qui ont des revenus confortables. Celui qui vit avec peu est appelé à la même fidélité, et Dieu voit ses efforts. Faites un inventaire de ce que Dieu vous a confié au-delà de l’argent : votre santé, vos compétences, votre temps, vos relations, un téléphone qui peut servir à apprendre. Le serviteur qui avait un seul talent avait déjà de quoi faire fructifier. Demandez à Dieu de vous montrer ce que vous pouvez commencer avec ce qui est dans votre main aujourd’hui."
+     ]
+    },
+    {
+     "titre": "Dans la famille et le couple",
+     "paragraphes": [
+      "L’intendance concerne aussi la manière dont on parle d’argent à la maison. Dans beaucoup de foyers, l’argent est source de disputes, de soupçons et de secrets : un conjoint cache ses revenus, l’autre cache ses dettes. Si tout appartient à Dieu, aucun des deux n’est « propriétaire » face à l’autre ; ils sont co-gérants devant le Seigneur. Prenez un moment, en couple ou en famille, pour lire ensemble Psaume 24.1 et dire à haute voix : « Seigneur, tout ce que nous avons t’appartient. » Puis mettez les chiffres sur la table, sans accusation, et décidez ensemble de vos priorités.",
+      "Aux parents : apprenez à vos enfants, dès le plus jeune âge, la différence entre recevoir, donner, épargner et dépenser. Une petite somme partagée en trois enveloppes (Dieu, épargne, dépenses) forme mieux un enfant que de longs discours. Vous préparez ainsi une génération d’intendants fidèles."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Aïcha, 27 ans, travaille comme vendeuse dans un magasin de téléphones. Son salaire est modeste. Chaque mois, elle s’endette auprès de collègues avant la fin du mois. Elle se dit qu’elle commencera à gérer correctement quand elle aura une promotion. Un jour, son patron lui confie aussi la caisse du magasin le week-end. Une amie lui suggère d’« emprunter » discrètement un peu d’argent de la caisse pour finir le mois, en promettant de le remettre lundi. Aïcha est chrétienne depuis deux ans et elle sent un malaise, mais elle se dit que ce n’est pas vraiment du vol puisqu’elle compte rembourser.",
+    "questions": [
+     "Quelles vérités de Luc 16.10-13 s’appliquent directement à la situation d’Aïcha ?",
+     "Pourquoi le raisonnement « je gérerai bien quand j’aurai plus » est-il dangereux ?",
+     "Quelles décisions concrètes proposeriez-vous à Aïcha pour sortir du cycle des dettes de fin de mois ?",
+     "Comment Aïcha pourrait-elle transformer cette responsabilité de caisse en témoignage ?"
+    ]
+   },
+   "reflexion": [
+    "Est-ce que je considère vraiment ce que je possède comme appartenant à Dieu ? Dans quel domaine ai-je encore du mal à lâcher prise ?",
+    "Quels signes de l’amour de l’argent puis-je reconnaître dans mon cœur ?",
+    "Dans quelles « petites choses » ai-je été infidèle ces derniers temps ?",
+    "Quelle image ai-je de Dieu quand je pense à l’argent : un maître dur ou un Père généreux ?"
+   ],
+   "retenir": [
+    "Tout appartient à Dieu ; je gère pour lui.",
+    "On ne peut servir Dieu et Mamon : l’argent est un bon serviteur mais un mauvais maître.",
+    "La fidélité se forme dans les petites choses, bien avant les grandes.",
+    "Je rendrai compte de ce qui m’a été confié, à un Maître qui récompense la fidélité."
+   ],
+   "memoriser": {
+    "ref": "Luc 16.10",
+    "texte": "Celui qui est fidèle dans les moindres choses l’est aussi dans les grandes, et celui qui est injuste dans les moindres choses l’est aussi dans les grandes."
+   },
+   "priere": "Seigneur, tout ce que j’ai vient de toi. Pardonne-moi d’avoir souvent agi comme un propriétaire et non comme ton intendant. Délivre mon cœur de l’amour de l’argent, apprends-moi le contentement et rends-moi fidèle dans les petites choses. Que je puisse un jour entendre ta voix me dire : c’est bien, bon et fidèle serviteur. Au nom de Jésus, amen.",
+   "illustration": "semence",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Tout ce qui existe appartient à l'Éternel.",
+      "vrai": true,
+      "explication": "« À l'Éternel la terre et ce qu'elle renferme » (Psaume 24.1)."
+     },
+     {
+      "affirmation": "On peut servir Dieu et Mamon en même temps, si l'on donne sa dîme.",
+      "vrai": false,
+      "explication": "« Vous ne pouvez servir Dieu et Mamon » (Matthieu 6.24)."
+     },
+     {
+      "affirmation": "Le serviteur qui a enterré son talent a été félicité pour sa prudence.",
+      "vrai": false,
+      "explication": "Le maître l'appelle « serviteur méchant et paresseux » (Matthieu 25.26)."
+     },
+     {
+      "affirmation": "Celui qui est fidèle dans les moindres choses l'est aussi dans les grandes.",
+      "vrai": true,
+      "explication": "Luc 16.10."
+     },
+     {
+      "affirmation": "La Bible dit que l'argent est la racine de tous les maux.",
+      "vrai": false,
+      "explication": "C'est « l'amour de l'argent » qui est une racine de tous les maux (1 Timothée 6.10), pas l'argent lui-même."
+     },
+     {
+      "affirmation": "Ce qu'on demande d'un administrateur, c'est qu'il soit trouvé fidèle.",
+      "vrai": true,
+      "explication": "1 Corinthiens 4.2."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque attitude : celle d'un gérant fidèle, ou celle de quelqu'un qui se croit propriétaire (ou esclave de l'argent) ?",
+     "categories": [
+      "Gérant fidèle",
+      "Propriétaire ou esclave de l'argent"
+     ],
+     "elements": [
+      {
+       "texte": "Je note mes dépenses pour savoir où va l'argent que Dieu me confie.",
+       "categorie": 0,
+       "explication": "« Connais bien chacune de tes brebis » (Proverbes 27.23)."
+      },
+      {
+       "texte": "J'utilise le matériel du bureau pour mes affaires personnelles car personne ne verra.",
+       "categorie": 1,
+       "explication": "Celui qui est injuste dans les moindres choses l'est aussi dans les grandes (Luc 16.10-11)."
+      },
+      {
+       "texte": "Je prends grand soin de la moto qu'on m'a prêtée.",
+       "categorie": 0,
+       "explication": "« Si vous n'avez pas été fidèles dans ce qui est à autrui, qui vous donnera ce qui est à vous ? » (Luc 16.12)."
+      },
+      {
+       "texte": "J'achète à crédit un téléphone très cher pour impressionner mes amis.",
+       "categorie": 1,
+       "explication": "La vie d'un homme ne dépend pas de ses biens (Luc 12.15)."
+      },
+      {
+       "texte": "Je demande à Dieu comment utiliser une prime reçue.",
+       "categorie": 0,
+       "explication": "« Honore l'Éternel avec tes biens » (Proverbes 3.9)."
+      },
+      {
+       "texte": "Je pense que mon salaire est à moi seul et que Dieu n'a rien à y voir.",
+       "categorie": 1,
+       "explication": "C'est Dieu qui donne la force pour acquérir des richesses (Deutéronome 8.17-18)."
+      },
+      {
+       "texte": "Je rends au vendeur la monnaie qu'il m'a donnée en trop.",
+       "categorie": 0,
+       "explication": "« La balance fausse est en horreur à l'Éternel » (Proverbes 11.1)."
+      },
+      {
+       "texte": "Je ne fais rien de mes capacités parce que j'ai reçu moins que les autres.",
+       "categorie": 1,
+       "explication": "Le serviteur à un seul talent l'a caché par peur, et a été repris (Matthieu 25.24-26)."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "titre": "Budget, dettes, épargne et générosité",
+   "lectures": [
+    {
+     "ref": "Proverbes 21.5 et 22.7",
+     "resume": "La diligence mène à l’abondance, la précipitation à la disette ; l’emprunteur devient esclave du prêteur."
+    },
+    {
+     "ref": "2 Rois 4.1-7",
+     "resume": "Une veuve menacée par un créancier est délivrée de sa dette par la grâce de Dieu et un travail concret."
+    },
+    {
+     "ref": "2 Corinthiens 9.6-15",
+     "resume": "Celui qui sème abondamment moissonne abondamment ; Dieu aime celui qui donne avec joie."
+    },
+    {
+     "ref": "Malachie 3.6-12",
+     "resume": "Dieu reproche à son peuple de retenir les dîmes et l’invite à le mettre à l’épreuve."
+    }
+   ],
+   "recit": {
+    "titre": "La veuve et le vase d’huile",
+    "ref": "2 Rois 4.1-7",
+    "paragraphes": [
+     "Nous sommes dans le royaume d’Israël, au neuvième siècle avant Jésus-Christ, à l’époque du prophète Élisée. Une femme vient crier vers lui. Son mari faisait partie des « fils des prophètes », ces groupes de disciples qui entouraient les prophètes et servaient Dieu. Il est mort. Elle le rappelle avec force : « Tu sais que ton serviteur craignait l’Éternel. » Pourtant, il a laissé des dettes. Et le créancier est venu prendre ses deux enfants pour en faire ses esclaves. La loi de l’époque permettait qu’un débiteur insolvable ou sa famille travaille au service du créancier jusqu’au remboursement. Pour cette mère, c’est la catastrophe : après son mari, elle va perdre ses fils.",
+     "Élisée ne commence pas par un sermon. Il pose deux questions : « Que puis-je faire pour toi ? Dis-moi, qu’as-tu à la maison ? » Elle répond : « Ta servante n’a rien du tout à la maison qu’un vase d’huile. » Rien… sauf un petit vase. C’est souvent ainsi : dans la détresse, nous voyons ce qui manque et oublions ce que Dieu a déjà mis dans notre main.",
+     "Le prophète lui donne alors des instructions précises et un peu étranges. Elle doit aller emprunter des vases vides chez tous ses voisins, « et n’en demande pas un petit nombre ». Puis elle doit rentrer, fermer la porte sur elle et sur ses fils, et verser l’huile dans tous ces vases, mettant de côté ceux qui sont pleins. Elle obéit. Ses fils lui apportent les vases, elle verse. Un vase se remplit, puis un autre, puis un autre encore. L’huile ne s’arrête pas. Quand elle demande un vase de plus, son fils répond : « Il n’y a plus de vase. » Et l’huile s’arrête.",
+     "Elle court l’annoncer à l’homme de Dieu. Sa réponse est d’une grande sagesse pratique : « Va vendre l’huile, et paie ta dette ; et tu vivras, toi et tes fils, de ce qui restera. » Le miracle ne sert pas d’abord à un luxe soudain. Il sert à rembourser la dette, à libérer les enfants, puis à assurer la vie de la famille. Il faudra encore vendre l’huile au marché, faire du commerce, compter, travailler.",
+     "Ce récit est d’une grande tendresse. Dieu voit une veuve endettée que tout le monde aurait pu oublier. Il honore la foi de son mari et l’obéissance de cette femme. Mais il lui demande aussi de participer : chercher des vases, les remplir, vendre l’huile, payer. La délivrance de la dette est à la fois un don de Dieu et un chemin d’obéissance concrète."
+    ],
+    "lecons": [
+     "Dieu se soucie des personnes écrasées par les dettes ; il n’est pas indifférent à notre situation financière.",
+     "La délivrance commence souvent par la question : « Qu’as-tu à la maison ? » Dieu part de ce qui est déjà dans notre main.",
+     "Le miracle est accompagné d’obéissance et de travail : emprunter des vases, verser, vendre, payer.",
+     "La priorité est de rembourser la dette, puis de vivre de ce qui reste : un ordre sage pour nos budgets."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Les Proverbes : sagesse pratique pour la vie quotidienne",
+     "paragraphes": [
+      "Le livre des Proverbes rassemble des paroles de sagesse attribuées en grande partie à Salomon. Il ne s’agit pas de promesses automatiques, mais de principes généraux qui décrivent la manière dont la vie fonctionne habituellement dans le monde que Dieu a créé. Proverbes 21.5 oppose deux attitudes : « Les projets de l’homme diligent ne mènent qu’à l’abondance, mais celui qui agit avec précipitation n’arrive qu’à la disette. » Le diligent planifie, travaille avec constance et réfléchit avant d’agir. Le précipité veut tout, tout de suite : achat impulsif, investissement miraculeux promis par un inconnu, jeu d’argent. La planification, c’est-à-dire le budget, n’est pas un manque de foi ; elle est la marque du sage.",
+      "Proverbes 22.7 énonce une réalité sociale : « Le riche domine sur les pauvres, et celui qui emprunte est l’esclave de celui qui prête. » Le mot hébreu traduit par « esclave » (‘éved) est fort : il désigne le serviteur qui n’est plus libre de ses choix. Le texte ne dit pas que tout emprunt est un péché ; la loi de Moïse réglemente les prêts et demande même de prêter généreusement au pauvre, sans intérêt (Exode 22.25 ; Deutéronome 15.7-8). Mais il avertit : la dette restreint la liberté. Proverbes 6.1-5 ajoute un avertissement contre le fait de se porter caution à la légère pour autrui, et conseille de se dégager au plus vite d’un tel engagement. Jésus, de son côté, enseigne de « calculer la dépense » avant de bâtir une tour (Luc 14.28)."
+     ]
+    },
+    {
+     "titre": "Malachie 3 : les dîmes et la confiance",
+     "paragraphes": [
+      "Malachie est le dernier prophète de l’Ancien Testament. Il parle après le retour de l’exil, au cinquième siècle avant Jésus-Christ. Le temple a été reconstruit, mais la ferveur a disparu. Les prêtres offrent des animaux défectueux, les mariages se défont, les gens se demandent à quoi bon servir Dieu. Dans ce contexte, Dieu accuse son peuple : « Un homme trompe-t-il Dieu ? Car vous me trompez, et vous dites : En quoi t’avons-nous trompé ? Dans les dîmes et les offrandes » (Malachie 3.8).",
+      "La dîme (en hébreu ma‘asér, « le dixième ») servait à entretenir les Lévites, qui n’avaient pas reçu de territoire, à soutenir le culte, et aussi à nourrir l’étranger, l’orphelin et la veuve (Deutéronome 14.28-29). Retenir la dîme revenait donc à priver à la fois Dieu et les plus fragiles. Le verset 10 contient une invitation unique : « Mettez-moi de la sorte à l’épreuve… et vous verrez si je n’ouvre pas pour vous les écluses des cieux. » Dans le contexte d’un peuple agricole, la bénédiction promise concerne la pluie, les récoltes et la protection contre les insectes ravageurs (verset 11). Le principe durable est que Dieu honore ceux qui l’honorent avec leurs biens, et que donner est un acte de confiance.",
+      "Les chrétiens évangéliques ne sont pas tous d’accord sur la place de la dîme aujourd’hui. Certains y voient une norme toujours valable, puisque Abraham et Jacob la pratiquaient déjà avant la loi (Genèse 14.20 ; 28.22). D’autres pensent que la dîme appartenait à l’organisation d’Israël, et que le Nouveau Testament nous appelle à une générosité libre, joyeuse et proportionnelle, pour laquelle la dîme reste un excellent point de départ. Les deux positions s’accordent sur l’essentiel : donner régulièrement, en priorité, et généreusement."
+     ]
+    },
+    {
+     "titre": "2 Corinthiens 8 et 9 : la grâce de donner",
+     "paragraphes": [
+      "Paul organise une collecte pour les chrétiens pauvres de Jérusalem, frappés par la disette. Il cite en exemple les Églises de Macédoine qui, « au milieu de beaucoup de tribulations… et malgré leur pauvreté profonde », ont donné au-delà de leurs moyens, avec joie (2 Corinthiens 8.1-5). Paul appelle cette générosité une « grâce » (charis) : donner est d’abord un fruit de la grâce de Dieu à l’œuvre en nous. Le modèle suprême est Christ : « pour vous il s’est fait pauvre, de riche qu’il était, afin que par sa pauvreté vous fussiez enrichis » (8.9).",
+      "Au chapitre 9, Paul utilise l’image des semailles : celui qui sème peu moissonne peu. Puis il ajoute : « Que chacun donne comme il l’a résolu en son cœur, sans tristesse ni contrainte ; car Dieu aime celui qui donne avec joie » (9.7). Le mot grec traduit par « avec joie » est hilaros, d’où vient notre mot « hilarant ». Le don chrétien n’est pas une taxe arrachée, mais un geste joyeux. Paul ne promet pas que le donateur deviendra riche ; il promet que Dieu pourvoira à ses besoins « afin que… vous ayez encore en abondance pour toute espèce de bonnes œuvres » (9.8). Dieu nous enrichit pour que nous puissions être généreux, et la générosité produit des actions de grâces envers Dieu (9.11-12)."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "dîme",
+     "langue": "hébreu",
+     "original": "ma‘asér",
+     "sens": "Le dixième ; part des revenus consacrée à Dieu pour le culte, les serviteurs de Dieu et les pauvres."
+    },
+    {
+     "mot": "emprunter",
+     "langue": "hébreu",
+     "original": "lavah",
+     "sens": "Emprunter, s’attacher à ; celui qui emprunte se lie à celui qui prête (Proverbes 22.7)."
+    },
+    {
+     "mot": "avec joie",
+     "langue": "grec",
+     "original": "hilaros",
+     "sens": "Joyeux, de bon cœur ; caractérise le donateur que Dieu aime (2 Corinthiens 9.7)."
+    },
+    {
+     "mot": "grâce",
+     "langue": "grec",
+     "original": "charis",
+     "sens": "Faveur imméritée ; Paul appelle la générosité des Macédoniens une grâce de Dieu (2 Corinthiens 8.1)."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Le budget : un plan pour obéir",
+     "paragraphes": [
+      "Un budget est tout simplement un plan écrit qui dit à l’argent où aller avant qu’il ne parte de lui-même. Ce n’est ni un outil réservé aux riches ni une marque de méfiance envers Dieu. Joseph a fait un plan pour sept années d’abondance et sept années de famine ; la fourmi « prépare en été sa nourriture » (Proverbes 6.8). Un budget biblique simple suit un ordre : donner d’abord, épargner ensuite, payer ses obligations (loyer, nourriture, transport, scolarité, dettes), puis vivre avec le reste.",
+      "Pourquoi donner en premier ? Parce que cela proclame que Dieu est premier. Les prémices de la récolte étaient offertes à Dieu avant d’en profiter (Proverbes 3.9-10). Pourquoi épargner ensuite ? Parce que celui qui attend d’avoir « du reste » n’épargne jamais. Même une petite somme mise de côté chaque mois forme une habitude et constitue une réserve pour les imprévus : maladie, perte d’emploi, décès dans la famille. Un budget doit être réaliste, écrit, révisé chaque mois, et, si l’on est marié, établi ensemble dans la transparence."
+     ]
+    },
+    {
+     "titre": "Les dettes : sortir de l’esclavage",
+     "paragraphes": [
+      "La Bible ne condamne pas tout emprunt, mais elle met en garde contre la dette et encourage à s’en libérer. Paul écrit : « Ne devez rien à personne, si ce n’est de vous aimer les uns les autres » (Romains 13.8). Il faut distinguer la dette de consommation (emprunter pour acheter un téléphone dernier modèle, une fête, des vêtements), qui appauvrit, et certains emprunts réfléchis, par exemple pour un logement ou un outil de travail, quand le remboursement est réaliste. Le Psaume 37.21 ajoute une exigence morale : « Le méchant emprunte, et il ne rend pas. » Rembourser ses dettes fait partie de l’honnêteté chrétienne.",
+      "Pour sortir des dettes : 1) faire la liste de toutes ses dettes, même petites, avec les montants et les créanciers ; 2) arrêter d’en contracter de nouvelles ; 3) parler honnêtement avec ses créanciers pour proposer un plan de remboursement ; 4) rembourser en commençant soit par la plus petite (pour l’encouragement), soit par la plus coûteuse en intérêts ; 5) célébrer chaque dette payée et rendre grâce. Méfiez-vous des crédits instantanés sur téléphone, des prêteurs informels aux taux écrasants, et des promesses de gains rapides. Ne vous portez pas caution sans réfléchir et sans prier (Proverbes 6.1-5)."
+     ]
+    },
+    {
+     "titre": "La générosité : adorer et faire confiance",
+     "paragraphes": [
+      "Donner n’est pas une perte, c’est un acte d’adoration. Le Nouveau Testament présente plusieurs formes de don : le soutien de l’Église locale et de ceux qui enseignent la Parole (Galates 6.6 ; 1 Corinthiens 9.14), l’aide aux pauvres (Galates 2.10), le soutien de la mission (Philippiens 4.15-18), et les dons spontanés à ceux qui sont dans le besoin. Jésus a remarqué la veuve qui a mis deux petites pièces dans le tronc du temple : elle avait donné plus que tous les autres, car elle avait donné « tout ce qu’elle avait pour vivre » (Marc 12.41-44). Dieu ne mesure pas le montant, mais le cœur et le sacrifice.",
+      "La générosité biblique est régulière (« que chacun de vous, le premier jour de la semaine, mette à part chez lui ce qu’il pourra », 1 Corinthiens 16.2), proportionnelle aux revenus, joyeuse et discrète (« que ta main gauche ne sache pas ce que fait ta droite », Matthieu 6.3). Elle ne doit pas être manipulée : aucun serviteur de Dieu ne peut vendre une bénédiction ou exiger de l’argent en échange d’un miracle. Simon le magicien fut sévèrement repris pour avoir cru que le don de Dieu s’achetait (Actes 8.18-20).",
+      "Il faut aussi rappeler que la générosité n’est jamais un moyen d’acheter la faveur de Dieu. Nous ne donnons pas pour être sauvés, ni pour forcer Dieu à nous enrichir, mais parce que nous avons déjà tout reçu en Christ. Le don chrétien est une réponse de reconnaissance. C’est pourquoi Paul termine son enseignement sur la collecte par une louange : « Grâces soient rendues à Dieu pour son don ineffable ! » (2 Corinthiens 9.15). Le plus grand don, c’est Jésus lui-même ; nos dons ne sont qu’un écho joyeux de ce don."
+     ]
+    },
+    {
+     "titre": "Épargner sans thésauriser",
+     "paragraphes": [
+      "L’épargne est sage, mais elle peut devenir une idole. Jésus raconte l’histoire du riche insensé qui démolit ses greniers pour en bâtir de plus grands et se dit : « Mon âme, tu as beaucoup de biens en réserve pour plusieurs années ; repose-toi, mange, bois, et réjouis-toi. » Mais Dieu lui dit : « Insensé ! cette nuit même ton âme te sera redemandée » (Luc 12.16-21). Son tort n’était pas d’avoir un grenier, mais d’avoir tout pensé pour lui-même, sans Dieu et sans les autres. L’épargne chrétienne a des buts : faire face aux imprévus sans tomber dans les dettes, préparer l’avenir de sa famille (Proverbes 13.22), investir dans un projet utile, et pouvoir donner davantage."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Proverbes 21.5",
+     "texte": "Les projets de l’homme diligent ne mènent qu’à l’abondance, Mais celui qui agit avec précipitation n’arrive qu’à la disette."
+    },
+    {
+     "ref": "Proverbes 22.7",
+     "texte": "Le riche domine sur les pauvres, Et celui qui emprunte est l’esclave de celui qui prête."
+    },
+    {
+     "ref": "2 Corinthiens 9.7",
+     "texte": "Que chacun donne comme il l’a résolu en son cœur, sans tristesse ni contrainte ; car Dieu aime celui qui donne avec joie."
+    },
+    {
+     "ref": "Malachie 3.10",
+     "texte": "Apportez à la maison du trésor toutes les dîmes, Afin qu’il y ait de la nourriture dans ma maison ; Mettez-moi de la sorte à l’épreuve, Dit l’Éternel des armées. Et vous verrez si je n’ouvre pas pour vous les écluses des cieux, Si je ne répands pas sur vous la bénédiction en abondance."
+    },
+    {
+     "ref": "Romains 13.8",
+     "texte": "Ne devez rien à personne, si ce n’est de vous aimer les uns les autres ; car celui qui aime les autres a accompli la loi."
+    }
+   ],
+   "application": [
+    {
+     "titre": "Établir un budget simple",
+     "paragraphes": [
+      "Prenez une feuille et faites quatre colonnes : revenus, dons, épargne, dépenses. Inscrivez d’abord tous vos revenus du mois, même irréguliers. Décidez ensuite du montant que vous donnerez et de celui que vous épargnerez, même petit. Puis répartissez le reste entre les dépenses indispensables. Si vos revenus varient (commerce, travail journalier), basez votre budget sur un mois faible et mettez de côté le surplus des bons mois. Revoyez ce budget chaque fin de mois avec honnêteté."
+     ]
+    },
+    {
+     "titre": "Argent mobile, crédits instantanés et jeux d’argent",
+     "paragraphes": [
+      "Les applications de prêt rapide sur téléphone rendent l’endettement très facile : quelques clics, et l’argent arrive. Mais les frais et les pénalités peuvent devenir écrasants. Les paris sportifs et les jeux d’argent promettent de « multiplier » une petite mise et piègent beaucoup de jeunes. Le disciple refuse la logique du gain facile et choisit la diligence de Proverbes 21.5. Si vous êtes déjà pris dans ces pièges, parlez-en à un responsable de confiance et faites un plan de sortie : on ne s’en sort pas seul dans la honte."
+     ]
+    },
+    {
+     "titre": "Tontines et solidarité familiale",
+     "paragraphes": [
+      "Dans beaucoup de pays, les tontines et l’entraide familiale sont des ressources précieuses. Elles peuvent aider à épargner et à financer des projets. Participez-y avec honnêteté, versez vos cotisations à temps et choisissez des groupes transparents. La solidarité familiale est une belle valeur biblique (1 Timothée 5.8), mais elle demande aussi de la sagesse : aider n’est pas entretenir la paresse, et il est permis, avec amour, de fixer des limites et de dire ce que votre budget permet réellement."
+     ]
+    },
+    {
+     "titre": "Donner même quand on a peu",
+     "paragraphes": [
+      "Beaucoup pensent qu’ils donneront « quand ils auront assez ». Or les Macédoniens ont donné dans leur pauvreté profonde, et la veuve a été louée pour deux petites pièces. Commencez maintenant, avec un pourcentage fixe de vos revenus, versé en premier. Ajoutez des gestes concrets : payer un repas à quelqu’un, aider un élève à acheter ses fournitures, soutenir un missionnaire. Vous découvrirez la joie de 2 Corinthiens 9.7 et la fidélité de Dieu qui pourvoit."
+     ]
+    },
+    {
+     "titre": "Préparer l’avenir avec foi",
+     "paragraphes": [
+      "Constituez progressivement une petite réserve pour les urgences, même si vous commencez avec une somme très modeste chaque semaine. Gardez-la dans un endroit séparé de l’argent du quotidien, pour ne pas la dépenser sans y penser. Cette réserve vous évitera de courir chez un prêteur au premier imprévu. Ensuite, fixez-vous un objectif d’épargne précis : la scolarité des enfants, un outil de travail, un petit commerce, un projet de logement. Un objectif écrit et daté donne la force de dire non aux dépenses inutiles.",
+      "Enfin, souvenez-vous que l’épargne n’est pas une assurance contre Dieu, mais un moyen de gérer sagement ce qu’il donne. Le chrétien épargne avec les mains ouvertes, prêt à aider un frère dans l’urgence, et sans jamais placer sa sécurité dans son compte plutôt que dans son Père céleste (Matthieu 6.31-33)."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Kevin et Grâce sont mariés depuis trois ans et ont un enfant. Kevin est chauffeur de taxi-moto, Grâce coiffe à domicile. Leurs revenus varient beaucoup selon les semaines. Ils ont contracté trois prêts sur des applications de téléphone, une dette chez un voisin et une autre auprès d’un oncle. Ils ne donnent plus rien à l’Église car « il ne reste rien ». Le mariage d’une cousine approche et la famille attend d’eux une forte contribution. Grâce veut emprunter encore pour ne pas être humiliée ; Kevin pense qu’il faut d’abord rembourser.",
+    "questions": [
+     "Quelles leçons du récit de la veuve d’Élisée peuvent aider ce couple ?",
+     "Quelles sont, dans l’ordre, les étapes concrètes que vous leur conseilleriez pour sortir des dettes ?",
+     "Comment peuvent-ils répondre à la pression familiale avec amour et vérité ?",
+     "Est-il possible de recommencer à donner tout en remboursant ? Comment ?"
+    ]
+   },
+   "reflexion": [
+    "Ai-je un budget écrit ? Si non, qu’est-ce qui m’en empêche vraiment ?",
+    "Quelles dettes ai-je aujourd’hui, et ai-je un plan pour les rembourser ?",
+    "Est-ce que je donne avec joie, avec tristesse, ou est-ce que je ne donne pas du tout ?",
+    "Dans quelle situation la pression sociale me pousse-t-elle à dépenser au-delà de mes moyens ?"
+   ],
+   "retenir": [
+    "Donner, épargner, dépenser avec sagesse, éviter les dettes.",
+    "Le budget est un plan d’obéissance, pas un manque de foi.",
+    "Celui qui emprunte devient esclave de celui qui prête : je cherche la liberté.",
+    "Dieu aime celui qui donne avec joie, régulièrement et selon ses moyens."
+   ],
+   "memoriser": {
+    "ref": "2 Corinthiens 9.7",
+    "texte": "Que chacun donne comme il l’a résolu en son cœur, sans tristesse ni contrainte ; car Dieu aime celui qui donne avec joie."
+   },
+   "priere": "Père, merci de prendre soin de moi comme tu as pris soin de la veuve. Donne-moi la sagesse de planifier, le courage de sortir de mes dettes, la discipline d’épargner et la joie de donner. Délivre-moi de la peur du manque et de la pression de paraître. Je te confie mes finances : qu’elles servent ton royaume. Au nom de Jésus, amen.",
+   "illustration": "balance",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Faire un budget montre un manque de foi.",
+      "vrai": false,
+      "explication": "« Les projets de l'homme diligent ne mènent qu'à l'abondance » (Proverbes 21.5) ; Jésus parle de calculer la dépense (Luc 14.28)."
+     },
+     {
+      "affirmation": "Celui qui emprunte est l'esclave de celui qui prête.",
+      "vrai": true,
+      "explication": "Proverbes 22.7."
+     },
+     {
+      "affirmation": "Dieu aime celui qui donne avec joie.",
+      "vrai": true,
+      "explication": "« Que chacun donne comme il l'a résolu en son cœur… car Dieu aime celui qui donne avec joie » (2 Corinthiens 9.7)."
+     },
+     {
+      "affirmation": "Élisée a donné de l'argent à la veuve pour payer sa dette.",
+      "vrai": false,
+      "explication": "Dieu a multiplié son huile ; elle l'a vendue pour payer sa dette (2 Rois 4.1-7)."
+     },
+     {
+      "affirmation": "Épargner, c'est toujours de l'avarice.",
+      "vrai": false,
+      "explication": "La fourmi prépare en été sa nourriture (Proverbes 6.6-8 ; 21.20). Ce qui est condamné, c'est d'amasser pour soi sans être riche pour Dieu (Luc 12.21)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque choix d'argent : gestion sage ou piège financier ?",
+     "categories": [
+      "Gestion sage",
+      "Piège financier"
+     ],
+     "elements": [
+      {
+       "texte": "Emprunter sur une application mobile pour faire un pari sportif.",
+       "categorie": 1,
+       "explication": "Ceux qui veulent s'enrichir tombent dans le piège (1 Timothée 6.9 ; Proverbes 22.7)."
+      },
+      {
+       "texte": "Mettre un peu de côté chaque mois pour les imprévus.",
+       "categorie": 0,
+       "explication": "« De précieux trésors et de l'huile sont dans la demeure du sage » (Proverbes 21.20)."
+      },
+      {
+       "texte": "Donner à Dieu en premier, même une petite somme, avec joie.",
+       "categorie": 0,
+       "explication": "Honore l'Éternel avec les prémices (Proverbes 3.9) ; la veuve a donné deux petites pièces (Marc 12.43-44)."
+      },
+      {
+       "texte": "Tout dépenser le jour de la paie, puis emprunter avant la fin du mois.",
+       "categorie": 1,
+       "explication": "« Celui qui agit avec précipitation n'arrive qu'à la disette » (Proverbes 21.5)."
+      },
+      {
+       "texte": "Participer à une tontine honnête en respectant ses engagements.",
+       "categorie": 0,
+       "explication": "« Le méchant emprunte, et il ne rend pas » (Psaume 37.21) : le juste tient parole."
+      },
+      {
+       "texte": "Promettre de l'argent à un « prophète » pour obtenir un miracle de richesse.",
+       "categorie": 1,
+       "explication": "Le don de Dieu ne s'achète pas (Actes 8.20) ; méfiance envers ceux qui trafiquent par cupidité (2 Pierre 2.3)."
+      },
+      {
+       "texte": "Rembourser ses dettes une par une selon un plan.",
+       "categorie": 0,
+       "explication": "« Ne devez rien à personne, si ce n'est de vous aimer les uns les autres » (Romains 13.8)."
+      },
+      {
+       "texte": "Se porter garant pour quelqu'un sans réfléchir.",
+       "categorie": 1,
+       "explication": "« Ne sois pas parmi ceux qui cautionnent pour des dettes » (Proverbes 22.26-27)."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "titre": "Le travail comme vocation",
+   "lectures": [
+    {
+     "ref": "Genèse 2.8-15 et 3.17-19",
+     "resume": "Dieu confie à l’homme le jardin pour le cultiver et le garder ; après la chute, le travail devient pénible, mais il n’est pas une malédiction en lui-même."
+    },
+    {
+     "ref": "Colossiens 3.22 à 4.1",
+     "resume": "Travailler de bon cœur, comme pour le Seigneur ; les maîtres doivent agir avec justice."
+    },
+    {
+     "ref": "2 Thessaloniciens 3.6-13",
+     "resume": "Paul a donné l’exemple du travail et exhorte ceux qui vivent dans l’oisiveté."
+    },
+    {
+     "ref": "Genèse 39.1-6 et 41.37-49",
+     "resume": "Joseph travaille avec fidélité comme esclave puis comme gouverneur, et Dieu fait prospérer son travail."
+    }
+   ],
+   "recit": {
+    "titre": "Joseph : fidèle dans la maison, la prison et le palais",
+    "ref": "Genèse 39 à 41",
+    "paragraphes": [
+     "Joseph a dix-sept ans quand ses frères, jaloux, le vendent à des marchands. Il arrive en Égypte comme esclave et est acheté par Potiphar, officier de Pharaon. Tout pourrait le pousser à l’amertume et à la paresse : il n’a pas choisi ce travail, il n’est pas payé, il est loin de sa famille. Pourtant le texte dit : « L’Éternel fut avec lui, et la prospérité l’accompagna. » Potiphar voit que tout ce que Joseph entreprend réussit. Il lui confie toute sa maison, et Dieu bénit la maison de l’Égyptien à cause de Joseph.",
+     "Puis vient l’épreuve. La femme de Potiphar le harcèle jour après jour pour qu’il couche avec elle. Joseph refuse : « Comment ferais-je un aussi grand mal et pécherais-je contre Dieu ? » Il comprend que son intégrité au travail n’est pas seulement une affaire de loyauté envers son patron, mais de fidélité envers Dieu. Un jour, elle le saisit par son vêtement ; il s’enfuit en le laissant entre ses mains. Elle l’accuse faussement, et Joseph est jeté en prison.",
+     "En prison, Joseph ne baisse pas les bras. Là encore, « l’Éternel fut avec Joseph », et le chef de la prison lui confie la responsabilité de tous les prisonniers. Il s’occupe des autres, remarque la tristesse de deux officiers de Pharaon, interprète leurs rêves. L’un d’eux, l’échanson, promet de parler de lui à Pharaon… puis l’oublie pendant deux longues années. Joseph continue de servir dans l’ombre.",
+     "Un jour, Pharaon fait deux rêves que personne ne peut expliquer. L’échanson se souvient enfin de Joseph. On le sort de prison, on le rase, on change ses vêtements. Devant le roi, Joseph déclare : « Ce n’est pas moi ! c’est Dieu qui donnera une réponse favorable à Pharaon. » Il annonce sept années d’abondance suivies de sept années de famine. Puis il ne se contente pas d’interpréter : il propose un plan concret. Nommer un homme intelligent et sage, prélever le cinquième des récoltes pendant les années d’abondance, stocker le blé dans les villes sous l’autorité de Pharaon, afin que le pays ne périsse pas pendant la famine.",
+     "Pharaon reconnaît en lui « un homme qui a en lui l’esprit de Dieu » et le place à la tête de toute l’Égypte. À trente ans, Joseph parcourt le pays, organise les réserves, amasse du blé « comme le sable de la mer ». Quand la famine arrive, l’Égypte et les pays voisins viennent acheter du blé. Le travail fidèle, compétent et intègre de Joseph sauve des multitudes de vies, y compris celle de sa propre famille."
+    ],
+    "lecons": [
+     "On peut honorer Dieu dans n’importe quel travail, même dans un poste qu’on n’a pas choisi.",
+     "L’intégrité au travail est d’abord une fidélité envers Dieu.",
+     "La compétence, la planification et l’excellence font partie de la spiritualité de Joseph.",
+     "Dieu peut se servir d’un travail fidèle et souvent caché pour bénir un pays entier."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Genèse 2.15 : le travail avant la chute",
+     "paragraphes": [
+      "Le récit de la création présente Dieu lui-même comme un travailleur : il crée, sépare, nomme, façonne, plante un jardin. Puis, au sommet de son œuvre, il crée l’homme à son image et lui confie une mission : dominer sur la terre et la soumettre, c’est-à-dire la gérer en son nom (Genèse 1.28). Genèse 2.15 précise : « L’Éternel Dieu prit l’homme, et le plaça dans le jardin d’Éden pour le cultiver et pour le garder. » Tout cela se passe avant le péché. Le travail n’est donc pas une punition : il fait partie de la bonne création de Dieu.",
+      "Les deux verbes hébreux sont riches. « Cultiver » traduit ‘avad, qui signifie aussi « servir » et qui est employé ailleurs pour le service de Dieu dans le culte. « Garder » traduit shamar, veiller, protéger, garder les commandements. Travailler la terre et servir Dieu sont ainsi liés dès l’origine. Après la chute, Dieu ne dit pas « le travail est maudit », mais « le sol sera maudit à cause de toi » ; le travail devient pénible, fait de sueur, d’épines et de frustrations (Genèse 3.17-19). Le péché a abîmé le travail, il ne l’a pas supprimé. En Christ, le travail peut retrouver son sens premier : servir Dieu et prendre soin du monde.",
+      "Le Nouveau Testament confirme cette perspective. Dans le monde gréco-romain, beaucoup de gens instruits méprisaient le travail manuel, jugé digne des esclaves. Les premiers chrétiens, eux, comptaient parmi leurs membres des artisans, des pêcheurs, des marchands et des esclaves, et ils ne voyaient aucune honte à travailler de leurs mains. Paul, formé aux pieds du célèbre maître Gamaliel (Actes 22.3), fabriquait des tentes et s’en faisait un honneur (Actes 20.34-35)."
+     ]
+    },
+    {
+     "titre": "Colossiens 3.22 à 4.1 : travailler pour le Seigneur",
+     "paragraphes": [
+      "Paul écrit de prison aux chrétiens de Colosses, une petite ville d’Asie Mineure. Dans la section 3.18 à 4.1, il s’adresse aux membres de la maison : épouses et maris, enfants et pères, esclaves et maîtres. Les « serviteurs » (en grec douloi) étaient des esclaves. Paul ne justifie pas l’esclavage ; dans la lettre à Philémon, envoyée en même temps, il demande à un maître d’accueillir son esclave fugitif Onésime « non plus comme un esclave, mais… comme un frère bien-aimé » (Philémon 16). L’Évangile sème ainsi les graines qui feront tomber cette institution. Mais aux chrétiens qui vivent dans cette situation, Paul donne une dignité nouvelle : ils peuvent servir Christ à travers leur travail.",
+      "Le verset 23 dit littéralement : « Tout ce que vous faites, travaillez-le de l’âme (ek psychès), comme pour le Seigneur et non pour des hommes. » Travailler de bon cœur, c’est y mettre toute sa personne. Le verset 22 précise : non pas seulement « sous leurs yeux », comme pour plaire aux hommes, mais avec simplicité de cœur, dans la crainte du Seigneur. Le chrétien travaille de la même façon quand le chef est présent et quand il est absent, car son vrai Maître le voit toujours. Et la récompense vient du Seigneur : « l’héritage ». Enfin, 4.1 rappelle aux maîtres qu’ils ont eux aussi un Maître dans le ciel et qu’ils doivent accorder ce qui est juste et équitable. Ce principe s’applique aujourd’hui aux employeurs, aux chefs d’équipe et aux entrepreneurs chrétiens."
+     ]
+    },
+    {
+     "titre": "2 Thessaloniciens 3.6-13 : contre l’oisiveté",
+     "paragraphes": [
+      "À Thessalonique, certains chrétiens avaient cessé de travailler. Peut-être pensaient-ils que le retour de Christ était si proche que le travail ne servait plus à rien ; peut-être profitaient-ils de la générosité de l’Église. Paul les appelle des gens qui vivent « dans le désordre » (ataktôs, comme des soldats qui ont quitté les rangs), « qui ne travaillent pas, mais qui s’occupent de futilités ». Il rappelle son propre exemple : il a travaillé « nuit et jour » de ses mains, alors qu’il aurait pu demander à être soutenu, pour ne pas être à charge (3.8-9).",
+      "Le principe du verset 10 est clair : « Si quelqu’un ne veut pas travailler, qu’il ne mange pas non plus. » Il faut bien lire le texte : il vise celui qui ne veut pas travailler, et non celui qui ne peut pas (malade, âgé, handicapé, chômeur cherchant sincèrement un emploi). Pour ces derniers, la Bible commande au contraire la solidarité. Paul conclut : « Pour vous, frères, ne vous lassez pas de faire le bien » (3.13). Le travail permet de subvenir à ses besoins, de ne pas être à charge et, selon Éphésiens 4.28, « d’avoir de quoi donner à celui qui est dans le besoin »."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "cultiver, servir",
+     "langue": "hébreu",
+     "original": "‘avad",
+     "sens": "Travailler, servir ; le même verbe désigne le travail de la terre et le service rendu à Dieu."
+    },
+    {
+     "mot": "garder",
+     "langue": "hébreu",
+     "original": "shamar",
+     "sens": "Veiller sur, protéger, prendre soin ; l’homme est gardien de la création."
+    },
+    {
+     "mot": "de bon cœur",
+     "langue": "grec",
+     "original": "ek psychès",
+     "sens": "Littéralement « de l’âme » : avec toute sa personne, sincèrement et avec énergie."
+    },
+    {
+     "mot": "dans le désordre",
+     "langue": "grec",
+     "original": "ataktôs",
+     "sens": "Hors des rangs, indiscipliné ; décrit ceux qui refusaient de travailler à Thessalonique."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Le travail est une vocation",
+     "paragraphes": [
+      "Le mot « vocation » vient du latin vocare, appeler. Dire que le travail est une vocation, c’est dire que Dieu nous appelle à le servir non seulement le dimanche à l’église, mais aussi le lundi au bureau, au champ, à l’atelier, à l’hôpital, au marché ou à la maison. Il n’y a pas d’un côté des métiers « spirituels » et de l’autre des métiers « profanes ». Bezaleel, l’artisan qui construisit le tabernacle, était « rempli de l’Esprit de Dieu, de sagesse, d’intelligence et de savoir pour toutes sortes d’ouvrages » (Exode 31.3). Jésus lui-même a travaillé de ses mains comme charpentier (Marc 6.3) pendant bien plus d’années qu’il n’a prêché.",
+      "Cela donne une immense dignité à chaque travail honnête. La mère qui élève ses enfants, l’agriculteur qui nourrit la ville, le balayeur qui garde les rues propres, l’informaticien qui sécurise un système : tous participent à l’œuvre de Dieu qui prend soin de sa création et de ses créatures. Le chrétien n’a pas à mépriser son travail, même modeste, ni à envier celui des autres."
+     ]
+    },
+    {
+     "titre": "Les marques du travailleur chrétien",
+     "paragraphes": [
+      "L’Écriture décrit plusieurs qualités qui font du travail un témoignage. L’honnêteté : ne pas voler le temps ni le matériel de l’employeur, ne pas falsifier les comptes, refuser la corruption (« tu ne recevras point de présent ; car les présents aveuglent ceux qui ont les yeux ouverts », Exode 23.8). La diligence : « Si tu vois un homme habile dans son ouvrage, il se tient auprès des rois » (Proverbes 22.29). La ponctualité et la fiabilité, qui traduisent le respect des autres. Le respect des autorités, même difficiles (1 Pierre 2.18), sans pour autant obéir à un ordre contraire à la loi de Dieu (Actes 5.29). Daniel en est un modèle : ses ennemis ne trouvèrent en lui « ni faute, ni rien de mauvais, parce qu’il était fidèle » (Daniel 6.4).",
+      "L’excellence chrétienne n’est pas le perfectionnisme anxieux ni la course à la réussite. C’est faire de son mieux avec les dons reçus, apprendre, se former, et accepter les limites humaines avec humilité. Le chrétien travaille pour la gloire de Dieu, non pour la sienne.",
+      "Le travailleur chrétien se distingue aussi par sa manière de parler et de se comporter avec ses collègues. Il refuse les commérages, les murmures permanents contre la hiérarchie et les intrigues pour obtenir une place. Paul écrit : « Faites toutes choses sans murmures ni hésitations, afin que vous soyez irréprochables et purs, des enfants de Dieu irrépréhensibles au milieu d’une génération perverse et corrompue, parmi laquelle vous brillez comme des flambeaux dans le monde » (Philippiens 2.14-15). Dans un bureau, une usine ou un marché, un chrétien qui encourage, qui reconnaît le travail des autres et qui garde sa parole devient une lumière que l’on remarque."
+     ]
+    },
+    {
+     "titre": "Entreprendre, créer, servir la société",
+     "paragraphes": [
+      "La femme vertueuse de Proverbes 31 achète un champ, plante une vigne, fabrique des vêtements et les vend, et elle « tend la main au malheureux ». Elle est entreprenante, travailleuse et généreuse. Lydie, à Philippes, était marchande de pourpre et mit sa maison au service de l’Église naissante (Actes 16.14-15). Aquilas et Priscille fabriquaient des tentes avec Paul (Actes 18.3). Entreprendre, innover, créer des emplois peut être un vrai service rendu à Dieu et à la société, surtout dans des pays où le chômage frappe beaucoup de jeunes.",
+      "L’entrepreneur chrétien porte une responsabilité particulière : payer un salaire juste et à temps (« le salaire de ton mercenaire ne restera pas chez toi jusqu’au lendemain », Lévitique 19.13 ; voir aussi Jacques 5.4), respecter la loi et payer ses impôts (Romains 13.6-7), traiter ses employés avec dignité, refuser les pots-de-vin même quand « tout le monde le fait »."
+     ]
+    },
+    {
+     "titre": "Le travail à sa juste place",
+     "paragraphes": [
+      "Le travail est un bien, mais il ne doit pas devenir une idole. L’Ecclésiaste décrit l’homme qui travaille sans fin, seul, sans jamais être rassasié (Ecclésiaste 4.8). Dieu a donné le travail et le repos ensemble : six jours de travail, un jour de repos. Notre identité ne se trouve pas dans notre poste, notre salaire ou notre titre, mais dans le fait d’être enfants de Dieu. Le chômeur, le retraité ou le malade ne perdent pas leur valeur. Et le chrétien qui réussit se souvient que son travail est un service, non un trône.",
+      "Le travail a enfin une dimension d’espérance. Paul termine son grand chapitre sur la résurrection par ces mots : « Ainsi, mes frères bien-aimés, soyez fermes, inébranlables, travaillant de mieux en mieux à l’œuvre du Seigneur, sachant que votre travail ne sera pas vain dans le Seigneur » (1 Corinthiens 15.58). Même lorsque notre travail paraît inutile, mal payé ou oublié, comme celui de Joseph en prison, rien de ce qui est fait pour Christ n’est perdu. Le Seigneur voit, se souvient et récompense. Cette assurance donne la force de persévérer dans la fidélité quand les résultats tardent."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Genèse 2.15",
+     "texte": "L’Éternel Dieu prit l’homme, et le plaça dans le jardin d’Éden pour le cultiver et pour le garder."
+    },
+    {
+     "ref": "Colossiens 3.23-24",
+     "texte": "Tout ce que vous faites, faites-le de bon cœur, comme pour le Seigneur et non pour des hommes, sachant que vous recevrez du Seigneur l’héritage pour récompense. Servez Christ, le Seigneur."
+    },
+    {
+     "ref": "2 Thessaloniciens 3.10",
+     "texte": "Car, lorsque nous étions chez vous, nous vous disions expressément : Si quelqu’un ne veut pas travailler, qu’il ne mange pas non plus."
+    },
+    {
+     "ref": "Éphésiens 4.28",
+     "texte": "Que celui qui dérobait ne dérobe plus ; mais plutôt qu’il travaille, en faisant de ses mains ce qui est bien, pour avoir de quoi donner à celui qui est dans le besoin."
+    },
+    {
+     "ref": "Proverbes 22.29",
+     "texte": "Si tu vois un homme habile dans son ouvrage, Il se tient auprès des rois ; Il ne se tient pas auprès des gens obscurs."
+    }
+   ],
+   "application": [
+    {
+     "titre": "Face à la corruption",
+     "paragraphes": [
+      "Dans beaucoup de lieux, obtenir un document, un marché ou un emploi semble impossible sans « motiver » quelqu’un. Le disciple refuse de donner ou de recevoir des pots-de-vin. Cela peut coûter : un dossier qui traîne, une promotion perdue. Joseph a perdu sa place pour être resté intègre, mais Dieu était avec lui. Priez pour la sagesse, cherchez les voies légales, documentez vos démarches, entourez-vous d’autres chrétiens qui ont le même engagement, et faites confiance à Dieu pour la suite."
+     ]
+    },
+    {
+     "titre": "Quand le patron n’est pas là",
+     "paragraphes": [
+      "Colossiens 3.22 nous libère de la logique « je travaille seulement quand on me surveille ». Que vous soyez en télétravail, seul dans la boutique ou en mission sur le terrain, travaillez comme si Christ était votre chef d’équipe, car il l’est. Arrivez à l’heure, remplissez honnêtement vos fiches de temps, n’utilisez pas les heures de travail pour vos réseaux sociaux personnels. Ce sont des actes d’adoration silencieux."
+     ]
+    },
+    {
+     "titre": "Le chômage et le travail précaire",
+     "paragraphes": [
+      "Être sans emploi ou vivre de petits travaux n’est pas une honte devant Dieu. Joseph a connu des années d’attente. Utilisez ce temps pour apprendre un métier, vous former en ligne, rendre service, développer une petite activité honnête. Acceptez les travaux modestes sans les mépriser. L’Église doit aussi être une communauté qui aide ses membres à trouver du travail, partage les offres et soutient ceux qui traversent cette épreuve."
+     ]
+    },
+    {
+     "titre": "Pour l’employeur et l’entrepreneur",
+     "paragraphes": [
+      "Si vous dirigez des personnes, souvenez-vous que vous avez un Maître dans le ciel (Colossiens 4.1). Payez à temps, déclarez vos employés si la loi le demande, écoutez-les, formez-les, et ne les traitez jamais comme de simples outils. Votre entreprise peut devenir un lieu où l’Évangile se voit à travers la justice et le respect."
+     ]
+    },
+    {
+     "titre": "Pour les étudiants et les apprentis",
+     "paragraphes": [
+      "Vos études et votre apprentissage sont déjà votre travail actuel. Les principes de Colossiens 3.23 s’y appliquent pleinement : assiduité aux cours, honnêteté aux examens (refuser la fraude et l’achat de notes), respect des enseignants et des maîtres d’atelier, effort même dans les matières que vous aimez moins. Daniel et ses compagnons ont étudié la langue et la littérature des Chaldéens, et Dieu leur a donné « de la science, de l’intelligence dans toutes les lettres » (Daniel 1.17). L’excellence d’aujourd’hui dans vos études prépare la fidélité de demain dans votre métier.",
+      "Demandez à Dieu de vous montrer quels dons il a mis en vous et quels besoins vous voyez autour de vous. La vocation se trouve souvent à la rencontre de ces deux réalités : ce que Dieu vous a donné de savoir faire, et ce dont votre communauté a besoin."
+     ]
+    },
+    {
+     "titre": "Au foyer et dans le travail non payé",
+     "paragraphes": [
+      "Beaucoup de travail précieux n’est pas rémunéré : s’occuper des enfants, soigner un parent âgé, tenir la maison, servir bénévolement à l’Église ou dans le quartier. Ce travail compte aux yeux de Dieu autant que n’importe quel emploi salarié. La femme de Proverbes 31 est louée pour la manière dont elle prend soin de sa maison autant que pour son commerce. Si vous êtes dans cette situation, faites-le « comme pour le Seigneur » ; et si vous bénéficiez de ce travail, honorez et remerciez ceux qui l’accomplissent."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Samuel, 34 ans, est agent dans un service administratif. Il est souvent en retard, passe beaucoup de temps sur son téléphone et pense que son salaire est trop bas pour qu’il fasse plus d’efforts. Un usager lui propose de l’argent pour accélérer son dossier, « comme tout le monde le fait ». Samuel est chrétien et prêche le dimanche dans sa paroisse. Un collègue non croyant lui dit un jour en riant : « Toi, le pasteur, tu ne travailles pas plus que nous ! »",
+    "questions": [
+     "Que nous apprend la remarque du collègue sur le lien entre travail et témoignage ?",
+     "Quels textes de la leçon répondent à l’idée qu’un salaire bas justifie un travail médiocre ?",
+     "Que devrait faire Samuel face à la proposition de l’usager ? Quelles conséquences doit-il accepter ?",
+     "Proposez trois changements concrets que Samuel peut commencer dès demain."
+    ]
+   },
+   "reflexion": [
+    "Est-ce que je vois mon travail actuel (ou mes études) comme un appel de Dieu ?",
+    "Est-ce que je travaille de la même manière quand je suis observé et quand je ne le suis pas ?",
+    "Y a-t-il un domaine où je suis tenté par la corruption ou la malhonnêteté ?",
+    "Mon travail a-t-il pris la place de Dieu, de ma famille ou de mon repos ?"
+   ],
+   "retenir": [
+    "Je travaille pour le Seigneur, avec excellence.",
+    "Le travail existait avant la chute : c’est une vocation, pas une malédiction.",
+    "L’intégrité au travail est un témoignage puissant, même si elle coûte.",
+    "Je travaille pour subvenir à mes besoins et pour avoir de quoi donner."
+   ],
+   "memoriser": {
+    "ref": "Colossiens 3.23-24",
+    "texte": "Tout ce que vous faites, faites-le de bon cœur, comme pour le Seigneur et non pour des hommes, sachant que vous recevrez du Seigneur l’héritage pour récompense. Servez Christ, le Seigneur."
+   },
+   "priere": "Seigneur Jésus, toi qui as travaillé de tes mains, apprends-moi à voir mon travail comme un service pour toi. Rends-moi honnête, diligent et fidèle, même quand personne ne me regarde. Garde-moi de la corruption et de la paresse, mais aussi de l’idolâtrie du travail. Que mon travail bénisse les autres et te rende gloire. Amen.",
+   "illustration": "mains",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Le travail est apparu comme une punition après la chute.",
+      "vrai": false,
+      "explication": "Avant la chute, Dieu plaça l'homme dans le jardin « pour le cultiver et pour le garder » (Genèse 2.15)."
+     },
+     {
+      "affirmation": "Joseph est resté fidèle et travailleur même en prison.",
+      "vrai": true,
+      "explication": "Le chef de la prison lui confia tout, car l'Éternel était avec lui (Genèse 39.21-23)."
+     },
+     {
+      "affirmation": "Paul a écrit : si quelqu'un ne veut pas travailler, qu'il ne mange pas non plus.",
+      "vrai": true,
+      "explication": "2 Thessaloniciens 3.10."
+     },
+     {
+      "affirmation": "Seul le travail à l'église est un service pour Dieu ; le travail ordinaire ne compte pas.",
+      "vrai": false,
+      "explication": "« Tout ce que vous faites, faites-le de bon cœur, comme pour le Seigneur » (Colossiens 3.23-24)."
+     },
+     {
+      "affirmation": "Un des buts du travail est d'avoir de quoi donner à celui qui est dans le besoin.",
+      "vrai": true,
+      "explication": "Éphésiens 4.28."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque attitude au travail.",
+     "categories": [
+      "Travail qui honore Dieu",
+      "Attitude à corriger"
+     ],
+     "elements": [
+      {
+       "texte": "Je fais du bon travail même quand le chef n'est pas là.",
+       "categorie": 0,
+       "explication": "Non pas seulement sous leurs yeux, mais avec simplicité de cœur (Colossiens 3.22)."
+      },
+      {
+       "texte": "Je donne « un petit quelque chose » au fonctionnaire pour passer devant tout le monde.",
+       "categorie": 1,
+       "explication": "« Tu ne recevras point de présent ; car les présents aveuglent » (Exode 23.8 ; Proverbes 17.23)."
+      },
+      {
+       "texte": "Je me forme pour devenir plus compétent dans mon métier.",
+       "categorie": 0,
+       "explication": "« Si tu vois un homme habile dans son ouvrage, il se tient auprès des rois » (Proverbes 22.29)."
+      },
+      {
+       "texte": "Je travaille sept jours sur sept sans jamais m'arrêter pour Dieu ni pour ma famille.",
+       "categorie": 1,
+       "explication": "Six jours tu travailleras, mais le septième est le jour du repos (Exode 20.9-10 ; Psaume 127.2)."
+      },
+      {
+       "texte": "Patron, je paie mes ouvriers à temps et justement.",
+       "categorie": 0,
+       "explication": "Le salaire retenu des ouvriers crie (Jacques 5.4 ; Colossiens 4.1)."
+      },
+      {
+       "texte": "Je refuse tout petit travail en attendant un poste « digne de mes diplômes ».",
+       "categorie": 1,
+       "explication": "« Tout travail procure l'abondance » (Proverbes 14.23 ; 2 Thessaloniciens 3.12)."
+      },
+      {
+       "texte": "Je ridiculise mon employeur sur les réseaux sociaux.",
+       "categorie": 1,
+       "explication": "Qu'il ne sorte de votre bouche aucune parole mauvaise (Éphésiens 4.29 ; Tite 2.9-10)."
+      },
+      {
+       "texte": "Une mère au foyer qui prend soin de sa maison accomplit une vraie vocation.",
+       "categorie": 0,
+       "explication": "« Elle veille sur ce qui se passe dans sa maison… ses fils se lèvent et la disent heureuse » (Proverbes 31.27-28)."
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "pratique": {
+  "consigne": "Établissez un budget écrit (dons, épargne, dépenses, plan de remboursement des dettes s’il y en a) et appliquez-le pendant un mois. Choisissez aussi un domaine de votre travail où vous voulez exceller davantage. À la fin du mois, décrivez par écrit ce que vous avez appris.",
+  "etapes": [
+   "Pendant la première semaine, notez toutes vos dépenses, même les plus petites.",
+   "Établissez un budget écrit : revenus, dons, épargne, dépenses indispensables, et la liste complète de vos dettes avec un plan de remboursement.",
+   "Si vous êtes marié, préparez ce budget avec votre conjoint ; sinon, présentez-le à une personne mature de confiance.",
+   "Choisissez un engagement concret au travail ou dans vos études (ponctualité, honnêteté, qualité, formation) et tenez-le tout le mois.",
+   "À la fin du mois, comparez le budget prévu et les dépenses réelles, puis écrivez une page : ce qui a changé, les difficultés rencontrées, et comment vous avez vu Dieu agir."
   ]
+ },
+ "examen": [
+  {
+   "q": "Selon Psaume 24.1, à qui appartiennent la terre et ce qu’elle renferme ?",
+   "choix": [
+    "À l’Éternel",
+    "Aux rois de la terre",
+    "À ceux qui la travaillent",
+    "À personne"
+   ],
+   "bonne": 0,
+   "explication": "« A l’Éternel la terre et ce qu’elle renferme » (Psaume 24.1) : Dieu est propriétaire parce qu’il est créateur."
+  },
+  {
+   "q": "Que signifie le mot grec oikonomos, souvent traduit par « économe » ou « intendant » ?",
+   "choix": [
+    "Un propriétaire terrien",
+    "Un collecteur d’impôts",
+    "Celui qui gère la maison d’un autre et lui rend compte",
+    "Un marchand ambulant"
+   ],
+   "bonne": 2,
+   "explication": "L’oikonomos administre les biens de son maître ; c’est la position du chrétien face à ses biens (Luc 16.1-2)."
+  },
+  {
+   "q": "Selon Matthieu 6.24, quels sont les deux maîtres qu’on ne peut pas servir en même temps ?",
+   "choix": [
+    "Le roi et le prêtre",
+    "Dieu et Mamon",
+    "Le père et la mère",
+    "La loi et la grâce"
+   ],
+   "bonne": 1,
+   "explication": "« Vous ne pouvez servir Dieu et Mamon » (Matthieu 6.24) : Mamon désigne la richesse devenue un maître."
+  },
+  {
+   "q": "Dans la parabole des talents (Matthieu 25), qu’a fait le serviteur qui avait reçu un seul talent ?",
+   "choix": [
+    "Il l’a doublé",
+    "Il l’a dépensé",
+    "Il l’a donné aux pauvres",
+    "Il l’a caché dans la terre"
+   ],
+   "bonne": 3,
+   "explication": "Par peur, il a creusé la terre et caché le talent de son maître (Matthieu 25.18, 25)."
+  },
+  {
+   "q": "Dans la parabole des talents, que reçoivent les serviteurs qui avaient cinq et deux talents ?",
+   "choix": [
+    "La même louange : « C’est bien, bon et fidèle serviteur »",
+    "Une récompense proportionnelle à leur gain seulement",
+    "Un reproche pour ne pas avoir gagné plus",
+    "Leur liberté"
+   ],
+   "bonne": 0,
+   "explication": "Le maître leur adresse exactement les mêmes paroles (Matthieu 25.21, 23) : il récompense la fidélité, non la comparaison des résultats."
+  },
+  {
+   "q": "Selon Luc 16.10, celui qui est fidèle dans les moindres choses :",
+   "choix": [
+    "Restera toujours pauvre",
+    "L’est aussi dans les grandes",
+    "N’a pas besoin d’être fidèle dans les grandes",
+    "Sera récompensé par les hommes"
+   ],
+   "bonne": 1,
+   "explication": "« Celui qui est fidèle dans les moindres choses l’est aussi dans les grandes » (Luc 16.10)."
+  },
+  {
+   "q": "Selon 1 Timothée 6.10, qu’est-ce qui est une racine de tous les maux ?",
+   "choix": [
+    "L’argent",
+    "La pauvreté",
+    "L’amour de l’argent",
+    "Le commerce"
+   ],
+   "bonne": 2,
+   "explication": "Ce n’est pas l’argent lui-même, mais « l’amour de l’argent » qui est une racine de tous les maux (1 Timothée 6.10)."
+  },
+  {
+   "q": "Dans 2 Rois 4.1-7, qu’est-ce que le créancier menaçait de faire à la veuve ?",
+   "choix": [
+    "Prendre sa maison",
+    "La faire jeter en prison",
+    "Prendre son champ",
+    "Prendre ses deux enfants comme esclaves"
+   ],
+   "bonne": 3,
+   "explication": "« Le créancier est venu pour prendre mes deux enfants et en faire ses esclaves » (2 Rois 4.1)."
+  },
+  {
+   "q": "Après le miracle de l’huile, quelle instruction Élisée donne-t-il à la veuve ?",
+   "choix": [
+    "Garder l’huile pour les temps difficiles",
+    "Vendre l’huile, payer la dette et vivre du reste",
+    "Offrir toute l’huile au temple",
+    "Partager l’huile entre les voisins"
+   ],
+   "bonne": 1,
+   "explication": "« Va vendre l’huile, et paie ta dette ; et tu vivras, toi et tes fils, de ce qui restera » (2 Rois 4.7)."
+  },
+  {
+   "q": "Selon Proverbes 22.7, celui qui emprunte est :",
+   "choix": [
+    "Libre de ses choix",
+    "Béni de Dieu",
+    "L’esclave de celui qui prête",
+    "Plus sage que le riche"
+   ],
+   "bonne": 2,
+   "explication": "« Celui qui emprunte est l’esclave de celui qui prête » (Proverbes 22.7) : la dette restreint la liberté."
+  },
+  {
+   "q": "Selon Proverbes 21.5, à quoi mènent les projets de l’homme diligent ?",
+   "choix": [
+    "À l’abondance",
+    "À la disette",
+    "À la jalousie des autres",
+    "À l’orgueil"
+   ],
+   "bonne": 0,
+   "explication": "« Les projets de l’homme diligent ne mènent qu’à l’abondance, mais celui qui agit avec précipitation n’arrive qu’à la disette. »"
+  },
+  {
+   "q": "Selon 2 Corinthiens 9.7, Dieu aime celui qui donne :",
+   "choix": [
+    "Beaucoup",
+    "En public",
+    "Par obligation",
+    "Avec joie"
+   ],
+   "bonne": 3,
+   "explication": "« Que chacun donne… sans tristesse ni contrainte ; car Dieu aime celui qui donne avec joie » (2 Corinthiens 9.7)."
+  },
+  {
+   "q": "Comment les Églises de Macédoine ont-elles donné, selon 2 Corinthiens 8.1-5 ?",
+   "choix": [
+    "Seulement de leur superflu",
+    "Malgré leur pauvreté profonde, au-delà de leurs moyens et avec joie",
+    "Sous la contrainte de Paul",
+    "En exigeant une bénédiction en retour"
+   ],
+   "bonne": 1,
+   "explication": "Paul souligne leur joie et leur générosité au milieu de beaucoup de tribulations et malgré leur pauvreté profonde."
+  },
+  {
+   "q": "Dans Malachie 3.10, que dit Dieu à propos des dîmes ?",
+   "choix": [
+    "Qu’elles sont abolies",
+    "Qu’elles sont réservées aux riches",
+    "Apportez-les à la maison du trésor et mettez-moi à l’épreuve",
+    "Qu’il faut les garder pour soi"
+   ],
+   "bonne": 2,
+   "explication": "« Apportez à la maison du trésor toutes les dîmes… Mettez-moi de la sorte à l’épreuve » (Malachie 3.10)."
+  },
+  {
+   "q": "Dans un budget biblique simple, par quoi commence-t-on ?",
+   "choix": [
+    "Par donner à Dieu",
+    "Par les loisirs",
+    "Par les dépenses de prestige",
+    "Par emprunter pour les besoins du mois"
+   ],
+   "bonne": 0,
+   "explication": "Donner d’abord proclame que Dieu est premier (Proverbes 3.9), puis on épargne, on paie ses obligations et on vit avec le reste."
+  },
+  {
+   "q": "Selon Genèse 2.15, pourquoi Dieu a-t-il placé l’homme dans le jardin d’Éden ?",
+   "choix": [
+    "Pour s’y reposer sans rien faire",
+    "Pour le cultiver et pour le garder",
+    "Pour le vendre",
+    "Pour y attendre la chute"
+   ],
+   "bonne": 1,
+   "explication": "« L’Éternel Dieu… le plaça dans le jardin d’Éden pour le cultiver et pour le garder » (Genèse 2.15), avant même le péché."
+  },
+  {
+   "q": "Vrai ou faux : selon la Bible, le travail est une conséquence de la chute et donc une malédiction.",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "bonne": 1,
+   "explication": "Faux : le travail existait avant la chute (Genèse 2.15). Après le péché, c’est le sol qui est maudit et le travail devient pénible (Genèse 3.17-19)."
+  },
+  {
+   "q": "Selon Colossiens 3.23, comment le chrétien doit-il faire tout ce qu’il fait ?",
+   "choix": [
+    "Seulement quand le chef le regarde",
+    "Le plus vite possible",
+    "Pour plaire aux hommes",
+    "De bon cœur, comme pour le Seigneur"
+   ],
+   "bonne": 3,
+   "explication": "« Tout ce que vous faites, faites-le de bon cœur, comme pour le Seigneur et non pour des hommes » (Colossiens 3.23)."
+  },
+  {
+   "q": "Vrai ou faux : 2 Thessaloniciens 3.10 (« si quelqu’un ne veut pas travailler, qu’il ne mange pas non plus ») vise aussi les malades et les personnes âgées incapables de travailler.",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "bonne": 1,
+   "explication": "Faux : le texte vise celui qui ne veut pas travailler. Envers ceux qui ne peuvent pas, la Bible demande la solidarité."
+  },
+  {
+   "q": "Qu’a proposé Joseph à Pharaon pour préparer les sept années de famine ?",
+   "choix": [
+    "Prier sans rien prévoir",
+    "Emprunter du blé aux pays voisins",
+    "Prélever le cinquième des récoltes pendant l’abondance et le stocker",
+    "Réduire le nombre d’habitants de l’Égypte"
+   ],
+   "bonne": 2,
+   "explication": "Joseph conseille de prélever le cinquième des récoltes pendant les sept années d’abondance et de les garder en réserve (Genèse 41.34-36)."
+  }
+ ]
 }

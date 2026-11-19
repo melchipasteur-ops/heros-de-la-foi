@@ -3,14 +3,16 @@
 Programme de formation biblique en ligne, de la conversion à la maturité.
 
 - **4 niveaux** : Nouveau converti, Disciple, Serviteur, Leader
-- **24 modules** (6 par niveau), 72 leçons avec versets, points à retenir et applications
+- **26 modules** (8 au niveau 1, 6 aux autres), dont « Alliances familiales et liberté en Christ » et « Reconnaître le péché avec équilibre » pour les nouveaux convertis
+- **Leçons en petites étapes** (lectures, récit, exégèse, enseignement, application, étude de cas, jeux, à retenir), avec reprise automatique là où l'étudiant s'est arrêté ; la leçon entière reste disponible sur une page
+- **Illustrations** (`images/`, 20 dessins SVG) et **jeux** dans chaque leçon : verset à compléter, associer les mots, vrai ou faux, classer les situations
 - **Foi agissante** : chaque module demande une mise en pratique décrite par écrit
 - **Cours approfondis** : lectures bibliques obligatoires, récit biblique, exégèse (mots hébreux et grecs), enseignement, applications au monde d'aujourd'hui, étude de cas (≈ 190 000 mots, citations Louis Segond 1910)
 - **Examens en ligne** : 20 questions par module, notées sur 20, corrigées sur le serveur ; 16/20 ouvre le module suivant
 - **Progression obligatoire** : Nouveau converti → Disciple → Serviteur → Leader
 - **Test de passage** : 80 questions tirées au hasard dans un niveau ; avec 16/20, toutes les attestations du niveau sont délivrées (3 essais max par 24 h)
 - **Attestations PDF** numérotées par module, un diplôme par niveau, et une page publique de vérification (`/#verifier`)
-- **Comptes étudiants** et **espace enseignant** (suivi, lecture des témoignages, note sur 20 et appréciation)
+- **Comptes étudiants** et **espace enseignant séparé** (`/enseignant.html`) : tableau de bord des responsabilités (témoignages à lire, étudiants en difficulté, inactifs, sans enseignant), enseignant attitré par étudiant, suivi leçon par leçon et étape par étape, validation ou demande de reprise des témoignages, journal de suivi et messages à l'étudiant, note sur 20 et appréciation
 
 Hébergement : **Vercel** (le site) + **Supabase** (comptes et base de données).
 
@@ -18,7 +20,11 @@ Hébergement : **Vercel** (le site) + **Supabase** (comptes et base de données)
 
 | Fichier | Rôle |
 |---|---|
-| `index.html`, `app.js` | La plateforme |
+| `index.html`, `app.js` | Le site des étudiants |
+| `enseignant.html`, `enseignant.js` | L'espace enseignant (page séparée) |
+| `commun.js`, `styles.css` | Code et styles partagés par les deux pages |
+| `images/` | Illustrations (régénérées par `python3 contenu/images.py`) |
+| `contenu/ordre.json` | Ordre des modules dans chaque niveau |
 | `programme.json` | Liste des niveaux et modules |
 | `modules/<id>.json` | Cours complet d'un module, **sans les réponses** |
 | `api/config.js` | Donne à la page l'adresse Supabase et la clé publique, lues dans les variables Vercel |
@@ -43,12 +49,15 @@ Hébergement : **Vercel** (le site) + **Supabase** (comptes et base de données)
 2. *Settings → Environment Variables* : ajoutez `SUPABASE_URL` et `SUPABASE_ANON_KEY`, puis redéployez.
 
 ### 3. Premier enseignant
-Créez votre compte sur le site, puis dans le SQL Editor de Supabase :
+Créez votre compte sur le site des étudiants, puis dans le SQL Editor de Supabase (ensuite, connectez-vous sur `/enseignant.html`) :
 
 ```sql
 update public.profils set role = 'enseignant'
  where id = (select id from auth.users where email = 'votre-adresse@exemple.com');
 ```
+
+## Mettre à jour une base existante
+Exécutez à nouveau `supabase/schema_une_commande.sql`, puis les fichiers de `supabase/parties/` dans l'ordre. Rien n'est effacé : les comptes, la progression et les attestations sont conservés.
 
 ## Modifier le contenu
 Modifiez `contenu/v2/<id>.json`, lancez `node contenu/build.js`, ré-exécutez `supabase/cles_examen.sql` dans Supabase, puis poussez sur GitHub (Vercel redéploie tout seul).

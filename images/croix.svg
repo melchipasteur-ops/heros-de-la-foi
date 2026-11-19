@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="La croix sur la colline au lever du jour">
+<title>La croix sur la colline au lever du jour</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbe7c6"/><stop offset="1" stop-color="#f6efe0"/></linearGradient></defs>
+<rect width="320" height="200" rx="18" fill="url(#g)"/>
+<circle cx="160" cy="150" r="70" fill="#e0b85a" opacity=".35"/><circle cx="160" cy="150" r="46" fill="#e0b85a" opacity=".45"/>
+<path d="M0 165 Q160 110 320 165 V200 H0Z" fill="#b3cfa8"/>
+<rect x="152" y="40" width="16" height="100" rx="3" fill="#6b4a2b"/><rect x="122" y="66" width="76" height="14" rx="3" fill="#6b4a2b"/>
+<path d="M120 150 Q160 140 200 150" stroke="#8a6a44" stroke-width="3" fill="none"/>
+</svg>

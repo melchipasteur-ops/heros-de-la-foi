@@ -10,6 +10,8 @@ const fs = require("fs"), path = require("path"), { execFileSync } = require("ch
 const racine = path.join(__dirname, "..");
 const v2dir = path.join(__dirname, "v2");
 const anciens = ["n1", "n2", "n3", "n4"].map(n => require(path.join(__dirname, n + ".js")));
+// Ordre des modules dans chaque niveau (contenu/ordre.json). Un module listé mais pas encore rédigé est ignoré.
+const ordreNiveaux = JSON.parse(fs.readFileSync(path.join(__dirname, "ordre.json"), "utf8"));
 
 // Convertit un module court (ancien format) vers la structure v2
 function depuisAncien(m) {
@@ -38,8 +40,13 @@ let ordre = 0, nbV2 = 0;
 const modRows = [], cleRows = [];
 const index = anciens.map((n, ni) => ({
   id: n.id, nom: n.nom, sousTitre: n.sousTitre, verset: n.verset, description: n.description,
-  modules: n.modules.map(ancien => {
-    const f = path.join(v2dir, ancien.id + ".json");
+  modules: (ordreNiveaux[n.id] || n.modules.map(x => x.id)).filter(id => {
+    const ok = fs.existsSync(path.join(v2dir, id + ".json")) || n.modules.some(x => x.id === id);
+    if (!ok) console.log(`(module ${id} pas encore rédigé : ignoré)`);
+    return ok;
+  }).map(id => {
+    const ancien = n.modules.find(x => x.id === id);
+    const f = path.join(v2dir, id + ".json");
     const m = fs.existsSync(f) ? { ...JSON.parse(fs.readFileSync(f, "utf8")), version: 2 } : depuisAncien(ancien);
     if (m.version === 2) nbV2++;
     ordre++;

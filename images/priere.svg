@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Des mains jointes en prière">
+<title>Des mains jointes en prière</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dce7f7"/><stop offset="1" stop-color="#f6efe0"/></linearGradient></defs>
+<rect width="320" height="200" rx="18" fill="url(#g)"/>
+<circle cx="262" cy="46" r="20" fill="#e0b85a" opacity=".85"/>
+<path d="M160 50 C150 70 136 100 132 130 L128 160 H160Z" fill="#c98f63" stroke="#1b2a4e" stroke-width="3" stroke-linejoin="round"/>
+<path d="M160 50 C170 70 184 100 188 130 L192 160 H160Z" fill="#b97d52" stroke="#1b2a4e" stroke-width="3" stroke-linejoin="round"/>
+<rect x="118" y="158" width="84" height="22" rx="8" fill="#1b2a4e"/>
+<path d="M130 40 l-15 -14" stroke="#a87b1f" stroke-width="3" stroke-linecap="round"/><path d="M146 40 l-7 -14" stroke="#a87b1f" stroke-width="3" stroke-linecap="round"/><path d="M174 40 l7 -14" stroke="#a87b1f" stroke-width="3" stroke-linecap="round"/><path d="M190 40 l15 -14" stroke="#a87b1f" stroke-width="3" stroke-linecap="round"/>
+</svg>

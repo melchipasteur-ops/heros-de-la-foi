@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Une famille réunie">
+<title>Une famille réunie</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dce7f7"/><stop offset="1" stop-color="#f6efe0"/></linearGradient></defs>
+<rect width="320" height="200" rx="18" fill="url(#g)"/>
+<circle cx="262" cy="46" r="20" fill="#e0b85a" opacity=".85"/><path d="M0 160 Q80 145 160 155 T320 150 V200 H0 Z" fill="#c9dcc0"/><path d="M0 172 Q90 160 180 170 T320 165 V200 H0Z" fill="#b3cfa8"/>
+<circle cx="110" cy="82" r="14" fill="#a86e48"/><rect x="94" y="96" width="32" height="56" rx="14" fill="#2f5fb3"/><circle cx="150" cy="78" r="15" fill="#a86e48"/><rect x="133" y="93" width="34" height="60" rx="15" fill="#7a3f86"/><circle cx="196" cy="104" r="10" fill="#a86e48"/><rect x="184" y="114" width="24" height="40" rx="10" fill="#3f7d4e"/><circle cx="226" cy="110" r="9" fill="#a86e48"/><rect x="215" y="119" width="22" height="34" rx="9" fill="#a87b1f"/>
+<path d="M70 70 L60 160 M50 90 Q60 70 80 64" stroke="#6b4a2b" stroke-width="5" fill="none"/><circle cx="62" cy="62" r="22" fill="#3f7d4e" opacity=".8"/>
+</svg>

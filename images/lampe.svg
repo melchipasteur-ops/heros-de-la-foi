@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Une lampe allumée">
+<title>Une lampe allumée</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbe7c6"/><stop offset="1" stop-color="#f6efe0"/></linearGradient></defs>
+<rect width="320" height="200" rx="18" fill="url(#g)"/>
+<circle cx="160" cy="100" r="76" fill="#e0b85a" opacity=".25"/>
+<path d="M96 132 Q160 166 224 132 Q216 112 160 112 Q104 112 96 132Z" fill="#a87b1f" stroke="#1b2a4e" stroke-width="3"/>
+<path d="M220 128 Q248 118 252 104" stroke="#1b2a4e" stroke-width="5" fill="none"/>
+<path d="M104 124 Q86 120 84 108" stroke="#1b2a4e" stroke-width="3" fill="none"/>
+<path d="M84 104 C74 88 82 72 84 60 C92 74 100 86 84 104Z" fill="#f08a3e"/>
+<text x="160" y="186" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#1b2a4e" font-style="italic">Psaume 119.105</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Une colombe, symbole du Saint-Esprit">
+<title>Une colombe, symbole du Saint-Esprit</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dce7f7"/><stop offset="1" stop-color="#f6efe0"/></linearGradient></defs>
+<rect width="320" height="200" rx="18" fill="url(#g)"/>
+<circle cx="262" cy="46" r="20" fill="#e0b85a" opacity=".85"/>
+<path d="M90 120 Q130 80 180 100 Q210 70 250 66 Q230 96 220 112 Q200 140 150 142 Q120 142 90 120Z" fill="#fff" stroke="#1b2a4e" stroke-width="3" stroke-linejoin="round"/>
+<path d="M150 104 Q170 50 220 40 Q200 80 186 104" fill="#fff" stroke="#1b2a4e" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="112" cy="116" r="3" fill="#141b2e"/><path d="M92 120 L78 124 L92 126" fill="#a87b1f"/>
+<path d="M120 150 Q150 170 190 150" stroke="#3f7d4e" stroke-width="4" fill="none"/><ellipse cx="150" cy="158" rx="8" ry="4" fill="#3f7d4e"/><ellipse cx="172" cy="156" rx="8" ry="4" fill="#3f7d4e"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Des chaînes brisées">
+<title>Des chaînes brisées</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dce7f7"/><stop offset="1" stop-color="#f6efe0"/></linearGradient></defs>
+<rect width="320" height="200" rx="18" fill="url(#g)"/>
+<circle cx="262" cy="46" r="20" fill="#e0b85a" opacity=".85"/>
+<rect x="34" y="100" width="46" height="26" rx="13" fill="none" stroke="#7d8597" stroke-width="9" transform="rotate(-10 57 113)"/><rect x="74" y="92" width="46" height="26" rx="13" fill="none" stroke="#7d8597" stroke-width="9" transform="rotate(-10 97 105)"/><rect x="206" y="92" width="46" height="26" rx="13" fill="none" stroke="#7d8597" stroke-width="9" transform="rotate(10 229 105)"/><rect x="246" y="100" width="46" height="26" rx="13" fill="none" stroke="#7d8597" stroke-width="9" transform="rotate(10 269 113)"/>
+<path d="M140 80 l10 18 l-14 6 l16 22" stroke="#e0b85a" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 80 l-10 18 l14 6 l-16 22" stroke="#e0b85a" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M100 160 Q160 140 220 160" stroke="#a87b1f" stroke-width="4" fill="none"/><text x="160" y="186" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#1b2a4e" font-style="italic">Jean 8.36</text>
+</svg>

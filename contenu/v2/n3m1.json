@@ -243,7 +243,81 @@
     "ref": "Genèse 1.27",
     "texte": "Dieu créa l’homme à son image, il le créa à l’image de Dieu, il créa l’homme et la femme."
    },
-   "priere": "Seigneur, Créateur du ciel et de la terre, je t’adore parce que tout vient de toi. Merci de m’avoir créé à ton image et de m’avoir cherché quand je me cachais. Apprends-moi à voir ton image en chaque personne, à travailler avec fidélité, et à reconnaître la voix du tentateur. Merci pour la promesse du Sauveur, Jésus-Christ, qui a écrasé la tête du serpent. Amen."
+   "priere": "Seigneur, Créateur du ciel et de la terre, je t’adore parce que tout vient de toi. Merci de m’avoir créé à ton image et de m’avoir cherché quand je me cachais. Apprends-moi à voir ton image en chaque personne, à travailler avec fidélité, et à reconnaître la voix du tentateur. Merci pour la promesse du Sauveur, Jésus-Christ, qui a écrasé la tête du serpent. Amen.",
+   "illustration": "arbre",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Dieu a créé toutes choses à partir de rien, par sa parole.",
+      "vrai": true,
+      "explication": "Dieu dit, et la chose fut (Genèse 1.3) ; les mondes ont été formés par la parole de Dieu (Hébreux 11.3)."
+     },
+     {
+      "affirmation": "Seuls certains peuples ou certaines familles portent l’image de Dieu.",
+      "vrai": false,
+      "explication": "Dieu créa l’homme à son image, homme et femme (Genèse 1.27) : chaque être humain a la même dignité, quelle que soit son origine."
+     },
+     {
+      "affirmation": "Par un seul homme, le péché est entré dans le monde, et par le péché la mort.",
+      "vrai": true,
+      "explication": "C’est ce qu’affirme Romains 5.12 : la chute touche toute l’humanité."
+     },
+     {
+      "affirmation": "Après la chute, Dieu a abandonné l’homme sans aucune promesse.",
+      "vrai": false,
+      "explication": "Dès Genèse 3.15, Dieu annonce un descendant de la femme qui écrasera la tête du serpent ; il couvre aussi Adam et Ève de tuniques de peau (Genèse 3.21)."
+     },
+     {
+      "affirmation": "Le travail existait déjà avant la chute : Dieu avait placé l’homme dans le jardin pour le cultiver et le garder.",
+      "vrai": true,
+      "explication": "Genèse 2.15 : le travail fait partie de la vocation de l’homme ; la chute l’a rendu pénible (Genèse 3.17-19), elle ne l’a pas inventé."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque attitude : reflète-t-elle la vérité de la création, ou la contredit-elle ?",
+     "categories": [
+      "Honore le Créateur et son image",
+      "Contredit l’enseignement biblique"
+     ],
+     "elements": [
+      {
+       "texte": "Je traite avec respect l’employé de maison ou le gardien, comme mon égal devant Dieu.",
+       "categorie": 0,
+       "explication": "Tout être humain est créé à l’image de Dieu (Genèse 1.27 ; Jacques 3.9)."
+      },
+      {
+       "texte": "Je remercie Dieu pour la pluie, la récolte et la nourriture de chaque jour.",
+       "categorie": 0,
+       "explication": "Dieu continue de prendre soin de sa création et donne les pluies du ciel et les saisons fertiles (Actes 14.17)."
+      },
+      {
+       "texte": "Je consulte des esprits de la nature ou des ancêtres pour obtenir une bonne récolte.",
+       "categorie": 1,
+       "explication": "La création n’est pas à adorer : on ne sert que le Créateur, béni éternellement (Romains 1.25 ; Deutéronome 18.10-12)."
+      },
+      {
+       "texte": "Je considère qu’une personne handicapée a moins de valeur qu’une autre.",
+       "categorie": 1,
+       "explication": "La valeur d’une vie vient de Dieu qui l’a faite, pas de ses capacités (Psaume 139.13-14 ; Genèse 1.27)."
+      },
+      {
+       "texte": "Je prends soin de mon terrain et je ne jette pas mes déchets n’importe où.",
+       "categorie": 0,
+       "explication": "Dieu a confié à l’homme la garde de la terre (Genèse 2.15) ; la terre est à l’Éternel (Psaume 24.1)."
+      },
+      {
+       "texte": "Je dis que le mal dans le monde vient seulement de Dieu et que l’homme n’y est pour rien.",
+       "categorie": 1,
+       "explication": "Dieu a fait l’homme droit, mais ils ont cherché beaucoup de détours (Ecclésiaste 7.29) ; le péché est entré par la désobéissance (Romains 5.12)."
+      },
+      {
+       "texte": "Je travaille avec soin dans mon métier, même modeste, pour la gloire de Dieu.",
+       "categorie": 0,
+       "explication": "Le travail fait partie de la vocation donnée en Éden (Genèse 2.15) ; faites tout pour la gloire de Dieu (1 Corinthiens 10.31)."
+      }
+     ]
+    }
+   }
   },
   {
    "titre": "Christ et le salut",
@@ -444,7 +518,81 @@
     "ref": "Romains 5.1",
     "texte": "Étant donc justifiés par la foi, nous avons la paix avec Dieu par notre Seigneur Jésus-Christ,"
    },
-   "priere": "Ô Dieu, sois apaisé envers moi, qui suis un pécheur. Je ne viens pas avec mes mérites, mais avec le sacrifice de ton Fils. Merci de m’avoir déclaré juste à cause de lui. Saint-Esprit, continue de me transformer jour après jour, jusqu’au jour où je serai rendu semblable à Christ. Garde-moi de l’orgueil et du mépris des autres. Amen."
+   "priere": "Ô Dieu, sois apaisé envers moi, qui suis un pécheur. Je ne viens pas avec mes mérites, mais avec le sacrifice de ton Fils. Merci de m’avoir déclaré juste à cause de lui. Saint-Esprit, continue de me transformer jour après jour, jusqu’au jour où je serai rendu semblable à Christ. Garde-moi de l’orgueil et du mépris des autres. Amen.",
+   "illustration": "croix",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Jésus-Christ est le seul médiateur entre Dieu et les hommes.",
+      "vrai": true,
+      "explication": "Il y a un seul Dieu, et aussi un seul médiateur entre Dieu et les hommes, Jésus-Christ homme (1 Timothée 2.5)."
+     },
+     {
+      "affirmation": "Dans la parabole de Luc 18, c’est le pharisien qui rentra chez lui justifié.",
+      "vrai": false,
+      "explication": "C’est le publicain, qui se frappait la poitrine en demandant grâce, qui descendit justifié (Luc 18.13-14)."
+     },
+     {
+      "affirmation": "La justification est un verdict gratuit de Dieu, reçu par la foi.",
+      "vrai": true,
+      "explication": "Ils sont gratuitement justifiés par sa grâce, par le moyen de la rédemption qui est en Jésus-Christ (Romains 3.24)."
+     },
+     {
+      "affirmation": "Pour être justifié, il faut d’abord avoir assez de bonnes œuvres.",
+      "vrai": false,
+      "explication": "C’est par la grâce que vous êtes sauvés, par le moyen de la foi ; ce n’est point par les œuvres (Éphésiens 2.8-9). Les œuvres suivent, elles ne précèdent pas (Éphésiens 2.10)."
+     },
+     {
+      "affirmation": "La sanctification est une transformation progressive par le Saint-Esprit.",
+      "vrai": true,
+      "explication": "Nous sommes transformés de gloire en gloire, comme par le Seigneur, l’Esprit (2 Corinthiens 3.18)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque phrase : est-elle fidèle à l’Évangile, ou s’en écarte-t-elle ?",
+     "categories": [
+      "Fidèle à l’Évangile",
+      "S’écarte de l’Évangile"
+     ],
+     "elements": [
+      {
+       "texte": "« Je suis sauvé parce que Christ a porté mon péché à ma place. »",
+       "categorie": 0,
+       "explication": "Celui qui n’a point connu le péché, il l’a fait devenir péché pour nous (2 Corinthiens 5.21)."
+      },
+      {
+       "texte": "« Je jeûne deux fois par semaine, donc Dieu me doit le salut. »",
+       "categorie": 1,
+       "explication": "C’est l’attitude du pharisien de la parabole (Luc 18.12) ; personne ne sera justifié par les œuvres de la loi (Romains 3.20)."
+      },
+      {
+       "texte": "« Je suis pardonné, et je veux maintenant marcher dans l’obéissance avec l’aide de l’Esprit. »",
+       "categorie": 0,
+       "explication": "La foi seule sauve, mais elle n’est jamais seule : elle agit par l’amour (Galates 5.6 ; Jacques 2.17)."
+      },
+      {
+       "texte": "« Comme je suis sauvé par grâce, peu importe si je continue à vivre dans le péché. »",
+       "categorie": 1,
+       "explication": "Demeurerions-nous dans le péché, afin que la grâce abonde ? Loin de là ! (Romains 6.1-2)."
+      },
+      {
+       "texte": "« Jésus est un grand prophète parmi d’autres, mais pas Dieu. »",
+       "categorie": 1,
+       "explication": "La Parole était Dieu, et la Parole a été faite chair (Jean 1.1, 14) ; en lui habite corporellement toute la plénitude de la divinité (Colossiens 2.9)."
+      },
+      {
+       "texte": "« J’ai encore des luttes, mais je sais que Dieu achèvera son œuvre en moi. »",
+       "categorie": 0,
+       "explication": "Celui qui a commencé en vous cette bonne œuvre la rendra parfaite pour le jour de Jésus-Christ (Philippiens 1.6)."
+      },
+      {
+       "texte": "« Il faut ajouter des sacrifices d’animaux ou des offrandes aux ancêtres au sacrifice de Jésus. »",
+       "categorie": 1,
+       "explication": "Christ est entré une fois pour toutes dans le lieu très saint avec son propre sang (Hébreux 9.12) ; son sacrifice suffit pleinement (Hébreux 10.14)."
+      }
+     ]
+    }
+   }
   },
   {
    "titre": "L’Église et les fins dernières",
@@ -631,7 +779,81 @@
     "ref": "Jean 11.25",
     "texte": "Jésus lui dit : Je suis la résurrection et la vie. Celui qui croit en moi vivra, quand même il serait mort ;"
    },
-   "priere": "Seigneur Jésus, tu es la résurrection et la vie. Merci de bâtir ton Église et de m’en faire membre. Console ceux qui pleurent, garde-moi de la peur et des fausses prophéties, et rends-moi fidèle jusqu’à ton retour. Que ma vie soit prête pour ce jour. Amen ! Viens, Seigneur Jésus !"
+   "priere": "Seigneur Jésus, tu es la résurrection et la vie. Merci de bâtir ton Église et de m’en faire membre. Console ceux qui pleurent, garde-moi de la peur et des fausses prophéties, et rends-moi fidèle jusqu’à ton retour. Que ma vie soit prête pour ce jour. Amen ! Viens, Seigneur Jésus !",
+   "illustration": "eglise",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Jésus a dit : « Je bâtirai mon Église, et les portes du séjour des morts ne prévaudront point contre elle. »",
+      "vrai": true,
+      "explication": "Matthieu 16.18 : l’Église appartient à Christ, c’est lui qui la bâtit."
+     },
+     {
+      "affirmation": "L’Église, c’est d’abord un bâtiment où l’on se réunit le dimanche.",
+      "vrai": false,
+      "explication": "Le mot ekklēsia désigne une assemblée de personnes appelées : un peuple, corps de Christ (1 Corinthiens 12.27), et non des murs."
+     },
+     {
+      "affirmation": "La Bible enseigne que Christ reviendra personnellement et visiblement.",
+      "vrai": true,
+      "explication": "Ce Jésus reviendra de la même manière que vous l’avez vu allant au ciel (Actes 1.11)."
+     },
+     {
+      "affirmation": "Paul interdit aux chrétiens d’être tristes quand un proche meurt.",
+      "vrai": false,
+      "explication": "Paul ne veut pas que nous soyons affligés « comme les autres qui n’ont point d’espérance » (1 Thessaloniciens 4.13) : la tristesse est permise, mais elle est éclairée par l’espérance. Jésus lui-même a pleuré (Jean 11.35)."
+     },
+     {
+      "affirmation": "Notre espérance finale est de nouveaux cieux et une nouvelle terre où Dieu habitera avec les hommes.",
+      "vrai": true,
+      "explication": "Apocalypse 21.1-3 : le tabernacle de Dieu est avec les hommes, et il essuiera toute larme."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque attitude face à l’Église et au retour de Christ.",
+     "categories": [
+      "Espérance et vigilance bibliques",
+      "Attitude à corriger"
+     ],
+     "elements": [
+      {
+       "texte": "Je fixe une date précise pour le retour de Jésus et je vends tout en attendant.",
+       "categorie": 1,
+       "explication": "Pour ce qui est du jour et de l’heure, personne ne le sait (Matthieu 24.36) ; Paul reprend ceux qui cessaient de travailler (2 Thessaloniciens 3.10-12)."
+      },
+      {
+       "texte": "Je participe fidèlement à une Église locale, même si elle n’est pas parfaite.",
+       "categorie": 0,
+       "explication": "N’abandonnons pas notre assemblée, comme c’est la coutume de quelques-uns (Hébreux 10.25)."
+      },
+      {
+       "texte": "Lors d’un deuil, je pleure mais je console la famille avec la promesse de la résurrection.",
+       "categorie": 0,
+       "explication": "Consolez-vous donc les uns les autres par ces paroles (1 Thessaloniciens 4.18)."
+      },
+      {
+       "texte": "Je n’ai pas besoin d’Église : ma foi est une affaire entre Dieu et moi seulement.",
+       "categorie": 1,
+       "explication": "Nous sommes le corps de Christ, et chacun est membre pour sa part (1 Corinthiens 12.27) ; un membre ne vit pas seul."
+      },
+      {
+       "texte": "Je vis dans la peur permanente de la fin du monde et je n’ose plus faire de projets.",
+       "categorie": 1,
+       "explication": "Le retour de Christ est une espérance qui console (Tite 2.13), non une source d’angoisse ; Dieu nous donne un esprit de force et de sagesse (2 Timothée 1.7)."
+      },
+      {
+       "texte": "Parce que Christ revient, je veille sur ma conduite et je travaille avec fidélité.",
+       "categorie": 0,
+       "explication": "Heureux ce serviteur que son maître, à son arrivée, trouvera faisant ainsi (Matthieu 24.46)."
+      },
+      {
+       "texte": "J’organise des rites pour communiquer avec mes défunts et leur demander leur protection.",
+       "categorie": 1,
+       "explication": "La Bible interdit d’interroger les morts (Deutéronome 18.11) ; notre espérance est en Christ, la résurrection et la vie (Jean 11.25)."
+      }
+     ]
+    }
+   }
   }
  ],
  "pratique": {

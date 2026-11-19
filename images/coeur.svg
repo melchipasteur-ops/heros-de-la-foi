@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Un cœur renouvelé">
+<title>Un cœur renouvelé</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dce7f7"/><stop offset="1" stop-color="#f6efe0"/></linearGradient></defs>
+<rect width="320" height="200" rx="18" fill="url(#g)"/>
+<circle cx="262" cy="46" r="20" fill="#e0b85a" opacity=".85"/>
+<path d="M160 168 C100 128 76 100 80 72 C84 46 120 38 140 58 L160 78 L180 58 C200 38 236 46 240 72 C244 100 220 128 160 168Z" fill="#b2392f"/>
+<path d="M118 70 C110 74 106 82 108 92" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity=".7"/>
+<path d="M160 92 V136 M142 108 H178" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+</svg>

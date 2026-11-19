@@ -266,7 +266,81 @@
     "ref": "2 Timothée 3.16-17",
     "texte": "Toute Écriture est inspirée de Dieu, et utile pour enseigner, pour convaincre, pour corriger, pour instruire dans la justice, afin que l'homme de Dieu soit accompli et propre à toute bonne œuvre."
    },
-   "priere": "Seigneur, merci de ne pas être resté silencieux, mais de m'avoir donné ta Parole. Pardonne-moi pour les fois où je l'ai négligée. Comme Josias, donne-moi un cœur sensible quand je la lis. Que ta Parole soit l'autorité de ma vie, au-dessus de mes idées et de mes traditions. Amen."
+   "priere": "Seigneur, merci de ne pas être resté silencieux, mais de m'avoir donné ta Parole. Pardonne-moi pour les fois où je l'ai négligée. Comme Josias, donne-moi un cœur sensible quand je la lis. Que ta Parole soit l'autorité de ma vie, au-dessus de mes idées et de mes traditions. Amen.",
+   "illustration": "bible",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Toute l’Écriture est inspirée de Dieu.",
+      "vrai": true,
+      "explication": "« Toute Écriture est inspirée de Dieu, et utile pour enseigner… » (2 Timothée 3.16)."
+     },
+     {
+      "affirmation": "La Bible a été écrite par un seul auteur, en une seule année.",
+      "vrai": false,
+      "explication": "Elle a été écrite sur environ quinze siècles par une quarantaine d’auteurs, poussés par le Saint-Esprit (2 Pierre 1.21)."
+     },
+     {
+      "affirmation": "Une tradition familiale ou religieuse peut passer au-dessus de la Parole de Dieu.",
+      "vrai": false,
+      "explication": "Jésus reproche d’annuler la parole de Dieu au profit de la tradition (Marc 7.13)."
+     },
+     {
+      "affirmation": "Sous le roi Josias, le renouveau a commencé quand on a retrouvé le livre de la loi.",
+      "vrai": true,
+      "explication": "Voir 2 Rois 22-23 : le roi a lu, s’est humilié et a obéi."
+     },
+     {
+      "affirmation": "La Bible sert à enseigner, convaincre, corriger et instruire dans la justice.",
+      "vrai": true,
+      "explication": "C’est la liste donnée en 2 Timothée 3.16-17."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque source : a-t-elle autorité sur ma foi, ou doit-elle être examinée à la lumière de la Bible ?",
+     "categories": [
+      "Autorité suprême",
+      "À examiner par la Bible"
+     ],
+     "elements": [
+      {
+       "texte": "Un verset lu dans son contexte dans la Bible.",
+       "categorie": 0,
+       "explication": "La Parole est la vérité (Jean 17.17)."
+      },
+      {
+       "texte": "Une vidéo virale d’un prédicateur sur internet.",
+       "categorie": 1,
+       "explication": "Les Béréens examinaient chaque jour les Écritures pour voir si ce qu’on leur disait était exact (Actes 17.11)."
+      },
+      {
+       "texte": "Une coutume transmise par les anciens de mon village.",
+       "categorie": 1,
+       "explication": "Une tradition est bonne si elle ne contredit pas la Parole (Marc 7.8-13)."
+      },
+      {
+       "texte": "Un songe que j’ai fait cette nuit.",
+       "categorie": 1,
+       "explication": "Tout doit être examiné ; retenez ce qui est bon (1 Thessaloniciens 5.21)."
+      },
+      {
+       "texte": "Les paroles de Jésus rapportées dans les Évangiles.",
+       "categorie": 0,
+       "explication": "Le ciel et la terre passeront, mais mes paroles ne passeront point (Matthieu 24.35)."
+      },
+      {
+       "texte": "Le conseil d’un pasteur respecté.",
+       "categorie": 1,
+       "explication": "Un bon pasteur conduit lui-même à la Parole ; on l’écoute en vérifiant par l’Écriture (Actes 17.11)."
+      },
+      {
+       "texte": "Une prophétie qui promet la richesse si je donne une somme précise.",
+       "categorie": 1,
+       "explication": "Éprouvez les esprits (1 Jean 4.1) ; la piété n’est pas une source de gain (1 Timothée 6.5)."
+      }
+     ]
+    }
+   }
   },
   {
    "titre": "Se repérer dans la Bible",
@@ -471,7 +545,86 @@
     "ref": "Psaume 119.105",
     "texte": "Ta parole est une lampe à mes pieds, Et une lumière sur mon sentier."
    },
-   "priere": "Seigneur Jésus, comme aux disciples d'Emmaüs, ouvre-moi les Écritures et ouvre mes yeux pour que je te voie dans toute la Bible. Que mon cœur brûle quand je lis ta Parole. Donne-moi la persévérance pour la lire chaque jour, et qu'elle soit une lampe à mes pieds. Amen."
+   "priere": "Seigneur Jésus, comme aux disciples d'Emmaüs, ouvre-moi les Écritures et ouvre mes yeux pour que je te voie dans toute la Bible. Que mon cœur brûle quand je lis ta Parole. Donne-moi la persévérance pour la lire chaque jour, et qu'elle soit une lampe à mes pieds. Amen.",
+   "illustration": "lampe",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "La Bible contient 66 livres : 39 dans l’Ancien Testament et 27 dans le Nouveau.",
+      "vrai": true,
+      "explication": "C’est la composition de la Bible utilisée par les évangéliques."
+     },
+     {
+      "affirmation": "Dans « Jean 3.16 », le chiffre 3 désigne le verset.",
+      "vrai": false,
+      "explication": "3 est le chapitre et 16 le verset."
+     },
+     {
+      "affirmation": "Les numéros de chapitres et de versets ont été ajoutés bien plus tard.",
+      "vrai": true,
+      "explication": "Ils ont été ajoutés des siècles après la rédaction pour faciliter les références."
+     },
+     {
+      "affirmation": "L’Ancien Testament ne parle pas de Jésus.",
+      "vrai": false,
+      "explication": "Jésus dit que les Écritures rendent témoignage de lui (Jean 5.39 ; Luc 24.27)."
+     },
+     {
+      "affirmation": "La Parole est une lampe à mes pieds et une lumière sur mon sentier.",
+      "vrai": true,
+      "explication": "Psaume 119.105."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque livre dans la bonne partie de la Bible.",
+     "categories": [
+      "Ancien Testament",
+      "Nouveau Testament"
+     ],
+     "elements": [
+      {
+       "texte": "Genèse",
+       "categorie": 0,
+       "explication": "Premier livre de la Bible : la création et les patriarches (Genèse 1.1)."
+      },
+      {
+       "texte": "Psaumes",
+       "categorie": 0,
+       "explication": "Livre de prières et de chants d’Israël."
+      },
+      {
+       "texte": "Actes des apôtres",
+       "categorie": 1,
+       "explication": "Il raconte la naissance de l’Église (Actes 2)."
+      },
+      {
+       "texte": "Ésaïe",
+       "categorie": 0,
+       "explication": "Prophète qui annonce le serviteur souffrant (Ésaïe 53)."
+      },
+      {
+       "texte": "Romains",
+       "categorie": 1,
+       "explication": "Lettre de Paul sur le salut par la foi (Romains 1.16-17)."
+      },
+      {
+       "texte": "Ruth",
+       "categorie": 0,
+       "explication": "Récit qui se passe au temps des juges (Ruth 1.1)."
+      },
+      {
+       "texte": "Apocalypse",
+       "categorie": 1,
+       "explication": "Dernier livre de la Bible : le retour de Christ et la nouvelle création (Apocalypse 21-22)."
+      },
+      {
+       "texte": "Marc",
+       "categorie": 1,
+       "explication": "L’un des quatre Évangiles (Marc 1.1)."
+      }
+     ]
+    }
+   }
   },
   {
    "titre": "Méditer et mettre en pratique",
@@ -677,7 +830,81 @@
     "ref": "Josué 1.8",
     "texte": "Que ce livre de la loi ne s'éloigne point de ta bouche ; médite-le jour et nuit, pour agir fidèlement selon tout ce qui y est écrit ; car c'est alors que tu auras du succès dans tes entreprises, c'est alors que tu réussiras."
    },
-   "priere": "Seigneur, je ne veux pas être un auditeur oublieux. Donne-moi de trouver mon plaisir dans ta Parole, de la méditer jour et nuit et de la mettre en pratique. Plante-moi comme un arbre près d'un courant d'eau. Que ta joie soit ma force, et que ma vie soit bâtie sur le roc de ta Parole. Au nom de Jésus, amen."
+   "priere": "Seigneur, je ne veux pas être un auditeur oublieux. Donne-moi de trouver mon plaisir dans ta Parole, de la méditer jour et nuit et de la mettre en pratique. Plante-moi comme un arbre près d'un courant d'eau. Que ta joie soit ma force, et que ma vie soit bâtie sur le roc de ta Parole. Au nom de Jésus, amen.",
+   "illustration": "arbre",
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Méditer la Bible, c’est vider son esprit de toute pensée.",
+      "vrai": false,
+      "explication": "Méditer (hagah), c’est murmurer et ruminer la Parole jour et nuit (Josué 1.8 ; Psaume 1.2)."
+     },
+     {
+      "affirmation": "Celui qui écoute la Parole sans la mettre en pratique se trompe lui-même.",
+      "vrai": true,
+      "explication": "Jacques 1.22."
+     },
+     {
+      "affirmation": "Ouvrir la Bible au hasard et prendre le premier verset comme réponse est une bonne méthode.",
+      "vrai": false,
+      "explication": "Il faut lire le contexte et laisser l’Écriture expliquer l’Écriture (2 Timothée 2.15)."
+     },
+     {
+      "affirmation": "Esdras a appliqué son cœur à étudier, à pratiquer puis à enseigner la loi.",
+      "vrai": true,
+      "explication": "Esdras 7.10."
+     },
+     {
+      "affirmation": "Celui qui met en pratique les paroles de Jésus ressemble à un homme qui bâtit sur le roc.",
+      "vrai": true,
+      "explication": "Matthieu 7.24-25."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque habitude de lecture : est-ce une bonne pratique, ou une habitude à corriger ?",
+     "categories": [
+      "Bonne pratique",
+      "Habitude à corriger"
+     ],
+     "elements": [
+      {
+       "texte": "Je lis un court passage, je l’observe, puis je me demande ce que Dieu veut que je fasse.",
+       "categorie": 0,
+       "explication": "Observer, comprendre, appliquer, prier : c’est être un faiseur de la Parole (Jacques 1.22-25)."
+      },
+      {
+       "texte": "Je place la Bible sous mon oreiller pour me protéger, sans la lire.",
+       "categorie": 1,
+       "explication": "La Bible n’est pas un objet magique ; c’est en la gardant dans le cœur qu’elle protège (Psaume 119.11)."
+      },
+      {
+       "texte": "Je recopie un verset et je le relis plusieurs fois dans la journée.",
+       "categorie": 0,
+       "explication": "Que les paroles soient dans ton cœur… tu en parleras (Deutéronome 6.6-7)."
+      },
+      {
+       "texte": "Je lis un verset isolé et j’en tire une doctrine sans regarder le contexte.",
+       "categorie": 1,
+       "explication": "Il faut dispenser droitement la parole de la vérité (2 Timothée 2.15)."
+      },
+      {
+       "texte": "Je partage ce que j’ai compris avec un frère ou une sœur.",
+       "categorie": 0,
+       "explication": "Que la parole de Christ habite parmi vous… instruisez-vous (Colossiens 3.16)."
+      },
+      {
+       "texte": "Je lis beaucoup, mais je ne change rien dans ma vie.",
+       "categorie": 1,
+       "explication": "Celui qui écoute sans pratiquer bâtit sur le sable (Matthieu 7.26)."
+      },
+      {
+       "texte": "J’écoute la Bible audio dans les transports quand je lis difficilement.",
+       "categorie": 0,
+       "explication": "La foi vient de ce qu’on entend (Romains 10.17)."
+      }
+     ]
+    }
+   }
   }
  ],
  "pratique": {

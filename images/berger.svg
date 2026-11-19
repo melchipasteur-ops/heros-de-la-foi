@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Le berger et sa brebis">
+<title>Le berger et sa brebis</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dce7f7"/><stop offset="1" stop-color="#f6efe0"/></linearGradient></defs>
+<rect width="320" height="200" rx="18" fill="url(#g)"/>
+<circle cx="262" cy="46" r="20" fill="#e0b85a" opacity=".85"/><path d="M0 160 Q80 145 160 155 T320 150 V200 H0 Z" fill="#c9dcc0"/><path d="M0 172 Q90 160 180 170 T320 165 V200 H0Z" fill="#b3cfa8"/>
+<circle cx="120" cy="64" r="14" fill="#a86e48"/><path d="M104 80 H136 L144 160 H96Z" fill="#2f5fb3"/>
+<path d="M150 44 Q166 44 166 60 Q166 70 156 70 M156 70 V168" stroke="#6b4a2b" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="214" cy="140" rx="34" ry="20" fill="#fff" stroke="#1b2a4e" stroke-width="3"/><circle cx="248" cy="128" r="10" fill="#fff" stroke="#1b2a4e" stroke-width="3"/>
+<path d="M196 158 v14 M230 158 v14" stroke="#1b2a4e" stroke-width="4"/>
+</svg>

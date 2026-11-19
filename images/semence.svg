@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Une semence qui germe">
+<title>Une semence qui germe</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dce7f7"/><stop offset="1" stop-color="#f6efe0"/></linearGradient></defs>
+<rect width="320" height="200" rx="18" fill="url(#g)"/>
+<circle cx="262" cy="46" r="20" fill="#e0b85a" opacity=".85"/><path d="M0 160 Q80 145 160 155 T320 150 V200 H0 Z" fill="#c9dcc0"/><path d="M0 172 Q90 160 180 170 T320 165 V200 H0Z" fill="#b3cfa8"/>
+<path d="M160 160 C160 130 158 110 160 84" stroke="#3f7d4e" stroke-width="6" fill="none"/>
+<path d="M160 110 C130 104 120 86 122 70 C146 72 158 88 160 110Z" fill="#4f9461"/><path d="M160 96 C188 90 198 72 196 56 C172 58 160 74 160 96Z" fill="#3f7d4e"/>
+<ellipse cx="160" cy="168" rx="14" ry="8" fill="#8a6a44"/>
+<path d="M120 30 q4 10 0 20" stroke="#2f5fb3" stroke-width="3" fill="none" opacity=".6"/><path d="M140 30 q4 10 0 20" stroke="#2f5fb3" stroke-width="3" fill="none" opacity=".6"/><path d="M180 30 q4 10 0 20" stroke="#2f5fb3" stroke-width="3" fill="none" opacity=".6"/><path d="M200 30 q4 10 0 20" stroke="#2f5fb3" stroke-width="3" fill="none" opacity=".6"/>
+</svg>
