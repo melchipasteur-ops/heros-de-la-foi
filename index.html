@@ -128,6 +128,10 @@ tr:last-child td{border-bottom:0}
 .seg{display:flex;gap:4px;background:var(--surface2);padding:4px;border-radius:10px}
 .seg button{flex:1;border:0;background:none;padding:8px;border-radius:8px;cursor:pointer;font-weight:600;color:var(--muted)}
 .seg button[aria-selected="true"]{background:var(--surface);color:var(--ink)}
+.pw{position:relative;display:block}
+.pw input[type=password]{padding-right:96px}
+.pw-btn{position:absolute;right:6px;top:50%;transform:translateY(-50%);border:0;background:var(--surface2);color:var(--ink);font-weight:600;font-size:.88rem;padding:5px 10px;border-radius:8px;cursor:pointer}
+.pw input[type=text]{width:100%;border:1px solid var(--line);border-radius:10px;padding:9px 96px 9px 12px;background:var(--bg)}
 input[type=email],input[type=password]{width:100%;border:1px solid var(--line);border-radius:10px;padding:9px 12px;background:var(--bg)}
 </style>
 </head>
@@ -266,7 +270,7 @@ function vAuth(){
     ${m==="inscription" ? `<label class="f" for="a-nom">Nom complet <span class="hint">(il figurera sur vos attestations)</span><input type="text" id="a-nom" autocomplete="name" maxlength="80" required></label>
       <label class="f" for="a-eglise">Église ou assemblée <span class="hint">(facultatif)</span><input type="text" id="a-eglise" maxlength="80"></label>` : ""}
     <label class="f" for="a-email">Adresse e-mail<input type="email" id="a-email" autocomplete="email" required></label>
-    ${m!=="oubli" ? `<label class="f" for="a-mdp">Mot de passe<input type="password" id="a-mdp" autocomplete="${m==="inscription"?"new-password":"current-password"}" minlength="6" required></label>` : `<p class="hint">Nous vous enverrons un lien pour choisir un nouveau mot de passe.</p>`}
+    ${m!=="oubli" ? `<label class="f" for="a-mdp">Mot de passe<span class="pw"><input type="password" id="a-mdp" autocomplete="${m==="inscription"?"new-password":"current-password"}" minlength="6" required><button type="button" class="pw-btn" data-pw="a-mdp" aria-controls="a-mdp" aria-pressed="false">Afficher</button></span></label>` : `<p class="hint">Nous vous enverrons un lien pour choisir un nouveau mot de passe.</p>`}
     <div class="row"><button class="btn primary" type="submit">${m==="connexion"?"Se connecter":m==="inscription"?"Créer mon compte":"Envoyer le lien"}</button>
       ${m==="connexion" ? `<button class="btn small" type="button" data-mode="oubli">Mot de passe oublié ?</button>` : ""}
       ${m==="oubli" ? `<button class="btn small" type="button" data-mode="connexion">Retour</button>` : ""}</div>
@@ -276,7 +280,7 @@ function vAuth(){
 }
 function vNouveauMdp(){
   return `<form class="panel auth" id="mdp-form"><h2>Choisir un nouveau mot de passe</h2>
-    <label class="f" for="n-mdp">Nouveau mot de passe<input type="password" id="n-mdp" autocomplete="new-password" minlength="6" required></label>
+    <label class="f" for="n-mdp">Nouveau mot de passe<span class="pw"><input type="password" id="n-mdp" autocomplete="new-password" minlength="6" required><button type="button" class="pw-btn" data-pw="n-mdp" aria-controls="n-mdp" aria-pressed="false">Afficher</button></span></label>
     <div class="row"><button class="btn primary" type="submit">Enregistrer</button></div><p class="hint" id="n-msg" role="status"></p></form>`;
 }
 function vVerifier(){
@@ -468,6 +472,8 @@ function bind(){
   $app.querySelectorAll("[data-open]").forEach(b=>b.onclick=()=>go("module",b.dataset.open));
   $app.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>go(b.dataset.go));
   $app.querySelectorAll("[data-mode]").forEach(b=>b.onclick=()=>{ S.authMode=b.dataset.mode; render(); });
+  $app.querySelectorAll("[data-pw]").forEach(b=>b.onclick=()=>{ const i=document.getElementById(b.dataset.pw), voir=i.type==="password";
+    i.type = voir ? "text" : "password"; b.textContent = voir ? "Masquer" : "Afficher"; b.setAttribute("aria-pressed", String(voir)); i.focus(); });
   $app.querySelectorAll("[data-lu]").forEach(b=>b.onclick=()=>{ b.disabled=true; apres(rpc("marquer_lecon",{p_module:S.moduleId, p_lecon:+b.dataset.lu})); });
   $app.querySelectorAll("[data-pdf]").forEach(b=>b.onclick=()=>pdfModule(findModule(b.dataset.pdf)));
   $app.querySelectorAll("[data-diplome]").forEach(b=>b.onclick=()=>pdfNiveau(S.prog.niveaux.find(n=>n.id===b.dataset.diplome)));
