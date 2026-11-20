@@ -22,6 +22,8 @@ function erreur(e){
 // Données d'un étudiant à partir de son profil, de ses lignes de progression et de ses tests de passage
 function etuDepuis(p, rows, tests){
   const e = {id:p.id, nom:p.nom||"", eglise:p.eglise||"", inscrit:p.inscrit, role:p.role, enseignantId:p.enseignant_id||null,
+    identite:{nomNaissance:p.nom_naissance||"", dateNaissance:p.date_naissance||"", lieuNaissance:p.lieu_naissance||"", sexe:p.sexe||"",
+      nationalite:p.nationalite||"", telephone:p.telephone||"", pays:p.pays||"", ville:p.ville||""},
     modules:{}, lecons:{}, etapes:{}, evaluations:{}, maj:null, tests:tests||[]};
   for(const r of rows){
     e.modules[r.module_id] = {meilleur:(r.tentatives||r.cert_no) ? Number(r.meilleur) : null, dernier:r.dernier, tentatives:r.tentatives, dateExamen:r.date_examen,
@@ -108,5 +110,10 @@ function installation(nomApp){
 const HORS_LIGNE = `<div class="panel" style="display:grid;gap:8px"><h2>Vous êtes hors ligne</h2><p>L'application a besoin d'Internet pour vous connecter, enregistrer vos progrès et corriger les examens. Vérifiez votre connexion, puis touchez « Réessayer ».</p><div class="row"><button class="btn primary" type="button" onclick="location.reload()">Réessayer</button></div></div>`;
 window.addEventListener("online", ()=>{ if(document.querySelector("#app h2") && /hors ligne/.test(document.querySelector("#app h2").textContent)) location.reload(); });
 
-window.HDF = {installation, HORS_LIGNE, SEUIL, MIN_PRATIQUE, esc, pct, note20, fmtDate, depuis, toast, shuffle, erreur, etuDepuis, regles, connecter, CONFIG_MANQUANTE, lierMotsDePasse};
+// Fiche d'identité : obligatoire pour les attestations
+const identiteComplete = (e, photo) => !!(e && e.identite && e.identite.nomNaissance.trim().length>=3 && e.identite.dateNaissance && photo);
+const dateLongue = d => { if(!d) return ""; const [y,m,j]=String(d).slice(0,10).split("-").map(Number); return new Date(Date.UTC(y,m-1,j)).toLocaleDateString("fr-FR",{day:"numeric",month:"long",year:"numeric",timeZone:"UTC"}); };
+const INSTITUTION = {nom:"PRIÈRE EN LIGNE", responsable:"Min. HOUNGBADJI E. Melchisédèk", fonction:"Responsable de la formation", telephone:"(+229) 01 64 01 30 74"};
+
+window.HDF = {identiteComplete, dateLongue, INSTITUTION, installation, HORS_LIGNE, SEUIL, MIN_PRATIQUE, esc, pct, note20, fmtDate, depuis, toast, shuffle, erreur, etuDepuis, regles, connecter, CONFIG_MANQUANTE, lierMotsDePasse};
 })();

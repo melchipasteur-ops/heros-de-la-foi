@@ -11,7 +11,8 @@ Programme de formation biblique en ligne, de la conversion à la maturité.
 - **Examens en ligne** : 20 questions par module, notées sur 20, corrigées sur le serveur ; 16/20 ouvre le module suivant
 - **Progression obligatoire** : Nouveau converti → Disciple → Serviteur → Leader
 - **Test de passage** : 80 questions tirées au hasard dans un niveau ; avec 16/20, toutes les attestations du niveau sont délivrées (3 essais max par 24 h)
-- **Attestations PDF** numérotées par module, un diplôme par niveau, et une page publique de vérification (`/#verifier`)
+- **Attestations PDF** au nom de **PRIÈRE EN LIGNE** (logo, photo d'identité et identité de l'étudiant, signature du Min. HOUNGBADJI E. Melchisédèk, responsable de la formation), numérotées par module, un diplôme par niveau, et une page publique de vérification (`/#verifier`)
+- **Fiche d'identité obligatoire** avant toute attestation : nom complet de l'acte de naissance, date et lieu de naissance, sexe, nationalité, téléphone, pays, ville, photo d'identité sur fond blanc (recadrée automatiquement)
 - **Comptes étudiants** et **espace enseignant séparé** (`/enseignant.html`) : tableau de bord des responsabilités (témoignages à lire, étudiants en difficulté, inactifs, sans enseignant), enseignant attitré par étudiant, suivi leçon par leçon et étape par étape, validation ou demande de reprise des témoignages, journal de suivi et messages à l'étudiant, note sur 20 et appréciation
 
 - **Application installable** (PWA) sur Android, iPhone et ordinateur, directement depuis le site : bouton « Installer l'application » (instructions affichées sur iPhone) ; l'espace enseignant s'installe comme une application à part
@@ -26,6 +27,7 @@ Hébergement : **Vercel** (le site) + **Supabase** (comptes et base de données)
 | `enseignant.html`, `enseignant.js` | L'espace enseignant (page séparée) |
 | `commun.js`, `styles.css` | Code et styles partagés par les deux pages |
 | `manifest.webmanifest`, `manifest-enseignant.webmanifest`, `sw.js`, `icones/`, `vercel.json` | Application installable : description, icônes, service worker (pages et cours gardés en copie locale ; comptes et examens toujours en ligne) |
+| `marque/` | Logo Prière en Ligne et signature du responsable, utilisés sur les attestations |
 | `images/` | Illustrations (régénérées par `python3 contenu/images.py`) |
 | `contenu/ordre.json` | Ordre des modules dans chaque niveau |
 | `programme.json` | Liste des niveaux et modules |

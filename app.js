@@ -26,16 +26,18 @@ async function getModule(id){
 // ---------- données Supabase ----------
 async function chargerEtu(){
   const uid = S.session.user.id;
-  const [p, g, t, su] = await Promise.all([
+  const [p, g, t, su, ph] = await Promise.all([
     S.sb.from("profils").select("*").eq("id",uid).maybeSingle(),
     S.sb.from("progression").select("*").eq("user_id",uid),
     S.sb.from("tests_passage").select("niveau,reussi").eq("user_id",uid).eq("reussi",true),
-    S.sb.rpc("mon_suivi")
+    S.sb.rpc("mon_suivi"),
+    S.sb.from("photos").select("image").eq("user_id",uid).maybeSingle()
   ]);
   if(p.error) throw p.error; if(g.error) throw g.error;
   S.profil = p.data || {id:uid, nom:"", eglise:"", role:"etudiant"};
   S.etu = etuDepuis(S.profil, g.data||[], t.data||[]);
   S.suivi = su.error ? null : su.data;
+  S.photo = (ph && !ph.error && ph.data) ? ph.data.image : null;
   // Test de passage réussi mais attestations manquantes (module ajouté après le test) : rattrapage côté serveur
   const manque = (t.data||[]).some(x=>{ const n=S.prog.niveaux[x.niveau-1]; return n && n.modules.some(m=>!statut(m).certifie); });
   if(manque && !S._rattrapage){ S._rattrapage=true; const r=await S.sb.rpc("rattraper_attestations"); if(!r.error && r.data>0){ toast(`${r.data} attestation(s) délivrée(s) grâce à votre test de passage.`); return chargerEtu(); } }
@@ -126,17 +128,6 @@ function vVerifier(){
   <div class="row"><button class="btn primary" type="submit">Vérifier</button><a class="btn small" href="#parcours">Retour</a></div><div id="v-res"></div></form>`;
 }
 
-function profilForm(){
-  return `<section class="panel" style="display:grid;gap:14px">
-    <div><p class="eyebrow">Votre fiche d'étudiant</p><h2>Le nom qui figurera sur vos attestations</h2></div>
-    <div class="grid2">
-      <label class="f" for="p-nom">Nom complet<input type="text" id="p-nom" value="${esc(S.etu.nom)}" maxlength="80"></label>
-      <label class="f" for="p-eglise">Église ou assemblée <span class="hint">(facultatif)</span><input type="text" id="p-eglise" value="${esc(S.etu.eglise)}" maxlength="80"></label>
-    </div>
-    <div class="row"><button class="btn primary" id="p-save" type="button">Enregistrer ma fiche</button><span class="hint">Connecté : ${esc(S.session.user.email)}</span></div>
-  </section>`;
-}
-
 function suiviHtml(){
   const su=S.suivi; if(!su || (!su.enseignant && !(su.messages||[]).length)) return "";
   return `<section class="panel suivi"><p class="eyebrow">Mon accompagnement</p>${su.enseignant?`<h3>Votre enseignant : ${esc(su.enseignant)}</h3>`:""}
@@ -160,9 +151,9 @@ function vParcours(){
   </section>
   ${next ? `<section class="panel row" style="justify-content:space-between"><div><p class="eyebrow">Prochaine étape</p><h3>${esc(next.titre)}</h3><p class="hint">Niveau ${niveauIndex(next.niveau)} · ${esc(next.niveau.nom)}</p></div><button class="btn primary" data-open="${next.id}" type="button">Continuer</button></section>` : `<section class="panel"><h3>Félicitations ! Vous avez terminé tout le programme.</h3></section>`}
   ${suiviHtml()}
-  ${!S.etu.nom ? profilForm() : ""}
+  ${!identiteOk() ? profilForm() : ""}
   <section class="levels">${S.prog.niveaux.map(levelCard).join("")}</section>
-  ${S.etu.nom ? profilForm() : ""}`;
+  ${identiteOk() ? profilForm() : ""}`;
 }
 
 function levelCard(n){
@@ -455,9 +446,9 @@ function vModule(){
 }
 
 function certSection(m,s){
-  if(s.certifie) return `<section class="cert"><p class="eyebrow">Attestation n° ${esc(s.r.certNo)}</p><div class="nm">${esc(S.etu.nom)}</div><p>${s.parTest?`a validé le module « ${esc(m.titre)} » par le test de passage du niveau, avec ${note20(s.r.meilleur)}.`:`a réussi le module « ${esc(m.titre)} » avec ${note20(s.r.meilleur)} et a mis sa foi en pratique.`}</p><p class="hint">Délivrée le ${fmtDate(s.r.certDate)}</p><div class="row" style="justify-content:center"><button class="btn gold" type="button" data-pdf="${m.id}">Télécharger l'attestation (PDF)</button></div></section>`;
+  if(s.certifie) return `<section class="cert"><p class="eyebrow">Attestation n° ${esc(s.r.certNo)}</p><div class="nm">${esc((S.etu.identite&&S.etu.identite.nomNaissance)||S.etu.nom)}</div><p>${s.parTest?`a validé le module « ${esc(m.titre)} » par le test de passage du niveau, avec ${note20(s.r.meilleur)}.`:`a réussi le module « ${esc(m.titre)} » avec ${note20(s.r.meilleur)} et a mis sa foi en pratique.`}</p><p class="hint">Délivrée le ${fmtDate(s.r.certDate)}</p><div class="row" style="justify-content:center"><button class="btn gold" type="button" data-pdf="${m.id}">Télécharger l'attestation (PDF)</button></div></section>`;
   const manque = [];
-  if(!S.etu.nom) manque.push("renseigner votre nom sur la page « Mon parcours »");
+  if(!identiteOk()) manque.push("compléter votre fiche d'identité (nom de l'acte de naissance, date de naissance et photo sur fond blanc) sur la page « Mon parcours »");
   if(!s.reussi) manque.push("obtenir au moins 16/20 à l'examen");
   if(!s.pratique) manque.push("déposer votre témoignage de foi agissante");
   else if(s.r.pratiqueStatut==="a_revoir") manque.push("revoir votre témoignage comme votre enseignant le demande");
@@ -585,10 +576,7 @@ function bind(){
     const m=findModule(data.module);
     out.innerHTML=`<div class="keep" style="background:var(--ok-soft);border-color:var(--ok)">Attestation authentique : <b>${esc(data.nom)}</b> a validé le module « ${esc(m?m.titre:data.module)} » ${data.origine==="test"?"par le test de passage du niveau ":""}avec ${note20(data.score)}, le ${fmtDate(data.date)}.</div>`; };
 
-  const ps=document.getElementById("p-save");
-  if(ps) ps.onclick=async()=>{ const nom=document.getElementById("p-nom").value.trim(); if(nom.length<3){ toast("Indiquez votre nom complet."); return; }
-    const {error}=await S.sb.from("profils").update({nom, eglise:document.getElementById("p-eglise").value.trim()}).eq("id",S.session.user.id);
-    if(error){ toast(erreur(error)); return; } apres(Promise.resolve(),"Fiche enregistrée."); };
+  lierFiche();
   const ta=document.getElementById("pratique");
   if(ta){ const c=document.getElementById("pr-count"); const upd=()=>{ const n=ta.value.trim().length; c.textContent = n<MIN_PRATIQUE ? `${n} / ${MIN_PRATIQUE} caractères minimum` : `${n} caractères`; }; ta.oninput=upd; upd();
     document.getElementById("save-pratique").onclick=()=>apres(rpc("enregistrer_pratique",{p_module:S.moduleId, p_texte:ta.value}),"Témoignage enregistré."); }
@@ -644,64 +632,156 @@ async function auth(e){
   }catch(err){ msg.textContent=erreur(err); }
 }
 
+const identiteOk = () => HDF.identiteComplete(S.etu, S.photo);
+function profilForm(){
+  const I=S.etu.identite||{}, ph=S.photoNouvelle||S.photo, ok=identiteOk();
+  const champ=(id,label,val,extra)=>`<label class="f" for="${id}">${label}<input type="text" id="${id}" value="${esc(val)}" maxlength="80" ${extra||""}></label>`;
+  return `<section class="panel fiche" id="fiche" style="display:grid;gap:14px;${ok?"":"border-color:var(--brass);border-width:2px"}">
+    <div><p class="eyebrow">Ma fiche d'identité · ${esc(HDF.INSTITUTION.nom)}</p><h2>Les informations de vos attestations</h2>
+      <p class="hint">${ok?"Votre fiche est complète. Vérifiez-la bien : ces informations figurent sur vos attestations et votre diplôme.":"Obligatoire pour recevoir vos attestations : votre nom complet exactement comme sur votre acte de naissance, votre date de naissance et une photo d'identité sur fond blanc."}</p></div>
+    <div class="fiche-grille">
+      <div class="photo-zone">
+        <div class="photo-cadre">${ph?`<img src="${ph}" alt="Votre photo d'identité" id="p-photo-img">`:`<span class="hint">Pas encore de photo</span>`}</div>
+        <label class="btn small" for="p-photo" style="justify-content:center">${ph?"Changer la photo":"Ajouter ma photo"}<input type="file" id="p-photo" accept="image/*" hidden></label>
+        <p class="hint" id="p-photo-msg">Photo récente, de face, visage dégagé, <b>sur fond blanc</b>.</p>
+      </div>
+      <div class="grid2" style="align-content:start">
+        ${champ("p-nn","Nom complet tel que sur l'acte de naissance <span class=\"hint\">(nom et prénoms)</span>",I.nomNaissance||S.etu.nom,'autocomplete="name" required')}
+        <label class="f" for="p-dn">Date de naissance<input type="date" id="p-dn" value="${esc(I.dateNaissance)}" max="${new Date().toISOString().slice(0,10)}"></label>
+        ${champ("p-ln","Lieu de naissance",I.lieuNaissance)}
+        <label class="f" for="p-sexe">Sexe<select id="p-sexe"><option value=""></option><option value="F" ${I.sexe==="F"?"selected":""}>Féminin</option><option value="M" ${I.sexe==="M"?"selected":""}>Masculin</option></select></label>
+        ${champ("p-nat","Nationalité",I.nationalite)}
+        ${champ("p-tel","Téléphone (WhatsApp)",I.telephone,'inputmode="tel" autocomplete="tel"')}
+        ${champ("p-pays","Pays de résidence",I.pays,'autocomplete="country-name"')}
+        ${champ("p-ville","Ville",I.ville)}
+        ${champ("p-nom","Nom d'usage <span class=\"hint\">(affiché sur le site)</span>",S.etu.nom)}
+        ${champ("p-eglise","Église ou assemblée <span class=\"hint\">(facultatif)</span>",S.etu.eglise)}
+      </div>
+    </div>
+    <div class="row"><button class="btn primary" id="p-save" type="button">Enregistrer ma fiche</button><span class="hint">Connecté : ${esc(S.session.user.email)}</span></div>
+  </section>`;
+}
+// Recadre la photo au format identité (3 x 4), 360 x 480 pixels, et vérifie que le fond est clair
+function preparerPhoto(fichier){
+  return new Promise((ok, ko)=>{
+    if(!/^image\//.test(fichier.type)) return ko(new Error("Choisissez une image (photo JPEG ou PNG)."));
+    const url=URL.createObjectURL(fichier), im=new Image();
+    im.onload=()=>{ const W=360,H=480, c=document.createElement("canvas"); c.width=W; c.height=H; const x=c.getContext("2d");
+      x.fillStyle="#fff"; x.fillRect(0,0,W,H);
+      const r=Math.max(W/im.width, H/im.height), w=im.width*r, h=im.height*r; x.drawImage(im,(W-w)/2,(H-h)/2,w,h);
+      URL.revokeObjectURL(url);
+      const bord=[...x.getImageData(0,0,36,180).data, ...x.getImageData(W-36,0,36,180).data]; let s=0,n=0;
+      for(let i=0;i<bord.length;i+=4){ s+=(bord[i]+bord[i+1]+bord[i+2])/3; n++; }
+      let q=0.86, d=c.toDataURL("image/jpeg",q); while(d.length>380000 && q>0.4){ q-=0.1; d=c.toDataURL("image/jpeg",q); }
+      ok({image:d, fondClair: s/n > 200}); };
+    im.onerror=()=>{ URL.revokeObjectURL(url); ko(new Error("Cette image ne peut pas être lue. Essayez une photo JPEG.")); };
+    im.src=url;
+  });
+}
+function lierFiche(){
+  const f=document.getElementById("p-photo");
+  if(f) f.onchange=async()=>{ const msg=document.getElementById("p-photo-msg"); if(!f.files[0]) return;
+    try{ const r=await preparerPhoto(f.files[0]); S.photoNouvelle=r.image; garderSaisie(); render();
+      const m=document.getElementById("p-photo-msg"); if(m) m.innerHTML = r.fondClair ? "Photo prête. Cliquez sur « Enregistrer ma fiche »." : "<b style=\"color:var(--bad)\">Le fond ne semble pas blanc.</b> Une photo sur fond blanc est demandée : reprenez-la devant un mur blanc si possible, puis enregistrez.";
+      document.getElementById("fiche").scrollIntoView({block:"start"}); }
+    catch(e){ msg.textContent=e.message; } };
+  const ps=document.getElementById("p-save");
+  if(ps) ps.onclick=async()=>{
+    const v=id=>document.getElementById(id).value.trim();
+    const nn=v("p-nn"), dn=v("p-dn");
+    if(nn.length<3){ toast("Indiquez votre nom complet tel qu'il figure sur votre acte de naissance."); return; }
+    if(dn && (dn<"1900-01-01" || dn>new Date().toISOString().slice(0,10))){ toast("La date de naissance n'est pas valide."); return; }
+    ps.disabled=true;
+    const maj={nom:v("p-nom")||nn, eglise:v("p-eglise"), nom_naissance:nn, date_naissance:dn||null, lieu_naissance:v("p-ln"), sexe:v("p-sexe"),
+      nationalite:v("p-nat"), telephone:v("p-tel"), pays:v("p-pays"), ville:v("p-ville")};
+    const {error}=await S.sb.from("profils").update(maj).eq("id",S.session.user.id);
+    if(error){ ps.disabled=false; toast(erreur(error)); return; }
+    if(S.photoNouvelle){ const r=await S.sb.from("photos").upsert({user_id:S.session.user.id, image:S.photoNouvelle, maj:new Date().toISOString()});
+      if(r.error){ ps.disabled=false; toast("Fiche enregistrée, mais la photo n'a pas pu l'être : "+erreur(r.error)); return; } S.photoNouvelle=null; }
+    S.saisie=null;
+    try{ await chargerEtu(); }catch(e){}
+    toast(identiteOk() ? "Fiche d'identité enregistrée." : "Fiche enregistrée. Il manque encore la photo ou la date de naissance pour les attestations.");
+    render();
+  };
+  // restaure ce qui avait été tapé avant l'ajout de la photo
+  if(S.saisie && document.getElementById("p-nn")) for(const [id,val] of Object.entries(S.saisie)){ const el=document.getElementById(id); if(el) el.value=val; }
+}
+function garderSaisie(){ S.saisie={}; document.querySelectorAll("#fiche input[type=text], #fiche input[type=date], #fiche select").forEach(el=>{ S.saisie[el.id]=el.value; }); }
+
 // ---------- PDF ----------
-const pdfTxt = s => String(s).replace(/[’‘]/g,"'").replace(/[“”]/g,'"').replace(/œ/g,"oe").replace(/Œ/g,"OE").replace(/[—–]/g,"-").replace(/…/g,"...").replace(/ /g," ");
-function cadre(doc, couleur){
-  const W=297,H=210; doc.setFillColor(252,250,244); doc.rect(0,0,W,H,"F");
-  doc.setDrawColor(...couleur); doc.setLineWidth(2.2); doc.rect(10,10,W-20,H-20);
-  doc.setLineWidth(0.5); doc.rect(14,14,W-28,H-28);
-  doc.setFillColor(27,42,78); doc.circle(W/2,33,10,"F");
-  doc.setDrawColor(...couleur); doc.setLineWidth(1.6); doc.line(W/2,27,W/2,40); doc.line(W/2-4.5,31,W/2+4.5,31);
+const pdfTxt = s => String(s).replace(/[’‘]/g,"'").replace(/[“”]/g,'"').replace(/œ/g,"oe").replace(/Œ/g,"OE").replace(/[—–]/g,"-").replace(/…/g,"...").replace(/ /g," ").replace(/ /g," ");
+const IMAGES_PDF = {};
+async function imagePdf(url){
+  if(!IMAGES_PDF[url]) IMAGES_PDF[url] = await fetch(url).then(r=>{ if(!r.ok) throw new Error(url); return r.blob(); })
+    .then(b=>new Promise(ok=>{ const f=new FileReader(); f.onload=()=>ok(f.result); f.readAsDataURL(b); }));
+  return IMAGES_PDF[url];
+}
+async function pdfPret(){
+  if(!window.jspdf){ toast("Le module PDF n'a pas pu se charger. Rechargez la page."); return false; }
+  if(!identiteOk()){ toast("Complétez d'abord votre fiche d'identité (nom de l'acte de naissance, date de naissance, photo)."); await go("parcours"); const f=document.getElementById("fiche"); if(f) f.scrollIntoView({block:"start"}); return false; }
+  return true;
+}
+const nomOfficiel = () => (S.etu.identite.nomNaissance || S.etu.nom).trim();
+async function gabarit(doc, titre, sousTitre){
+  const W=297, H=210, I=HDF.INSTITUTION, id=S.etu.identite;
+  const [logo, sig] = await Promise.all([imagePdf("marque/logo-priere-en-ligne.jpg"), imagePdf("marque/signature-houngbadji.png")]);
+  doc.setFillColor(252,250,244); doc.rect(0,0,W,H,"F");
+  doc.setDrawColor(168,123,31); doc.setLineWidth(2); doc.rect(8,8,W-16,H-16); doc.setLineWidth(0.5); doc.rect(11.5,11.5,W-23,H-23);
+  doc.addImage(logo,"JPEG",20,18,32,32);
+  doc.setTextColor(27,42,78); doc.setFont("times","bold"); doc.setFontSize(17); doc.text(pdfTxt(I.nom),57,29);
+  doc.setFont("helvetica","normal"); doc.setFontSize(9.5); doc.setTextColor(90,96,120);
+  doc.text(pdfTxt("Formation biblique « Héro de la Foi »"),57,35); doc.text(pdfTxt("Tél. "+I.telephone),57,40);
+  doc.addImage(S.photo,"JPEG",W-50,17,30,40); doc.setDrawColor(27,42,78); doc.setLineWidth(0.4); doc.rect(W-50,17,30,40);
+  doc.setTextColor(27,42,78); doc.setFont("times","bold"); doc.setFontSize(27); doc.text(pdfTxt(titre),W/2,68,{align:"center"});
+  doc.setFont("helvetica","normal"); doc.setFontSize(11.5); doc.setTextColor(90,96,120); doc.text(pdfTxt(sousTitre),W/2,76,{align:"center"});
+  doc.setFontSize(12); doc.text(pdfTxt(titre==="DIPLÔME"?"est décerné à":"est décernée à"),W/2,87,{align:"center"});
+  doc.setFont("times","bold"); doc.setFontSize(25); doc.setTextColor(20,27,46); doc.text(pdfTxt(nomOfficiel()),W/2,98,{align:"center"});
+  doc.setFont("helvetica","normal"); doc.setFontSize(10.5); doc.setTextColor(60,64,80);
+  const ne = (id.sexe==="F"?"Née":id.sexe==="M"?"Né":"Né(e)") + " le " + HDF.dateLongue(id.dateNaissance) + (id.lieuNaissance?" à "+id.lieuNaissance:"") + (id.nationalite?" · Nationalité : "+id.nationalite:"");
+  doc.text(pdfTxt(ne),W/2,105.5,{align:"center"});
+  // signature
+  doc.addImage(sig,"PNG",W-101,146,42,35.8);
+  doc.setDrawColor(150,150,150); doc.setLineWidth(0.3); doc.line(W-112,182,W-36,182);
+  doc.setFont("helvetica","bold"); doc.setFontSize(10); doc.setTextColor(27,42,78); doc.text(pdfTxt(I.responsable),W-74,187,{align:"center"});
+  doc.setFont("helvetica","normal"); doc.setFontSize(9); doc.setTextColor(90,96,120); doc.text(pdfTxt(I.fonction+", "+I.nom),W-74,191.5,{align:"center"});
 }
 function piedPdf(doc, no, date){
-  const W=297; doc.setFont("helvetica","normal"); doc.setFontSize(10); doc.setTextColor(90,96,120);
-  doc.text(pdfTxt("Délivrée le "+fmtDate(date)),40,178); doc.text(pdfTxt("N° "+no),40,184);
-  doc.setDrawColor(150,150,150); doc.setLineWidth(0.3); doc.line(W-110,176,W-40,176);
-  doc.text("Le responsable de la formation",W-75,182,{align:"center"});
-  doc.setFontSize(8.5); doc.text(pdfTxt("Programme Héro de la Foi - vérification : "+location.host+"/#verifier"),W/2,193,{align:"center"});
+  const W=297, I=HDF.INSTITUTION; doc.setFont("helvetica","normal"); doc.setFontSize(10); doc.setTextColor(90,96,120);
+  if(S.etu.eglise) doc.text(pdfTxt("Église : "+S.etu.eglise),24,170);
+  doc.text(pdfTxt("Délivrée le "+fmtDate(date)),24,177); doc.text(doc.splitTextToSize(pdfTxt("N° "+no),120),24,183);
+  doc.setFontSize(7.5); doc.text(pdfTxt(I.nom+" · Tél. "+I.telephone+" · Vérification : "+location.host+"/#verifier"),W/2,196.5,{align:"center"});
 }
 function nomFichier(s){ return pdfTxt(s).normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^A-Za-z0-9]+/g,"-"); }
 async function pdfModule(m){
-  if(!window.jspdf){ toast("Le module PDF n'a pas pu se charger. Rechargez la page."); return; }
+  if(!(await pdfPret())) return;
   const s=statut(m), i=niveauIndex(m.niveau), W=297;
   const doc=new jspdf.jsPDF({orientation:"landscape",unit:"mm",format:"a4"});
-  cadre(doc,[168,123,31]);
-  doc.setTextColor(27,42,78); doc.setFont("times","bold"); doc.setFontSize(30); doc.text("ATTESTATION DE RÉUSSITE",W/2,62,{align:"center"});
-  doc.setFont("helvetica","normal"); doc.setFontSize(12); doc.setTextColor(90,96,120);
-  doc.text(pdfTxt("Formation Héro de la Foi - Niveau "+i+" : "+m.niveau.nom),W/2,71,{align:"center"});
-  doc.setFontSize(13); doc.text("est décernée à",W/2,88,{align:"center"});
-  doc.setFont("times","bold"); doc.setFontSize(28); doc.setTextColor(20,27,46); doc.text(pdfTxt(S.etu.nom),W/2,103,{align:"center"});
-  doc.setFont("helvetica","normal"); doc.setFontSize(12.5); doc.setTextColor(40,44,60);
+  try{ await gabarit(doc, "ATTESTATION DE RÉUSSITE", `Niveau ${i} : ${m.niveau.nom}`); }catch(e){ toast("Le logo ou la signature n'a pas pu être chargé. Vérifiez votre connexion."); return; }
+  doc.setFont("helvetica","normal"); doc.setFontSize(12); doc.setTextColor(40,44,60);
   const texte = s.parTest
     ? `pour avoir validé le module « ${m.titre} » par le test de passage du niveau, avec la note de ${note20(s.r.meilleur)}.`
     : `pour avoir suivi avec succès le module « ${m.titre} », réussi l'examen avec la note de ${note20(s.r.meilleur)} et mis sa foi en pratique.`;
-  doc.text(doc.splitTextToSize(pdfTxt(texte),200),W/2,118,{align:"center"});
-  if(S.etu.eglise){ doc.setFontSize(11); doc.setTextColor(90,96,120); doc.text(pdfTxt(S.etu.eglise),W/2,138,{align:"center"}); }
-  doc.setFont("times","italic"); doc.setFontSize(11.5); doc.setTextColor(120,90,30);
-  doc.text(pdfTxt("« Ainsi en est-il de la foi : si elle n'a pas les oeuvres, elle est morte en elle-même. » Jacques 2.17"),W/2,155,{align:"center"});
+  doc.text(doc.splitTextToSize(pdfTxt(texte),190),W/2,117,{align:"center"});
+  doc.setFont("times","italic"); doc.setFontSize(11); doc.setTextColor(120,90,30);
+  doc.text(doc.splitTextToSize(pdfTxt("« Ainsi en est-il de la foi : si elle n'a pas les oeuvres, elle est morte en elle-même. » Jacques 2.17"),170),W/2-20,137,{align:"center"});
   piedPdf(doc, s.r.certNo, s.r.certDate);
-  doc.save(`Attestation-${m.id.toUpperCase()}-${nomFichier(S.etu.nom)}.pdf`);
+  doc.save(`Attestation-${m.id.toUpperCase()}-${nomFichier(nomOfficiel())}.pdf`);
 }
 async function pdfNiveau(n){
-  if(!window.jspdf){ toast("Le module PDF n'a pas pu se charger. Rechargez la page."); return; }
+  if(!(await pdfPret())) return;
   const i=niveauIndex(n), W=297;
   const sc=n.modules.map(m=>statut(m).r.meilleur||0), moy=sc.reduce((a,b)=>a+b,0)/sc.length;
   const certs=n.modules.map(m=>statut(m).r), last=certs.map(r=>r.certDate).sort().pop();
   const doc=new jspdf.jsPDF({orientation:"landscape",unit:"mm",format:"a4"});
-  cadre(doc,[168,123,31]);
-  doc.setTextColor(27,42,78); doc.setFont("times","bold"); doc.setFontSize(32); doc.text("DIPLÔME",W/2,60,{align:"center"});
-  doc.setFont("helvetica","normal"); doc.setFontSize(13); doc.setTextColor(90,96,120);
-  doc.text(pdfTxt("Niveau "+i+" - "+n.nom+" : "+n.sousTitre),W/2,70,{align:"center"});
-  doc.text("est décerné à",W/2,86,{align:"center"});
-  doc.setFont("times","bold"); doc.setFontSize(28); doc.setTextColor(20,27,46); doc.text(pdfTxt(S.etu.nom),W/2,101,{align:"center"});
+  try{ await gabarit(doc, "DIPLÔME", `Niveau ${i} - ${n.nom} : ${n.sousTitre}`); }catch(e){ toast("Le logo ou la signature n'a pas pu être chargé. Vérifiez votre connexion."); return; }
   doc.setFont("helvetica","normal"); doc.setFontSize(12); doc.setTextColor(40,44,60);
-  doc.text(doc.splitTextToSize(pdfTxt(`qui a validé les ${n.modules.length} modules du niveau avec une moyenne de ${note20(moy)}.`),210),W/2,115,{align:"center"});
-  doc.setFontSize(9.5); doc.setTextColor(90,96,120);
-  doc.text(doc.splitTextToSize(pdfTxt(n.modules.map(m=>m.titre).join(" · ")),230),W/2,132,{align:"center"});
-  doc.setFont("times","italic"); doc.setFontSize(11); doc.setTextColor(120,90,30);
-  doc.text(doc.splitTextToSize(pdfTxt(n.verset),230),W/2,152,{align:"center"});
-  piedPdf(doc, "Attestations " + certs.map(r=>r.certNo).join(", ").slice(0,90), last);
-  doc.save(`Diplome-Niveau${i}-${nomFichier(S.etu.nom)}.pdf`);
+  doc.text(doc.splitTextToSize(pdfTxt(`pour avoir validé les ${n.modules.length} modules du niveau avec une moyenne de ${note20(moy)}.`),200),W/2,116,{align:"center"});
+  doc.setFontSize(8.5); doc.setTextColor(90,96,120);
+  doc.text(doc.splitTextToSize(pdfTxt(n.modules.map(m=>m.titre).join(" · ")),210),W/2,124,{align:"center"});
+  doc.setFont("times","italic"); doc.setFontSize(10.5); doc.setTextColor(120,90,30);
+  doc.text(doc.splitTextToSize(pdfTxt(n.verset),165),W/2-22,142,{align:"center"});
+  piedPdf(doc, "Attestations " + certs.map(r=>r.certNo).join(", "), last);
+  doc.save(`Diplome-Niveau${i}-${nomFichier(nomOfficiel())}.pdf`);
 }
 
 // ---------- démarrage ----------
@@ -717,7 +797,7 @@ async function demarrer(){
       const avant = S.session && S.session.user.id;
       S.session = session;
       if(session && session.user.id!==avant){ try{ await chargerEtu(); }catch(e){ toast(erreur(e)); } }
-      if(!session){ S.etu={nom:"",eglise:"",modules:{},lecons:{},etapes:{},evaluations:{},tests:[]}; S.profil=null; S.suivi=null; S.exam=null; S.test=null; S.lecon=null; if(S.view!=="verifier") S.view="parcours"; try{ history.replaceState(null,"",location.pathname); }catch(e){} }
+      if(!session){ S.etu={nom:"",eglise:"",modules:{},lecons:{},etapes:{},evaluations:{},tests:[]}; S.profil=null; S.suivi=null; S.photo=null; S.photoNouvelle=null; S.saisie=null; S.exam=null; S.test=null; S.lecon=null; if(S.view!=="verifier") S.view="parcours"; try{ history.replaceState(null,"",location.pathname); }catch(e){} }
       render();
     }
     const {data} = await S.sb.auth.getSession();

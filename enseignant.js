@@ -5,7 +5,7 @@
 const {esc, pct, note20, fmtDate, depuis, toast, erreur, etuDepuis} = HDF;
 const $app = document.getElementById("app");
 const S = { prog:null, sb:null, session:null, profil:null, view:"tableau", etuId:null, filtre:"tous", recherche:"",
-  etudiants:[], enseignants:[], notes:[], reglages:{}, charge:false, recovery:false, oubli:false };
+  etudiants:[], enseignants:[], notes:[], photos:{}, reglages:{}, charge:false, recovery:false, oubli:false };
 let R = null;
 const INACTIF_JOURS = 7;
 
@@ -28,7 +28,7 @@ async function charger(){
   S.charge = true;
 }
 async function rpc(fn, args){ const {data,error}=await S.sb.rpc(fn,args); if(error){ toast(erreur(error)); throw error; } return data; }
-async function rafraichir(msg){ try{ await charger(); if(msg) toast(msg); }catch(e){ toast(erreur(e)); } render(); }
+async function rafraichir(msg){ try{ S.photos={}; await charger(); if(msg) toast(msg); }catch(e){ toast(erreur(e)); } render(); }
 
 // ---------- analyse d'un étudiant ----------
 const nomEns = id => { const e=S.enseignants.find(x=>x.id===id); return e ? (e.nom||"Enseignant") : null; };
@@ -159,6 +159,7 @@ function vFiche(){
   <section class="hero"><p class="eyebrow">Fiche étudiant</p><h1>${esc(e.nom||"Sans nom")}</h1>
     <p class="hint">${[e.eglise, e.inscrit?"inscrit le "+fmtDate(e.inscrit):"", "dernière activité : "+depuis(e.maj||e.inscrit)].filter(Boolean).map(esc).join(" · ")}</p>
     <p><b>En ce moment :</b> ${o.fini?"programme terminé":`${esc(o.texte)} (${esc(o.detail)})`}</p></section>
+  ${identiteHtml(e)}
   <div class="grid2">
     <section class="panel" style="display:grid;gap:10px"><p class="eyebrow">Enseignant attitré</p>
       <label class="f" for="attribuer">Cet étudiant est suivi par<select id="attribuer"><option value="">Personne pour l'instant</option>${S.enseignants.map(x=>`<option value="${esc(x.id)}" ${x.id===e.enseignantId?"selected":""}>${esc(x.nom||"Enseignant")}${x.id===moi?" (moi)":""}</option>`).join("")}</select></label>
@@ -172,6 +173,16 @@ function vFiche(){
   ${niveaux.map(n=>{ const i=R.niveauIndex(n); return `<section class="panel" style="display:grid;gap:12px;border-top:5px solid var(--n${i})"><h2>Niveau ${i} · ${esc(n.nom)}</h2>
     ${(e.tests||[]).filter(t=>t.niveau===i).map(t=>`<p class="hint">Test de passage : ${String(t.note20).replace(".",",")}/20 ${t.reussi?"(réussi)":""} le ${fmtDate(t.fin)}</p>`).join("")}
     ${n.modules.map(m=>ficheModule(e,{...m, niveau:n})).join("")}</section>`; }).join("")}`;
+}
+function identiteHtml(e){
+  const I=e.identite||{}, ph=S.photos[e.id];
+  if(ph===undefined){ S.photos[e.id]=null; S.sb.from("photos").select("image").eq("user_id",e.id).maybeSingle().then(({data})=>{ S.photos[e.id]=data?data.image:false; if(S.view==="fiche"&&S.etuId===e.id) render(); }); }
+  const ok=HDF.identiteComplete(e, ph);
+  const l=(k,v)=>v?`<dt>${k}</dt><dd>${esc(v)}</dd>`:"";
+  return `<section class="panel" style="display:grid;gap:10px"><div class="row" style="justify-content:space-between"><p class="eyebrow">Fiche d'identité</p><span class="pill ${ok?"ok":"bad"}">${ok?"complète":"incomplète : pas d'attestation possible"}</span></div>
+    <div class="identite"><div class="photo-cadre" style="width:120px">${ph?`<img src="${ph}" alt="Photo d'identité de ${esc(e.nom)}">`:`<span class="hint">${ph===null?"Chargement…":"Pas de photo"}</span>`}</div>
+    <dl>${l("Nom (acte de naissance)",I.nomNaissance)}${l("Né(e) le",HDF.dateLongue(I.dateNaissance))}${l("Lieu de naissance",I.lieuNaissance)}${l("Sexe",I.sexe==="F"?"Féminin":I.sexe==="M"?"Masculin":"")}${l("Nationalité",I.nationalite)}${l("Téléphone",I.telephone)}${l("Pays",I.pays)}${l("Ville",I.ville)}${l("Église",e.eglise)}</dl></div>
+    <p class="hint">Vérifiez que la photo est bien une photo d'identité sur fond blanc. Si ce n'est pas le cas, laissez un message à l'étudiant dans le journal ci-dessous.</p></section>`;
 }
 function ficheModule(e, m){
   const s=R.statut(m,e), x=e.evaluations[m.id]||{}, ouvert=R.moduleOuvert(m,e);

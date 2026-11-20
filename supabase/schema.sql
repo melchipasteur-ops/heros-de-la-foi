@@ -37,6 +37,21 @@ alter table public.progression add column if not exists etapes jsonb not null de
 alter table public.progression add column if not exists pratique_statut text;                    -- en_attente, valide, a_revoir
 alter table public.progression add column if not exists pratique_avis text;                      -- remarque de l'enseignant sur le témoignage
 alter table public.progression add column if not exists pratique_date timestamptz;
+-- Version 4 : identité officielle de l'étudiant pour les attestations (Prière en Ligne)
+alter table public.profils add column if not exists nom_naissance  text not null default '';   -- nom complet tel que sur l'acte de naissance
+alter table public.profils add column if not exists date_naissance date;
+alter table public.profils add column if not exists lieu_naissance text not null default '';
+alter table public.profils add column if not exists sexe           text not null default '';
+alter table public.profils add column if not exists nationalite    text not null default '';
+alter table public.profils add column if not exists telephone      text not null default '';
+alter table public.profils add column if not exists pays           text not null default '';
+alter table public.profils add column if not exists ville          text not null default '';
+-- Photo d'identité numérique (fond blanc), réduite par le site à 360 x 480 pixels (JPEG en base64)
+create table if not exists public.photos (
+  user_id uuid primary key references auth.users on delete cascade,
+  image   text not null check (image like 'data:image/jpeg;base64,%' and length(image) < 400000),
+  maj     timestamptz not null default now()
+);
 alter table public.profils add column if not exists enseignant_id uuid references auth.users on delete set null;  -- enseignant qui suit l'étudiant
 
 -- Réglages de la formation (modifiables par les enseignants)
@@ -171,6 +186,13 @@ drop policy if exists "tests : lecture" on public.tests_passage;
 create policy "tests : lecture" on public.tests_passage for select to authenticated
   using (user_id = auth.uid() or public.est_enseignant());
 
+alter table public.photos     enable row level security;
+drop policy if exists "photo : lecture" on public.photos;
+create policy "photo : lecture" on public.photos for select to authenticated using (user_id = auth.uid() or public.est_enseignant());
+drop policy if exists "photo : ajout" on public.photos;
+create policy "photo : ajout" on public.photos for insert to authenticated with check (user_id = auth.uid());
+drop policy if exists "photo : modification" on public.photos;
+create policy "photo : modification" on public.photos for update to authenticated using (user_id = auth.uid()) with check (user_id = auth.uid());
 alter table public.reglages    enable row level security;
 alter table public.suivi_notes enable row level security;
 drop policy if exists "reglages : lecture" on public.reglages;
@@ -189,12 +211,13 @@ create policy "suivi : suppression" on public.suivi_notes for delete to authenti
   using (public.est_enseignant() and enseignant_id = auth.uid());
 
 -- Droits par colonne : tout le reste passe par les fonctions ci-dessous.
-revoke all on public.profils, public.progression, public.cles_examen, public.modules, public.tests_passage, public.reglages, public.suivi_notes from anon, authenticated;
+revoke all on public.profils, public.progression, public.cles_examen, public.modules, public.tests_passage, public.reglages, public.suivi_notes, public.photos from anon, authenticated;
+grant select, insert (user_id, image, maj), update (user_id, image, maj) on public.photos to authenticated;
 grant select, update (valeur) on public.reglages to authenticated;
 grant select, insert (etudiant_id, enseignant_id, texte, visible), delete on public.suivi_notes to authenticated;
 grant select on public.profils, public.progression, public.tests_passage to authenticated;
 grant select on public.modules to anon, authenticated;
-grant update (nom, eglise) on public.profils to authenticated;
+grant update (nom, eglise, nom_naissance, date_naissance, lieu_naissance, sexe, nationalite, telephone, pays, ville) on public.profils to authenticated;
 grant update (note, commentaire, date_eval) on public.progression to authenticated;
 
 -- ---------- Fonctions appelées par la plateforme ----------
@@ -270,6 +293,10 @@ begin
   if not public.module_ouvert(auth.uid(), p_module) then raise exception 'Module verrouillé : terminez d''abord le module précédent'; end if;
   select nom into v_nom from public.profils where id = auth.uid();
   if length(trim(coalesce(v_nom, ''))) < 3 then raise exception 'Renseignez votre nom complet'; end if;
+  if not exists (select 1 from public.profils where id = auth.uid() and length(trim(nom_naissance)) >= 3 and date_naissance is not null)
+     or not exists (select 1 from public.photos where user_id = auth.uid()) then
+    raise exception 'Complétez votre fiche d''identité (nom de l''acte de naissance, date de naissance et photo) avant l''attestation';
+  end if;
   if r.meilleur < 0.8 then raise exception 'Examen non réussi : il faut au moins 16/20'; end if;
   if length(trim(r.pratique)) < 80 then raise exception 'Témoignage de foi agissante manquant'; end if;
   if r.pratique_statut = 'a_revoir' then raise exception 'Votre enseignant vous demande de revoir votre témoignage avant l''attestation'; end if;
@@ -412,7 +439,7 @@ end $$;
 -- Vérification publique d'une attestation par son numéro
 create or replace function public.verifier_attestation(p_no text) returns jsonb
 language sql stable security definer set search_path = public as $$
-  select jsonb_build_object('nom', p.nom, 'module', g.module_id, 'date', g.cert_date, 'score', g.meilleur, 'origine', g.origine)
+  select jsonb_build_object('nom', coalesce(nullif(trim(p.nom_naissance), ''), p.nom), 'module', g.module_id, 'date', g.cert_date, 'score', g.meilleur, 'origine', g.origine)
     from public.progression g join public.profils p on p.id = g.user_id
    where g.cert_no = upper(trim(p_no));
 $$;
