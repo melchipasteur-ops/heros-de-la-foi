@@ -183,7 +183,7 @@ function vProgramme(){
       <div class="step"><b>4. Examen</b>20 questions, au moins 16/20 pour ouvrir le module suivant</div>
       <div class="step"><b>5. Attestation</b>Un PDF numéroté, puis un diplôme par niveau</div>
     </div>
-    <p class="hint" style="margin-top:12px">Test de passage : 80 questions tirées au hasard dans tout le niveau, notées sur 20. Avec au moins 16/20, toutes les attestations du niveau sont délivrées et le niveau suivant s'ouvre. Trois essais au plus par 24 heures.</p></section>
+    <p class="hint" style="margin-top:12px">Test de passage : 80 questions tirées au hasard dans tout le niveau, notées sur 20, à faire en 25 minutes. Avec au moins 16/20, toutes les attestations du niveau sont délivrées et le niveau suivant s'ouvre. Trois essais au plus par 24 heures.</p></section>
     ${S.prog.niveaux.map(n=>{ const i=niveauIndex(n); return `<section class="panel" style="border-top:5px solid var(--n${i});display:grid;gap:12px">
       <div><p class="eyebrow" style="color:var(--n${i})">Niveau ${i}</p><h2>${esc(n.nom)} : ${esc(n.sousTitre)}</h2></div>
       <p class="lead">${esc(n.description)}</p>
@@ -439,7 +439,7 @@ function vModule(){
   </section>
   <section class="panel" style="display:grid;gap:12px">
     <div><p class="eyebrow">Évaluation</p><h2>Examen du module</h2></div>
-    <p class="hint">${c.examen.length} questions corrigées en ligne, notées sur 20. Il faut au moins 16/20 pour ouvrir le module suivant. Vous pouvez repasser l'examen autant de fois que nécessaire ; la meilleure note est conservée.${s.tentatives?` Tentatives : ${s.tentatives}.`:""}</p>
+    <p class="hint">${c.examen.length} questions corrigées en ligne, notées sur 20. Il faut au moins 16/20 pour ouvrir le module suivant. Durée : ${DUREE_EXAMEN} minutes, chrono affiché ; si vous quittez l'écran, l'examen recommence depuis le début. Vous pouvez repasser l'examen autant de fois que nécessaire ; la meilleure note est conservée.${s.tentatives?` Tentatives : ${s.tentatives}.`:""}</p>
     <div class="row"><button class="btn primary" type="button" data-go="examen" ${s.leconsFinies?"":"disabled"}>${s.tentatives?"Repasser l'examen":"Commencer l'examen"}</button>${s.leconsFinies?"":`<span class="hint">Disponible quand les ${s.nb} leçons sont terminées.</span>`}</div>
   </section>
   ${certSection(m,s)}`;
@@ -469,10 +469,88 @@ function questionsHtml(qs, rep, fini, info){
     </fieldset>`; }).join("");
 }
 
+// ----- chrono et anti-triche -----
+const DUREE_EXAMEN = 15, DUREE_TEST = 25; // minutes (contrôlées aussi par le serveur)
+function melangerExamen(c){ return shuffle(c.examen.map((q,qi)=>({cle:String(qi), q:q.q, choix: shuffle(q.choix)}))); }
+function melangerTest(brut){ return shuffle(brut).map(x=>{ const q=S.mods[x.m].examen[x.q]; return {cle:x.m+":"+x.q, q:q.q, choix:shuffle(q.choix)}; }); }
+function reglesEpreuve(min){
+  return `<ul><li>Vous avez <b>${min} minutes</b>. Le chrono s'affiche à l'écran pendant toute l'épreuve.</li>
+    <li>À la fin du temps, l'épreuve est bloquée et votre copie est <b>envoyée automatiquement</b> à la correction, avec les réponses déjà données (une question sans réponse compte comme fausse).</li>
+    <li>Pour éviter la triche : si vous <b>quittez l'écran</b> (appel reçu, autre application, autre onglet), l'épreuve <b>recommence depuis le début</b>, avec les questions dans un autre ordre et un nouveau chrono.</li>
+    <li>Conseil : mettez votre téléphone en mode avion ou « Ne pas déranger » avant de commencer.</li></ul>`;
+}
+function resteMs(fin){ return Math.max(0, fin-Date.now()); }
+function fmtChrono(ms){ const t=Math.ceil(ms/1000), m=Math.floor(t/60), s=t%60; return `${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`; }
+function chronoHtml(fin){ const r=resteMs(fin); return `<span id="chrono" class="chrono ${r<120000?"urgent":""}" role="timer">⏱ ${fmtChrono(r)}</span>`; }
+// Épreuve en cours (questions affichées, pas encore envoyée) : "examen", "test" ou null
+function epreuveEnCours(){
+  if(S.view==="examen" && S.exam && S.exam.demarre && !S.exam.fini && !S.exam.envoi) return "examen";
+  if(S.view==="test" && S.test && S.test.id && !S.test.res && !S.test.envoi) return "test";
+  return null;
+}
+async function demarrerExamen(){
+  const E=S.exam; if(!E) return;
+  E.chargement=true; render();
+  try{ const d=await rpc("demarrer_examen",{p_module:S.moduleId}); E.demarre=true; E.fin=Date.now()+(d&&d.duree||DUREE_EXAMEN*60)*1000; }catch(e){}
+  E.chargement=false; render(); window.scrollTo({top:0});
+}
+const MSG_SORTIE = "Vous avez quitté l'écran pendant l'épreuve (appel, autre application ou autre onglet). Pour éviter la triche, elle recommence depuis le début, avec un nouveau chrono.";
+async function recommencerEpreuve(){
+  const type=epreuveEnCours(); if(!type) return;
+  if(type==="examen"){
+    const E=S.exam, c=S.mods[S.moduleId];
+    E.questions=melangerExamen(c); E.rep={}; E.alerte=MSG_SORTIE; E.fin=Date.now()+DUREE_EXAMEN*60000;
+    render(); window.scrollTo({top:0});
+    try{ const d=await rpc("demarrer_examen",{p_module:S.moduleId}); if(S.exam===E) E.fin=Date.now()+(d&&d.duree||DUREE_EXAMEN*60)*1000; }catch(e){ if(S.exam===E){ E.demarre=false; render(); } }
+  }else{
+    const T=S.test;
+    T.questions=melangerTest(T.brut); T.rep={}; T.page=0; T.alerte=MSG_SORTIE; T.fin=Date.now()+DUREE_TEST*60000;
+    render(); window.scrollTo({top:0});
+    try{ const d=await rpc("recommencer_test",{p_test:T.id}); if(S.test===T) T.fin=Date.now()+(d&&d.duree||DUREE_TEST*60)*1000; }catch(e){}
+  }
+}
+// Détection de sortie d'écran : onglet caché (appel, autre appli) ou fenêtre qui perd le focus
+let sortie=false;
+function surSortie(){ if(epreuveEnCours()) sortie=true; }
+function surRetour(){ if(sortie && document.visibilityState==="visible"){ sortie=false; recommencerEpreuve(); } }
+document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState==="hidden") surSortie(); else surRetour(); });
+window.addEventListener("blur", ()=>setTimeout(()=>{ if(!document.hasFocus()) surSortie(); }, 300));
+window.addEventListener("focus", surRetour);
+window.addEventListener("pagehide", surSortie);
+// Chrono : mise à jour chaque seconde, envoi automatique à la fin du temps
+setInterval(()=>{
+  const type=epreuveEnCours(); if(!type || sortie) return;
+  const X = type==="examen" ? S.exam : S.test, r=resteMs(X.fin), el=document.getElementById("chrono");
+  if(el){ el.textContent="⏱ "+fmtChrono(r); el.classList.toggle("urgent", r<120000); }
+  if(r<=0){ toast("Temps écoulé : votre copie a été envoyée à la correction."); type==="examen" ? envoyerExamen(true) : envoyerTest(true); }
+}, 1000);
+async function envoyerExamen(auto){
+  const E=S.exam; if(!E || E.envoi || E.fini) return;
+  if(!auto && Object.keys(E.rep).length<E.questions.length){ document.getElementById("ex-hint").textContent=`Répondez à toutes les questions avant de valider (${E.questions.length-Object.keys(E.rep).length} restantes).`; return; }
+  const reponses={}; E.questions.forEach((q,i)=>{ if(E.rep[i]!=null) reponses[q.cle]=q.choix[E.rep[i]]; });
+  E.envoi=true; E.alerte=null; render();
+  try{ E.res=await rpc("soumettre_examen",{p_module:S.moduleId, p_reponses:reponses}); E.fini=true; await chargerEtu(); }
+  catch(err){ E.envoi=false; if(resteMs(E.fin)<=0){ E.demarre=false; E.questions=melangerExamen(S.mods[S.moduleId]); E.rep={}; } }
+  render(); window.scrollTo({top:0});
+}
+async function envoyerTest(auto){
+  const T=S.test; if(!T || T.envoi || T.res) return;
+  const manque=T.questions.length-Object.keys(T.rep).length;
+  if(!auto && manque){ const p=T.questions.findIndex((_,i)=>T.rep[i]==null); document.getElementById("t-hint").textContent=`Il reste ${manque} question(s) sans réponse (la première est à la page ${Math.floor(p/PAR_PAGE)+1}).`; return; }
+  const reponses={}; T.questions.forEach((q,i)=>{ if(T.rep[i]!=null) reponses[q.cle]=q.choix[T.rep[i]]; });
+  T.envoi=true; T.alerte=null; render();
+  try{ T.res=await rpc("soumettre_test",{p_test:T.id, p_reponses:reponses}); await chargerEtu(); }catch(err){ T.envoi=false; if(resteMs(T.fin)<=0) S.test=null; }
+  render(); window.scrollTo({top:0});
+}
+
 function vExamen(){
   const m = findModule(S.moduleId), c = S.mods[S.moduleId];
-  if(!S.exam) S.exam = { questions: shuffle(c.examen.map((q,qi)=>({cle:String(qi), q:q.q, choix: shuffle(q.choix)}))), rep:{}, fini:false, res:null, envoi:false };
+  if(!S.exam) S.exam = { questions: melangerExamen(c), rep:{}, fini:false, res:null, envoi:false, demarre:false, fin:0 };
   const E=S.exam, nbRep=Object.keys(E.rep).length;
+  if(!E.demarre && !E.fini) return `<nav class="crumbs"><button type="button" data-go="parcours">Mon parcours</button><span>›</span><button type="button" data-go="module">${esc(m.titre)}</button><span>›</span><span>Examen</span></nav>
+  <section class="hero"><p class="eyebrow">Examen en ligne · ${E.questions.length} questions · noté sur 20</p><h1>${esc(m.titre)}</h1></section>
+  <section class="panel" style="display:grid;gap:12px">${reglesEpreuve(DUREE_EXAMEN)}
+    <div class="row"><button class="btn primary" type="button" id="start-exam" ${E.chargement?"disabled":""}>${E.chargement?"Préparation…":`Commencer l'examen (${DUREE_EXAMEN} minutes)`}</button><button class="btn" type="button" data-go="module">Annuler</button></div></section>`;
   let res="";
   if(E.fini && E.res){
     const pass=E.res.score/E.res.total>=SEUIL;
@@ -483,7 +561,8 @@ function vExamen(){
   return `<nav class="crumbs"><button type="button" data-go="parcours">Mon parcours</button><span>›</span><button type="button" data-go="module">${esc(m.titre)}</button><span>›</span><span>Examen</span></nav>
   <section class="hero"><p class="eyebrow">Examen en ligne · ${E.questions.length} questions · noté sur 20</p><h1>${esc(m.titre)}</h1></section>
   ${res}
-  ${E.fini?"":`<div class="counter" aria-live="polite">${nbRep} / ${E.questions.length} répondues</div>`}
+  ${E.alerte&&!E.fini?`<div class="keep alerte">${esc(E.alerte)}</div>`:""}
+  ${E.fini?"":`<div class="counter">${chronoHtml(E.fin)} · <span id="compte" aria-live="polite">${nbRep} / ${E.questions.length} répondues</span></div>`}
   <form class="panel" id="exam-form">
     ${questionsHtml(E.questions, E.rep, E.fini, info)}
     ${E.fini?"":`<div class="row" style="padding-top:12px"><button class="btn primary" type="submit" ${E.envoi?"disabled":""}>${E.envoi?"Correction…":"Valider mes réponses"}</button><span class="hint" id="ex-hint"></span></div>`}
@@ -500,7 +579,8 @@ function vTest(){
     <p>Ce test vérifie que vous maîtrisez déjà le contenu de tout le niveau.</p>
     <ul><li><b>80 questions</b> tirées au hasard parmi celles des ${n.modules.length} modules du niveau.</li>
       <li>Noté <b>sur 20</b>. Avec <b>au moins 16/20</b>, vous recevez directement les ${n.modules.length} attestations du niveau et le niveau suivant s'ouvre.</li>
-      <li>Vous avez <b>3 heures</b> pour le terminer, et au plus <b>3 essais par 24 heures</b>.</li>
+      <li>Vous avez <b>${DUREE_TEST} minutes</b> : le chrono s'affiche à l'écran. À la fin du temps, votre copie est envoyée automatiquement à la correction, avec les réponses déjà données.</li>
+      <li>Si vous quittez l'écran (appel, autre application, autre onglet), le test <b>recommence depuis le début</b> avec un nouveau chrono. Au plus <b>3 essais par 24 heures</b>.</li>
       <li>Les corrections détaillées ne sont pas affichées, pour garder le test fiable.</li></ul>
     <div class="row"><button class="btn primary" type="button" id="start-test">Commencer le test</button><button class="btn" type="button" data-go="parcours">Annuler</button></div></section>`;
   if(T.chargement) return head + `<div class="empty">Préparation des questions…</div>`;
@@ -509,7 +589,7 @@ function vTest(){
     <div class="row"><button class="btn primary" type="button" data-go="parcours">Retour à mon parcours</button></div></section>`; }
   const tot=T.questions.length, pages=Math.ceil(tot/PAR_PAGE), p=T.page, debut=p*PAR_PAGE, nbRep=Object.keys(T.rep).length;
   const qs=T.questions.slice(debut, debut+PAR_PAGE);
-  return head + `<div class="counter" aria-live="polite">${nbRep} / ${tot} répondues · page ${p+1} sur ${pages}</div>
+  return head + `${T.alerte?`<div class="keep alerte">${esc(T.alerte)}</div>`:""}<div class="counter">${chronoHtml(T.fin)} · <span id="compte" aria-live="polite">${nbRep} / ${tot} répondues · page ${p+1} sur ${pages}</span></div>
     <div class="bar" style="--lc:var(--n${S.niveauTest})"><i style="width:${pct(nbRep,tot)}%"></i></div>
     <form class="panel" id="test-form">
       ${qs.map((q,j)=>{ const i=debut+j; return `<fieldset class="q"><legend>${i+1}. ${esc(q.q)}</legend>
@@ -526,8 +606,8 @@ async function demarrerTest(){
   try{
     const d = await rpc("demarrer_test",{p_niveau:niv});
     await Promise.all(n.modules.map(m=>getModule(m.id)));
-    S.test = { id:d.id, page:0, rep:{}, res:null, envoi:false,
-      questions: shuffle(d.questions).map(x=>{ const q=S.mods[x.m].examen[x.q]; return {cle:x.m+":"+x.q, q:q.q, choix:shuffle(q.choix)}; }) };
+    S.test = { id:d.id, page:0, rep:{}, res:null, envoi:false, brut:d.questions, fin:Date.now()+(d.duree||DUREE_TEST*60)*1000,
+      questions: melangerTest(d.questions) };
   }catch(e){ S.test=null; }
   render(); window.scrollTo({top:0});
 }
@@ -586,29 +666,18 @@ function bind(){
 
   const f=document.getElementById("exam-form");
   if(f && S.exam && !S.exam.fini){
-    f.onchange=e=>{ const t=e.target; if(t.name&&t.name.startsWith("q")){ S.exam.rep[+t.name.slice(1)]=+t.value; const c=document.querySelector(".counter"); if(c) c.textContent=`${Object.keys(S.exam.rep).length} / ${S.exam.questions.length} répondues`; } };
-    f.onsubmit=async e=>{ e.preventDefault(); const E=S.exam;
-      if(Object.keys(E.rep).length<E.questions.length){ document.getElementById("ex-hint").textContent=`Répondez à toutes les questions avant de valider (${E.questions.length-Object.keys(E.rep).length} restantes).`; return; }
-      const reponses={}; E.questions.forEach((q,i)=>{ reponses[q.cle]=q.choix[E.rep[i]]; });
-      E.envoi=true; render();
-      try{ E.res=await rpc("soumettre_examen",{p_module:S.moduleId, p_reponses:reponses}); E.fini=true; await chargerEtu(); }
-      catch(err){ E.envoi=false; }
-      render(); window.scrollTo({top:0}); };
+    f.onchange=e=>{ const t=e.target; if(t.name&&t.name.startsWith("q")){ S.exam.rep[+t.name.slice(1)]=+t.value; const c=document.getElementById("compte"); if(c) c.textContent=`${Object.keys(S.exam.rep).length} / ${S.exam.questions.length} répondues`; } };
+    f.onsubmit=e=>{ e.preventDefault(); envoyerExamen(false); };
   }
+  const se=document.getElementById("start-exam"); if(se) se.onclick=demarrerExamen;
   const rt=document.getElementById("retry"); if(rt) rt.onclick=()=>{ S.exam=null; render(); window.scrollTo({top:0}); };
 
   const tf=document.getElementById("test-form");
   if(tf && S.test){
-    const T=S.test, maj=()=>{ const c=document.querySelector(".counter"), n=Object.keys(T.rep).length; if(c) c.textContent=`${n} / ${T.questions.length} répondues · page ${T.page+1} sur ${Math.ceil(T.questions.length/PAR_PAGE)}`; const b=document.querySelector(".bar>i"); if(b) b.style.width=pct(n,T.questions.length)+"%"; };
+    const T=S.test, maj=()=>{ const c=document.getElementById("compte"), n=Object.keys(T.rep).length; if(c) c.textContent=`${n} / ${T.questions.length} répondues · page ${T.page+1} sur ${Math.ceil(T.questions.length/PAR_PAGE)}`; const b=document.querySelector(".bar>i"); if(b) b.style.width=pct(n,T.questions.length)+"%"; };
     tf.onchange=e=>{ const t=e.target; if(t.name&&t.name.startsWith("t")){ T.rep[+t.name.slice(1)]=+t.value; maj(); } };
     tf.querySelectorAll("[data-page]").forEach(b=>b.onclick=()=>{ T.page=+b.dataset.page; render(); window.scrollTo({top:0}); });
-    tf.onsubmit=async e=>{ e.preventDefault();
-      const manque=T.questions.length-Object.keys(T.rep).length;
-      if(manque){ const p=T.questions.findIndex((_,i)=>T.rep[i]==null); document.getElementById("t-hint").textContent=`Il reste ${manque} question(s) sans réponse (la première est à la page ${Math.floor(p/PAR_PAGE)+1}).`; return; }
-      const reponses={}; T.questions.forEach((q,i)=>{ reponses[q.cle]=q.choix[T.rep[i]]; });
-      T.envoi=true; render();
-      try{ T.res=await rpc("soumettre_test",{p_test:T.id, p_reponses:reponses}); await chargerEtu(); }catch(err){ T.envoi=false; }
-      render(); window.scrollTo({top:0}); };
+    tf.onsubmit=e=>{ e.preventDefault(); envoyerTest(false); };
   }
 }
 
@@ -817,3 +886,8 @@ window.addEventListener("hashchange",()=>{ if(!S.prog) return; if(!S.session){ i
 demarrer();
 HDF.installation("etudiant");
 })();
+
+// Hauteur réelle de l'en-tête (plus haute sur téléphone) : le chrono reste visible juste dessous
+(function(){ const h=document.querySelector("header.top"); if(!h) return;
+  const maj=()=>document.documentElement.style.setProperty("--entete", h.offsetHeight+"px");
+  maj(); if(window.ResizeObserver) new ResizeObserver(maj).observe(h); else window.addEventListener("resize", maj); })();

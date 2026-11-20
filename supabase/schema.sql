@@ -104,6 +104,14 @@ create table if not exists public.tests_passage (
   reussi     boolean
 );
 
+-- Examen de module en cours : heure de début, pour le chrono de 15 minutes (contrôlé par le serveur)
+create table if not exists public.examens_en_cours (
+  user_id   uuid not null references auth.users on delete cascade,
+  module_id text not null,
+  debut     timestamptz not null default now(),
+  primary key (user_id, module_id)
+);
+
 -- ---------- Création automatique du profil à l'inscription ----------
 create or replace function public.creer_profil() returns trigger
 language plpgsql security definer set search_path = public as $$
@@ -166,6 +174,7 @@ alter table public.progression   enable row level security;
 alter table public.cles_examen   enable row level security;
 alter table public.modules       enable row level security;
 alter table public.tests_passage enable row level security;
+alter table public.examens_en_cours enable row level security;
 
 drop policy if exists "profil : lecture" on public.profils;
 create policy "profil : lecture" on public.profils for select to authenticated
@@ -213,7 +222,7 @@ create policy "suivi : suppression" on public.suivi_notes for delete to authenti
   using (public.est_enseignant() and enseignant_id = auth.uid());
 
 -- Droits par colonne : tout le reste passe par les fonctions ci-dessous.
-revoke all on public.profils, public.progression, public.cles_examen, public.modules, public.tests_passage, public.reglages, public.suivi_notes, public.photos from anon, authenticated;
+revoke all on public.profils, public.progression, public.cles_examen, public.modules, public.tests_passage, public.reglages, public.suivi_notes, public.photos, public.examens_en_cours from anon, authenticated;
 grant select, insert (user_id, image, maj), update (user_id, image, maj) on public.photos to authenticated;
 grant select, update (valeur) on public.reglages to authenticated;
 grant select, insert (etudiant_id, enseignant_id, texte, visible), delete on public.suivi_notes to authenticated;
@@ -252,10 +261,26 @@ end $$;
 
 -- Corrige l'examen d'un module (20 questions). p_reponses = {"0": "texte choisi", …}
 -- Les bonnes réponses et explications ne sont renvoyées que si l'examen est réussi (16/20).
+-- Démarre (ou recommence depuis le début) l'examen d'un module : 15 minutes à partir de maintenant.
+create or replace function public.demarrer_examen(p_module text) returns jsonb
+language plpgsql security definer set search_path = public as $$
+begin
+  if auth.uid() is null then raise exception 'Connexion requise'; end if;
+  if not public.module_existe(p_module) then raise exception 'Module inconnu'; end if;
+  if not public.module_ouvert(auth.uid(), p_module) then raise exception 'Module verrouillé : terminez d''abord le module précédent'; end if;
+  if coalesce((select cardinality(g.lecons) from public.progression g where g.user_id = auth.uid() and g.module_id = p_module), 0)
+     < (select nb_lecons from public.modules where id = p_module) then
+    raise exception 'Terminez d''abord toutes les leçons du module et leurs lectures obligatoires';
+  end if;
+  insert into public.examens_en_cours (user_id, module_id, debut) values (auth.uid(), p_module, now())
+  on conflict (user_id, module_id) do update set debut = now();
+  return jsonb_build_object('duree', 15 * 60);
+end $$;
+
 create or replace function public.soumettre_examen(p_module text, p_reponses jsonb) returns jsonb
 language plpgsql security definer set search_path = public as $$
 declare
-  v_total int; v_ok int; v_score numeric; v_justes jsonb; v_bonnes jsonb; v_expl jsonb;
+  v_total int; v_ok int; v_score numeric; v_justes jsonb; v_bonnes jsonb; v_expl jsonb; v_debut timestamptz;
 begin
   if auth.uid() is null then raise exception 'Connexion requise'; end if;
   if not public.module_ouvert(auth.uid(), p_module) then raise exception 'Module verrouillé : terminez d''abord le module précédent'; end if;
@@ -272,6 +297,11 @@ begin
     into v_total, v_ok, v_justes, v_bonnes, v_expl
     from public.cles_examen where module_id = p_module;
   if v_total = 0 then raise exception 'Module inconnu'; end if;
+  -- Chrono : 15 minutes (plus 90 secondes de marge pour l'envoi)
+  select debut into v_debut from public.examens_en_cours where user_id = auth.uid() and module_id = p_module for update;
+  if v_debut is null then raise exception 'Examen non démarré : recommencez l''examen.'; end if;
+  delete from public.examens_en_cours where user_id = auth.uid() and module_id = p_module;
+  if now() - v_debut > interval '16 minutes 30 seconds' then raise exception 'Temps écoulé : les 15 minutes sont dépassées. Recommencez l''examen.'; end if;
   v_score := round(v_ok::numeric / v_total, 4);
   insert into public.progression (user_id, module_id, tentatives, meilleur, dernier, date_examen)
   values (auth.uid(), p_module, 1, v_score, v_score, now())
@@ -328,7 +358,18 @@ begin
     select c.module_id, c.question from public.cles_examen c join public.modules m on m.id = c.module_id
      where m.niveau = p_niveau order by random() limit 80) t;
   insert into public.tests_passage (user_id, niveau, questions) values (auth.uid(), p_niveau, v_q) returning id into v_id;
-  return jsonb_build_object('id', v_id, 'questions', v_q);
+  return jsonb_build_object('id', v_id, 'questions', v_q, 'duree', 25 * 60);
+end $$;
+
+-- L'étudiant a quitté l'écran (appel, autre application) : le test recommence depuis le début,
+-- avec les mêmes questions et un nouveau chrono de 25 minutes (sans compter un essai de plus).
+create or replace function public.recommencer_test(p_test uuid) returns jsonb
+language plpgsql security definer set search_path = public as $$
+begin
+  if auth.uid() is null then raise exception 'Connexion requise'; end if;
+  update public.tests_passage set debut = now() where id = p_test and user_id = auth.uid() and fin is null;
+  if not found then raise exception 'Test introuvable'; end if;
+  return jsonb_build_object('duree', 25 * 60);
 end $$;
 
 -- Corrige un test de passage. p_reponses = {"n1m1:3": "texte choisi", …}
@@ -341,7 +382,8 @@ begin
   select * into t from public.tests_passage where id = p_test and user_id = auth.uid() for update;
   if not found then raise exception 'Test introuvable'; end if;
   if t.fin is not null then raise exception 'Ce test a déjà été corrigé'; end if;
-  if now() - t.debut > interval '3 hours' then raise exception 'Temps écoulé (3 heures maximum). Recommencez un test.'; end if;
+  -- Chrono : 25 minutes (plus 90 secondes de marge pour l'envoi)
+  if now() - t.debut > interval '26 minutes 30 seconds' then raise exception 'Temps écoulé : les 25 minutes sont dépassées. Recommencez un test.'; end if;
   select count(*), count(*) filter (where p_reponses->>(c.module_id || ':' || c.question) = c.reponse)
     into v_total, v_ok
     from jsonb_array_elements(t.questions) x
@@ -448,13 +490,13 @@ $$;
 
 revoke execute on function public.marquer_lecon(text,int), public.enregistrer_pratique(text,text),
   public.soumettre_examen(text,jsonb), public.delivrer_attestation(text), public.verifier_attestation(text),
-  public.demarrer_test(int), public.soumettre_test(uuid,jsonb),
+  public.demarrer_test(int), public.soumettre_test(uuid,jsonb), public.demarrer_examen(text), public.recommencer_test(uuid),
   public.est_enseignant(), public.module_existe(text), public.module_ouvert(uuid,text), public.niveau_ouvert(uuid,int),
   public.marquer_etape(text,int,int,int), public.evaluer_temoignage(uuid,text,text,text), public.attribuer_etudiant(uuid,uuid), public.mon_suivi(), public.rattraper_attestations(),
   public.creer_profil() from public, anon;
 grant execute on function public.marquer_lecon(text,int), public.enregistrer_pratique(text,text),
   public.soumettre_examen(text,jsonb), public.delivrer_attestation(text), public.demarrer_test(int),
-  public.soumettre_test(uuid,jsonb), public.est_enseignant(), public.module_existe(text),
+  public.soumettre_test(uuid,jsonb), public.demarrer_examen(text), public.recommencer_test(uuid), public.est_enseignant(), public.module_existe(text),
   public.marquer_etape(text,int,int,int), public.evaluer_temoignage(uuid,text,text,text), public.attribuer_etudiant(uuid,uuid), public.mon_suivi(), public.rattraper_attestations() to authenticated;
 grant execute on function public.verifier_attestation(text) to anon, authenticated;
 
