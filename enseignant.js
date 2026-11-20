@@ -81,7 +81,7 @@ function render(){
   else if(!S.session) html=vConnexion();
   else if(!S.profil) html=`<div class="empty">Chargement…</div>`;
   else if(!ens) html=`<section class="panel" style="display:grid;gap:12px;max-width:560px"><h2>Accès réservé aux enseignants</h2>
-      <p>Le compte <b>${esc(S.session.user.email)}</b> est un compte étudiant. L'espace enseignant est ouvert par le responsable de la formation.</p>
+      <p>Le compte <b>${esc(HDF.afficherIdentifiant(S.session.user.email))}</b> est un compte étudiant. L'espace enseignant est ouvert par le responsable de la formation.</p>
       <div class="row"><a class="btn primary" href="index.html">Aller au site des étudiants</a><button class="btn" type="button" id="sortir">Se déconnecter</button></div></section>`;
   else if(!S.charge) html=`<div class="empty">Chargement des étudiants…</div>`;
   else html = ({tableau:vTableau, etudiants:vEtudiants, fiche:vFiche, reglages:vReglages}[S.view] || vTableau)();
@@ -93,7 +93,7 @@ function vConnexion(){
   return `<section class="hero"><p class="eyebrow">Héro de la Foi</p><h1>Espace enseignant</h1>
     <p class="lead">Suivez vos étudiants étape par étape, lisez et validez leurs témoignages de foi agissante, encouragez-les et accompagnez ceux qui ont des difficultés.</p></section>
   <form class="panel auth" id="auth-form" novalidate>
-    <label class="f" for="a-email">Adresse e-mail<input type="email" id="a-email" autocomplete="email" required></label>
+    ${HDF.champIdentifiant("a")}
     ${S.oubli ? `<p class="hint">Nous vous enverrons un lien pour choisir un nouveau mot de passe.</p>` :
     `<label class="f" for="a-mdp">Mot de passe<span class="pw"><input type="password" id="a-mdp" autocomplete="current-password" minlength="6" required><button type="button" class="pw-btn" data-pw="a-mdp" aria-controls="a-mdp" aria-pressed="false">Afficher</button></span></label>`}
     <div class="row"><button class="btn primary" type="submit">${S.oubli?"Envoyer le lien":"Se connecter"}</button>
@@ -218,7 +218,7 @@ function vReglages(){
 
 // ---------- interactions ----------
 function bind(){
-  HDF.lierMotsDePasse($app);
+  HDF.lierMotsDePasse($app); HDF.lierIdentifiant($app, render);
   $app.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>go(b.dataset.go));
   $app.querySelectorAll("[data-fiche]").forEach(b=>b.onclick=()=>go("fiche", b.dataset.fiche));
   $app.querySelectorAll("[data-filtre]").forEach(b=>b.onclick=()=>{ S.filtre=b.dataset.filtre; render(); });
@@ -247,7 +247,10 @@ function bind(){
     if(error){ toast(erreur(error)); return; } rafraichir("Réglage enregistré."); };
   const ou=document.getElementById("oubli"); if(ou) ou.onclick=()=>{ S.oubli=!S.oubli; render(); };
   const af=document.getElementById("auth-form"); if(af) af.onsubmit=async ev=>{ ev.preventDefault();
-    const msg=document.getElementById("a-msg"), email=document.getElementById("a-email").value.trim(); msg.textContent="Un instant…";
+    const msg=document.getElementById("a-msg");
+    if(S.oubli && HDF.modeIdentifiant()==="tel"){ msg.textContent=`Compte créé avec un numéro : le responsable (${HDF.INSTITUTION.telephone}) peut réinitialiser le mot de passe.`; return; }
+    let email; try{ email=HDF.lireIdentifiant("a").email; }catch(err){ msg.textContent=err.message; return; }
+    msg.textContent="Un instant…";
     try{
       if(S.oubli){ const {error}=await S.sb.auth.resetPasswordForEmail(email,{redirectTo:location.origin+location.pathname}); if(error) throw error; msg.textContent="Si un compte existe pour cette adresse, un lien vient d'être envoyé."; }
       else { const {error}=await S.sb.auth.signInWithPassword({email, password:document.getElementById("a-mdp").value}); if(error) throw error; msg.textContent=""; }

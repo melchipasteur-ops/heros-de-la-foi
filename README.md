@@ -64,6 +64,11 @@ update public.profils set role = 'enseignant'
 ## Mettre à jour une base existante
 Exécutez à nouveau `supabase/schema_une_commande.sql`, puis les fichiers de `supabase/parties/` dans l'ordre. Rien n'est effacé : les comptes, la progression et les attestations sont conservés.
 
+## Connexion par téléphone ou e-mail
+À l'inscription, l'étudiant choisit « Téléphone » (par défaut) ou « E-mail ». Le numéro est vérifié selon le pays choisi (bibliothèque libphonenumber-js dans `vendor/`) ; un numéro qui ne respecte pas le format du pays est refusé. Aucun SMS n'est envoyé : le compte est enregistré dans Supabase sous un identifiant technique `<numéro international>@tel.herodelafoi.invalid`. Les anciens comptes e-mail (Gmail…) continuent de fonctionner.
+
+Mot de passe oublié pour un compte téléphone : le responsable remet un mot de passe provisoire avec `supabase/reinitialiser_mot_de_passe.sql` (SQL Editor), puis le communique à l'étudiant.
+
 ## Modifier le contenu
 Modifiez `contenu/v2/<id>.json`, lancez `node contenu/build.js`, ré-exécutez `supabase/cles_examen.sql` dans Supabase, puis poussez sur GitHub (Vercel redéploie tout seul).
 

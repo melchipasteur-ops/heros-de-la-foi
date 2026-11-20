@@ -45,7 +45,7 @@ main{padding-block:28px 64px;display:grid;gap:28px}
 .btn.small{padding:5px 10px;font-size:.9rem}
 .row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
 .panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}
-.hero{display:grid;gap:12px}
+.hero{display:grid;gap:12px;grid-template-columns:minmax(0,1fr)}
 .verse{font-family:var(--display);font-style:italic;color:var(--muted);max-width:65ch}
 /* niveaux */
 .levels{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr))}
@@ -113,7 +113,7 @@ tr:last-child td{border-bottom:0}
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--navy);color:var(--bg);padding:10px 16px;border-radius:10px;font-weight:600;z-index:20;max-width:calc(100% - 32px)}
 .prog-table td:first-child{min-width:220px}
 @media (prefers-reduced-motion:no-preference){.bar>i{transition:width .4s ease}}
-.auth{display:grid;gap:14px;max-width:520px}
+.auth{display:grid;gap:14px;max-width:520px;grid-template-columns:minmax(0,1fr)}
 .seg{display:flex;gap:4px;background:var(--surface2);padding:4px;border-radius:10px}
 .seg button{flex:1;border:0;background:none;padding:8px;border-radius:8px;cursor:pointer;font-weight:600;color:var(--muted)}
 .seg button[aria-selected="true"]{background:var(--surface);color:var(--ink)}
@@ -221,3 +221,8 @@ input[type=date]{width:100%;border:1px solid var(--line);border-radius:10px;padd
 .identite{display:grid;gap:14px;grid-template-columns:120px 1fr;align-items:start}
 .identite dl{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:4px 12px}
 .identite dt{color:var(--muted);font-size:.9rem}.identite dd{margin:0;font-weight:600}
+/* identifiant : téléphone ou e-mail */
+.tel-ligne{display:grid;gap:12px;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+@media (max-width:520px){.tel-ligne{grid-template-columns:minmax(0,1fr)}}
+.tel-ligne select,.tel-ligne input{width:100%;min-width:0;max-width:100%}
+input[type=tel]{width:100%;border:1px solid var(--line);border-radius:10px;padding:9px 12px;background:var(--bg)}

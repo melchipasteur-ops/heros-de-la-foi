@@ -79,7 +79,7 @@ function fromHash(){
 async function allerDepuisHash(){ if(S.view==="lecon"){ const k=S._leconHash; S.lecon=null; await go("lecon", null, k); } else if(S.view==="module") await go("module"); else render(); }
 document.getElementById("brand").onclick=()=>go(S.session?"parcours":"connexion");
 document.querySelectorAll("nav.tabs button[data-view]").forEach(b=>b.onclick=()=>go(b.dataset.view));
-document.getElementById("logout").onclick=async()=>{ await S.sb.auth.signOut(); };
+document.getElementById("logout").onclick=async()=>{ S.authMode="connexion"; await S.sb.auth.signOut(); };
 
 // ---------- rendu ----------
 function render(){
@@ -108,8 +108,8 @@ function vAuth(){
     </div>
     ${m==="inscription" ? `<label class="f" for="a-nom">Nom complet <span class="hint">(il figurera sur vos attestations)</span><input type="text" id="a-nom" autocomplete="name" maxlength="80" required></label>
       <label class="f" for="a-eglise">Église ou assemblée <span class="hint">(facultatif)</span><input type="text" id="a-eglise" maxlength="80"></label>` : ""}
-    <label class="f" for="a-email">Adresse e-mail<input type="email" id="a-email" autocomplete="email" required></label>
-    ${m!=="oubli" ? `<label class="f" for="a-mdp">Mot de passe<span class="pw"><input type="password" id="a-mdp" autocomplete="${m==="inscription"?"new-password":"current-password"}" minlength="6" required><button type="button" class="pw-btn" data-pw="a-mdp" aria-controls="a-mdp" aria-pressed="false">Afficher</button></span></label>` : `<p class="hint">Nous vous enverrons un lien pour choisir un nouveau mot de passe.</p>`}
+    ${HDF.champIdentifiant("a")}
+    ${m==="oubli" && HDF.modeIdentifiant()==="tel" ? `<p class="hint">Pour un compte créé avec un numéro de téléphone, contactez le responsable de la formation au <b>${esc(HDF.INSTITUTION.telephone)}</b> (appel ou WhatsApp) : il réinitialisera votre mot de passe.</p>` : m!=="oubli" ? `<label class="f" for="a-mdp">Mot de passe<span class="pw"><input type="password" id="a-mdp" autocomplete="${m==="inscription"?"new-password":"current-password"}" minlength="6" required><button type="button" class="pw-btn" data-pw="a-mdp" aria-controls="a-mdp" aria-pressed="false">Afficher</button></span></label>` : `<p class="hint">Nous vous enverrons un lien pour choisir un nouveau mot de passe.</p>`}
     <div class="row"><button class="btn primary" type="submit">${m==="connexion"?"Se connecter":m==="inscription"?"Créer mon compte":"Envoyer le lien"}</button>
       ${m==="connexion" ? `<button class="btn small" type="button" data-mode="oubli">Mot de passe oublié ?</button>` : ""}
       ${m==="oubli" ? `<button class="btn small" type="button" data-mode="connexion">Retour</button>` : ""}</div>
@@ -542,6 +542,7 @@ function bind(){
   $app.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>go(b.dataset.go));
   $app.querySelectorAll("[data-test]").forEach(b=>b.onclick=()=>{ S.niveauTest=+b.dataset.test; S.test=null; S.view="test"; render(); window.scrollTo({top:0}); });
   $app.querySelectorAll("[data-mode]").forEach(b=>b.onclick=()=>{ S.authMode=b.dataset.mode; render(); });
+  HDF.lierIdentifiant($app, render);
   $app.querySelectorAll("[data-pw]").forEach(b=>b.onclick=()=>{ const i=document.getElementById(b.dataset.pw), voir=i.type==="password";
     i.type = voir ? "text" : "password"; b.textContent = voir ? "Masquer" : "Afficher"; b.setAttribute("aria-pressed", String(voir)); i.focus(); });
   $app.querySelectorAll("[data-lect]").forEach(cb=>cb.onchange=()=>{ const [k,j]=cb.id.slice(3).split("-"); S.lus[S.moduleId+k+"-"+j]=cb.checked;
@@ -613,8 +614,12 @@ function bind(){
 
 async function auth(e){
   e.preventDefault();
-  const msg=document.getElementById("a-msg"), email=document.getElementById("a-email").value.trim();
+  const msg=document.getElementById("a-msg");
   const mdp=document.getElementById("a-mdp")?.value||"";
+  if(S.authMode==="oubli" && HDF.modeIdentifiant()==="tel"){ msg.textContent=`Contactez le responsable au ${HDF.INSTITUTION.telephone}.`; return; }
+  let id; try{ id=HDF.lireIdentifiant("a"); }catch(err){ msg.textContent=err.message; return; }
+  const email=id.email;
+  if(S.authMode!=="oubli" && mdp.length<6){ msg.textContent="Le mot de passe doit contenir au moins 6 caractères."; return; }
   msg.textContent="Un instant…";
   try{
     if(S.authMode==="connexion"){
@@ -622,7 +627,7 @@ async function auth(e){
     }else if(S.authMode==="inscription"){
       const nom=document.getElementById("a-nom").value.trim(), eglise=document.getElementById("a-eglise").value.trim();
       if(nom.length<3){ msg.textContent="Indiquez votre nom complet."; return; }
-      const {data,error}=await S.sb.auth.signUp({email, password:mdp, options:{data:{nom, eglise}, emailRedirectTo:location.origin}});
+      const {data,error}=await S.sb.auth.signUp({email, password:mdp, options:{data:{nom, eglise, telephone:id.telephone||"", pays:id.pays||""}, emailRedirectTo:location.origin}});
       if(error) throw error;
       if(!data.session) msg.textContent="Compte créé. Ouvrez l'e-mail que nous venons de vous envoyer et cliquez sur le lien pour l'activer.";
     }else{
@@ -658,7 +663,7 @@ function profilForm(){
         ${champ("p-eglise","Église ou assemblée <span class=\"hint\">(facultatif)</span>",S.etu.eglise)}
       </div>
     </div>
-    <div class="row"><button class="btn primary" id="p-save" type="button">Enregistrer ma fiche</button><span class="hint">Connecté : ${esc(S.session.user.email)}</span></div>
+    <div class="row"><button class="btn primary" id="p-save" type="button">Enregistrer ma fiche</button><span class="hint">Connecté : ${esc(HDF.afficherIdentifiant(S.session.user.email))}</span></div>
   </section>`;
 }
 // Recadre la photo au format identité (3 x 4), 360 x 480 pixels, et vérifie que le fond est clair

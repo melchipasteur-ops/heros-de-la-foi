@@ -108,10 +108,12 @@ create table if not exists public.tests_passage (
 create or replace function public.creer_profil() returns trigger
 language plpgsql security definer set search_path = public as $$
 begin
-  insert into public.profils (id, nom, eglise)
+  insert into public.profils (id, nom, eglise, telephone, pays)
   values (new.id,
           coalesce(left(trim(new.raw_user_meta_data->>'nom'), 80), ''),
-          coalesce(left(trim(new.raw_user_meta_data->>'eglise'), 80), ''))
+          coalesce(left(trim(new.raw_user_meta_data->>'eglise'), 80), ''),
+          coalesce(left(trim(new.raw_user_meta_data->>'telephone'), 40), ''),
+          coalesce(left(trim(new.raw_user_meta_data->>'pays'), 80), ''))
   on conflict (id) do nothing;
   return new;
 end $$;
