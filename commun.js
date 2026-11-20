@@ -16,6 +16,7 @@ function erreur(e){
   const fr = {"Invalid login credentials":"Adresse ou mot de passe incorrect.","Email not confirmed":"Ce compte n'est pas encore activé. Contactez le responsable de la formation.","User already registered":"Un compte existe déjà avec cette adresse. Connectez-vous.","Password should be at least 6 characters.":"Le mot de passe doit contenir au moins 6 caractères.",
     "Module inconnu":"Ce module n'est pas encore installé dans la base de données. Le responsable doit exécuter les fichiers SQL de mise à jour (schema_une_commande.sql puis les parties 01 à 03).",
     "Étape inconnue":"Ce module n'est pas encore installé dans la base de données. Prévenez le responsable de la formation."};
+  if (/rate limit/i.test(m)) return "Trop d'inscriptions en peu de temps. Réessayez dans une heure. (Responsable : dans Supabase, désactivez « Confirm email » pour que plus aucun e-mail ne soit envoyé à l'inscription.)";
   return fr[m] || m;
 }
 
