@@ -488,8 +488,12 @@ function epreuveEnCours(){
   if(S.view==="test" && S.test && S.test.id && !S.test.res && !S.test.envoi) return "test";
   return null;
 }
+// Plein écran pendant l'épreuve (Android, ordinateur ; ignoré là où ce n'est pas possible, comme sur iPhone)
+function pleinEcran(){ try{ const d=document.documentElement, f=d.requestFullscreen||d.webkitRequestFullscreen; if(f && !document.fullscreenElement){ const r=f.call(d,{navigationUI:"hide"}); if(r&&r.catch) r.catch(()=>{}); } }catch(e){} }
+function sortirPleinEcran(){ try{ if(document.fullscreenElement && document.exitFullscreen) document.exitFullscreen().catch(()=>{}); }catch(e){} }
 async function demarrerExamen(){
   const E=S.exam; if(!E) return;
+  pleinEcran();
   E.chargement=true; render();
   try{ const d=await rpc("demarrer_examen",{p_module:S.moduleId}); E.demarre=true; E.fin=Date.now()+(d&&d.duree||DUREE_EXAMEN*60)*1000; }catch(e){}
   E.chargement=false; render(); window.scrollTo({top:0});
@@ -529,6 +533,7 @@ async function envoyerExamen(auto){
   if(!auto && Object.keys(E.rep).length<E.questions.length){ document.getElementById("ex-hint").textContent=`Répondez à toutes les questions avant de valider (${E.questions.length-Object.keys(E.rep).length} restantes).`; return; }
   const reponses={}; E.questions.forEach((q,i)=>{ if(E.rep[i]!=null) reponses[q.cle]=q.choix[E.rep[i]]; });
   E.envoi=true; E.alerte=null; render();
+  sortirPleinEcran();
   try{ E.res=await rpc("soumettre_examen",{p_module:S.moduleId, p_reponses:reponses}); E.fini=true; await chargerEtu(); }
   catch(err){ E.envoi=false; if(resteMs(E.fin)<=0){ E.demarre=false; E.questions=melangerExamen(S.mods[S.moduleId]); E.rep={}; } }
   render(); window.scrollTo({top:0});
@@ -538,7 +543,7 @@ async function envoyerTest(auto){
   const manque=T.questions.length-Object.keys(T.rep).length;
   if(!auto && manque){ const p=T.questions.findIndex((_,i)=>T.rep[i]==null); document.getElementById("t-hint").textContent=`Il reste ${manque} question(s) sans réponse (la première est à la page ${Math.floor(p/PAR_PAGE)+1}).`; return; }
   const reponses={}; T.questions.forEach((q,i)=>{ if(T.rep[i]!=null) reponses[q.cle]=q.choix[T.rep[i]]; });
-  T.envoi=true; T.alerte=null; render();
+  T.envoi=true; T.alerte=null; render(); sortirPleinEcran();
   try{ T.res=await rpc("soumettre_test",{p_test:T.id, p_reponses:reponses}); await chargerEtu(); }catch(err){ T.envoi=false; if(resteMs(T.fin)<=0) S.test=null; }
   render(); window.scrollTo({top:0});
 }
@@ -601,6 +606,7 @@ function vTest(){
     </form>`;
 }
 async function demarrerTest(){
+  pleinEcran();
   const niv=S.niveauTest, n=S.prog.niveaux[niv-1];
   S.test={chargement:true}; render();
   try{
