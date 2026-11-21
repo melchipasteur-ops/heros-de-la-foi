@@ -104,6 +104,9 @@ create table if not exists public.tests_passage (
   reussi     boolean
 );
 
+-- compte = false : essai effacé par un enseignant (le test reste dans l'historique mais ne bloque plus)
+alter table public.tests_passage add column if not exists compte boolean not null default true;
+
 -- Examen de module en cours : heure de début, pour le chrono de 15 minutes (contrôlé par le serveur)
 create table if not exists public.examens_en_cours (
   user_id   uuid not null references auth.users on delete cascade,
@@ -280,7 +283,7 @@ end $$;
 create or replace function public.soumettre_examen(p_module text, p_reponses jsonb) returns jsonb
 language plpgsql security definer set search_path = public as $$
 declare
-  v_total int; v_ok int; v_score numeric; v_justes jsonb; v_bonnes jsonb; v_expl jsonb; v_debut timestamptz;
+  v_total int; v_ok int; v_score numeric; v_justes jsonb; v_bonnes jsonb; v_expl jsonb; v_debut timestamptz; v_retour boolean := false;
 begin
   if auth.uid() is null then raise exception 'Connexion requise'; end if;
   if not public.module_ouvert(auth.uid(), p_module) then raise exception 'Module verrouillé : terminez d''abord le module précédent'; end if;
@@ -309,7 +312,13 @@ begin
     set tentatives = progression.tentatives + 1,
         meilleur = greatest(progression.meilleur, excluded.meilleur),
         dernier = excluded.dernier, date_examen = now(), maj = now();
-  return jsonb_build_object('score', v_ok, 'total', v_total, 'note20', round(v_score * 20, 1), 'justes', v_justes,
+  -- Copie complète en dessous de 16/20 (et module jamais réussi) : retour obligatoire au cours.
+  -- Les leçons sont à refaire avant un nouvel examen, sauf si un enseignant autorise l'examen.
+  if v_score < 0.8 and (select meilleur from public.progression where user_id = auth.uid() and module_id = p_module) < 0.8 then
+    update public.progression set lecons = '{}', etapes = '{}', maj = now() where user_id = auth.uid() and module_id = p_module;
+    v_retour := true;
+  end if;
+  return jsonb_build_object('score', v_ok, 'total', v_total, 'note20', round(v_score * 20, 1), 'justes', v_justes, 'retour_cours', v_retour,
                             'bonnes', case when v_score >= 0.8 then v_bonnes end,
                             'explications', case when v_score >= 0.8 then v_expl end);
 end $$;
@@ -351,8 +360,21 @@ begin
   if auth.uid() is null then raise exception 'Connexion requise'; end if;
   if not exists (select 1 from public.modules where niveau = p_niveau) then raise exception 'Niveau inconnu'; end if;
   if not public.niveau_ouvert(auth.uid(), p_niveau) then raise exception 'Niveau verrouillé : validez d''abord le niveau précédent'; end if;
-  if (select count(*) from public.tests_passage where user_id = auth.uid() and niveau = p_niveau and debut > now() - interval '24 hours') >= 3 then
-    raise exception 'Vous avez déjà passé 3 tests de ce niveau en 24 heures. Réessayez demain.';
+  -- Test échoué : l'étudiant doit suivre les cours du niveau, sauf si un enseignant autorise un nouveau test
+  if exists (select 1 from public.tests_passage where user_id = auth.uid() and niveau = p_niveau and compte and fin is not null and not reussi) then
+    raise exception 'Test de passage non réussi : suivez les cours du niveau. Votre enseignant peut vous autoriser un nouveau test.';
+  end if;
+  -- Test commencé puis interrompu (page rechargée, réseau…) : on le reprend depuis le début, sans compter un essai de plus
+  select id, questions into v_id, v_q from public.tests_passage
+   where user_id = auth.uid() and niveau = p_niveau and compte and fin is null and debut > now() - interval '26 minutes 30 seconds'
+   order by debut desc limit 1;
+  if v_id is not null then
+    update public.tests_passage set debut = now() where id = v_id;
+    return jsonb_build_object('id', v_id, 'questions', v_q, 'duree', 25 * 60);
+  end if;
+  -- Seuls les tests terminés et corrigés comptent comme essais
+  if (select count(*) from public.tests_passage where user_id = auth.uid() and niveau = p_niveau and compte and fin is not null and debut > now() - interval '24 hours') >= 3 then
+    raise exception 'Vous avez déjà passé 3 tests de ce niveau en 24 heures. Réessayez demain, ou demandez à votre enseignant de réinitialiser vos essais.';
   end if;
   select jsonb_agg(jsonb_build_object('m', module_id, 'q', question)) into v_q from (
     select c.module_id, c.question from public.cles_examen c join public.modules m on m.id = c.module_id
@@ -488,15 +510,38 @@ language sql stable security definer set search_path = public as $$
    where g.cert_no = upper(trim(p_no));
 $$;
 
+-- Enseignant : efface les essais de test de passage d'un étudiant pour un niveau (nouveau test autorisé tout de suite)
+create or replace function public.autoriser_test(p_etudiant uuid, p_niveau int) returns int
+language plpgsql security definer set search_path = public as $$
+declare v_n int;
+begin
+  if not public.est_enseignant() then raise exception 'Réservé aux enseignants'; end if;
+  update public.tests_passage set compte = false where user_id = p_etudiant and niveau = p_niveau and compte and not coalesce(reussi, false);
+  get diagnostics v_n = row_count;
+  return v_n;
+end $$;
+
+-- Enseignant : autorise l'examen d'un module sans refaire les leçons (après un échec)
+create or replace function public.autoriser_examen(p_etudiant uuid, p_module text) returns void
+language plpgsql security definer set search_path = public as $$
+declare v_nb int;
+begin
+  if not public.est_enseignant() then raise exception 'Réservé aux enseignants'; end if;
+  select nb_lecons into v_nb from public.modules where id = p_module;
+  if v_nb is null then raise exception 'Module inconnu'; end if;
+  insert into public.progression (user_id, module_id, lecons) values (p_etudiant, p_module, array(select generate_series(0, v_nb - 1)))
+  on conflict (user_id, module_id) do update set lecons = excluded.lecons, maj = now();
+end $$;
+
 revoke execute on function public.marquer_lecon(text,int), public.enregistrer_pratique(text,text),
   public.soumettre_examen(text,jsonb), public.delivrer_attestation(text), public.verifier_attestation(text),
-  public.demarrer_test(int), public.soumettre_test(uuid,jsonb), public.demarrer_examen(text), public.recommencer_test(uuid),
+  public.demarrer_test(int), public.soumettre_test(uuid,jsonb), public.demarrer_examen(text), public.recommencer_test(uuid), public.autoriser_test(uuid,int), public.autoriser_examen(uuid,text),
   public.est_enseignant(), public.module_existe(text), public.module_ouvert(uuid,text), public.niveau_ouvert(uuid,int),
   public.marquer_etape(text,int,int,int), public.evaluer_temoignage(uuid,text,text,text), public.attribuer_etudiant(uuid,uuid), public.mon_suivi(), public.rattraper_attestations(),
   public.creer_profil() from public, anon;
 grant execute on function public.marquer_lecon(text,int), public.enregistrer_pratique(text,text),
   public.soumettre_examen(text,jsonb), public.delivrer_attestation(text), public.demarrer_test(int),
-  public.soumettre_test(uuid,jsonb), public.demarrer_examen(text), public.recommencer_test(uuid), public.est_enseignant(), public.module_existe(text),
+  public.soumettre_test(uuid,jsonb), public.demarrer_examen(text), public.recommencer_test(uuid), public.autoriser_test(uuid,int), public.autoriser_examen(uuid,text), public.est_enseignant(), public.module_existe(text),
   public.marquer_etape(text,int,int,int), public.evaluer_temoignage(uuid,text,text,text), public.attribuer_etudiant(uuid,uuid), public.mon_suivi(), public.rattraper_attestations() to authenticated;
 grant execute on function public.verifier_attestation(text) to anon, authenticated;
 

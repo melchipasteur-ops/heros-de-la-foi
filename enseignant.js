@@ -14,7 +14,7 @@ async function charger(){
   const [p, g, t, n, r] = await Promise.all([
     S.sb.from("profils").select("*"),
     S.sb.from("progression").select("*"),
-    S.sb.from("tests_passage").select("user_id,niveau,note20,reussi,fin").not("fin","is",null),
+    S.sb.from("tests_passage").select("*").not("fin","is",null),
     S.sb.from("suivi_notes").select("*").order("cree",{ascending:false}),
     S.sb.from("reglages").select("*")
   ]);
@@ -171,7 +171,8 @@ function vFiche(){
       ${notes.length?`<ul class="alist">${notes.map(n=>`<li><div class="msg" style="flex:1"><p style="white-space:pre-wrap">${esc(n.texte)}</p><p class="hint">${n.visible?"💬 Message à l'étudiant":"🔒 Note privée"} · ${esc(nomEns(n.enseignant_id)||"")} · ${fmtDate(n.cree)}</p></div>${n.enseignant_id===moi?`<button class="btn small" type="button" data-suppr="${esc(n.id)}">Supprimer</button>`:""}</li>`).join("")}</ul>`:`<p class="hint">Aucune note pour l'instant.</p>`}</section>
   </div>
   ${niveaux.map(n=>{ const i=R.niveauIndex(n); return `<section class="panel" style="display:grid;gap:12px;border-top:5px solid var(--n${i})"><h2>Niveau ${i} · ${esc(n.nom)}</h2>
-    ${(e.tests||[]).filter(t=>t.niveau===i).map(t=>`<p class="hint">Test de passage : ${String(t.note20).replace(".",",")}/20 ${t.reussi?"(réussi)":""} le ${fmtDate(t.fin)}</p>`).join("")}
+    ${(e.tests||[]).filter(t=>t.niveau===i).map(t=>`<p class="hint">Test de passage : ${String(t.note20).replace(".",",")}/20 ${t.reussi?"(réussi)":t.compte===false?"(essai effacé par un enseignant)":"(non réussi)"} le ${fmtDate(t.fin)}</p>`).join("")}
+    ${(e.tests||[]).some(t=>t.niveau===i && !t.reussi && t.compte!==false) ? `<div class="keep alerte" style="display:grid;gap:8px"><span>L'étudiant n'a pas réussi le test de passage : il doit suivre les cours du niveau. Vous pouvez effacer ses essais pour lui permettre de repasser le test tout de suite.</span><div class="row"><button class="btn small primary" type="button" data-autoriser-test="${i}">Autoriser un nouveau test de passage</button></div></div>` : ""}
     ${n.modules.map(m=>ficheModule(e,{...m, niveau:n})).join("")}</section>`; }).join("")}`;
 }
 function identiteHtml(e){
@@ -194,6 +195,7 @@ function ficheModule(e, m){
       <span class="row" style="gap:6px">${s.r.meilleur!=null?`<span class="pill ${s.reussi?"ok":"bad"}">${s.parTest?"Test":"Examen"} ${note20(s.r.meilleur)}</span>`:""}${s.r.pratique?`<span class="pill ${st==="valide"?"ok":st==="a_revoir"?"bad":""}">${st==="valide"?"témoignage validé":st==="a_revoir"?"à revoir":"témoignage à lire"}</span>`:""}</span></summary>
     <div class="body">
       <ul class="lecons-suivi">${lecons}</ul>
+      ${s.tentatives && !s.reussi && !s.leconsFinies ? `<div class="keep alerte" style="display:grid;gap:8px"><span>Examen non réussi : l'étudiant a été renvoyé au cours (leçons à refaire avant un nouvel examen).</span><div class="row"><button class="btn small primary" type="button" data-autoriser-examen="${m.id}">Autoriser l'examen sans refaire le cours</button></div></div>` : ""}
       <p class="hint">Examen : ${s.tentatives?`${s.tentatives} essai(s), meilleure note ${note20(s.r.meilleur)}, dernière ${s.r.dernier!=null?note20(s.r.dernier):"–"}${s.r.dateExamen?" le "+fmtDate(s.r.dateExamen):""}`:"pas encore passé"}${s.certifie?` · attestation n° ${esc(s.r.certNo)}${s.parTest?" (test de passage)":""}`:""}</p>
       ${s.r.pratique?`<div class="block"><b>Témoignage de foi agissante</b>${s.r.pratiqueDate?` <span class="hint">du ${fmtDate(s.r.pratiqueDate)}</span>`:""}<p style="white-space:pre-wrap">${esc(s.r.pratique)}</p>
         <label class="f" for="avis-${m.id}">Remarque pour l'étudiant <span class="hint">(obligatoire si vous demandez de revoir)</span><input type="text" id="avis-${m.id}" value="${esc(s.r.pratiqueAvis||"")}" maxlength="1000"></label>
@@ -232,6 +234,8 @@ function bind(){
     const {error}=await S.sb.from("suivi_notes").insert({etudiant_id:S.etuId, enseignant_id:S.session.user.id, texte, visible:document.getElementById("note-visible").checked});
     if(error){ toast(erreur(error)); return; } rafraichir("Note ajoutée."); };
   $app.querySelectorAll("[data-suppr]").forEach(b=>b.onclick=async()=>{ const {error}=await S.sb.from("suivi_notes").delete().eq("id",b.dataset.suppr); if(error){ toast(erreur(error)); return; } rafraichir("Note supprimée."); });
+  $app.querySelectorAll("[data-autoriser-test]").forEach(b=>b.onclick=async()=>{ b.disabled=true; try{ await rpc("autoriser_test",{p_etudiant:S.etuId, p_niveau:+b.dataset.autoriserTest}); rafraichir("Essais effacés : l'étudiant peut repasser le test de passage."); }catch(e){ b.disabled=false; } });
+  $app.querySelectorAll("[data-autoriser-examen]").forEach(b=>b.onclick=async()=>{ b.disabled=true; try{ await rpc("autoriser_examen",{p_etudiant:S.etuId, p_module:b.dataset.autoriserExamen}); rafraichir("L'étudiant peut repasser l'examen de ce module."); }catch(e){ b.disabled=false; } });
   $app.querySelectorAll("[data-temoignage]").forEach(b=>b.onclick=async()=>{
     const mid=b.dataset.temoignage, statut=b.dataset.statut, avis=document.getElementById("avis-"+mid).value.trim();
     if(statut==="a_revoir" && avis.length<5){ toast("Expliquez à l'étudiant ce qu'il doit revoir."); document.getElementById("avis-"+mid).focus(); return; }

@@ -29,7 +29,7 @@ async function chargerEtu(){
   const [p, g, t, su, ph] = await Promise.all([
     S.sb.from("profils").select("*").eq("id",uid).maybeSingle(),
     S.sb.from("progression").select("*").eq("user_id",uid),
-    S.sb.from("tests_passage").select("niveau,reussi").eq("user_id",uid).eq("reussi",true),
+    S.sb.from("tests_passage").select("*").eq("user_id",uid).not("fin","is",null),
     S.sb.rpc("mon_suivi"),
     S.sb.from("photos").select("image").eq("user_id",uid).maybeSingle()
   ]);
@@ -39,7 +39,7 @@ async function chargerEtu(){
   S.suivi = su.error ? null : su.data;
   S.photo = (ph && !ph.error && ph.data) ? ph.data.image : null;
   // Test de passage réussi mais attestations manquantes (module ajouté après le test) : rattrapage côté serveur
-  const manque = (t.data||[]).some(x=>{ const n=S.prog.niveaux[x.niveau-1]; return n && n.modules.some(m=>!statut(m).certifie); });
+  const manque = (t.data||[]).filter(x=>x.reussi).some(x=>{ const n=S.prog.niveaux[x.niveau-1]; return n && n.modules.some(m=>!statut(m).certifie); });
   if(manque && !S._rattrapage){ S._rattrapage=true; const r=await S.sb.rpc("rattraper_attestations"); if(!r.error && r.data>0){ toast(`${r.data} attestation(s) délivrée(s) grâce à votre test de passage.`); return chargerEtu(); } }
 }
 async function rpc(fn, args){
@@ -133,6 +133,9 @@ function suiviHtml(){
   return `<section class="panel suivi"><p class="eyebrow">Mon accompagnement</p>${su.enseignant?`<h3>Votre enseignant : ${esc(su.enseignant)}</h3>`:""}
     ${(su.messages||[]).slice(0,3).map(x=>`<div class="msg"><p>${esc(x.texte)}</p><p class="hint">${esc(x.auteur||"Votre enseignant")} · ${fmtDate(x.date)}</p></div>`).join("")}</section>`;
 }
+// Test de passage terminé sous 16/20 et non effacé par un enseignant : il faut suivre les cours du niveau
+function testBloque(i){ return (S.etu.tests||[]).some(t=>t.niveau===i && t.fin && !t.reussi && t.compte!==false); }
+function premierModuleAFaire(i){ const n=S.prog.niveaux[i-1]; return n && (n.modules.find(m=>moduleOuvert(m) && !statut(m).certifie) || n.modules[0]); }
 function vParcours(){
   const mods = allModules();
   const cert = mods.filter(m=>statut(m).certifie).length;
@@ -168,7 +171,7 @@ function levelCard(n){
       const pill = s.certifie ? `<span class="pill cert">${s.parTest?"Validé par test":"Attestation"}</span>` : !o ? `<span class="pill">Verrouillé</span>` : s.reussi ? `<span class="pill ok">Examen réussi</span>` : s.tentatives ? `<span class="pill bad">À reprendre</span>` : s.lus ? `<span class="pill">${s.lus}/${s.nb} leçons</span>` : "";
       return `<li><button type="button" data-open="${m.id}" ${o?"":'aria-disabled="true"'}><span class="dot ${s.certifie?"done":""}">${s.certifie?"✓":o?k+1:"🔒"}</span><span class="t">${esc(m.titre)}</span>${pill}</button></li>`; }).join("")}</ul>
     ${fini ? `<button class="btn gold" type="button" data-diplome="${n.id}">Télécharger le diplôme du niveau ${i}</button>`
-      : ouvert && !niveauValide(n) ? `<button class="btn" type="button" data-test="${i}">Passer le test de passage du niveau (80 questions)</button>` : ""}
+      : ouvert && !niveauValide(n) ? (testBloque(i) ? `<p class="hint">Test de passage non réussi : suivez les cours de ce niveau, module après module. Votre enseignant peut vous autoriser un nouveau test.</p>` : `<button class="btn" type="button" data-test="${i}">Passer le test de passage du niveau (80 questions)</button>`) : ""}
   </article>`;
 }
 
@@ -280,6 +283,12 @@ function etapesLecon(m, l, k){
   return E;
 }
 const cleEtape = (mid,k) => "hdf-etape-"+mid+"-"+k;
+// Retour obligatoire au cours : on repart de la première étape de chaque leçon, lectures à recocher
+function recommencerCours(mid){
+  const c=S.mods[mid]; (c?c.lecons:[]).forEach((_,k)=>{ try{ localStorage.removeItem(cleEtape(mid,k)); }catch(e){} });
+  Object.keys(S.lus).forEach(x=>{ if(x.startsWith(mid)) delete S.lus[x]; });
+  S.lecon=null;
+}
 function etapeDeReprise(mid, k){
   let v=null; try{ v=localStorage.getItem(cleEtape(mid,k)); }catch(e){}
   if(v!=null && !isNaN(+v)) return +v;
@@ -440,7 +449,7 @@ function vModule(){
   <section class="panel" style="display:grid;gap:12px">
     <div><p class="eyebrow">Évaluation</p><h2>Examen du module</h2></div>
     <p class="hint">${c.examen.length} questions corrigées en ligne, notées sur 20. Il faut au moins 16/20 pour ouvrir le module suivant. Durée : ${DUREE_EXAMEN} minutes, chrono affiché ; si vous quittez l'écran, l'examen recommence depuis le début. Vous pouvez repasser l'examen autant de fois que nécessaire ; la meilleure note est conservée.${s.tentatives?` Tentatives : ${s.tentatives}.`:""}</p>
-    <div class="row"><button class="btn primary" type="button" data-go="examen" ${s.leconsFinies?"":"disabled"}>${s.tentatives?"Repasser l'examen":"Commencer l'examen"}</button>${s.leconsFinies?"":`<span class="hint">Disponible quand les ${s.nb} leçons sont terminées.</span>`}</div>
+    <div class="row"><button class="btn primary" type="button" data-go="examen" ${s.leconsFinies?"":"disabled"}>${s.tentatives?"Repasser l'examen":"Commencer l'examen"}</button>${s.leconsFinies?"":`<span class="hint">${s.tentatives&&!s.reussi?"Examen non réussi : reprenez le cours. ":""}Disponible quand les ${s.nb} leçons sont terminées.</span>`}</div>
   </section>
   ${certSection(m,s)}`;
 }
@@ -559,8 +568,9 @@ function vExamen(){
   let res="";
   if(E.fini && E.res){
     const pass=E.res.score/E.res.total>=SEUIL;
-    res = `<section class="panel score" style="border-color:${pass?"var(--ok)":"var(--bad)"}"><div class="big" style="color:${pass?"var(--ok)":"var(--bad)"}">${note20(E.res.score/E.res.total)}</div><div style="flex:1;min-width:200px"><h3>${pass?"Examen réussi !":"Pas encore : il faut au moins 16/20."}</h3><p class="hint">${E.res.score} bonnes réponses sur ${E.res.total}. ${pass?"Le module suivant est ouvert. Retournez au module pour recevoir votre attestation.":"Les questions manquées sont marquées en rouge. Relisez les leçons puis réessayez."}</p></div>
-    <div class="row"><button class="btn primary" type="button" data-go="module">Retour au module</button>${pass?"":`<button class="btn" type="button" id="retry">Réessayer</button>`}</div></section>`;
+    res = `<section class="panel score" style="border-color:${pass?"var(--ok)":"var(--bad)"}"><div class="big" style="color:${pass?"var(--ok)":"var(--bad)"}">${note20(E.res.score/E.res.total)}</div><div style="flex:1;min-width:200px"><h3>${pass?"Examen réussi !":"Pas encore : il faut au moins 16/20."}</h3><p class="hint">${E.res.score} bonnes réponses sur ${E.res.total}. ${pass?"Le module suivant est ouvert. Retournez au module pour recevoir votre attestation.":E.res.retour_cours?"Les questions manquées sont marquées en rouge.":"Les questions manquées sont marquées en rouge. Relisez les leçons puis réessayez."}</p></div>
+    ${!pass && E.res.retour_cours ? `<p class="keep alerte" style="flex-basis:100%">Vous n'avez pas atteint 16/20 : vous devez reprendre le cours de ce module. Les leçons sont à refaire avant de pouvoir repasser l'examen. Votre enseignant peut, s'il le juge bon, vous autoriser à repasser l'examen directement.</p>` : ""}
+    <div class="row">${!pass && E.res.retour_cours ? `<button class="btn primary" type="button" id="reprendre-cours">Reprendre le cours</button>` : `<button class="btn primary" type="button" data-go="module">Retour au module</button>${pass?"":`<button class="btn" type="button" id="retry">Réessayer</button>`}`}</div></section>`;
   }
   const info = E.res ? {justes:new Set((E.res.justes||[]).map(String)), bonnes:E.res.bonnes, expl:E.res.explications} : null;
   return `<nav class="crumbs"><button type="button" data-go="parcours">Mon parcours</button><span>›</span><button type="button" data-go="module">${esc(m.titre)}</button><span>›</span><span>Examen</span></nav>
@@ -590,8 +600,8 @@ function vTest(){
     <div class="row"><button class="btn primary" type="button" id="start-test">Commencer le test</button><button class="btn" type="button" data-go="parcours">Annuler</button></div></section>`;
   if(T.chargement) return head + `<div class="empty">Préparation des questions…</div>`;
   if(T.res){ const ok=T.res.reussi; return head + `<section class="panel score" style="border-color:${ok?"var(--ok)":"var(--bad)"}"><div class="big" style="color:${ok?"var(--ok)":"var(--bad)"}">${String(T.res.note20).replace(".",",")}/20</div>
-    <div style="flex:1;min-width:200px"><h3>${ok?"Test réussi ! Toutes les attestations du niveau vous sont délivrées.":"Pas encore : il faut au moins 16/20."}</h3><p class="hint">${T.res.bonnes} bonnes réponses sur ${T.res.total}. ${ok?(S.niveauTest<4?"Le niveau suivant est ouvert.":"Vous avez terminé le programme."):"Vous pouvez suivre les cours du niveau, ou réessayer plus tard."}</p></div>
-    <div class="row"><button class="btn primary" type="button" data-go="parcours">Retour à mon parcours</button></div></section>`; }
+    <div style="flex:1;min-width:200px"><h3>${ok?"Test réussi ! Toutes les attestations du niveau vous sont délivrées.":"Pas encore : il faut au moins 16/20."}</h3><p class="hint">${T.res.bonnes} bonnes réponses sur ${T.res.total}. ${ok?(S.niveauTest<4?"Le niveau suivant est ouvert.":"Vous avez terminé le programme."):"Vous devez maintenant suivre les cours de ce niveau, module après module. Votre enseignant peut, s'il le juge bon, vous autoriser un nouveau test."}</p></div>
+    <div class="row">${ok?`<button class="btn primary" type="button" data-go="parcours">Retour à mon parcours</button>`:`<button class="btn primary" type="button" data-open="${premierModuleAFaire(S.niveauTest).id}">Commencer les cours du niveau</button><button class="btn" type="button" data-go="parcours">Mon parcours</button>`}</div></section>`; }
   const tot=T.questions.length, pages=Math.ceil(tot/PAR_PAGE), p=T.page, debut=p*PAR_PAGE, nbRep=Object.keys(T.rep).length;
   const qs=T.questions.slice(debut, debut+PAR_PAGE);
   return head + `${T.alerte?`<div class="keep alerte">${esc(T.alerte)}</div>`:""}<div class="counter">${chronoHtml(T.fin)} · <span id="compte" aria-live="polite">${nbRep} / ${tot} répondues · page ${p+1} sur ${pages}</span></div>
@@ -676,6 +686,7 @@ function bind(){
     f.onsubmit=e=>{ e.preventDefault(); envoyerExamen(false); };
   }
   const se=document.getElementById("start-exam"); if(se) se.onclick=demarrerExamen;
+  const rc=document.getElementById("reprendre-cours"); if(rc) rc.onclick=()=>{ recommencerCours(S.moduleId); go("lecon", S.moduleId, 0); };
   const rt=document.getElementById("retry"); if(rt) rt.onclick=()=>{ S.exam=null; render(); window.scrollTo({top:0}); };
 
   const tf=document.getElementById("test-form");

@@ -72,6 +72,9 @@ Mot de passe oublié pour un compte téléphone : le responsable remet un mot de
 ## Chrono et anti-triche des épreuves
 Examen d'un module : 15 minutes. Test de passage (80 questions) : 25 minutes. Le chrono s'affiche à l'écran ; à la fin du temps la copie est envoyée automatiquement avec les réponses déjà données. Le serveur vérifie aussi la durée (`demarrer_examen`, `soumettre_examen`, `soumettre_test`, avec 90 secondes de marge pour l'envoi). Si l'étudiant quitte l'écran (appel, autre application, autre onglet), l'épreuve recommence depuis le début avec un nouveau chrono (`recommencer_test` ne compte pas d'essai en plus).
 
+## Échec à un examen et essais du test de passage
+Examen de module terminé sous 16/20 : l'étudiant est renvoyé au cours (leçons à refaire avant un nouvel examen). Test de passage terminé sous 16/20 : l'étudiant doit suivre les cours du niveau. Dans l'espace enseignant, la fiche de l'étudiant propose « Autoriser l'examen sans refaire le cours » et « Autoriser un nouveau test de passage » (efface les essais). Seuls les tests terminés comptent comme essais ; un test interrompu (page rechargée, appel…) reprend depuis le début sans compter d'essai.
+
 ## Modifier le contenu
 Modifiez `contenu/v2/<id>.json`, lancez `node contenu/build.js`, ré-exécutez `supabase/cles_examen.sql` dans Supabase, puis poussez sur GitHub (Vercel redéploie tout seul).
 
