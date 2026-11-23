@@ -813,65 +813,41 @@ async function pdfPret(){
   return true;
 }
 const nomOfficiel = () => (S.etu.identite.nomNaissance || S.etu.nom).trim();
-async function gabarit(doc, titre, sousTitre){
-  const W=297, H=210, I=HDF.INSTITUTION, id=S.etu.identite;
-  const [logo, sig] = await Promise.all([imagePdf("marque/logo-priere-en-ligne.jpg"), imagePdf("marque/signature-houngbadji.png")]);
-  doc.setFillColor(252,250,244); doc.rect(0,0,W,H,"F");
-  doc.setDrawColor(168,123,31); doc.setLineWidth(2); doc.rect(8,8,W-16,H-16); doc.setLineWidth(0.5); doc.rect(11.5,11.5,W-23,H-23);
-  doc.addImage(logo,"JPEG",20,18,32,32);
-  doc.setTextColor(27,42,78); doc.setFont("times","bold"); doc.setFontSize(17); doc.text(pdfTxt(I.nom),57,29);
-  doc.setFont("helvetica","normal"); doc.setFontSize(9.5); doc.setTextColor(90,96,120);
-  doc.text(pdfTxt("Formation biblique « Héro de la Foi »"),57,35); doc.text(pdfTxt("Tél. "+I.telephone),57,40);
-  doc.addImage(S.photo,"JPEG",W-50,17,30,40); doc.setDrawColor(27,42,78); doc.setLineWidth(0.4); doc.rect(W-50,17,30,40);
-  doc.setTextColor(27,42,78); doc.setFont("times","bold"); doc.setFontSize(27); doc.text(pdfTxt(titre),W/2,68,{align:"center"});
-  doc.setFont("helvetica","normal"); doc.setFontSize(11.5); doc.setTextColor(90,96,120); doc.text(pdfTxt(sousTitre),W/2,76,{align:"center"});
-  doc.setFontSize(12); doc.text(pdfTxt(titre==="DIPLÔME"?"est décerné à":"est décernée à"),W/2,87,{align:"center"});
-  doc.setFont("times","bold"); doc.setFontSize(25); doc.setTextColor(20,27,46); doc.text(pdfTxt(nomOfficiel()),W/2,98,{align:"center"});
-  doc.setFont("helvetica","normal"); doc.setFontSize(10.5); doc.setTextColor(60,64,80);
-  const ne = (id.sexe==="F"?"Née":id.sexe==="M"?"Né":"Né(e)") + " le " + HDF.dateLongue(id.dateNaissance) + (id.lieuNaissance?" à "+id.lieuNaissance:"") + (id.nationalite?" · Nationalité : "+id.nationalite:"");
-  doc.text(pdfTxt(ne),W/2,105.5,{align:"center"});
-  // signature
-  doc.addImage(sig,"PNG",W-101,146,42,35.8);
-  doc.setDrawColor(150,150,150); doc.setLineWidth(0.3); doc.line(W-112,182,W-36,182);
-  doc.setFont("helvetica","bold"); doc.setFontSize(10); doc.setTextColor(27,42,78); doc.text(pdfTxt(I.responsable),W-74,187,{align:"center"});
-  doc.setFont("helvetica","normal"); doc.setFontSize(9); doc.setTextColor(90,96,120); doc.text(pdfTxt(I.fonction+", "+I.nom),W-74,191.5,{align:"center"});
+// Attestation et diplôme : modèle du niveau (vert, bleu, pourpre, or et noir), voir attestation.js
+function naissancePdf(){
+  const id=S.etu.identite;
+  return (id.sexe==="F"?"Née":id.sexe==="M"?"Né":"Né(e)") + " le " + HDF.dateLongue(id.dateNaissance) + (id.lieuNaissance?" à "+id.lieuNaissance:"") + (id.nationalite?" · Nationalité : "+id.nationalite:"");
 }
-function piedPdf(doc, no, date){
-  const W=297, I=HDF.INSTITUTION; doc.setFont("helvetica","normal"); doc.setFontSize(10); doc.setTextColor(90,96,120);
-  if(S.etu.eglise) doc.text(pdfTxt("Église : "+S.etu.eglise),24,170);
-  doc.text(pdfTxt("Délivrée le "+fmtDate(date)),24,177); doc.text(doc.splitTextToSize(pdfTxt("N° "+no),120),24,183);
-  doc.setFontSize(7.5); doc.text(pdfTxt(I.nom+" · Tél. "+I.telephone+" · Vérification : "+location.host+"/#verifier"),W/2,196.5,{align:"center"});
+async function attestationPdf(d){
+  if(!window.HDF_ATTESTATION){ toast("Le modèle d'attestation n'a pas pu se charger. Rechargez la page."); return null; }
+  const I=HDF.INSTITUTION, doc=new jspdf.jsPDF({orientation:"landscape",unit:"mm",format:"a4"});
+  try{
+    const [logo, sig] = await Promise.all([imagePdf("marque/logo-priere-en-ligne.jpg"), imagePdf("marque/signature-houngbadji.png")]);
+    await HDF_ATTESTATION.dessiner(doc, Object.assign({nom:nomOfficiel(), naissance:naissancePdf(), logo, signature:sig, photo:S.photo,
+      responsable:I.responsable, fonction:I.fonction, verification:location.host+"/#verifier", txt:pdfTxt}, d));
+  }catch(e){ toast("Le logo, la signature ou le décor n'a pas pu être chargé. Vérifiez votre connexion."); return null; }
+  return doc;
 }
-function nomFichier(s){ return pdfTxt(s).normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^A-Za-z0-9]+/g,"-"); }
+function nomFichier(s){ return pdfTxt(s).normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^A-Za-z0-9]+/g,"-"); }
 async function pdfModule(m){
   if(!(await pdfPret())) return;
-  const s=statut(m), i=niveauIndex(m.niveau), W=297;
-  const doc=new jspdf.jsPDF({orientation:"landscape",unit:"mm",format:"a4"});
-  try{ await gabarit(doc, "ATTESTATION DE RÉUSSITE", `Niveau ${i} : ${m.niveau.nom}`); }catch(e){ toast("Le logo ou la signature n'a pas pu être chargé. Vérifiez votre connexion."); return; }
-  doc.setFont("helvetica","normal"); doc.setFontSize(12); doc.setTextColor(40,44,60);
-  const texte = s.parTest
-    ? `pour avoir validé le module « ${m.titre} » par le test de passage du niveau, avec la note de ${note20(s.r.meilleur)}.`
-    : `pour avoir suivi avec succès le module « ${m.titre} », réussi l'examen avec la note de ${note20(s.r.meilleur)} et mis sa foi en pratique.`;
-  doc.text(doc.splitTextToSize(pdfTxt(texte),190),W/2,117,{align:"center"});
-  doc.setFont("times","italic"); doc.setFontSize(11); doc.setTextColor(120,90,30);
-  doc.text(doc.splitTextToSize(pdfTxt("« Ainsi en est-il de la foi : si elle n'a pas les oeuvres, elle est morte en elle-même. » Jacques 2.17"),170),W/2-20,137,{align:"center"});
-  piedPdf(doc, s.r.certNo, s.r.certDate);
+  const s=statut(m), i=niveauIndex(m.niveau);
+  const doc = await attestationPdf({niveau:i, niveauNom:m.niveau.nom, titre:"ATTESTATION DE RÉUSSITE", decerne:"Décernée à",
+    phrase: s.parTest ? "pour avoir validé par le test de passage le module" : "pour avoir accompli avec succès le module",
+    precision:`« ${m.titre} » du niveau`, note:(s.r.meilleur||0)*20, noteMot:"une note",
+    date:fmtDate(s.r.certDate), code:s.r.certNo});
+  if(!doc) return;
   doc.save(`Attestation-${m.id.toUpperCase()}-${nomFichier(nomOfficiel())}.pdf`);
 }
 async function pdfNiveau(n){
   if(!(await pdfPret())) return;
-  const i=niveauIndex(n), W=297;
+  const i=niveauIndex(n);
   const sc=n.modules.map(m=>statut(m).r.meilleur||0), moy=sc.reduce((a,b)=>a+b,0)/sc.length;
   const certs=n.modules.map(m=>statut(m).r), last=certs.map(r=>r.certDate).sort().pop();
-  const doc=new jspdf.jsPDF({orientation:"landscape",unit:"mm",format:"a4"});
-  try{ await gabarit(doc, "DIPLÔME", `Niveau ${i} - ${n.nom} : ${n.sousTitre}`); }catch(e){ toast("Le logo ou la signature n'a pas pu être chargé. Vérifiez votre connexion."); return; }
-  doc.setFont("helvetica","normal"); doc.setFontSize(12); doc.setTextColor(40,44,60);
-  doc.text(doc.splitTextToSize(pdfTxt(`pour avoir validé les ${n.modules.length} modules du niveau avec une moyenne de ${note20(moy)}.`),200),W/2,116,{align:"center"});
-  doc.setFontSize(8.5); doc.setTextColor(90,96,120);
-  doc.text(doc.splitTextToSize(pdfTxt(n.modules.map(m=>m.titre).join(" · ")),210),W/2,124,{align:"center"});
-  doc.setFont("times","italic"); doc.setFontSize(10.5); doc.setTextColor(120,90,30);
-  doc.text(doc.splitTextToSize(pdfTxt(n.verset),165),W/2-22,142,{align:"center"});
-  piedPdf(doc, "Attestations " + certs.map(r=>r.certNo).join(", "), last);
+  const doc = await attestationPdf({niveau:i, niveauNom:n.nom, titre:"DIPLÔME DE NIVEAU", decerne:"Décerné à",
+    phrase:`pour avoir accompli avec succès les ${n.modules.length} modules du niveau`, precision:"",
+    note:moy*20, noteMot:"une moyenne", date:fmtDate(last), code:certs.map(r=>r.certNo).join(", "), libelleCode:"Attestations"});
+  if(!doc) return;
   doc.save(`Diplome-Niveau${i}-${nomFichier(nomOfficiel())}.pdf`);
 }
 
