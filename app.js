@@ -75,6 +75,7 @@ function fromHash(){
   const h=(location.hash||"").slice(1), x=h.match(/^m-(n\dm\d+)(?:-l(\d+))?$/);
   if(x && findModule(x[1])){ S.moduleId=x[1]; if(x[2]!=null){ S.view="lecon"; S._leconHash=+x[2]; } else S.view="module"; }
   else if(["parcours","programme","verifier"].includes(h)) S.view=h;
+  else if(h.startsWith("verifier=")){ S.view="verifier"; try{ S.verifNo=decodeURIComponent(h.slice(9)); }catch(e){ S.verifNo=h.slice(9); } }
 }
 async function allerDepuisHash(){ if(S.view==="lecon"){ const k=S._leconHash; S.lecon=null; await go("lecon", null, k); } else if(S.view==="module") await go("module"); else render(); }
 document.getElementById("brand").onclick=()=>go(S.session?"parcours":"connexion");
@@ -124,7 +125,7 @@ function vNouveauMdp(){
 }
 function vVerifier(){
   return `<section class="hero"><p class="eyebrow">Vérification</p><h1>Vérifier une attestation</h1><p class="lead">Saisissez le numéro inscrit en bas de l'attestation, par exemple HDF-N1M1-1A2B3C.</p></section>
-  <form class="panel auth" id="verif-form"><label class="f" for="v-no">Numéro d'attestation<input type="text" id="v-no" maxlength="40" required></label>
+  <form class="panel auth" id="verif-form"><label class="f" for="v-no">Numéro d'attestation<input type="text" id="v-no" maxlength="400" required></label>
   <div class="row"><button class="btn primary" type="submit">Vérifier</button><a class="btn small" href="#parcours">Retour</a></div><div id="v-res"></div></form>`;
 }
 
@@ -665,13 +666,19 @@ function bind(){
     const {error}=await S.sb.auth.updateUser({password:document.getElementById("n-mdp").value});
     if(error){ document.getElementById("n-msg").textContent=erreur(error); return; }
     S.recovery=false; toast("Mot de passe modifié."); go("parcours"); };
-  const vf=document.getElementById("verif-form"); if(vf) vf.onsubmit=async e=>{ e.preventDefault();
+  const vf=document.getElementById("verif-form"); if(vf){ vf.onsubmit=async e=>{ e.preventDefault();
     const out=document.getElementById("v-res");
-    const {data,error}=await S.sb.rpc("verifier_attestation",{p_no:document.getElementById("v-no").value});
-    if(error){ out.innerHTML=`<p class="hint">${esc(erreur(error))}</p>`; return; }
-    if(!data){ out.innerHTML=`<div class="keep" style="background:var(--bad-soft);border-color:var(--bad)">Aucune attestation ne correspond à ce numéro.</div>`; return; }
-    const m=findModule(data.module);
-    out.innerHTML=`<div class="keep" style="background:var(--ok-soft);border-color:var(--ok)">Attestation authentique : <b>${esc(data.nom)}</b> a validé le module « ${esc(m?m.titre:data.module)} » ${data.origine==="test"?"par le test de passage du niveau ":""}avec ${note20(data.score)}, le ${fmtDate(data.date)}.</div>`; };
+    const nos=document.getElementById("v-no").value.split(/[\s,;]+/).map(x=>x.trim()).filter(Boolean).slice(0,12);
+    let html="";
+    for(const no of nos){
+      const {data,error}=await S.sb.rpc("verifier_attestation",{p_no:no});
+      if(error){ out.innerHTML=`<p class="hint">${esc(erreur(error))}</p>`; return; }
+      if(!data){ html+=`<div class="keep" style="background:var(--bad-soft);border-color:var(--bad)">${nos.length>1?esc(no)+" : ":""}Aucune attestation ne correspond à ce numéro.</div>`; continue; }
+      const m=findModule(data.module);
+      html+=`<div class="keep" style="background:var(--ok-soft);border-color:var(--ok)">Attestation authentique${nos.length>1?" ("+esc(no)+")":""} : <b>${esc(data.nom)}</b> a validé le module « ${esc(m?m.titre:data.module)} » ${data.origine==="test"?"par le test de passage du niveau ":""}avec ${note20(data.score)}, le ${fmtDate(data.date)}.</div>`;
+    }
+    out.innerHTML=html; };
+    if(S.verifNo){ document.getElementById("v-no").value=S.verifNo; S.verifNo=null; vf.requestSubmit ? vf.requestSubmit() : vf.onsubmit(new Event("submit")); } }
 
   lierFiche();
   const ta=document.getElementById("pratique");
@@ -813,65 +820,37 @@ async function pdfPret(){
   return true;
 }
 const nomOfficiel = () => (S.etu.identite.nomNaissance || S.etu.nom).trim();
-async function gabarit(doc, titre, sousTitre){
-  const W=297, H=210, I=HDF.INSTITUTION, id=S.etu.identite;
-  const [logo, sig] = await Promise.all([imagePdf("marque/logo-priere-en-ligne.jpg"), imagePdf("marque/signature-houngbadji.png")]);
-  doc.setFillColor(252,250,244); doc.rect(0,0,W,H,"F");
-  doc.setDrawColor(168,123,31); doc.setLineWidth(2); doc.rect(8,8,W-16,H-16); doc.setLineWidth(0.5); doc.rect(11.5,11.5,W-23,H-23);
-  doc.addImage(logo,"JPEG",20,18,32,32);
-  doc.setTextColor(27,42,78); doc.setFont("times","bold"); doc.setFontSize(17); doc.text(pdfTxt(I.nom),57,29);
-  doc.setFont("helvetica","normal"); doc.setFontSize(9.5); doc.setTextColor(90,96,120);
-  doc.text(pdfTxt("Formation biblique « Héro de la Foi »"),57,35); doc.text(pdfTxt("Tél. "+I.telephone),57,40);
-  doc.addImage(S.photo,"JPEG",W-50,17,30,40); doc.setDrawColor(27,42,78); doc.setLineWidth(0.4); doc.rect(W-50,17,30,40);
-  doc.setTextColor(27,42,78); doc.setFont("times","bold"); doc.setFontSize(27); doc.text(pdfTxt(titre),W/2,68,{align:"center"});
-  doc.setFont("helvetica","normal"); doc.setFontSize(11.5); doc.setTextColor(90,96,120); doc.text(pdfTxt(sousTitre),W/2,76,{align:"center"});
-  doc.setFontSize(12); doc.text(pdfTxt(titre==="DIPLÔME"?"est décerné à":"est décernée à"),W/2,87,{align:"center"});
-  doc.setFont("times","bold"); doc.setFontSize(25); doc.setTextColor(20,27,46); doc.text(pdfTxt(nomOfficiel()),W/2,98,{align:"center"});
-  doc.setFont("helvetica","normal"); doc.setFontSize(10.5); doc.setTextColor(60,64,80);
-  const ne = (id.sexe==="F"?"Née":id.sexe==="M"?"Né":"Né(e)") + " le " + HDF.dateLongue(id.dateNaissance) + (id.lieuNaissance?" à "+id.lieuNaissance:"") + (id.nationalite?" · Nationalité : "+id.nationalite:"");
-  doc.text(pdfTxt(ne),W/2,105.5,{align:"center"});
-  // signature
-  doc.addImage(sig,"PNG",W-101,146,42,35.8);
-  doc.setDrawColor(150,150,150); doc.setLineWidth(0.3); doc.line(W-112,182,W-36,182);
-  doc.setFont("helvetica","bold"); doc.setFontSize(10); doc.setTextColor(27,42,78); doc.text(pdfTxt(I.responsable),W-74,187,{align:"center"});
-  doc.setFont("helvetica","normal"); doc.setFontSize(9); doc.setTextColor(90,96,120); doc.text(pdfTxt(I.fonction+", "+I.nom),W-74,191.5,{align:"center"});
+// Attestation et diplôme : modèle du niveau (vert, bleu, pourpre, or et noir), voir attestation.js
+const lienVerif = codes => location.origin + location.pathname + "#verifier=" + encodeURIComponent(codes.join(","));
+async function attestationPdf(d){
+  if(!window.HDF_ATTESTATION || !window.qrcode){ toast("Le modèle d'attestation n'a pas pu se charger. Rechargez la page."); return null; }
+  const id=S.etu.identite, doc=new jspdf.jsPDF({orientation:"landscape",unit:"mm",format:"a4"});
+  try{
+    const sig = await imagePdf("marque/signature-houngbadji.png");
+    await HDF_ATTESTATION.dessiner(doc, Object.assign({nom:nomOfficiel(), dateNaissance:HDF.dateLongue(id.dateNaissance), lieuNaissance:id.lieuNaissance||"",
+      signature:sig, photo:S.photo, txt:pdfTxt}, d));
+  }catch(e){ toast("Le modèle de l'attestation ou la signature n'a pas pu être chargé. Vérifiez votre connexion."); return null; }
+  return doc;
 }
-function piedPdf(doc, no, date){
-  const W=297, I=HDF.INSTITUTION; doc.setFont("helvetica","normal"); doc.setFontSize(10); doc.setTextColor(90,96,120);
-  if(S.etu.eglise) doc.text(pdfTxt("Église : "+S.etu.eglise),24,170);
-  doc.text(pdfTxt("Délivrée le "+fmtDate(date)),24,177); doc.text(doc.splitTextToSize(pdfTxt("N° "+no),120),24,183);
-  doc.setFontSize(7.5); doc.text(pdfTxt(I.nom+" · Tél. "+I.telephone+" · Vérification : "+location.host+"/#verifier"),W/2,196.5,{align:"center"});
-}
-function nomFichier(s){ return pdfTxt(s).normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^A-Za-z0-9]+/g,"-"); }
+function nomFichier(s){ return pdfTxt(s).normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^A-Za-z0-9]+/g,"-"); }
 async function pdfModule(m){
   if(!(await pdfPret())) return;
-  const s=statut(m), i=niveauIndex(m.niveau), W=297;
-  const doc=new jspdf.jsPDF({orientation:"landscape",unit:"mm",format:"a4"});
-  try{ await gabarit(doc, "ATTESTATION DE RÉUSSITE", `Niveau ${i} : ${m.niveau.nom}`); }catch(e){ toast("Le logo ou la signature n'a pas pu être chargé. Vérifiez votre connexion."); return; }
-  doc.setFont("helvetica","normal"); doc.setFontSize(12); doc.setTextColor(40,44,60);
-  const texte = s.parTest
-    ? `pour avoir validé le module « ${m.titre} » par le test de passage du niveau, avec la note de ${note20(s.r.meilleur)}.`
-    : `pour avoir suivi avec succès le module « ${m.titre} », réussi l'examen avec la note de ${note20(s.r.meilleur)} et mis sa foi en pratique.`;
-  doc.text(doc.splitTextToSize(pdfTxt(texte),190),W/2,117,{align:"center"});
-  doc.setFont("times","italic"); doc.setFontSize(11); doc.setTextColor(120,90,30);
-  doc.text(doc.splitTextToSize(pdfTxt("« Ainsi en est-il de la foi : si elle n'a pas les oeuvres, elle est morte en elle-même. » Jacques 2.17"),170),W/2-20,137,{align:"center"});
-  piedPdf(doc, s.r.certNo, s.r.certDate);
+  const s=statut(m), i=niveauIndex(m.niveau);
+  const doc = await attestationPdf({niveau:i, niveauNom:m.niveau.nom,
+    phrase: s.parTest ? "pour avoir validé par le test de passage le module" : "pour avoir accompli avec succès le module",
+    precision:`« ${m.titre} » du niveau`, note:(s.r.meilleur||0)*20, noteMot:"une note",
+    date:fmtDate(s.r.certDate), code:s.r.certNo, lienQR:lienVerif([s.r.certNo])});
+  if(!doc) return;
   doc.save(`Attestation-${m.id.toUpperCase()}-${nomFichier(nomOfficiel())}.pdf`);
 }
 async function pdfNiveau(n){
   if(!(await pdfPret())) return;
-  const i=niveauIndex(n), W=297;
+  const i=niveauIndex(n);
   const sc=n.modules.map(m=>statut(m).r.meilleur||0), moy=sc.reduce((a,b)=>a+b,0)/sc.length;
-  const certs=n.modules.map(m=>statut(m).r), last=certs.map(r=>r.certDate).sort().pop();
-  const doc=new jspdf.jsPDF({orientation:"landscape",unit:"mm",format:"a4"});
-  try{ await gabarit(doc, "DIPLÔME", `Niveau ${i} - ${n.nom} : ${n.sousTitre}`); }catch(e){ toast("Le logo ou la signature n'a pas pu être chargé. Vérifiez votre connexion."); return; }
-  doc.setFont("helvetica","normal"); doc.setFontSize(12); doc.setTextColor(40,44,60);
-  doc.text(doc.splitTextToSize(pdfTxt(`pour avoir validé les ${n.modules.length} modules du niveau avec une moyenne de ${note20(moy)}.`),200),W/2,116,{align:"center"});
-  doc.setFontSize(8.5); doc.setTextColor(90,96,120);
-  doc.text(doc.splitTextToSize(pdfTxt(n.modules.map(m=>m.titre).join(" · ")),210),W/2,124,{align:"center"});
-  doc.setFont("times","italic"); doc.setFontSize(10.5); doc.setTextColor(120,90,30);
-  doc.text(doc.splitTextToSize(pdfTxt(n.verset),165),W/2-22,142,{align:"center"});
-  piedPdf(doc, "Attestations " + certs.map(r=>r.certNo).join(", "), last);
+  const certs=n.modules.map(m=>statut(m).r), last=certs.map(r=>r.certDate).sort().pop(), nos=certs.map(r=>r.certNo);
+  const doc = await attestationPdf({niveau:i, niveauNom:n.nom, phrase:"pour avoir accompli avec succès le niveau", precision:"",
+    note:moy*20, noteMot:"une moyenne", date:fmtDate(last), code:nos.join(", "), libelleCode:"N° des attestations", lienQR:lienVerif(nos)});
+  if(!doc) return;
   doc.save(`Diplome-Niveau${i}-${nomFichier(nomOfficiel())}.pdf`);
 }
 
@@ -880,6 +859,7 @@ async function demarrer(){
   try{
     const {prog, sb, horsLigne} = await HDF.connecter();
     S.prog = prog; R = HDF.regles(prog);
+    fromHash(); // lu tout de suite : la déconnexion efface le # (lien de vérification d'un code QR)
     if(!sb){ $app.innerHTML = horsLigne ? HDF.HORS_LIGNE : HDF.CONFIG_MANQUANTE; return; }
     S.sb = sb;
     S.sb.auth.onAuthStateChange((event, session)=>{ setTimeout(()=>surSession(event, session), 0); });
@@ -899,7 +879,7 @@ async function demarrer(){
     $app.innerHTML = '<div class="empty">La plateforme n\'a pas pu démarrer. Rechargez la page.</div>';
   }
 }
-window.addEventListener("hashchange",()=>{ if(!S.prog) return; if(!S.session){ if(location.hash==="#verifier"){ S.view="verifier"; render(); } return; } fromHash(); allerDepuisHash(); });
+window.addEventListener("hashchange",()=>{ if(!S.prog) return; if(!S.session){ if(location.hash.startsWith("#verifier")){ fromHash(); render(); } return; } fromHash(); allerDepuisHash(); });
 demarrer();
 HDF.installation("etudiant");
 })();
