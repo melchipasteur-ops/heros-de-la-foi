@@ -75,6 +75,7 @@ function fromHash(){
   const h=(location.hash||"").slice(1), x=h.match(/^m-(n\dm\d+)(?:-l(\d+))?$/);
   if(x && findModule(x[1])){ S.moduleId=x[1]; if(x[2]!=null){ S.view="lecon"; S._leconHash=+x[2]; } else S.view="module"; }
   else if(["parcours","programme","verifier"].includes(h)) S.view=h;
+  else if(h.startsWith("verifier=")){ S.view="verifier"; try{ S.verifNo=decodeURIComponent(h.slice(9)); }catch(e){ S.verifNo=h.slice(9); } }
 }
 async function allerDepuisHash(){ if(S.view==="lecon"){ const k=S._leconHash; S.lecon=null; await go("lecon", null, k); } else if(S.view==="module") await go("module"); else render(); }
 document.getElementById("brand").onclick=()=>go(S.session?"parcours":"connexion");
@@ -124,7 +125,7 @@ function vNouveauMdp(){
 }
 function vVerifier(){
   return `<section class="hero"><p class="eyebrow">Vérification</p><h1>Vérifier une attestation</h1><p class="lead">Saisissez le numéro inscrit en bas de l'attestation, par exemple HDF-N1M1-1A2B3C.</p></section>
-  <form class="panel auth" id="verif-form"><label class="f" for="v-no">Numéro d'attestation<input type="text" id="v-no" maxlength="40" required></label>
+  <form class="panel auth" id="verif-form"><label class="f" for="v-no">Numéro d'attestation<input type="text" id="v-no" maxlength="400" required></label>
   <div class="row"><button class="btn primary" type="submit">Vérifier</button><a class="btn small" href="#parcours">Retour</a></div><div id="v-res"></div></form>`;
 }
 
@@ -665,13 +666,19 @@ function bind(){
     const {error}=await S.sb.auth.updateUser({password:document.getElementById("n-mdp").value});
     if(error){ document.getElementById("n-msg").textContent=erreur(error); return; }
     S.recovery=false; toast("Mot de passe modifié."); go("parcours"); };
-  const vf=document.getElementById("verif-form"); if(vf) vf.onsubmit=async e=>{ e.preventDefault();
+  const vf=document.getElementById("verif-form"); if(vf){ vf.onsubmit=async e=>{ e.preventDefault();
     const out=document.getElementById("v-res");
-    const {data,error}=await S.sb.rpc("verifier_attestation",{p_no:document.getElementById("v-no").value});
-    if(error){ out.innerHTML=`<p class="hint">${esc(erreur(error))}</p>`; return; }
-    if(!data){ out.innerHTML=`<div class="keep" style="background:var(--bad-soft);border-color:var(--bad)">Aucune attestation ne correspond à ce numéro.</div>`; return; }
-    const m=findModule(data.module);
-    out.innerHTML=`<div class="keep" style="background:var(--ok-soft);border-color:var(--ok)">Attestation authentique : <b>${esc(data.nom)}</b> a validé le module « ${esc(m?m.titre:data.module)} » ${data.origine==="test"?"par le test de passage du niveau ":""}avec ${note20(data.score)}, le ${fmtDate(data.date)}.</div>`; };
+    const nos=document.getElementById("v-no").value.split(/[\s,;]+/).map(x=>x.trim()).filter(Boolean).slice(0,12);
+    let html="";
+    for(const no of nos){
+      const {data,error}=await S.sb.rpc("verifier_attestation",{p_no:no});
+      if(error){ out.innerHTML=`<p class="hint">${esc(erreur(error))}</p>`; return; }
+      if(!data){ html+=`<div class="keep" style="background:var(--bad-soft);border-color:var(--bad)">${nos.length>1?esc(no)+" : ":""}Aucune attestation ne correspond à ce numéro.</div>`; continue; }
+      const m=findModule(data.module);
+      html+=`<div class="keep" style="background:var(--ok-soft);border-color:var(--ok)">Attestation authentique${nos.length>1?" ("+esc(no)+")":""} : <b>${esc(data.nom)}</b> a validé le module « ${esc(m?m.titre:data.module)} » ${data.origine==="test"?"par le test de passage du niveau ":""}avec ${note20(data.score)}, le ${fmtDate(data.date)}.</div>`;
+    }
+    out.innerHTML=html; };
+    if(S.verifNo){ document.getElementById("v-no").value=S.verifNo; S.verifNo=null; vf.requestSubmit ? vf.requestSubmit() : vf.onsubmit(new Event("submit")); } }
 
   lierFiche();
   const ta=document.getElementById("pratique");
@@ -814,28 +821,25 @@ async function pdfPret(){
 }
 const nomOfficiel = () => (S.etu.identite.nomNaissance || S.etu.nom).trim();
 // Attestation et diplôme : modèle du niveau (vert, bleu, pourpre, or et noir), voir attestation.js
-function naissancePdf(){
-  const id=S.etu.identite;
-  return (id.sexe==="F"?"Née":id.sexe==="M"?"Né":"Né(e)") + " le " + HDF.dateLongue(id.dateNaissance) + (id.lieuNaissance?" à "+id.lieuNaissance:"") + (id.nationalite?" · Nationalité : "+id.nationalite:"");
-}
+const lienVerif = codes => location.origin + location.pathname + "#verifier=" + encodeURIComponent(codes.join(","));
 async function attestationPdf(d){
-  if(!window.HDF_ATTESTATION){ toast("Le modèle d'attestation n'a pas pu se charger. Rechargez la page."); return null; }
-  const I=HDF.INSTITUTION, doc=new jspdf.jsPDF({orientation:"landscape",unit:"mm",format:"a4"});
+  if(!window.HDF_ATTESTATION || !window.qrcode){ toast("Le modèle d'attestation n'a pas pu se charger. Rechargez la page."); return null; }
+  const id=S.etu.identite, doc=new jspdf.jsPDF({orientation:"landscape",unit:"mm",format:"a4"});
   try{
-    const [logo, sig] = await Promise.all([imagePdf("marque/logo-priere-en-ligne.jpg"), imagePdf("marque/signature-houngbadji.png")]);
-    await HDF_ATTESTATION.dessiner(doc, Object.assign({nom:nomOfficiel(), naissance:naissancePdf(), logo, signature:sig, photo:S.photo,
-      responsable:I.responsable, fonction:I.fonction, verification:location.host+"/#verifier", txt:pdfTxt}, d));
-  }catch(e){ toast("Le logo, la signature ou le décor n'a pas pu être chargé. Vérifiez votre connexion."); return null; }
+    const sig = await imagePdf("marque/signature-houngbadji.png");
+    await HDF_ATTESTATION.dessiner(doc, Object.assign({nom:nomOfficiel(), dateNaissance:HDF.dateLongue(id.dateNaissance), lieuNaissance:id.lieuNaissance||"",
+      signature:sig, photo:S.photo, txt:pdfTxt}, d));
+  }catch(e){ toast("Le modèle de l'attestation ou la signature n'a pas pu être chargé. Vérifiez votre connexion."); return null; }
   return doc;
 }
 function nomFichier(s){ return pdfTxt(s).normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^A-Za-z0-9]+/g,"-"); }
 async function pdfModule(m){
   if(!(await pdfPret())) return;
   const s=statut(m), i=niveauIndex(m.niveau);
-  const doc = await attestationPdf({niveau:i, niveauNom:m.niveau.nom, titre:"ATTESTATION DE RÉUSSITE", decerne:"Décernée à",
+  const doc = await attestationPdf({niveau:i, niveauNom:m.niveau.nom,
     phrase: s.parTest ? "pour avoir validé par le test de passage le module" : "pour avoir accompli avec succès le module",
     precision:`« ${m.titre} » du niveau`, note:(s.r.meilleur||0)*20, noteMot:"une note",
-    date:fmtDate(s.r.certDate), code:s.r.certNo});
+    date:fmtDate(s.r.certDate), code:s.r.certNo, lienQR:lienVerif([s.r.certNo])});
   if(!doc) return;
   doc.save(`Attestation-${m.id.toUpperCase()}-${nomFichier(nomOfficiel())}.pdf`);
 }
@@ -843,10 +847,9 @@ async function pdfNiveau(n){
   if(!(await pdfPret())) return;
   const i=niveauIndex(n);
   const sc=n.modules.map(m=>statut(m).r.meilleur||0), moy=sc.reduce((a,b)=>a+b,0)/sc.length;
-  const certs=n.modules.map(m=>statut(m).r), last=certs.map(r=>r.certDate).sort().pop();
-  const doc = await attestationPdf({niveau:i, niveauNom:n.nom, titre:"DIPLÔME DE NIVEAU", decerne:"Décerné à",
-    phrase:`pour avoir accompli avec succès les ${n.modules.length} modules du niveau`, precision:"",
-    note:moy*20, noteMot:"une moyenne", date:fmtDate(last), code:certs.map(r=>r.certNo).join(", "), libelleCode:"Attestations"});
+  const certs=n.modules.map(m=>statut(m).r), last=certs.map(r=>r.certDate).sort().pop(), nos=certs.map(r=>r.certNo);
+  const doc = await attestationPdf({niveau:i, niveauNom:n.nom, phrase:"pour avoir accompli avec succès le niveau", precision:"",
+    note:moy*20, noteMot:"une moyenne", date:fmtDate(last), code:nos.join(", "), libelleCode:"N° des attestations", lienQR:lienVerif(nos)});
   if(!doc) return;
   doc.save(`Diplome-Niveau${i}-${nomFichier(nomOfficiel())}.pdf`);
 }
@@ -856,6 +859,7 @@ async function demarrer(){
   try{
     const {prog, sb, horsLigne} = await HDF.connecter();
     S.prog = prog; R = HDF.regles(prog);
+    fromHash(); // lu tout de suite : la déconnexion efface le # (lien de vérification d'un code QR)
     if(!sb){ $app.innerHTML = horsLigne ? HDF.HORS_LIGNE : HDF.CONFIG_MANQUANTE; return; }
     S.sb = sb;
     S.sb.auth.onAuthStateChange((event, session)=>{ setTimeout(()=>surSession(event, session), 0); });
@@ -875,7 +879,7 @@ async function demarrer(){
     $app.innerHTML = '<div class="empty">La plateforme n\'a pas pu démarrer. Rechargez la page.</div>';
   }
 }
-window.addEventListener("hashchange",()=>{ if(!S.prog) return; if(!S.session){ if(location.hash==="#verifier"){ S.view="verifier"; render(); } return; } fromHash(); allerDepuisHash(); });
+window.addEventListener("hashchange",()=>{ if(!S.prog) return; if(!S.session){ if(location.hash.startsWith("#verifier")){ fromHash(); render(); } return; } fromHash(); allerDepuisHash(); });
 demarrer();
 HDF.installation("etudiant");
 })();
