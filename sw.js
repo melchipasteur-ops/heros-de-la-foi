@@ -2,7 +2,7 @@
 // - Pages et scripts : réseau d'abord (les mises à jour arrivent tout de suite), copie locale si hors ligne.
 // - Cours (modules/*.json), images et icônes : copie locale d'abord, mise à jour en arrière-plan.
 // - Jamais mis en cache : /api/ et la base de données (comptes, notes, examens restent toujours en ligne).
-const VERSION = "hdf-v8";
+const VERSION = "hdf-v9";
 const COQUILLE = ["/", "/index.html", "/enseignant.html", "/app.js", "/enseignant.js", "/commun.js", "/attestation.js", "/vendor/qrcode-generator-1.4.4.js", "/vendor/libphonenumber-max-1.13.15.js", "/styles.css",
   "/programme.json", "/manifest.webmanifest", "/manifest-enseignant.webmanifest", "/icones/etudiant-192.png", "/icones/enseignant-192.png"];
 
