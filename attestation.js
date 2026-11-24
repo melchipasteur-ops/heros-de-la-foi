@@ -13,13 +13,13 @@ const ENCRE = [15, 22, 70];      // bleu nuit du texte des modèles
 // [x0, y, x1] des traits à compléter, [x0, y0, x1, y1] du cadre photo, etc. (pixels)
 const ZONES = {
   1: {nomY:403, phrase:493, pill:[745,546], mention:619, pied:[744,1010],
-      naissance:[507,672,704], lieu:[979,671,1167], fait:[239,929,438], signature:[498,893,1008], photo:[48,317,255,533]},
+      naissance:[507,672,704], lieu:[979,671,1167], fait:[239,929,438], signature:[498,893,1008], photo:[48,317,255,610]},
   2: {nomY:400, phrase:493, pill:[748,546], mention:621, pied:[745,1018],
-      naissance:[493,675,706], lieu:[978,675,1182], fait:[223,939,436], signature:[484,892,1012], photo:[39,317,255,545]},
+      naissance:[493,675,706], lieu:[978,675,1182], fait:[223,939,436], signature:[484,892,1012], photo:[39,317,255,625]},
   3: {nomY:400, phrase:493, pill:[748,546], mention:621, pied:[744,1014],
-      naissance:[495,672,704], lieu:[988,671,1181], fait:[231,928,425], signature:[483,892,1010], photo:[42,311,255,527]},
+      naissance:[495,672,704], lieu:[988,671,1181], fait:[231,928,425], signature:[483,892,1010], photo:[42,311,255,608]},
   4: {nomY:398, phrase:490, pill:[747,542], mention:617, pied:[742,1014],
-      naissance:[484,666,701], lieu:[985,667,1185], fait:[236,931,449], signature:[491,888,1008], photo:[33,317,249,535]}
+      naissance:[484,666,701], lieu:[985,667,1185], fait:[236,931,449], signature:[491,888,1008], photo:[33,317,249,611]}
 };
 // Phrases d'origine des modèles et leur largeur (pixels), pour retrouver la même taille de caractères
 const REF = {
@@ -85,15 +85,15 @@ async function dessiner(doc, d){
   const T = d.txt || (s=>String(s)), Z = ZONES[d.niveau] || ZONES[1];
   doc.addImage(await fondImage(d.niveau), "JPEG", 0, 0, 297, 210, undefined, "FAST");
 
-  // photo d'identité dans le cadre (coins du haut arrondis comme le modèle)
+  // photo d'identité : remplit tout le cadre (le libellé « Photo d'identité » du modèle est recouvert)
   if(d.photo){
     const [a,b,c,e] = Z.photo.map(mm), w = c-a, h = e-b;
     const p = doc.getImageProperties(d.photo), k = Math.max(w/p.width, h/p.height);
     const pw = p.width*k, ph = p.height*k;
     doc.saveGraphicsState();
-    doc.rect(a, b, w, h, null); doc.clip(); doc.discardPath();
-    doc.roundedRect(a, b, w, h+4, 3.2, 3.2, null); doc.clip(); doc.discardPath();
-    doc.addImage(d.photo, "JPEG", a + (w-pw)/2, b + (h-ph)/2, pw, ph);
+    doc.roundedRect(a, b, w, h, 3.2, 3.2, null); doc.clip(); doc.discardPath();
+    // centrée horizontalement ; verticalement, on garde le haut (le visage) si la photo dépasse
+    doc.addImage(d.photo, "JPEG", a + (w-pw)/2, b + (h-ph)*0.3, pw, ph);
     doc.restoreGraphicsState();
   }
 
@@ -127,10 +127,18 @@ async function dessiner(doc, d){
   surTrait(doc, T(d.dateNaissance||""), Z.naissance, 17);
   surTrait(doc, T(d.lieuNaissance||""), Z.lieu, 17);
   surTrait(doc, T(d.date), Z.fait, 17);
+  // signature sur le trait, puis nom et fonction du responsable dessous
+  const xs = mm((Z.signature[0]+Z.signature[2])/2), ys = mm(Z.signature[1]);
   if(d.signature){
-    const [x0,y,x1] = Z.signature, h = 22, w = h*600/512;
-    doc.addImage(d.signature, "PNG", mm((x0+x1)/2) - w/2, mm(y) - h + 1.5, w, h);
+    // centrée au-dessus du trait, sans le toucher. L'ornement sous le cadre du verset a été retiré des fonds
+    // pour lui laisser la place. Signature complète (pied compris), posée juste au-dessus du trait.
+    const h = 13.2, w = h*600/512, top = ys - 0.8 - h;
+    doc.addImage(d.signature, "PNG", xs - w/2, top, w, h);
   }
+  doc.setTextColor(...ENCRE); doc.setFont("times","bold");
+  centre(doc, T(d.responsable || ""), xs, ys + 4.6, 11.5, 100, 8);
+  doc.setFont("times","normal"); doc.setFontSize(9.5);
+  doc.text(T(d.fonction || "Le Responsable de la formation"), xs, ys + 7.8, {align:"center"});
 
   // code QR de vérification, à droite de la signature
   if(d.lienQR) qr(doc, d.lienQR, mm(1052), mm(830), 21);

@@ -828,7 +828,7 @@ async function attestationPdf(d){
   try{
     const sig = await imagePdf("marque/signature-houngbadji.png");
     await HDF_ATTESTATION.dessiner(doc, Object.assign({nom:nomOfficiel(), dateNaissance:HDF.dateLongue(id.dateNaissance), lieuNaissance:id.lieuNaissance||"",
-      signature:sig, photo:S.photo, txt:pdfTxt}, d));
+      signature:sig, photo:S.photo, responsable:HDF.INSTITUTION.responsable, fonction:"Le Responsable de la formation", txt:pdfTxt}, d));
   }catch(e){ toast("Le modèle de l'attestation ou la signature n'a pas pu être chargé. Vérifiez votre connexion."); return null; }
   return doc;
 }
