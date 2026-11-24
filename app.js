@@ -826,7 +826,7 @@ async function attestationPdf(d){
   if(!window.HDF_ATTESTATION || !window.qrcode){ toast("Le modèle d'attestation n'a pas pu se charger. Rechargez la page."); return null; }
   const id=S.etu.identite, doc=new jspdf.jsPDF({orientation:"landscape",unit:"mm",format:"a4"});
   try{
-    const sig = await imagePdf("marque/signature-houngbadji-courte.png");
+    const sig = await imagePdf("marque/signature-houngbadji.png");
     await HDF_ATTESTATION.dessiner(doc, Object.assign({nom:nomOfficiel(), dateNaissance:HDF.dateLongue(id.dateNaissance), lieuNaissance:id.lieuNaissance||"",
       signature:sig, photo:S.photo, responsable:HDF.INSTITUTION.responsable, fonction:"Le Responsable de la formation", txt:pdfTxt}, d));
   }catch(e){ toast("Le modèle de l'attestation ou la signature n'a pas pu être chargé. Vérifiez votre connexion."); return null; }

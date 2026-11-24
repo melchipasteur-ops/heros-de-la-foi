@@ -131,8 +131,8 @@ async function dessiner(doc, d){
   const xs = mm((Z.signature[0]+Z.signature[2])/2), ys = mm(Z.signature[1]);
   if(d.signature){
     // centrée au-dessus du trait, sans le toucher. L'ornement sous le cadre du verset a été retiré des fonds
-    // pour lui laisser la place. Version sans soulignement ni queue du jambage (signature-houngbadji-courte.png, 600 × 308).
-    const h = 11.5, w = h*600/308, top = ys - 1 - h;
+    // pour lui laisser la place. Signature complète (pied compris), posée juste au-dessus du trait.
+    const h = 13.2, w = h*600/512, top = ys - 0.8 - h;
     doc.addImage(d.signature, "PNG", xs - w/2, top, w, h);
   }
   doc.setTextColor(...ENCRE); doc.setFont("times","bold");
