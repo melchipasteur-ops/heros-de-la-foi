@@ -127,11 +127,12 @@ async function dessiner(doc, d){
   surTrait(doc, T(d.dateNaissance||""), Z.naissance, 17);
   surTrait(doc, T(d.lieuNaissance||""), Z.lieu, 17);
   surTrait(doc, T(d.date), Z.fait, 17);
-  // signature centrée sur le trait, puis nom et fonction du responsable dessous
+  // signature sur le trait, puis nom et fonction du responsable dessous
   const xs = mm((Z.signature[0]+Z.signature[2])/2), ys = mm(Z.signature[1]);
   if(d.signature){
-    const h = 18, w = h*600/512;
-    doc.addImage(d.signature, "PNG", xs - w/2, ys - h + 1, w, h);
+    // dans la zone libre à droite de l'ornement du cadre du verset, posée sur le trait
+    const h = 14, w = h*600/512, xg = mm(Z.signature[2] - 88);
+    doc.addImage(d.signature, "PNG", xg - w/2, ys - h + 0.6, w, h);
   }
   doc.setTextColor(...ENCRE); doc.setFont("times","bold");
   centre(doc, T(d.responsable || ""), xs, ys + 4.4, 12, 100, 8);
