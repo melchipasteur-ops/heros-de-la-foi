@@ -6,7 +6,8 @@
   "« Comment croiront-ils en celui dont ils n’ont pas entendu parler ? Et comment en entendront-ils parler, s’il n’y a personne qui prêche ? » (Romains 10.14). Dieu a choisi de faire connaître son salut à travers des voix humaines. Chaque dimanche, dans des milliers de lieux de culte, de maisons, de cours d’école et de salles louées, des hommes et des femmes ouvrent la Bible et parlent au nom de Dieu. C’est un privilège immense et une responsabilité redoutable.",
   "Notre époque offre une multitude de voix : prédications en ligne, vidéos courtes, émissions, conférences. Certaines sont fidèles et nourrissantes. D’autres utilisent la Bible comme un tremplin pour des opinions personnelles, des promesses de richesse rapide, des récits sensationnels ou de la manipulation émotionnelle. Plus que jamais, l’Église a besoin de prédicateurs et d’enseignants qui expliquent fidèlement ce que Dieu dit, d’une manière claire, vivante et applicable à la vie réelle.",
   "Ce module comporte trois leçons. La première traite de l’appel à prêcher : sa nature, son sérieux et la source de sa puissance, à partir de 2 Timothée 4, 1 Corinthiens 2, Jacques 3 et de l’appel du prophète Jérémie. La deuxième est un atelier pratique : comment préparer un message, à l’école d’Esdras, de la grande lecture de Néhémie 8 et du sermon de Pierre à la Pentecôte. La troisième montre comment enseigner pour transformer, à l’exemple de Jésus, de ses paraboles et de sa conversation avec les disciples d’Emmaüs.",
-  "À la fin du module, vous préparerez et donnerez un vrai message de 20 à 30 minutes. Dès maintenant, commencez à lire les passages obligatoires avec un regard de prédicateur : que dit ce texte ? que signifiait-il pour ses premiers lecteurs ? que signifie-t-il pour nous aujourd’hui ?"
+  "À la fin du module, vous préparerez et donnerez un vrai message de 20 à 30 minutes. Dès maintenant, commencez à lire les passages obligatoires avec un regard de prédicateur : que dit ce texte ? que signifiait-il pour ses premiers lecteurs ? que signifie-t-il pour nous aujourd’hui ?",
+  "La quatrième leçon s’intéresse à la personne du prédicateur dans la durée. Comment rester fidèle et fécond pendant des années ? Comment annoncer « tout le conseil de Dieu » et non seulement ses sujets préférés ? Comment accepter d’être corrigé quand on est soi-même celui qui enseigne ? L’exemple d’Apollos, prédicateur brillant qui accepta d’être instruit par un couple de fabricants de tentes, nous servira de guide."
  ],
  "lecturesObligatoires": [
   {
@@ -52,6 +53,14 @@
   {
    "ref": "Colossiens 1.24-29",
    "consigne": "Relevez le but de l’enseignement de Paul au verset 28 et la source de son énergie au verset 29."
+  },
+  {
+   "ref": "Actes 18.18 – 19.7 et 1 Corinthiens 3.1-23",
+   "consigne": "Décris Apollos : ses qualités, ce qui lui manquait, la manière dont il a été instruit, puis la façon dont Paul parle de lui et de lui-même aux Corinthiens."
+  },
+  {
+   "ref": "Actes 20.17-38 et 2 Timothée 4.1-5",
+   "consigne": "Relève tout ce que Paul dit de sa manière de prêcher à Éphèse, puis les dangers qu’il annonce pour l’avenir de la prédication."
   }
  ],
  "lecons": [
@@ -900,6 +909,300 @@
      ]
     }
    }
+  },
+  {
+   "titre": "Le prédicateur qui continue d’apprendre",
+   "illustration": "lampe",
+   "lectures": [
+    {
+     "ref": "Actes 18.24-28",
+     "resume": "Apollos, éloquent et versé dans les Écritures, enseigne avec exactitude sur Jésus, mais ne connaît que le baptême de Jean ; Priscille et Aquilas le prennent avec eux et lui exposent plus exactement la voie de Dieu."
+    },
+    {
+     "ref": "1 Corinthiens 3.4-11",
+     "resume": "Paul refuse les partis autour des prédicateurs : Paul a planté, Apollos a arrosé, mais Dieu fait croître ; le seul fondement est Jésus-Christ."
+    },
+    {
+     "ref": "Actes 20.18-27",
+     "resume": "Paul rappelle aux anciens d’Éphèse qu’il n’a rien caché de ce qui leur était utile et qu’il leur a annoncé tout le conseil de Dieu."
+    },
+    {
+     "ref": "1 Timothée 4.13-16",
+     "resume": "Timothée doit s’appliquer à la lecture, à l’exhortation et à l’enseignement, veiller sur lui-même et sur son enseignement, afin que ses progrès soient évidents pour tous."
+    }
+   ],
+   "recit": {
+    "titre": "Apollos, l’orateur qui accepta d’être instruit",
+    "ref": "Actes 18.24 – 19.1 ; 1 Corinthiens 3.4-9",
+    "paragraphes": [
+     "Un jour, un Juif nommé Apollos arriva à Éphèse. Il venait d’Alexandrie, en Égypte, l’une des plus grandes villes intellectuelles du monde antique, célèbre pour sa bibliothèque et pour ses savants juifs qui avaient traduit les Écritures en grec. Luc le décrit avec admiration : « homme éloquent et versé dans les Écritures ». Il était instruit dans la voie du Seigneur et « fervent d’esprit ». Il connaissait le message de Jean-Baptiste, et il enseignait avec exactitude ce qui concerne Jésus. Il se mit à parler avec assurance dans la synagogue. Un prédicateur doué, passionné, solide dans les Écritures : beaucoup d’Églises auraient rêvé d’un tel homme.",
+     "Mais il lui manquait quelque chose : il enseignait ainsi « bien qu’il ne connût que le baptême de Jean ». Il savait que Jésus était le Messie annoncé, mais il semble qu’il ignorait encore la portée de la mort et de la résurrection de Christ pour le baptême chrétien, ou la venue du Saint-Esprit à la Pentecôte. Son enseignement était exact, mais incomplet. Dans l’assistance se trouvaient deux auditeurs attentifs : Aquilas et Priscille, un couple de fabricants de tentes, chassés de Rome quelques années plus tôt, qui avaient travaillé et vécu avec Paul à Corinthe.",
+     "Ils auraient pu se lever au milieu de la synagogue pour contredire Apollos devant tout le monde. Ils auraient pu aussi se taire, impressionnés par son éloquence, ou critiquer sa prédication en sortant. Ils firent autre chose : ils « le prirent avec eux, et lui exposèrent plus exactement la voie de Dieu ». Ils l’invitèrent probablement chez eux, autour d’un repas, et prirent le temps de lui expliquer ce qu’il ne savait pas. Un couple d’artisans enseignait un orateur d’Alexandrie, et une femme, Priscille, nommée en premier par Luc, y avait une part active.",
+     "Le plus remarquable, c’est la réaction d’Apollos. Le grand orateur ne s’offusqua pas d’être corrigé par des gens moins instruits que lui selon les critères du monde. Il reçut l’enseignement. Lorsqu’il voulut partir pour l’Achaïe, en Grèce, les frères d’Éphèse l’encouragèrent et écrivirent aux disciples de le bien recevoir. Arrivé à Corinthe, « il se rendit, par la grâce de Dieu, très utile à ceux qui avaient cru ; car il réfutait vivement les Juifs en public, démontrant par les Écritures que Jésus est le Christ ». Sa fécondité grandit parce qu’il avait accepté d’apprendre.",
+     "Le succès d’Apollos à Corinthe fut tel que des croyants commencèrent à se réclamer de lui : « Moi, je suis de Paul ! Et moi, d’Apollos ! » Paul ne répondit pas par la jalousie. Il écrivit : « Qu’est-ce donc qu’Apollos, et qu’est-ce que Paul ? Des serviteurs… J’ai planté, Apollos a arrosé, mais Dieu a fait croître. » Et lorsqu’il insista plus tard pour qu’Apollos retourne à Corinthe, Apollos refusa pour le moment, peut-être pour ne pas nourrir le parti qui portait son nom. Le prédicateur qui avait appris à être enseigné avait aussi appris à s’effacer."
+    ],
+    "lecons": [
+     "Un prédicateur peut être éloquent, fervent et exact, et avoir pourtant encore besoin d’apprendre.",
+     "La correction la plus utile se fait en privé, avec respect et avec la Parole, comme Priscille et Aquilas l’ont fait.",
+     "L’humilité qui accepte d’être enseigné multiplie la fécondité du ministère : Apollos devient « très utile » après avoir été instruit.",
+     "Les prédicateurs ne sont que des serviteurs ; c’est Dieu qui fait croître, et nul ne doit devenir le chef d’un parti dans l’Église."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Le contexte d’Actes 18 et 19",
+     "paragraphes": [
+      "Ce passage se situe entre le deuxième et le troisième voyage missionnaire de Paul. Paul a laissé Priscille et Aquilas à Éphèse (Actes 18.18-19) avant de repartir vers Jérusalem et Antioche. C’est pendant son absence qu’Apollos arrive. Luc insiste sur ses qualités par une série d’expressions : anēr logios, « homme éloquent » ou « savant » ; dynatos ōn en tais graphais, « puissant dans les Écritures » ; zeōn tō pneumati, « bouillant d’esprit ». Il enseignait akribōs, « avec exactitude, avec précision ».",
+      "Le même adverbe revient aussitôt, au comparatif : Priscille et Aquilas lui exposèrent la voie de Dieu akribesteron, « plus exactement ». Luc souligne ainsi que l’exactitude d’Apollos était réelle, mais qu’elle pouvait encore progresser. Le récit suivant, en Actes 19.1-7, montre à Éphèse une douzaine de disciples qui ne connaissaient eux aussi que le baptême de Jean et n’avaient même pas entendu parler du Saint-Esprit. Luc présente donc une période de transition où certains disciples avaient une connaissance partielle de l’Évangile. Le ministère de l’enseignement consistait à les conduire vers la plénitude de la vérité."
+     ]
+    },
+    {
+     "titre": "1 Corinthiens 3 : des serviteurs, pas des chefs de parti",
+     "paragraphes": [
+      "Quelques années plus tard, Paul écrit aux Corinthiens divisés. Certains se disent de Paul, d’autres d’Apollos, d’autres de Céphas, d’autres encore « de Christ » (1 Corinthiens 1.12). Ces partis ne viennent pas des prédicateurs eux-mêmes, mais de l’admiration des fidèles pour tel ou tel style : peut-être l’éloquence d’Apollos contre la simplicité volontaire de Paul. Paul répond en ramenant chaque prédicateur à sa vraie place : ce sont des diakonoi, des serviteurs « par le moyen desquels vous avez cru » (3.5).",
+      "Il développe ensuite deux images. Celle du champ : l’un plante, l’autre arrose, mais seul Dieu fait croître (3.6-9). Et celle de l’édifice : Paul a posé le fondement, qui est Jésus-Christ, et chacun doit prendre garde à la manière dont il bâtit dessus, car l’œuvre de chacun sera éprouvée par le feu au jour du jugement (3.10-15). Le prédicateur n’est ni propriétaire du champ ni architecte de l’édifice : il est un ouvrier qui rendra compte de la qualité de son travail. Cela le rend à la fois humble face aux autres prédicateurs et sérieux face à son propre ministère."
+     ]
+    },
+    {
+     "titre": "Actes 20.27 : annoncer tout le conseil de Dieu",
+     "paragraphes": [
+      "Dans son discours d’adieu aux anciens d’Éphèse, Paul déclare : « je vous ai annoncé tout le conseil de Dieu, sans en rien cacher » (Actes 20.27). Le mot grec boulē désigne le dessein, le plan, la volonté de Dieu. Paul n’a pas choisi seulement les sujets qui plaisaient ou qui attiraient les foules ; il a enseigné l’ensemble du plan de Dieu, « la repentance envers Dieu et la foi en notre Seigneur Jésus-Christ » (verset 21), publiquement et dans les maisons, « avec larmes » (verset 31).",
+      "Le verbe « cacher » (hypostellō) signifie se retirer, reculer par peur. Paul affirme qu’il n’a pas reculé devant les vérités difficiles. Il se considère « pur du sang de vous tous » (verset 26), une allusion à la responsabilité de la sentinelle en Ézéchiel 33 : celui qui n’avertit pas devient responsable. Paul annonce aussi que des loups cruels viendront et que des hommes se lèveront qui « enseigneront des choses pernicieuses, pour entraîner les disciples après eux » (verset 30). La meilleure protection de l’Église contre ces dangers est une prédication fidèle de tout le conseil de Dieu."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "avec exactitude",
+     "langue": "grec",
+     "original": "akribōs ; akribesteron",
+     "sens": "Avec précision ; puis « plus exactement » : la connaissance d’Apollos était juste mais pouvait progresser (Actes 18.25-26)."
+    },
+    {
+     "mot": "fervent d’esprit",
+     "langue": "grec",
+     "original": "zeōn tō pneumati",
+     "sens": "Littéralement « bouillant d’esprit » : un zèle ardent, qui doit être nourri par une connaissance exacte (Actes 18.25 ; Romains 12.11)."
+    },
+    {
+     "mot": "conseil, dessein",
+     "langue": "grec",
+     "original": "boulē",
+     "sens": "Le plan, la volonté de Dieu dans son ensemble ; Paul l’a annoncé tout entier (Actes 20.27)."
+    },
+    {
+     "mot": "cacher, reculer",
+     "langue": "grec",
+     "original": "hypostellō",
+     "sens": "Se retirer, reculer par crainte ; Paul n’a rien caché de ce qui était utile (Actes 20.20, 27)."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Rester un étudiant toute sa vie",
+     "paragraphes": [
+      "Paul, en prison à la fin de sa vie, demande encore à Timothée : « apporte… les livres, surtout les parchemins » (2 Timothée 4.13). L’apôtre qui avait écrit une grande partie du Nouveau Testament voulait continuer à lire. Il exhortait Timothée : « applique-toi à la lecture, à l’exhortation, à l’enseignement… afin que tes progrès soient évidents pour tous » (1 Timothée 4.13, 15). Le prédicateur n’a jamais fini d’apprendre. Le jour où il pense tout savoir, il commence à se répéter, puis à dériver.",
+      "Concrètement, rester un étudiant signifie lire la Bible entière régulièrement, et pas seulement les passages que l’on prêche ; étudier des livres sérieux de théologie, d’histoire de l’Église et de commentaire biblique ; apprendre quelques bases des langues bibliques ou au moins savoir utiliser des outils qui les expliquent ; écouter d’autres prédicateurs fidèles ; et surtout, laisser la Parole nous corriger nous-mêmes avant de corriger les autres. « Veille sur toi-même et sur ton enseignement » (1 Timothée 4.16) : l’ordre n’est pas un hasard."
+     ]
+    },
+    {
+     "titre": "Recevoir l’évaluation et la correction",
+     "paragraphes": [
+      "Dans beaucoup d’Églises, personne n’ose évaluer la prédication du pasteur. Pourtant, Paul demandait que les prophéties soient jugées (1 Corinthiens 14.29), et les Béréens examinaient l’enseignement de Paul lui-même à la lumière des Écritures (Actes 17.11). Le livre des Proverbes est clair : « Celui qui aime la correction aime la science ; celui qui hait la réprimande est stupide » (Proverbes 12.1). Un prédicateur qui ne supporte aucune remarque se prive d’un moyen essentiel de croissance.",
+      "On peut mettre en place des pratiques simples : demander à deux ou trois personnes de confiance un retour régulier sur la clarté, la fidélité au texte, les applications et la longueur des messages ; enregistrer et réécouter ses propres prédications ; préparer certains messages en équipe ; inviter un prédicateur plus expérimenté à commenter une série. Il faut aussi apprendre, comme Priscille et Aquilas, à corriger les autres prédicateurs avec respect, en privé, la Bible ouverte, sans humiliation publique ni critique dans leur dos."
+     ]
+    },
+    {
+     "titre": "Annoncer tout le conseil de Dieu, pas seulement ce qui plaît",
+     "paragraphes": [
+      "Paul avait annoncé que viendrait un temps où les hommes, « ayant la démangeaison d’entendre des choses agréables, ils se donneront une foule de docteurs selon leurs propres désirs » (2 Timothée 4.3). La tentation du prédicateur est de répondre à cette demande : parler sans cesse de prospérité, de victoire, de délivrance, de destin glorieux, et éviter le péché, la repentance, la souffrance, le jugement, la sainteté, le service, la croix. Un tel enseignement attire des foules, mais il produit des croyants fragiles qui s’effondrent dans l’épreuve.",
+      "Une manière de se protéger consiste à prêcher régulièrement des livres entiers de la Bible, passage après passage. Ainsi, c’est le texte qui choisit les sujets, et le prédicateur est obligé d’aborder des thèmes qu’il aurait évités. Il est utile aussi de faire chaque année le bilan des sujets prêchés : avons-nous parcouru l’Ancien et le Nouveau Testament, les récits, la sagesse, les prophètes, les lettres ? Avons-nous parlé de Dieu, de Christ, de l’Esprit, du péché, de la grâce, de l’Église, de la mission, de la famille, de l’argent, de la souffrance, de l’espérance ? Annoncer tout le conseil de Dieu demande un plan."
+     ]
+    },
+    {
+     "titre": "L’intégrité du prédicateur",
+     "paragraphes": [
+      "La crédibilité de la prédication dépend aussi de l’honnêteté du prédicateur. Certains reprennent mot pour mot des sermons trouvés sur internet en les présentant comme les leurs ; d’autres racontent des témoignages inventés ou exagérés pour émouvoir ; d’autres encore citent des chiffres ou des citations sans les vérifier. Il est légitime de s’inspirer du travail d’autres serviteurs de Dieu, mais il faut le faire honnêtement : digérer le texte soi-même, citer ses sources quand on reprend une idée importante, ne jamais présenter comme vécu ce qui ne l’a pas été.",
+      "Le prédicateur doit enfin veiller à ce que sa vie confirme sa parole. Paul pouvait dire aux anciens d’Éphèse : « Je n’ai désiré ni l’argent, ni l’or, ni les vêtements de personne » (Actes 20.33), et il leur rappelait qu’il avait travaillé de ses mains. Un message sur la générosité perd sa force si le prédicateur vit dans le luxe aux dépens de l’Église ; un message sur la famille sonne faux si son foyer est négligé. « Souvenez-vous de vos conducteurs qui vous ont annoncé la parole de Dieu ; considérez quelle a été la fin de leur vie, et imitez leur foi » (Hébreux 13.7)."
+     ]
+    },
+    {
+     "titre": "Le zèle et la connaissance",
+     "paragraphes": [
+      "Apollos était « fervent d’esprit ». Paul utilise la même expression en Romains 12.11 : « Ayez du zèle, et non de la paresse. Soyez fervents d’esprit. Servez le Seigneur. » Le zèle est précieux : il rend la prédication vivante, il touche les cœurs, il communique la conviction. Mais Paul avertit ailleurs que certains ont « du zèle pour Dieu, mais sans intelligence » (Romains 10.2). Un zèle sans connaissance peut conduire à de grandes erreurs, prêchées avec beaucoup de passion. À l’inverse, une connaissance sans zèle produit des messages exacts mais froids, qui n’atteignent personne.",
+      "Le récit d’Apollos montre la bonne combinaison : un homme brûlant d’esprit qui accepte d’être instruit plus exactement. Le prédicateur doit cultiver les deux à la fois. Il nourrit son zèle par la prière, la contemplation de Christ et l’amour des personnes ; il nourrit sa connaissance par l’étude patiente des Écritures et l’écoute de ceux qui en savent plus que lui. Quand l’un des deux manque, il demande à Dieu de le lui donner, et il cherche autour de lui les frères et sœurs qui peuvent l’aider à grandir dans ce domaine."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Actes 18.24-26",
+     "texte": "Un Juif nommé Apollos, originaire d’Alexandrie, homme éloquent et versé dans les Écritures, vint à Éphèse. Il était instruit dans la voie du Seigneur, et, fervent d’esprit, il annonçait et enseignait avec exactitude ce qui concerne Jésus, bien qu’il ne connût que le baptême de Jean. Il se mit à parler librement dans la synagogue. Aquilas et Priscille, l’ayant entendu, le prirent avec eux, et lui exposèrent plus exactement la voie de Dieu."
+    },
+    {
+     "ref": "1 Corinthiens 3.6-7",
+     "texte": "J’ai planté, Apollos a arrosé, mais Dieu a fait croître, en sorte que ce n’est pas celui qui plante qui est quelque chose, ni celui qui arrose, mais Dieu qui fait croître."
+    },
+    {
+     "ref": "Actes 20.27",
+     "texte": "car je vous ai annoncé tout le conseil de Dieu, sans en rien cacher."
+    },
+    {
+     "ref": "1 Timothée 4.16",
+     "texte": "Veille sur toi-même et sur ton enseignement; persévère dans ces choses, car, en agissant ainsi, tu te sauveras toi-même, et tu sauveras ceux qui t’écoutent."
+    },
+    {
+     "ref": "Proverbes 12.1",
+     "texte": "Celui qui aime la correction aime la science; Celui qui hait la réprimande est stupide."
+    }
+   ],
+   "application": [
+    {
+     "titre": "Un plan de lecture pour le prédicateur",
+     "paragraphes": [
+      "Fixe-toi un plan de croissance pour l’année : lire toute la Bible, étudier en profondeur un livre biblique avec un bon commentaire, lire un livre de théologie et une biographie d’un serviteur de Dieu. Réserve chaque semaine un temps d’étude qui ne soit pas directement consacré à préparer le prochain message. Les prédications les plus riches naissent d’une vie nourrie en profondeur, pas d’une recherche précipitée le samedi soir."
+     ]
+    },
+    {
+     "titre": "Organiser l’évaluation de tes messages",
+     "paragraphes": [
+      "Choisis deux ou trois personnes mûres, de sexe et d’âge différents, et demande-leur d’évaluer un de tes messages par mois avec quatre questions : quel était le point central du texte ? Ce point était-il clair ? Les applications étaient-elles concrètes et fidèles ? Qu’est-ce qui aurait pu être retiré ? Remercie pour chaque remarque, même si elle te coûte. Tu progresseras plus en un an qu’en dix ans sans retour."
+     ]
+    },
+    {
+     "titre": "Corriger un autre prédicateur à la manière de Priscille et Aquilas",
+     "paragraphes": [
+      "Si tu entends un prédicateur enseigner une erreur, résiste à deux tentations : te taire par crainte ou le dénoncer publiquement par orgueil. Prie, puis demande à le rencontrer en privé. Commence par reconnaître ce qui était juste et bon dans son message. Ouvre ensuite la Bible avec lui sur le point qui pose problème, en posant des questions plutôt qu’en accusant. Si l’erreur est grave et qu’il refuse d’écouter, parles-en aux responsables compétents, selon l’esprit de Matthieu 18."
+     ]
+    },
+    {
+     "titre": "Face au culte de la personnalité",
+     "paragraphes": [
+      "Si des fidèles commencent à se réclamer de toi plutôt que de Christ, à t’attribuer leur croissance ou à mépriser d’autres serviteurs, fais comme Paul et Apollos : ramène l’attention sur Dieu qui fait croître. Mets en valeur d’autres prédicateurs, invite des serviteurs différents de toi, refuse les titres et les flatteries excessives. Une Église solide ne dépend pas d’un seul homme ; elle repose sur le fondement qu’est Jésus-Christ."
+     ]
+    },
+    {
+     "titre": "Quand tu prépares une série de messages",
+     "paragraphes": [
+      "Plutôt que de choisir chaque semaine un sujet au gré de l’inspiration, prévois des séries : un Évangile, une épître, un livre de l’Ancien Testament, une série sur une grande doctrine. Prépare un calendrier sur plusieurs mois et partage-le avec les autres responsables. Cette discipline te protégera de tes sujets favoris, aidera l’Église à progresser de manière cohérente et te permettra d’annoncer, avec le temps, tout le conseil de Dieu."
+     ]
+    },
+    {
+     "titre": "Former à ton tour des prédicateurs",
+     "paragraphes": [
+      "Le prédicateur qui grandit pense aussi à ceux qui viendront après lui. Repère dans ton Église des hommes et des femmes qui ont le désir et le don d’enseigner, selon les responsabilités que ton Église leur reconnaît. Invite-les à préparer avec toi un message, puis à donner une courte méditation dans un groupe, puis un enseignement complet, en les accompagnant à chaque étape. Après chaque prise de parole, faites ensemble un bilan bienveillant et précis. Ce que Priscille et Aquilas ont fait pour Apollos, tu peux le faire pour la génération qui vient, afin que la Parole continue d’être annoncée fidèlement quand tu ne seras plus là."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Frère Emmanuel prêche depuis dix ans dans une Église de quartier. Il est apprécié pour son éloquence et son énergie, et ses vidéos circulent beaucoup. Depuis quelques mois, une jeune sœur, Ruth-Esther, diplômée en théologie, remarque que ses messages reviennent presque toujours aux mêmes thèmes : victoire, prospérité, destinée. Elle a aussi constaté que plusieurs de ses prédications récentes reprennent mot pour mot des sermons d’un prédicateur étranger trouvés sur internet. Lors du dernier culte, Emmanuel a affirmé que « le chrétien rempli de foi ne tombe jamais malade », alors qu’une famille de l’Église vient de perdre un enfant. Ruth-Esther hésite : doit-elle se taire, en parler aux anciens, publier un commentaire, ou aller le voir ?",
+    "questions": [
+     "En t’inspirant de Priscille et Aquilas, comment Ruth-Esther pourrait-elle aborder Emmanuel ?",
+     "Quels textes bibliques pourraient l’aider à corriger l’affirmation sur la maladie (pensez à 2 Corinthiens 12.7-9, Philippiens 2.25-27, 1 Timothée 5.23) ?",
+     "Comment Emmanuel pourrait-il réagir s’il veut suivre l’exemple d’Apollos ?",
+     "Quelles pratiques l’Église pourrait-elle mettre en place pour que la prédication annonce « tout le conseil de Dieu » et reste honnête ?"
+    ]
+   },
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Apollos était originaire d’Alexandrie et versé dans les Écritures.",
+      "vrai": true,
+      "explication": "Actes 18.24."
+     },
+     {
+      "affirmation": "Priscille et Aquilas contredirent publiquement Apollos au milieu de la synagogue.",
+      "vrai": false,
+      "explication": "Ils « le prirent avec eux, et lui exposèrent plus exactement la voie de Dieu » (Actes 18.26)."
+     },
+     {
+      "affirmation": "Après avoir été instruit, Apollos se rendit très utile aux croyants d’Achaïe.",
+      "vrai": true,
+      "explication": "Actes 18.27-28."
+     },
+     {
+      "affirmation": "Paul encourageait les Corinthiens à choisir entre son parti et celui d’Apollos.",
+      "vrai": false,
+      "explication": "Paul refuse ces partis : « J’ai planté, Apollos a arrosé, mais Dieu a fait croître » (1 Corinthiens 3.4-7)."
+     },
+     {
+      "affirmation": "Paul affirme aux anciens d’Éphèse qu’il leur a annoncé tout le conseil de Dieu, sans en rien cacher.",
+      "vrai": true,
+      "explication": "Actes 20.27."
+     },
+     {
+      "affirmation": "Selon 2 Timothée 4.3, les hommes auront toujours soif de la saine doctrine.",
+      "vrai": false,
+      "explication": "Il viendra un temps où ils ne la supporteront pas et chercheront des docteurs selon leurs désirs (2 Timothée 4.3)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque attitude de prédicateur.",
+     "categories": [
+      "Prédicateur qui grandit",
+      "Prédicateur qui se ferme"
+     ],
+     "elements": [
+      {
+       "texte": "Demander chaque mois un retour honnête sur ses messages.",
+       "categorie": 0,
+       "explication": "« Celui qui aime la correction aime la science » (Proverbes 12.1)."
+      },
+      {
+       "texte": "Ne prêcher que sur la prospérité parce que cela attire du monde.",
+       "categorie": 1,
+       "explication": "2 Timothée 4.3 ; Actes 20.27."
+      },
+      {
+       "texte": "Prêcher un livre biblique entier, passage après passage.",
+       "categorie": 0,
+       "explication": "Cela aide à annoncer tout le conseil de Dieu (Actes 20.27)."
+      },
+      {
+       "texte": "Présenter comme siens des sermons copiés sur internet.",
+       "categorie": 1,
+       "explication": "Paul écrit : « nous ne falsifions point la parole de Dieu » (2 Corinthiens 2.17 ; voir aussi 4.2)."
+      },
+      {
+       "texte": "Accepter d’être instruit par des croyants moins connus que soi.",
+       "categorie": 0,
+       "explication": "C’est l’exemple d’Apollos (Actes 18.26)."
+      },
+      {
+       "texte": "Considérer toute remarque sur sa prédication comme une attaque contre Dieu.",
+       "categorie": 1,
+       "explication": "« Celui qui hait la réprimande est stupide » (Proverbes 12.1) ; 1 Corinthiens 14.29."
+      },
+      {
+       "texte": "Lire régulièrement des livres sérieux en plus de la préparation des messages.",
+       "categorie": 0,
+       "explication": "1 Timothée 4.13-15 ; 2 Timothée 4.13."
+      },
+      {
+       "texte": "Laisser les fidèles former un parti autour de son nom.",
+       "categorie": 1,
+       "explication": "1 Corinthiens 1.12-13 ; 3.4-7."
+      }
+     ]
+    }
+   },
+   "reflexion": [
+    "Quand ai-je été corrigé pour la dernière fois sur mon enseignement, et comment ai-je réagi ?",
+    "Quels sujets de la Bible est-ce que j’évite dans mes messages ? Pourquoi ?",
+    "Qui sont les Priscille et Aquilas que Dieu a placés autour de moi ?",
+    "Ma vie confirme-t-elle ce que je prêche, notamment dans le domaine de l’argent et de la famille ?"
+   ],
+   "retenir": [
+    "Apollos, éloquent, fervent et exact, a accepté d’être instruit « plus exactement » par Priscille et Aquilas, et sa fécondité a grandi (Actes 18.24-28).",
+    "Les prédicateurs ne sont que des serviteurs : l’un plante, l’autre arrose, Dieu fait croître (1 Corinthiens 3.6-7).",
+    "Le prédicateur fidèle annonce « tout le conseil de Dieu, sans en rien cacher », y compris les vérités difficiles (Actes 20.27).",
+    "Il reste un étudiant toute sa vie, accepte l’évaluation, prêche avec intégrité et veille sur lui-même autant que sur son enseignement (1 Timothée 4.16)."
+   ],
+   "memoriser": {
+    "ref": "1 Timothée 4.16",
+    "texte": "Veille sur toi-même et sur ton enseignement; persévère dans ces choses, car, en agissant ainsi, tu te sauveras toi-même, et tu sauveras ceux qui t’écoutent."
+   },
+   "priere": "Seigneur, garde-moi de penser que je sais déjà tout. Donne-moi un cœur enseignable comme celui d’Apollos, des frères et des sœurs comme Priscille et Aquilas, et le courage d’annoncer tout ton conseil, sans rien cacher. Que les hommes ne voient pas le prédicateur, mais toi seul qui fais croître. Amen."
   }
  ],
  "pratique": {
@@ -1130,6 +1433,116 @@
    ],
    "bonne": 1,
    "explication": "Faux : Jésus demanda d’abord « De quoi vous entretenez-vous en marchant ? » puis « Quoi ? », et les écouta avant de leur expliquer les Écritures (Luc 24.17-27)."
+  },
+  {
+   "q": "Comment Luc décrit-il Apollos en Actes 18.24-25 ?",
+   "choix": [
+    "Un homme éloquent, versé dans les Écritures et fervent d’esprit",
+    "Un ancien collecteur d’impôts",
+    "Un disciple timide qui n’osait pas parler",
+    "Un prophète venu de Jérusalem"
+   ],
+   "bonne": 0,
+   "explication": "« Homme éloquent et versé dans les Écritures… fervent d’esprit, il annonçait et enseignait avec exactitude ce qui concerne Jésus » (Actes 18.24-25)."
+  },
+  {
+   "q": "Qu’est-ce qui manquait à l’enseignement d’Apollos lorsqu’il arriva à Éphèse ?",
+   "choix": [
+    "Il ne connaissait pas les prophètes",
+    "Il ne connaissait que le baptême de Jean",
+    "Il refusait de parler de Jésus",
+    "Il ne savait pas lire le grec"
+   ],
+   "bonne": 1,
+   "explication": "« Il annonçait et enseignait avec exactitude ce qui concerne Jésus, bien qu’il ne connût que le baptême de Jean » (Actes 18.25)."
+  },
+  {
+   "q": "Comment Priscille et Aquilas ont-ils corrigé Apollos (Actes 18.26) ?",
+   "choix": [
+    "Ils l’ont dénoncé aux anciens de Jérusalem",
+    "Ils l’ont interrompu devant la synagogue",
+    "Ils l’ont pris avec eux et lui ont exposé plus exactement la voie de Dieu",
+    "Ils lui ont écrit une lettre de reproches"
+   ],
+   "bonne": 2,
+   "explication": "« Aquilas et Priscille, l’ayant entendu, le prirent avec eux, et lui exposèrent plus exactement la voie de Dieu » (Actes 18.26)."
+  },
+  {
+   "q": "Que fit Apollos en Achaïe après avoir été instruit (Actes 18.28) ?",
+   "choix": [
+    "Il fonda un parti contre Paul",
+    "Il abandonna la prédication",
+    "Il retourna à Alexandrie",
+    "Il réfutait vivement les Juifs en public, démontrant par les Écritures que Jésus est le Christ"
+   ],
+   "bonne": 3,
+   "explication": "« Il réfutait vivement les Juifs en public, démontrant par les Écritures que Jésus est le Christ » (Actes 18.28)."
+  },
+  {
+   "q": "Selon 1 Corinthiens 3.6-7, qui fait croître ?",
+   "choix": [
+    "Celui qui plante",
+    "Celui qui arrose",
+    "Dieu seul",
+    "L’Église qui écoute"
+   ],
+   "bonne": 2,
+   "explication": "« J’ai planté, Apollos a arrosé, mais Dieu a fait croître, en sorte que ce n’est pas celui qui plante qui est quelque chose, ni celui qui arrose, mais Dieu qui fait croître » (1 Corinthiens 3.6-7)."
+  },
+  {
+   "q": "Selon Actes 20.27, qu’est-ce que Paul a annoncé aux Éphésiens ?",
+   "choix": [
+    "Tout le conseil de Dieu, sans en rien cacher",
+    "Seulement les promesses de bénédiction",
+    "Uniquement ce que les anciens avaient approuvé",
+    "Les secrets réservés aux initiés"
+   ],
+   "bonne": 0,
+   "explication": "« Je vous ai annoncé tout le conseil de Dieu, sans en rien cacher » (Actes 20.27)."
+  },
+  {
+   "q": "Selon 2 Timothée 4.3, que feront les hommes qui ne supporteront plus la saine doctrine ?",
+   "choix": [
+    "Ils quitteront toute religion",
+    "Ils se donneront une foule de docteurs selon leurs propres désirs",
+    "Ils deviendront eux-mêmes apôtres",
+    "Ils se tourneront vers la loi de Moïse"
+   ],
+   "bonne": 1,
+   "explication": "« Ayant la démangeaison d’entendre des choses agréables, ils se donneront une foule de docteurs selon leurs propres désirs » (2 Timothée 4.3)."
+  },
+  {
+   "q": "Selon 1 Timothée 4.16, sur quoi Timothée doit-il veiller ?",
+   "choix": [
+    "Sur sa réputation et ses revenus",
+    "Sur l’opinion des autorités",
+    "Sur la taille de son assemblée",
+    "Sur lui-même et sur son enseignement"
+   ],
+   "bonne": 3,
+   "explication": "« Veille sur toi-même et sur ton enseignement ; persévère dans ces choses, car, en agissant ainsi, tu te sauveras toi-même, et tu sauveras ceux qui t’écoutent » (1 Timothée 4.16)."
+  },
+  {
+   "q": "Un prédicateur reprend mot pour mot des sermons trouvés sur internet et les présente comme les siens. Selon la leçon, quel principe est en jeu ?",
+   "choix": [
+    "La liberté totale du prédicateur",
+    "L’intégrité : digérer le texte soi-même et ne pas présenter comme sien le travail d’autrui",
+    "L’obligation de ne jamais lire d’autres prédicateurs",
+    "La nécessité de prêcher plus longtemps"
+   ],
+   "bonne": 1,
+   "explication": "Paul déclare : « c’est avec sincérité, mais c’est de la part de Dieu, que nous parlons » (2 Corinthiens 2.17) et rejette « les choses honteuses qui se font en secret » (2 Corinthiens 4.2)."
+  },
+  {
+   "q": "Selon Esdras 7.10, qu’avait appliqué son cœur à faire Esdras, dans l’ordre ?",
+   "choix": [
+    "Enseigner, pratiquer, puis étudier",
+    "Pratiquer, étudier, puis enseigner",
+    "Étudier la loi de l’Éternel, la mettre en pratique, puis enseigner",
+    "Prier, jeûner, puis prêcher"
+   ],
+   "bonne": 2,
+   "explication": "« Esdras avait appliqué son cœur à étudier et à mettre en pratique la loi de l’Éternel, et à enseigner au milieu d’Israël les lois et les ordonnances » (Esdras 7.10)."
   }
  ]
 }
