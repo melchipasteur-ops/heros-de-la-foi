@@ -130,7 +130,7 @@ function vTableau(){
     <div class="stat"><div class="v">${cert}</div><div class="l">attestations ${S.filtre==="miens"?"de vos étudiants":"délivrées"}</div></div></section>
   <div class="grid2">
     ${groupe("temoignage","Témoignages à lire","Lisez la foi agissante de l'étudiant, puis validez-la ou demandez-lui de la revoir.")}
-    ${groupe("difficulte","Étudiants en difficulté","Plusieurs essais à l'examen sans atteindre 16/20 : proposez-leur de l'aide.")}
+    ${groupe("difficulte","Étudiants en difficulté","Plusieurs essais à l'examen sans atteindre la note minimale (16, 17 ou 18/20 selon le niveau) : proposez-leur de l'aide.")}
     ${groupe("inactif","Étudiants qui n'avancent plus",`Aucune activité depuis plus de ${INACTIF_JOURS} jours : envoyez-leur un message d'encouragement.`)}
     ${groupe("sans","Étudiants sans enseignant","Prenez-les en charge, ou confiez-les à un autre enseignant depuis leur fiche.")}
   </div>`;

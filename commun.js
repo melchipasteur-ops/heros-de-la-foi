@@ -1,7 +1,17 @@
 // Code commun à l'espace étudiant (app.js) et à l'espace enseignant (enseignant.js).
 (function(){
 "use strict";
-const SEUIL = 0.8;            // 16/20
+const SEUIL = 0.8;            // 16/20 (niveaux 1 et 2)
+// Exigences par niveau (les mêmes sont vérifiées sur le serveur : fonctions seuil, test_nb_questions, test_duree, examen_duree)
+const EXIGENCES = {
+  1: {seuil:0.8,  test:80,  testMin:25},
+  2: {seuil:0.8,  test:80,  testMin:25},
+  3: {seuil:0.85, test:120, testMin:37},
+  4: {seuil:0.9,  test:150, testMin:45}
+};
+const exigence = i => EXIGENCES[i] || EXIGENCES[1];
+const sur20 = seuil => String(Math.round(seuil*20)) + "/20";
+const examenMin = nbQuestions => nbQuestions > 20 ? 20 : 15;
 const MIN_PRATIQUE = 80;
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -47,8 +57,10 @@ function regles(prog){
     const r = (etu.modules||{})[m.id] || {};
     const nb = (m.lecons||[]).length;
     const lus = Array.from({length:nb},(_,i)=>i).filter(i=>(etu.lecons||{})[m.id+"-"+i]).length;
-    return { r, lus, nb, leconsFinies: lus>=nb, reussi:(r.meilleur||0) >= SEUIL,
-      pratique:(r.pratique||"").trim().length >= MIN_PRATIQUE, certifie:!!r.certNo, valide:!!r.certNo || (r.meilleur||0) >= SEUIL,
+    const ni = m.niveau ? niveauIndex(m.niveau) : prog.niveaux.findIndex(n=>n.modules.some(x=>x.id===m.id))+1;
+    const seuil = exigence(ni).seuil;
+    return { r, lus, nb, seuil, leconsFinies: lus>=nb, reussi:(r.meilleur||0) >= seuil,
+      pratique:(r.pratique||"").trim().length >= MIN_PRATIQUE, certifie:!!r.certNo, valide:!!r.certNo || (r.meilleur||0) >= seuil,
       tentatives:r.tentatives||0, parTest:r.origine==="test", commence: !!(r.tentatives||r.certNo||lus||r.pratique) };
   }
   const niveauFini = (n, etu) => n.modules.every(m=>statut(m,etu).certifie);
@@ -181,5 +193,5 @@ function lierIdentifiant(racine, rendu){
     if(!ok) info.textContent = inp.value.replace(/\D/g,"").length>=6 ? "Numéro incomplet ou invalide pour ce pays." : ""; });
 }
 
-window.HDF = {estCompteTel, afficherIdentifiant, champIdentifiant, lireIdentifiant, lierIdentifiant, modeIdentifiant, identiteComplete, dateLongue, INSTITUTION, installation, HORS_LIGNE, SEUIL, MIN_PRATIQUE, esc, pct, note20, fmtDate, depuis, toast, shuffle, erreur, etuDepuis, regles, connecter, CONFIG_MANQUANTE, lierMotsDePasse};
+window.HDF = {EXIGENCES, exigence, sur20, examenMin, estCompteTel, afficherIdentifiant, champIdentifiant, lireIdentifiant, lierIdentifiant, modeIdentifiant, identiteComplete, dateLongue, INSTITUTION, installation, HORS_LIGNE, SEUIL, MIN_PRATIQUE, esc, pct, note20, fmtDate, depuis, toast, shuffle, erreur, etuDepuis, regles, connecter, CONFIG_MANQUANTE, lierMotsDePasse};
 })();

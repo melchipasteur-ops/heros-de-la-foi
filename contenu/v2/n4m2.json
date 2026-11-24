@@ -6,7 +6,8 @@
   "Le dernier ordre que Jésus a donné à ses disciples avant de monter au ciel n’était pas « remplissez des salles » ni « devenez célèbres », mais : « Allez, faites de toutes les nations des disciples » (Matthieu 28.19). La mesure d’un leader chrétien n’est donc pas le nombre de personnes qui l’écoutent, mais le nombre de personnes qu’il aide à devenir des disciples mûrs, capables à leur tour d’en former d’autres.",
   "Beaucoup d’églises sont dépendantes d’un seul homme ou d’une seule femme. Quand ce responsable tombe malade, déménage, s’épuise ou meurt, tout s’arrête ou se divise. La Bible propose un autre modèle : Moïse forme Josué, Élie forme Élisée, Jésus forme les Douze, Barnabas forme Paul puis Jean-Marc, Paul forme Timothée, qui doit former des hommes fidèles, qui en formeront d’autres. Le Royaume avance par multiplication, pas seulement par addition.",
   "Ce module comporte trois leçons. La première pose le principe de multiplication à partir de 2 Timothée 2.2, de l’appel des Douze et de la succession d’Élie à Élisée. La deuxième étudie la méthode de Jésus : choisir, être avec, montrer, envoyer, évaluer, corriger et encourager, en particulier à travers l’envoi des Douze et des soixante-dix et l’échec des disciples au pied de la montagne. La troisième traite du mentorat et de la délégation avec Jéthro et Moïse, la préparation de Josué, et l’histoire de Barnabas qui a cru en Jean-Marc.",
-  "Ce module vous demandera d’agir : vous ne pouvez pas apprendre à former des disciples seulement en lisant. Dès la première semaine, priez pour savoir qui Dieu vous appelle à accompagner. À la fin, vous décrirez par écrit l’accompagnement que vous aurez commencé."
+  "Ce module vous demandera d’agir : vous ne pouvez pas apprendre à former des disciples seulement en lisant. Dès la première semaine, priez pour savoir qui Dieu vous appelle à accompagner. À la fin, vous décrirez par écrit l’accompagnement que vous aurez commencé.",
+  "La quatrième leçon s’attache à la relation de formation la plus documentée du Nouveau Testament : celle de Paul et de Timothée. Nous suivrons ce jeune homme de Lystre depuis sa famille jusqu’aux responsabilités de l’Église d’Éphèse, et nous verrons comment Paul l’a choisi, formé, envoyé, encouragé et finalement préparé à continuer sans lui. Cette leçon pose une question décisive pour tout leader : qui, de la génération suivante, connaîtra le Seigneur grâce à moi ?"
  ],
  "lecturesObligatoires": [
   {
@@ -48,6 +49,14 @@
   {
    "ref": "Actes 15.36-41 et 2 Timothée 4.11",
    "consigne": "Comparez le désaccord entre Paul et Barnabas au sujet de Marc avec ce que Paul écrit de Marc à la fin de sa vie."
+  },
+  {
+   "ref": "Actes 16.1-5 ; Philippiens 2.19-24 ; 1 Corinthiens 4.14-17",
+   "consigne": "Relève tout ce que ces textes disent de Timothée : son origine, sa réputation, ses qualités, les missions que Paul lui confie."
+  },
+  {
+   "ref": "2 Timothée 1 – 4",
+   "consigne": "Lis toute la lettre comme le dernier message d’un père spirituel avant sa mort. Note les exhortations, les avertissements et les marques d’affection."
   }
  ],
  "lecons": [
@@ -890,6 +899,288 @@
      ]
     }
    }
+  },
+  {
+   "titre": "Paul et Timothée : former un fils dans la foi",
+   "illustration": "arbre",
+   "lectures": [
+    {
+     "ref": "Actes 16.1-5",
+     "resume": "À Lystre, Paul rencontre Timothée, fils d’une Juive croyante et d’un père grec, dont les frères rendent un bon témoignage, et l’emmène avec lui."
+    },
+    {
+     "ref": "2 Timothée 1.3-14",
+     "resume": "Paul rappelle la foi sincère de Loïs et d’Eunice, exhorte Timothée à ranimer le don de Dieu, à ne pas avoir honte et à garder le bon dépôt."
+    },
+    {
+     "ref": "Philippiens 2.19-22",
+     "resume": "Paul n’a personne d’autre qui partage ses sentiments comme Timothée, qui a servi l’Évangile avec lui comme un enfant avec son père."
+    },
+    {
+     "ref": "Juges 2.6-10",
+     "resume": "Après la mort de Josué et des anciens, il s’éleva une autre génération qui ne connaissait point l’Éternel."
+    }
+   ],
+   "recit": {
+    "titre": "Un jeune homme de Lystre",
+    "ref": "Actes 14.6-20 ; 16.1-5 ; 2 Timothée 1 – 4",
+    "paragraphes": [
+     "Lystre était une petite ville de province, dans la région montagneuse de Lycaonie. Lors de son premier voyage missionnaire, Paul y avait guéri un homme impotent de naissance. La foule, enthousiaste, avait voulu offrir des sacrifices à Paul et à Barnabas en les prenant pour des dieux, Mercure et Jupiter. Puis, quelques jours plus tard, des opposants venus d’Antioche et d’Icone avaient retourné la foule ; on avait lapidé Paul et traîné son corps hors de la ville, le croyant mort. Mais pendant que les disciples l’entouraient, il s’était relevé. Il est très probable qu’un adolescent de la ville, nommé Timothée, ait vu cette scène. Paul le lui rappellera des années plus tard : « Tu as suivi de près… mes persécutions, mes souffrances… à Antioche, à Icone, à Lystre. »",
+     "Timothée avait grandi dans une famille mixte. Sa mère Eunice était une Juive croyante, comme sa grand-mère Loïs ; son père était grec. Dès son enfance, les femmes de la maison lui avaient appris « les saintes lettres ». Rien ne le prédestinait à un grand ministère : il était jeune, d’origine mêlée, sans doute timide, et de santé fragile. Mais quand Paul revint à Lystre, quelques années plus tard, « les frères de Lystre et d’Icone rendaient de lui un bon témoignage ». Sa réputation dépassait sa ville. Paul voulut l’emmener avec lui.",
+     "Commença alors un long compagnonnage. Timothée voyagea avec Paul en Macédoine et en Grèce ; il vit naître les Églises de Philippes, de Thessalonique et de Corinthe. Paul l’envoya seul en mission délicate : affermir les Thessaloniciens persécutés, rappeler aux Corinthiens divisés les voies de l’apôtre, visiter les Philippiens. Paul écrivit aux Corinthiens : « Faites en sorte qu’il soit sans crainte parmi vous… Que personne donc ne le méprise. » Et aux Philippiens : « Je n’ai personne ici qui partage mes sentiments… il a été mis à l’épreuve, en se consacrant au service de l’Évangile avec moi, comme un enfant avec son père. »",
+     "Puis vint le temps de la responsabilité. Paul laissa Timothée à Éphèse, une grande Église troublée par de faux docteurs, et lui écrivit une première lettre. Il savait que son jeune collaborateur pouvait être intimidé : « Que personne ne méprise ta jeunesse ; mais sois un modèle pour les fidèles, en parole, en conduite, en charité, en foi, en pureté. » Il se souciait même de sa santé : « fais usage d’un peu de vin, à cause de ton estomac et de tes fréquentes indispositions. » Le maître ne formait pas seulement un ministre ; il prenait soin d’un homme.",
+     "Les années passèrent. Paul, de nouveau en prison à Rome, sentait que sa fin approchait. Il écrivit une dernière lettre à Timothée, « mon enfant bien-aimé ». Il lui rappela ses larmes au moment de leur séparation, la foi de sa grand-mère et de sa mère, le don reçu par l’imposition des mains. Il l’exhorta à ne pas avoir honte, à souffrir avec lui, à confier ce qu’il avait reçu à des hommes fidèles, à prêcher la Parole en toute occasion. Il termina par une demande d’une grande humanité : « Viens au plus tôt vers moi… Tâche de venir avant l’hiver. » Le père spirituel, qui avait tant donné, avait maintenant besoin de son fils. La transmission était accomplie : l’Évangile continuerait après Paul, entre les mains d’un jeune homme de Lystre."
+    ],
+    "lecons": [
+     "Dieu prépare souvent les futurs leaders dans des familles ordinaires, par la foi transmise de génération en génération (Loïs, Eunice).",
+     "Paul choisit Timothée sur la base d’un bon témoignage reconnu par les frères, non sur ses apparences ou ses talents.",
+     "La formation passe par le compagnonnage, l’observation de la vie du maître, puis des missions confiées et des responsabilités croissantes.",
+     "Un vrai père spirituel encourage, protège, corrige, prend soin de la personne entière, et prépare son disciple à continuer sans lui."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Le vocabulaire de la paternité spirituelle",
+     "paragraphes": [
+      "Paul appelle Timothée « mon enfant légitime en la foi » (1 Timothée 1.2) et « mon enfant bien-aimé » (2 Timothée 1.2). Le mot grec teknon désigne l’enfant dans sa relation affective avec ses parents. L’adjectif gnēsios, « légitime, authentique », était employé pour un enfant né d’un mariage reconnu, par opposition à un enfant illégitime : Timothée est un vrai fils dans la foi, qui porte fidèlement l’héritage de l’Évangile. Aux Corinthiens, Paul écrit : « quand vous auriez dix mille maîtres en Christ, vous n’avez cependant pas plusieurs pères » (1 Corinthiens 4.15). Le maître (paidagōgos) surveillait et instruisait les enfants ; le père les engendre, les aime et les forme.",
+      "Cette paternité n’est pas une domination. Paul n’exige pas d’être appelé « père » ; il décrit une relation. Dans 1 Thessaloniciens 2, il se compare à la fois à une nourrice qui prend soin de ses enfants (verset 7) et à un père qui exhorte, console et conjure chacun de marcher d’une manière digne de Dieu (versets 11-12). La formation biblique des leaders associe la tendresse et l’exigence, l’affection et la vérité.",
+      "Il faut aussi remarquer que cette paternité spirituelle a une fin, ou plutôt un accomplissement : le fils devient à son tour un père. Paul ne cherche pas à garder Timothée dépendant de lui. Dans sa dernière lettre, il lui confie la responsabilité de transmettre à d’autres (2 Timothée 2.2) et d’accomplir pleinement son propre ministère (2 Timothée 4.5). Une relation de formation qui maintient indéfiniment le disciple dans l’immaturité, qui l’empêche de penser par lui-même ou de servir ailleurs, n’est plus une paternité selon l’Évangile, mais une forme de contrôle. Le but du formateur est que son disciple n’ait plus besoin de lui pour marcher avec Christ."
+     ]
+    },
+    {
+     "titre": "2 Timothée 1.5-7 : la foi transmise et le don ranimé",
+     "paragraphes": [
+      "Paul évoque « la foi sincère qui est en toi, qui habita d’abord dans ton aïeule Loïs et dans ta mère Eunice » (2 Timothée 1.5). Le mot « sincère » (anypokritos) signifie « sans hypocrisie, sans masque ». La foi de ces femmes n’était pas une façade religieuse ; elle était réelle, et c’est cette réalité qui a marqué l’enfant. Paul ne mentionne pas le père grec : dans un foyer où le père ne partageait sans doute pas la foi, une grand-mère et une mère ont été les premiers formateurs d’un futur leader de l’Église.",
+      "Puis Paul exhorte : « je t’exhorte à ranimer le don de Dieu que tu as reçu par l’imposition de mes mains » (verset 6). Le verbe anazōpyreō signifie « raviver un feu », souffler sur les braises pour que la flamme reprenne. Le don n’avait pas disparu, mais il risquait de s’éteindre sous l’effet de la peur, de l’opposition ou de la fatigue. D’où la raison donnée au verset 7 : « ce n’est pas un esprit de timidité que Dieu nous a donné, mais un esprit de force, d’amour et de sagesse. » Le mot deilia désigne la lâcheté, la crainte qui paralyse. Le formateur sait discerner les peurs de son disciple et l’aide à les dépasser par la grâce de Dieu."
+     ]
+    },
+    {
+     "titre": "Juges 2.10 : le drame de la génération oubliée",
+     "paragraphes": [
+      "Le livre des Juges commence par un constat terrible. Josué et les anciens qui avaient vu les grandes œuvres de l’Éternel sont morts. « Toute cette génération fut recueillie auprès de ses pères, et il s’éleva après elle une autre génération, qui ne connaissait point l’Éternel, ni ce qu’il avait fait en faveur d’Israël » (Juges 2.10). En une seule génération, la foi d’un peuple peut s’effacer. Ce n’est pas que les jeunes aient refusé la foi après l’avoir reçue ; c’est qu’on ne la leur a pas transmise.",
+      "Pourtant, Dieu avait ordonné cette transmission : « Tu les inculqueras à tes enfants, et tu en parleras quand tu seras dans ta maison, quand tu iras en voyage, quand tu te coucheras et quand tu te lèveras » (Deutéronome 6.7). Le Psaume 78 décrit une chaîne de quatre générations : les pères enseignent leurs enfants, afin que les enfants qui naîtront, devenus grands, en parlent à leurs propres enfants (Psaume 78.5-6). Moïse avait formé Josué. Mais rien n’indique que Josué ait formé un successeur. Le livre des Juges montre le prix de cette rupture. Paul, lui, veille à ce que la chaîne continue : Paul, Timothée, des hommes fidèles, d’autres encore (2 Timothée 2.2)."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "enfant légitime",
+     "langue": "grec",
+     "original": "gnēsion teknon",
+     "sens": "Enfant authentique, né d’une union reconnue ; Timothée est un vrai fils dans la foi (1 Timothée 1.2)."
+    },
+    {
+     "mot": "sincère",
+     "langue": "grec",
+     "original": "anypokritos",
+     "sens": "Sans hypocrisie, sans masque : la foi réelle de Loïs, d’Eunice et de Timothée (2 Timothée 1.5)."
+    },
+    {
+     "mot": "ranimer",
+     "langue": "grec",
+     "original": "anazōpyreō",
+     "sens": "Raviver un feu, souffler sur les braises : le don de Dieu doit être entretenu (2 Timothée 1.6)."
+    },
+    {
+     "mot": "timidité",
+     "langue": "grec",
+     "original": "deilia",
+     "sens": "Crainte qui paralyse, lâcheté ; Dieu nous donne au contraire un esprit de force, d’amour et de sagesse (2 Timothée 1.7)."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Choisir qui former",
+     "paragraphes": [
+      "Paul ne forme pas n’importe qui de la même manière. Il choisit Timothée parce que les frères « rendaient de lui un bon témoignage ». Le premier critère n’est ni l’éloquence, ni le charisme, ni la position sociale, mais la fidélité reconnue par la communauté. C’est le même critère que dans 2 Timothée 2.2 : confier l’enseignement à des « hommes fidèles, qui soient capables de l’enseigner aussi à d’autres ». Un leader sage observe les personnes qui servent sans bruit, qui tiennent leurs engagements, qui ont faim d’apprendre et qui ont déjà de l’influence sur quelques autres.",
+      "Paul ne se laisse pas arrêter par les limites apparentes de Timothée : sa jeunesse, son origine mixte, son tempérament réservé, sa santé fragile. Beaucoup de leaders écartent des jeunes prometteurs parce qu’ils ne correspondent pas à leur image du responsable idéal. Dieu choisit souvent ceux que les hommes auraient négligés. Le formateur doit voir ce que Dieu peut faire d’une personne, et pas seulement ce qu’elle est aujourd’hui."
+     ]
+    },
+    {
+     "titre": "Former par la vie, pas seulement par des cours",
+     "paragraphes": [
+      "Paul peut écrire à Timothée : « tu as suivi de près mon enseignement, ma conduite, mes résolutions, ma foi, ma douceur, ma charité, ma constance, mes persécutions, mes souffrances » (2 Timothée 3.10-11). L’enseignement arrive en premier, mais la liste continue avec la manière de vivre, les décisions, le caractère et la souffrance. Timothée a appris en regardant Paul prêcher, discuter, prier, être rejeté, être battu, être consolé, reprendre des frères, pleurer avec d’autres. Aucune formation théorique ne remplace ce compagnonnage.",
+      "Les programmes de formation, comme celui que tu suis, sont précieux : ils donnent des bases solides et une méthode. Mais ils doivent être accompagnés d’une relation vivante. Un leader qui forme d’autres leaders les associe à son ministère : il les emmène en visite, il leur fait préparer une partie de la prédication, il leur explique pourquoi il prend telle décision, il leur montre aussi ses échecs. « Soyez mes imitateurs », écrivait Paul aux Corinthiens, et c’est pourquoi il leur envoyait Timothée, pour leur rappeler « quelles sont mes voies en Christ » (1 Corinthiens 4.16-17)."
+     ]
+    },
+    {
+     "titre": "Envoyer, encourager, protéger",
+     "paragraphes": [
+      "Paul ne garde pas Timothée dans son ombre. Il l’envoie en mission, souvent dans des situations difficiles : une Église persécutée, une Église divisée, une Église troublée par de faux enseignants. Il lui confie de vraies responsabilités, avec le risque d’échouer. Mais il ne l’envoie pas sans soutien. Il le recommande publiquement : « il travaille comme moi à l’œuvre du Seigneur. Que personne donc ne le méprise » (1 Corinthiens 16.10-11). Il lui écrit, il prie pour lui « nuit et jour » (2 Timothée 1.3), il lui rappelle les prophéties faites à son sujet pour qu’il combatte le bon combat (1 Timothée 1.18).",
+      "Un leader qui forme d’autres leaders doit accepter de leur laisser de la place, même s’ils feront les choses moins bien que lui au début. Il doit aussi les protéger contre le mépris de ceux qui n’acceptent pas un jeune responsable, et contre leurs propres découragements. Paul dit à Timothée de ne pas laisser mépriser sa jeunesse, mais il lui donne en même temps le moyen d’y parvenir : être un modèle en parole, en conduite, en charité, en foi et en pureté. L’autorité du jeune leader viendra de sa vie, non de son âge."
+     ]
+    },
+    {
+     "titre": "Une Église où les générations se transmettent la foi",
+     "paragraphes": [
+      "La formation de Timothée commence bien avant Paul, dans une maison où une grand-mère et une mère lisent les Écritures à un enfant. Elle continue avec Paul, puis Timothée lui-même doit former d’autres hommes fidèles. Une Église en bonne santé est une Église où ces passages de relais se produisent à tous les niveaux : parents et enfants, anciens et jeunes, responsables et futurs responsables. Paul demande aussi aux femmes âgées d’enseigner les plus jeunes (Tite 2.3-5) : la transmission n’est pas réservée aux pasteurs.",
+      "Beaucoup d’Églises connaissent aujourd’hui une fracture entre générations : les jeunes trouvent les anciens rigides et éloignés de leur réalité, les anciens trouvent les jeunes superficiels et irrespectueux. Le leader a la responsabilité de bâtir des ponts : créer des occasions où anciens et jeunes servent ensemble, écouter les questions de la jeunesse sans les mépriser, transmettre les convictions essentielles en acceptant que les formes changent. La question n’est pas de savoir si la génération suivante fera les choses comme nous, mais si elle connaîtra l’Éternel et ce qu’il a fait."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Actes 16.1-2",
+     "texte": "Il se rendit ensuite à Derbe et à Lystre. Et voici, il y avait là un disciple nommé Timothée, fils d’une femme juive fidèle et d’un père grec. Les frères de Lystre et d’Icone rendaient de lui un bon témoignage."
+    },
+    {
+     "ref": "2 Timothée 1.5-7",
+     "texte": "gardant le souvenir de la foi sincère qui est en toi, qui habita d’abord dans ton aïeule Loïs et dans ta mère Eunice, et qui, j’en suis persuadé, habite aussi en toi. C’est pourquoi je t’exhorte à ranimer le don de Dieu que tu as reçu par l’imposition de mes mains. Car ce n’est pas un esprit de timidité que Dieu nous a donné, mais un esprit de force, d’amour et de sagesse."
+    },
+    {
+     "ref": "Philippiens 2.20-22",
+     "texte": "Car je n’ai personne ici qui partage mes sentiments, pour prendre sincèrement à cœur votre situation; tous, en effet, cherchent leurs propres intérêts, et non ceux de Jésus-Christ. Vous savez qu’il a été mis à l’épreuve, en se consacrant au service de l’Évangile avec moi, comme un enfant avec son père."
+    },
+    {
+     "ref": "1 Timothée 4.12",
+     "texte": "Que personne ne méprise ta jeunesse; mais sois un modèle pour les fidèles, en parole, en conduite, en charité, en foi, en pureté."
+    },
+    {
+     "ref": "Juges 2.10",
+     "texte": "Toute cette génération fut recueillie auprès de ses pères, et il s’éleva après elle une autre génération, qui ne connaissait point l’Éternel, ni ce qu’il avait fait en faveur d’Israël."
+    }
+   ],
+   "application": [
+    {
+     "titre": "Identifier ton Timothée",
+     "paragraphes": [
+      "Fais la liste de trois personnes plus jeunes dans la foi qui ont un bon témoignage, une soif d’apprendre et déjà un peu d’influence. Prie pendant deux semaines pour discerner avec laquelle commencer. Puis propose-lui une relation simple et définie : se rencontrer toutes les deux semaines pendant six mois pour lire la Bible, prier, parler de sa vie et de son service. N’oublie pas que le choix ne dépend ni de l’apparence, ni du statut social, ni de l’éloquence, mais de la fidélité."
+     ]
+    },
+    {
+     "titre": "Associer à ton ministère",
+     "paragraphes": [
+      "Ne garde pas pour toi seul les tâches importantes. Emmène ton disciple lors d’une visite pastorale, d’une rencontre de médiation ou d’une préparation de prédication. Après chaque activité, prends dix minutes pour en parler : qu’as-tu observé ? Qu’aurais-tu fait autrement ? Puis confie-lui progressivement des responsabilités réelles, avec un temps de bilan. C’est ainsi que Paul a formé Timothée : en le faisant voyager avec lui avant de l’envoyer seul."
+     ]
+    },
+    {
+     "titre": "Prendre soin de la personne entière",
+     "paragraphes": [
+      "Paul se préoccupait de l’estomac de Timothée autant que de sa doctrine. Interroge ton disciple sur sa santé, sa famille, son travail, ses finances, ses peurs. Beaucoup de jeunes leaders s’épuisent ou abandonnent parce que personne ne s’intéressait à autre chose qu’à leur service. Sois attentif aux signes de découragement et rappelle-lui, comme Paul, que Dieu ne nous a pas donné un esprit de timidité, mais un esprit de force, d’amour et de sagesse."
+     ]
+    },
+    {
+     "titre": "Dans ta famille",
+     "paragraphes": [
+      "Loïs et Eunice n’ont jamais prêché devant une foule, mais elles ont formé Timothée. Si tu es parent ou grand-parent, tu es le premier formateur de la génération suivante. Lis la Bible avec tes enfants ou petits-enfants, prie avec eux, raconte-leur ce que Dieu a fait dans ta vie, laisse-les poser leurs questions. Si ton conjoint ne partage pas ta foi, ne te décourage pas : la foi sincère d’une mère et d’une grand-mère a suffi à préparer un serviteur de Dieu."
+     ]
+    },
+    {
+     "titre": "Bâtir des ponts entre générations dans l’Église",
+     "paragraphes": [
+      "Propose à ton Église des initiatives intergénérationnelles : des binômes entre un ancien et un jeune pour prier ensemble pendant une année, des témoignages d’anciens racontant ce que Dieu a fait dans l’histoire de l’assemblée, des jeunes qui aident les aînés à utiliser les outils numériques, des équipes de service mixtes. Une génération qui raconte et une génération qui écoute, puis qui raconte à son tour : c’est le Psaume 78 en action."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Pasteur Jérémie, cinquante-huit ans, conduit depuis vingt ans une Église qu’il a vu grandir. Il a toujours tout fait lui-même : prédication, conseil, administration. Les jeunes de l’Église sont nombreux, mais beaucoup partent vers d’autres assemblées après leurs études. Parmi eux, Grâce, vingt-quatre ans, est appréciée pour sa fidélité et anime avec succès un groupe d’étudiants ; mais certains anciens disent qu’« une jeune femme ne peut pas avoir autorité sur des hommes plus âgés » et d’autres jugent sa manière de chanter et de s’habiller trop moderne. Un autre jeune, Kevin, très doué pour parler, réclame une place sur l’estrade, mais son témoignage au travail est mauvais. Pasteur Jérémie se demande qui former et comment.",
+    "questions": [
+     "Quels critères, tirés du choix de Timothée et de 2 Timothée 2.2, devraient guider le pasteur Jérémie ?",
+     "Comment pourrait-il former Grâce et Kevin différemment, selon leur situation et leur caractère ?",
+     "Comment peut-il protéger un jeune responsable contre le mépris (1 Timothée 4.12 ; 1 Corinthiens 16.10-11) tout en restant attentif aux remarques légitimes des anciens ? Sur la question du ministère des femmes, comment présenter avec respect les positions que les évangéliques défendent ?",
+     "Quelles mesures concrètes l’Église peut-elle prendre pour éviter le drame de Juges 2.10 ?"
+    ]
+   },
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Timothée était fils d’une femme juive croyante et d’un père grec.",
+      "vrai": true,
+      "explication": "Actes 16.1."
+     },
+     {
+      "affirmation": "Paul choisit Timothée parce qu’il était le plus éloquent des jeunes de Lystre.",
+      "vrai": false,
+      "explication": "Paul le choisit parce que les frères de Lystre et d’Icone rendaient de lui un bon témoignage (Actes 16.2)."
+     },
+     {
+      "affirmation": "Selon 2 Timothée 1.5, la foi sincère de Timothée habita d’abord dans sa grand-mère Loïs et sa mère Eunice.",
+      "vrai": true,
+      "explication": "2 Timothée 1.5."
+     },
+     {
+      "affirmation": "Dieu nous a donné un esprit de timidité pour que nous restions humbles.",
+      "vrai": false,
+      "explication": "« Ce n’est pas un esprit de timidité que Dieu nous a donné, mais un esprit de force, d’amour et de sagesse » (2 Timothée 1.7)."
+     },
+     {
+      "affirmation": "Paul écrit qu’il n’a personne d’autre qui partage ses sentiments comme Timothée.",
+      "vrai": true,
+      "explication": "Philippiens 2.20."
+     },
+     {
+      "affirmation": "Selon Juges 2.10, la génération qui suivit Josué connaissait parfaitement l’Éternel et ses œuvres.",
+      "vrai": false,
+      "explication": "« Il s’éleva après elle une autre génération, qui ne connaissait point l’Éternel, ni ce qu’il avait fait en faveur d’Israël » (Juges 2.10)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque pratique de formation.",
+     "categories": [
+      "Formation à la manière de Paul",
+      "Erreur dans la formation des leaders"
+     ],
+     "elements": [
+      {
+       "texte": "Choisir un jeune parce que les frères rendent de lui un bon témoignage.",
+       "categorie": 0,
+       "explication": "Actes 16.2."
+      },
+      {
+       "texte": "Mettre sur l’estrade un jeune doué mais au témoignage douteux.",
+       "categorie": 1,
+       "explication": "L’évêque ne doit pas être un nouveau converti et doit avoir un bon témoignage (1 Timothée 3.6-7)."
+      },
+      {
+       "texte": "Emmener son disciple en visite pastorale puis en parler ensemble.",
+       "categorie": 0,
+       "explication": "Timothée a « suivi de près » la vie de Paul (2 Timothée 3.10)."
+      },
+      {
+       "texte": "Garder toutes les responsabilités pour éviter que le jeune ne commette d’erreurs.",
+       "categorie": 1,
+       "explication": "Paul envoie Timothée en mission (1 Thessaloniciens 3.2 ; 1 Corinthiens 4.17)."
+      },
+      {
+       "texte": "S’intéresser à la santé et à la famille de son disciple.",
+       "categorie": 0,
+       "explication": "1 Timothée 5.23."
+      },
+      {
+       "texte": "Laisser l’assemblée mépriser un jeune responsable sans intervenir.",
+       "categorie": 1,
+       "explication": "« Que personne donc ne le méprise » (1 Corinthiens 16.11)."
+      },
+      {
+       "texte": "Écrire et prier régulièrement pour celui qu’on a envoyé.",
+       "categorie": 0,
+       "explication": "2 Timothée 1.3."
+      },
+      {
+       "texte": "Ne transmettre la foi qu’à l’Église, en négligeant ses propres enfants.",
+       "categorie": 1,
+       "explication": "Deutéronome 6.7 ; 1 Timothée 3.4-5."
+      }
+     ]
+    }
+   },
+   "reflexion": [
+    "Qui a été pour moi un Paul, une Loïs ou une Eunice ? Les ai-je remerciés ?",
+    "Qui est, ou pourrait devenir, mon Timothée ? Qu’est-ce qui me retient de commencer ?",
+    "Est-ce que je laisse vraiment de la place aux plus jeunes, ou est-ce que je garde tout pour moi ?",
+    "Si je disparaissais demain, qui pourrait continuer l’œuvre que Dieu m’a confiée ?"
+   ],
+   "retenir": [
+    "Paul choisit Timothée sur la base d’un bon témoignage, malgré sa jeunesse, son origine mixte et son tempérament réservé (Actes 16.1-2).",
+    "La foi sincère de Loïs et d’Eunice a préparé Timothée : la famille est le premier lieu de formation (2 Timothée 1.5 ; 3.15).",
+    "Paul forme par le compagnonnage, l’exemple, les missions confiées, l’encouragement et le soin de la personne entière.",
+    "Sans transmission, une génération peut ne plus connaître l’Éternel (Juges 2.10) ; le leader veille à ce que la chaîne continue (2 Timothée 2.2)."
+   ],
+   "memoriser": {
+    "ref": "2 Timothée 1.7",
+    "texte": "Car ce n’est pas un esprit de timidité que Dieu nous a donné, mais un esprit de force, d’amour et de sagesse."
+   },
+   "priere": "Seigneur, merci pour ceux qui m’ont transmis la foi. Donne-moi des yeux pour voir les Timothée que tu places sur mon chemin, un cœur de père ou de mère pour les former, et l’humilité de leur laisser la place. Que la génération qui vient te connaisse et raconte tes œuvres. Amen."
   }
  ],
  "pratique": {
@@ -1119,6 +1410,116 @@
    ],
    "bonne": 2,
    "explication": "Comme Moïse avec Josué et Paul avec Timothée (2 Timothée 2.2), le leader forme des personnes fidèles et leur confie une responsabilité réelle avec accompagnement."
+  },
+  {
+   "q": "Selon Actes 16.1-2, qui était Timothée lorsque Paul le rencontra à Lystre ?",
+   "choix": [
+    "Un prêtre juif converti",
+    "Un disciple, fils d’une femme juive fidèle et d’un père grec, dont les frères rendaient un bon témoignage",
+    "Un ancien de l’Église de Jérusalem",
+    "Un philosophe grec d’Athènes"
+   ],
+   "bonne": 1,
+   "explication": "« Il y avait là un disciple nommé Timothée, fils d’une femme juive fidèle et d’un père grec. Les frères de Lystre et d’Icone rendaient de lui un bon témoignage » (Actes 16.1-2)."
+  },
+  {
+   "q": "Selon 2 Timothée 1.5, dans qui la foi sincère de Timothée habita-t-elle d’abord ?",
+   "choix": [
+    "Dans Paul et Barnabas",
+    "Dans son père et son oncle",
+    "Dans son aïeule Loïs et sa mère Eunice",
+    "Dans Priscille et Aquilas"
+   ],
+   "bonne": 2,
+   "explication": "« La foi sincère qui est en toi, qui habita d’abord dans ton aïeule Loïs et dans ta mère Eunice » (2 Timothée 1.5)."
+  },
+  {
+   "q": "Que signifie le verbe grec anazōpyreō, traduit par « ranimer » en 2 Timothée 1.6 ?",
+   "choix": [
+    "Raviver un feu en soufflant sur les braises",
+    "Recevoir un nouveau don",
+    "Abandonner un ministère",
+    "Imposer les mains"
+   ],
+   "bonne": 0,
+   "explication": "Anazōpyreō signifie raviver un feu : le don de Dieu, toujours présent, doit être entretenu."
+  },
+  {
+   "q": "Selon 2 Timothée 1.7, quel esprit Dieu nous a-t-il donné ?",
+   "choix": [
+    "Un esprit de crainte et de prudence",
+    "Un esprit de domination",
+    "Un esprit de timidité",
+    "Un esprit de force, d’amour et de sagesse"
+   ],
+   "bonne": 3,
+   "explication": "« Ce n’est pas un esprit de timidité que Dieu nous a donné, mais un esprit de force, d’amour et de sagesse » (2 Timothée 1.7)."
+  },
+  {
+   "q": "Comment Paul décrit-il le service de Timothée en Philippiens 2.22 ?",
+   "choix": [
+    "Comme celui d’un esclave sous un maître sévère",
+    "Comme celui d’un enfant avec son père, au service de l’Évangile",
+    "Comme celui d’un rival",
+    "Comme celui d’un simple messager"
+   ],
+   "bonne": 1,
+   "explication": "« Il a été mis à l’épreuve, en se consacrant au service de l’Évangile avec moi, comme un enfant avec son père » (Philippiens 2.22)."
+  },
+  {
+   "q": "Selon 1 Timothée 4.12, comment Timothée doit-il répondre à ceux qui pourraient mépriser sa jeunesse ?",
+   "choix": [
+    "En affirmant son autorité apostolique",
+    "En attendant d’être plus âgé",
+    "En étant un modèle pour les fidèles en parole, en conduite, en charité, en foi, en pureté",
+    "En évitant de parler aux anciens"
+   ],
+   "bonne": 2,
+   "explication": "« Que personne ne méprise ta jeunesse ; mais sois un modèle pour les fidèles, en parole, en conduite, en charité, en foi, en pureté » (1 Timothée 4.12)."
+  },
+  {
+   "q": "Selon Juges 2.10, quelle génération s’éleva après celle de Josué ?",
+   "choix": [
+    "Une génération qui ne connaissait point l’Éternel, ni ce qu’il avait fait pour Israël",
+    "Une génération plus fidèle encore",
+    "Une génération de prophètes",
+    "Une génération qui retourna en Égypte"
+   ],
+   "bonne": 0,
+   "explication": "« Il s’éleva après elle une autre génération, qui ne connaissait point l’Éternel, ni ce qu’il avait fait en faveur d’Israël » (Juges 2.10)."
+  },
+  {
+   "q": "Selon 1 Corinthiens 4.15, quelle différence Paul fait-il entre maîtres et pères en Christ ?",
+   "choix": [
+    "Les maîtres sont plus importants que les pères",
+    "Il n’y a aucune différence",
+    "Les pères doivent être payés",
+    "On peut avoir dix mille maîtres, mais pas plusieurs pères"
+   ],
+   "bonne": 3,
+   "explication": "« Quand vous auriez dix mille maîtres en Christ, vous n’avez cependant pas plusieurs pères » (1 Corinthiens 4.15)."
+  },
+  {
+   "q": "Un leader veut former un jeune très doué pour parler, mais dont le comportement au travail est malhonnête. Selon la leçon, que doit-il faire en priorité ?",
+   "choix": [
+    "Le mettre immédiatement sur l’estrade pour l’encourager",
+    "L’accompagner dans son caractère et son témoignage avant de lui confier une responsabilité publique",
+    "L’exclure définitivement",
+    "Ignorer son comportement, car seul le don compte"
+   ],
+   "bonne": 1,
+   "explication": "Paul choisit Timothée sur la base d’un bon témoignage (Actes 16.2) ; le responsable ne doit pas être nommé trop vite (1 Timothée 3.6-7 ; 5.22)."
+  },
+  {
+   "q": "Selon Exode 18.17-18, pourquoi Jéthro dit-il à Moïse que sa manière de faire n’est pas bonne ?",
+   "choix": [
+    "Parce que Moïse jugeait mal",
+    "Parce que le peuple ne l’aimait pas",
+    "Parce que Moïse s’épuiserait, et le peuple aussi : la tâche était au-dessus de ses forces",
+    "Parce que Moïse devait retourner en Madian"
+   ],
+   "bonne": 2,
+   "explication": "« Ce que tu fais n’est pas bien. Tu t’épuiseras toi-même, et tu épuiseras ce peuple qui est avec toi ; car la chose est au-dessus de tes forces » (Exode 18.17-18)."
   }
  ]
 }

@@ -90,7 +90,7 @@ create table if not exists public.cles_examen (
 );
 alter table public.cles_examen add column if not exists explication text;
 
--- Tests de passage (80 questions tirées au hasard dans un niveau)
+-- Tests de passage (80, 120 ou 150 questions tirées au hasard dans un niveau)
 create table if not exists public.tests_passage (
   id         uuid primary key default gen_random_uuid(),
   user_id    uuid not null references auth.users on delete cascade,
@@ -107,7 +107,7 @@ create table if not exists public.tests_passage (
 -- compte = false : essai effacé par un enseignant (le test reste dans l'historique mais ne bloque plus)
 alter table public.tests_passage add column if not exists compte boolean not null default true;
 
--- Examen de module en cours : heure de début, pour le chrono de 15 minutes (contrôlé par le serveur)
+-- Examen de module en cours : heure de début, pour le chrono de 15 ou 20 minutes (contrôlé par le serveur)
 create table if not exists public.examens_en_cours (
   user_id   uuid not null references auth.users on delete cascade,
   module_id text not null,
@@ -144,7 +144,33 @@ language sql stable security definer set search_path = public as $$
   select exists (select 1 from public.modules where id = p_module);
 $$;
 
--- Un niveau est ouvert si c'est le premier, si tous les modules du niveau précédent sont validés (16/20 ou attestation),
+-- Exigences par niveau (version 9) : note minimale, nombre de questions et durée du test de passage.
+-- Niveaux 1 et 2 : 16/20, test de 80 questions en 25 minutes.
+-- Niveau 3 (Serviteur) : 17/20, test de 120 questions en 37 minutes.
+-- Niveau 4 (Leader) : 18/20, test de 150 questions en 45 minutes.
+create or replace function public.seuil(p_niveau int) returns numeric
+language sql immutable as $$
+  select (case p_niveau when 3 then 0.85 when 4 then 0.9 else 0.8 end)::numeric;
+$$;
+create or replace function public.seuil_module(p_module text) returns numeric
+language sql stable security definer set search_path = public as $$
+  select coalesce((select public.seuil(niveau) from public.modules where id = p_module), 0.8);
+$$;
+create or replace function public.test_nb_questions(p_niveau int) returns int
+language sql immutable as $$
+  select case p_niveau when 3 then 120 when 4 then 150 else 80 end;
+$$;
+create or replace function public.test_duree(p_niveau int) returns int   -- en secondes
+language sql immutable as $$
+  select (case p_niveau when 3 then 37 when 4 then 45 else 25 end) * 60;
+$$;
+-- Examen d'un module : 15 minutes pour 20 questions, 20 minutes pour 30 questions (niveaux 3 et 4)
+create or replace function public.examen_duree(p_module text) returns int   -- en secondes
+language sql stable security definer set search_path = public as $$
+  select case when (select count(*) from public.cles_examen where module_id = p_module) > 20 then 20 * 60 else 15 * 60 end;
+$$;
+
+-- Un niveau est ouvert si c'est le premier, si tous les modules du niveau précédent sont validés (note minimale du niveau ou attestation),
 -- si le test de passage du niveau précédent a été réussi, ou si l'étudiant a déjà validé un module de ce niveau
 -- (cela protège les étudiants déjà avancés quand un nouveau module est ajouté à un niveau).
 create or replace function public.niveau_ouvert(p_user uuid, p_niveau int) returns boolean
@@ -154,19 +180,19 @@ language sql stable security definer set search_path = public as $$
     select 1 from public.modules m
      where m.niveau = p_niveau - 1
        and not exists (select 1 from public.progression g
-                        where g.user_id = p_user and g.module_id = m.id and (g.meilleur >= 0.8 or g.cert_no is not null)))
+                        where g.user_id = p_user and g.module_id = m.id and (g.meilleur >= public.seuil(m.niveau) or g.cert_no is not null)))
     or exists (select 1 from public.tests_passage t where t.user_id = p_user and t.niveau = p_niveau - 1 and t.reussi)
     or exists (select 1 from public.progression g join public.modules m on m.id = g.module_id
-                where g.user_id = p_user and m.niveau = p_niveau and (g.meilleur >= 0.8 or g.cert_no is not null));
+                where g.user_id = p_user and m.niveau = p_niveau and (g.meilleur >= public.seuil(m.niveau) or g.cert_no is not null));
 $$;
 
--- Un module est ouvert si c'est le premier, ou si le module précédent (dans l'ordre global) est validé (16/20 ou attestation)
+-- Un module est ouvert si c'est le premier, ou si le module précédent (dans l'ordre global) est validé (note minimale de son niveau ou attestation)
 create or replace function public.module_ouvert(p_user uuid, p_module text) returns boolean
 language sql stable security definer set search_path = public as $$
   select coalesce((
     select m.ordre = 1 or exists (
       select 1 from public.modules prec
-        join public.progression g on g.module_id = prec.id and g.user_id = p_user and (g.meilleur >= 0.8 or g.cert_no is not null)
+        join public.progression g on g.module_id = prec.id and g.user_id = p_user and (g.meilleur >= public.seuil(prec.niveau) or g.cert_no is not null)
        where prec.ordre = m.ordre - 1)
       from public.modules m where m.id = p_module), false);
 $$;
@@ -262,9 +288,9 @@ begin
         maj = now();
 end $$;
 
--- Corrige l'examen d'un module (20 questions). p_reponses = {"0": "texte choisi", …}
--- Les bonnes réponses et explications ne sont renvoyées que si l'examen est réussi (16/20).
--- Démarre (ou recommence depuis le début) l'examen d'un module : 15 minutes à partir de maintenant.
+-- Corrige l'examen d'un module (20 ou 30 questions). p_reponses = {"0": "texte choisi", …}
+-- Les bonnes réponses et explications ne sont renvoyées que si l'examen est réussi (note minimale du niveau).
+-- Démarre (ou recommence depuis le début) l'examen d'un module : 15 minutes (20 minutes pour 30 questions) à partir de maintenant.
 create or replace function public.demarrer_examen(p_module text) returns jsonb
 language plpgsql security definer set search_path = public as $$
 begin
@@ -277,13 +303,14 @@ begin
   end if;
   insert into public.examens_en_cours (user_id, module_id, debut) values (auth.uid(), p_module, now())
   on conflict (user_id, module_id) do update set debut = now();
-  return jsonb_build_object('duree', 15 * 60);
+  return jsonb_build_object('duree', public.examen_duree(p_module), 'seuil', public.seuil_module(p_module));
 end $$;
 
 create or replace function public.soumettre_examen(p_module text, p_reponses jsonb) returns jsonb
 language plpgsql security definer set search_path = public as $$
 declare
   v_total int; v_ok int; v_score numeric; v_justes jsonb; v_bonnes jsonb; v_expl jsonb; v_debut timestamptz; v_retour boolean := false;
+  v_seuil numeric := public.seuil_module(p_module); v_duree int := public.examen_duree(p_module);
 begin
   if auth.uid() is null then raise exception 'Connexion requise'; end if;
   if not public.module_ouvert(auth.uid(), p_module) then raise exception 'Module verrouillé : terminez d''abord le module précédent'; end if;
@@ -300,11 +327,11 @@ begin
     into v_total, v_ok, v_justes, v_bonnes, v_expl
     from public.cles_examen where module_id = p_module;
   if v_total = 0 then raise exception 'Module inconnu'; end if;
-  -- Chrono : 15 minutes (plus 90 secondes de marge pour l'envoi)
+  -- Chrono : 15 ou 20 minutes (plus 90 secondes de marge pour l'envoi)
   select debut into v_debut from public.examens_en_cours where user_id = auth.uid() and module_id = p_module for update;
   if v_debut is null then raise exception 'Examen non démarré : recommencez l''examen.'; end if;
   delete from public.examens_en_cours where user_id = auth.uid() and module_id = p_module;
-  if now() - v_debut > interval '16 minutes 30 seconds' then raise exception 'Temps écoulé : les 15 minutes sont dépassées. Recommencez l''examen.'; end if;
+  if now() - v_debut > make_interval(secs => v_duree + 90) then raise exception 'Temps écoulé : les % minutes sont dépassées. Recommencez l''examen.', v_duree / 60; end if;
   v_score := round(v_ok::numeric / v_total, 4);
   insert into public.progression (user_id, module_id, tentatives, meilleur, dernier, date_examen)
   values (auth.uid(), p_module, 1, v_score, v_score, now())
@@ -312,15 +339,15 @@ begin
     set tentatives = progression.tentatives + 1,
         meilleur = greatest(progression.meilleur, excluded.meilleur),
         dernier = excluded.dernier, date_examen = now(), maj = now();
-  -- Copie complète en dessous de 16/20 (et module jamais réussi) : retour obligatoire au cours.
+  -- Copie en dessous de la note minimale (et module jamais réussi) : retour obligatoire au cours.
   -- Les leçons sont à refaire avant un nouvel examen, sauf si un enseignant autorise l'examen.
-  if v_score < 0.8 and (select meilleur from public.progression where user_id = auth.uid() and module_id = p_module) < 0.8 then
+  if v_score < v_seuil and (select meilleur from public.progression where user_id = auth.uid() and module_id = p_module) < v_seuil then
     update public.progression set lecons = '{}', etapes = '{}', maj = now() where user_id = auth.uid() and module_id = p_module;
     v_retour := true;
   end if;
-  return jsonb_build_object('score', v_ok, 'total', v_total, 'note20', round(v_score * 20, 1), 'justes', v_justes, 'retour_cours', v_retour,
-                            'bonnes', case when v_score >= 0.8 then v_bonnes end,
-                            'explications', case when v_score >= 0.8 then v_expl end);
+  return jsonb_build_object('score', v_ok, 'total', v_total, 'note20', round(v_score * 20, 1), 'justes', v_justes, 'retour_cours', v_retour, 'seuil', v_seuil,
+                            'bonnes', case when v_score >= v_seuil then v_bonnes end,
+                            'explications', case when v_score >= v_seuil then v_expl end);
 end $$;
 
 create or replace function public.delivrer_attestation(p_module text) returns text
@@ -338,7 +365,7 @@ begin
      or not exists (select 1 from public.photos where user_id = auth.uid()) then
     raise exception 'Complétez votre fiche d''identité (nom de l''acte de naissance, date de naissance et photo) avant l''attestation';
   end if;
-  if r.meilleur < 0.8 then raise exception 'Examen non réussi : il faut au moins 16/20'; end if;
+  if r.meilleur < public.seuil_module(p_module) then raise exception 'Examen non réussi : il faut au moins %/20', round(public.seuil_module(p_module) * 20); end if;
   if length(trim(r.pratique)) < 80 then raise exception 'Témoignage de foi agissante manquant'; end if;
   if r.pratique_statut = 'a_revoir' then raise exception 'Votre enseignant vous demande de revoir votre témoignage avant l''attestation'; end if;
   if coalesce((select valeur = 'true'::jsonb from public.reglages where cle = 'validation_temoignage_obligatoire'), false)
@@ -351,7 +378,8 @@ begin
   return v_no;
 end $$;
 
--- Démarre un test de passage : 80 questions tirées au hasard parmi celles du niveau.
+-- Démarre un test de passage : questions tirées au hasard parmi celles du niveau
+-- (80 en 25 minutes aux niveaux 1 et 2, 120 en 37 minutes au niveau 3, 150 en 45 minutes au niveau 4).
 -- Au plus 3 tests par niveau et par 24 heures.
 create or replace function public.demarrer_test(p_niveau int) returns jsonb
 language plpgsql security definer set search_path = public as $$
@@ -366,11 +394,11 @@ begin
   end if;
   -- Test commencé puis interrompu (page rechargée, réseau…) : on le reprend depuis le début, sans compter un essai de plus
   select id, questions into v_id, v_q from public.tests_passage
-   where user_id = auth.uid() and niveau = p_niveau and compte and fin is null and debut > now() - interval '26 minutes 30 seconds'
+   where user_id = auth.uid() and niveau = p_niveau and compte and fin is null and debut > now() - make_interval(secs => public.test_duree(p_niveau) + 90)
    order by debut desc limit 1;
   if v_id is not null then
     update public.tests_passage set debut = now() where id = v_id;
-    return jsonb_build_object('id', v_id, 'questions', v_q, 'duree', 25 * 60);
+    return jsonb_build_object('id', v_id, 'questions', v_q, 'duree', public.test_duree(p_niveau), 'seuil', public.seuil(p_niveau));
   end if;
   -- Seuls les tests terminés et corrigés comptent comme essais
   if (select count(*) from public.tests_passage where user_id = auth.uid() and niveau = p_niveau and compte and fin is not null and debut > now() - interval '24 hours') >= 3 then
@@ -378,24 +406,25 @@ begin
   end if;
   select jsonb_agg(jsonb_build_object('m', module_id, 'q', question)) into v_q from (
     select c.module_id, c.question from public.cles_examen c join public.modules m on m.id = c.module_id
-     where m.niveau = p_niveau order by random() limit 80) t;
+     where m.niveau = p_niveau order by random() limit public.test_nb_questions(p_niveau)) t;
   insert into public.tests_passage (user_id, niveau, questions) values (auth.uid(), p_niveau, v_q) returning id into v_id;
-  return jsonb_build_object('id', v_id, 'questions', v_q, 'duree', 25 * 60);
+  return jsonb_build_object('id', v_id, 'questions', v_q, 'duree', public.test_duree(p_niveau), 'seuil', public.seuil(p_niveau));
 end $$;
 
 -- L'étudiant a quitté l'écran (appel, autre application) : le test recommence depuis le début,
--- avec les mêmes questions et un nouveau chrono de 25 minutes (sans compter un essai de plus).
+-- avec les mêmes questions et un nouveau chrono complet (sans compter un essai de plus).
 create or replace function public.recommencer_test(p_test uuid) returns jsonb
 language plpgsql security definer set search_path = public as $$
+declare v_niveau int;
 begin
   if auth.uid() is null then raise exception 'Connexion requise'; end if;
-  update public.tests_passage set debut = now() where id = p_test and user_id = auth.uid() and fin is null;
+  update public.tests_passage set debut = now() where id = p_test and user_id = auth.uid() and fin is null returning niveau into v_niveau;
   if not found then raise exception 'Test introuvable'; end if;
-  return jsonb_build_object('duree', 25 * 60);
+  return jsonb_build_object('duree', public.test_duree(v_niveau), 'seuil', public.seuil(v_niveau));
 end $$;
 
 -- Corrige un test de passage. p_reponses = {"n1m1:3": "texte choisi", …}
--- Avec au moins 16/20, toutes les attestations du niveau sont délivrées.
+-- Avec la note minimale du niveau (16, 17 ou 18/20), toutes les attestations du niveau sont délivrées.
 create or replace function public.soumettre_test(p_test uuid, p_reponses jsonb) returns jsonb
 language plpgsql security definer set search_path = public as $$
 declare t public.tests_passage; v_total int; v_ok int; v_note numeric; v_reussi boolean; v_nom text; m record;
@@ -404,14 +433,14 @@ begin
   select * into t from public.tests_passage where id = p_test and user_id = auth.uid() for update;
   if not found then raise exception 'Test introuvable'; end if;
   if t.fin is not null then raise exception 'Ce test a déjà été corrigé'; end if;
-  -- Chrono : 25 minutes (plus 90 secondes de marge pour l'envoi)
-  if now() - t.debut > interval '26 minutes 30 seconds' then raise exception 'Temps écoulé : les 25 minutes sont dépassées. Recommencez un test.'; end if;
+  -- Chrono : durée du test du niveau (plus 90 secondes de marge pour l'envoi)
+  if now() - t.debut > make_interval(secs => public.test_duree(t.niveau) + 90) then raise exception 'Temps écoulé : les % minutes sont dépassées. Recommencez un test.', public.test_duree(t.niveau) / 60; end if;
   select count(*), count(*) filter (where p_reponses->>(c.module_id || ':' || c.question) = c.reponse)
     into v_total, v_ok
     from jsonb_array_elements(t.questions) x
     join public.cles_examen c on c.module_id = x->>'m' and c.question = (x->>'q')::int;
   v_note := round(v_ok::numeric * 20 / greatest(v_total, 1), 1);
-  v_reussi := v_note >= 16;
+  v_reussi := v_note >= public.seuil(t.niveau) * 20;
   update public.tests_passage set fin = now(), bonnes = v_ok, total = v_total, note20 = v_note, reussi = v_reussi where id = p_test;
   if v_reussi then
     select nom into v_nom from public.profils where id = auth.uid();
@@ -428,7 +457,7 @@ begin
             maj = now();
     end loop;
   end if;
-  return jsonb_build_object('bonnes', v_ok, 'total', v_total, 'note20', v_note, 'reussi', v_reussi);
+  return jsonb_build_object('bonnes', v_ok, 'total', v_total, 'note20', v_note, 'reussi', v_reussi, 'seuil', public.seuil(t.niveau));
 end $$;
 
 -- Avancement dans les étapes d'une leçon (suivi par l'enseignant). On garde l'étape la plus avancée.
@@ -540,6 +569,7 @@ revoke execute on function public.marquer_lecon(text,int), public.enregistrer_pr
   public.demarrer_test(int), public.soumettre_test(uuid,jsonb), public.demarrer_examen(text), public.recommencer_test(uuid), public.autoriser_test(uuid,int), public.autoriser_examen(uuid,text),
   public.est_enseignant(), public.module_existe(text), public.module_ouvert(uuid,text), public.niveau_ouvert(uuid,int),
   public.marquer_etape(text,int,int,int), public.evaluer_temoignage(uuid,text,text,text), public.attribuer_etudiant(uuid,uuid), public.mon_suivi(), public.rattraper_attestations(),
+  public.seuil_module(text), public.examen_duree(text),
   public.creer_profil() from public, anon;
 grant execute on function public.marquer_lecon(text,int), public.enregistrer_pratique(text,text),
   public.soumettre_examen(text,jsonb), public.delivrer_attestation(text), public.demarrer_test(int),

@@ -6,7 +6,8 @@
   "Conduire une communauté chrétienne, que ce soit une église, une cellule de maison, un groupe de jeunes, une chorale ou une œuvre sociale, ne se résume pas à prêcher le dimanche. Le leader porte une direction (où allons-nous ?), il garde l’unité quand surgissent les désaccords (comment avançons-nous ensemble ?) et il gère avec fidélité ce qui lui est confié : personnes, argent, temps, biens et réputation de l’Évangile. La Bible parle de ces trois domaines avec une précision étonnante.",
   "Ce module s’appuie sur trois grands modèles bibliques. Néhémie nous montre comment une vision naît dans la prière, se vérifie par l’observation et se partage avec clarté. Le concile de Jérusalem (Actes 15) nous apprend à traverser un conflit doctrinal grave sans briser l’Église. Moïse conseillé par Jéthro (Exode 18) et Paul organisant la collecte (2 Corinthiens 8) nous enseignent une administration ordonnée, partagée et transparente.",
   "Dans beaucoup de nos communautés, les plus grandes blessures ne viennent pas de la persécution extérieure mais d’une vision floue, de conflits mal gérés ou d’argent mal administré. Combien d’églises se sont divisées pour une question de pouvoir, de caisse ou d’orgueil ? Ce module veut vous équiper pour éviter ces pièges et bâtir des communautés solides, paisibles et fécondes.",
-  "Lisez d’abord les passages obligatoires, puis étudiez chaque leçon dans l’ordre. À la fin, vous élaborerez un véritable plan d’action pour votre ministère. L’examen de 20 questions vérifiera votre compréhension des textes et votre capacité à les appliquer."
+  "Lisez d’abord les passages obligatoires, puis étudiez chaque leçon dans l’ordre. À la fin, vous élaborerez un véritable plan d’action pour votre ministère. L’examen de 20 questions vérifiera votre compréhension des textes et votre capacité à les appliquer.",
+  "La quatrième leçon aborde le cœur du ministère pastoral : prendre soin des personnes, une à une. Une communauté peut avoir une belle vision, une bonne organisation et des finances transparentes, et pourtant laisser des brebis blessées, égarées ou tombées sans que personne ne s’en occupe. À travers la lettre de Paul à Philémon au sujet d’Onésime, nous verrons comment un leader visite, reprend, discipline et surtout restaure, avec fermeté et avec tendresse."
  ],
  "lecturesObligatoires": [
   {
@@ -48,6 +49,14 @@
   {
    "ref": "Luc 14.25-33",
    "consigne": "Relevez les deux paraboles sur le calcul avant d’agir et leur sens."
+  },
+  {
+   "ref": "Philémon 1-25 et Colossiens 4.7-9",
+   "consigne": "Lis la lettre à haute voix. Note comment Paul s’adresse à Philémon, ce qu’il dit d’Onésime avant et après sa conversion, et ce qu’il propose de payer lui-même."
+  },
+  {
+   "ref": "Ézéchiel 34.1-16 ; 1 Corinthiens 5.1-13 ; 2 Corinthiens 2.5-11 ; Galates 6.1-2",
+   "consigne": "Relève ce que Dieu reproche aux mauvais bergers, puis les étapes de la discipline et de la restauration dans l’Église de Corinthe."
   }
  ],
  "lecons": [
@@ -906,6 +915,295 @@
      ]
     }
    }
+  },
+  {
+   "titre": "Prendre soin du troupeau : visite, discipline et restauration",
+   "illustration": "berger",
+   "lectures": [
+    {
+     "ref": "Philémon 8-21",
+     "resume": "Paul plaide pour Onésime, esclave fugitif devenu chrétien : il demande à Philémon de le recevoir comme un frère bien-aimé et propose de payer ses dettes."
+    },
+    {
+     "ref": "Ézéchiel 34.1-16",
+     "resume": "Dieu condamne les bergers qui se paissent eux-mêmes et négligent les brebis faibles, malades, blessées et égarées ; il promet de les chercher lui-même."
+    },
+    {
+     "ref": "1 Corinthiens 5.1-5 et 2 Corinthiens 2.5-11",
+     "resume": "Paul demande d’écarter un homme qui vit dans un péché grave sans se repentir, puis, après sa repentance, de lui pardonner, de le consoler et de lui confirmer l’amour de l’Église."
+    },
+    {
+     "ref": "Galates 6.1-2",
+     "resume": "Ceux qui sont spirituels doivent redresser avec douceur celui qui est tombé, en prenant garde à eux-mêmes, et porter les fardeaux les uns des autres."
+    }
+   ],
+   "recit": {
+    "titre": "Onésime, l’esclave fugitif devenu frère",
+    "ref": "Philémon 1-25 ; Colossiens 4.7-9",
+    "paragraphes": [
+     "À Colosses, une ville de la province d’Asie, vivait un chrétien aisé nommé Philémon. Il avait été amené à la foi par Paul, et l’Église se réunissait dans sa maison. Comme beaucoup de familles riches de son temps, il possédait des esclaves. L’un d’eux s’appelait Onésime, un nom courant qui signifie « utile ». Un jour, Onésime s’enfuit, peut-être après avoir volé quelque chose à son maître. Dans l’Empire romain, un esclave fugitif risquait de lourdes punitions s’il était repris. Il disparut, et chercha sans doute à se perdre dans la foule d’une grande ville.",
+     "Par un concours de circonstances que la lettre ne détaille pas, Onésime croisa le chemin de Paul, alors prisonnier. Là, dans les chaînes de l’apôtre, l’esclave fugitif rencontra Jésus-Christ. Paul l’appelle « mon enfant, que j’ai engendré étant dans les chaînes ». Onésime changea. Il devint un aide précieux pour Paul, qui aurait voulu le garder auprès de lui. Mais un problème restait entier : Onésime avait fui son maître et lui avait causé du tort. Une conversion authentique ne pouvait pas ignorer cette relation brisée.",
+     "Paul prit alors une décision courageuse : renvoyer Onésime à Colosses, accompagné de Tychique, avec une lettre personnelle pour Philémon. Il aurait pu user de son autorité d’apôtre : « bien que j’aie en Christ toute liberté de te prescrire ce qui est convenable, c’est de préférence au nom de la charité que je t’adresse une prière ». Il plaida avec tendresse et habileté. Il joua sur le nom d’Onésime : « qui autrefois t’a été inutile, mais qui maintenant est utile, et à toi et à moi. » Il l’appela « mes propres entrailles », c’est-à-dire une part de lui-même.",
+     "Puis Paul proposa à Philémon une nouvelle manière de voir son esclave : « Peut-être a-t-il été séparé de toi pour un temps, afin que tu le recouvres pour l’éternité, non plus comme un esclave, mais comme supérieur à un esclave, comme un frère bien-aimé. » Il ajouta : « Si donc tu me tiens pour ton ami, reçois-le comme moi-même. » Et pour lever l’obstacle des dettes, il prit lui-même la plume : « s’il t’a fait quelque tort, ou s’il te doit quelque chose, mets-le sur mon compte. Moi Paul, je l’écris de ma propre main, je paierai. » L’apôtre se portait garant pour le coupable repenti.",
+     "Imagine la scène à Colosses : l’Église réunie dans la maison de Philémon, la lettre lue à haute voix, et Onésime debout, devant son ancien maître. Paul avait adressé la lettre non seulement à Philémon, mais aussi à Apphia, à Archippe et à toute l’Église : la réconciliation se ferait sous le regard de la communauté. Paul terminait avec confiance : « sachant que tu feras même au-delà de ce que je dis. » Le Nouveau Testament ne raconte pas la suite. Mais le fait même que cette courte lettre ait été conservée et transmise aux Églises laisse penser qu’elle a porté du fruit. Et dans la lettre aux Colossiens, Paul présente Onésime comme « le fidèle et bien-aimé frère, qui est des vôtres »."
+    ],
+    "lecons": [
+     "La conversion d’Onésime ne supprime pas ses responsabilités passées : la restauration passe par le retour vers celui qu’il a lésé.",
+     "Paul exerce son autorité par l’amour et la persuasion plutôt que par l’ordre, tout en restant clair sur ce qu’il attend.",
+     "Le leader se tient entre les deux parties : il plaide pour le coupable repenti et respecte la blessure de celui qui a été lésé.",
+     "La restauration est un acte communautaire : elle se vit devant l’Église, qui accueille l’ancien fugitif comme un frère."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Le contexte de la lettre à Philémon",
+     "paragraphes": [
+      "La lettre à Philémon est la plus courte des lettres de Paul : vingt-cinq versets. Elle a été écrite pendant une captivité de Paul, probablement à Rome, et envoyée en même temps que la lettre aux Colossiens, puisque les mêmes personnes y sont mentionnées (Tychique, Onésime, Archippe, Épaphras, Marc, Luc). Paul y aborde une situation très concrète : un esclave fugitif, devenu chrétien, doit revenir chez son maître chrétien. Le droit romain donnait au maître un pouvoir presque total sur son esclave fugitif.",
+      "Paul ne publie pas ici un traité sur l’esclavage, mais il introduit dans cette relation une logique qui la transforme de l’intérieur : celle de la fraternité en Christ. Aux Galates, il avait écrit : « Il n’y a plus ni Juif ni Grec, il n’y a plus ni esclave ni libre… car tous vous êtes un en Jésus-Christ » (Galates 3.28). En demandant à Philémon de recevoir Onésime « comme un frère bien-aimé… soit dans la chair, soit dans le Seigneur », Paul sape les fondements de la relation maître-esclave. Les chrétiens des siècles suivants s’appuieront notamment sur ces principes pour combattre l’esclavage.",
+      "Il faut remarquer aussi le choix de Paul d’adresser cette lettre personnelle à toute la communauté : « à Philémon… à la sœur Apphia, à Archippe… et à l’Église qui est dans ta maison » (Philémon 1-2). La réconciliation entre un maître et son esclave n’est pas une affaire purement privée ; elle concerne l’Église qui se réunit chez Philémon. Les frères et sœurs seront témoins de la manière dont Philémon accueillera Onésime, et ils seront eux aussi appelés à le recevoir. Cette dimension communautaire protège à la fois Onésime, qui ne sera pas laissé seul face à son maître, et Philémon, qui sera soutenu dans un pardon coûteux. Le leader qui accompagne une restauration veille ainsi à ce que la communauté soit associée avec sagesse, sans exposer inutilement les fautes de chacun."
+     ]
+    },
+    {
+     "titre": "Le vocabulaire de la restauration",
+     "paragraphes": [
+      "Paul joue sur le nom d’Onésime (onēsimos, « utile ») en employant les adjectifs achrēstos (« inutile ») et euchrēstos (« bien utile ») au verset 11. La grâce a fait de l’inutile un homme utile. Au verset 17, Paul demande : « reçois-le comme moi-même ». Le verbe proslambanō signifie accueillir, prendre auprès de soi ; c’est le même verbe que Paul utilise en Romains 15.7 : « Accueillez-vous donc les uns les autres, comme Christ vous a accueillis. » Au verset 18, l’expression « mets-le sur mon compte » (elloga) vient du langage commercial : inscrire une dette au compte de quelqu’un.",
+      "Paul se fait ainsi l’image de Christ, qui a pris sur lui notre dette. Le Christ a dit au Père, en quelque sorte : ce qu’ils te doivent, mets-le sur mon compte ; je paierai. La restauration chrétienne repose sur cette substitution. Paul n’efface pas la dette d’Onésime en disant qu’elle n’existe pas ; il la reconnaît et propose de la payer. La grâce ne nie pas la justice ; elle la satisfait à ses propres frais."
+     ]
+    },
+    {
+     "titre": "Discipline et restauration à Corinthe",
+     "paragraphes": [
+      "Dans l’Église de Corinthe, un homme vivait avec la femme de son père, et l’Église, au lieu d’en être affligée, s’en vantait (1 Corinthiens 5.1-2). Paul demande une mesure grave : écarter cet homme de la communion de l’Église, afin qu’il prenne conscience de son péché et « que l’esprit soit sauvé au jour du Seigneur Jésus » (verset 5). La discipline n’a pas pour but de détruire, mais de sauver. Paul précise qu’il ne s’agit pas de juger ceux du dehors, mais de garder la sainteté de l’Église (versets 12-13).",
+      "Dans la deuxième lettre, Paul parle d’un homme, peut-être le même, qui a été puni « par le plus grand nombre » et qui s’est repenti. Il demande alors de lui pardonner et de le consoler, « de peur qu’il ne soit accablé par une tristesse excessive », et de lui confirmer leur amour (2 Corinthiens 2.6-8). Il ajoute que cela évite que Satan ne prenne l’avantage (verset 11). Une Église peut pécher de deux manières : par laxisme, en tolérant le péché grave, ou par dureté, en refusant de restaurer celui qui s’est repenti. Galates 6.1 donne l’esprit juste : « redressez-le avec un esprit de douceur. Prends garde à toi-même, de peur que tu ne sois aussi tenté. » Le verbe katartizō, « redresser », est celui qu’on emploie pour réparer des filets ou remettre en place un os démis."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "utile, inutile",
+     "langue": "grec",
+     "original": "onēsimos ; achrēstos ; euchrēstos",
+     "sens": "Jeu de mots de Paul sur le nom d’Onésime : l’inutile est devenu bien utile par la grâce (Philémon 11)."
+    },
+    {
+     "mot": "accueillir",
+     "langue": "grec",
+     "original": "proslambanō",
+     "sens": "Recevoir, prendre auprès de soi ; « reçois-le comme moi-même » (Philémon 17 ; Romains 15.7)."
+    },
+    {
+     "mot": "redresser",
+     "langue": "grec",
+     "original": "katartizō",
+     "sens": "Remettre en état, réparer un filet, remettre en place un membre démis : la restauration de celui qui est tombé (Galates 6.1)."
+    },
+    {
+     "mot": "berger, paître",
+     "langue": "hébreu",
+     "original": "rō‘eh ; rā‘āh",
+     "sens": "Le berger qui fait paître, nourrit, soigne et cherche ses brebis (Ézéchiel 34.2-16)."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Le berger connaît ses brebis",
+     "paragraphes": [
+      "Dieu reproche aux bergers d’Israël de s’être nourris eux-mêmes au lieu de nourrir le troupeau : « Vous n’avez pas fortifié celles qui étaient faibles, guéri celle qui était malade, pansé celle qui était blessée ; vous n’avez pas ramené celle qui s’égarait, cherché celle qui était perdue » (Ézéchiel 34.4). Ce verset décrit en négatif le travail du berger : fortifier, soigner, panser, ramener, chercher. Jésus, le bon berger, dit : « Je connais mes brebis, et elles me connaissent » (Jean 10.14). On ne peut pas prendre soin de personnes que l’on ne connaît pas.",
+      "Dans une petite communauté, le pasteur peut connaître chaque membre. Dans une grande, c’est impossible pour une seule personne. D’où la nécessité d’une organisation pastorale : des anciens, des diacres, des responsables de groupes de maison, chacun chargé de connaître et de visiter quelques familles. Le leader doit veiller à ce que personne ne passe entre les mailles : les nouveaux venus, les malades, les personnes âgées, ceux qui ne viennent plus depuis quelques semaines. La brebis qui s’éloigne commence rarement par partir ; elle commence par ne plus être remarquée."
+     ]
+    },
+    {
+     "titre": "Les visites et l’accompagnement",
+     "paragraphes": [
+      "La visite pastorale est un ministère biblique. Paul enseignait « publiquement et dans les maisons » (Actes 20.20). Jacques demande que le malade appelle les anciens pour qu’ils prient pour lui (Jacques 5.14). Une visite n’est pas une inspection ni une occasion de collecter des informations à répéter. C’est un temps d’écoute, de prière, de lecture de la Parole et d’encouragement. Paul résume les attitudes nécessaires : « avertissez ceux qui vivent dans le désordre, consolez ceux qui sont abattus, supportez les faibles, usez de patience envers tous » (1 Thessaloniciens 5.14).",
+      "Le leader doit aussi connaître ses limites. Certaines situations dépassent les compétences pastorales : dépression sévère, troubles psychiques, violences conjugales, abus sexuels, dépendances. Dans ces cas, le berger continue d’accompagner spirituellement, mais il oriente vers des professionnels compétents (médecins, psychologues, juristes, services sociaux) et, lorsque la loi l’exige ou qu’une personne vulnérable est en danger, il signale la situation aux autorités. Prendre soin du troupeau, c’est aussi le protéger des loups, même lorsqu’ils se trouvent à l’intérieur de la bergerie."
+     ]
+    },
+    {
+     "titre": "La discipline, une forme d’amour",
+     "paragraphes": [
+      "Beaucoup de leaders évitent la discipline par peur du conflit ou de perdre des membres. D’autres l’exercent avec dureté, humiliation publique ou exclusion définitive. La Bible trace un chemin différent. La discipline concerne les péchés graves, publics ou persistants, pour lesquels la personne refuse de se repentir après avoir été avertie (Matthieu 18.15-17 ; 1 Corinthiens 5.11). Elle suit des étapes progressives, de l’entretien privé à la décision de l’Église. Elle est exercée par des responsables reconnus, avec justice, en écoutant les deux parties et en s’appuyant sur des témoins (1 Timothée 5.19).",
+      "Son but est toujours double : protéger la sainteté et la santé de l’Église, et ramener le pécheur. Paul précise que celui qui est sanctionné ne doit pas être regardé « comme un ennemi », mais averti « comme un frère » (2 Thessaloniciens 3.15). Jacques encourage : « celui qui ramènera un pécheur de la voie où il s’était égaré sauvera une âme de la mort et couvrira une multitude de péchés » (Jacques 5.20). La discipline est une forme d’amour, car elle refuse de laisser un frère s’enfoncer dans ce qui le détruit."
+     ]
+    },
+    {
+     "titre": "La restauration : accueillir celui qui revient",
+     "paragraphes": [
+      "Quand quelqu’un se repent, l’Église doit savoir pardonner, consoler et réintégrer. La restauration ne signifie pas toujours que la personne retrouve immédiatement toutes ses responsabilités, en particulier si elle exerçait une fonction de confiance et que la faute concernait cette fonction. La confiance se reconstruit avec le temps, et certaines fautes, notamment les abus sur des personnes vulnérables, peuvent rendre définitivement impossible l’exercice de certains ministères. Mais la communion fraternelle doit être rendue pleinement.",
+      "La lettre à Philémon montre aussi que la restauration concerne les relations concrètes. Onésime ne se contente pas de confesser son péché à Dieu ; il retourne vers Philémon. Le leader aide le coupable à réparer ce qui peut l’être (restitution, excuses, changement de comportement) et aide la victime à avancer vers le pardon, sans la forcer ni minimiser sa blessure. Il peut, comme Paul, se porter garant, accompagner, faciliter la rencontre. Une Église où les relations brisées sont réparées rend visible la réconciliation que Christ a accomplie à la croix."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Philémon 15-16",
+     "texte": "Peut-être a-t-il été séparé de toi pour un temps, afin que tu le recouvres pour l’éternité, non plus comme un esclave, mais comme supérieur à un esclave, comme un frère bien-aimé, de moi particulièrement, et de toi à plus forte raison, soit dans la chair, soit dans le Seigneur."
+    },
+    {
+     "ref": "Philémon 17-18",
+     "texte": "Si donc tu me tiens pour ton ami, reçois-le comme moi-même. Et s’il t’a fait quelque tort, ou s’il te doit quelque chose, mets-le sur mon compte."
+    },
+    {
+     "ref": "Ézéchiel 34.16",
+     "texte": "Je chercherai celle qui était perdue, je ramènerai celle qui était égarée, je panserai celle qui est blessée, et je fortifierai celle qui est malade. Mais je détruirai celles qui sont grasses et vigoureuses. Je veux les paître avec justice."
+    },
+    {
+     "ref": "Galates 6.1",
+     "texte": "Frères, si un homme vient à être surpris en quelque faute, vous qui êtes spirituels, redressez-le avec un esprit de douceur. Prends garde à toi-même, de peur que tu ne sois aussi tenté."
+    },
+    {
+     "ref": "2 Corinthiens 2.7-8",
+     "texte": "en sorte que vous devez bien plutôt lui pardonner et le consoler, de peur qu’il ne soit accablé par une tristesse excessive. Je vous exhorte donc à faire acte de charité envers lui;"
+    }
+   ],
+   "application": [
+    {
+     "titre": "Organiser le soin pastoral",
+     "paragraphes": [
+      "Fais la carte de ta communauté : qui est suivi par qui ? Répartis les membres entre des responsables de confiance, chacun ayant au plus une dizaine de familles à connaître, visiter et porter dans la prière. Tiens une liste discrète des personnes malades, endeuillées, en difficulté ou absentes depuis plus d’un mois, et vérifie chaque semaine qu’elles ont été contactées. Le soin pastoral ne doit pas dépendre de la mémoire d’un seul homme."
+     ]
+    },
+    {
+     "titre": "Bien conduire une visite",
+     "paragraphes": [
+      "Annonce ta visite, respecte le temps de la famille, et viens de préférence à deux, surtout s’il s’agit de rendre visite à une personne de l’autre sexe. Écoute plus que tu ne parles. Lis un court passage biblique adapté, prie pour les besoins exprimés, et propose une aide concrète si nécessaire. Garde pour toi ce qui t’a été confié, sauf si une personne vulnérable est en danger. Et note ce qu’il faudra suivre lors de la prochaine visite."
+     ]
+    },
+    {
+     "titre": "Exercer la discipline avec justice",
+     "paragraphes": [
+      "Si un cas de péché grave est porté à ta connaissance, ne réagis ni dans la précipitation ni dans le silence. Vérifie les faits avec des témoins, écoute la personne concernée, consulte les autres responsables. Fixe une démarche claire et proportionnée, explique son but de restauration, et prévois dès le départ comment la personne pourra être accompagnée. Évite les annonces humiliantes en public : seuls ceux qui doivent savoir doivent être informés, et dans la mesure nécessaire."
+     ]
+    },
+    {
+     "titre": "Protéger les personnes vulnérables",
+     "paragraphes": [
+      "Mets en place dans ton Église des règles simples de protection : ne jamais laisser un adulte seul avec un enfant dans un lieu fermé, vérifier les personnes qui encadrent les enfants et les jeunes, prévoir une personne de confiance à qui un enfant ou une femme peut parler. Si un abus est signalé, ne cherche pas à étouffer l’affaire pour protéger la réputation de l’Église : protège d’abord la victime, informe les autorités compétentes et laisse la justice faire son travail. Couvrir un abus, c’est se rendre complice du loup."
+     ]
+    },
+    {
+     "titre": "Accompagner une réconciliation",
+     "paragraphes": [
+      "Quand deux membres sont en rupture parce que l’un a fait du tort à l’autre (dette impayée, trahison, vol, parole blessante), propose-toi comme médiateur, comme Paul pour Onésime et Philémon. Rencontre chacun séparément, aide le coupable à reconnaître et à réparer, aide la victime à exprimer sa blessure, puis organise une rencontre si les deux sont prêts. Ne force jamais un pardon instantané ; laisse à la grâce de Dieu le temps de travailler."
+     ]
+    },
+    {
+     "titre": "Prendre soin aussi des bergers",
+     "paragraphes": [
+      "Les responsables qui visitent, écoutent et portent les fardeaux des autres peuvent s’épuiser ou tomber à leur tour. Paul avertit celui qui redresse un frère : « Prends garde à toi-même, de peur que tu ne sois aussi tenté. » Prévois dans ton Église un espace où les bergers eux-mêmes sont visités, écoutés et encouragés : un temps de partage entre responsables, un mentor extérieur, des périodes de repos. Un troupeau est mieux gardé par des bergers qui sont eux-mêmes gardés."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Dans l’Église où sert l’ancien Martin, un jeune homme, Patrick, a détourné l’argent de la caisse de la chorale il y a deux ans, puis il a disparu. Aujourd’hui, il revient : il dit avoir rencontré le Seigneur dans une autre ville, il est visiblement changé, et il demande à reprendre sa place dans la chorale. Le trésorier de la chorale, Jean-Bosco, qui avait dû rembourser une partie de la somme de sa poche, refuse de le revoir et menace de quitter l’Église si Patrick est réintégré. D’autres membres disent qu’« il faut pardonner et oublier » et que parler du passé est un manque d’amour. Martin doit conseiller les responsables.",
+    "questions": [
+     "Quels parallèles vois-tu entre la situation de Patrick et celle d’Onésime ? Quelles différences ?",
+     "Quelles démarches concrètes de réparation Patrick devrait-il entreprendre envers Jean-Bosco et la chorale ? Comment Martin pourrait-il l’accompagner, à la manière de Paul ?",
+     "Comment respecter la blessure de Jean-Bosco sans le forcer à pardonner instantanément ?",
+     "Patrick doit-il retrouver immédiatement une responsabilité financière ? Comment distinguer la pleine communion fraternelle et la reconstruction progressive de la confiance ?"
+    ]
+   },
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Le nom Onésime signifie « utile ».",
+      "vrai": true,
+      "explication": "Paul joue sur ce nom : « autrefois t’a été inutile, mais… maintenant est utile » (Philémon 11)."
+     },
+     {
+      "affirmation": "Paul ordonne à Philémon, avec son autorité d’apôtre, de libérer Onésime immédiatement.",
+      "vrai": false,
+      "explication": "Il préfère prier « au nom de la charité », afin que le bienfait de Philémon soit volontaire (Philémon 8-9, 14)."
+     },
+     {
+      "affirmation": "Paul propose de payer lui-même ce qu’Onésime doit à Philémon.",
+      "vrai": true,
+      "explication": "« Mets-le sur mon compte… je paierai » (Philémon 18-19)."
+     },
+     {
+      "affirmation": "Dans Ézéchiel 34, Dieu félicite les bergers d’Israël pour leur soin du troupeau.",
+      "vrai": false,
+      "explication": "Il les condamne parce qu’ils se paissaient eux-mêmes et n’ont pas soigné les brebis (Ézéchiel 34.2-4)."
+     },
+     {
+      "affirmation": "Après la repentance de l’homme discipliné, Paul demande aux Corinthiens de lui pardonner et de le consoler.",
+      "vrai": true,
+      "explication": "2 Corinthiens 2.7-8."
+     },
+     {
+      "affirmation": "Selon Galates 6.1, celui qui redresse un frère tombé doit le faire avec dureté pour qu’il n’oublie pas sa faute.",
+      "vrai": false,
+      "explication": "« Redressez-le avec un esprit de douceur. Prends garde à toi-même » (Galates 6.1)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque attitude pastorale.",
+     "categories": [
+      "Bon berger",
+      "Laxisme",
+      "Dureté ou abus"
+     ],
+     "elements": [
+      {
+       "texte": "Rendre visite à un membre absent depuis un mois pour prendre de ses nouvelles.",
+       "categorie": 0,
+       "explication": "Le berger cherche celle qui s’égare (Ézéchiel 34.16 ; Luc 15.4)."
+      },
+      {
+       "texte": "Ignorer un péché grave et public pour ne pas perdre un membre influent.",
+       "categorie": 1,
+       "explication": "1 Corinthiens 5.1-2 condamne cette tolérance."
+      },
+      {
+       "texte": "Annoncer en chaire les fautes d’un membre pour l’humilier.",
+       "categorie": 2,
+       "explication": "La discipline vise la restauration, avec douceur (Galates 6.1 ; 2 Thessaloniciens 3.15)."
+      },
+      {
+       "texte": "Pardonner et consoler un frère discipliné qui s’est repenti.",
+       "categorie": 0,
+       "explication": "2 Corinthiens 2.7-8."
+      },
+      {
+       "texte": "Étouffer une affaire d’abus pour protéger la réputation de l’Église.",
+       "categorie": 1,
+       "explication": "Le berger protège les brebis des loups (Jean 10.11-12 ; Ézéchiel 34.4)."
+      },
+      {
+       "texte": "Refuser définitivement toute communion à un frère repenti.",
+       "categorie": 2,
+       "explication": "Paul demande de lui confirmer l’amour de l’Église (2 Corinthiens 2.8)."
+      },
+      {
+       "texte": "Aider un coupable repenti à réparer le tort causé.",
+       "categorie": 0,
+       "explication": "C’est la démarche de Paul pour Onésime (Philémon 18-19)."
+      },
+      {
+       "texte": "Dominer les membres avec violence et menaces.",
+       "categorie": 2,
+       "explication": "« Vous les avez dominées avec violence et avec dureté » (Ézéchiel 34.4) ; 1 Pierre 5.3."
+      }
+     ]
+    }
+   },
+   "reflexion": [
+    "Y a-t-il dans ma communauté des brebis faibles, blessées ou égarées que personne ne visite ?",
+    "Ai-je tendance au laxisme ou à la dureté lorsqu’il faut reprendre quelqu’un ?",
+    "Qui, dans ma vie, a été pour moi un Paul qui a plaidé ma cause ? Pour qui puis-je être ce Paul ?",
+    "Y a-t-il une relation brisée dans laquelle je dois faire, comme Onésime, une démarche de retour et de réparation ?"
+   ],
+   "retenir": [
+    "Le bon berger connaît ses brebis : il fortifie, soigne, panse, ramène et cherche (Ézéchiel 34.4, 16 ; Jean 10.14).",
+    "Paul renvoie Onésime vers Philémon : la conversion conduit à réparer les relations brisées, et Paul se porte garant (« mets-le sur mon compte »).",
+    "La discipline biblique est progressive, juste et vise toujours à sauver et à restaurer ; elle évite à la fois le laxisme et la dureté.",
+    "Après la repentance, l’Église pardonne, console et confirme son amour, tout en reconstruisant la confiance avec sagesse et en protégeant les plus vulnérables."
+   ],
+   "memoriser": {
+    "ref": "Galates 6.1",
+    "texte": "Frères, si un homme vient à être surpris en quelque faute, vous qui êtes spirituels, redressez-le avec un esprit de douceur. Prends garde à toi-même, de peur que tu ne sois aussi tenté."
+   },
+   "priere": "Seigneur, bon berger, donne-moi un cœur qui connaît et cherche tes brebis. Apprends-moi à reprendre avec douceur, à protéger les faibles, à pardonner à ceux qui reviennent et à réparer les relations brisées. Merci d’avoir porté sur ton compte tout ce que je devais. Amen."
   }
  ],
  "pratique": {
@@ -1137,6 +1435,116 @@
    ],
    "bonne": 1,
    "explication": "Comme Paul en 2 Corinthiens 8, la gestion à plusieurs et la trace écrite protègent tout le monde et honorent Dieu (1 Corinthiens 14.40 ; Luc 16.10)."
+  },
+  {
+   "q": "Qui était Onésime avant sa rencontre avec Paul ?",
+   "choix": [
+    "Un ancien de l’Église de Colosses",
+    "Un esclave de Philémon qui s’était enfui",
+    "Un collaborateur de Timothée",
+    "Un sacrificateur juif"
+   ],
+   "bonne": 1,
+   "explication": "Onésime était l’esclave de Philémon ; Paul écrit qu’il lui « a été inutile » autrefois et qu’il « a été séparé » de lui pour un temps (Philémon 11, 15-16)."
+  },
+  {
+   "q": "Pourquoi Paul préfère-t-il prier Philémon plutôt que de lui donner un ordre (Philémon 8-9, 14) ?",
+   "choix": [
+    "Parce qu’il n’avait aucune autorité sur lui",
+    "Parce qu’il craignait sa colère",
+    "Pour que son bienfait ne soit pas comme forcé, mais volontaire",
+    "Parce que Philémon n’était pas chrétien"
+   ],
+   "bonne": 2,
+   "explication": "« Je n’ai rien voulu faire sans ton avis, afin que ton bienfait ne soit pas comme forcé, mais qu’il soit volontaire » (Philémon 14)."
+  },
+  {
+   "q": "Comment Paul demande-t-il à Philémon de recevoir Onésime (Philémon 16-17) ?",
+   "choix": [
+    "Comme un frère bien-aimé, comme Paul lui-même",
+    "Comme un esclave puni",
+    "Comme un étranger",
+    "Comme un simple employé"
+   ],
+   "bonne": 0,
+   "explication": "« Non plus comme un esclave, mais comme supérieur à un esclave, comme un frère bien-aimé… reçois-le comme moi-même » (Philémon 16-17)."
+  },
+  {
+   "q": "Que propose Paul au sujet des torts et des dettes d’Onésime (Philémon 18-19) ?",
+   "choix": [
+    "De les oublier entièrement",
+    "Qu’Onésime travaille dix ans pour les rembourser",
+    "Que l’Église de Rome les paie",
+    "De les mettre sur son propre compte : « je paierai »"
+   ],
+   "bonne": 3,
+   "explication": "« S’il t’a fait quelque tort, ou s’il te doit quelque chose, mets-le sur mon compte. Moi Paul, je l’écris de ma propre main, je paierai » (Philémon 18-19)."
+  },
+  {
+   "q": "Selon Ézéchiel 34.2, que reproche Dieu aux pasteurs d’Israël ?",
+   "choix": [
+    "De ne pas avoir assez de brebis",
+    "De se paître eux-mêmes au lieu de paître le troupeau",
+    "D’avoir quitté le pays",
+    "D’avoir trop nourri les brebis"
+   ],
+   "bonne": 1,
+   "explication": "« Malheur aux pasteurs d’Israël, qui se paissaient eux-mêmes ! Les pasteurs ne devaient-ils pas paître le troupeau ? » (Ézéchiel 34.2)."
+  },
+  {
+   "q": "Selon 1 Corinthiens 5.5, quel est le but de la mesure de discipline prise contre l’homme coupable ?",
+   "choix": [
+    "Protéger la réputation de Paul",
+    "Le punir pour toujours",
+    "Que l’esprit soit sauvé au jour du Seigneur Jésus",
+    "Satisfaire la colère de l’Église"
+   ],
+   "bonne": 2,
+   "explication": "« Qu’un tel homme soit livré à Satan pour la destruction de la chair, afin que l’esprit soit sauvé au jour du Seigneur Jésus » (1 Corinthiens 5.5)."
+  },
+  {
+   "q": "Selon 2 Corinthiens 2.7, que doit faire l’Église envers l’homme puni qui s’est repenti ?",
+   "choix": [
+    "Lui pardonner et le consoler, de peur qu’il ne soit accablé par une tristesse excessive",
+    "L’exclure définitivement",
+    "Exiger une nouvelle punition publique",
+    "Attendre dix ans avant de lui parler"
+   ],
+   "bonne": 0,
+   "explication": "« Vous devez bien plutôt lui pardonner et le consoler, de peur qu’il ne soit accablé par une tristesse excessive » (2 Corinthiens 2.7)."
+  },
+  {
+   "q": "Que signifie le verbe grec katartizō, traduit par « redresser » en Galates 6.1 ?",
+   "choix": [
+    "Exclure de l’assemblée",
+    "Juger publiquement",
+    "Imposer une amende",
+    "Remettre en état, comme on répare un filet ou remet en place un membre démis"
+   ],
+   "bonne": 3,
+   "explication": "Katartizō signifie réparer, remettre en état : la discipline vise la restauration (Galates 6.1)."
+  },
+  {
+   "q": "Un responsable apprend qu’un moniteur de l’école du dimanche est soupçonné d’abus sur un enfant. Selon la leçon, que doit-il faire ?",
+   "choix": [
+    "Régler l’affaire discrètement entre responsables pour éviter le scandale",
+    "Protéger d’abord l’enfant, écarter le moniteur des enfants et informer les autorités compétentes",
+    "Demander à l’enfant de pardonner rapidement",
+    "Attendre d’avoir une preuve absolue avant de faire quoi que ce soit"
+   ],
+   "bonne": 1,
+   "explication": "Le berger protège les brebis des loups (Jean 10.11-12) ; couvrir un abus, c’est se rendre complice. La justice doit pouvoir faire son travail (Romains 13.3-4)."
+  },
+  {
+   "q": "Selon Néhémie 4.9, comment Néhémie a-t-il réagi face aux menaces de ses ennemis ?",
+   "choix": [
+    "Il a abandonné le chantier",
+    "Il a négocié avec Sanballat",
+    "Ils prièrent leur Dieu et établirent une garde jour et nuit",
+    "Il a attendu que les ennemis partent"
+   ],
+   "bonne": 2,
+   "explication": "« Nous priâmes notre Dieu, et nous établîmes une garde jour et nuit pour nous défendre contre leurs attaques » (Néhémie 4.9)."
   }
  ]
 }

@@ -5,7 +5,8 @@
  "introduction": [
   "Avant de remonter au ciel, Jésus n’a pas laissé à ses disciples un bâtiment, une organisation ou un programme : il leur a confié une mission. « Allez, faites de toutes les nations des disciples » (Matthieu 28.19). Cette mission n’a jamais été retirée ; elle est aujourd’hui entre nos mains. Pourtant, beaucoup de croyants, même anciens dans la foi, n’ont jamais conduit quelqu’un à Christ, par peur, par manque de préparation, ou parce qu’ils pensent que c’est le travail des pasteurs et des évangélistes.",
   "Ce module veut te rendre capable de témoigner avec clarté, amour et courage. Nous verrons d’abord le grand mandat et la puissance du Saint-Esprit qui l’accompagne, à travers l’histoire de l’homme de Gadara envoyé vers les siens. Nous apprendrons ensuite à présenter l’Évangile simplement et à raconter notre témoignage, en suivant la manière dont Jésus a parlé à la Samaritaine. Enfin, nous verrons que l’évangélisation ne s’arrête pas à la conversion : comme Philippe avec l’eunuque éthiopien, comme Paul avec les Thessaloniciens, nous sommes appelés à accompagner les nouveaux croyants jusqu’à la maturité.",
-  "Témoigner n’est pas une technique de vente ni une pression exercée sur les autres. C’est le débordement naturel d’une vie transformée par Christ, soutenu par la prière et rendu efficace par le Saint-Esprit. À la fin de ce module, tu seras invité à mettre ta foi en action : partager l’Évangile avec au moins trois personnes et proposer à un nouveau croyant de cheminer avec toi."
+  "Témoigner n’est pas une technique de vente ni une pression exercée sur les autres. C’est le débordement naturel d’une vie transformée par Christ, soutenu par la prière et rendu efficace par le Saint-Esprit. À la fin de ce module, tu seras invité à mettre ta foi en action : partager l’Évangile avec au moins trois personnes et proposer à un nouveau croyant de cheminer avec toi.",
+  "La quatrième leçon prépare au témoignage dans un monde pluriel. Tes voisins, tes collègues ou tes camarades d’études ne partent pas tous du même point : certains suivent une autre religion, d’autres les traditions des ancêtres, d’autres ne croient en rien ou se méfient des Églises. En suivant Paul à Athènes, nous apprendrons à écouter, à comprendre, à trouver un point de départ, puis à annoncer Christ crucifié et ressuscité sans diluer le message et sans mépriser personne."
  ],
  "lecturesObligatoires": [
   {
@@ -47,6 +48,14 @@
   {
    "ref": "Actes 9.19-31 ; 11.19-26",
    "consigne": "Observe le rôle de Barnabas auprès de Saul et ce qu’il fait à Antioche."
+  },
+  {
+   "ref": "Actes 17.16-34",
+   "consigne": "Repère les étapes du discours de Paul : par quoi commence-t-il, que dit-il de Dieu, de l’homme, puis de Jésus ? Note les trois réactions des auditeurs."
+  },
+  {
+   "ref": "Actes 14.8-18 et 1 Corinthiens 9.19-23",
+   "consigne": "Compare ce que Paul dit à Lystre avec ce qu’il dit à Athènes, puis relève ce qu’il accepte de changer et ce qu’il ne change jamais."
   }
  ],
  "lecons": [
@@ -883,6 +892,282 @@
      ]
     }
    }
+  },
+  {
+   "titre": "Témoigner dans un monde pluriel",
+   "illustration": "porte",
+   "lectures": [
+    {
+     "ref": "Actes 17.16-34",
+     "resume": "À Athènes, ville pleine d’idoles, Paul dialogue sur la place publique, puis annonce devant l’Aréopage le Dieu créateur, l’appel à la repentance et la résurrection de Jésus."
+    },
+    {
+     "ref": "1 Corinthiens 9.19-23",
+     "resume": "Paul se fait tout à tous, sans renier la loi de Christ, afin d’en sauver de toute manière quelques-uns."
+    },
+    {
+     "ref": "Colossiens 4.5-6",
+     "resume": "Les croyants doivent se conduire avec sagesse envers ceux du dehors, avec une parole accompagnée de grâce et assaisonnée de sel."
+    },
+    {
+     "ref": "Actes 4.8-12",
+     "resume": "Devant le sanhédrin, Pierre déclare qu’il n’y a de salut en aucun autre nom que celui de Jésus-Christ."
+    }
+   ],
+   "recit": {
+    "titre": "Paul devant l’Aréopage",
+    "ref": "Actes 17.16-34",
+    "paragraphes": [
+     "Paul était arrivé à Athènes seul, en attendant Silas et Timothée restés en Macédoine. Ce n’était pas un voyage de tourisme. Il venait d’être chassé de Thessalonique, puis de Bérée, par des opposants qui l’avaient poursuivi de ville en ville. Athènes n’était plus la grande puissance politique d’autrefois, mais elle restait la ville des philosophes, des orateurs et des temples. En marchant dans ses rues, Paul vit partout des statues, des autels, des sanctuaires. Le texte dit qu’« il sentait au-dedans de lui son esprit s’irriter, à la vue de cette ville pleine d’idoles ». Il ne s’agissait pas d’une colère méprisante, mais d’une douleur : tant de gens qui cherchaient Dieu sans le connaître.",
+     "Que fit-il de cette émotion ? Il parla. Le jour du sabbat, il discutait à la synagogue avec les Juifs et les païens qui craignaient Dieu. Les autres jours, il descendait sur l’agora, la place publique, et s’entretenait avec ceux qu’il rencontrait. Des philosophes épicuriens et stoïciens l’abordèrent. Les uns se moquaient : « Que veut dire ce discoureur ? » Le mot grec désignait un oiseau qui picore des graines au hasard, un bavard qui ramasse des idées sans les comprendre. D’autres pensaient qu’il annonçait des divinités étrangères, parce qu’il parlait de Jésus et de la résurrection. Ils l’emmenèrent à l’Aréopage, le conseil qui veillait sur les idées et les religions de la cité.",
+     "Paul se tint debout au milieu d’eux. Il ne commença pas par les insulter. « Hommes Athéniens, je vous trouve à tous égards extrêmement religieux. » Puis il raconta ce qu’il avait observé : « en parcourant votre ville et en considérant les objets de votre dévotion, j’ai même découvert un autel avec cette inscription : A un dieu inconnu ! Ce que vous révérez sans le connaître, c’est ce que je vous annonce. » Paul avait pris le temps de regarder, de lire, de comprendre. Il partait de ce que ses auditeurs connaissaient pour les conduire vers ce qu’ils ignoraient.",
+     "Il leur parla du Dieu qui a fait le monde et tout ce qui s’y trouve, qui n’habite pas dans des temples faits de main d’homme et n’a besoin de rien, car c’est lui qui donne à tous la vie, la respiration et toutes choses. Il leur dit que tous les hommes sont sortis d’un seul sang, que Dieu a fixé les temps et les frontières des peuples afin qu’ils le cherchent, et qu’il n’est pas loin de chacun. Il cita même leurs propres poètes : « De lui nous sommes la race. » Puis il tira la conséquence : si nous sommes la race de Dieu, Dieu ne peut pas ressembler à de l’or, de l’argent ou de la pierre façonnés par l’homme.",
+     "Alors vint le cœur du message. Le temps de l’ignorance était fini : Dieu « annonce maintenant à tous les hommes, en tous lieux, qu’ils aient à se repentir, parce qu’il a fixé un jour où il jugera le monde selon la justice, par l’homme qu’il a désigné, ce dont il a donné à tous une preuve certaine en le ressuscitant des morts ». À ce mot de résurrection, l’assemblée se divisa. Les uns se moquèrent. D’autres dirent poliment : « Nous t’entendrons là-dessus une autre fois. » Mais quelques-uns s’attachèrent à Paul et crurent : Denys, membre de l’Aréopage, une femme nommée Damaris, et d’autres avec eux. Paul n’avait pas rempli un stade ; il avait été fidèle, et Dieu avait ouvert quelques cœurs."
+    ],
+    "lecons": [
+     "Le témoin commence par voir et ressentir : la ville pleine d’idoles provoque chez Paul une douleur qui le pousse à parler.",
+     "Écouter et observer la culture des autres n’est pas un compromis : c’est la manière de trouver un point de départ pour l’Évangile.",
+     "Paul part du Dieu créateur pour arriver à Jésus ressuscité ; il adapte le chemin, mais il ne retire ni la repentance, ni le jugement, ni la résurrection.",
+     "Le résultat appartient à Dieu : certains se moquent, d’autres veulent réfléchir, quelques-uns croient. La fidélité compte plus que le nombre."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Le contexte d’Athènes et des philosophes",
+     "paragraphes": [
+      "Luc écrit les Actes pour montrer comment l’Évangile s’est répandu de Jérusalem jusqu’à Rome, en franchissant les frontières culturelles. À Lystre (Actes 14), Paul s’adressait à des gens simples qui voulaient l’adorer comme un dieu ; à Athènes, il parle aux élites intellectuelles. Les épicuriens pensaient que les dieux, s’ils existent, sont lointains et indifférents, et que le but de la vie est une tranquillité sans trouble. Les stoïciens voyaient le divin comme une raison répandue dans tout l’univers, et cherchaient à vivre en accord avec la nature. Ni les uns ni les autres ne croyaient à une résurrection du corps.",
+      "L’Aréopage tirait son nom de la colline d’Arès, où le conseil se réunissait autrefois. À l’époque de Paul, il exerçait encore une autorité sur les questions religieuses et éducatives. Paul n’est donc pas devant un simple public de curieux : il présente le christianisme devant l’instance qui pouvait juger si une nouvelle doctrine était acceptable. Luc remarque avec une pointe d’ironie que les Athéniens « ne passaient leur temps qu’à dire ou à écouter des nouvelles ». La curiosité n’est pas encore la foi."
+     ]
+    },
+    {
+     "titre": "La structure du discours (Actes 17.22-31)",
+     "paragraphes": [
+      "Le discours de Paul suit un mouvement très étudié. Il commence par un point de contact : l’autel « à un dieu inconnu » (verset 23). Il présente ensuite Dieu comme Créateur et Seigneur (verset 24), indépendant de l’homme et source de toute vie (verset 25). Il décrit l’humanité comme une seule famille, voulue par Dieu pour le chercher (versets 26-27). Il cite deux poètes grecs (verset 28) : la phrase « en lui nous avons la vie, le mouvement, et l’être » et celle « De lui nous sommes la race », cette dernière généralement attribuée au poète Aratus. Il conclut que l’idolâtrie est absurde (verset 29), puis il appelle à la repentance en annonçant le jugement par un homme que Dieu a ressuscité (versets 30-31).",
+      "Remarquons ce que Paul fait avec la culture. Il cite des poètes païens, non pour approuver tout leur système, mais parce qu’ils ont exprimé une part de vérité que Dieu a laissée dans la conscience humaine (Romains 1.19-20). Il utilise un vocabulaire que ses auditeurs comprennent. Mais il ne cède pas sur l’essentiel : Dieu est personnel et distinct du monde, l’homme doit se repentir, le jugement vient, Jésus est ressuscité. Le mot grec metanoeō (se repentir) signifie changer de pensée, retourner sa manière de voir. Paul n’invite pas les Athéniens à ajouter Jésus à leurs dieux, mais à se détourner des idoles vers le Dieu vivant.",
+      "Il est utile aussi de remarquer ce que Paul ne dit pas. Il ne commence pas par citer les prophètes, que ses auditeurs ne connaissaient pas ; il ne fait pas de miracle pour impressionner ; il ne cherche pas à prouver la supériorité de la culture juive sur la culture grecque. Mais il ne promet pas non plus le bonheur, la richesse ou la santé à ceux qui accepteraient son message. Son discours est centré sur Dieu, sur la responsabilité de l’homme devant lui et sur l’homme que Dieu a ressuscité. Certains commentateurs ont pensé que Paul avait échoué à Athènes et qu’il aurait ensuite renoncé à cette approche à Corinthe (1 Corinthiens 2.1-2). Le texte des Actes ne présente pourtant pas ce discours comme un échec : il en rapporte des conversions, et Paul y annonce bien Jésus ressuscité. À Corinthe comme à Athènes, le centre reste Christ."
+     ]
+    },
+    {
+     "titre": "1 Corinthiens 9 et Colossiens 4 : se faire tout à tous",
+     "paragraphes": [
+      "Dans sa première lettre aux Corinthiens, Paul explique sa stratégie : « Je me suis fait tout à tous, afin d’en sauver de toute manière quelques-uns » (1 Corinthiens 9.22). Avec les Juifs, il respecte les coutumes juives ; avec les non-Juifs, il ne leur impose pas ces coutumes. Mais il ajoute une précision capitale : il n’est jamais « sans la loi de Dieu », il est « sous la loi de Christ » (verset 21). S’adapter, ce n’est pas renoncer à la sainteté ni modifier l’Évangile ; c’est renoncer à ses propres préférences culturelles pour que rien d’inutile ne fasse obstacle au message.",
+      "Aux Colossiens, Paul donne la tonalité de cette attitude : « Conduisez-vous avec sagesse envers ceux du dehors, et rachetez le temps. Que votre parole soit toujours accompagnée de grâce, assaisonnée de sel, afin que vous sachiez comment il faut répondre à chacun » (Colossiens 4.5-6). La grâce rend la parole aimable, le sel lui donne du goût et de la vérité. « Répondre à chacun » suppose que l’on a d’abord écouté chacun : il n’y a pas de discours unique qui convienne à tous."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "s’irriter",
+     "langue": "grec",
+     "original": "paroxynō",
+     "sens": "Être profondément remué, piqué au vif ; Paul est saisi d’une douleur intérieure devant la ville pleine d’idoles (Actes 17.16)."
+    },
+    {
+     "mot": "discoureur",
+     "langue": "grec",
+     "original": "spermologos",
+     "sens": "Littéralement « ramasseur de graines », comme un oiseau ; un bavard qui récolte des idées sans les comprendre (Actes 17.18)."
+    },
+    {
+     "mot": "se repentir",
+     "langue": "grec",
+     "original": "metanoeō",
+     "sens": "Changer de pensée et de direction ; se détourner des idoles vers le Dieu vivant (Actes 17.30)."
+    },
+    {
+     "mot": "s’entretenir, discuter",
+     "langue": "grec",
+     "original": "dialegomai",
+     "sens": "Raisonner, dialoguer, échanger des arguments ; d’où le mot « dialogue » (Actes 17.17)."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Unicité de Christ et respect des personnes",
+     "paragraphes": [
+      "Dans un monde pluriel, on entend souvent : « Toutes les religions se valent, elles mènent toutes à Dieu. » Le serviteur de Christ ne peut pas accepter cette idée, car Jésus a dit : « Je suis le chemin, la vérité, et la vie. Nul ne vient au Père que par moi » (Jean 14.6), et Pierre a déclaré : « il n’y a sous le ciel aucun autre nom qui ait été donné parmi les hommes, par lequel nous devions être sauvés » (Actes 4.12). Si Jésus est mort et ressuscité, il n’est pas une option parmi d’autres : il est le Seigneur de tous.",
+      "Mais l’unicité de Christ n’autorise jamais le mépris. Paul appelle les Athéniens « extrêmement religieux », il a lu leurs inscriptions et leurs poètes, il parle avec respect. Chaque être humain porte l’image de Dieu ; chacun mérite d’être écouté et aimé, quelle que soit sa religion. Nous pouvons reconnaître les vérités partielles et les valeurs morales présentes dans d’autres traditions, tout en affirmant que seul Christ sauve. Il ne faut pas non plus confondre le témoignage avec la contrainte : la foi naît par la persuasion et l’œuvre de l’Esprit, jamais par la manipulation, la pression sociale ou l’achat des consciences."
+     ]
+    },
+    {
+     "titre": "Écouter, trouver un point de départ, annoncer",
+     "paragraphes": [
+      "Le récit d’Athènes donne une démarche en trois temps. Premièrement, écouter et observer : quelles sont les questions, les peurs, les espoirs de la personne ? Quelle place tiennent pour elle les ancêtres, la réussite, la honte, la santé, la famille ? Deuxièmement, trouver un point de départ : un désir de justice, une recherche de paix, une peur des esprits, une question sur la souffrance, un proverbe ou un chant de sa culture. Paul a trouvé un autel ; nous trouverons peut-être une conversation sur un deuil, une injustice au travail ou une phrase entendue à la radio.",
+      "Troisièmement, annoncer Christ clairement. Le point de départ n’est qu’un pont ; il faut le traverser. Paul arrive toujours à la repentance, au jugement et à la résurrection. Dans d’autres contextes, il commence par les Écritures, comme dans les synagogues, ou par les bienfaits de Dieu dans la nature, comme à Lystre (Actes 14.15-17). Le chemin change, la destination reste la même : « nous, nous prêchons Christ crucifié ; scandale pour les Juifs et folie pour les païens, mais puissance de Dieu et sagesse de Dieu pour ceux qui sont appelés » (1 Corinthiens 1.23-24)."
+     ]
+    },
+    {
+     "titre": "Répondre aux objections avec douceur",
+     "paragraphes": [
+      "Les objections reviennent souvent : la Bible a été modifiée, les chrétiens sont hypocrites, Dieu ne peut pas avoir de Fils, la religion des Blancs a été imposée par la colonisation, la science aurait tout expliqué, un Dieu bon n’aurait pas permis la souffrance. Un serviteur n’a pas besoin d’être un spécialiste de toutes les questions, mais il doit apprendre à écouter l’objection jusqu’au bout, à demander ce qui se cache derrière (une blessure, une déception, une vraie question intellectuelle), et à répondre avec honnêteté, y compris en disant : « Je ne sais pas, mais je vais chercher. »",
+      "Paul écrit à Timothée qu’il ne faut pas qu’un serviteur du Seigneur ait des querelles ; il doit « redresser avec douceur les adversaires, dans l’espérance que Dieu leur donnera la repentance » (2 Timothée 2.25). Gagner une discussion et perdre la personne n’est pas une victoire. Certaines objections recevront une réponse argumentée ; d’autres demanderont du temps, de l’amitié et une vie cohérente. Souvent, la meilleure réponse à « les chrétiens sont hypocrites » est un chrétien qui reconnaît ses fautes, qui tient parole et qui aime concrètement."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Actes 17.30-31",
+     "texte": "Dieu, sans tenir compte des temps d’ignorance, annonce maintenant à tous les hommes, en tous lieux, qu’ils aient à se repentir, parce qu’il a fixé un jour où il jugera le monde selon la justice, par l’homme qu’il a désigné, ce dont il a donné à tous une preuve certaine en le ressuscitant des morts…"
+    },
+    {
+     "ref": "Actes 4.12",
+     "texte": "Il n’y a de salut en aucun autre; car il n’y a sous le ciel aucun autre nom qui ait été donné parmi les hommes, par lequel nous devions être sauvés."
+    },
+    {
+     "ref": "1 Corinthiens 9.22",
+     "texte": "J’ai été faible avec les faibles, afin de gagner les faibles. Je me suis fait tout à tous, afin d’en sauver de toute manière quelques-uns."
+    },
+    {
+     "ref": "Colossiens 4.5-6",
+     "texte": "Conduisez-vous avec sagesse envers ceux du dehors, et rachetez le temps. Que votre parole soit toujours accompagnée de grâce, assaisonnée de sel, afin que vous sachiez comment il faut répondre à chacun."
+    },
+    {
+     "ref": "2 Timothée 2.24-25",
+     "texte": "Or, il ne faut pas qu’un serviteur du Seigneur ait des querelles; il doit, au contraire, avoir de la condescendance pour tous, être propre à enseigner, doué de patience; il doit redresser avec douceur les adversaires, dans l’espérance que Dieu leur donnera la repentance pour arriver à la connaissance de la vérité,"
+    }
+   ],
+   "application": [
+    {
+     "titre": "Avec un voisin d’une autre religion",
+     "paragraphes": [
+      "Commence par l’amitié : accepte une invitation, rends visite lors d’un deuil, propose ton aide. Pose des questions sincères sur ce qu’il croit et pourquoi il le croit, et écoute vraiment. Tu découvriras souvent des points communs : la crainte de Dieu, le respect de la famille, le désir de justice. À partir de là, tu pourras dire ce que Jésus est pour toi et proposer de lire ensemble un Évangile, par exemple celui de Luc, en laissant Jésus parler lui-même. Évite les débats publics où chacun cherche à humilier l’autre."
+     ]
+    },
+    {
+     "titre": "Avec une personne attachée aux traditions des ancêtres",
+     "paragraphes": [
+      "Dans beaucoup de familles, la peur des esprits, des malédictions et des ancêtres mécontents est très présente. N’attaque pas brutalement ces croyances, et ne méprise pas les anciens. Montre plutôt, comme Paul, le Dieu créateur qui « donne à tous la vie, la respiration, et toutes choses », plus grand que toute puissance, et Jésus qui a triomphé des dominations à la croix (Colossiens 2.15). Témoigne de la paix que Christ t’a donnée face à ces peurs, et propose de prier pour la personne."
+     ]
+    },
+    {
+     "titre": "Avec un collègue sceptique ou indifférent",
+     "paragraphes": [
+      "Beaucoup de collègues ne s’opposent pas à la foi : elle ne les intéresse simplement pas. Le point de départ sera souvent une conversation sur le sens de la vie, la pression au travail, l’injustice, un enfant malade. Partage une réponse personnelle et brève, puis pose une question ouverte : « Et toi, qu’est-ce qui te donne de l’espérance ? » Sois patient : certains, comme à Athènes, diront « une autre fois ». Garde le contact ; la deuxième conversation est souvent plus profonde que la première."
+     ]
+    },
+    {
+     "titre": "Sur les réseaux sociaux",
+     "paragraphes": [
+      "Les réseaux favorisent les phrases choc et les disputes. Avant de commenter une publication contre la foi, demande-toi si ta parole sera « accompagnée de grâce, assaisonnée de sel ». Préfère un message privé respectueux à une humiliation publique. Publie des témoignages vrais, des passages bibliques expliqués simplement, des actes de solidarité, plutôt que des attaques contre d’autres religions. Rappelle-toi que tes publications sont lues par des personnes que tu ne connais pas et qui observent la manière dont les chrétiens parlent."
+     ]
+    },
+    {
+     "titre": "Dans l’équipe d’évangélisation de ton Église",
+     "paragraphes": [
+      "Une équipe d’évangélisation gagne beaucoup à préparer ses sorties comme Paul a préparé son discours. Avant d’aller dans un quartier, un marché ou un campus, prenez le temps d’observer : quelles sont les langues parlées, les religions présentes, les besoins visibles, les lieux de rencontre ? Répartissez les rôles : certains sont doués pour engager la conversation, d’autres pour expliquer l’Évangile, d’autres pour prier ou pour assurer le suivi. Préparez ensemble les réponses aux objections les plus fréquentes, avec les textes bibliques qui s’y rapportent. Après chaque sortie, faites un bilan honnête : qu’avons-nous entendu ? Où avons-nous manqué de grâce ou de clarté ? Qui devons-nous recontacter ? Une équipe qui apprend de chaque sortie devient plus fidèle et plus fructueuse."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Ibrahim, ancien musulman devenu chrétien il y a quatre ans, sert dans l’équipe d’évangélisation de son Église. À l’université, il partage sa chambre avec Moussa, très pieux, qui le considère comme un traître. Dans le même couloir vit Clarisse, étudiante en biologie, qui pense que la foi est une superstition réservée aux gens peu instruits, et Jean-Paul, qui fréquente à la fois l’Église et un guérisseur traditionnel « pour être protégé des deux côtés ». Un soir, une discussion animée éclate dans la cuisine commune, et les trois se tournent vers Ibrahim : « Toi qui as changé de religion, explique-nous pourquoi la tienne serait la seule vraie. »",
+    "questions": [
+     "Comment Ibrahim peut-il suivre la démarche de Paul à Athènes (écouter, trouver un point de départ, annoncer) avec chacune de ces trois personnes ?",
+     "Quels points de départ différents pourrait-il choisir pour Moussa, Clarisse et Jean-Paul ?",
+     "Comment affirmer l’unicité de Christ (Jean 14.6 ; Actes 4.12) sans mépriser personne ni humilier Moussa devant les autres ?",
+     "Que doit-il éviter dans cette discussion, et que pourrait-il proposer pour la suite ?"
+    ]
+   },
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "À Athènes, Paul commence son discours en traitant ses auditeurs d’ignorants et d’idolâtres.",
+      "vrai": false,
+      "explication": "Il dit : « je vous trouve à tous égards extrêmement religieux » et part de l’autel « à un dieu inconnu » (Actes 17.22-23)."
+     },
+     {
+      "affirmation": "Paul cite des poètes grecs dans son discours à l’Aréopage.",
+      "vrai": true,
+      "explication": "« C’est ce qu’ont dit aussi quelques-uns de vos poètes : De lui nous sommes la race » (Actes 17.28)."
+     },
+     {
+      "affirmation": "Paul évite de parler de la résurrection pour ne pas choquer les philosophes.",
+      "vrai": false,
+      "explication": "Il termine par le jugement et la résurrection de Jésus, et c’est ce point qui divise ses auditeurs (Actes 17.31-32)."
+     },
+     {
+      "affirmation": "Personne ne crut après le discours de Paul à Athènes.",
+      "vrai": false,
+      "explication": "Denys l’aréopagite, une femme nommée Damaris et d’autres crurent (Actes 17.34)."
+     },
+     {
+      "affirmation": "Se faire « tout à tous » signifie, pour Paul, adapter sa manière d’agir sans renoncer à la loi de Christ.",
+      "vrai": true,
+      "explication": "1 Corinthiens 9.21-22."
+     },
+     {
+      "affirmation": "Selon Colossiens 4.6, notre parole envers ceux du dehors doit être accompagnée de grâce et assaisonnée de sel.",
+      "vrai": true,
+      "explication": "Colossiens 4.6."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque attitude dans le témoignage.",
+     "categories": [
+      "Adaptation légitime",
+      "Compromis sur le message",
+      "Mépris ou contrainte"
+     ],
+     "elements": [
+      {
+       "texte": "Commencer par une question sur la souffrance que la personne a vécue.",
+       "categorie": 0,
+       "explication": "Paul part de ce que ses auditeurs connaissent (Actes 17.23)."
+      },
+      {
+       "texte": "Dire que Jésus est un chemin parmi d’autres, pour ne pas froisser.",
+       "categorie": 1,
+       "explication": "« Nul ne vient au Père que par moi » (Jean 14.6)."
+      },
+      {
+       "texte": "Se moquer publiquement de la religion d’un collègue.",
+       "categorie": 2,
+       "explication": "La parole doit être « accompagnée de grâce » (Colossiens 4.6) et le serviteur ne doit pas avoir de querelles (2 Timothée 2.24)."
+      },
+      {
+       "texte": "Citer un proverbe de la culture locale qui exprime une vérité sur Dieu.",
+       "categorie": 0,
+       "explication": "Paul cite des poètes grecs (Actes 17.28)."
+      },
+      {
+       "texte": "Ne jamais parler de repentance ni de jugement pour rester agréable.",
+       "categorie": 1,
+       "explication": "Paul annonce la repentance et le jugement (Actes 17.30-31)."
+      },
+      {
+       "texte": "Promettre un emploi ou de l’argent à celui qui se convertira.",
+       "categorie": 2,
+       "explication": "La foi ne s’achète pas ; elle naît de la parole et de l’œuvre de Dieu (Romains 10.17 ; Actes 8.20)."
+      },
+      {
+       "texte": "Renoncer à ses habitudes culturelles pour que rien d’inutile ne fasse obstacle.",
+       "categorie": 0,
+       "explication": "1 Corinthiens 9.19-23."
+      },
+      {
+       "texte": "Ajouter Jésus aux protections du guérisseur pour être « couvert des deux côtés ».",
+       "categorie": 1,
+       "explication": "La repentance consiste à se détourner des idoles vers le Dieu vivant (Actes 14.15 ; 1 Thessaloniciens 1.9)."
+      }
+     ]
+    }
+   },
+   "reflexion": [
+    "Quand je regarde ma ville ou mon quartier, est-ce que je ressens, comme Paul, une douleur devant ceux qui ne connaissent pas Dieu ?",
+    "Ai-je pris le temps de comprendre ce que croient vraiment les personnes de mon entourage ?",
+    "Ai-je tendance à diluer le message pour plaire, ou au contraire à blesser par une manière méprisante de parler ?",
+    "Avec quelle personne vais-je chercher un point de départ pour l’Évangile cette semaine ?"
+   ],
+   "retenir": [
+    "Paul à Athènes : il observe, il écoute, il part d’un point de contact (l’autel au dieu inconnu), puis il annonce le Créateur, la repentance, le jugement et la résurrection.",
+    "S’adapter (« tout à tous ») concerne la manière, jamais le contenu de l’Évangile ni la loi de Christ.",
+    "Christ est l’unique Sauveur (Jean 14.6 ; Actes 4.12), et cela se dit avec respect, douceur et sans aucune contrainte.",
+    "Le résultat appartient à Dieu : certains se moquent, d’autres réfléchissent, quelques-uns croient."
+   ],
+   "memoriser": {
+    "ref": "Colossiens 4.5-6",
+    "texte": "Conduisez-vous avec sagesse envers ceux du dehors, et rachetez le temps. Que votre parole soit toujours accompagnée de grâce, assaisonnée de sel, afin que vous sachiez comment il faut répondre à chacun."
+   },
+   "priere": "Seigneur, donne-moi un cœur qui souffre pour ceux qui ne te connaissent pas, des oreilles pour les écouter et une parole pleine de grâce et de vérité. Garde-moi du mépris comme du compromis, et ouvre les cœurs de ceux à qui je parlerai de toi. Amen."
   }
  ],
  "pratique": {
@@ -1113,6 +1398,116 @@
    ],
    "bonne": 3,
    "explication": "« Confie-le à des hommes fidèles, qui soient capables de l’enseigner aussi à d’autres » : gagner, affermir, envoyer."
+  },
+  {
+   "q": "Selon Actes 17.16, qu’éprouvait Paul en voyant Athènes ?",
+   "choix": [
+    "De l’admiration pour ses monuments",
+    "Une grande peur des philosophes",
+    "Une irritation intérieure à la vue de cette ville pleine d’idoles",
+    "De l’indifférence"
+   ],
+   "bonne": 2,
+   "explication": "« Il sentait au-dedans de lui son esprit s’irriter, à la vue de cette ville pleine d’idoles » (Actes 17.16)."
+  },
+  {
+   "q": "Quel point de contact Paul utilise-t-il au début de son discours à l’Aréopage ?",
+   "choix": [
+    "Un autel portant l’inscription « A un dieu inconnu »",
+    "Une prophétie d’Ésaïe",
+    "Un miracle accompli la veille",
+    "La statue d’Athéna"
+   ],
+   "bonne": 0,
+   "explication": "« J’ai même découvert un autel avec cette inscription : A un dieu inconnu ! Ce que vous révérez sans le connaître, c’est ce que je vous annonce » (Actes 17.23)."
+  },
+  {
+   "q": "Quels philosophes abordent Paul à Athènes (Actes 17.18) ?",
+   "choix": [
+    "Des pharisiens et des sadducéens",
+    "Des épicuriens et des stoïciens",
+    "Des prêtres d’Artémis",
+    "Des magiciens et des devins"
+   ],
+   "bonne": 1,
+   "explication": "« Quelques philosophes épicuriens et stoïciens se mirent à parler avec lui » (Actes 17.18)."
+  },
+  {
+   "q": "Selon Actes 17.31, quelle preuve certaine Dieu a-t-il donnée du jugement à venir ?",
+   "choix": [
+    "La destruction de Jérusalem",
+    "Les miracles des apôtres",
+    "La conversion de Denys",
+    "La résurrection de l’homme qu’il a désigné"
+   ],
+   "bonne": 3,
+   "explication": "Dieu a fixé un jour pour juger le monde « par l’homme qu’il a désigné, ce dont il a donné à tous une preuve certaine en le ressuscitant des morts » (Actes 17.31)."
+  },
+  {
+   "q": "Quelles furent les réactions des auditeurs de Paul à Athènes (Actes 17.32-34) ?",
+   "choix": [
+    "Tous crurent et furent baptisés",
+    "Ils le lapidèrent",
+    "Certains se moquèrent, d’autres voulurent l’entendre une autre fois, quelques-uns crurent",
+    "Ils l’adorèrent comme un dieu"
+   ],
+   "bonne": 2,
+   "explication": "Les uns se moquèrent, d’autres dirent « Nous t’entendrons là-dessus une autre fois », et quelques-uns crurent, dont Denys et Damaris."
+  },
+  {
+   "q": "Selon 1 Corinthiens 9.21-22, se faire « tout à tous » signifie pour Paul :",
+   "choix": [
+    "Adopter toutes les croyances de ses auditeurs",
+    "Adapter sa manière d’agir tout en restant sous la loi de Christ",
+    "Ne jamais contredire personne",
+    "Changer le contenu de l’Évangile selon les cultures"
+   ],
+   "bonne": 1,
+   "explication": "Paul n’est « point sans la loi de Dieu, étant sous la loi de Christ » ; il se fait tout à tous « afin d’en sauver de toute manière quelques-uns »."
+  },
+  {
+   "q": "Que signifie le verbe grec metanoeō, employé en Actes 17.30 ?",
+   "choix": [
+    "Changer de pensée et de direction",
+    "Pleurer sur ses fautes",
+    "Offrir un sacrifice",
+    "Ajouter un nouveau dieu à ceux qu’on adore"
+   ],
+   "bonne": 0,
+   "explication": "Se repentir, c’est changer de pensée et de direction : se détourner des idoles vers le Dieu vivant."
+  },
+  {
+   "q": "Un collègue affirme que toutes les religions mènent à Dieu. Quelle réponse est la plus fidèle à la leçon ?",
+   "choix": [
+    "Approuver pour garder la paix",
+    "Se moquer de sa naïveté",
+    "Refuser de lui parler à l’avenir",
+    "Affirmer avec respect que Jésus est le seul chemin, en l’écoutant et en l’invitant à lire les paroles de Jésus"
+   ],
+   "bonne": 3,
+   "explication": "L’unicité de Christ (Jean 14.6 ; Actes 4.12) se dit avec grâce et respect (Colossiens 4.6 ; 2 Timothée 2.24-25)."
+  },
+  {
+   "q": "Selon Romains 10.17, comment la foi vient-elle ?",
+   "choix": [
+    "Par les miracles seulement",
+    "De ce qu’on entend, et ce qu’on entend vient de la parole de Christ",
+    "Par la tradition familiale",
+    "Par l’effort personnel"
+   ],
+   "bonne": 1,
+   "explication": "« Ainsi la foi vient de ce qu’on entend, et ce qu’on entend vient de la parole de Christ » (Romains 10.17)."
+  },
+  {
+   "q": "Dans Jean 4, quelle demande Jésus adresse-t-il d’abord à la Samaritaine ?",
+   "choix": [
+    "De se repentir de son passé",
+    "De quitter son village",
+    "De lui donner à boire",
+    "D’aller chercher les anciens"
+   ],
+   "bonne": 2,
+   "explication": "« Donne-moi à boire » (Jean 4.7) : Jésus commence par une demande simple qui ouvre la conversation."
   }
  ]
 }

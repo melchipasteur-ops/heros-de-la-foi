@@ -110,82 +110,100 @@ $$$c31$;
 language sql stable security definer set search_path = public as $$
   select exists (select 1 from public.modules where id = p_module);
 $$$c32$;
-  execute $c33$create or replace function public.niveau_ouvert(p_user uuid, p_niveau int) returns boolean
+  execute $c33$create or replace function public.seuil(p_niveau int) returns numeric
+language sql immutable as $$
+  select (case p_niveau when 3 then 0.85 when 4 then 0.9 else 0.8 end)::numeric;
+$$$c33$;
+  execute $c34$create or replace function public.seuil_module(p_module text) returns numeric
+language sql stable security definer set search_path = public as $$
+  select coalesce((select public.seuil(niveau) from public.modules where id = p_module), 0.8);
+$$$c34$;
+  execute $c35$create or replace function public.test_nb_questions(p_niveau int) returns int
+language sql immutable as $$
+  select case p_niveau when 3 then 120 when 4 then 150 else 80 end;
+$$$c35$;
+  execute $c36$create or replace function public.test_duree(p_niveau int) returns int   language sql immutable as $$
+  select (case p_niveau when 3 then 37 when 4 then 45 else 25 end) * 60;
+$$$c36$;
+  execute $c37$create or replace function public.examen_duree(p_module text) returns int   language sql stable security definer set search_path = public as $$
+  select case when (select count(*) from public.cles_examen where module_id = p_module) > 20 then 20 * 60 else 15 * 60 end;
+$$$c37$;
+  execute $c38$create or replace function public.niveau_ouvert(p_user uuid, p_niveau int) returns boolean
 language sql stable security definer set search_path = public as $$
   select p_niveau = 1
     or not exists (
     select 1 from public.modules m
      where m.niveau = p_niveau - 1
        and not exists (select 1 from public.progression g
-                        where g.user_id = p_user and g.module_id = m.id and (g.meilleur >= 0.8 or g.cert_no is not null)))
+                        where g.user_id = p_user and g.module_id = m.id and (g.meilleur >= public.seuil(m.niveau) or g.cert_no is not null)))
     or exists (select 1 from public.tests_passage t where t.user_id = p_user and t.niveau = p_niveau - 1 and t.reussi)
     or exists (select 1 from public.progression g join public.modules m on m.id = g.module_id
-                where g.user_id = p_user and m.niveau = p_niveau and (g.meilleur >= 0.8 or g.cert_no is not null));
-$$$c33$;
-  execute $c34$create or replace function public.module_ouvert(p_user uuid, p_module text) returns boolean
+                where g.user_id = p_user and m.niveau = p_niveau and (g.meilleur >= public.seuil(m.niveau) or g.cert_no is not null));
+$$$c38$;
+  execute $c39$create or replace function public.module_ouvert(p_user uuid, p_module text) returns boolean
 language sql stable security definer set search_path = public as $$
   select coalesce((
     select m.ordre = 1 or exists (
       select 1 from public.modules prec
-        join public.progression g on g.module_id = prec.id and g.user_id = p_user and (g.meilleur >= 0.8 or g.cert_no is not null)
+        join public.progression g on g.module_id = prec.id and g.user_id = p_user and (g.meilleur >= public.seuil(prec.niveau) or g.cert_no is not null)
        where prec.ordre = m.ordre - 1)
       from public.modules m where m.id = p_module), false);
-$$$c34$;
-  execute $c35$alter table public.profils       enable row level security$c35$;
-  execute $c36$alter table public.progression   enable row level security$c36$;
-  execute $c37$alter table public.cles_examen   enable row level security$c37$;
-  execute $c38$alter table public.modules       enable row level security$c38$;
-  execute $c39$alter table public.tests_passage enable row level security$c39$;
-  execute $c40$alter table public.examens_en_cours enable row level security$c40$;
-  execute $c41$drop policy if exists "profil : lecture" on public.profils$c41$;
-  execute $c42$create policy "profil : lecture" on public.profils for select to authenticated
-  using (id = auth.uid() or public.est_enseignant())$c42$;
-  execute $c43$drop policy if exists "profil : modification" on public.profils$c43$;
-  execute $c44$create policy "profil : modification" on public.profils for update to authenticated
-  using (id = auth.uid()) with check (id = auth.uid())$c44$;
-  execute $c45$drop policy if exists "progression : lecture" on public.progression$c45$;
-  execute $c46$create policy "progression : lecture" on public.progression for select to authenticated
-  using (user_id = auth.uid() or public.est_enseignant())$c46$;
-  execute $c47$drop policy if exists "progression : notation enseignant" on public.progression$c47$;
-  execute $c48$create policy "progression : notation enseignant" on public.progression for update to authenticated
-  using (public.est_enseignant()) with check (public.est_enseignant())$c48$;
-  execute $c49$drop policy if exists "modules : lecture" on public.modules$c49$;
-  execute $c50$create policy "modules : lecture" on public.modules for select to anon, authenticated using (true)$c50$;
-  execute $c51$drop policy if exists "tests : lecture" on public.tests_passage$c51$;
-  execute $c52$create policy "tests : lecture" on public.tests_passage for select to authenticated
-  using (user_id = auth.uid() or public.est_enseignant())$c52$;
-  execute $c53$alter table public.photos     enable row level security$c53$;
-  execute $c54$drop policy if exists "photo : lecture" on public.photos$c54$;
-  execute $c55$create policy "photo : lecture" on public.photos for select to authenticated using (user_id = auth.uid() or public.est_enseignant())$c55$;
-  execute $c56$drop policy if exists "photo : ajout" on public.photos$c56$;
-  execute $c57$create policy "photo : ajout" on public.photos for insert to authenticated with check (user_id = auth.uid())$c57$;
-  execute $c58$drop policy if exists "photo : modification" on public.photos$c58$;
-  execute $c59$create policy "photo : modification" on public.photos for update to authenticated using (user_id = auth.uid()) with check (user_id = auth.uid())$c59$;
-  execute $c60$alter table public.reglages    enable row level security$c60$;
-  execute $c61$alter table public.suivi_notes enable row level security$c61$;
-  execute $c62$drop policy if exists "reglages : lecture" on public.reglages$c62$;
-  execute $c63$create policy "reglages : lecture" on public.reglages for select to authenticated using (true)$c63$;
-  execute $c64$drop policy if exists "reglages : enseignant" on public.reglages$c64$;
-  execute $c65$create policy "reglages : enseignant" on public.reglages for update to authenticated
-  using (public.est_enseignant()) with check (public.est_enseignant())$c65$;
-  execute $c66$drop policy if exists "suivi : lecture" on public.suivi_notes$c66$;
-  execute $c67$create policy "suivi : lecture" on public.suivi_notes for select to authenticated
-  using (public.est_enseignant() or (etudiant_id = auth.uid() and visible))$c67$;
-  execute $c68$drop policy if exists "suivi : ajout" on public.suivi_notes$c68$;
-  execute $c69$create policy "suivi : ajout" on public.suivi_notes for insert to authenticated
-  with check (public.est_enseignant() and enseignant_id = auth.uid())$c69$;
-  execute $c70$drop policy if exists "suivi : suppression" on public.suivi_notes$c70$;
-  execute $c71$create policy "suivi : suppression" on public.suivi_notes for delete to authenticated
-  using (public.est_enseignant() and enseignant_id = auth.uid())$c71$;
-  execute $c72$revoke all on public.profils, public.progression, public.cles_examen, public.modules, public.tests_passage, public.reglages, public.suivi_notes, public.photos, public.examens_en_cours from anon, authenticated$c72$;
-  execute $c73$grant select, insert (user_id, image, maj), update (user_id, image, maj) on public.photos to authenticated$c73$;
-  execute $c74$grant select, update (valeur) on public.reglages to authenticated$c74$;
-  execute $c75$grant select, insert (etudiant_id, enseignant_id, texte, visible), delete on public.suivi_notes to authenticated$c75$;
-  execute $c76$grant select on public.profils, public.progression, public.tests_passage to authenticated$c76$;
-  execute $c77$grant select on public.modules to anon, authenticated$c77$;
-  execute $c78$grant update (nom, eglise, nom_naissance, date_naissance, lieu_naissance, sexe, nationalite, telephone, pays, ville) on public.profils to authenticated$c78$;
-  execute $c79$grant update (note, commentaire, date_eval) on public.progression to authenticated$c79$;
-  execute $c80$create or replace function public.marquer_lecon(p_module text, p_lecon int) returns void
+$$$c39$;
+  execute $c40$alter table public.profils       enable row level security$c40$;
+  execute $c41$alter table public.progression   enable row level security$c41$;
+  execute $c42$alter table public.cles_examen   enable row level security$c42$;
+  execute $c43$alter table public.modules       enable row level security$c43$;
+  execute $c44$alter table public.tests_passage enable row level security$c44$;
+  execute $c45$alter table public.examens_en_cours enable row level security$c45$;
+  execute $c46$drop policy if exists "profil : lecture" on public.profils$c46$;
+  execute $c47$create policy "profil : lecture" on public.profils for select to authenticated
+  using (id = auth.uid() or public.est_enseignant())$c47$;
+  execute $c48$drop policy if exists "profil : modification" on public.profils$c48$;
+  execute $c49$create policy "profil : modification" on public.profils for update to authenticated
+  using (id = auth.uid()) with check (id = auth.uid())$c49$;
+  execute $c50$drop policy if exists "progression : lecture" on public.progression$c50$;
+  execute $c51$create policy "progression : lecture" on public.progression for select to authenticated
+  using (user_id = auth.uid() or public.est_enseignant())$c51$;
+  execute $c52$drop policy if exists "progression : notation enseignant" on public.progression$c52$;
+  execute $c53$create policy "progression : notation enseignant" on public.progression for update to authenticated
+  using (public.est_enseignant()) with check (public.est_enseignant())$c53$;
+  execute $c54$drop policy if exists "modules : lecture" on public.modules$c54$;
+  execute $c55$create policy "modules : lecture" on public.modules for select to anon, authenticated using (true)$c55$;
+  execute $c56$drop policy if exists "tests : lecture" on public.tests_passage$c56$;
+  execute $c57$create policy "tests : lecture" on public.tests_passage for select to authenticated
+  using (user_id = auth.uid() or public.est_enseignant())$c57$;
+  execute $c58$alter table public.photos     enable row level security$c58$;
+  execute $c59$drop policy if exists "photo : lecture" on public.photos$c59$;
+  execute $c60$create policy "photo : lecture" on public.photos for select to authenticated using (user_id = auth.uid() or public.est_enseignant())$c60$;
+  execute $c61$drop policy if exists "photo : ajout" on public.photos$c61$;
+  execute $c62$create policy "photo : ajout" on public.photos for insert to authenticated with check (user_id = auth.uid())$c62$;
+  execute $c63$drop policy if exists "photo : modification" on public.photos$c63$;
+  execute $c64$create policy "photo : modification" on public.photos for update to authenticated using (user_id = auth.uid()) with check (user_id = auth.uid())$c64$;
+  execute $c65$alter table public.reglages    enable row level security$c65$;
+  execute $c66$alter table public.suivi_notes enable row level security$c66$;
+  execute $c67$drop policy if exists "reglages : lecture" on public.reglages$c67$;
+  execute $c68$create policy "reglages : lecture" on public.reglages for select to authenticated using (true)$c68$;
+  execute $c69$drop policy if exists "reglages : enseignant" on public.reglages$c69$;
+  execute $c70$create policy "reglages : enseignant" on public.reglages for update to authenticated
+  using (public.est_enseignant()) with check (public.est_enseignant())$c70$;
+  execute $c71$drop policy if exists "suivi : lecture" on public.suivi_notes$c71$;
+  execute $c72$create policy "suivi : lecture" on public.suivi_notes for select to authenticated
+  using (public.est_enseignant() or (etudiant_id = auth.uid() and visible))$c72$;
+  execute $c73$drop policy if exists "suivi : ajout" on public.suivi_notes$c73$;
+  execute $c74$create policy "suivi : ajout" on public.suivi_notes for insert to authenticated
+  with check (public.est_enseignant() and enseignant_id = auth.uid())$c74$;
+  execute $c75$drop policy if exists "suivi : suppression" on public.suivi_notes$c75$;
+  execute $c76$create policy "suivi : suppression" on public.suivi_notes for delete to authenticated
+  using (public.est_enseignant() and enseignant_id = auth.uid())$c76$;
+  execute $c77$revoke all on public.profils, public.progression, public.cles_examen, public.modules, public.tests_passage, public.reglages, public.suivi_notes, public.photos, public.examens_en_cours from anon, authenticated$c77$;
+  execute $c78$grant select, insert (user_id, image, maj), update (user_id, image, maj) on public.photos to authenticated$c78$;
+  execute $c79$grant select, update (valeur) on public.reglages to authenticated$c79$;
+  execute $c80$grant select, insert (etudiant_id, enseignant_id, texte, visible), delete on public.suivi_notes to authenticated$c80$;
+  execute $c81$grant select on public.profils, public.progression, public.tests_passage to authenticated$c81$;
+  execute $c82$grant select on public.modules to anon, authenticated$c82$;
+  execute $c83$grant update (nom, eglise, nom_naissance, date_naissance, lieu_naissance, sexe, nationalite, telephone, pays, ville) on public.profils to authenticated$c83$;
+  execute $c84$grant update (note, commentaire, date_eval) on public.progression to authenticated$c84$;
+  execute $c85$create or replace function public.marquer_lecon(p_module text, p_lecon int) returns void
 language plpgsql security definer set search_path = public as $$
 begin
   if auth.uid() is null then raise exception 'Connexion requise'; end if;
@@ -195,8 +213,8 @@ begin
   on conflict (user_id, module_id) do update
     set lecons = (select array_agg(distinct x order by x) from unnest(progression.lecons || p_lecon) as x),
         maj = now();
-end $$$c80$;
-  execute $c81$create or replace function public.enregistrer_pratique(p_module text, p_texte text) returns void
+end $$$c85$;
+  execute $c86$create or replace function public.enregistrer_pratique(p_module text, p_texte text) returns void
 language plpgsql security definer set search_path = public as $$
 begin
   if auth.uid() is null then raise exception 'Connexion requise'; end if;
@@ -209,8 +227,8 @@ begin
         pratique_statut = case when progression.pratique = excluded.pratique then progression.pratique_statut else 'en_attente' end,
         pratique_date = case when progression.pratique = excluded.pratique then progression.pratique_date else now() end,
         maj = now();
-end $$$c81$;
-  execute $c82$create or replace function public.demarrer_examen(p_module text) returns jsonb
+end $$$c86$;
+  execute $c87$create or replace function public.demarrer_examen(p_module text) returns jsonb
 language plpgsql security definer set search_path = public as $$
 begin
   if auth.uid() is null then raise exception 'Connexion requise'; end if;
@@ -222,12 +240,13 @@ begin
   end if;
   insert into public.examens_en_cours (user_id, module_id, debut) values (auth.uid(), p_module, now())
   on conflict (user_id, module_id) do update set debut = now();
-  return jsonb_build_object('duree', 15 * 60);
-end $$$c82$;
-  execute $c83$create or replace function public.soumettre_examen(p_module text, p_reponses jsonb) returns jsonb
+  return jsonb_build_object('duree', public.examen_duree(p_module), 'seuil', public.seuil_module(p_module));
+end $$$c87$;
+  execute $c88$create or replace function public.soumettre_examen(p_module text, p_reponses jsonb) returns jsonb
 language plpgsql security definer set search_path = public as $$
 declare
   v_total int; v_ok int; v_score numeric; v_justes jsonb; v_bonnes jsonb; v_expl jsonb; v_debut timestamptz; v_retour boolean := false;
+  v_seuil numeric := public.seuil_module(p_module); v_duree int := public.examen_duree(p_module);
 begin
   if auth.uid() is null then raise exception 'Connexion requise'; end if;
   if not public.module_ouvert(auth.uid(), p_module) then raise exception 'Module verrouillé : terminez d''abord le module précédent'; end if;
@@ -244,11 +263,11 @@ begin
     into v_total, v_ok, v_justes, v_bonnes, v_expl
     from public.cles_examen where module_id = p_module;
   if v_total = 0 then raise exception 'Module inconnu'; end if;
-  -- Chrono : 15 minutes (plus 90 secondes de marge pour l'envoi)
+  -- Chrono : 15 ou 20 minutes (plus 90 secondes de marge pour l'envoi)
   select debut into v_debut from public.examens_en_cours where user_id = auth.uid() and module_id = p_module for update;
   if v_debut is null then raise exception 'Examen non démarré : recommencez l''examen.'; end if;
   delete from public.examens_en_cours where user_id = auth.uid() and module_id = p_module;
-  if now() - v_debut > interval '16 minutes 30 seconds' then raise exception 'Temps écoulé : les 15 minutes sont dépassées. Recommencez l''examen.'; end if;
+  if now() - v_debut > make_interval(secs => v_duree + 90) then raise exception 'Temps écoulé : les % minutes sont dépassées. Recommencez l''examen.', v_duree / 60; end if;
   v_score := round(v_ok::numeric / v_total, 4);
   insert into public.progression (user_id, module_id, tentatives, meilleur, dernier, date_examen)
   values (auth.uid(), p_module, 1, v_score, v_score, now())
@@ -256,17 +275,17 @@ begin
     set tentatives = progression.tentatives + 1,
         meilleur = greatest(progression.meilleur, excluded.meilleur),
         dernier = excluded.dernier, date_examen = now(), maj = now();
-  -- Copie complète en dessous de 16/20 (et module jamais réussi) : retour obligatoire au cours.
+  -- Copie en dessous de la note minimale (et module jamais réussi) : retour obligatoire au cours.
   -- Les leçons sont à refaire avant un nouvel examen, sauf si un enseignant autorise l'examen.
-  if v_score < 0.8 and (select meilleur from public.progression where user_id = auth.uid() and module_id = p_module) < 0.8 then
+  if v_score < v_seuil and (select meilleur from public.progression where user_id = auth.uid() and module_id = p_module) < v_seuil then
     update public.progression set lecons = '{}', etapes = '{}', maj = now() where user_id = auth.uid() and module_id = p_module;
     v_retour := true;
   end if;
-  return jsonb_build_object('score', v_ok, 'total', v_total, 'note20', round(v_score * 20, 1), 'justes', v_justes, 'retour_cours', v_retour,
-                            'bonnes', case when v_score >= 0.8 then v_bonnes end,
-                            'explications', case when v_score >= 0.8 then v_expl end);
-end $$$c83$;
-  execute $c84$create or replace function public.delivrer_attestation(p_module text) returns text
+  return jsonb_build_object('score', v_ok, 'total', v_total, 'note20', round(v_score * 20, 1), 'justes', v_justes, 'retour_cours', v_retour, 'seuil', v_seuil,
+                            'bonnes', case when v_score >= v_seuil then v_bonnes end,
+                            'explications', case when v_score >= v_seuil then v_expl end);
+end $$$c88$;
+  execute $c89$create or replace function public.delivrer_attestation(p_module text) returns text
 language plpgsql security definer set search_path = public as $$
 declare r public.progression; v_nom text; v_no text;
 begin
@@ -281,7 +300,7 @@ begin
      or not exists (select 1 from public.photos where user_id = auth.uid()) then
     raise exception 'Complétez votre fiche d''identité (nom de l''acte de naissance, date de naissance et photo) avant l''attestation';
   end if;
-  if r.meilleur < 0.8 then raise exception 'Examen non réussi : il faut au moins 16/20'; end if;
+  if r.meilleur < public.seuil_module(p_module) then raise exception 'Examen non réussi : il faut au moins %/20', round(public.seuil_module(p_module) * 20); end if;
   if length(trim(r.pratique)) < 80 then raise exception 'Témoignage de foi agissante manquant'; end if;
   if r.pratique_statut = 'a_revoir' then raise exception 'Votre enseignant vous demande de revoir votre témoignage avant l''attestation'; end if;
   if coalesce((select valeur = 'true'::jsonb from public.reglages where cle = 'validation_temoignage_obligatoire'), false)
@@ -292,8 +311,8 @@ begin
   update public.progression set cert_no = v_no, cert_date = now(), origine = 'cours', maj = now()
    where user_id = auth.uid() and module_id = p_module;
   return v_no;
-end $$$c84$;
-  execute $c85$create or replace function public.demarrer_test(p_niveau int) returns jsonb
+end $$$c89$;
+  execute $c90$create or replace function public.demarrer_test(p_niveau int) returns jsonb
 language plpgsql security definer set search_path = public as $$
 declare v_q jsonb; v_id uuid;
 begin
@@ -306,11 +325,11 @@ begin
   end if;
   -- Test commencé puis interrompu (page rechargée, réseau…) : on le reprend depuis le début, sans compter un essai de plus
   select id, questions into v_id, v_q from public.tests_passage
-   where user_id = auth.uid() and niveau = p_niveau and compte and fin is null and debut > now() - interval '26 minutes 30 seconds'
+   where user_id = auth.uid() and niveau = p_niveau and compte and fin is null and debut > now() - make_interval(secs => public.test_duree(p_niveau) + 90)
    order by debut desc limit 1;
   if v_id is not null then
     update public.tests_passage set debut = now() where id = v_id;
-    return jsonb_build_object('id', v_id, 'questions', v_q, 'duree', 25 * 60);
+    return jsonb_build_object('id', v_id, 'questions', v_q, 'duree', public.test_duree(p_niveau), 'seuil', public.seuil(p_niveau));
   end if;
   -- Seuls les tests terminés et corrigés comptent comme essais
   if (select count(*) from public.tests_passage where user_id = auth.uid() and niveau = p_niveau and compte and fin is not null and debut > now() - interval '24 hours') >= 3 then
@@ -318,19 +337,20 @@ begin
   end if;
   select jsonb_agg(jsonb_build_object('m', module_id, 'q', question)) into v_q from (
     select c.module_id, c.question from public.cles_examen c join public.modules m on m.id = c.module_id
-     where m.niveau = p_niveau order by random() limit 80) t;
+     where m.niveau = p_niveau order by random() limit public.test_nb_questions(p_niveau)) t;
   insert into public.tests_passage (user_id, niveau, questions) values (auth.uid(), p_niveau, v_q) returning id into v_id;
-  return jsonb_build_object('id', v_id, 'questions', v_q, 'duree', 25 * 60);
-end $$$c85$;
-  execute $c86$create or replace function public.recommencer_test(p_test uuid) returns jsonb
+  return jsonb_build_object('id', v_id, 'questions', v_q, 'duree', public.test_duree(p_niveau), 'seuil', public.seuil(p_niveau));
+end $$$c90$;
+  execute $c91$create or replace function public.recommencer_test(p_test uuid) returns jsonb
 language plpgsql security definer set search_path = public as $$
+declare v_niveau int;
 begin
   if auth.uid() is null then raise exception 'Connexion requise'; end if;
-  update public.tests_passage set debut = now() where id = p_test and user_id = auth.uid() and fin is null;
+  update public.tests_passage set debut = now() where id = p_test and user_id = auth.uid() and fin is null returning niveau into v_niveau;
   if not found then raise exception 'Test introuvable'; end if;
-  return jsonb_build_object('duree', 25 * 60);
-end $$$c86$;
-  execute $c87$create or replace function public.soumettre_test(p_test uuid, p_reponses jsonb) returns jsonb
+  return jsonb_build_object('duree', public.test_duree(v_niveau), 'seuil', public.seuil(v_niveau));
+end $$$c91$;
+  execute $c92$create or replace function public.soumettre_test(p_test uuid, p_reponses jsonb) returns jsonb
 language plpgsql security definer set search_path = public as $$
 declare t public.tests_passage; v_total int; v_ok int; v_note numeric; v_reussi boolean; v_nom text; m record;
 begin
@@ -338,14 +358,14 @@ begin
   select * into t from public.tests_passage where id = p_test and user_id = auth.uid() for update;
   if not found then raise exception 'Test introuvable'; end if;
   if t.fin is not null then raise exception 'Ce test a déjà été corrigé'; end if;
-  -- Chrono : 25 minutes (plus 90 secondes de marge pour l'envoi)
-  if now() - t.debut > interval '26 minutes 30 seconds' then raise exception 'Temps écoulé : les 25 minutes sont dépassées. Recommencez un test.'; end if;
+  -- Chrono : durée du test du niveau (plus 90 secondes de marge pour l'envoi)
+  if now() - t.debut > make_interval(secs => public.test_duree(t.niveau) + 90) then raise exception 'Temps écoulé : les % minutes sont dépassées. Recommencez un test.', public.test_duree(t.niveau) / 60; end if;
   select count(*), count(*) filter (where p_reponses->>(c.module_id || ':' || c.question) = c.reponse)
     into v_total, v_ok
     from jsonb_array_elements(t.questions) x
     join public.cles_examen c on c.module_id = x->>'m' and c.question = (x->>'q')::int;
   v_note := round(v_ok::numeric * 20 / greatest(v_total, 1), 1);
-  v_reussi := v_note >= 16;
+  v_reussi := v_note >= public.seuil(t.niveau) * 20;
   update public.tests_passage set fin = now(), bonnes = v_ok, total = v_total, note20 = v_note, reussi = v_reussi where id = p_test;
   if v_reussi then
     select nom into v_nom from public.profils where id = auth.uid();
@@ -362,9 +382,9 @@ begin
             maj = now();
     end loop;
   end if;
-  return jsonb_build_object('bonnes', v_ok, 'total', v_total, 'note20', v_note, 'reussi', v_reussi);
-end $$$c87$;
-  execute $c88$create or replace function public.marquer_etape(p_module text, p_lecon int, p_etape int, p_total int) returns void
+  return jsonb_build_object('bonnes', v_ok, 'total', v_total, 'note20', v_note, 'reussi', v_reussi, 'seuil', public.seuil(t.niveau));
+end $$$c92$;
+  execute $c93$create or replace function public.marquer_etape(p_module text, p_lecon int, p_etape int, p_total int) returns void
 language plpgsql security definer set search_path = public as $$
 declare v_avant int;
 begin
@@ -376,8 +396,8 @@ begin
   update public.progression
      set etapes = jsonb_set(etapes, array[p_lecon::text], jsonb_build_array(greatest(v_avant, p_etape), p_total)), maj = now()
    where user_id = auth.uid() and module_id = p_module;
-end $$$c88$;
-  execute $c89$create or replace function public.evaluer_temoignage(p_etudiant uuid, p_module text, p_statut text, p_avis text) returns void
+end $$$c93$;
+  execute $c94$create or replace function public.evaluer_temoignage(p_etudiant uuid, p_module text, p_statut text, p_avis text) returns void
 language plpgsql security definer set search_path = public as $$
 begin
   if not public.est_enseignant() then raise exception 'Réservé aux enseignants'; end if;
@@ -385,8 +405,8 @@ begin
   update public.progression set pratique_statut = p_statut, pratique_avis = nullif(left(trim(coalesce(p_avis, '')), 1000), ''), maj = now()
    where user_id = p_etudiant and module_id = p_module;
   if not found then raise exception 'Module non commencé par cet étudiant'; end if;
-end $$$c89$;
-  execute $c90$create or replace function public.attribuer_etudiant(p_etudiant uuid, p_enseignant uuid) returns void
+end $$$c94$;
+  execute $c95$create or replace function public.attribuer_etudiant(p_etudiant uuid, p_enseignant uuid) returns void
 language plpgsql security definer set search_path = public as $$
 begin
   if not public.est_enseignant() then raise exception 'Réservé aux enseignants'; end if;
@@ -394,16 +414,16 @@ begin
     raise exception 'Cette personne n''est pas enseignant';
   end if;
   update public.profils set enseignant_id = p_enseignant where id = p_etudiant;
-end $$$c90$;
-  execute $c91$create or replace function public.mon_suivi() returns jsonb
+end $$$c95$;
+  execute $c96$create or replace function public.mon_suivi() returns jsonb
 language sql stable security definer set search_path = public as $$
   select jsonb_build_object(
     'enseignant', (select e.nom from public.profils p join public.profils e on e.id = p.enseignant_id where p.id = auth.uid()),
     'messages', coalesce((select jsonb_agg(jsonb_build_object('texte', n.texte, 'date', n.cree, 'auteur', e.nom) order by n.cree desc)
                             from public.suivi_notes n left join public.profils e on e.id = n.enseignant_id
                            where n.etudiant_id = auth.uid() and n.visible), '[]'::jsonb));
-$$$c91$;
-  execute $c92$create or replace function public.rattraper_attestations() returns int
+$$$c96$;
+  execute $c97$create or replace function public.rattraper_attestations() returns int
 language plpgsql security definer set search_path = public as $$
 declare v_n int;
 begin
@@ -423,16 +443,16 @@ begin
         maj = now();
   get diagnostics v_n = row_count;
   return v_n;
-end $$$c92$;
-  execute $c93$create or replace function public.verifier_attestation(p_no text) returns jsonb
+end $$$c97$;
+  execute $c98$create or replace function public.verifier_attestation(p_no text) returns jsonb
 language sql stable security definer set search_path = public as $$
   select jsonb_build_object('nom', coalesce(nullif(trim(p.nom_naissance), ''), p.nom), 'module', g.module_id, 'date', g.cert_date, 'score', g.meilleur, 'origine', g.origine,
                             'photo', ph.image)  -- photo d'identité : affichée à la vérification pour reconnaître le titulaire
     from public.progression g join public.profils p on p.id = g.user_id
     left join public.photos ph on ph.user_id = g.user_id
    where g.cert_no = upper(trim(p_no));
-$$$c93$;
-  execute $c94$create or replace function public.autoriser_test(p_etudiant uuid, p_niveau int) returns int
+$$$c98$;
+  execute $c99$create or replace function public.autoriser_test(p_etudiant uuid, p_niveau int) returns int
 language plpgsql security definer set search_path = public as $$
 declare v_n int;
 begin
@@ -440,8 +460,8 @@ begin
   update public.tests_passage set compte = false where user_id = p_etudiant and niveau = p_niveau and compte and not coalesce(reussi, false);
   get diagnostics v_n = row_count;
   return v_n;
-end $$$c94$;
-  execute $c95$create or replace function public.autoriser_examen(p_etudiant uuid, p_module text) returns void
+end $$$c99$;
+  execute $c100$create or replace function public.autoriser_examen(p_etudiant uuid, p_module text) returns void
 language plpgsql security definer set search_path = public as $$
 declare v_nb int;
 begin
@@ -450,17 +470,18 @@ begin
   if v_nb is null then raise exception 'Module inconnu'; end if;
   insert into public.progression (user_id, module_id, lecons) values (p_etudiant, p_module, array(select generate_series(0, v_nb - 1)))
   on conflict (user_id, module_id) do update set lecons = excluded.lecons, maj = now();
-end $$$c95$;
-  execute $c96$revoke execute on function public.marquer_lecon(text,int), public.enregistrer_pratique(text,text),
+end $$$c100$;
+  execute $c101$revoke execute on function public.marquer_lecon(text,int), public.enregistrer_pratique(text,text),
   public.soumettre_examen(text,jsonb), public.delivrer_attestation(text), public.verifier_attestation(text),
   public.demarrer_test(int), public.soumettre_test(uuid,jsonb), public.demarrer_examen(text), public.recommencer_test(uuid), public.autoriser_test(uuid,int), public.autoriser_examen(uuid,text),
   public.est_enseignant(), public.module_existe(text), public.module_ouvert(uuid,text), public.niveau_ouvert(uuid,int),
   public.marquer_etape(text,int,int,int), public.evaluer_temoignage(uuid,text,text,text), public.attribuer_etudiant(uuid,uuid), public.mon_suivi(), public.rattraper_attestations(),
-  public.creer_profil() from public, anon$c96$;
-  execute $c97$grant execute on function public.marquer_lecon(text,int), public.enregistrer_pratique(text,text),
+  public.seuil_module(text), public.examen_duree(text),
+  public.creer_profil() from public, anon$c101$;
+  execute $c102$grant execute on function public.marquer_lecon(text,int), public.enregistrer_pratique(text,text),
   public.soumettre_examen(text,jsonb), public.delivrer_attestation(text), public.demarrer_test(int),
   public.soumettre_test(uuid,jsonb), public.demarrer_examen(text), public.recommencer_test(uuid), public.autoriser_test(uuid,int), public.autoriser_examen(uuid,text), public.est_enseignant(), public.module_existe(text),
-  public.marquer_etape(text,int,int,int), public.evaluer_temoignage(uuid,text,text,text), public.attribuer_etudiant(uuid,uuid), public.mon_suivi(), public.rattraper_attestations() to authenticated$c97$;
-  execute $c98$grant execute on function public.verifier_attestation(text) to anon, authenticated$c98$;
+  public.marquer_etape(text,int,int,int), public.evaluer_temoignage(uuid,text,text,text), public.attribuer_etudiant(uuid,uuid), public.mon_suivi(), public.rattraper_attestations() to authenticated$c102$;
+  execute $c103$grant execute on function public.verifier_attestation(text) to anon, authenticated$c103$;
 end
 $principal$;
