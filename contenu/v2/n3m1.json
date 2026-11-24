@@ -5,7 +5,8 @@
  "introduction": [
   "Un serviteur de Dieu ne peut pas bâtir solidement sur des convictions floues. Beaucoup de croyants aiment Dieu sincèrement, mais sont incapables d’expliquer pourquoi le monde va mal, comment la croix nous sauve ou ce qui nous attend après la mort. Cette fragilité les rend vulnérables aux faux enseignements, aux modes religieuses et aux objections de leur entourage. Jude exhortait déjà les croyants « à combattre pour la foi qui a été transmise aux saints une fois pour toutes » (Jude 3).",
   "Ce module parcourt le grand fil de la Bible : la création, la chute, la rédemption en Jésus-Christ, l’Église et la restauration finale. Pour chaque doctrine, nous lirons les textes de base, nous les étudierons dans leur contexte, nous verrons les mots clés hébreux et grecs, puis nous chercherons comment ces vérités changent notre manière de vivre au travail, en famille, dans le deuil, face aux réseaux sociaux ou aux religions qui nous entourent.",
-  "La doctrine n’est pas une matière froide réservée aux théologiens. Elle est la charpente de la vie chrétienne : elle nourrit l’adoration, rassure dans l’épreuve, guide les décisions et permet de servir les autres avec justesse. À la fin du module, tu rédigeras ta propre confession de foi, avec les versets qui la fondent, afin de pouvoir « rendre compte de l’espérance » qui est en toi (1 Pierre 3.15)."
+  "La doctrine n’est pas une matière froide réservée aux théologiens. Elle est la charpente de la vie chrétienne : elle nourrit l’adoration, rassure dans l’épreuve, guide les décisions et permet de servir les autres avec justesse. À la fin du module, tu rédigeras ta propre confession de foi, avec les versets qui la fondent, afin de pouvoir « rendre compte de l’espérance » qui est en toi (1 Pierre 3.15).",
+  "Une quatrième leçon complète ce parcours : le Dieu unique en trois personnes, l’œuvre du Saint-Esprit et l’autorité de l’Écriture. Ce sont les fondations de toutes les autres doctrines. Sans elles, on ne sait plus qui est le Dieu que l’on sert, ni par quelle puissance on le sert, ni sur quelle parole on s’appuie. Cette leçon demande un effort de réflexion plus soutenu : prends le temps de relire les passages, de noter tes questions et d’en parler avec ton responsable."
  ],
  "lecturesObligatoires": [
   {
@@ -47,6 +48,14 @@
   {
    "ref": "Apocalypse 21.1 – 22.5",
    "consigne": "Note les éléments qui rappellent le jardin d’Éden de Genèse 2 et ce qui a disparu pour toujours."
+  },
+  {
+   "ref": "Jean 14.15 – 16.15",
+   "consigne": "Relève tout ce que Jésus dit du consolateur : qui l’envoie, ce qu’il fait pour les disciples, ce qu’il fait envers le monde."
+  },
+  {
+   "ref": "2 Timothée 3.10 – 4.5 et 2 Pierre 1.16-21",
+   "consigne": "Note ce que ces deux textes affirment de l’origine de l’Écriture et de son utilité pour la vie du croyant."
   }
  ],
  "lecons": [
@@ -854,6 +863,288 @@
      ]
     }
    }
+  },
+  {
+   "titre": "Le Dieu trinitaire, le Saint-Esprit et l’Écriture",
+   "illustration": "colombe",
+   "lectures": [
+    {
+     "ref": "Matthieu 3.13-17",
+     "resume": "Au baptême de Jésus, le Fils est dans l’eau, l’Esprit descend comme une colombe et la voix du Père se fait entendre : le Dieu unique se révèle en trois personnes."
+    },
+    {
+     "ref": "Jean 14.15-26",
+     "resume": "Jésus promet « un autre consolateur », l’Esprit de vérité, qui demeurera avec les disciples, en eux, et leur enseignera toutes choses."
+    },
+    {
+     "ref": "Jean 16.7-15",
+     "resume": "L’Esprit convaincra le monde de péché, de justice et de jugement, conduira les disciples dans toute la vérité et glorifiera le Fils."
+    },
+    {
+     "ref": "2 Timothée 3.14-17",
+     "resume": "Toute Écriture est inspirée de Dieu et utile pour enseigner, convaincre, corriger et instruire, afin que l’homme de Dieu soit accompli."
+    }
+   ],
+   "recit": {
+    "titre": "Le baptême de Jésus au Jourdain",
+    "ref": "Matthieu 3.1-17",
+    "paragraphes": [
+     "Depuis des mois, une voix criait dans le désert de Judée. Jean, vêtu de poil de chameau, une ceinture de cuir autour des reins, se nourrissait de sauterelles et de miel sauvage. Il appelait le peuple à la repentance : « Repentez-vous, car le royaume des cieux est proche. » Les foules descendaient de Jérusalem et de toute la Judée vers le Jourdain ; elles confessaient leurs péchés et se faisaient baptiser. Aux religieux venus le voir par curiosité, Jean parlait sans détour : il ne suffisait pas de se dire enfant d’Abraham, il fallait produire « du fruit digne de la repentance ». Et il annonçait quelqu’un de plus grand que lui : « Lui, il vous baptisera du Saint-Esprit et de feu. »",
+     "Un jour, parmi ceux qui attendaient au bord du fleuve, se présenta un homme venu de Galilée. Rien, dans son apparence, ne le distinguait des autres : un artisan de Nazareth, à peine âgé d’une trentaine d’années. Mais Jean le reconnut, et il recula. « C’est moi qui ai besoin d’être baptisé par toi, et tu viens à moi ! » Le prédicateur de la repentance savait que cet homme-là n’avait aucun péché à confesser. Jésus lui répondit avec calme : « Laisse faire maintenant, car il est convenable que nous accomplissions ainsi tout ce qui est juste. » Le Fils prenait place au milieu des pécheurs, solidaire de ceux qu’il venait sauver, comme il prendrait place plus tard entre deux brigands.",
+     "Jean céda. Jésus descendit dans l’eau, puis remonta. Et voici, les cieux s’ouvrirent. Ce que les prophètes avaient demandé, « Oh ! si tu déchirais les cieux, et si tu descendais », arrivait sous les yeux d’une foule ordinaire. Jésus vit l’Esprit de Dieu descendre comme une colombe et venir sur lui. La colombe rappelait peut-être l’Esprit qui se mouvait au-dessus des eaux au premier jour de la création, ou la colombe de Noé annonçant un monde nouveau après le jugement. Un nouveau commencement s’ouvrait.",
+     "Alors une voix se fit entendre des cieux : « Celui-ci est mon Fils bien-aimé, en qui j’ai mis toute mon affection. » Ces paroles faisaient écho à deux textes que tout Israélite connaissait : le Psaume 2, où Dieu dit au roi qu’il a établi « Tu es mon fils », et Ésaïe 42, où Dieu présente « mon serviteur… mon élu, en qui mon âme prend plaisir », sur qui il a mis son Esprit. Le Roi et le Serviteur souffrant étaient une seule et même personne, et c’était cet homme sorti de l’eau.",
+     "Au bord du Jourdain, en un seul instant, la foule avait assisté à quelque chose d’inouï : le Fils dans l’eau, l’Esprit descendant sur lui, le Père parlant du ciel. Aucun d’eux ne pouvait encore l’exprimer avec des mots savants. Mais l’Église, en méditant ce récit et tout le Nouveau Testament, confesserait plus tard ce que ce jour-là donnait à voir : un seul Dieu, Père, Fils et Saint-Esprit, uni dans l’amour et dans l’œuvre du salut. Aussitôt après, le même Esprit conduirait Jésus au désert, et le Fils bien-aimé commencerait son ministère dans la puissance de l’Esprit."
+    ],
+    "lecons": [
+     "La Trinité n’est pas une invention de philosophes : elle se donne à voir dans les grands moments de l’histoire du salut, comme le baptême de Jésus.",
+     "Le Père aime le Fils et le déclare publiquement ; c’est dans ce Fils bien-aimé que nous sommes, nous aussi, accueillis comme enfants.",
+     "Jésus commence son ministère en se plaçant au milieu des pécheurs : le Dieu trinitaire vient vers nous au lieu d’attendre que nous montions vers lui.",
+     "Le ministère de Jésus se déroule dans la puissance de l’Esprit ; à plus forte raison, notre service a besoin de cette même puissance."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Un seul Dieu : la confession d’Israël",
+     "paragraphes": [
+      "La foi chrétienne ne commence pas par trois dieux, mais par la grande confession d’Israël, le Schema : « Écoute, Israël ! L’Éternel, notre Dieu, est le seul Éternel » (Deutéronome 6.4). Au milieu de peuples qui adoraient le soleil, la fertilité, la guerre ou les ancêtres divinisés, Israël devait proclamer qu’il n’y a qu’un seul Dieu, Créateur et Seigneur de tout. Jésus lui-même cite ce texte comme le premier commandement (Marc 12.29). Les apôtres n’ont jamais renoncé à cette conviction : « il y a un seul Dieu » (1 Timothée 2.5).",
+      "Le mot hébreu traduit par « seul » est ’eḥād. Il signifie « un », mais il peut désigner une unité qui comprend plusieurs éléments : en Genèse 2.24, l’homme et la femme deviennent « une seule chair » (bāśār ’eḥād). Il ne faut pas faire dire à ce mot plus qu’il ne dit ; il affirme d’abord qu’Israël n’a qu’un Dieu, sans rival. Mais il laisse la place à ce que le Nouveau Testament révélera : l’unité de Dieu n’est pas une solitude froide, c’est une communion."
+     ]
+    },
+    {
+     "titre": "Le Père, le Fils et l’Esprit dans le Nouveau Testament",
+     "paragraphes": [
+      "Les premiers chrétiens étaient juifs et monothéistes. Pourtant, ils ont adoré Jésus et prié en son nom, et ils ont parlé de l’Esprit comme d’une personne divine. Jean ouvre son Évangile ainsi : « Au commencement était la Parole, et la Parole était avec Dieu, et la Parole était Dieu » (Jean 1.1). La Parole est distincte de Dieu (« avec Dieu ») et elle est Dieu. Quand Ananias ment au Saint-Esprit, Pierre lui dit : « Ce n’est pas à des hommes que tu as menti, mais à Dieu » (Actes 5.3-4). Mentir à l’Esprit, c’est mentir à Dieu.",
+      "Plusieurs textes nomment les trois personnes ensemble, sur un pied d’égalité. Jésus envoie ses disciples baptiser « au nom du Père, du Fils et du Saint-Esprit » (Matthieu 28.19) : remarquons que le mot « nom » est au singulier. Paul termine sa deuxième lettre aux Corinthiens par une bénédiction : « Que la grâce du Seigneur Jésus-Christ, l’amour de Dieu, et la communication du Saint-Esprit, soient avec vous tous ! » (2 Corinthiens 13.13). Pierre salue des croyants « élus selon la prescience de Dieu le Père, par la sanctification de l’Esprit » pour participer « à l’aspersion du sang de Jésus-Christ » (1 Pierre 1.2). Le salut entier est l’œuvre du Père qui choisit, du Fils qui rachète et de l’Esprit qui applique et sanctifie.",
+      "Le mot « Trinité » ne se trouve pas dans la Bible, mais la réalité qu’il désigne s’y trouve. Au quatrième siècle, face à ceux qui faisaient du Fils une créature supérieure, le concile de Nicée (325) a confessé que le Fils est « de même nature » que le Père. Ces formules ne remplacent pas l’Écriture ; elles servent de garde-fous pour la lire fidèlement. Trois erreurs sont à éviter : dire qu’il y a trois dieux, dire que le Père, le Fils et l’Esprit ne sont que trois masques d’une seule personne, ou dire que le Fils et l’Esprit sont inférieurs en nature au Père."
+     ]
+    },
+    {
+     "titre": "Jean 14 à 16 : l’autre consolateur",
+     "paragraphes": [
+      "Le soir de son arrestation, Jésus prépare ses disciples à son départ. Ils sont troublés ; il leur promet : « Je prierai le Père, et il vous donnera un autre consolateur, afin qu’il demeure éternellement avec vous, l’Esprit de vérité » (Jean 14.16-17). Le mot grec paraklētos désigne celui que l’on appelle à ses côtés : un avocat, un défenseur, un conseiller, un réconfort. « Un autre » (allos) signifie un autre du même genre : l’Esprit sera pour les disciples ce que Jésus a été pour eux, mais il sera « en eux », et pour toujours.",
+      "Jésus parle de l’Esprit comme d’une personne : il enseigne, il rappelle (Jean 14.26), il rend témoignage (15.26), il convainc le monde « en ce qui concerne le péché, la justice, et le jugement » (16.8), il conduit « dans toute la vérité », il entend et il annonce (16.13). Paul ajoute qu’on peut l’attrister (Éphésiens 4.30). On n’attriste pas une force ou une énergie : on attriste quelqu’un qui aime. Enfin, Jésus précise le centre du ministère de l’Esprit : « Il me glorifiera, parce qu’il prendra de ce qui est à moi, et vous l’annoncera » (Jean 16.14). Un ministère qui attire toute l’attention sur l’homme, sur les manifestations ou sur l’argent, au lieu de glorifier Christ, ne porte pas la marque de l’Esprit."
+     ]
+    },
+    {
+     "titre": "2 Timothée 3.16 et 2 Pierre 1.21 : l’Écriture inspirée",
+     "paragraphes": [
+      "Paul écrit sa deuxième lettre à Timothée depuis sa prison, peu avant sa mort. Il sait que des temps difficiles viennent et que de faux maîtres séduiront beaucoup de gens. Que laisser à son disciple ? L’Écriture. « Toute Écriture est inspirée de Dieu, et utile pour enseigner, pour convaincre, pour corriger, pour instruire dans la justice, afin que l’homme de Dieu soit accompli et propre à toute bonne œuvre » (2 Timothée 3.16-17). Le mot grec theopneustos signifie littéralement « soufflée par Dieu ». L’Écriture n’est pas seulement un livre inspirant : elle sort de la bouche de Dieu.",
+      "Pierre décrit la manière dont Dieu l’a fait : « ce n’est pas par une volonté d’homme qu’une prophétie a jamais été apportée, mais c’est poussés par le Saint-Esprit que des hommes ont parlé de la part de Dieu » (2 Pierre 1.21). Le verbe « poussés » (pheromenoi) évoque un bateau poussé par le vent. Les auteurs bibliques ont écrit avec leur vocabulaire, leur style, leur culture et leurs émotions ; mais l’Esprit les conduisait de sorte que ce qu’ils écrivaient était la parole de Dieu. C’est pourquoi l’Écriture fait autorité au-dessus de toute tradition, de toute vision et de toute prophétie actuelle, qui doivent toujours être examinées à sa lumière (1 Thessaloniciens 5.20-21)."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "un, seul",
+     "langue": "hébreu",
+     "original": "’eḥād",
+     "sens": "Un, unique ; employé dans le Schema (Deutéronome 6.4) et pour « une seule chair » (Genèse 2.24) : une unité qui peut comprendre plusieurs personnes."
+    },
+    {
+     "mot": "consolateur",
+     "langue": "grec",
+     "original": "paraklētos",
+     "sens": "Celui qu’on appelle à ses côtés : avocat, défenseur, conseiller, réconfort ; nom donné au Saint-Esprit en Jean 14 à 16."
+    },
+    {
+     "mot": "inspirée de Dieu",
+     "langue": "grec",
+     "original": "theopneustos",
+     "sens": "Littéralement « soufflée par Dieu » : l’Écriture sort de la bouche de Dieu (2 Timothée 3.16)."
+    },
+    {
+     "mot": "poussés",
+     "langue": "grec",
+     "original": "pheromenoi",
+     "sens": "Portés, poussés, comme un navire par le vent : l’Esprit conduisait les auteurs de l’Écriture (2 Pierre 1.21)."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Pourquoi la Trinité compte pour la vie chrétienne",
+     "paragraphes": [
+      "On pense parfois que la Trinité est une énigme réservée aux théologiens. En réalité, elle touche le cœur de l’Évangile. Si Jésus n’était pas Dieu, sa mort ne pourrait pas porter le péché du monde, et nous adorerions une créature. Si l’Esprit n’était pas Dieu, il ne pourrait pas nous faire naître de nouveau ni habiter en nous. Et si Dieu était une seule personne solitaire, il aurait eu besoin de créer le monde pour avoir quelqu’un à aimer. Le Dieu de la Bible n’a besoin de rien : de toute éternité, le Père aime le Fils dans l’Esprit (Jean 17.24). La création et le salut sont le débordement libre de cet amour.",
+      "La Trinité façonne aussi notre prière : nous prions le Père, au nom du Fils, par l’Esprit. « Dieu a envoyé dans nos cœurs l’Esprit de son Fils, lequel crie : Abba ! Père ! » (Galates 4.6). Elle façonne l’Église : unité et diversité ne s’opposent pas, puisque Dieu lui-même est un et trois. Elle façonne le couple et la famille : des personnes égales en dignité, différentes, unies dans l’amour. Un serviteur de Dieu n’a pas besoin d’expliquer parfaitement ce mystère ; il doit le confesser fidèlement, l’adorer, et savoir montrer dans l’Écriture pourquoi l’Église le croit."
+     ]
+    },
+    {
+     "titre": "L’œuvre du Saint-Esprit dans le croyant et dans l’Église",
+     "paragraphes": [
+      "Le Saint-Esprit était à l’œuvre dès la création, « l’esprit de Dieu se mouvait au-dessus des eaux » (Genèse 1.2). Il a parlé par les prophètes, il a formé l’humanité de Jésus dans le sein de Marie et l’a oint pour son ministère. Aujourd’hui, il convainc le monde de péché (Jean 16.8) ; il fait naître de nouveau (Jean 3.5 ; Tite 3.5) ; il scelle le croyant comme propriété de Dieu et lui sert de « gage de notre héritage » (Éphésiens 1.13-14) ; il rend témoignage à notre esprit « que nous sommes enfants de Dieu » (Romains 8.16) ; il intercède pour nous « par des soupirs inexprimables » (Romains 8.26) ; il produit son fruit et distribue ses dons pour l’utilité commune.",
+      "Les chrétiens évangéliques ne sont pas tous d’accord sur certains points : la manière de décrire le baptême du Saint-Esprit, la place des dons comme les langues ou la prophétie aujourd’hui. Ces débats méritent le respect. Mais tous reconnaissent quelques repères : l’Esprit glorifie Christ, il ne contredit jamais l’Écriture qu’il a inspirée, il produit la sainteté et l’amour plus que le spectacle, et il donne des dons pour servir, non pour se faire valoir. Quand un « ministère » humilie les gens, exige de l’argent en échange de bénédictions, ou annonce des révélations qui contredisent la Bible, il faut avoir le courage de dire que ce n’est pas l’œuvre de l’Esprit de vérité."
+     ]
+    },
+    {
+     "titre": "L’autorité, la suffisance et la clarté de l’Écriture",
+     "paragraphes": [
+      "Parce qu’elle est inspirée, l’Écriture a l’autorité même de Dieu. Jésus la cite comme le dernier mot dans ses débats : « il est écrit », et il affirme que « l’Écriture ne peut être anéantie » (Jean 10.35). Elle est suffisante : elle contient tout ce qui est nécessaire pour connaître le salut et vivre d’une manière qui plaît à Dieu, afin que l’homme de Dieu soit « propre à toute bonne œuvre ». Nous n’avons pas besoin d’une révélation secrète supplémentaire pour savoir comment être sauvés ou comment vivre saintement. Elle est claire dans ce qui est essentiel : un enfant peut comprendre l’Évangile, même si les érudits n’auront jamais fini de l’approfondir.",
+      "Cela ne veut pas dire que Dieu ne parle plus. Il conduit ses enfants, il éclaire leur esprit, il peut se servir d’un conseil, d’une circonstance ou d’une parole prophétique. Mais tout cela est subordonné à l’Écriture et doit être pesé par elle. Les Béréens examinaient même l’enseignement de Paul à la lumière des Écritures (Actes 17.11). Pour un serviteur, cette conviction a des conséquences pratiques : préparer son enseignement à partir du texte et non de ses idées, refuser de bâtir une doctrine sur un rêve, et accepter d’être corrigé par la Parole, même quand cela dérange ses habitudes ou celles de son groupe."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Deutéronome 6.4",
+     "texte": "Écoute, Israël! L’Éternel, notre Dieu, est le seul Éternel."
+    },
+    {
+     "ref": "Matthieu 28.19",
+     "texte": "Allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit,"
+    },
+    {
+     "ref": "2 Corinthiens 13.13",
+     "texte": "Que la grâce du Seigneur Jésus-Christ, l’amour de Dieu, et la communication du Saint-Esprit, soient avec vous tous!"
+    },
+    {
+     "ref": "Jean 14.16-17",
+     "texte": "Et moi, je prierai le Père, et il vous donnera un autre consolateur, afin qu’il demeure éternellement avec vous, l’Esprit de vérité, que le monde ne peut recevoir, parce qu’il ne le voit point et ne le connaît point; mais vous, vous le connaissez, car il demeure avec vous, et il sera en vous."
+    },
+    {
+     "ref": "2 Timothée 3.16-17",
+     "texte": "Toute Écriture est inspirée de Dieu, et utile pour enseigner, pour convaincre, pour corriger, pour instruire dans la justice, afin que l’homme de Dieu soit accompli et propre à toute bonne œuvre."
+    }
+   ],
+   "application": [
+    {
+     "titre": "Dans la prière quotidienne",
+     "paragraphes": [
+      "Prends l’habitude, pendant une semaine, de prier consciemment le Père, au nom de Jésus, en demandant l’aide de l’Esprit. Remercie le Père pour son amour, le Fils pour la croix, l’Esprit pour sa présence. Beaucoup de croyants découvrent que leur prière, jusque-là réduite à une liste de demandes, devient une rencontre. Quand tu ne sais plus quoi dire, souviens-toi que l’Esprit intercède pour toi (Romains 8.26) : tu n’es jamais seul dans la prière."
+     ]
+    },
+    {
+     "titre": "Face aux questions des voisins et des collègues",
+     "paragraphes": [
+      "Dans beaucoup de quartiers et de lieux de travail, des croyants d’autres religions demandent : « Comment pouvez-vous dire que Dieu a un fils ? Vous adorez trois dieux ! » La réponse n’est ni l’agacement ni le mépris. Commence par dire ce que nous ne croyons pas : nous ne croyons pas en trois dieux, ni que Dieu a eu un fils à la manière des hommes. Puis montre le Schema que nous confessons avec Israël, et lis avec ton interlocuteur Jean 1.1-14 et le récit du baptême de Jésus. Reconnais humblement le mystère : un Dieu que l’on pourrait comprendre entièrement serait-il encore Dieu ?"
+     ]
+    },
+    {
+     "titre": "Devant les prophéties des réseaux sociaux",
+     "paragraphes": [
+      "Des vidéos promettent chaque jour des « révélations exclusives », des dates de retour de Christ, des prières qui garantissent la richesse si l’on partage le message à dix personnes. Avant de partager quoi que ce soit, pose trois questions : ce message glorifie-t-il Christ ou un homme ? S’accorde-t-il avec l’ensemble de l’Écriture lue dans son contexte ? Produit-il la sainteté, la paix et l’amour, ou la peur et l’avidité ? Le même Esprit qui a inspiré l’Écriture ne peut pas la contredire."
+     ]
+    },
+    {
+     "titre": "Dans ton service à l’église",
+     "paragraphes": [
+      "Que tu chantes, que tu enseignes les enfants, que tu accueilles ou que tu nettoies la salle, ton service dépend de l’Esprit. Prends l’habitude de prier avant chaque service, non comme une formalité, mais pour reconnaître que sans lui tu ne produiras rien de durable. Et si tu prépares un enseignement, commence toujours par le texte biblique : lis-le plusieurs fois, dans son contexte, avant de chercher des illustrations. C’est ainsi que tu honores l’autorité de la Parole que l’Esprit a soufflée."
+     ]
+    },
+    {
+     "titre": "Dans la famille",
+     "paragraphes": [
+      "Le Dieu trinitaire est un Dieu de relation : le Père aime le Fils, le Fils honore le Père, l’Esprit glorifie le Fils. Dans le foyer, cela invite à remplacer la rivalité par l’honneur mutuel, et le silence par la communion. Les parents peuvent expliquer simplement aux enfants que le Dieu qu’ils prient est un Dieu qui aime de toute éternité, et lire avec eux le récit du baptême de Jésus en leur demandant de repérer le Père, le Fils et l’Esprit."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Koffi sert comme moniteur de l’école du dimanche depuis deux ans. Un soir, son cousin, très instruit et d’une autre religion, lui dit au cours d’un repas de famille : « Tes chrétiens disent qu’un plus un plus un font un. Tu adores trois dieux et tu ne t’en rends même pas compte. » Koffi reste sans voix. Quelques jours plus tard, une sœur de son groupe lui envoie une vidéo d’un prophète qui affirme avoir reçu une « révélation nouvelle, supérieure aux anciennes Écritures », selon laquelle le Saint-Esprit ne serait qu’une énergie que l’on peut acheter par des offrandes. Koffi se sent perdu et se demande s’il est vraiment capable d’enseigner les enfants.",
+    "questions": [
+     "Quels textes bibliques Koffi peut-il montrer à son cousin pour expliquer que les chrétiens croient en un seul Dieu, Père, Fils et Saint-Esprit ?",
+     "Comment peut-il répondre avec respect, sans mépris ni agressivité, et en reconnaissant la part de mystère ?",
+     "Quels critères bibliques permettent d’examiner la vidéo du prophète ? Qu’est-ce que Jean 14 à 16 et Actes 5.3-4 montrent de la personne du Saint-Esprit ?",
+     "Que dirais-tu à Koffi sur son sentiment d’incapacité à enseigner ?"
+    ]
+   },
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Le mot « Trinité » se trouve tel quel dans la Bible.",
+      "vrai": false,
+      "explication": "Le mot n’y figure pas, mais la réalité qu’il désigne s’y trouve : un seul Dieu (Deutéronome 6.4), Père, Fils et Saint-Esprit (Matthieu 28.19 ; 2 Corinthiens 13.13)."
+     },
+     {
+      "affirmation": "Au baptême de Jésus, le Fils est dans l’eau, l’Esprit descend comme une colombe et la voix du Père parle du ciel.",
+      "vrai": true,
+      "explication": "Matthieu 3.16-17 montre les trois personnes ensemble, au début du ministère de Jésus."
+     },
+     {
+      "affirmation": "Le Saint-Esprit est une force impersonnelle que l’on peut posséder ou acheter.",
+      "vrai": false,
+      "explication": "L’Esprit enseigne, rend témoignage, convainc et peut être attristé (Jean 14.26 ; 16.8 ; Éphésiens 4.30) ; Simon le magicien fut repris pour avoir voulu acheter le don de Dieu (Actes 8.18-20)."
+     },
+     {
+      "affirmation": "Le mot theopneustos signifie que l’Écriture est « soufflée par Dieu ».",
+      "vrai": true,
+      "explication": "« Toute Écriture est inspirée de Dieu » (2 Timothée 3.16) : elle sort de la bouche de Dieu."
+     },
+     {
+      "affirmation": "Une prophétie reçue aujourd’hui peut corriger ce que la Bible enseigne.",
+      "vrai": false,
+      "explication": "Toute prophétie doit être examinée à la lumière de l’Écriture inspirée (1 Thessaloniciens 5.20-21 ; Actes 17.11) ; l’Esprit ne se contredit pas."
+     },
+     {
+      "affirmation": "Selon Jean 16.14, l’Esprit a pour mission de glorifier le Fils.",
+      "vrai": true,
+      "explication": "« Il me glorifiera, parce qu’il prendra de ce qui est à moi, et vous l’annoncera » (Jean 16.14)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque affirmation : est-elle conforme à la foi biblique, ou est-ce une erreur sur Dieu ?",
+     "categories": [
+      "Conforme à l’Écriture",
+      "Erreur sur la Trinité ou sur l’Esprit"
+     ],
+     "elements": [
+      {
+       "texte": "Il y a un seul Dieu, éternellement Père, Fils et Saint-Esprit.",
+       "categorie": 0,
+       "explication": "C’est la confession de l’Église, fondée sur Deutéronome 6.4 et Matthieu 28.19."
+      },
+      {
+       "texte": "Le Père, le Fils et l’Esprit sont trois masques successifs d’une seule personne.",
+       "categorie": 1,
+       "explication": "Au baptême de Jésus, les trois sont présents en même temps et distincts (Matthieu 3.16-17)."
+      },
+      {
+       "texte": "Le Fils est la plus grande des créatures de Dieu.",
+       "categorie": 1,
+       "explication": "« La Parole était Dieu » et toutes choses ont été faites par elle (Jean 1.1-3) : le Fils n’est pas une créature."
+      },
+      {
+       "texte": "Mentir au Saint-Esprit, c’est mentir à Dieu.",
+       "categorie": 0,
+       "explication": "Pierre le dit à Ananias (Actes 5.3-4)."
+      },
+      {
+       "texte": "Il y a trois dieux qui collaborent entre eux.",
+       "categorie": 1,
+       "explication": "« L’Éternel, notre Dieu, est le seul Éternel » (Deutéronome 6.4) ; « il y a un seul Dieu » (1 Timothée 2.5)."
+      },
+      {
+       "texte": "L’Esprit nous aide dans notre faiblesse et intercède pour nous.",
+       "categorie": 0,
+       "explication": "Romains 8.26."
+      },
+      {
+       "texte": "L’Esprit se reconnaît surtout aux spectacles qu’il produit, même s’ils détournent l’attention de Christ.",
+       "categorie": 1,
+       "explication": "L’Esprit glorifie le Fils (Jean 16.14) et produit d’abord son fruit (Galates 5.22-23)."
+      },
+      {
+       "texte": "Les auteurs de l’Écriture ont parlé de la part de Dieu, poussés par le Saint-Esprit.",
+       "categorie": 0,
+       "explication": "2 Pierre 1.21."
+      }
+     ]
+    }
+   },
+   "reflexion": [
+    "Quelle place le Saint-Esprit tient-il concrètement dans ma vie de prière et dans mon service ?",
+    "Est-ce que je sais montrer dans la Bible pourquoi je crois en un seul Dieu, Père, Fils et Saint-Esprit ?",
+    "Ai-je déjà placé une vision, un rêve ou une prophétie au-dessus de ce que dit l’Écriture ?",
+    "Qu’est-ce qui, dans ma lecture de la Bible, montre que je la reçois vraiment comme une parole « soufflée par Dieu » ?"
+   ],
+   "retenir": [
+    "Il y a un seul Dieu, éternellement Père, Fils et Saint-Esprit, égaux en nature et distincts comme personnes.",
+    "Le Saint-Esprit est une personne divine : il enseigne, convainc, conduit, intercède, peut être attristé, et sa mission est de glorifier Christ.",
+    "Toute Écriture est inspirée de Dieu (theopneustos) : elle a l’autorité de Dieu, elle suffit pour le salut et la vie chrétienne, et elle juge toute prophétie.",
+    "Le salut entier est l’œuvre du Père qui choisit, du Fils qui rachète et de l’Esprit qui fait naître de nouveau et sanctifie."
+   ],
+   "memoriser": {
+    "ref": "Jean 14.26",
+    "texte": "Mais le consolateur, l’Esprit-Saint, que le Père enverra en mon nom, vous enseignera toutes choses, et vous rappellera tout ce que je vous ai dit."
+   },
+   "priere": "Père, je te bénis pour ton amour éternel. Seigneur Jésus, merci d’être venu au milieu des pécheurs pour me sauver. Saint-Esprit, viens habiter pleinement en moi, conduis-moi dans toute la vérité et rends-moi fidèle à la Parole que tu as inspirée. Amen."
   }
  ],
  "pratique": {
@@ -1084,6 +1375,116 @@
    ],
    "bonne": 2,
    "explication": "Jean voit « un nouveau ciel et une nouvelle terre » et entend : « Voici le tabernacle de Dieu avec les hommes ! » (Apocalypse 21.1-3)."
+  },
+  {
+   "q": "Au baptême de Jésus (Matthieu 3.16-17), comment l’Esprit de Dieu se manifeste-t-il ?",
+   "choix": [
+    "Par des langues de feu",
+    "Par un vent impétueux",
+    "Il descend comme une colombe et vient sur Jésus",
+    "Par un tremblement de terre"
+   ],
+   "bonne": 2,
+   "explication": "« Il vit l’Esprit de Dieu descendre comme une colombe et venir sur lui » (Matthieu 3.16). Les langues de feu et le vent sont ceux de la Pentecôte (Actes 2.2-3)."
+  },
+  {
+   "q": "Que signifie le mot grec paraklētos, employé par Jésus pour le Saint-Esprit en Jean 14 à 16 ?",
+   "choix": [
+    "Celui qu’on appelle à ses côtés : avocat, défenseur, réconfort",
+    "Une puissance de guérison",
+    "Un messager angélique",
+    "Un souffle impersonnel"
+   ],
+   "bonne": 0,
+   "explication": "Le paraklētos est appelé à côté de quelqu’un pour l’assister : l’Esprit est « un autre consolateur », comme Jésus l’a été pour ses disciples (Jean 14.16)."
+  },
+  {
+   "q": "Quel passage montre le plus clairement que mentir au Saint-Esprit, c’est mentir à Dieu ?",
+   "choix": [
+    "Jean 3.5",
+    "Actes 5.3-4",
+    "Romains 8.16",
+    "Genèse 1.2"
+   ],
+   "bonne": 1,
+   "explication": "Pierre dit à Ananias qu’il a menti au Saint-Esprit, puis : « Ce n’est pas à des hommes que tu as menti, mais à Dieu » (Actes 5.3-4)."
+  },
+  {
+   "q": "Selon Jean 16.14, quelle est la mission centrale de l’Esprit de vérité ?",
+   "choix": [
+    "Attirer l’attention sur ceux qui ont des dons",
+    "Remplacer l’enseignement de Jésus",
+    "Révéler des dates sur la fin du monde",
+    "Glorifier le Fils en prenant de ce qui est à lui"
+   ],
+   "bonne": 3,
+   "explication": "« Il me glorifiera, parce qu’il prendra de ce qui est à moi, et vous l’annoncera » (Jean 16.14)."
+  },
+  {
+   "q": "Que signifie littéralement le mot grec theopneustos en 2 Timothée 3.16 ?",
+   "choix": [
+    "Écrite par des prophètes",
+    "Soufflée par Dieu",
+    "Approuvée par l’Église",
+    "Traduite fidèlement"
+   ],
+   "bonne": 1,
+   "explication": "Theopneustos signifie « soufflée par Dieu » : « Toute Écriture est inspirée de Dieu » (2 Timothée 3.16)."
+  },
+  {
+   "q": "Selon 2 Pierre 1.21, comment les prophéties de l’Écriture ont-elles été apportées ?",
+   "choix": [
+    "Par des hommes poussés par le Saint-Esprit, qui ont parlé de la part de Dieu",
+    "Par la seule volonté des prophètes",
+    "Par des anges qui dictaient chaque mot",
+    "Par les décisions des conciles"
+   ],
+   "bonne": 0,
+   "explication": "« Ce n’est pas par une volonté d’homme… mais c’est poussés par le Saint-Esprit que des hommes ont parlé de la part de Dieu » (2 Pierre 1.21)."
+  },
+  {
+   "q": "Un croyant affirme : « Le Père, le Fils et l’Esprit sont trois rôles successifs d’une seule personne divine. » Quel texte contredit le plus directement cette idée ?",
+   "choix": [
+    "Deutéronome 6.4",
+    "Psaume 119.105",
+    "Matthieu 3.16-17, où les trois sont présents en même temps",
+    "Genèse 1.1"
+   ],
+   "bonne": 2,
+   "explication": "Au baptême, le Fils sort de l’eau, l’Esprit descend sur lui et le Père parle du ciel, au même moment : ce sont trois personnes distinctes."
+  },
+  {
+   "q": "Selon 2 Timothée 3.16-17, à quoi l’Écriture est-elle utile ?",
+   "choix": [
+    "À prédire l’avenir de chacun",
+    "À enseigner, convaincre, corriger et instruire dans la justice",
+    "À remplacer la prière",
+    "Seulement à instruire les responsables"
+   ],
+   "bonne": 1,
+   "explication": "L’Écriture est « utile pour enseigner, pour convaincre, pour corriger, pour instruire dans la justice, afin que l’homme de Dieu soit accompli » (2 Timothée 3.16-17)."
+  },
+  {
+   "q": "Selon Romains 5.20, que se passe-t-il là où le péché a abondé ?",
+   "choix": [
+    "La loi est abolie",
+    "La colère de Dieu s’arrête",
+    "Le pécheur est abandonné",
+    "La grâce surabonde"
+   ],
+   "bonne": 3,
+   "explication": "« Là où le péché a abondé, la grâce a surabondé » (Romains 5.20)."
+  },
+  {
+   "q": "Selon 1 Corinthiens 15.20, comment Paul appelle-t-il le Christ ressuscité ?",
+   "choix": [
+    "Les prémices de ceux qui sont morts",
+    "Le dernier des prophètes",
+    "Le premier des anges",
+    "Le juge des vivants seulement"
+   ],
+   "bonne": 0,
+   "explication": "« Christ est ressuscité des morts, il est les prémices de ceux qui sont morts » (1 Corinthiens 15.20) : sa résurrection garantit la nôtre."
   }
  ]
 }

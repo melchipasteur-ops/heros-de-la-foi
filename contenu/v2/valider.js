@@ -48,7 +48,9 @@ for (const f of files) {
     if (somme(l.exegese) < 500) warn.push(`${t} : exégèse courte`);
   });
   req(m.pratique && m.pratique.consigne && (m.pratique.etapes || []).length >= 2, "pratique incomplète");
-  req(Array.isArray(m.examen) && m.examen.length === 20, `examen : ${m.examen ? m.examen.length : 0} questions (il en faut 20)`);
+  // Niveaux 1 et 2 : 20 questions ; niveaux 3 (Serviteur) et 4 (Leader) : 30 questions (examen plus exigeant, banque de 180 questions pour le test de passage)
+  const nbAttendu = /^n[34]/.test(m.id || "") ? 30 : 20;
+  req(Array.isArray(m.examen) && m.examen.length === nbAttendu, `examen : ${m.examen ? m.examen.length : 0} questions (il en faut ${nbAttendu})`);
   const pos = [0, 0, 0, 0]; let vf = 0;
   (m.examen || []).forEach((q, i) => {
     req(q.q && Array.isArray(q.choix) && (q.choix.length === 4 || q.choix.length === 2), `question ${i + 1} : 4 choix (ou 2)`);
@@ -57,8 +59,8 @@ for (const f of files) {
     req(q.explication, `question ${i + 1} : explication`);
     if ((q.choix || []).length === 2) vf++; else pos[q.bonne]++;
   });
-  if (vf > 4) warn.push(`${vf} questions Vrai/Faux (max conseillé : 4)`);
-  if (Math.max(...pos) > 8) warn.push(`bonnes réponses mal réparties sur les positions : ${pos.join("/")}`);
+  if (vf > nbAttendu / 5) warn.push(`${vf} questions Vrai/Faux (max conseillé : ${nbAttendu / 5})`);
+  if (Math.max(...pos) > nbAttendu * 0.4) warn.push(`bonnes réponses mal réparties sur les positions : ${pos.join("/")}`);
   if (/Segond 21|\bS21\b|version Colombe|Bible du Semeur/i.test(JSON.stringify(m))) warn.push("mention d'une traduction protégée : n'utiliser que Louis Segond 1910");
   total += motsModule;
   if (err.length) ko++;

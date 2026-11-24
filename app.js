@@ -1,6 +1,6 @@
 (function(){
 "use strict";
-const {SEUIL, MIN_PRATIQUE, esc, pct, note20, fmtDate, toast, shuffle, erreur, etuDepuis} = HDF;
+const {SEUIL, MIN_PRATIQUE, exigence, sur20, examenMin, esc, pct, note20, fmtDate, toast, shuffle, erreur, etuDepuis} = HDF;
 const $app = document.getElementById("app");
 const S = {
   prog:null, mods:{}, view:"parcours", moduleId:null, exam:null, test:null, niveauTest:null,
@@ -54,7 +54,7 @@ async function go(view, moduleId, lecon){
   if(view==="module"||view==="examen"||view==="lecon"){
     const m=findModule(S.moduleId);
     if(!m){ view="parcours"; }
-    else if(!moduleOuvert(m)){ const p=precedent(m); toast(`Module verrouillé. Obtenez d'abord au moins 16/20 au module « ${p.titre} », ou réussissez le test de passage du niveau.`); return; }
+    else if(!moduleOuvert(m)){ const p=precedent(m); toast(`Module verrouillé. Obtenez d'abord au moins ${sur20(statut(p).seuil)} au module « ${p.titre} », ou réussissez le test de passage du niveau.`); return; }
     else if(!S.mods[m.id]){ S.view="chargement"; render(); try{ await getModule(m.id); }catch(e){ toast("Le module n'a pas pu être chargé."); view="parcours"; } }
   }
   if(view==="lecon"){
@@ -164,7 +164,7 @@ function suiviHtml(){
   return `<section class="panel suivi"><p class="eyebrow">Mon accompagnement</p>${su.enseignant?`<h3>Votre enseignant : ${esc(su.enseignant)}</h3>`:""}
     ${(su.messages||[]).slice(0,3).map(x=>`<div class="msg"><p>${esc(x.texte)}</p><p class="hint">${esc(x.auteur||"Votre enseignant")} · ${fmtDate(x.date)}</p></div>`).join("")}</section>`;
 }
-// Test de passage terminé sous 16/20 et non effacé par un enseignant : il faut suivre les cours du niveau
+// Test de passage terminé sous la note minimale et non effacé par un enseignant : il faut suivre les cours du niveau
 function testBloque(i){ return (S.etu.tests||[]).some(t=>t.niveau===i && t.fin && !t.reussi && t.compte!==false); }
 function premierModuleAFaire(i){ const n=S.prog.niveaux[i-1]; return n && (n.modules.find(m=>moduleOuvert(m) && !statut(m).certifie) || n.modules[0]); }
 function vParcours(){
@@ -176,7 +176,7 @@ function vParcours(){
   return `<section class="hero">
     <p class="eyebrow">${S.etu.nom ? "Bienvenue, "+esc(S.etu.nom) : "Programme de formation biblique"}</p>
     <h1>De la conversion à la maturité&nbsp;: devenir un héros de la foi</h1>
-    <p class="lead">Les modules s'ouvrent l'un après l'autre : il faut au moins 16/20 à l'examen d'un module pour ouvrir le suivant. Si vous connaissez déjà la matière d'un niveau, passez son test de passage (80 questions) : avec 16/20, vous recevez directement toutes les attestations du niveau.</p>
+    <p class="lead">Les modules s'ouvrent l'un après l'autre : il faut au moins 16/20 à l'examen d'un module pour ouvrir le suivant (17/20 au niveau Serviteur, 18/20 au niveau Leader). Si vous connaissez déjà la matière d'un niveau, passez son test de passage : avec la note minimale du niveau, vous recevez directement toutes les attestations du niveau.</p>
   </section>
   <section class="stats" aria-label="Résumé">
     <div class="stat"><div class="v">${cert}<span style="font-size:1rem;color:var(--muted)"> / ${mods.length}</span></div><div class="l">attestations obtenues</div></div>
@@ -202,7 +202,7 @@ function levelCard(n){
       const pill = s.certifie ? `<span class="pill cert">${s.parTest?"Validé par test":"Attestation"}</span>` : !o ? `<span class="pill">Verrouillé</span>` : s.reussi ? `<span class="pill ok">Examen réussi</span>` : s.tentatives ? `<span class="pill bad">À reprendre</span>` : s.lus ? `<span class="pill">${s.lus}/${s.nb} leçons</span>` : "";
       return `<li><button type="button" data-open="${m.id}" ${o?"":'aria-disabled="true"'}><span class="dot ${s.certifie?"done":""}">${s.certifie?"✓":o?k+1:"🔒"}</span><span class="t">${esc(m.titre)}</span>${pill}</button></li>`; }).join("")}</ul>
     ${fini ? `<button class="btn gold" type="button" data-diplome="${n.id}">Télécharger le diplôme du niveau ${i}</button>`
-      : ouvert && !niveauValide(n) ? (testBloque(i) ? `<p class="hint">Test de passage non réussi : suivez les cours de ce niveau, module après module. Votre enseignant peut vous autoriser un nouveau test.</p>` : `<button class="btn" type="button" data-test="${i}">Passer le test de passage du niveau (80 questions)</button>`) : ""}
+      : ouvert && !niveauValide(n) ? (testBloque(i) ? `<p class="hint">Test de passage non réussi : suivez les cours de ce niveau, module après module. Votre enseignant peut vous autoriser un nouveau test.</p>` : `<button class="btn" type="button" data-test="${i}">Passer le test de passage du niveau (${exigence(i).test} questions, ${exigence(i).testMin} minutes)</button>`) : ""}
   </article>`;
 }
 
@@ -214,10 +214,10 @@ function vProgramme(){
       <div class="step"><b>1. Lire</b>Les passages bibliques obligatoires de chaque leçon</div>
       <div class="step"><b>2. Étudier pas à pas</b>Récit biblique, exégèse, enseignement, application et jeux, en petites étapes</div>
       <div class="step"><b>3. Agir</b>Une mise en pratique de la foi, décrite par écrit</div>
-      <div class="step"><b>4. Examen</b>20 questions, au moins 16/20 pour ouvrir le module suivant</div>
+      <div class="step"><b>4. Examen</b>20 questions et 16/20 aux niveaux 1 et 2 ; 30 questions et 17/20 (Serviteur) ou 18/20 (Leader) aux niveaux 3 et 4</div>
       <div class="step"><b>5. Attestation</b>Un PDF numéroté, puis un diplôme par niveau</div>
     </div>
-    <p class="hint" style="margin-top:12px">Test de passage : 80 questions tirées au hasard dans tout le niveau, notées sur 20, à faire en 25 minutes. Avec au moins 16/20, toutes les attestations du niveau sont délivrées et le niveau suivant s'ouvre. Trois essais au plus par 24 heures.</p></section>
+    <p class="hint" style="margin-top:12px">Test de passage : questions tirées au hasard dans tout le niveau, notées sur 20. Niveaux 1 et 2 : 80 questions en 25 minutes, 16/20 minimum. Serviteur : 120 questions en 37 minutes, 17/20 minimum. Leader : 150 questions en 45 minutes, 18/20 minimum. Avec la note minimale, toutes les attestations du niveau sont délivrées et le niveau suivant s'ouvre. Trois essais au plus par 24 heures.</p></section>
     ${S.prog.niveaux.map(n=>{ const i=niveauIndex(n); return `<section class="panel" style="border-top:5px solid var(--n${i});display:grid;gap:12px">
       <div><p class="eyebrow" style="color:var(--n${i})">Niveau ${i}</p><h2>${esc(n.nom)} : ${esc(n.sousTitre)}</h2></div>
       <p class="lead">${esc(n.description)}</p>
@@ -479,7 +479,7 @@ function vModule(){
   </section>
   <section class="panel" style="display:grid;gap:12px">
     <div><p class="eyebrow">Évaluation</p><h2>Examen du module</h2></div>
-    <p class="hint">${c.examen.length} questions corrigées en ligne, notées sur 20. Il faut au moins 16/20 pour ouvrir le module suivant. Durée : ${DUREE_EXAMEN} minutes, chrono affiché ; si vous quittez l'écran, l'examen recommence depuis le début. Vous pouvez repasser l'examen autant de fois que nécessaire ; la meilleure note est conservée.${s.tentatives?` Tentatives : ${s.tentatives}.`:""}</p>
+    <p class="hint">${c.examen.length} questions corrigées en ligne, notées sur 20. Il faut au moins ${sur20(s.seuil)} pour ouvrir le module suivant. Durée : ${examenMin(c.examen.length)} minutes, chrono affiché ; si vous quittez l'écran, l'examen recommence depuis le début. Vous pouvez repasser l'examen autant de fois que nécessaire ; la meilleure note est conservée.${s.tentatives?` Tentatives : ${s.tentatives}.`:""}</p>
     <div class="row"><button class="btn primary" type="button" data-go="examen" ${s.leconsFinies?"":"disabled"}>${s.tentatives?"Repasser l'examen":"Commencer l'examen"}</button>${s.leconsFinies?"":`<span class="hint">${s.tentatives&&!s.reussi?"Examen non réussi : reprenez le cours. ":""}Disponible quand les ${s.nb} leçons sont terminées.</span>`}</div>
   </section>
   ${certSection(m,s)}`;
@@ -489,7 +489,7 @@ function certSection(m,s){
   if(s.certifie) return `<section class="cert"><p class="eyebrow">Attestation n° ${esc(s.r.certNo)}</p><div class="nm">${esc((S.etu.identite&&S.etu.identite.nomNaissance)||S.etu.nom)}</div><p>${s.parTest?`a validé le module « ${esc(m.titre)} » par le test de passage du niveau, avec ${note20(s.r.meilleur)}.`:`a réussi le module « ${esc(m.titre)} » avec ${note20(s.r.meilleur)} et a mis sa foi en pratique.`}</p><p class="hint">Délivrée le ${fmtDate(s.r.certDate)}</p><div class="row" style="justify-content:center"><button class="btn gold" type="button" data-pdf="${m.id}">Télécharger l'attestation (PDF)</button></div></section>`;
   const manque = [];
   if(!identiteOk()) manque.push("compléter votre fiche d'identité (nom de l'acte de naissance, date de naissance et photo sur fond blanc) sur la page « Mon parcours »");
-  if(!s.reussi) manque.push("obtenir au moins 16/20 à l'examen");
+  if(!s.reussi) manque.push(`obtenir au moins ${sur20(s.seuil)} à l'examen`);
   if(!s.pratique) manque.push("déposer votre témoignage de foi agissante");
   else if(s.r.pratiqueStatut==="a_revoir") manque.push("revoir votre témoignage comme votre enseignant le demande");
   return `<section class="panel" style="display:grid;gap:10px;border-color:var(--brass)"><div><p class="eyebrow" style="color:var(--brass)">Attestation</p><h2>Obtenir l'attestation du module</h2></div>
@@ -510,7 +510,9 @@ function questionsHtml(qs, rep, fini, info){
 }
 
 // ----- chrono et anti-triche -----
-const DUREE_EXAMEN = 15, DUREE_TEST = 25; // minutes (contrôlées aussi par le serveur)
+// Durées en minutes (contrôlées aussi par le serveur) : examen de 15 minutes (20 minutes pour 30 questions), test selon le niveau
+const dureeExamen = () => examenMin(((S.mods[S.moduleId]||{}).examen||[]).length);
+const dureeTest = () => exigence(S.niveauTest).testMin;
 function melangerExamen(c){ return shuffle(c.examen.map((q,qi)=>({cle:String(qi), q:q.q, choix: shuffle(q.choix)}))); }
 function melangerTest(brut){ return shuffle(brut).map(x=>{ const q=S.mods[x.m].examen[x.q]; return {cle:x.m+":"+x.q, q:q.q, choix:shuffle(q.choix)}; }); }
 function reglesEpreuve(min){
@@ -535,7 +537,7 @@ async function demarrerExamen(){
   const E=S.exam; if(!E) return;
   pleinEcran();
   E.chargement=true; render();
-  try{ const d=await rpc("demarrer_examen",{p_module:S.moduleId}); E.demarre=true; E.fin=Date.now()+(d&&d.duree||DUREE_EXAMEN*60)*1000; }catch(e){}
+  try{ const d=await rpc("demarrer_examen",{p_module:S.moduleId}); E.demarre=true; E.fin=Date.now()+(d&&d.duree||dureeExamen()*60)*1000; }catch(e){}
   E.chargement=false; render(); window.scrollTo({top:0});
 }
 const MSG_SORTIE = "Vous avez quitté l'écran pendant l'épreuve (appel, autre application ou autre onglet). Pour éviter la triche, elle recommence depuis le début, avec un nouveau chrono.";
@@ -543,14 +545,14 @@ async function recommencerEpreuve(){
   const type=epreuveEnCours(); if(!type) return;
   if(type==="examen"){
     const E=S.exam, c=S.mods[S.moduleId];
-    E.questions=melangerExamen(c); E.rep={}; E.alerte=MSG_SORTIE; E.fin=Date.now()+DUREE_EXAMEN*60000;
+    E.questions=melangerExamen(c); E.rep={}; E.alerte=MSG_SORTIE; E.fin=Date.now()+dureeExamen()*60000;
     render(); window.scrollTo({top:0});
-    try{ const d=await rpc("demarrer_examen",{p_module:S.moduleId}); if(S.exam===E) E.fin=Date.now()+(d&&d.duree||DUREE_EXAMEN*60)*1000; }catch(e){ if(S.exam===E){ E.demarre=false; render(); } }
+    try{ const d=await rpc("demarrer_examen",{p_module:S.moduleId}); if(S.exam===E) E.fin=Date.now()+(d&&d.duree||dureeExamen()*60)*1000; }catch(e){ if(S.exam===E){ E.demarre=false; render(); } }
   }else{
     const T=S.test;
-    T.questions=melangerTest(T.brut); T.rep={}; T.page=0; T.alerte=MSG_SORTIE; T.fin=Date.now()+DUREE_TEST*60000;
+    T.questions=melangerTest(T.brut); T.rep={}; T.page=0; T.alerte=MSG_SORTIE; T.fin=Date.now()+dureeTest()*60000;
     render(); window.scrollTo({top:0});
-    try{ const d=await rpc("recommencer_test",{p_test:T.id}); if(S.test===T) T.fin=Date.now()+(d&&d.duree||DUREE_TEST*60)*1000; }catch(e){}
+    try{ const d=await rpc("recommencer_test",{p_test:T.id}); if(S.test===T) T.fin=Date.now()+(d&&d.duree||dureeTest()*60)*1000; }catch(e){}
   }
 }
 // Détection de sortie d'écran : onglet caché (appel, autre appli) ou fenêtre qui perd le focus
@@ -594,13 +596,13 @@ function vExamen(){
   const E=S.exam, nbRep=Object.keys(E.rep).length;
   if(!E.demarre && !E.fini) return `<nav class="crumbs"><button type="button" data-go="parcours">Mon parcours</button><span>›</span><button type="button" data-go="module">${esc(m.titre)}</button><span>›</span><span>Examen</span></nav>
   <section class="hero"><p class="eyebrow">Examen en ligne · ${E.questions.length} questions · noté sur 20</p><h1>${esc(m.titre)}</h1></section>
-  <section class="panel" style="display:grid;gap:12px">${reglesEpreuve(DUREE_EXAMEN)}
-    <div class="row"><button class="btn primary" type="button" id="start-exam" ${E.chargement?"disabled":""}>${E.chargement?"Préparation…":`Commencer l'examen (${DUREE_EXAMEN} minutes)`}</button><button class="btn" type="button" data-go="module">Annuler</button></div></section>`;
+  <section class="panel" style="display:grid;gap:12px">${reglesEpreuve(dureeExamen())}
+    <div class="row"><button class="btn primary" type="button" id="start-exam" ${E.chargement?"disabled":""}>${E.chargement?"Préparation…":`Commencer l'examen (${dureeExamen()} minutes)`}</button><button class="btn" type="button" data-go="module">Annuler</button></div></section>`;
   let res="";
   if(E.fini && E.res){
-    const pass=E.res.score/E.res.total>=SEUIL;
-    res = `<section class="panel score" style="border-color:${pass?"var(--ok)":"var(--bad)"}"><div class="big" style="color:${pass?"var(--ok)":"var(--bad)"}">${note20(E.res.score/E.res.total)}</div><div style="flex:1;min-width:200px"><h3>${pass?"Examen réussi !":"Pas encore : il faut au moins 16/20."}</h3><p class="hint">${E.res.score} bonnes réponses sur ${E.res.total}. ${pass?"Le module suivant est ouvert. Retournez au module pour recevoir votre attestation.":E.res.retour_cours?"Les questions manquées sont marquées en rouge.":"Les questions manquées sont marquées en rouge. Relisez les leçons puis réessayez."}</p></div>
-    ${!pass && E.res.retour_cours ? `<p class="keep alerte" style="flex-basis:100%">Vous n'avez pas atteint 16/20 : vous devez reprendre le cours de ce module. Les leçons sont à refaire avant de pouvoir repasser l'examen. Votre enseignant peut, s'il le juge bon, vous autoriser à repasser l'examen directement.</p>` : ""}
+    const seuil=E.res.seuil!=null?Number(E.res.seuil):statut(m).seuil, pass=E.res.score/E.res.total>=seuil;
+    res = `<section class="panel score" style="border-color:${pass?"var(--ok)":"var(--bad)"}"><div class="big" style="color:${pass?"var(--ok)":"var(--bad)"}">${note20(E.res.score/E.res.total)}</div><div style="flex:1;min-width:200px"><h3>${pass?"Examen réussi !":`Pas encore : il faut au moins ${sur20(seuil)}.`}</h3><p class="hint">${E.res.score} bonnes réponses sur ${E.res.total}. ${pass?"Le module suivant est ouvert. Retournez au module pour recevoir votre attestation.":E.res.retour_cours?"Les questions manquées sont marquées en rouge.":"Les questions manquées sont marquées en rouge. Relisez les leçons puis réessayez."}</p></div>
+    ${!pass && E.res.retour_cours ? `<p class="keep alerte" style="flex-basis:100%">Vous n'avez pas atteint ${sur20(seuil)} : vous devez reprendre le cours de ce module. Les leçons sont à refaire avant de pouvoir repasser l'examen. Votre enseignant peut, s'il le juge bon, vous autoriser à repasser l'examen directement.</p>` : ""}
     <div class="row">${!pass && E.res.retour_cours ? `<button class="btn primary" type="button" id="reprendre-cours">Reprendre le cours</button>` : `<button class="btn primary" type="button" data-go="module">Retour au module</button>${pass?"":`<button class="btn" type="button" id="retry">Réessayer</button>`}`}</div></section>`;
   }
   const info = E.res ? {justes:new Set((E.res.justes||[]).map(String)), bonnes:E.res.bonnes, expl:E.res.explications} : null;
@@ -623,15 +625,15 @@ function vTest(){
     <section class="hero"><p class="eyebrow">Test de passage · Niveau ${S.niveauTest}</p><h1>${esc(n.nom)} : ${esc(n.sousTitre)}</h1></section>`;
   if(!T) return head + `<section class="panel" style="display:grid;gap:12px">
     <p>Ce test vérifie que vous maîtrisez déjà le contenu de tout le niveau.</p>
-    <ul><li><b>80 questions</b> tirées au hasard parmi celles des ${n.modules.length} modules du niveau.</li>
-      <li>Noté <b>sur 20</b>. Avec <b>au moins 16/20</b>, vous recevez directement les ${n.modules.length} attestations du niveau et le niveau suivant s'ouvre.</li>
-      <li>Vous avez <b>${DUREE_TEST} minutes</b> : le chrono s'affiche à l'écran. À la fin du temps, votre copie est envoyée automatiquement à la correction, avec les réponses déjà données.</li>
+    <ul><li><b>${exigence(S.niveauTest).test} questions</b> tirées au hasard parmi celles des ${n.modules.length} modules du niveau.</li>
+      <li>Noté <b>sur 20</b>. Avec <b>au moins ${sur20(exigence(S.niveauTest).seuil)}</b>, vous recevez directement les ${n.modules.length} attestations du niveau et le niveau suivant s'ouvre.</li>
+      <li>Vous avez <b>${dureeTest()} minutes</b> : le chrono s'affiche à l'écran. À la fin du temps, votre copie est envoyée automatiquement à la correction, avec les réponses déjà données.</li>
       <li>Si vous quittez l'écran (appel, autre application, autre onglet), le test <b>recommence depuis le début</b> avec un nouveau chrono. Au plus <b>3 essais par 24 heures</b>.</li>
       <li>Les corrections détaillées ne sont pas affichées, pour garder le test fiable.</li></ul>
     <div class="row"><button class="btn primary" type="button" id="start-test">Commencer le test</button><button class="btn" type="button" data-go="parcours">Annuler</button></div></section>`;
   if(T.chargement) return head + `<div class="empty">Préparation des questions…</div>`;
   if(T.res){ const ok=T.res.reussi; return head + `<section class="panel score" style="border-color:${ok?"var(--ok)":"var(--bad)"}"><div class="big" style="color:${ok?"var(--ok)":"var(--bad)"}">${String(T.res.note20).replace(".",",")}/20</div>
-    <div style="flex:1;min-width:200px"><h3>${ok?"Test réussi ! Toutes les attestations du niveau vous sont délivrées.":"Pas encore : il faut au moins 16/20."}</h3><p class="hint">${T.res.bonnes} bonnes réponses sur ${T.res.total}. ${ok?(S.niveauTest<4?"Le niveau suivant est ouvert.":"Vous avez terminé le programme."):"Vous devez maintenant suivre les cours de ce niveau, module après module. Votre enseignant peut, s'il le juge bon, vous autoriser un nouveau test."}</p></div>
+    <div style="flex:1;min-width:200px"><h3>${ok?"Test réussi ! Toutes les attestations du niveau vous sont délivrées.":`Pas encore : il faut au moins ${sur20(T.res.seuil!=null?Number(T.res.seuil):exigence(S.niveauTest).seuil)}.`}</h3><p class="hint">${T.res.bonnes} bonnes réponses sur ${T.res.total}. ${ok?(S.niveauTest<4?"Le niveau suivant est ouvert.":"Vous avez terminé le programme."):"Vous devez maintenant suivre les cours de ce niveau, module après module. Votre enseignant peut, s'il le juge bon, vous autoriser un nouveau test."}</p></div>
     <div class="row">${ok?`<button class="btn primary" type="button" data-go="parcours">Retour à mon parcours</button>`:`<button class="btn primary" type="button" data-open="${premierModuleAFaire(S.niveauTest).id}">Commencer les cours du niveau</button><button class="btn" type="button" data-go="parcours">Mon parcours</button>`}</div></section>`; }
   const tot=T.questions.length, pages=Math.ceil(tot/PAR_PAGE), p=T.page, debut=p*PAR_PAGE, nbRep=Object.keys(T.rep).length;
   const qs=T.questions.slice(debut, debut+PAR_PAGE);
@@ -653,7 +655,7 @@ async function demarrerTest(){
   try{
     const d = await rpc("demarrer_test",{p_niveau:niv});
     await Promise.all(n.modules.map(m=>getModule(m.id)));
-    S.test = { id:d.id, page:0, rep:{}, res:null, envoi:false, brut:d.questions, fin:Date.now()+(d.duree||DUREE_TEST*60)*1000,
+    S.test = { id:d.id, page:0, rep:{}, res:null, envoi:false, brut:d.questions, fin:Date.now()+(d.duree||dureeTest()*60)*1000,
       questions: melangerTest(d.questions) };
   }catch(e){ S.test=null; }
   render(); window.scrollTo({top:0});

@@ -5,7 +5,8 @@
  "introduction": [
   "Presque toutes les erreurs doctrinales, les dérives d’Églises et les manipulations spirituelles ont un point commun : une Bible mal lue. Un verset arraché à son contexte, un proverbe pris pour une promesse, une vision de l’Apocalypse appliquée à l’actualité du jour… et des vies entières peuvent être égarées. À l’inverse, une Parole expliquée avec fidélité a toujours produit le réveil, la repentance et la joie, comme au temps de Néhémie ou sur la route d’Emmaüs.",
   "Ce module te donne des outils simples et solides pour étudier la Bible toi-même et pour l’enseigner aux autres. Nous verrons d’abord l’importance du contexte, à partir de la tentation de Jésus au désert, où le diable cite l’Écriture en la détournant. Nous apprendrons ensuite à reconnaître les genres littéraires de la Bible, grâce à la parabole de Nathan qui a bouleversé le roi David. Enfin, nous apprendrons à passer du sens du texte à son application concrète, en suivant Jésus qui explique les Écritures aux disciples d’Emmaüs.",
-  "Interpréter correctement n’est pas réservé aux pasteurs ou aux diplômés de théologie. Tout croyant est appelé à être comme les Béréens, qui examinaient chaque jour les Écritures. Mais ceux qui servent, enseignent ou conduisent des groupes portent une responsabilité particulière : « Efforce-toi de te présenter devant Dieu comme un homme éprouvé, un ouvrier qui n’a point à rougir, qui dispense droitement la parole de la vérité » (2 Timothée 2.15)."
+  "Interpréter correctement n’est pas réservé aux pasteurs ou aux diplômés de théologie. Tout croyant est appelé à être comme les Béréens, qui examinaient chaque jour les Écritures. Mais ceux qui servent, enseignent ou conduisent des groupes portent une responsabilité particulière : « Efforce-toi de te présenter devant Dieu comme un homme éprouvé, un ouvrier qui n’a point à rougir, qui dispense droitement la parole de la vérité » (2 Timothée 2.15).",
+  "Une quatrième leçon pousse plus loin : comment lire l’Ancien Testament en chrétien, sans le réduire à des histoires morales et sans le transformer en code secret ? Nous apprendrons à repérer les promesses, les ombres et les modèles qui conduisent à Christ, et à distinguer une lecture fidèle d’une allégorie arbitraire. C’est une compétence indispensable pour tout serviteur appelé à enseigner."
  ],
  "lecturesObligatoires": [
   {
@@ -47,6 +48,14 @@
   {
    "ref": "Jacques 1.19-27",
    "consigne": "Explique avec tes mots l’image du miroir et écris une application concrète pour ta semaine."
+  },
+  {
+   "ref": "Genèse 22.1-19 et Hébreux 11.17-19",
+   "consigne": "Relève les mots qui reviennent (fils, unique, agneau, pourvoir) et ce que l’épître aux Hébreux dit de la foi d’Abraham."
+  },
+  {
+   "ref": "Hébreux 8.1 – 10.18",
+   "consigne": "Note les mots « ombre », « image », « une fois pour toutes » et explique comment l’auteur relie le culte de l’Ancien Testament à Christ."
   }
  ],
  "lecons": [
@@ -885,6 +894,276 @@
      ]
     }
    }
+  },
+  {
+   "titre": "Lire l’Ancien Testament à la lumière de Christ",
+   "illustration": "chemin",
+   "lectures": [
+    {
+     "ref": "Genèse 22.1-19",
+     "resume": "Dieu met Abraham à l’épreuve en lui demandant son fils unique ; sur le mont Morija, il pourvoit un bélier à la place d’Isaac et renouvelle sa promesse de bénir toutes les nations."
+    },
+    {
+     "ref": "Hébreux 11.17-19",
+     "resume": "Abraham offre Isaac par la foi, pensant que Dieu est puissant même pour ressusciter les morts."
+    },
+    {
+     "ref": "Luc 24.44-47",
+     "resume": "Jésus ressuscité affirme que tout ce qui est écrit de lui dans la loi, les prophètes et les psaumes devait s’accomplir."
+    },
+    {
+     "ref": "Colossiens 2.16-17",
+     "resume": "Les fêtes, les nouvelles lunes et les sabbats étaient l’ombre des choses à venir ; la réalité est en Christ."
+    }
+   ],
+   "recit": {
+    "titre": "Sur la montagne, l’Éternel pourvoira",
+    "ref": "Genèse 22.1-19",
+    "paragraphes": [
+     "Abraham avait attendu vingt-cinq ans la naissance d’Isaac. Il avait vieilli avec une promesse : « toutes les familles de la terre seront bénies en toi ». Puis l’enfant était né, et Sara avait ri de joie. Isaac était devenu un jeune homme, l’avenir de la famille, la preuve vivante que Dieu tient parole. C’est alors que Dieu appela : « Abraham ! » Et le vieil homme répondit : « Me voici ! » La suite fut terrible : « Prends ton fils, ton unique, celui que tu aimes, Isaac ; va-t’en au pays de Morija, et là offre-le en holocauste sur l’une des montagnes que je te dirai. » Chaque mot pesait davantage : ton fils, ton unique, celui que tu aimes.",
+     "Le texte ne décrit pas les pensées d’Abraham pendant la nuit. Il dit seulement qu’il se leva de bon matin, sella son âne, fendit le bois et partit avec deux serviteurs et son fils. Trois jours de marche. Trois jours pendant lesquels Abraham aurait pu faire demi-tour. Le troisième jour, il vit le lieu de loin. Il dit à ses serviteurs : « Restez ici avec l’âne ; moi et le jeune homme, nous irons jusque-là pour adorer, et nous reviendrons auprès de vous. » Nous reviendrons. L’épître aux Hébreux expliquera plus tard ce que cachait cette phrase : Abraham pensait que Dieu est puissant, même pour ressusciter les morts.",
+     "Abraham chargea le bois sur Isaac et porta lui-même le feu et le couteau. Le père et le fils montaient ensemble. Isaac finit par poser la question qui brûlait. « Mon père ! » dit-il. « Me voici, mon fils ! » répondit Abraham. Isaac reprit : « Voici le feu et le bois ; mais où est l’agneau pour l’holocauste ? » Abraham répondit : « Mon fils, Dieu se pourvoira lui-même de l’agneau pour l’holocauste. » Et le récit répète, comme un battement de cœur : « Et ils marchèrent tous deux ensemble. »",
+     "Au sommet, Abraham bâtit l’autel, rangea le bois, lia Isaac et le plaça sur l’autel. Le jeune homme, assez fort pour porter le bois de la montée, ne semble pas s’être débattu. Abraham étendit la main et prit le couteau. Alors l’ange de l’Éternel l’appela des cieux : « Abraham ! Abraham ! » Et il répondit : « Me voici ! » L’ange dit : « N’avance pas ta main sur l’enfant, et ne lui fais rien ; car je sais maintenant que tu crains Dieu, et que tu ne m’as pas refusé ton fils, ton unique. » Abraham leva les yeux et vit un bélier retenu dans un buisson par les cornes. Il l’offrit en holocauste à la place de son fils.",
+     "Abraham donna à ce lieu un nom : l’Éternel pourvoira. Et le narrateur ajoute que, des siècles plus tard, on disait encore : « A la montagne de l’Éternel il sera pourvu. » Or c’est sur le mont Morija que Salomon bâtirait le temple (2 Chroniques 3.1), le lieu où, jour après jour, des agneaux seraient offerts. Et c’est dans cette même ville de Jérusalem qu’un autre Fils unique et bien-aimé porterait le bois de sa croix. Cette fois, il n’y aurait pas de substitut pour lui : il serait lui-même l’Agneau que Dieu a pourvu. Dieu renouvela enfin sa promesse : « Toutes les nations de la terre seront bénies en ta postérité, parce que tu as obéi à ma voix. »"
+    ],
+    "lecons": [
+     "La foi véritable fait confiance à Dieu même quand son ordre semble contredire sa promesse : Abraham s’appuie sur la puissance de Dieu qui ressuscite les morts.",
+     "Le récit annonce, à travers la question d’Isaac, la réponse de tout l’Évangile : Dieu lui-même pourvoit l’agneau.",
+     "Ce que Dieu a épargné à Abraham, il ne se l’est pas épargné à lui-même : « Lui, qui n’a point épargné son propre Fils » (Romains 8.32).",
+     "Lire l’Ancien Testament à la lumière de Christ ne supprime pas le sens premier du récit : il l’approfondit et le conduit à son accomplissement."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "Genèse 22 dans son contexte",
+     "paragraphes": [
+      "Le chapitre 22 est le sommet de l’histoire d’Abraham, commencée en Genèse 12 par un appel à quitter son pays. Dieu lui avait promis une terre, une descendance et une bénédiction pour toutes les nations. Chaque étape a mis sa foi à l’épreuve : la famine, la stérilité de Sara, le détour par Agar et Ismaël. Le verbe initial est clair : « Dieu mit Abraham à l’épreuve » (verset 1). Le lecteur sait dès le début que Dieu ne veut pas la mort d’Isaac ; il éprouve la foi d’Abraham. Plus tard, la loi de Moïse condamnera fermement les sacrifices d’enfants pratiqués par les peuples voisins (Lévitique 18.21 ; Deutéronome 12.31). Ce récit n’autorise donc aucune violence : il montre au contraire un Dieu qui arrête la main et pourvoit lui-même le substitut.",
+      "Le mot clé du récit est le verbe hébreu rā’āh, « voir ». Abraham « vit » le lieu de loin (verset 4), il dit que Dieu « se pourvoira », littéralement « verra pour lui-même » l’agneau (verset 8), il « vit » le bélier (verset 13) et nomme le lieu « l’Éternel voit » ou « pourvoit » (verset 14 : YHWH yir’eh, que la Louis Segond transcrit Jehova-Jiré). Pourvoir, c’est voir d’avance le besoin et y répondre. Le texte met donc l’accent non sur l’héroïsme d’Abraham, mais sur la fidélité du Dieu qui voit et qui donne."
+     ]
+    },
+    {
+     "titre": "Comment le Nouveau Testament lit l’Ancien",
+     "paragraphes": [
+      "Jésus lui-même affirme que les Écritures de l’Ancien Testament parlent de lui : « il fallait que s’accomplît tout ce qui est écrit de moi dans la loi de Moïse, dans les prophètes, et dans les psaumes » (Luc 24.44). Les apôtres ont lu l’Ancien Testament de trois manières principales. D’abord, par la promesse et l’accomplissement : Dieu annonce un Sauveur, et Jésus accomplit cette annonce (« c’est en lui qu’est le oui » de toutes les promesses, 2 Corinthiens 1.20). Ensuite, par les types, ou modèles : des personnes, des événements ou des institutions réels qui préfigurent Christ, comme l’agneau de la Pâque (« Christ, notre Pâque, a été immolé », 1 Corinthiens 5.7) ou le serpent d’airain élevé dans le désert (Jean 3.14-15). Enfin, par la grande histoire : Christ est le véritable Israël, le vrai roi, le vrai temple, le dernier Adam.",
+      "Le mot grec typos (type, modèle, empreinte) apparaît en 1 Corinthiens 10.6 et 11, où Paul dit des événements du désert : « Ces choses leur sont arrivées pour servir d’exemples ». Un type n’est pas une ressemblance inventée par le lecteur : c’est une correspondance que Dieu a mise dans l’histoire et que l’Écriture elle-même reconnaît, avec une progression de l’ombre vers la réalité. L’épître aux Hébreux dit que la loi « possède une ombre des biens à venir, et non l’exacte représentation des choses » (Hébreux 10.1) ; Paul dit que les fêtes et les sabbats étaient « l’ombre des choses à venir, mais le corps est en Christ » (Colossiens 2.17). L’ombre est réelle, mais elle n’est pas le corps."
+     ]
+    },
+    {
+     "titre": "Type ou allégorie arbitraire ?",
+     "paragraphes": [
+      "Au cours de l’histoire, certains prédicateurs ont transformé chaque détail de l’Ancien Testament en symbole caché : les cinq pierres de David deviennent cinq vertus, les clous de la tente deviennent des doctrines, la couleur des fils du tabernacle devient un code. Ces lectures paraissent profondes, mais elles dépendent de l’imagination du prédicateur, et chacun peut faire dire au texte ce qu’il veut. Le danger est grand : le peuple apprend que la Bible est un livre obscur dont seuls les initiés ont la clé, et l’autorité passe du texte à l’orateur.",
+      "Voici quelques garde-fous. Premièrement, commencer toujours par le sens premier : que voulait dire l’auteur à ses premiers lecteurs ? Deuxièmement, chercher les liens que l’Écriture elle-même établit : Hébreux 11.17-19 relie Genèse 22 à la résurrection, Jean 1.29 présente Jésus comme « l’Agneau de Dieu ». Troisièmement, repérer les grands thèmes plutôt que les petits détails : sacrifice, substitution, fils unique, montagne de l’Éternel, bénédiction des nations. Quatrièmement, se demander si la lecture proposée enseigne quelque chose que l’Écriture enseigne clairement ailleurs. Si la seule preuve d’une doctrine est une allégorie, ce n’est pas une doctrine biblique."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "voir, pourvoir",
+     "langue": "hébreu",
+     "original": "rā’āh ; YHWH yir’eh",
+     "sens": "Voir, et par extension pourvoir : voir d’avance le besoin et y répondre. Abraham nomme le lieu « l’Éternel pourvoira » (Genèse 22.14)."
+    },
+    {
+     "mot": "type, exemple",
+     "langue": "grec",
+     "original": "typos",
+     "sens": "Empreinte, modèle : un événement ou une institution réels qui préfigurent une réalité plus grande (1 Corinthiens 10.6, 11 ; Romains 5.14)."
+    },
+    {
+     "mot": "ombre",
+     "langue": "grec",
+     "original": "skia",
+     "sens": "L’ombre projetée par un corps : la loi et ses fêtes annonçaient la réalité qui est en Christ (Colossiens 2.17 ; Hébreux 10.1)."
+    },
+    {
+     "mot": "accomplir",
+     "langue": "grec",
+     "original": "plēroō",
+     "sens": "Remplir, mener à plénitude : Jésus n’abolit pas la loi et les prophètes, il les accomplit (Matthieu 5.17)."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Christ, centre et clé des Écritures",
+     "paragraphes": [
+      "Jésus reprochait aux chefs religieux de sonder les Écritures sans venir à lui, alors qu’elles rendent témoignage de lui (Jean 5.39-40). Il affirmait aussi : « Abraham, votre père, a tressailli de joie de ce qu’il verrait mon jour : il l’a vu, et il s’est réjoui » (Jean 8.56). Paul dit que l’Écriture « a d’avance annoncé cette bonne nouvelle à Abraham : Toutes les nations seront bénies en toi ! » (Galates 3.8). Pierre ajoute que les prophètes eux-mêmes ont cherché à comprendre ce que « l’Esprit de Christ qui était en eux » annonçait des souffrances de Christ et de la gloire qui suivrait (1 Pierre 1.10-11).",
+      "Cela signifie qu’un chrétien ne lit jamais l’Ancien Testament comme un simple livre d’histoire ou un recueil de leçons morales. Il le lit comme le premier acte d’une seule histoire, celle du Dieu qui prépare, promet et finalement envoie son Fils. « Après avoir autrefois, à plusieurs reprises et de plusieurs manières, parlé à nos pères par les prophètes, Dieu, dans ces derniers temps, nous a parlé par le Fils » (Hébreux 1.1-2). Le Fils est la dernière parole, celle qui éclaire toutes les autres."
+     ]
+    },
+    {
+     "titre": "Une méthode en quatre questions",
+     "paragraphes": [
+      "Pour lire un passage de l’Ancien Testament en chrétien, on peut se poser quatre questions dans l’ordre. Première question : que signifiait ce texte pour ses premiers lecteurs ? Pour Genèse 22 : Dieu éprouve la foi d’Abraham, refuse le sacrifice humain et pourvoit un substitut. Deuxième question : quelle place ce texte occupe-t-il dans la grande histoire du salut ? Ici, la promesse faite à Abraham, qui doit bénir toutes les nations, est menacée puis confirmée. Troisième question : comment ce texte conduit-il à Christ ? Par la promesse (la postérité en qui les nations sont bénies, Galates 3.16), par le type (le fils unique, le bois, la montagne, le substitut) et par le contraste (Dieu n’a pas épargné son propre Fils, Romains 8.32).",
+      "Quatrième question : comment ce texte s’applique-t-il à nous, qui sommes en Christ ? Nous apprenons à faire confiance à Dieu quand ses chemins semblent contredire ses promesses ; à ne rien placer, même nos bénédictions les plus chères, au-dessus de lui ; et à nous émerveiller de l’amour du Père qui a donné son Fils. Remarquons que l’application passe par Christ : nous ne sommes pas d’abord appelés à imiter Abraham pour mériter quelque chose, mais à recevoir l’Agneau que Dieu a pourvu, puis à vivre la foi d’Abraham dans la puissance de cette grâce.",
+      "Cette méthode protège de deux erreurs opposées. La première consiste à moraliser l’Ancien Testament : chaque récit devient une simple leçon de courage ou de prudence, et Christ disparaît. La seconde consiste à sauter directement à Christ sans passer par le sens premier, comme si les premiers lecteurs n’avaient rien compris. Les quatre questions gardent ensemble le texte, l’histoire du salut, Christ et la vie du croyant."
+     ]
+    },
+    {
+     "titre": "La loi, les sacrifices et le culte accomplis en Christ",
+     "paragraphes": [
+      "Une grande partie de l’Ancien Testament décrit le tabernacle, les prêtres, les sacrifices, les fêtes et les lois de pureté. Beaucoup de croyants sautent ces pages ou, à l’inverse, veulent les appliquer telles quelles. L’épître aux Hébreux montre un autre chemin : ces institutions étaient voulues par Dieu, elles enseignaient la sainteté de Dieu, la gravité du péché et la nécessité d’un médiateur, mais elles étaient provisoires. Christ est le grand prêtre qui ne meurt plus, le sacrifice offert « une fois pour toutes » (Hébreux 10.10), le véritable temple où Dieu habite avec son peuple.",
+      "Jésus n’a pas aboli la loi, il l’a accomplie (Matthieu 5.17). Les commandements moraux, comme l’amour de Dieu et du prochain, demeurent et sont même approfondis par Jésus. Les lois cérémonielles, comme les sacrifices et les règles alimentaires, ont trouvé leur accomplissement en lui (Marc 7.19 ; Hébreux 10.1-14). Les lois civiles d’Israël, données à une nation particulière, ne s’appliquent pas directement aux États d’aujourd’hui, mais elles révèlent des principes de justice toujours valables. Un serviteur qui enseigne doit savoir faire ces distinctions pour ne pas imposer à l’Église des fardeaux que Christ a portés, ni rejeter des commandements que Dieu maintient."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "Genèse 22.8",
+     "texte": "Abraham répondit: Mon fils, Dieu se pourvoira lui-même de l’agneau pour l’holocauste. Et ils marchèrent tous deux ensemble."
+    },
+    {
+     "ref": "Hébreux 11.17-19",
+     "texte": "C’est par la foi qu’Abraham offrit Isaac, lorsqu’il fut mis à l’épreuve, et qu’il offrit son fils unique, lui qui avait reçu les promesses, et à qui il avait été dit: En Isaac sera nommée pour toi une postérité. Il pensait que Dieu est puissant, même pour ressusciter les morts; aussi le recouvra-t-il par une sorte de résurrection."
+    },
+    {
+     "ref": "Jean 1.29",
+     "texte": "Le lendemain, il vit Jésus venant à lui, et il dit: Voici l’Agneau de Dieu, qui ôte le péché du monde."
+    },
+    {
+     "ref": "Luc 24.44",
+     "texte": "Puis il leur dit: C’est là ce que je vous disais lorsque j’étais encore avec vous, qu’il fallait que s’accomplît tout ce qui est écrit de moi dans la loi de Moïse, dans les prophètes, et dans les psaumes."
+    },
+    {
+     "ref": "Romains 8.32",
+     "texte": "Lui, qui n’a point épargné son propre Fils, mais qui l’a livré pour nous tous, comment ne nous donnera-t-il pas aussi toutes choses avec lui?"
+    }
+   ],
+   "application": [
+    {
+     "titre": "Quand tu prépares une étude biblique",
+     "paragraphes": [
+      "Si tu dois animer une étude sur un récit de l’Ancien Testament, ne commence pas par chercher le symbole caché. Lis le passage trois fois, résume ce qu’il disait aux premiers lecteurs, puis cherche dans une concordance ou dans les références marginales de ta Bible les endroits où le Nouveau Testament cite ou évoque ce texte. Ta conclusion doit pouvoir être vérifiée par n’importe quel membre du groupe, Bible en main. C’est ainsi que tu formes des lecteurs autonomes, et non des auditeurs dépendants de ton imagination."
+     ]
+    },
+    {
+     "titre": "Face aux prédications qui transforment tout en code",
+     "paragraphes": [
+      "Tu entendras peut-être des prédications où les sept tours de Jéricho deviennent une recette pour faire tomber les obstacles financiers, ou les pierres de David une technique de victoire garantie. Sans mépriser le prédicateur, demande-toi : le texte dit-il cela ? Le Nouveau Testament le dit-il ? Ce message conduit-il à Christ ou à une méthode ? Tu peux en parler avec respect à ton responsable, et dans ton propre enseignement, montrer qu’il y a plus de puissance dans le sens réel du texte que dans toutes les allégories."
+     ]
+    },
+    {
+     "titre": "Dans l’épreuve personnelle",
+     "paragraphes": [
+      "Il arrive que Dieu semble demander quelque chose qui contredit ce qu’il avait promis : un projet de mariage qui échoue, une porte d’emploi qui se ferme, un ministère qui s’arrête. Le récit de Genèse 22 ne promet pas que tout se terminera comme nous le souhaitons, mais il montre un Dieu qui voit d’avance et qui pourvoit. Écris dans ton carnet ce que tu dois remettre entre ses mains, et prie avec les mots d’Abraham : « Dieu se pourvoira lui-même. »"
+     ]
+    },
+    {
+     "titre": "Dans ta lecture quotidienne",
+     "paragraphes": [
+      "Pendant un mois, lis un chapitre de l’Ancien Testament chaque jour en notant trois choses : ce que le texte révèle de Dieu, ce qu’il révèle du cœur humain, et comment il prépare la venue de Christ. Les livres que tu trouvais ennuyeux, comme le Lévitique, deviendront des fenêtres sur la croix. Tu découvriras que la Bible n’est pas une collection de livres séparés, mais une seule histoire dont Jésus est le héros."
+     ]
+    },
+    {
+     "titre": "Avec les enfants et les nouveaux convertis",
+     "paragraphes": [
+      "Les récits de l’Ancien Testament sont souvent enseignés aux enfants comme des histoires de héros : David le courageux, Samson le fort, Daniel le fidèle. Ces qualités sont réelles, mais si l’enseignement s’arrête là, l’enfant retient qu’il doit devenir un héros pour plaire à Dieu. Raconte plutôt le récit de manière à montrer d’abord ce que Dieu fait : c’est Dieu qui pourvoit le bélier, c’est Dieu qui donne la victoire à David, c’est Dieu qui ferme la gueule des lions. Puis termine en montrant comment ce même Dieu a agi de manière encore plus grande en Jésus. Avec un nouveau converti, procède de la même façon : fais-lui découvrir Genèse 22 puis Jean 1.29 et Romains 8.32, et laisse-le exprimer lui-même le lien. Une vérité découverte dans le texte s’enracine bien plus profondément qu’une vérité simplement entendue."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Esther anime un groupe de maison de douze personnes. Pour sa prochaine étude sur l’histoire de Josué et de Jéricho, un membre du groupe lui envoie un message vocal enthousiaste : selon un enseignant qu’il suit sur internet, chaque tour des murs correspond à un « niveau de bénédiction financière », et celui qui donne une offrande sept jours de suite verra tomber ses dettes comme les murailles. D’autres membres du groupe trouvent au contraire l’Ancien Testament inutile : « Nous sommes sous la grâce, ces vieilles histoires de guerre ne nous concernent plus. » Esther veut préparer une étude fidèle, qui respecte le texte et conduise le groupe à Christ.",
+    "questions": [
+     "Quelles sont les quatre questions de méthode qu’Esther peut utiliser pour préparer son étude sur Josué 6 ?",
+     "Comment peut-elle répondre avec bienveillance à l’enseignement sur les « niveaux de bénédiction financière » ?",
+     "Quels textes du Nouveau Testament montrent que l’Ancien Testament concerne encore les chrétiens (pensez à Romains 15.4 et 1 Corinthiens 10.11) ?",
+     "Comment l’histoire de Jéricho peut-elle conduire à Christ sans tomber dans l’allégorie arbitraire (pensez à Rahab, Hébreux 11.31 et Matthieu 1.5) ?"
+    ]
+   },
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Dans Genèse 22, le lecteur sait dès le premier verset que Dieu met Abraham à l’épreuve.",
+      "vrai": true,
+      "explication": "« Après ces choses, Dieu mit Abraham à l’épreuve » (Genèse 22.1)."
+     },
+     {
+      "affirmation": "Genèse 22 montre que Dieu approuve les sacrifices d’enfants.",
+      "vrai": false,
+      "explication": "Dieu arrête la main d’Abraham et pourvoit un bélier ; la loi condamnera ces pratiques (Deutéronome 12.31)."
+     },
+     {
+      "affirmation": "Selon Hébreux 11.19, Abraham pensait que Dieu est puissant même pour ressusciter les morts.",
+      "vrai": true,
+      "explication": "Hébreux 11.19 interprète ainsi la foi d’Abraham."
+     },
+     {
+      "affirmation": "Un type est une ressemblance que chaque prédicateur peut inventer librement.",
+      "vrai": false,
+      "explication": "Un type est une correspondance que Dieu a mise dans l’histoire et que l’Écriture reconnaît (1 Corinthiens 10.11 ; Hébreux 10.1)."
+     },
+     {
+      "affirmation": "Jésus dit qu’il est venu abolir la loi et les prophètes.",
+      "vrai": false,
+      "explication": "« Je suis venu non pour abolir, mais pour accomplir » (Matthieu 5.17)."
+     },
+     {
+      "affirmation": "Selon Colossiens 2.17, les fêtes et les sabbats étaient l’ombre des choses à venir, et le corps est en Christ.",
+      "vrai": true,
+      "explication": "Colossiens 2.16-17."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque lecture d’un texte de l’Ancien Testament.",
+     "categories": [
+      "Lien établi par l’Écriture elle-même",
+      "Allégorie arbitraire"
+     ],
+     "elements": [
+      {
+       "texte": "L’agneau de la Pâque annonce Christ immolé pour nous.",
+       "categorie": 0,
+       "explication": "« Christ, notre Pâque, a été immolé » (1 Corinthiens 5.7)."
+      },
+      {
+       "texte": "Les cinq pierres de David représentent cinq vertus que le croyant doit posséder.",
+       "categorie": 1,
+       "explication": "Le texte ne le dit pas, et aucun passage biblique ne fait ce lien (1 Samuel 17.40)."
+      },
+      {
+       "texte": "Le serpent d’airain élevé dans le désert annonce le Fils de l’homme élevé sur la croix.",
+       "categorie": 0,
+       "explication": "Jésus lui-même fait ce lien (Jean 3.14-15)."
+      },
+      {
+       "texte": "Les sept tours de Jéricho sont sept niveaux de richesse promis à ceux qui donnent.",
+       "categorie": 1,
+       "explication": "Rien dans Josué 6 ni dans le Nouveau Testament n’autorise cette lecture."
+      },
+      {
+       "texte": "Jonas trois jours dans le poisson annonce le Fils de l’homme trois jours dans le sein de la terre.",
+       "categorie": 0,
+       "explication": "Jésus fait ce rapprochement (Matthieu 12.40)."
+      },
+      {
+       "texte": "Les couleurs des fils du tabernacle cachent un code secret sur la date du retour de Christ.",
+       "categorie": 1,
+       "explication": "Jésus dit que personne ne connaît ce jour (Matthieu 24.36) ; aucun texte ne fonde ce code."
+      },
+      {
+       "texte": "Abraham reçoit d’avance la bonne nouvelle que les nations seront bénies en lui.",
+       "categorie": 0,
+       "explication": "Galates 3.8 relie Genèse 12.3 à la justification des païens par la foi."
+      }
+     ]
+    }
+   },
+   "reflexion": [
+    "Lorsque je lis l’Ancien Testament, est-ce que je cherche d’abord son sens premier, ou est-ce que je saute directement à une application personnelle ?",
+    "Quelle bénédiction ai-je tendance à placer au-dessus de Dieu lui-même, comme Isaac aurait pu le devenir pour Abraham ?",
+    "Quel livre de l’Ancien Testament ai-je négligé, et comment pourrais-je le lire maintenant à la lumière de Christ ?",
+    "Ai-je déjà été impressionné par une allégorie qui n’avait pas de fondement dans le texte ? Qu’est-ce que cela m’apprend ?"
+   ],
+   "retenir": [
+    "Jésus affirme que la loi, les prophètes et les psaumes parlent de lui (Luc 24.44) : il est le centre et la clé des Écritures.",
+    "Le Nouveau Testament relie l’Ancien à Christ par la promesse et l’accomplissement, par les types (typos) et par la grande histoire du salut.",
+    "Un type est une correspondance réelle mise par Dieu dans l’histoire et reconnue par l’Écriture ; une allégorie arbitraire dépend de l’imagination du lecteur.",
+    "En Genèse 22, Dieu pourvoit le substitut ; en Christ, il n’a pas épargné son propre Fils, l’Agneau qui ôte le péché du monde."
+   ],
+   "memoriser": {
+    "ref": "Romains 8.32",
+    "texte": "Lui, qui n’a point épargné son propre Fils, mais qui l’a livré pour nous tous, comment ne nous donnera-t-il pas aussi toutes choses avec lui?"
+   },
+   "priere": "Seigneur, ouvre mes yeux pour que je te voie dans toutes les Écritures. Garde-moi de faire dire à ta Parole ce qu’elle ne dit pas, et apprends-moi à la lire avec humilité et avec joie. Merci, Père, de n’avoir pas épargné ton propre Fils pour moi. Amen."
   }
  ],
  "pratique": {
@@ -1115,6 +1394,116 @@
    ],
    "bonne": 3,
    "explication": "Jacques compare l’auditeur oublieux à un homme qui se regarde dans un miroir et oublie aussitôt quel il était (Jacques 1.23-24)."
+  },
+  {
+   "q": "En Genèse 22.7, quelle question Isaac pose-t-il à son père pendant la montée ?",
+   "choix": [
+    "« Pourquoi as-tu pris le couteau ? »",
+    "« Où est l’agneau pour l’holocauste ? »",
+    "« Quand reviendrons-nous ? »",
+    "« Qui nous a envoyés ici ? »"
+   ],
+   "bonne": 1,
+   "explication": "« Voici le feu et le bois ; mais où est l’agneau pour l’holocauste ? » Abraham répond : « Dieu se pourvoira lui-même de l’agneau » (Genèse 22.7-8)."
+  },
+  {
+   "q": "Selon Hébreux 11.19, que pensait Abraham lorsqu’il offrit Isaac ?",
+   "choix": [
+    "Que Dieu changerait certainement d’avis",
+    "Qu’il aurait un autre fils",
+    "Que Dieu est puissant, même pour ressusciter les morts",
+    "Que l’épreuve n’était qu’un rêve"
+   ],
+   "bonne": 2,
+   "explication": "« Il pensait que Dieu est puissant, même pour ressusciter les morts ; aussi le recouvra-t-il par une sorte de résurrection » (Hébreux 11.19)."
+  },
+  {
+   "q": "Quel est le sens du nom donné par Abraham au lieu du sacrifice (Genèse 22.14) ?",
+   "choix": [
+    "L’Éternel pourvoira",
+    "L’Éternel est ma bannière",
+    "L’Éternel est paix",
+    "L’Éternel guérit"
+   ],
+   "bonne": 0,
+   "explication": "Abraham appelle le lieu « Jehova-Jiré », l’Éternel voit, c’est-à-dire pourvoit (Genèse 22.14)."
+  },
+  {
+   "q": "Selon 2 Chroniques 3.1, quel édifice Salomon a-t-il bâti sur le mont Morija ?",
+   "choix": [
+    "Son palais royal",
+    "La muraille de la ville",
+    "Un autel pour les nations",
+    "La maison de l’Éternel, le temple"
+   ],
+   "bonne": 3,
+   "explication": "« Salomon commença à bâtir la maison de l’Éternel à Jérusalem, sur la montagne de Morija » (2 Chroniques 3.1)."
+  },
+  {
+   "q": "Que signifie le mot grec typos, employé en 1 Corinthiens 10.6 et 11 ?",
+   "choix": [
+    "Une allégorie inventée par le lecteur",
+    "Une empreinte, un modèle : un événement réel qui en préfigure un autre",
+    "Une prophétie verbale",
+    "Un commandement abrogé"
+   ],
+   "bonne": 1,
+   "explication": "Typos signifie empreinte, modèle : « ces choses leur sont arrivées pour servir d’exemples » (1 Corinthiens 10.11)."
+  },
+  {
+   "q": "Selon Hébreux 10.1, que possédait la loi ?",
+   "choix": [
+    "L’exacte représentation des choses",
+    "La perfection pour ceux qui l’observent",
+    "Une ombre des biens à venir",
+    "Le pouvoir d’ôter les péchés"
+   ],
+   "bonne": 2,
+   "explication": "« La loi, qui possède une ombre des biens à venir, et non l’exacte représentation des choses… » (Hébreux 10.1)."
+  },
+  {
+   "q": "Un prédicateur affirme que les cinq pierres de David représentent cinq vertus chrétiennes. Selon la méthode étudiée, que faut-il en penser ?",
+   "choix": [
+    "C’est une allégorie qui ne repose ni sur le texte ni sur un lien établi par l’Écriture",
+    "C’est un type reconnu par le Nouveau Testament",
+    "C’est le sens premier du texte",
+    "C’est obligatoire pour lire l’Ancien Testament en chrétien"
+   ],
+   "bonne": 0,
+   "explication": "Une lecture fidèle part du sens premier et des liens que l’Écriture établit elle-même ; aucun texte ne fonde ce symbolisme."
+  },
+  {
+   "q": "Selon Galates 3.8, qu’est-ce que l’Écriture a annoncé d’avance à Abraham ?",
+   "choix": [
+    "Que sa famille deviendrait riche",
+    "Que la loi serait donnée au Sinaï",
+    "Que le temple serait détruit",
+    "La bonne nouvelle que les nations seraient bénies en lui"
+   ],
+   "bonne": 3,
+   "explication": "« L’Écriture, prévoyant que Dieu justifierait les païens par la foi, a d’avance annoncé cette bonne nouvelle à Abraham : Toutes les nations seront bénies en toi ! » (Galates 3.8)."
+  },
+  {
+   "q": "Selon Actes 17.11, en quoi les Juifs de Bérée étaient-ils plus nobles que ceux de Thessalonique ?",
+   "choix": [
+    "Ils étaient plus nombreux",
+    "Ils reçurent la parole avec empressement et examinèrent chaque jour les Écritures",
+    "Ils avaient construit une plus grande synagogue",
+    "Ils refusaient d’écouter Paul"
+   ],
+   "bonne": 1,
+   "explication": "« Ils reçurent la parole avec beaucoup d’empressement, et ils examinaient chaque jour les Écritures, pour voir si ce qu’on leur disait était exact » (Actes 17.11)."
+  },
+  {
+   "q": "Pourquoi la poésie des Psaumes demande-t-elle une lecture différente de celle d’une lettre de Paul ?",
+   "choix": [
+    "Parce que les Psaumes ne sont pas inspirés",
+    "Parce qu’ils ne contiennent aucune vérité sur Dieu",
+    "Parce qu’elle s’exprime par images et parallélismes, et non par raisonnement suivi",
+    "Parce qu’elle ne concerne que le roi David"
+   ],
+   "bonne": 2,
+   "explication": "Le genre littéraire commande la lecture : la poésie hébraïque procède par images et parallélismes, l’épître par argumentation."
   }
  ]
 }
