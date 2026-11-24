@@ -6,7 +6,8 @@
   "Chaque génération de chrétiens doit répondre à des questions que la génération précédente ne se posait pas, ou pas de la même manière. Nos grands-parents ne connaissaient ni les réseaux sociaux, ni la fécondation in vitro, ni les débats publics sur l’identité de genre, ni l’argent virtuel. Pourtant, la Parole de Dieu reste suffisante pour nous équiper à toute bonne œuvre (2 Timothée 3.16-17). Elle ne contient pas un verset pour chaque situation moderne, mais elle nous donne des principes, des exemples et surtout une manière de penser renouvelée par l’Esprit.",
   "Le leader chrétien est souvent interrogé : Pasteur, est-ce que je peux ? Que dit la Bible sur… ? Les jeunes, les parents, les professionnels de santé, les commerçants attendent des réponses claires, mais aussi justes et compatissantes. Deux dangers guettent : le légalisme, qui multiplie les interdits humains sans fondement biblique, et le relativisme, qui renonce à dire ce que Dieu dit par peur de déplaire.",
   "Ce module vous apprend d’abord à discerner, avec une méthode fondée sur Romains 12, Hébreux 5 et 1 Corinthiens 10. Puis il applique ce discernement à deux grands domaines : la vie, le corps et la sexualité d’une part ; le numérique, les médias et l’argent d’autre part. Trois récits vous accompagnent : Daniel à la cour de Babylone, les sages-femmes d’Égypte face à l’ordre de Pharaon, et Guéhazi face à la tentation de l’argent.",
-  "Sur certaines questions, les chrétiens évangéliques fidèles à la Bible n’arrivent pas tous aux mêmes conclusions. Dans ce cas, nous présentons les positions avec respect. Sur d’autres, l’Écriture est claire, et nous devons tenir la vérité avec fermeté et douceur, comme Jésus, plein de grâce et de vérité (Jean 1.14)."
+  "Sur certaines questions, les chrétiens évangéliques fidèles à la Bible n’arrivent pas tous aux mêmes conclusions. Dans ce cas, nous présentons les positions avec respect. Sur d’autres, l’Écriture est claire, et nous devons tenir la vérité avec fermeté et douceur, comme Jésus, plein de grâce et de vérité (Jean 1.14).",
+  "La quatrième leçon porte l’éthique chrétienne sur la place publique : le pouvoir, la justice, la vérité, la corruption, la terre et la violence. Un leader chrétien sera tôt ou tard confronté à ces questions, dans son Église, dans sa ville ou dans son pays. Le récit de la vigne de Naboth montre comment un abus de pouvoir s’organise, avec la complicité des institutions et des faux témoins, et comment Dieu y répond par la voix d’un prophète. Nous chercherons comment parler et agir avec courage, sans esprit partisan ni violence."
  ],
  "lecturesObligatoires": [
   {
@@ -48,6 +49,14 @@
   {
    "ref": "1 Timothée 6.3-19",
    "consigne": "Relevez ce que Paul dit du contentement, de l’amour de l’argent et des riches."
+  },
+  {
+   "ref": "1 Rois 21.1-29",
+   "consigne": "Repère chaque acteur (Achab, Jézabel, les anciens et les magistrats, les deux faux témoins, Élie) et la part de responsabilité de chacun dans la mort de Naboth."
+  },
+  {
+   "ref": "Exode 23.1-9 ; Deutéronome 16.18-20 ; Ésaïe 1.10-17 ; Amos 5.10-24",
+   "consigne": "Relève ce que Dieu exige des juges, des témoins et des responsables, et ce qu’il pense d’un culte qui va de pair avec l’injustice."
   }
  ],
  "lecons": [
@@ -934,6 +943,289 @@
      ]
     }
    }
+  },
+  {
+   "titre": "Pouvoir, justice et vérité dans la vie publique",
+   "illustration": "balance",
+   "lectures": [
+    {
+     "ref": "1 Rois 21.1-16",
+     "resume": "Achab convoite la vigne de Naboth ; Jézabel organise un faux procès avec deux faux témoins et la complicité des anciens de la ville ; Naboth est lapidé et Achab prend possession de la vigne."
+    },
+    {
+     "ref": "1 Rois 21.17-29",
+     "resume": "Élie est envoyé vers Achab : « N’es-tu pas un assassin et un voleur ? » Le jugement est annoncé ; Achab s’humilie et Dieu en tient compte."
+    },
+    {
+     "ref": "Exode 23.1-8",
+     "resume": "La loi interdit le faux bruit, le faux témoignage, la complicité avec la majorité pour faire le mal, la sentence inique et les présents qui aveuglent les juges."
+    },
+    {
+     "ref": "Proverbes 31.8-9",
+     "resume": "Ouvrir la bouche pour le muet et pour la cause de tous les délaissés ; juger avec justice et défendre le malheureux."
+    }
+   ],
+   "recit": {
+    "titre": "La vigne de Naboth",
+    "ref": "1 Rois 21.1-29",
+    "paragraphes": [
+     "À Jizreel, à côté du palais d’été du roi Achab, s’étendait une vigne. Elle appartenait à un homme simple nommé Naboth. Un jour, le roi eut une idée : cette vigne ferait un excellent jardin potager, tout près de sa maison. Il fit une proposition qui paraissait correcte : « Cède-moi ta vigne… Je te donnerai à la place une vigne meilleure ; ou, si cela te convient, je te paierai la valeur en argent. » Mais Naboth refusa : « Que l’Éternel me garde de te donner l’héritage de mes pères ! » Ce n’était pas un caprice. Selon la loi de Dieu, la terre appartenait à l’Éternel et chaque famille devait garder l’héritage reçu lors du partage du pays. Naboth choisissait la fidélité à Dieu plutôt que la faveur du roi.",
+     "Achab rentra chez lui « triste et irrité ». Le roi d’Israël, qui avait des palais, des armées et des richesses, se coucha sur son lit, tourna son visage contre le mur et refusa de manger, parce qu’un paysan lui avait dit non. Sa femme Jézabel, fille d’un roi païen de Sidon, le trouva ainsi. Elle méprisait cette faiblesse : « Est-ce bien toi maintenant qui exerces la souveraineté sur Israël ? Lève-toi… moi, je te donnerai la vigne de Naboth. » Dans sa culture, un roi prenait ce qu’il voulait. Elle allait montrer comment faire, tout en gardant les apparences de la légalité.",
+     "Elle écrivit des lettres au nom d’Achab, les scella avec le sceau royal et les envoya aux anciens et aux magistrats de Jizreel. Le plan était précis : proclamer un jeûne, comme si une faute grave menaçait la ville ; placer Naboth à la tête du peuple ; faire venir deux hommes sans scrupule pour l’accuser : « Tu as maudit Dieu et le roi ! » ; puis le faire sortir et le lapider. Tout respectait la forme de la loi : deux témoins, une assemblée, une accusation de blasphème. Mais tout était faux. Et le plus terrible, c’est que les anciens et les magistrats obéirent. Aucun d’eux ne refusa. Naboth fut lapidé, et, selon 2 Rois 9.26, ses fils aussi.",
+     "Jézabel annonça à Achab : « Lève-toi, prends possession de la vigne de Naboth… car Naboth n’est plus en vie. » Achab ne posa aucune question. Il descendit à la vigne pour en prendre possession. C’est là que l’attendait quelqu’un qu’il n’avait pas invité. Dieu avait envoyé Élie le Thischbite avec un message direct : « Ainsi parle l’Éternel : N’es-tu pas un assassin et un voleur ? » Achab, surpris, s’écria : « M’as-tu trouvé, mon ennemi ? » Élie répondit : « Je t’ai trouvé, parce que tu t’es vendu pour faire ce qui est mal aux yeux de l’Éternel. » Le prophète annonça le jugement sur Achab, sur Jézabel et sur leur maison.",
+     "Alors se produisit quelque chose d’inattendu. Achab déchira ses vêtements, se couvrit d’un sac, jeûna et marcha lentement, humilié. Et Dieu dit à Élie : « As-tu vu comment Achab s’est humilié devant moi ? » Le jugement fut retardé, mais non annulé. Des années plus tard, les paroles d’Élie s’accomplirent sur Achab, puis sur Jézabel et sur sa maison. Le récit laisse deux convictions dans le cœur du lecteur : Dieu voit les injustices commises en secret par les puissants, et il reste prêt à faire grâce à celui qui s’humilie."
+    ],
+    "lecons": [
+     "Le pouvoir peut convoiter ce qui ne lui appartient pas et détruire un innocent tout en gardant les apparences de la légalité.",
+     "Les institutions (anciens, magistrats, témoins) deviennent complices quand elles obéissent au pouvoir plutôt qu’à la justice.",
+     "Dieu voit et suscite une voix prophétique : Élie nomme le péché par son nom, même devant le roi.",
+     "Dieu juge l’injustice, mais il reste attentif à l’humiliation sincère, même chez un roi coupable."
+    ]
+   },
+   "exegese": [
+    {
+     "titre": "La terre, héritage de Dieu",
+     "paragraphes": [
+      "Pour comprendre le refus de Naboth, il faut se souvenir de la loi sur la terre. Lorsque Israël entra en Canaan, le pays fut partagé entre les tribus et les familles (Josué 13 à 21). Dieu déclara : « Les terres ne se vendront point à perpétuité ; car le pays est à moi, car vous êtes chez moi comme étrangers et comme habitants » (Lévitique 25.23). Une famille appauvrie pouvait céder temporairement l’usage de sa terre, mais celle-ci devait revenir à la famille, au plus tard l’année du jubilé. Le mot hébreu naḥalāh désigne cet héritage, reçu de Dieu et transmis de génération en génération.",
+      "Achab, lui, propose un échange ou un achat définitif. Pour Naboth, accepter aurait été trahir Dieu et ses descendants. Les prophètes dénonceront plus tard ceux qui accumulent les terres au détriment des petits : « Malheur à ceux qui ajoutent maison à maison, et qui joignent champ à champ » (Ésaïe 5.8) ; « Ils convoitent des champs, et ils s’en emparent… ils portent leur violence sur l’homme et sur sa maison, sur l’homme et sur son héritage » (Michée 2.2). La question de la terre est aujourd’hui encore une source majeure d’injustice et de conflits dans de nombreux pays."
+     ]
+    },
+    {
+     "titre": "Un faux procès : la justice détournée",
+     "paragraphes": [
+      "Jézabel utilise toutes les apparences de la justice. Le jeûne fait croire à une crise religieuse ; la présence de deux témoins respecte la règle de Deutéronome 19.15 ; l’accusation de blasphème et de rébellion contre le roi correspond à des crimes graves selon la loi (Exode 22.28). Mais les témoins sont qualifiés de « méchants hommes », littéralement en hébreu « fils de Bélial », c’est-à-dire des vauriens sans valeur. La loi avait prévu ce danger : « Tu ne répandras point de faux bruit. Tu ne te joindras point au méchant pour faire un faux témoignage. Tu ne suivras point la multitude pour faire le mal » (Exode 23.1-2).",
+      "La loi interdisait aussi aux juges de recevoir des présents, « car les présents aveuglent ceux qui ont les yeux ouverts et corrompent les paroles des justes » (Exode 23.8). Dans le cas de Naboth, les anciens n’ont peut-être pas reçu d’argent ; ils ont cédé à la peur ou au désir de plaire à la reine. La corruption ne prend pas toujours la forme d’une enveloppe ; elle peut être une crainte, une ambition, une loyauté tribale ou partisane qui pousse à trahir la justice. Le neuvième commandement, « Tu ne porteras point de faux témoignage contre ton prochain » (Exode 20.16), protège non seulement la vérité, mais aussi la vie et les biens des innocents."
+     ]
+    },
+    {
+     "titre": "Élie et la parole prophétique",
+     "paragraphes": [
+      "Élie avait déjà affronté Achab et les prophètes de Baal sur le mont Carmel (1 Rois 18). Après sa fuite et son découragement (1 Rois 19), Dieu l’envoie de nouveau. Sa parole est courte et frappante : « N’es-tu pas un assassin et un voleur ? » Il ne parle pas de Jézabel seule ; il tient Achab pour responsable. Le roi n’a pas lancé la pierre, mais il a profité du crime et n’a rien demandé. Celui qui profite sciemment d’une injustice en partage la culpabilité.",
+      "La parole d’Élie s’inscrit dans une longue tradition biblique : Nathan devant David (2 Samuel 12), Amos devant les riches de Samarie, Jean-Baptiste devant Hérode (Marc 6.18). Les prophètes rappellent aux puissants qu’ils ne sont pas au-dessus de la loi de Dieu. Le Nouveau Testament demande aux chrétiens de se soumettre aux autorités (Romains 13.1-7) et de prier pour elles (1 Timothée 2.1-2), mais il rappelle aussi que l’autorité est « serviteur de Dieu pour ton bien » (Romains 13.4) et qu’il faut obéir à Dieu plutôt qu’aux hommes lorsque l’ordre humain contredit celui de Dieu (Actes 5.29)."
+     ]
+    }
+   ],
+   "motsCles": [
+    {
+     "mot": "héritage",
+     "langue": "hébreu",
+     "original": "naḥalāh",
+     "sens": "Part de terre reçue de Dieu et transmise dans la famille ; elle ne devait pas être vendue à perpétuité (1 Rois 21.3 ; Lévitique 25.23)."
+    },
+    {
+     "mot": "méchants hommes, vauriens",
+     "langue": "hébreu",
+     "original": "benê beliyya‘al",
+     "sens": "Littéralement « fils de Bélial », hommes sans valeur et sans scrupule, prêts au faux témoignage (1 Rois 21.10, 13)."
+    },
+    {
+     "mot": "justice, droit",
+     "langue": "hébreu",
+     "original": "mišpāṭ",
+     "sens": "Le jugement juste, le droit rendu selon la vérité, en particulier pour les faibles (Amos 5.24 ; Ésaïe 1.17)."
+    },
+    {
+     "mot": "présent, pot-de-vin",
+     "langue": "hébreu",
+     "original": "šōḥad",
+     "sens": "Don qui achète une décision ; il aveugle les sages et corrompt les justes (Exode 23.8 ; Deutéronome 16.19)."
+    }
+   ],
+   "enseignement": [
+    {
+     "titre": "Le pouvoir est un service, pas une propriété",
+     "paragraphes": [
+      "Jésus a décrit avec lucidité la manière dont le pouvoir s’exerce souvent : « Vous savez que les chefs des nations les tyrannisent, et que les grands les asservissent. Il n’en sera pas de même au milieu de vous » (Matthieu 20.25-26). Le roi d’Israël devait écrire une copie de la loi, la lire tous les jours, et ne pas élever son cœur au-dessus de ses frères (Deutéronome 17.18-20). Achab a fait l’inverse : il a considéré le royaume comme sa propriété et la vie de ses sujets comme négociable.",
+      "Ce principe concerne tous les niveaux de pouvoir : un chef de quartier, un directeur d’école, un policier, un fonctionnaire, un chef d’entreprise, un pasteur, un parent. Chaque fois qu’une personne dispose d’un pouvoir sur d’autres, elle est tentée de s’en servir pour elle-même. Le leader chrétien se souvient que tout pouvoir lui a été confié par Dieu, qu’il en rendra compte, et que sa mission est de servir le bien des personnes qui lui sont confiées, surtout les plus faibles. « Quand les justes se multiplient, le peuple est dans la joie ; quand le méchant domine, le peuple gémit » (Proverbes 29.2).",
+      "Le même chapitre montre aussi que Dieu voit ce que les hommes cachent. Jézabel a soigné les apparences : un jeûne publié, des anciens convoqués, des témoins, une lapidation conforme à la procédure. Tout semblait légal, et pourtant tout était mensonge. Le leader ne se contente donc pas de demander si une décision respecte la forme ; il demande si elle est vraie et juste devant Dieu. Une procédure peut couvrir un crime, une signature peut servir le vol, un vote peut écraser l’innocent. C’est pourquoi l’Écriture appelle les responsables à juger « selon la justice » et non selon l’apparence (Jean 7.24). Le chrétien qui siège dans un conseil, une commission ou un comité d’église a la responsabilité de poser les questions que les autres évitent, de vérifier les faits, d’écouter la partie absente et de refuser de signer ce qu’il sait être faux. Ce courage discret protège souvent plus de vies qu’un discours public."
+     ]
+    },
+    {
+     "titre": "La corruption et la complicité",
+     "paragraphes": [
+      "Le récit de Naboth montre qu’une grande injustice demande rarement un seul coupable. Il faut quelqu’un qui convoite (Achab), quelqu’un qui organise (Jézabel), des exécutants qui obéissent (les anciens et les magistrats), des témoins qui mentent, et une foule qui laisse faire. Chacun peut se dire qu’il n’est pas le vrai responsable. Pourtant, la Bible tient chacun pour responsable de sa part. « Tu ne suivras point la multitude pour faire le mal » (Exode 23.2).",
+      "Dans beaucoup de sociétés, la corruption est si répandue qu’elle paraît normale : payer pour obtenir un document, offrir un cadeau pour gagner un marché, falsifier un rapport pour plaire à un supérieur, voter pour un candidat en échange d’un sac de riz. Le chrétien ne pourra pas toujours changer le système, mais il peut refuser d’y participer, même lorsque cela lui coûte. Il peut aussi s’associer à d’autres pour résister ensemble : il est plus difficile d’écarter un groupe de personnes intègres qu’un individu isolé. Daniel et ses trois amis ont résisté ensemble à Babylone."
+     ]
+    },
+    {
+     "titre": "La vérité dans l’espace public",
+     "paragraphes": [
+      "Naboth est mort à cause d’un faux témoignage et d’une rumeur organisée. Aujourd’hui, les fausses nouvelles se répandent à une vitesse inouïe par les réseaux sociaux et les messageries. Une accusation inventée, une photo sortie de son contexte, un message vocal anonyme peuvent détruire une réputation, provoquer des violences entre groupes ethniques ou religieux, ou manipuler une élection. « Tu ne répandras point de faux bruit » (Exode 23.1) est un commandement d’une actualité brûlante.",
+      "Le chrétien doit être un rempart contre le mensonge : vérifier avant de partager, refuser de relayer les rumeurs, corriger publiquement une information fausse qu’il a lui-même diffusée, et ne jamais utiliser la calomnie contre un adversaire politique, même pour une cause qu’il juge bonne. Paul exhorte : « renoncez au mensonge, et que chacun de vous parle selon la vérité à son prochain ; car nous sommes membres les uns des autres » (Éphésiens 4.25). Une Église qui pratique la vérité contribue à la santé de toute la société."
+     ]
+    },
+    {
+     "titre": "Une voix prophétique, sans esprit partisan",
+     "paragraphes": [
+      "Comment un leader chrétien peut-il faire entendre une voix prophétique aujourd’hui ? D’abord en défendant ceux qui n’ont pas de voix : « Ouvre ta bouche pour le muet, pour la cause de tous les délaissés » (Proverbes 31.8). Cela peut signifier accompagner une veuve spoliée de sa terre devant un tribunal, dénoncer une injustice par les voies légales, soutenir des journalistes ou des associations honnêtes, ou parler à un responsable en privé comme Nathan l’a fait avec David.",
+      "Mais la voix prophétique n’est pas un engagement partisan. Élie n’a pas créé un parti contre Achab ; il a annoncé la parole de Dieu à tous, y compris à son propre peuple infidèle. Le leader chrétien évite de transformer la chaire en tribune électorale, de présenter un candidat comme l’envoyé de Dieu, ou de bénir la violence. Les chrétiens peuvent avoir des opinions politiques différentes et légitimes ; ce qui doit les unir, c’est l’attachement à la justice, à la vérité, à la dignité de chaque personne et à la paix. Il prie pour toutes les autorités, respecte les lois justes et refuse toujours la vengeance personnelle (Romains 12.17-21)."
+     ]
+    }
+   ],
+   "citations": [
+    {
+     "ref": "1 Rois 21.3",
+     "texte": "Mais Naboth répondit à Achab: Que l’Éternel me garde de te donner l’héritage de mes pères!"
+    },
+    {
+     "ref": "1 Rois 21.19",
+     "texte": "Tu lui diras: Ainsi parle l’Éternel: N’es-tu pas un assassin et un voleur? Et tu lui diras: Ainsi parle l’Éternel: Au lieu même où les chiens ont léché le sang de Naboth, les chiens lécheront aussi ton propre sang."
+    },
+    {
+     "ref": "Exode 23.1-2",
+     "texte": "Tu ne répandras point de faux bruit. Tu ne te joindras point au méchant pour faire un faux témoignage. Tu ne suivras point la multitude pour faire le mal; et tu ne déposeras point dans un procès en te mettant du côté du grand nombre, pour violer la justice."
+    },
+    {
+     "ref": "Exode 23.8",
+     "texte": "Tu ne recevras point de présent; car les présents aveuglent ceux qui ont les yeux ouverts et corrompent les paroles des justes."
+    },
+    {
+     "ref": "Proverbes 31.8-9",
+     "texte": "Ouvre ta bouche pour le muet, Pour la cause de tous les délaissés. Ouvre ta bouche, juge avec justice, Et défends le malheureux et l’indigent."
+    }
+   ],
+   "application": [
+    {
+     "titre": "Si tu exerces une autorité publique",
+     "paragraphes": [
+      "Si tu es fonctionnaire, magistrat, policier, élu ou cadre dans une administration, ta foi se joue dans les décisions quotidiennes : refuser un dossier frauduleux, traiter le pauvre et le riche avec la même équité, ne pas accepter de présent qui oblige, signaler par les voies prévues les abus dont tu es témoin. Tu seras peut-être mis à l’écart ou menacé. Entoure-toi de croyants qui prieront pour toi et te soutiendront, et souviens-toi de Daniel, dont les ennemis ne trouvèrent « aucune occasion, ni aucune chose à reprendre »."
+     ]
+    },
+    {
+     "titre": "Face aux conflits fonciers",
+     "paragraphes": [
+      "Dans beaucoup de régions, les veuves, les orphelins et les petits paysans sont dépossédés de leurs terres par des parents, des notables ou des sociétés puissantes. L’Église peut aider en conseillant les familles à faire enregistrer leurs biens, à rédiger des testaments, à connaître leurs droits, et en accompagnant les plus faibles devant les autorités. Elle doit aussi examiner ses propres pratiques : a-t-elle acquis des terrains d’une manière juste et transparente ?"
+     ]
+    },
+    {
+     "titre": "Pendant les périodes électorales",
+     "paragraphes": [
+      "Encourage les membres de l’Église à voter selon leur conscience, informés et libres, en pensant au bien commun plutôt qu’à l’intérêt de leur groupe ethnique ou de leur famille. Refuse que l’Église soit achetée par un candidat, que des dons soient échangés contre des consignes de vote, ou que la chaire serve à faire campagne. Prie publiquement pour tous les candidats et pour la paix. Et si des tensions éclatent, que l’Église soit un lieu où des personnes de partis et d’ethnies différentes continuent de prier ensemble."
+     ]
+    },
+    {
+     "titre": "Contre les rumeurs qui tuent",
+     "paragraphes": [
+      "Établis une règle personnelle et, si possible, pour ton groupe ou ton Église : ne jamais partager une information sans en avoir vérifié la source, surtout si elle accuse une personne ou un groupe. Si tu reçois une rumeur sur un membre de l’Église, ne la transmets pas ; va voir la personne concernée ou un responsable. Quand des messages haineux circulent contre une ethnie, une religion ou des étrangers, prends la parole pour rappeler que chaque être humain porte l’image de Dieu."
+     ]
+    },
+    {
+     "titre": "Quand tu dois parler à un puissant",
+     "paragraphes": [
+      "Il peut arriver que tu doives, comme Élie ou Nathan, dire une vérité difficile à une personne puissante : un patron, un notable, un responsable d’Église, un élu. Prépare-toi dans la prière. Vérifie les faits. Choisis le bon moment et le bon cadre, de préférence en privé d’abord. Parle avec respect, mais sans détour. Propose un chemin de réparation, comme Élie l’a laissé ouvert à Achab. Et accepte d’en payer le prix, en remettant ta cause à Dieu."
+     ]
+    }
+   ],
+   "etudeDeCas": {
+    "situation": "Dans une petite ville, un homme d’affaires influent, membre généreux de l’Église où sert Pasteur Joseph, veut agrandir son entreprise sur le terrain voisin, qui appartient à une veuve, Maman Odile, et à ses enfants. Elle refuse de vendre, car ce terrain est l’héritage de son mari. Quelques semaines plus tard, un document apparaît au service du cadastre, affirmant que le terrain avait été vendu par son mari avant sa mort ; deux témoins confirment, et le fonctionnaire chargé du dossier, lui aussi membre de l’Église, a reçu « un cadeau » pour accélérer la procédure. Maman Odile vient demander de l’aide au pasteur, qui sait que l’homme d’affaires finance une grande partie du nouveau bâtiment de l’Église.",
+    "questions": [
+     "Quels parallèles vois-tu entre cette situation et le récit de la vigne de Naboth ? Qui joue le rôle d’Achab, de Jézabel, des anciens, des faux témoins ?",
+     "Que disent Exode 23.1-8 et Deutéronome 16.19-20 de la conduite du fonctionnaire et des témoins ?",
+     "Comment Pasteur Joseph peut-il agir comme Élie ou Nathan, sans esprit de vengeance, et en protégeant Maman Odile ? Quelles démarches légales peut-il l’aider à entreprendre ?",
+     "Que doit faire l’Église au sujet du financement de son bâtiment ? Quel prix est-elle prête à payer pour rester fidèle à la justice ?"
+    ]
+   },
+   "jeux": {
+    "vraiFaux": [
+     {
+      "affirmation": "Naboth refusa de céder sa vigne parce qu’il voulait un meilleur prix.",
+      "vrai": false,
+      "explication": "« Que l’Éternel me garde de te donner l’héritage de mes pères ! » (1 Rois 21.3) : c’était une question de fidélité à Dieu."
+     },
+     {
+      "affirmation": "Jézabel organisa un faux procès avec deux faux témoins.",
+      "vrai": true,
+      "explication": "1 Rois 21.8-13."
+     },
+     {
+      "affirmation": "Les anciens et les magistrats de Jizreel refusèrent d’obéir aux lettres de Jézabel.",
+      "vrai": false,
+      "explication": "Ils firent ce que Jézabel avait ordonné (1 Rois 21.11)."
+     },
+     {
+      "affirmation": "Élie dit à Achab : « N’es-tu pas un assassin et un voleur ? »",
+      "vrai": true,
+      "explication": "1 Rois 21.19."
+     },
+     {
+      "affirmation": "Selon Exode 23.8, les présents aveuglent ceux qui ont les yeux ouverts.",
+      "vrai": true,
+      "explication": "« Les présents aveuglent ceux qui ont les yeux ouverts et corrompent les paroles des justes » (Exode 23.8)."
+     },
+     {
+      "affirmation": "Après qu’Achab se fut humilié, Dieu ne lui accorda aucun délai.",
+      "vrai": false,
+      "explication": "« Parce qu’il s’est humilié devant moi, je ne ferai pas venir le malheur pendant sa vie » (1 Rois 21.29)."
+     }
+    ],
+    "tri": {
+     "consigne": "Classe chaque comportement dans la vie publique.",
+     "categories": [
+      "Justice et vérité",
+      "Corruption ou complicité",
+      "Esprit partisan ou violence"
+     ],
+     "elements": [
+      {
+       "texte": "Vérifier une information avant de la partager sur les réseaux.",
+       "categorie": 0,
+       "explication": "« Tu ne répandras point de faux bruit » (Exode 23.1)."
+      },
+      {
+       "texte": "Signer un document faux pour plaire à un supérieur.",
+       "categorie": 1,
+       "explication": "C’est l’attitude des anciens de Jizreel (1 Rois 21.11)."
+      },
+      {
+       "texte": "Présenter en chaire un candidat comme l’envoyé de Dieu.",
+       "categorie": 2,
+       "explication": "La chaire sert la parole de Dieu pour tous, non une campagne électorale (Romains 13.1 ; 1 Timothée 2.1-2)."
+      },
+      {
+       "texte": "Accompagner une veuve spoliée devant le tribunal.",
+       "categorie": 0,
+       "explication": "« Ouvre ta bouche… pour la cause de tous les délaissés » (Proverbes 31.8)."
+      },
+      {
+       "texte": "Accepter un cadeau d’un candidat contre une consigne de vote.",
+       "categorie": 1,
+       "explication": "Le présent corrompt la justice (Exode 23.8 ; Proverbes 17.23)."
+      },
+      {
+       "texte": "Appeler à brûler les maisons d’une autre ethnie après une rumeur.",
+       "categorie": 2,
+       "explication": "« Ne vous vengez point vous-mêmes » (Romains 12.19) ; chaque homme porte l’image de Dieu (Genèse 9.6)."
+      },
+      {
+       "texte": "Dire en privé à un responsable puissant la vérité sur son injustice.",
+       "categorie": 0,
+       "explication": "C’est ce qu’ont fait Nathan et Élie (2 Samuel 12 ; 1 Rois 21.19)."
+      },
+      {
+       "texte": "Se taire devant un abus parce que tout le monde se tait.",
+       "categorie": 1,
+       "explication": "« Tu ne suivras point la multitude pour faire le mal » (Exode 23.2)."
+      }
+     ]
+    }
+   },
+   "reflexion": [
+    "Dans quels domaines ai-je un pouvoir sur d’autres personnes ? Comment est-ce que je l’exerce ?",
+    "Ai-je déjà été, même passivement, complice d’une injustice parce que « tout le monde le faisait » ?",
+    "Est-ce que je vérifie ce que je partage, ou est-ce que je contribue parfois à répandre des rumeurs ?",
+    "Qui sont les Naboth de mon entourage, et comment puis-je ouvrir la bouche pour eux ?"
+   ],
+   "retenir": [
+    "La vigne de Naboth montre comment le pouvoir peut convoiter, mentir et tuer en gardant les apparences de la légalité, avec la complicité des institutions (1 Rois 21).",
+    "Dieu interdit le faux bruit, le faux témoignage, la complicité avec la majorité pour faire le mal et les présents qui corrompent la justice (Exode 23.1-8).",
+    "Le pouvoir est un service confié par Dieu ; le leader chrétien refuse la corruption, défend les faibles et pratique la vérité.",
+    "La voix prophétique nomme l’injustice avec courage, sans esprit partisan ni violence, et laisse ouverte la porte de la repentance."
+   ],
+   "memoriser": {
+    "ref": "Proverbes 31.8-9",
+    "texte": "Ouvre ta bouche pour le muet, Pour la cause de tous les délaissés. Ouvre ta bouche, juge avec justice, Et défends le malheureux et l’indigent."
+   },
+   "priere": "Seigneur, Dieu de justice, tu vois les injustices commises en secret. Garde-moi de la convoitise, du mensonge et de la peur qui rend complice. Donne-moi le courage d’Élie pour ouvrir la bouche en faveur des délaissés, et la sagesse de le faire sans haine ni violence. Que ton droit coule comme un courant d’eau dans ma ville et dans mon pays. Amen."
   }
  ],
  "pratique": {
@@ -1164,6 +1456,116 @@
    ],
    "bonne": 1,
    "explication": "2 Rois 5.27 : la lèpre de Naaman s’attacha à Guéhazi, qui sortit de devant Élisée blanc de lèpre comme la neige."
+  },
+  {
+   "q": "Pourquoi Naboth refusa-t-il de céder sa vigne au roi Achab (1 Rois 21.3) ?",
+   "choix": [
+    "Parce que le prix proposé était trop bas",
+    "Parce que c’était l’héritage de ses pères, et il ne voulait pas le donner",
+    "Parce qu’il voulait la vendre à un autre",
+    "Parce qu’Achab était étranger"
+   ],
+   "bonne": 1,
+   "explication": "« Que l’Éternel me garde de te donner l’héritage de mes pères ! » (1 Rois 21.3 ; voir Lévitique 25.23)."
+  },
+  {
+   "q": "Selon Lévitique 25.23, pourquoi les terres ne devaient-elles pas être vendues à perpétuité ?",
+   "choix": [
+    "Parce que le pays appartient à l’Éternel",
+    "Parce que le roi en était propriétaire",
+    "Parce que les prix étaient fixés par les prêtres",
+    "Parce que les étrangers ne pouvaient pas acheter"
+   ],
+   "bonne": 0,
+   "explication": "« Les terres ne se vendront point à perpétuité ; car le pays est à moi, car vous êtes chez moi comme étrangers et comme habitants » (Lévitique 25.23)."
+  },
+  {
+   "q": "De quoi les deux faux témoins accusèrent-ils Naboth (1 Rois 21.13) ?",
+   "choix": [
+    "D’avoir volé le roi",
+    "D’avoir tué un voisin",
+    "D’avoir maudit Dieu et le roi",
+    "D’avoir adoré Baal"
+   ],
+   "bonne": 2,
+   "explication": "« Naboth a maudit Dieu et le roi ! » (1 Rois 21.13)."
+  },
+  {
+   "q": "Quelle question Élie adresse-t-il à Achab de la part de l’Éternel (1 Rois 21.19) ?",
+   "choix": [
+    "« Pourquoi as-tu écouté ta femme ? »",
+    "« Combien as-tu payé cette vigne ? »",
+    "« Où est Naboth, ton frère ? »",
+    "« N’es-tu pas un assassin et un voleur ? »"
+   ],
+   "bonne": 3,
+   "explication": "« Ainsi parle l’Éternel : N’es-tu pas un assassin et un voleur ? » (1 Rois 21.19)."
+  },
+  {
+   "q": "Pourquoi Dieu retarda-t-il le malheur annoncé contre la maison d’Achab (1 Rois 21.29) ?",
+   "choix": [
+    "Parce qu’Achab rendit la vigne",
+    "Parce qu’Achab s’humilia devant lui",
+    "Parce que Jézabel se repentit",
+    "Parce qu’Élie intercéda pour lui"
+   ],
+   "bonne": 1,
+   "explication": "« As-tu vu comment Achab s’est humilié devant moi ? Parce qu’il s’est humilié devant moi, je ne ferai pas venir le malheur pendant sa vie » (1 Rois 21.29)."
+  },
+  {
+   "q": "Selon Exode 23.2, que ne faut-il pas faire ?",
+   "choix": [
+    "Suivre la multitude pour faire le mal",
+    "Témoigner devant un tribunal",
+    "Aider le pauvre dans son procès",
+    "Prier pour les juges"
+   ],
+   "bonne": 0,
+   "explication": "« Tu ne suivras point la multitude pour faire le mal ; et tu ne déposeras point dans un procès en te mettant du côté du grand nombre, pour violer la justice » (Exode 23.2)."
+  },
+  {
+   "q": "Selon Exode 23.8, que font les présents offerts aux juges ?",
+   "choix": [
+    "Ils accélèrent la justice",
+    "Ils honorent les juges",
+    "Ils aveuglent ceux qui ont les yeux ouverts et corrompent les paroles des justes",
+    "Ils sont permis s’ils sont petits"
+   ],
+   "bonne": 2,
+   "explication": "« Tu ne recevras point de présent ; car les présents aveuglent ceux qui ont les yeux ouverts et corrompent les paroles des justes » (Exode 23.8)."
+  },
+  {
+   "q": "Selon Proverbes 31.8, pour qui faut-il ouvrir la bouche ?",
+   "choix": [
+    "Pour les puissants",
+    "Pour soi-même d’abord",
+    "Pour ceux de sa tribu",
+    "Pour le muet et la cause de tous les délaissés"
+   ],
+   "bonne": 3,
+   "explication": "« Ouvre ta bouche pour le muet, pour la cause de tous les délaissés » (Proverbes 31.8)."
+  },
+  {
+   "q": "Pendant une campagne électorale, un candidat propose de financer le toit de l’Église si le pasteur appelle à voter pour lui. Selon la leçon, quelle réponse est la plus juste ?",
+   "choix": [
+    "Accepter, car le toit servira à la gloire de Dieu",
+    "Refuser l’échange, prier pour tous les candidats et laisser les membres voter selon leur conscience",
+    "Accepter, mais sans le dire à l’assemblée",
+    "Appeler à voter contre lui par vengeance"
+   ],
+   "bonne": 1,
+   "explication": "Le présent qui achète une décision corrompt (Exode 23.8) ; la chaire n’est pas une tribune partisane, et l’Église prie pour toutes les autorités (1 Timothée 2.1-2)."
+  },
+  {
+   "q": "Selon Hébreux 5.14, comment le jugement des croyants mûrs devient-il capable de discerner le bien et le mal ?",
+   "choix": [
+    "Par l’usage, en étant exercé",
+    "Par une révélation instantanée",
+    "Par l’âge seulement",
+    "Par l’étude des philosophes"
+   ],
+   "bonne": 0,
+   "explication": "« La nourriture solide est pour les hommes faits, pour ceux dont le jugement est exercé par l’usage à discerner ce qui est bien et ce qui est mal » (Hébreux 5.14)."
   }
  ]
 }
