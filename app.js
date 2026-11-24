@@ -124,9 +124,39 @@ function vNouveauMdp(){
     <div class="row"><button class="btn primary" type="submit">Enregistrer</button></div><p class="hint" id="n-msg" role="status"></p></form>`;
 }
 function vVerifier(){
-  return `<section class="hero"><p class="eyebrow">Vérification</p><h1>Vérifier une attestation</h1><p class="lead">Saisissez le numéro inscrit en bas de l'attestation, par exemple HDF-N1M1-1A2B3C.</p></section>
-  <form class="panel auth" id="verif-form"><label class="f" for="v-no">Numéro d'attestation<input type="text" id="v-no" maxlength="400" required></label>
-  <div class="row"><button class="btn primary" type="submit">Vérifier</button><a class="btn small" href="#parcours">Retour</a></div><div id="v-res"></div></form>`;
+  const V=S.verif||{};
+  return `<section class="hero"><p class="eyebrow">Vérification</p><h1>Vérifier une attestation</h1><p class="lead">Scannez le code QR de l'attestation, ou saisissez le numéro inscrit en bas, par exemple HDF-N1M1-1A2B3C.</p></section>
+  <form class="panel auth" id="verif-form"><label class="f" for="v-no">Numéro d'attestation<input type="text" id="v-no" maxlength="400" required value="${esc(V.saisie||"")}"></label>
+  <div class="row"><button class="btn primary" type="submit" ${V.enCours?"disabled":""}>${V.enCours?"Vérification…":"Vérifier"}</button><a class="btn small" href="#parcours">Retour</a></div></form>
+  <div id="v-res" aria-live="polite">${V.res||""}</div>`;
+}
+// Résultat de vérification : photo, nom, puis chaque attestation (plusieurs pour un diplôme de niveau)
+function htmlVerif(nos, resultats){
+  const ok=resultats.filter(r=>r.data), ko=resultats.filter(r=>!r.data);
+  let h="";
+  if(ok.length){
+    const d=ok[0].data, photo=(typeof d.photo==="string" && d.photo.startsWith("data:image/jpeg;base64,")) ? d.photo : "";
+    h+=`<section class="panel verif-ok"><div class="verif-tete">
+      ${photo?`<img class="verif-photo" src="${photo}" alt="Photo d'identité de ${esc(d.nom)}">`:`<div class="verif-photo vide">Pas de photo</div>`}
+      <div><p class="eyebrow" style="color:var(--ok)">✓ Attestation${ok.length>1?"s":""} authentique${ok.length>1?"s":""}</p><h2>${esc(d.nom)}</h2>
+      <p class="hint">Vérifiez que la personne qui présente le document correspond à cette photo.</p></div></div>
+      <ul class="verif-liste">${ok.map(r=>{ const x=r.data, m=findModule(x.module);
+        return `<li><b>${esc(m?m.titre:x.module)}</b>${m?` · Niveau ${niveauIndex(m.niveau)} : ${esc(m.niveau.nom)}`:""}<br><span class="hint">${x.origine==="test"?"Validé par le test de passage, ":""}note ${note20(x.score)}, délivrée le ${fmtDate(x.date)} · N° ${esc(r.no)}</span></li>`; }).join("")}</ul></section>`;
+  }
+  ko.forEach(r=>{ h+=`<div class="keep" style="background:var(--bad-soft);border-color:var(--bad)">${nos.length>1?esc(r.no)+" : ":""}Aucune attestation ne correspond à ce numéro.</div>`; });
+  return h;
+}
+async function verifier(saisie){
+  const nos=String(saisie||"").toUpperCase().split(/[\s,;]+/).map(x=>x.trim()).filter(Boolean).slice(0,12);
+  if(!nos.length) return;
+  S.verif={saisie:nos.join(", "), enCours:true, res:""}; if(S.view==="verifier") render();
+  let res;
+  try{
+    const r=await Promise.all(nos.map(no=>S.sb.rpc("verifier_attestation",{p_no:no}).then(x=>({no, data:x.data, error:x.error}))));
+    const err=r.find(x=>x.error);
+    res = err ? `<p class="hint">${esc(erreur(err.error))}</p>` : htmlVerif(nos, r);
+  }catch(e){ res=`<p class="hint">${esc(erreur(e))}</p>`; }
+  S.verif={saisie:nos.join(", "), enCours:false, res}; if(S.view==="verifier") render();
 }
 
 function suiviHtml(){
@@ -666,19 +696,9 @@ function bind(){
     const {error}=await S.sb.auth.updateUser({password:document.getElementById("n-mdp").value});
     if(error){ document.getElementById("n-msg").textContent=erreur(error); return; }
     S.recovery=false; toast("Mot de passe modifié."); go("parcours"); };
-  const vf=document.getElementById("verif-form"); if(vf){ vf.onsubmit=async e=>{ e.preventDefault();
-    const out=document.getElementById("v-res");
-    const nos=document.getElementById("v-no").value.split(/[\s,;]+/).map(x=>x.trim()).filter(Boolean).slice(0,12);
-    let html="";
-    for(const no of nos){
-      const {data,error}=await S.sb.rpc("verifier_attestation",{p_no:no});
-      if(error){ out.innerHTML=`<p class="hint">${esc(erreur(error))}</p>`; return; }
-      if(!data){ html+=`<div class="keep" style="background:var(--bad-soft);border-color:var(--bad)">${nos.length>1?esc(no)+" : ":""}Aucune attestation ne correspond à ce numéro.</div>`; continue; }
-      const m=findModule(data.module);
-      html+=`<div class="keep" style="background:var(--ok-soft);border-color:var(--ok)">Attestation authentique${nos.length>1?" ("+esc(no)+")":""} : <b>${esc(data.nom)}</b> a validé le module « ${esc(m?m.titre:data.module)} » ${data.origine==="test"?"par le test de passage du niveau ":""}avec ${note20(data.score)}, le ${fmtDate(data.date)}.</div>`;
-    }
-    out.innerHTML=html; };
-    if(S.verifNo){ document.getElementById("v-no").value=S.verifNo; S.verifNo=null; vf.requestSubmit ? vf.requestSubmit() : vf.onsubmit(new Event("submit")); } }
+  const vf=document.getElementById("verif-form"); if(vf){ vf.onsubmit=e=>{ e.preventDefault(); verifier(document.getElementById("v-no").value); };
+    // arrivée par le code QR : vérification lancée tout de suite, une seule fois
+    if(S.verifNo){ const no=S.verifNo; S.verifNo=null; setTimeout(()=>verifier(no),0); } }
 
   lierFiche();
   const ta=document.getElementById("pratique");

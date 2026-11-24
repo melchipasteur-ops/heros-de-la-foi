@@ -233,3 +233,11 @@ input[type=tel]{width:100%;border:1px solid var(--line);border-radius:10px;paddi
 @keyframes clignote{50%{opacity:.55}}
 @media (prefers-reduced-motion:reduce){.chrono.urgent{animation:none}}
 .keep.alerte{background:var(--bad-soft,#fdecea);border-color:var(--bad)}
+
+/* Vérification d'une attestation : photo de l'étudiant et attestations validées */
+.verif-ok{border-color:var(--ok);display:grid;gap:14px}
+.verif-tete{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.verif-tete h2{margin:2px 0 4px}
+.verif-photo{width:120px;height:160px;object-fit:cover;border-radius:10px;border:3px solid var(--brass);background:#fff;flex:none}
+.verif-photo.vide{display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:.85rem;text-align:center}
+.verif-liste{margin:0;padding-left:1.2em;display:grid;gap:8px}
