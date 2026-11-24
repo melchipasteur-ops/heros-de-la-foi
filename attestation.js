@@ -130,16 +130,15 @@ async function dessiner(doc, d){
   // signature sur le trait, puis nom et fonction du responsable dessous
   const xs = mm((Z.signature[0]+Z.signature[2])/2), ys = mm(Z.signature[1]);
   if(d.signature){
-    // centrée sur le trait, entre l'ornement du cadre du verset (jusqu'à ~858 px) et le trait du modèle.
-    // Version sans la queue du jambage (marque/signature-houngbadji-courte.png, 600 × 350) pour ne pas barrer le nom.
-    // son trait de soulignement (à 91 % de la hauteur) vient se poser sur le trait du modèle
-    const top = mm(d.niveau === 1 ? 842 : 858) + 0.4, h = Math.min(11, (ys - top)/0.91), w = h*600/350;
+    // centrée au-dessus du trait, sans le toucher. L'ornement sous le cadre du verset a été retiré des fonds
+    // pour lui laisser la place. Version sans soulignement ni queue du jambage (signature-houngbadji-courte.png, 600 × 308).
+    const h = 11.5, w = h*600/308, top = ys - 1 - h;
     doc.addImage(d.signature, "PNG", xs - w/2, top, w, h);
   }
   doc.setTextColor(...ENCRE); doc.setFont("times","bold");
-  centre(doc, T(d.responsable || ""), xs, ys + 5.2, 11.5, 100, 8);
+  centre(doc, T(d.responsable || ""), xs, ys + 4.6, 11.5, 100, 8);
   doc.setFont("times","normal"); doc.setFontSize(9.5);
-  doc.text(T(d.fonction || "Le Responsable de la formation"), xs, ys + 8.6, {align:"center"});
+  doc.text(T(d.fonction || "Le Responsable de la formation"), xs, ys + 7.8, {align:"center"});
 
   // code QR de vérification, à droite de la signature
   if(d.lienQR) qr(doc, d.lienQR, mm(1052), mm(830), 21);
